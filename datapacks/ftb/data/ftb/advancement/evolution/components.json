@@ -1,0 +1,120 @@
+{
+  "parent": "ftb:evolution/skyline",
+  "display": {
+    "icon": {
+      "id": "ftb:causal_anchor"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.components.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.components.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "dynamo_matrix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:dynamo_matrix"
+          }
+        ]
+      }
+    },
+    "tectonic_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:tectonic_ingot"
+          }
+        ]
+      }
+    },
+    "living_culture": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:living_culture"
+          }
+        ]
+      }
+    },
+    "arcane_codex": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:arcane_codex"
+          }
+        ]
+      }
+    },
+    "cognition_array": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:cognition_array"
+          }
+        ]
+      }
+    },
+    "stellar_chart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:stellar_chart"
+          }
+        ]
+      }
+    },
+    "abyssal_lens": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:abyssal_lens"
+          }
+        ]
+      }
+    },
+    "soul_covenant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:soul_covenant"
+          }
+        ]
+      }
+    },
+    "hunt_standard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:hunt_standard"
+          }
+        ]
+      }
+    },
+    "causal_anchor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:causal_anchor"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  /*
+   * The actions that should be available in the action pad.
+   * Each action can be unlocked based on the players stages, or team stages, and can run a command or teleport the player when clicked.
+   * 
+   * Example:
+   * {
+   *     // This can be a translation string
+   *     name: "Example",
+   *     icon: "minecraft:diamond", // This is any supported FTB Library icon type
+   *     unlockedAt: "example_stage", // Optional stage that unlocks this action when completed
+   *     teamUnlockedAt: "example_team_stage", // Optional stage that unlocks this action when completed for the players team.
+   * 
+   *     // You can only use one of these actions, not both!
+   *     commandAction: { // This action runs a command when clicked
+   *         command: "/example_command",
+   *         executionLevel: 2, // The required permission level to run the command, default 2 (game master)
+   *         executeAsServer: false // Whether the command should be run as the server (true) or the player (false, default)
+   *     },
+   * 
+   *     teleportAction: { // This action teleports the player when clicked
+   *         dimension: "minecraft:overworld", // The dimension to teleport the player to
+   *         position: [0, 64, 0], // The position to teleport the player to
+   *         rotation: [0, 0] // Optional rotation to set the players view to after teleporting
+   *     },
+   * }
+   * 
+   * Default: ["PadAction[name=ftbpackcompanion.spawn, icon=ftblibrary:icons/globe, unlockedAt=Optional.empty, teamUnlockedAt=Optional.empty, commandAction=Optional[CommandAction[command=/spawn, executionLevel=2, executeAsServer=false]], teleportAction=Optional.empty, autoclose=true]", "PadAction[name=ftbpackcompanion.home, icon=minecraft:item/compass_19, unlockedAt=Optional.empty, teamUnlockedAt=Optional.empty, commandAction=Optional[CommandAction[command=/home, executionLevel=2, executeAsServer=false]], teleportAction=Optional.empty, autoclose=true]"]
+   */
+  actions: [
+    {
+      name: "ftbpackcompanion.spawn",
+      icon: "ftblibrary:icons/globe",
+      command_action: {
+        command: "/spawn",
+      },
+    },
+    {
+      name: "ftbpackcompanion.home",
+      icon: "minecraft:item/compass_19",
+      command_action: {
+        command: "/home",
+      },
+    },
+  ],
+}

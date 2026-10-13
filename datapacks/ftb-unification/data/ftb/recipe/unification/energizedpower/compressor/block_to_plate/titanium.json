@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:titanium_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ftbmaterials:titanium_plate"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:titanium_nether_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:titanium_raw_ore"
+      }
+    },
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:titanium_raw_ore"
+      }
+    }
+  ]
+}

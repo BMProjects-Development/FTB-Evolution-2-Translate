@@ -1,0 +1,805 @@
+{
+  "oreMultiplier": 1,
+  "ores": [
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.2,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:nickel_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.4,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:lapis_lazuli_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.2,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:silver_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 16,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 10
+            },
+            "max_inclusive": {
+              "absolute": 100
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "mysticalagradditions:end_inferium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 7,
+      "discard_on_air_chance": 0.2,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:gold_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.1,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:redstone_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.2,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:tin_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:platinum_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.2,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:aluminum_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:cinnabar_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 12,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 10
+            },
+            "max_inclusive": {
+              "absolute": 100
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "mysticalagradditions:end_prosperity_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:diamond_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 40
+            },
+            "max_inclusive": {
+              "absolute": 160
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ltxi:niobium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.3,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:uranium_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.2,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:lead_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.1,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:iron_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 10
+        },
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:iridium_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:titanium_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.1,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:copper_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.4,
+      "modifiers": [
+        {
+          "count": 6,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbmaterials:emerald_end_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 0
+            },
+            "max_inclusive": {
+              "below_top": 0
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ltxi:niobium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 0.5,
+      "modifiers": [
+        {
+          "chance": 3,
+          "type": "minecraft:rarity_filter"
+        },
+        {
+          "count": 16,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 16
+            },
+            "max_inclusive": {
+              "absolute": 72
+            }
+          },
+          "type": "minecraft:height_range"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "ftbarmory:aurichalcum_end_ore"
+          }
+        }
+      ]
+    }
+  ]
+}

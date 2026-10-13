@@ -1,0 +1,26 @@
+{
+  "type": "ftbic:hydroponic_mutation",
+  "input_fluids": [
+    {
+      "amount": 500,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "mysticalagriculture:sapphire_seeds"
+    },
+    {
+      "ingredient": "mysticalagriculture:dye_seeds"
+    }
+  ],
+  "outputs": [
+    {
+      "chance": 0.2,
+      "item": {
+        "id": "mysticalagriculture:lapis_lazuli_seeds"
+      }
+    }
+  ],
+  "processing_time": 4.0
+}

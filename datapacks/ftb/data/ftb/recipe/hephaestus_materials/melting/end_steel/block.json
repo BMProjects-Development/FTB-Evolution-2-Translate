@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:storage_blocks/end_steel",
+  "result": {
+    "amount": 810,
+    "id": "ftb:molten_end_steel"
+  },
+  "temperature": 1600,
+  "time": 240
+}

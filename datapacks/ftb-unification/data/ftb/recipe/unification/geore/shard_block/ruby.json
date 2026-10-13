@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:ruby_shard"
+  },
+  "result": {
+    "id": "geore:ruby_block"
+  }
+}

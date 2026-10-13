@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ENE",
+    "SAS",
+    "PMP"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "N": "minecraft:nether_star",
+    "S": "hostilenetworks:sim_chamber",
+    "A": "#ftb:advanced_circuits",
+    "P": "#c:plates/iridium",
+    "M": "ftbic:advanced_machine_block"
+  },
+  "result": {
+    "id": "hostilenetworks:data_center"
+  }
+}

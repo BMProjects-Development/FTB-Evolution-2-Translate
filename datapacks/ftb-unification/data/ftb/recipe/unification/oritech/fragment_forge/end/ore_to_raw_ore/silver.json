@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:silver_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "ftbmaterials:silver_raw_ore"
+    }
+  ],
+  "time": 40
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:entro",
+  "ingredient": {
+    "tag": "c:gems/entro"
+  },
+  "color": 1150850,
+  "head_stats": {
+    "durability": 700,
+    "mining_speed": 12.0,
+    "attack_damage": 2.5,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 18,
+    "trait": "shock"
+  },
+  "handle_stats": {
+    "durability_mult": 0.05,
+    "speed_mult": 0.1,
+    "damage_mult": 0.03,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 140
+  }
+}

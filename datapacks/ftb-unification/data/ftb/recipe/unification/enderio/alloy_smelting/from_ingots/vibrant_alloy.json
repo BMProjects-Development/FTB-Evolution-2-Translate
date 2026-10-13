@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5600,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/energetic_alloy"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/glowstone"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "enderio:vibrant_alloy_ingot"
+  }
+}

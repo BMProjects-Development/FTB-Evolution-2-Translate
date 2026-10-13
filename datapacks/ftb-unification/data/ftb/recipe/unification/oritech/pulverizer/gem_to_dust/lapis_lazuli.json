@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:gems/lapis"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:lapis_lazuli_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,80 @@
+[permissions]
+	#Permission level required for the item print, hand and copy commands. 0 lets every player use them.
+	# Default: 0
+	# Range: 0 ~ 4
+	item_inspection_permission = 0
+
+[limits]
+	#Largest chunk radius accepted by the region clear command.
+	# Default: 16
+	# Range: 0 ~ 64
+	max_clear_radius = 16
+	#Largest chunk radius accepted by the ore scan and mining simulation commands.
+	# Default: 32
+	# Range: 0 ~ 64
+	max_scan_radius = 32
+	#Largest number of fluid blocks a single drain may remove.
+	# Default: 250000
+	# Range: 1 ~ 4000000
+	max_drain_blocks = 250000
+	#Largest iteration count accepted by the loot simulator.
+	# Default: 1000000
+	# Range: 1 ~ 10000000
+	max_loot_iterations = 1000000
+	#Largest tick count accepted by the spawn simulator.
+	# Default: 432000
+	# Range: 1 ~ 4320000
+	max_simulated_ticks = 432000
+	#Largest sample count accepted by the biome mapper.
+	# Default: 1000000
+	# Range: 100 ~ 10000000
+	max_biome_samples = 1000000
+	#Largest block radius accepted by the biome mapper.
+	# Default: 10000
+	# Range: 16 ~ 100000
+	max_biome_sample_radius = 10000
+	#Largest region a structure grab may capture, counted in blocks. Every captured block is held in memory until the file is written.
+	# Default: 262144
+	# Range: 1 ~ 4194304
+	max_grab_blocks = 262144
+	#Maximum retained block-search hits; additional matches are counted but not retained.
+	# Default: 10000
+	# Range: 10 ~ 100000
+	max_locate_results = 10000
+	#Maximum chest/sign pairs placed by one structure loot test.
+	# Default: 256
+	# Range: 1 ~ 4096
+	max_structure_loot_chests = 256
+	#Maximum distinct item/component variants retained by a mining simulation.
+	# Default: 10000
+	# Range: 10 ~ 100000
+	max_mining_drop_variants = 10000
+
+[reports]
+	#Report output directory, relative to the game directory.
+	report_directory = "logs/modpackassistant"
+
+[scheduler]
+	#Server ticks between scheduled jobs of a long-running operation.
+	# Default: 5
+	# Range: 1 ~ 100
+	job_interval_ticks = 5
+
+[structures]
+	#Structure grab output directory, relative to the game directory.
+	structure_directory = "modpackassistant/structures"
+	#Save the entities standing in the region alongside its blocks. Players are never saved.
+	grab_entities = false
+	#Leave air out of the saved structure, so placing it does not clear what is already there. Structure voids are always left out.
+	grab_ignore_air = false
+	#What a grab writes: BOTH, NBT or SNBT. NBT is the binary file datapacks and structure blocks load; SNBT is the same data as readable text. The format argument overrides this per grab.
+	#Allowed Values: BOTH, NBT, SNBT
+	grab_format = "BOTH"
+
+[showoff]
+	#Largest structure template the showoff preview will send to a client, counted in non-air blocks.
+	# Default: 262144
+	# Range: 1 ~ 4194304
+	max_showoff_blocks = 262144
+	#Showoff screenshot output directory on the client, relative to the game directory.
+	showoff_directory = "modpackassistant/showoff"

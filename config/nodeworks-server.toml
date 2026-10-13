@@ -1,0 +1,181 @@
+# Script execution safety.
+# Wall-clock soft-abort budgets for the Nodeworks scripting terminal,
+# bounds runaway scripts so a `while true do end` cannot hang the server tick.
+[scripting]
+	# Wall-clock budget for the top-level chunk (`main`) before the script is
+	# soft-aborted. Longer than the callback budget because legit setup work
+	# (building large route tables, seeding presets) can plausibly take several
+	# seconds. On timeout the terminal's `autoRun` flag is cleared and a
+	# `lastError` is persisted so the bad script doesn't re-fire on world load.
+	# Default: 3000
+	# Range: 100 ~ 600000
+	topLevelSoftAbortMs = 3000
+	# Wall-clock budget for each callback invocation (scheduler tick callbacks,
+	# redstone/observer onChange, processing handlers). Each invocation gets a
+	# fresh budget. A script that just registers handlers and exits consumes no
+	# budget while idle. On timeout the offending callback is evicted from its
+	# registry so it cannot re-fire next tick.
+	# Default: 1000
+	# Range: 100 ~ 600000
+	callbackSoftAbortMs = 1000
+	# When the top-level chunk soft-aborts, automatically clear `autoRun` on the
+	# terminal so the next world load doesn't re-trigger the bad script. Closes
+	# the per-chunk-load grief vector (a `while true do end` saved with autoRun
+	# on pinning the server tick on every restart). Recommended: true.
+	turnOffAutoRunOnTimeout = true
+	# How many Lua bytecode instructions between wall-clock checks inside the
+	# guarded debug hook. Lower = tighter timeout bounding when the script is in
+	# a tight loop calling slow Kotlin functions (the hook is starved while Lua
+	# is inside Kotlin code, so the check frequency caps how many slow calls
+	# slip past the budget). 32 keeps overhead negligible while bounding the
+	# per-iteration overrun tightly. Heavy compute scripts pay slightly more
+	# but absolute cost is microseconds per tick.
+	# Default: 32
+	# Range: 1 ~ 65536
+	instructionsPerWallClockCheck = 32
+	# Per-engine wall-clock budget within a single server tick. When an engine
+	# exhausts this, remaining callbacks (scheduler tasks, redstone/observer
+	# pollers) defer to the next tick so the server stays responsive even if
+	# an engine has heavy work to do. A single callback that runs longer than
+	# this still completes (bounded by callbackSoftAbortMs cumulatively); the
+	# budget only applies between callbacks, not within them.
+	# Default: 5
+	# Range: 1 ~ 10000
+	localTickBudgetMs = 5
+	# Total wall-clock budget for all Lua execution across every running engine
+	# per server tick. When this is exhausted, remaining engines are skipped
+	# entirely for this tick. Combined with localTickBudgetMs, this bounds the
+	# worst-case Lua time one server tick can spend on scripts regardless of
+	# how many engines are active.
+	# Default: 10
+	# Range: 1 ~ 10000
+	globalTickBudgetMs = 10
+
+	# Per-tick op rate limits.
+	# Each call to a script-callable op that generates packets or container
+	# sync events is counted per tick; calls past the cap return early without
+	# sending packets, defending against the kind of accidental DDoS that the
+	# wall-clock hook alone can't catch (a tight loop fires faster than clients
+	# drain, hanging the server tick on Netty buffer pressure).
+	# Set any of these to 0 for 'unlimited' on trusted / singleplayer servers.
+	#
+	# Split into two pools:
+	#   network: shared across all terminals on the same network. Multiple
+	#            terminals running the same offending script can't multiply
+	#            the cap by spreading themselves across terminals.
+	#   engine:  per-terminal, for state that's genuinely script-internal
+	#            (callback registry size). Each engine has its own pool
+	#            because these aren't shared network resources.
+	[scripting.rateLimits]
+
+		[scripting.rateLimits.network]
+			# Max script-driven block placements per tick per network (placer:place).
+			# Each placement fires a BlockUpdatePacket and neighbour updates; placement
+			# is heavy, so this cap is the lowest by default.
+			# Default: 5
+			# Range: 0 ~ 100000
+			maxPlacementsPerTick = 5
+			# Max network/card insert/tryInsert/route calls per tick per network. Per-call
+			# cap, separate from maxItemsMovedPerTickPerNetwork which limits item count
+			# rather than call count. A single call can move a stack of 64; the call cap
+			# bounds packet flood from menu syncs, the item cap bounds bulk throughput.
+			# Default: 100
+			# Range: 0 ~ 100000
+			maxItemMoveCallsPerTick = 100
+			# Max script-driven redstone signal writes per tick per network (redstone:set).
+			# Each write triggers neighbour-change updates.
+			# Default: 20
+			# Range: 0 ~ 100000
+			maxRedstoneWritesPerTick = 20
+			# Max script-driven variable card writes per tick per network (var:set, var:cas).
+			# Each write fires setChanged + sendBlockUpdated.
+			# Default: 100
+			# Range: 0 ~ 100000
+			maxVariableWritesPerTick = 100
+			# Max script `print(...)` calls per tick per network. Each print sends a chat
+			# packet to nearby players, so the actual shared resource is the player's
+			# network bandwidth, not any per-terminal channel. Per-network so a player
+			# can't multiply the cap by spreading bad scripts across N terminals.
+			# Default: 20
+			# Range: 0 ~ 100000
+			maxPrintsPerTick = 20
+			# Max error-log dispatches per tick per network. Same packet path as
+			# maxPrintsPerTick but for error-log calls (bug spam from a loop).
+			# Counted separately so legit error reporting isn't starved by a noisy script.
+			# Default: 20
+			# Range: 0 ~ 100000
+			maxErrorLogsPerTick = 20
+			# Max items moved per tick per network across all network:insert and
+			# network:tryInsert calls. Independent of maxItemMoveCallsPerTick (a
+			# single call can move 64 items, so call count != item count). 0 means
+			# unlimited. When exhausted, tryInsert returns partial counts and atomic
+			# insert short-circuits to false.
+			# Default: 0
+			# Range: > 0
+			maxItemsMovedPerTickPerNetwork = 0
+
+		[scripting.rateLimits.engine]
+			# Max simultaneously-registered callbacks per kind per engine (scheduler
+			# tasks, redstone handlers, observer handlers, processing handlers, presets).
+			# The 257th registration throws a fatal Lua error and locks the terminal,
+			# so a recursive self-register pattern (a callback that registers another
+			# callback each time it fires) crashes loud rather than slowly bloating the
+			# registry. Per-engine because the registry is script-internal state.
+			# Default: 256
+			# Range: 0 ~ 100000
+			maxCallbacksPerKind = 256
+
+		# Sandbox controls.
+		# Allow-list for optional Lua standard libraries, deny-list for individual
+		# script API methods. Server-side enforcement: a disabled method throws a
+		# 'disabled on this server' Lua error when called. Trusted / singleplayer
+		# servers can leave both at defaults (full set enabled, deny-list empty).
+		[scripting.scripting.sandbox]
+			# Optional Lua standard libraries to load on engine startup.
+			# Available: bit32 (bitwise ops), table, string, math.
+			# The base library (print, pairs, tostring, etc.) and the package library
+			# (required by `require`) load unconditionally. The `package` global itself
+			# is always nil'd so scripts can't reach package.loadlib / searchers.
+			# Comment out (delete) entries to strip individual libs.
+			enabledModules = ["bit32", "table", "string", "math"]
+			# Deny-list of script API methods. Format: "Type:method" exact match.
+			# Calling any of these from a script throws a Lua error.
+			#
+			# Type names:
+			#   Network            global network table (network:insert, network:tryInsert, etc.)
+			#   Scheduler          global scheduler table (scheduler:tick, second, delay, cancel)
+			#   CardHandle         storage card methods (insert, tryInsert, find, findEach, count, face, slots)
+			#   RedstoneCard       redstone card methods (powered, strength, set, onChange)
+			#   ObserverCard       observer card methods (block, state, onChange)
+			#   VariableHandle     variable card methods (get, set, cas, increment, decrement, etc.)
+			#   PlacerHandle       placer methods (place, block, isBlocked)
+			#   BreakerHandle      breaker methods (mine, cancel, block, state, isMining, progress)
+			#
+			# Recommended public-server posture:
+			#   disabledMethods = ["CardHandle:insert", "Network:insert"]
+			# (forces scripts to use the partial-success tryInsert variants, which
+			#  interact better with the per-tick item budget).
+			disabledMethods = []
+
+		# Device policy controls.
+		# Per-device safety limits that aren't script-execution related.
+		[scripting.scripting.devices]
+			# Items the User device refuses to drive. Bare ids match exactly,
+			# entries starting with `#` match an item tag (resolved against the
+			# active level's registry, so modded tags work without extra setup).
+			# Defaults block food and ranged-weapon abuse (auto-feed, auto-bow
+			# farms). Add `#c:tools/melee_weapon` to also block sword automation.
+			# Empty list = no restrictions.
+			userDeniedItems = ["#c:foods", "#c:tools/ranged_weapon"]
+			# Whether the Network Controller can force-load chunks. Disable to
+			# let another chunk-loading mod handle it. When false, the chunk-
+			# load toggle is hidden from the Controller's GUI and any existing
+			# claims drop on the next controller tick.
+			networkControllerChunkLoading = true
+			# Max range in blocks for the Grapple Beam's attach raycast.
+			# Default: 24
+			# Range: 4 ~ 256
+			grappleMaxDistance = 24
+			# Whether the Grapple Beam can attach to and pull entities.
+			# Set to false to restrict grapples to terrain only.
+			grappleEntities = true

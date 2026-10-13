@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": {
+    "ftb:industrial_coolant": {
+      "temperature": 0
+    },
+    "ftb:flowing_industrial_coolant": {
+      "temperature": 0
+    }
+  }
+}

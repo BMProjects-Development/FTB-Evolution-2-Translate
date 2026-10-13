@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/silver"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:silver_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,13 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "minecraft:obsidian", "count": 8 },
+    { "ingredient": "minecraft:diamond_pickaxe", "count": 1 }
+  ],
+  "results": [
+    { "id": "jamd:portal_block" }
+  ],
+  "ticks": 400,
+  "energy_per_tick": 2500,
+  "stage": "skyline_unlocked"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/celestine"
+  ],
+  "itemResults": [
+    {
+      "id": "nodeworks:celestine_shard"
+    }
+  ],
+  "time": 100
+}

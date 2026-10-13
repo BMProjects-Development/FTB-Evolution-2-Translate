@@ -1,0 +1,477 @@
+{
+  "id": "ftb:fishmonger",
+  "title": {
+    "translate": "ftb.shopkeeper.fishmonger",
+    "color": "aqua"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "fisherman",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.fishmonger",
+        "color": "aqua"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:fishmonger_wares",
+      "shop_unlock": [
+        {
+          "name": "worm",
+          "item": {
+            "id": "starcatcher:worm",
+            "count": 8
+          },
+          "cost": 5
+        },
+        {
+          "name": "amethyst_hook",
+          "item": {
+            "id": "starcatcher:amethyst_hook",
+            "count": 1
+          },
+          "cost": 60
+        },
+        {
+          "name": "bobber",
+          "item": {
+            "id": "starcatcher:bobber",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "clear_bobber",
+          "item": {
+            "id": "starcatcher:clear_bobber",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "cherry_bait",
+          "item": {
+            "id": "starcatcher:cherry_bait",
+            "count": 4
+          },
+          "cost": 8
+        },
+        {
+          "name": "gunpowder_bait",
+          "item": {
+            "id": "starcatcher:gunpowder_bait",
+            "count": 4
+          },
+          "cost": 8
+        },
+        {
+          "name": "dripstone_bait",
+          "item": {
+            "id": "starcatcher:dripstone_bait",
+            "count": 4
+          },
+          "cost": 8
+        },
+        {
+          "name": "tackle_box",
+          "item": {
+            "id": "starcatcher:tackle_box",
+            "count": 1
+          },
+          "cost": 25,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "aquarium",
+          "item": {
+            "id": "starcatcher:aquarium",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "aquatic_catalyst",
+          "item": {
+            "id": "nautec:aquatic_catalyst",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "cast_iron_ingot",
+          "item": {
+            "id": "nautec:cast_iron_ingot",
+            "count": 4
+          },
+          "cost": 12
+        },
+        {
+          "name": "salt",
+          "item": {
+            "id": "ftbmaterials:salt_dust",
+            "count": 4
+          },
+          "cost": 15
+        },
+        {
+          "name": "tropical_fish_bucket",
+          "item": {
+            "id": "minecraft:tropical_fish_bucket",
+            "count": 1
+          },
+          "cost": 15
+        },
+        {
+          "name": "prismarine_shard",
+          "item": {
+            "id": "minecraft:prismarine_shard",
+            "count": 8
+          },
+          "cost": 25
+        },
+        {
+          "name": "prismarine_crystals",
+          "item": {
+            "id": "minecraft:prismarine_crystals",
+            "count": 8
+          },
+          "cost": 25
+        },
+        {
+          "name": "nautilus_shell",
+          "item": {
+            "id": "minecraft:nautilus_shell",
+            "count": 4
+          },
+          "cost": 80
+        },
+        {
+          "name": "heart_of_the_sea",
+          "item": {
+            "id": "minecraft:heart_of_the_sea",
+            "count": 1
+          },
+          "cost": 200,
+          "max_claims": 1
+        },
+        {
+          "name": "chitin_plate",
+          "item": {
+            "id": "nautec:chitin_plate",
+            "count": 4
+          },
+          "cost": 60
+        },
+        {
+          "name": "luminous_membrane",
+          "item": {
+            "id": "nautec:luminous_membrane",
+            "count": 2
+          },
+          "cost": 80
+        },
+        {
+          "name": "prismarine_frond",
+          "item": {
+            "id": "nautec:prismarine_frond",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "luminescent_algae",
+          "item": {
+            "id": "nautec:luminescent_algae",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "glow_polyp",
+          "item": {
+            "id": "nautec:glow_polyp",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "deep_kelp",
+          "item": {
+            "id": "nautec:deep_kelp",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "petri_dish",
+          "item": {
+            "id": "nautec:petri_dish",
+            "count": 1
+          },
+          "cost": 5
+        },
+        {
+          "name": "sonar_module",
+          "item": {
+            "id": "nautec:sonar_module",
+            "count": 1
+          },
+          "cost": 150,
+          "max_claims": 1
+        },
+        {
+          "name": "solar_module",
+          "item": {
+            "id": "nautec:solar_module",
+            "count": 1
+          },
+          "cost": 150,
+          "max_claims": 1
+        },
+        {
+          "name": "booster_module",
+          "item": {
+            "id": "nautec:booster_module",
+            "count": 1
+          },
+          "cost": 150,
+          "max_claims": 1
+        },
+        {
+          "name": "air_bottle",
+          "item": {
+            "id": "nautec:air_bottle",
+            "count": 8
+          },
+          "cost": 30
+        },
+        {
+          "name": "trident",
+          "item": {
+            "id": "minecraft:trident",
+            "count": 1
+          },
+          "cost": 300,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "pufferfish_bucket",
+          "item": {
+            "id": "minecraft:pufferfish_bucket",
+            "count": 1
+          },
+          "cost": 15
+        },
+        {
+          "name": "glass_vial",
+          "item": {
+            "id": "nautec:glass_vial",
+            "count": 4
+          },
+          "cost": 15
+        },
+        {
+          "name": "sponge",
+          "item": {
+            "id": "minecraft:sponge",
+            "count": 2
+          },
+          "cost": 40
+        },
+        {
+          "name": "aquarine_steel_ingot",
+          "item": {
+            "id": "nautec:aquarine_steel_ingot",
+            "count": 4
+          },
+          "cost": 120
+        },
+        {
+          "name": "fish_tank_block",
+          "item": {
+            "id": "betterfishtanks:fish_tank_block",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "petri_methanogens",
+          "item": {
+            "id": "nautec:petri_dish",
+            "count": 1,
+            "components": {
+              "nautec:bacteria": {
+                "amount": 600,
+                "analyzed": true,
+                "bacteria": "nautec:methanogens",
+                "stats": {
+                  "base_stats": {
+                    "color": -1328403,
+                    "growth_rate": {
+                      "max": 1.0,
+                      "min": 0.5
+                    },
+                    "lifespan": {
+                      "max": 2400,
+                      "min": 1200
+                    },
+                    "mutation_resistance": {
+                      "max": 0.1,
+                      "min": 0.0
+                    },
+                    "production_rate": {
+                      "max": 0.5,
+                      "min": 0.1
+                    }
+                  },
+                  "color": -1328403,
+                  "growth_rate": 5.0,
+                  "lifespan": 24000,
+                  "mutation_resistance": 1.0,
+                  "production_rate": 2.0,
+                  "type": "nautec:simple"
+                }
+              }
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "petri_cyanobacteria",
+          "item": {
+            "id": "nautec:petri_dish",
+            "count": 1,
+            "components": {
+              "nautec:bacteria": {
+                "amount": 480,
+                "analyzed": true,
+                "bacteria": "nautec:cyanobacteria",
+                "stats": {
+                  "base_stats": {
+                    "color": -13434881,
+                    "growth_rate": {
+                      "max": 1.0,
+                      "min": 0.5
+                    },
+                    "lifespan": {
+                      "max": 2400,
+                      "min": 1200
+                    },
+                    "mutation_resistance": {
+                      "max": 0.1,
+                      "min": 0.0
+                    },
+                    "production_rate": {
+                      "max": 0.5,
+                      "min": 0.1
+                    }
+                  },
+                  "color": -13434881,
+                  "growth_rate": 5.0,
+                  "lifespan": 24000,
+                  "mutation_resistance": 1.0,
+                  "production_rate": 2.0,
+                  "type": "nautec:simple"
+                }
+              }
+            }
+          },
+          "cost": 20
+        },
+        {
+          "name": "petri_phototrophs",
+          "item": {
+            "id": "nautec:petri_dish",
+            "count": 1,
+            "components": {
+              "nautec:bacteria": {
+                "amount": 500,
+                "analyzed": true,
+                "bacteria": "nautec:phototrophs",
+                "stats": {
+                  "base_stats": {
+                    "color": -6950333,
+                    "growth_rate": {
+                      "max": 1.1,
+                      "min": 0.5
+                    },
+                    "lifespan": {
+                      "max": 2300,
+                      "min": 1100
+                    },
+                    "mutation_resistance": {
+                      "max": 0.12,
+                      "min": 0.0
+                    },
+                    "production_rate": {
+                      "max": 0.55,
+                      "min": 0.15
+                    }
+                  },
+                  "color": -6950333,
+                  "growth_rate": 5.0,
+                  "lifespan": 24000,
+                  "mutation_resistance": 1.0,
+                  "production_rate": 2.0,
+                  "type": "nautec:simple"
+                }
+              }
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "petri_halobacteria",
+          "item": {
+            "id": "nautec:petri_dish",
+            "count": 1,
+            "components": {
+              "nautec:bacteria": {
+                "amount": 560,
+                "analyzed": true,
+                "bacteria": "nautec:halobacteria",
+                "stats": {
+                  "base_stats": {
+                    "color": -6912,
+                    "growth_rate": {
+                      "max": 1.0,
+                      "min": 0.5
+                    },
+                    "lifespan": {
+                      "max": 2400,
+                      "min": 1200
+                    },
+                    "mutation_resistance": {
+                      "max": 0.1,
+                      "min": 0.0
+                    },
+                    "production_rate": {
+                      "max": 0.5,
+                      "min": 0.1
+                    }
+                  },
+                  "color": -6912,
+                  "growth_rate": 5.0,
+                  "lifespan": 24000,
+                  "mutation_resistance": 1.0,
+                  "production_rate": 2.0,
+                  "type": "nautec:simple"
+                }
+              }
+            }
+          },
+          "cost": 40
+        }
+      ]
+    }
+  ]
+}

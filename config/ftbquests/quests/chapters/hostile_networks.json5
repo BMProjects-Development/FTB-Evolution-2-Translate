@@ -1,0 +1,460 @@
+{
+  id: "1090AA85BDC70AFA",
+  group: "4780068BA76609B8",
+  order_index: 4,
+  icon: {
+    id: "hostilenetworks:deep_learner",
+    count: 1,
+  },
+  filename: "hostile_networks",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "5B16786955266DDD",
+  quests: [
+    {
+      icon: {
+        id: "hostilenetworks:deep_learner",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      can_repeat: false,
+      id: "5B16786955266DDD",
+      tasks: [
+        {
+          id: "74E7EBB04F503FD1",
+          type: "item",
+          item: {
+            id: "hostilenetworks:deep_learner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D89E6DA00754908",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "3CAF580559423AFB",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hostilenetworks:blank_data_model",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "5B16786955266DDD",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "63072466EE83CB96",
+      tasks: [
+        {
+          id: "273307E4BC02971B",
+          type: "item",
+          item: {
+            id: "hostilenetworks:blank_data_model",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "501422F9BC1B3423",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "397050E2CB1F2A67",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "hostilenetworks:blank_data_model",
+            count: 1,
+          },
+        },
+        {
+          id: "57D09D85A6617D9F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonscales_red",
+        count: 1,
+      },
+      x: 2.5,
+      y: -2.0,
+      shape: "diamond",
+      dependencies: [
+        "63072466EE83CB96",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2E1676FE0AE8E2D3",
+      tasks: [
+        {
+          id: "1A79925DAB837E32",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "561710D079D11A09",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ore",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "63072466EE83CB96",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2DD3347080DC105A",
+      tasks: [
+        {
+          id: "35DCC9064F681DCD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "353B127756E65242",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hostilenetworks:sim_chamber",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "63072466EE83CB96",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "5550A34C854C3464",
+      tasks: [
+        {
+          id: "654428CB461CEE51",
+          type: "item",
+          item: {
+            id: "hostilenetworks:sim_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21A239B113B977C1",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5DCDC1F2F5C29605",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hostilenetworks:prediction_matrix",
+        count: 1,
+      },
+      x: 5.0,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "5550A34C854C3464",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "329FFCF92B62E1FA",
+      tasks: [
+        {
+          id: "29186227E7FCA1C4",
+          type: "item",
+          item: {
+            id: "hostilenetworks:prediction_matrix",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "7C2FC3E67577B3AE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6B644AA036F96213",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:experience_bottle",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "5550A34C854C3464",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4083DF14A1871AAD",
+      tasks: [
+        {
+          id: "1E00E66D800F4EE5",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "40B3915D7ED6F9CF",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hostilenetworks:data_center",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4083DF14A1871AAD",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "5A610BA53A395CEC",
+      tasks: [
+        {
+          id: "2D815E6BB55896A5",
+          type: "item",
+          item: {
+            id: "hostilenetworks:data_center",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E0EA9BA7F0D3DD5",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "36B8D800B022B4BE",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:item_frame",
+        count: 1,
+      },
+      x: 12.5,
+      y: -2.0,
+      shape: "diamond",
+      dependencies: [
+        "5A610BA53A395CEC",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "1B414139914B5910",
+      tasks: [
+        {
+          id: "7EA6A72793B5086D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "69D6D39C89288BE9",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hostilenetworks:overworld_prediction",
+        count: 1,
+      },
+      x: 12.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "5A610BA53A395CEC",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "140088E971F70099",
+      tasks: [
+        {
+          id: "63B5CF8170418150",
+          type: "item",
+          item: {
+            id: "hostilenetworks:overworld_prediction",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FAC00920DDDA769",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "1373E56248D0D5A2",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hostilenetworks:data_center_io_port",
+        count: 1,
+      },
+      x: 12.5,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "5A610BA53A395CEC",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "32AB71D5E3A6819C",
+      tasks: [
+        {
+          id: "2E72A0D3FF3D730A",
+          type: "item",
+          item: {
+            id: "hostilenetworks:data_center_io_port",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "680DE8C902792776",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6C4520CE621285F3",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.75,
+      width: 3.4,
+      height: 3.4,
+      rotation: 45.0,
+      image: "hostilenetworks:block/machine_base",
+      id: "7C0CC793A8E431B3",
+    },
+    {
+      x: 6.5,
+      y: -3.5,
+      width: 12.0,
+      height: 0.79,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/hostile_networks_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "5B16786955266DDD",
+      },
+      id: "6F7CF3B06A259C6C",
+    },
+    {
+      x: -2.25,
+      y: 1.5,
+      width: 1.4,
+      height: 1.4,
+      rotation: -15.0,
+      image: "hostilenetworks:item/overworld_prediction",
+      id: "5073494EBAD7A8E6",
+    },
+    {
+      x: 9.43,
+      y: 3.03,
+      width: 2.77,
+      height: 3.23,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/hnn_data_center.png",
+      id: "1C6F615343014514",
+    },
+  ],
+}

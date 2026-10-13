@@ -1,0 +1,38 @@
+{
+  "descriptionId": "ftb.irons.material.spiritus_nihilum",
+  "ingredient": "neovitae:spiritus_nihilum_shard",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/spiritus_nihilum",
+  "quality": 2.0,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:prot_pierce",
+      "operation": "add_value",
+      "amount": 1.0
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:invisibility"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:blindness"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "amplifier": {
+          "base": 0.0,
+          "max": 1.0,
+          "scalar": 0.5
+        },
+        "duration": {
+          "base": 100.0,
+          "scalar": 0.0
+        },
+        "effect": "minecraft:weakness"
+      },
+      "targetSelf": false
+    }
+  }
+}

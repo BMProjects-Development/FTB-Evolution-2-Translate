@@ -1,0 +1,34 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "energy": 2000000,
+  "input_fluid": {
+    "amount": 1000,
+    "ingredient": "minecraft:water"
+  },
+  "input_items": [
+    {
+      "amount": 16,
+      "ingredient": "refinedstorage:advanced_processor"
+    },
+    {
+      "amount": 1,
+      "ingredient": "logisticsnetworks:computer"
+    },
+    {
+      "amount": 4,
+      "ingredient": "logisticsnetworks:logistics_node"
+    },
+    {
+      "amount": 4,
+      "ingredient": "laserio:laser_node"
+    },
+    {
+      "amount": 16,
+      "ingredient": "integrateddynamics:variable"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "ftb:logic_lattice"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "synergy:casting_factory": [
+    {
+      "path": "input_fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "input_fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "output/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "synergy:casting_table": [
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "output/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "synergy:electric_melter": [
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "input/item",
+      "action": {
+        "field": "item",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "input/item",
+      "action": {
+        "field": "item",
+        "output_value": "<item_tag_map>"
+      }
+    }
+  ],
+  "synergy:foundry": [
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "input/item",
+      "action": {
+        "field": "item",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "input/item",
+      "action": {
+        "field": "item",
+        "output_value": "<item_tag_map>"
+      }
+    }
+  ]
+}

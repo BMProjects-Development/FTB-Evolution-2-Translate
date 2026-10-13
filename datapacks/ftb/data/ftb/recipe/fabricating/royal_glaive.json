@@ -1,0 +1,42 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "iceandfire:dragonsteel_lightning_ingot",
+      "count": 32
+    },
+    {
+      "ingredient": "minecraft:breeze_rod",
+      "count": 16
+    },
+    {
+      "ingredient": "iceandfire:lightning_dragon_blood",
+      "count": 8
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 8
+    },
+    {
+      "ingredient": "minecraft:heavy_core",
+      "count": 2
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 16000
+    },
+    {
+      "id": "evilcraft:blood",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "thunderrelics:royal_glaive"
+    }
+  ],
+  "ticks": 36000,
+  "energy_per_tick": 1000000
+}

@@ -1,0 +1,60 @@
+{
+  "name": "ftb:dungeons/stone/shafts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft/46",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft/47",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft/48",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft/49",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft/50",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft/51",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    }
+  ]
+}

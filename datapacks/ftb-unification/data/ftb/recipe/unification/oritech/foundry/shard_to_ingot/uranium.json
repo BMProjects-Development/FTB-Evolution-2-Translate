@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:uranium_shard",
+    "ftbmaterials:uranium_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:uranium_ingot"
+    }
+  ],
+  "time": 80
+}

@@ -1,0 +1,26 @@
+{
+  "type": "ftbic:hydroponic_mutation",
+  "input_fluids": [
+    {
+      "amount": 500,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "mysticalagriculture:ghast_seeds"
+    },
+    {
+      "ingredient": "mysticalagriculture:fire_seeds"
+    }
+  ],
+  "outputs": [
+    {
+      "chance": 0.2,
+      "item": {
+        "id": "mysticalagriculture:blaze_seeds"
+      }
+    }
+  ],
+  "processing_time": 4.0
+}

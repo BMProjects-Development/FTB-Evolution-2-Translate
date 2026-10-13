@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:lapis_lazuli_end_ore",
+  "result": {
+    "count": 4,
+    "id": "minecraft:lapis_lazuli"
+  },
+  "secondary": {
+    "id": "minecraft:lapis_lazuli",
+    "count": 2
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

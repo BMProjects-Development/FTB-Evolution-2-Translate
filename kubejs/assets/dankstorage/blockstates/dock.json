@@ -1,0 +1,65 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "dankstorage:block/dock"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_1"
+      },
+      "when": {
+        "tier": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_2"
+      },
+      "when": {
+        "tier": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_3"
+      },
+      "when": {
+        "tier": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_4"
+      },
+      "when": {
+        "tier": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_5"
+      },
+      "when": {
+        "tier": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_6"
+      },
+      "when": {
+        "tier": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "dankstorage:block/dock_dank_7"
+      },
+      "when": {
+        "tier": "7"
+      }
+    }
+  ]
+}

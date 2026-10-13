@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "mysticalagradditions:nether_inferium_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 4,
+        "id": "mysticalagriculture:inferium_essence"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 3,
+        "id": "mysticalagriculture:inferium_essence"
+      }
+    }
+  ]
+}

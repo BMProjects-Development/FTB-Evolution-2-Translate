@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "minecraft:lapis_lazuli",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "ftbmaterials:lapis_lazuli_dust"
+  }
+}

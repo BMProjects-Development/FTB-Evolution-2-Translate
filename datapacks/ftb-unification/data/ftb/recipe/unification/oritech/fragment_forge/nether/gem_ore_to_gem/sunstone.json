@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "arsmagicalegacy:sunstone_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "arsmagicalegacy:sunstone"
+    }
+  ],
+  "time": 40
+}

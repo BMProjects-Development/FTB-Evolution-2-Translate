@@ -1,0 +1,28 @@
+{
+  "values": {
+    "bhc:red_heart": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 1
+      }
+    ],
+    "bhc:yellow_heart": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 5
+      }
+    ],
+    "bhc:green_heart": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 10
+      }
+    ],
+    "bhc:blue_heart": [
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 20
+      }
+    ]
+  }
+}

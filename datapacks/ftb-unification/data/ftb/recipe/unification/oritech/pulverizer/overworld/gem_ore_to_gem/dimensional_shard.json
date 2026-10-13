@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/dimensional_shard"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:dimensional_shard_gem"
+    }
+  ],
+  "time": 100
+}

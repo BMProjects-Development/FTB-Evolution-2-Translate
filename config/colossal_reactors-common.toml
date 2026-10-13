@@ -1,0 +1,352 @@
+#Development and advanced configuration
+[dev]
+	#Dump full reactor validation to log (info level). Default: false
+	000_reactor_validation_debug = false
+	#Log reactor simulation (heat sink rod/adj/nonAdj, weights, fuel/energy mult) each tick. Default: false
+	001_reactor_simulation_debug = false
+	#Log why the Melter is not advancing when it has input (no recipe, fluid not found, heat product). Default: false
+	002_melter_debug = false
+	#Dump full turbine validation to log (info level). Default: false
+	004_turbine_validation_debug = false
+	#Log turbine simulation (coil/blade eff, steam, RF/tick). Default: false
+	005_turbine_simulation_debug = false
+	#Does not enable radiation in Colossal Reactors reactors. Enable radiation management features (Radiation Scrubber, Radiation Cure). When true and Mekanism is installed, items and recipes appear in creative tab and are craftable. Default: false
+	003_enable_radiation_management = false
+	#Log high-conduction power port OP push details (Brandon's Core / Draconic). Default: false
+	006_power_port_op_debug = false
+
+#Ore generation toggles
+[worldgen]
+	#When true, disables uranium ore generation in the world. Default: false
+	000_disable_uranium_oregen = true
+	#When true, disables lead ore generation in the world. Default: false
+	001_disable_lead_oregen = true
+	#When true, disables boron ore generation in the world. Few mods add boron; useful to keep only boron. Default: false
+	002_disable_boron_oregen = false
+	#When true, disables chromium ore generation in the world. Default: false
+	003_disable_chromium_oregen = false
+	#When true, disables californium End ore generation. Default: false
+	004_disable_californium_oregen = false
+
+#Reactor multiblock and simulation
+[reactor]
+
+	#Maximum reactor dimensions
+	[reactor.size]
+		#Maximum reactor width (X or Z). Default: 65
+		# Default: 65
+		# Range: > 1
+		000_maxReactorWidth = 65
+		#Maximum reactor length (X or Z). Default: 64
+		# Default: 65
+		# Range: > 1
+		001_maxReactorLength = 65
+		#Maximum reactor height (Y). Default: 65
+		# Default: 65
+		# Range: > 1
+		002_maxReactorHeight = 65
+
+	#Reactor capacity and minimums (base RF/fuel come from datapack fuel definitions)
+	[reactor.base]
+		#Minimum RF/t produced by any running reactor. Default: 500
+		# Default: 500.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		101b_minRfPerTick = 500.0
+		#Minimum fuel units consumed per tick. Default: 0.05
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		101c_minFuelUnitsPerTick = 0.05
+		#Max fuel units per reactor rod (shared capacity). Default: 10000
+		# Default: 10000
+		# Range: > 1
+		000_rodMaxFuelUnits = 10000
+
+	#Efficiency and global multipliers
+	[reactor.efficiency]
+		#RF efficiency loss factor. Default: 0.2
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		000_rfEfficiencyLoss = 0.2
+		#Fuel efficiency factor. Default: 1
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		001_fuelEfficiencyLoss = 1.0
+		#Production multiplier. Default: 1
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		002_productionMultiplier = 1.0
+		#Consumption multiplier. Default: 1
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		003_consumptionMultiplier = 1.0
+
+	#Fuel consumption curve (scale and size-based decay)
+	[reactor.consumption]
+		#Consumption scale factor for empirical curve. Default: 1.72
+		# Default: 1.72
+		# Range: 0.01 ~ 10.0
+		106b_consumptionScale = 1.72
+		#As reactor grows, curve advantage fades. 0 = always sqrt; 400 = big reactors closer to linear. Default: 400
+		# Default: 400.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		106b2_consumptionCurveDecayRods = 400.0
+
+	#Rod adjacency (penalty for neighbors)
+	[reactor.rods]
+		#Penalty per horizontal neighbor (rod or border). Default: 0.25
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		106c_rodAdjacencyPenalty = 0.25
+
+	#Reactor balance (size scaling curves)
+	[reactor.balance]
+		#Energy scaling mode vs effectiveRodCount. 0=Legacy (n*log), 1=Power (n^exp), 2=Saturating (n/(1+n/k)). Default: 1
+		# Default: 1
+		# Range: 0 ~ 2
+		000_rodEnergyScalingMode = 1
+		#When rodEnergyScalingMode=1: exponent for n^exp. Smaller = flatter for large reactors. Default: 0.90
+		# Default: 0.9
+		# Range: 0.05 ~ 1.5
+		001_rodEnergyScalingExponent = 0.9
+		#When rodEnergyScalingMode=2: saturation constant k for n/(1+n/k). Default: 600
+		# Default: 600.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		002_rodEnergyScalingSaturationK = 600.0
+		#Fuel scaling mode vs effectiveRodCount. 0=Legacy (n*log), 1=Power (n^exp), 2=Saturating (n/(1+n/k)). Default: 1 (linear exponent=1.0 keeps old behavior)
+		# Default: 1
+		# Range: 0 ~ 2
+		003_rodFuelScalingMode = 1
+		#When rodFuelScalingMode=1: exponent for n^exp. Default: 1.00 (linear; keeps old behavior)
+		# Default: 1.0
+		# Range: 0.05 ~ 1.5
+		004_rodFuelScalingExponent = 1.0
+		#When rodFuelScalingMode=2: saturation constant k for n/(1+n/k). Default: 600
+		# Default: 600.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		005_rodFuelScalingSaturationK = 600.0
+
+	#Heat sink (coolant block) weights and formula multipliers
+	[reactor.heatSink]
+		#Weight for coolant cells touching a rod (Refrigerante 0). Default: 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		106d_heatSinkAdjacentWeight = 1.0
+		#Weight for coolant cells not touching any rod (Refrigerante 1). Default: 0.5
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		106e_heatSinkNonAdjacentWeight = 0.5
+		#Extra divisor for fuel consumption with heat sinks (MB%%). Default: 1.35
+		# Default: 1.35
+		# Range: 0.1 ~ 10.0
+		106f_heatSinkConsumptionDivisor = 1.35
+		#Scale RF produced with heat sink formula. Default: 1.16
+		# Default: 1.16
+		# Range: 0.1 ~ 5.0
+		106g_heatSinkRfMultiplier = 1.16
+		#Scale fuel consumption with heat sinks. Default: 1.21
+		# Default: 1.21
+		# Range: 0.1 ~ 5.0
+		106h_heatSinkFuelUnitsMultiplier = 1.21
+
+	#Structure validation
+	[reactor.validation]
+		#Ticks between reactor structure re-validation when ON (e.g. 200 = 10s). Default: 200
+		# Default: 200
+		# Range: > 1
+		000_reactorValidationIntervalTicks = 200
+		#If false, reactor is valid only with exactly one reactor controller on its outer faces. If true, multiple controllers allowed. Default: false
+		001_allowMultipleReactorControllers = false
+
+#Reactor Builder (construction speed and behavior)
+[builder]
+	#How many build steps to execute per tick while building. Higher = faster, but heavier server load. Default: 2
+	# Default: 2
+	# Range: > 1
+	000_buildStepsPerTick = 2
+	#Reactor Builder internal fluid tank capacity in mB. Default: 64000
+	# Default: 64000
+	# Range: > 1000
+	001_tankCapacityMb = 64000
+
+#Melter fluid tank
+[melter]
+	#Melter internal fluid tank capacity in mB. Default: 64000
+	# Default: 64000
+	# Range: > 1000
+	000_tankCapacityMb = 64000
+
+#Radiation Scrubber (Mekanism integration). Energy, scrub range, interval and catalyst.
+[radiation_scrubber]
+	#Energy (RF) consumed per scrub tick when the machine runs. Default: 100
+	# Default: 100
+	# Range: > 0
+	000_energyPerTick = 100
+	#Energy buffer capacity in RF. Default: 10000
+	# Default: 10000
+	# Range: > 100
+	001_energyCapacity = 10000
+	#Scrub radius in blocks (distance from machine)
+	# Default: 50
+	# Range: > 0
+	010_radiusBlocks = 50
+	#Ticks between each scrub pass. Default: 10
+	# Default: 10
+	# Range: > 1
+	011_intervalTicks = 10
+	#Base multiplier for how much radiation is removed per scrub (applied to datapack effectiveness). Default: 100
+	# Default: 100
+	# Range: > 1
+	100_baseRadiationRemoval = 100
+	#Base mB of radioactive gas destroyed per tick (100 RF per tick). With catalyst: base * gas_mult from datapack. Default: 10
+	# Default: 10
+	# Range: > 1
+	101_baseGasDestruction = 10
+
+#Turbine multiblock and simulation
+[turbine]
+
+	#Maximum turbine dimensions
+	[turbine.size]
+		#Maximum turbine width (X or Z). Default: 65
+		# Default: 65
+		# Range: > 1
+		000_maxTurbineWidth = 65
+		#Maximum turbine length (X or Z). Default: 65
+		# Default: 65
+		# Range: > 1
+		001_maxTurbineLength = 65
+		#Maximum turbine height (Y). Default: 65
+		# Default: 65
+		# Range: > 1
+		002_maxTurbineHeight = 65
+
+	#Turbine capacity and defaults (rf_production primary source is datapack)
+	[turbine.base]
+		#Minimum RF/t produced by any running turbine. Default: 0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		101b_minRfPerTick = 0.0
+		#Fallback RF per mB steam when datapack entry is missing. Default: 4
+		# Default: 4.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		000_defaultRfPerSteamMb = 4.0
+		#Default coil-layer setting in turbine builder (GUI shows this + 1). Default: 1 (= 2 layers in GUI)
+		# Default: 1
+		# Range: 0 ~ 32
+		001_defaultCoilLayerCount = 1
+
+	#Turbine balance (global multipliers and steam cap)
+	[turbine.balance]
+		#Production multiplier for turbine RF output. Default: 1
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		000_productionMultiplier = 1.0
+		#Consumption multiplier for turbine steam input. Default: 1
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		001_consumptionMultiplier = 1.0
+
+	#Balanced blade rings on turbine rods
+	[turbine.blade]
+		#Max mB steam per tick counted per valid balanced blade. Default: 1000
+		# Default: 1000.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		004_steamMbPerBladePerTick = 1000.0
+		#Steam input buffer capacity (mB) per valid balanced blade in the turbine controller,
+		#same idea as reactor coolant per rod (10000). Output condensate stays one tick on ports. Default: 10000
+		# Default: 10000
+		# Range: > 1
+		005_steamInputMbPerBlade = 10000
+		#Maximum blade distance from a turbine rod in blocks (ring index). Each complete ring adds four blades.
+		#Default 31 allows a 63x63 internal span with the rod at the center ((63 - 1) / 2).
+		# Default: 31
+		# Range: 1 ~ 64
+		000_maxBladeRing = 31
+		#Blade efficiency bonus per ascending layer (+3%% = 0.03). Default: 0.03
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		001_efficiencyBonusPerAscendingLayer = 0.03
+		#Blade efficiency malus per descending layer after bonus break. Default: 0.03
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		002_efficiencyMalusPerDescendingLayer = 0.03
+		#Require balanced blade rings (4, 8, 12... per rod) for runtime validation and steam cap. Default: true
+		003_requireBalancedBladeRings = true
+
+	#Elec coil zone tuning
+	[turbine.coil]
+		#Efficiency for air or unknown blocks in coil zone. Default: 0.3
+		# Default: 0.3
+		# Range: 0.0 ~ 10.0
+		000_emptyCoilEfficiency = 0.3
+
+	#Structure validation
+	[turbine.validation]
+		#Ticks between turbine structure re-validation when ON. Default: 200
+		# Default: 200
+		# Range: > 1
+		000_turbineValidationIntervalTicks = 200
+		#If false, turbine is valid only with exactly one turbine controller. Default: false
+		001_allowMultipleTurbineControllers = false
+
+#Turbine Builder (construction speed and behavior)
+[turbine_builder]
+	#Build steps per tick while building. Default: 2
+	# Default: 2
+	# Range: > 1
+	000_buildStepsPerTick = 2
+	#Turbine Builder internal fluid tank capacity in mB. Default: 64000
+	# Default: 64000
+	# Range: > 1000
+	001_tankCapacityMb = 64000
+
+#Optional integrations that may be considered overpowered or disruptive. All default: false.
+#Enable only if you want these effects.
+[evil_things]
+	#Reactor unstability. Default: false
+	000_reactor_unstability = false
+	#Mekanism radiation integration. Default: false
+	100_mekanism_radiation_integration = false
+	#Iska Utils freelag explosion on meltdown (requires iska_utils in the pack). Default: false
+	101_iska_utils_explosion_integration = false
+	#Alex's Caves explosion integration. Default: false
+	102_alexs_caves_explosion_integration = false
+
+	#Cooling/production ratio, permille cap, and interior thermal stress when unstability is enabled.
+	[evil_things.reactor_stability]
+		#Maximum stability when reactor unstability is enabled. Default: 1000
+		# Default: 1000
+		# Range: > 1
+		000_reactor_unstability_max_stability = 1000
+		#Interior block count at or below: base cooling/production ratio only (forgiving for small reactors). Default: 4096
+		# Default: 4096
+		# Range: 64 ~ 1000000000
+		001_stability_interior_volume_baseline = 4096
+		#Reference interior size where extra required ratio reaches maximum (huge reactors need top-tier coolant). Default: 262144
+		# Default: 262144
+		# Range: 1000 ~ 1000000000
+		002_stability_interior_volume_stress = 262144
+		#At stress volume, required cooling/production ratio is base (0.85) plus this value. Default: 0.11
+		# Default: 0.11
+		# Range: 0.0 ~ 0.25
+		003_stability_max_extra_required_ratio = 0.11
+		#Interior-span thermal stress divides overheating-based cooling RF (longest interior edge). Larger reactors need higher overheating tiers (datapack) for stability. Default: true
+		100_thermal_stress_from_size_enabled = true
+		#Reference interior span in blocks where factor is neutral (~1 after clipping). Typical small interior ~5 for a 7-shell reactor. Default: 5
+		# Default: 5.0
+		# Range: 1.0 ~ 512.0
+		101_thermal_stress_l_ref = 5.0
+		#Minimum interior span used in the stress curve (clip). Default: 3
+		# Default: 3.0
+		# Range: 1.0 ~ 512.0
+		102_thermal_stress_l_min = 3.0
+		#Exponent for (L/L_ref)^gamma; lower = gentler growth with size. Default: 0.38
+		# Default: 0.38
+		# Range: 0.05 ~ 3.0
+		103_thermal_stress_gamma = 0.38
+		#Stress strength: factor = 1 + alpha * ((L/L_ref)^gamma - 1). Default: 0.45
+		# Default: 0.45
+		# Range: 0.0 ~ 3.0
+		104_thermal_stress_alpha = 0.45
+		#Apply the same thermal stress factor to fluid coolant overheating (water/steam path). Default: true
+		105_thermal_stress_scale_fluid_cooling = true

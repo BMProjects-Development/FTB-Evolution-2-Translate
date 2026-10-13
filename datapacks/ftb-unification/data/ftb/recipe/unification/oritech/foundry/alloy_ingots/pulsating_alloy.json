@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:ingots/iron",
+    "#c:ender_pearls"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "enderio:pulsating_alloy_ingot"
+    }
+  ],
+  "time": 80
+}

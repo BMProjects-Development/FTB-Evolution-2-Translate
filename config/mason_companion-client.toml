@@ -1,0 +1,5 @@
+[recipebuilder]
+	#Where /mason recipebuilder writes: "world" (this world's datapacks folder) or "mason" (drafts Mason takes into the pack)
+	destination = "world"
+	#An ingredient in exactly one item tag under one of these prefixes is written as that tag. An empty list turns this off.
+	ingredientTagPrefixes = ["c:ingots/", "c:gems/", "c:storage_blocks/", "c:nuggets/", "c:dusts/", "c:raw_materials/", "c:plates/", "c:gears/"]

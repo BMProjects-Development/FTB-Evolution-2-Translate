@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:iridium_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ftbmaterials:iridium_plate"
+  }
+}

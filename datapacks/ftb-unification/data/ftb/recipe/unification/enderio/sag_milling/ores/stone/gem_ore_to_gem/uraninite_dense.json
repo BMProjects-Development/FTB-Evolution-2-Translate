@@ -1,0 +1,20 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 100000,
+  "input": "powah:uraninite_ore_dense",
+  "outputs": [
+    {
+      "item": {
+        "count": 10,
+        "id": "powah:uraninite"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

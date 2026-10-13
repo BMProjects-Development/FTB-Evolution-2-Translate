@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "justdirethings:gooblock_tier1",
+    "justdirethings:coal_t1",
+    "justdirethings:raw_ferricore",
+    "justdirethings:totem_of_death_recall"
+  ],
+  "result": {
+    "id": "justdynathings:charged_primogel_goo"
+  }
+}

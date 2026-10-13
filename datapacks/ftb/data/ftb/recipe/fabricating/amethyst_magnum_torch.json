@@ -1,0 +1,14 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "minecraft:amethyst_shard", "count": 4 },
+    { "ingredient": "minecraft:gold_ingot", "count": 2 },
+    { "ingredient": "#minecraft:logs", "count": 2 },
+    { "ingredient": "minecraft:fire_charge", "count": 1 }
+  ],
+  "results": [
+    { "id": "magnumtorch:amethyst_magnum_torch" }
+  ],
+  "ticks": 400,
+  "energy_per_tick": 2500
+}

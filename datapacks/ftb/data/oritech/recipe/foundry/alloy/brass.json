@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:ingots/copper",
+    "#c:ingots/zinc"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:brass_ingot"
+    }
+  ],
+  "time": 80
+}

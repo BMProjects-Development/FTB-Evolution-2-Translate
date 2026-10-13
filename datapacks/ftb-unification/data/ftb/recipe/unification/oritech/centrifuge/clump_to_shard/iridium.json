@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/iridium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:iridium_shard"
+    }
+  ],
+  "time": 100
+}

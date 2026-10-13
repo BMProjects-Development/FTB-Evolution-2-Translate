@@ -1,0 +1,2 @@
+#Prevents weather from stopping when players sleep. Thunderstorms will subside into gentler weather.
+prevent_sleep_reset = false

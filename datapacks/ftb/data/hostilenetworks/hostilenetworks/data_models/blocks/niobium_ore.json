@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ltxi:niobium_ore",
+  "variants": [],
+  "name_color": "#9A8CC8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.niobium_ore",
+  "fabricator_drops": [
+    {
+      "id": "ltxi:raw_niobium",
+      "count": 8
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

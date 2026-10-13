@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/other/iron"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "minecraft:raw_iron"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:steel_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:steel_plate"
+  }
+}

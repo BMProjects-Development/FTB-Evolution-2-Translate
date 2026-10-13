@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "entity": "mutantmonsters:mutant_creeper",
+  "variants": [],
+  "name_color": "#4AA04A",
+  "display": {
+    "scale": 0.6
+  },
+  "sim_cost": 768,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.mutant_creeper",
+  "fabricator_drops": [
+    {
+      "id": "mutantmonsters:creeper_shard",
+      "count": 1
+    },
+    {
+      "id": "minecraft:gunpowder",
+      "count": 32
+    }
+  ]
+}

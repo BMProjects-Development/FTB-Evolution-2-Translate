@@ -1,0 +1,31 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "bhc:yellow_heart_melted",
+      "count": 1
+    },
+     {
+      "ingredient": "bhc:green_heart_melted",
+      "count": 2
+    }
+    
+  ],
+  "fluids": [
+    {
+      "id": "neovitae:essentia_vitae_source",
+      "amount": 8000
+    },
+    {
+      "id": "evilcraft:blood",
+      "amount": 8000
+    }
+  ],
+  "results": [
+    {
+      "id": "bhc:blue_heart"
+    }
+  ],
+  "ticks": 72000,
+  "energy_per_tick": 1000000
+}

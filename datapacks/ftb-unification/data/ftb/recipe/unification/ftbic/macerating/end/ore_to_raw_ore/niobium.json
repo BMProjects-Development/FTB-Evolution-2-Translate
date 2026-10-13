@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ltxi:niobium_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "ltxi:raw_niobium"
+      }
+    },
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 2,
+        "id": "ltxi:raw_niobium"
+      }
+    }
+  ]
+}

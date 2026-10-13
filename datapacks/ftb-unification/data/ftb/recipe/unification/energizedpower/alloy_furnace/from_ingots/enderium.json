@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:ender_pearl"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:gems/diamond"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "result": {
+    "id": "ftbic:enderium_ingot",
+    "count": 1
+  },
+  "ticks": 2000
+}

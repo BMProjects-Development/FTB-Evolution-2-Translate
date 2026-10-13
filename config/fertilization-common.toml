@@ -1,0 +1,22 @@
+#Set to true if compressed bone meal drops should go straight into the player's inventory.
+addDropsDirectlyToInventory = false
+#The amount of bone meal applied to the plant when using extremely compressed bone meal.
+extremelyCompressedBoneMealPower = 16
+#The amount of bone meal applied to the plant when using compressed bone meal.
+compressedBoneMealPower = 4
+#This enables use of extremely compressed bone meal to turn saplings into large fancy trees.
+allowBoneMealOnSaplings = true
+#This enables use of normal Bone Meal on vines in order to grow them downwards.
+allowBoneMealOnVines = true
+#This enables use of normal Bone Meal on sugar canes in order to grow them upwards.
+allowBoneMealOnSugarCanes = true
+#Set to true if compressed bone meal drops should go straight into the machine's inventory when used automatically.
+addDropsDirectlyToInventoryForFakePlayers = true
+#List of blocks that can be duplicated by using Florist's Bone Meal on them.
+flowerBlocks = ["minecraft:cornflower", "minecraft:red_tulip", "minecraft:peony", "minecraft:sunflower", "minecraft:blue_orchid", "minecraft:pink_tulip", "minecraft:azure_bluet", "minecraft:dandelion", "minecraft:lilac", "minecraft:rose_bush", "minecraft:poppy", "minecraft:oxeye_daisy", "minecraft:white_tulip", "minecraft:allium", "minecraft:orange_tulip", "minecraft:lily_of_the_valley"]
+#The maximum range that flowers can spawn when using Florist's Bone Meal on grass.
+floristsBoneMealMaxRange = 3
+#The maximum amount of flowers that can spawn when using Florist's Bone Meal on grass.
+floristsBoneMealMaxFlowers = 5
+#The biome whose flowers are used when the current biome has no flowers configured. Leave empty to disable the fallback.
+floristsBoneMealFallbackBiome = "minecraft:plains"

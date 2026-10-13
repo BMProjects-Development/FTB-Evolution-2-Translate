@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:nuggets/platinum"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:platinum_tiny_dust"
+    }
+  ],
+  "time": 100
+}

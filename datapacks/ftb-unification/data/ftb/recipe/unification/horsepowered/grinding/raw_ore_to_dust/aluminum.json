@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/aluminum",
+  "result": {
+    "id": "ftbmaterials:aluminum_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:aluminum_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

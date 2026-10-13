@@ -1,0 +1,14 @@
+{
+  "fallback": "ftb:dungeons/aqua/lootboxes/common",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/aqua/lootbox/common/124",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

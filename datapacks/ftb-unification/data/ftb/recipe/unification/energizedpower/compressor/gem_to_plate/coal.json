@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "minecraft:coal"
+  },
+  "result": {
+    "id": "ftbmaterials:coal_plate"
+  }
+}

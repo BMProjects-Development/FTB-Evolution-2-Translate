@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/other/desh",
+  "result": {
+    "id": "stellaris:raw_desh"
+  },
+  "secondary": {
+    "id": "stellaris:raw_desh"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

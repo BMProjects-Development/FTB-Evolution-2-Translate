@@ -1,0 +1,27 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:raw_materials/platinum",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:platinum_dust"
+      }
+    },
+    {
+      "chance": 0.8,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:platinum_dust"
+      }
+    },
+    {
+      "chance": 0.12,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:gold_dust"
+      }
+    }
+  ]
+}

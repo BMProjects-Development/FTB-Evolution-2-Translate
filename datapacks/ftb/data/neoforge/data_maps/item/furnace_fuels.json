@@ -1,0 +1,43 @@
+{
+  "values": {
+    "ftbmaterials:charcoal_block": {
+      "burn_time": 16000
+    },
+    "mysticalagradditions:inferium_coal": {
+      "burn_time": 2400
+    },
+    "mysticalagradditions:prudentium_coal": {
+      "burn_time": 4800
+    },
+    "mysticalagradditions:tertium_coal": {
+      "burn_time": 9600
+    },
+    "mysticalagradditions:imperium_coal": {
+      "burn_time": 19200
+    },
+    "mysticalagradditions:supremium_coal": {
+      "burn_time": 38400
+    },
+    "mysticalagradditions:insanium_coal": {
+      "burn_time": 76800
+    },
+    "mysticalagradditions:inferium_coal_block": {
+      "burn_time": 21600
+    },
+    "mysticalagradditions:prudentium_coal_block": {
+      "burn_time": 43200
+    },
+    "mysticalagradditions:tertium_coal_block": {
+      "burn_time": 86400
+    },
+    "mysticalagradditions:imperium_coal_block": {
+      "burn_time": 172800
+    },
+    "mysticalagradditions:supremium_coal_block": {
+      "burn_time": 345600
+    },
+    "mysticalagradditions:insanium_coal_block": {
+      "burn_time": 691200
+    }
+  }
+}

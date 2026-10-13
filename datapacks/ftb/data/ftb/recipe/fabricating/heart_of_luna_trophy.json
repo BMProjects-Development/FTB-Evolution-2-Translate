@@ -1,0 +1,42 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "stellaris:lunar_parasite_tooth",
+      "count": 64
+    },
+    {
+      "ingredient": "stellaris:lunar_crawler_spike_cluster",
+      "count": 32
+    },
+    {
+      "ingredient": "stellaris:moon_stone",
+      "count": 64
+    },
+    {
+      "ingredient": "stellaris:desh_block",
+      "count": 12
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 8
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 16000
+    },
+    {
+      "id": "advanced_ae:quantum_infusion_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "stellaris:heart_of_luna_trophy"
+    }
+  ],
+  "ticks": 36000,
+  "energy_per_tick": 1000000
+}

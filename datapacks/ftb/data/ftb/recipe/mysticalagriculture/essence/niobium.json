@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:niobium_essence"
+  },
+  "result": {
+    "id": "ltxi:niobium_ingot",
+    "count": 2
+  }
+}

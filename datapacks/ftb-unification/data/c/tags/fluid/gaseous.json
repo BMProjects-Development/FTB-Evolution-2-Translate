@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "oritech:flowing_steam",
+    "oritech:still_steam"
+  ],
+  "remove": [
+    "colossal_reactors:gas_fluid_steam",
+    "colossal_reactors:gas_fluid_steam_flowing"
+  ]
+}

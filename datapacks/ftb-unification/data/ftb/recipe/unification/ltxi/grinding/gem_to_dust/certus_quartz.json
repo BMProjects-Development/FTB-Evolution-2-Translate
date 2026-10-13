@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ae2:certus_quartz_crystal"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ae2:certus_quartz_dust"
+    }
+  ]
+}

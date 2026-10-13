@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:sulfur_nether_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:sulfur_dust"
+    },
+    {
+      "count": {
+        "chance": 0.75,
+        "max": 3,
+        "min": 3
+      },
+      "id": "ftbmaterials:sulfur_dust",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ftbmaterials:copper_plate",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:copper_wire"
+  }
+}

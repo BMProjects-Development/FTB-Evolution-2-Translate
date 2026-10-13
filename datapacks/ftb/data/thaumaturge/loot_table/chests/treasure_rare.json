@@ -1,0 +1,84 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 41
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:loot_bag_rare",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:thaumium_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:thaumium_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:thaumium_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:thaumium_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:amulet_fancy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:ring_fancy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:girdle_fancy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:ring_apprentice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:amulet_vis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturge:curio_ancient",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.0005,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "thaumaturge:gameplay/lore_book"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "thaumaturge:chests/treasure_rare"
+}

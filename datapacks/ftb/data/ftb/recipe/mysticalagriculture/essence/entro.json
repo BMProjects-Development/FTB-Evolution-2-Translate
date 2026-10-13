@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:entro_essence"
+  },
+  "result": {
+    "id": "extendedae:entro_crystal",
+    "count": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "ltxi:sieving",
+  "fluid_inputs": [
+    {
+      "amount": 1000,
+      "ingredient": "#minecraft:water"
+    }
+  ],
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:desh_dirty_dust"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:desh_clump"
+    },
+    {
+      "count": {
+        "chance": 0.5,
+        "max": 1,
+        "min": 1
+      },
+      "id": "ftbmaterials:desh_clump"
+    }
+  ],
+  "mode": "ltxi:ore_processing"
+}

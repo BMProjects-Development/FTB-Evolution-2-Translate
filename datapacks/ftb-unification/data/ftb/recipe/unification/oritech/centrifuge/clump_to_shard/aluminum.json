@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/aluminum"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:aluminum_shard"
+    }
+  ],
+  "time": 100
+}

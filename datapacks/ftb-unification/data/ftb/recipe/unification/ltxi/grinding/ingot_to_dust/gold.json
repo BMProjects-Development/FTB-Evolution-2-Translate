@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:gold_dust"
+    }
+  ]
+}

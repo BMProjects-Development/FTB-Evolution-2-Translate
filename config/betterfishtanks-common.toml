@@ -1,0 +1,44 @@
+#Better Fishtanks Mod Configuration
+[general]
+	#Require food for fish survival
+	requireFood = true
+	#Defines how water is displayed in Fish Tank UI
+	#PERCENT: Shows as percentage (0-100%)
+	#BUCKETS: Shows as whole buckets (B)
+	#MILLIBUCKETS: Shows as millibuckets (mB)
+	#Allowed Values: PERCENT, BUCKETS, MILLIBUCKETS
+	waterDisplayUnit = "PERCENT"
+	#BETA MODE Set to true to use the new entity-based water rendering system.
+	#Set to false to use the vanilla waterlogging system.
+	useEntityWaterRendering = false
+	#Automatically deactivates fishtanks and aquariums from other mods by removing their crafting recipes.
+	#Set to false to keep fishtanks and aquariums from other mods craftable.
+	removeOtherModFishtanks = false
+	#Keywords used to detect fishtank/aquarium items from other mods.
+	#An item is deactivated if its registry path contains one of these keywords (own mod and vanilla are never affected).
+	otherModFishtankKeywords = ["fishtank", "fish_tank", "aquarium", "fishbowl", "fish_bowl"]
+
+[mob]
+	#Set to true to allow Drowned to be captured with the Fish Bag.
+	allowDrownedCapture = false
+	#Set to true to allow Guardians and Elder Guardians to be captured with the Fish Bag.
+	allowGuardianCapture = false
+	#Set to true to allow whales to be captured with the Fish Bag.
+	#WARNING: Large fish like whales may eat smaller fish in the same tank!
+	allowWhaleCapture = false
+	#Set to false to prevent fish from hunting or hurting each other inside the fishtank.
+	allowFishHunting = true
+	#Set to false to prevent pufferfish from blowing up while in a fishtank.
+	allowPufferfishPuffing = true
+	#List of custom entity types or tags that can be caught with the Fish Bag.
+	#Format for entities: "modid:entity_id" (e.g., "minecraft:cow")
+	#Format for tags: "#modid:tag_id" (e.g., "#minecraft:fishes")
+	customCatchableEntitiesByTag = ["example:dummy_entity"]
+	#List of custom entities that can be caught with the Fish Bag by their string name.
+	#Format: string name of the entity or part of it (e.g., "shark", "turtle")
+	#Will match if the registry name or display name contains this string.
+	customCatchableEntitiesByName = ["dummy_shark"]
+	#List of entities that should NOT be added to the Fishtank or be collectable with the Fishbag, even if they are in the catchable list.
+	#Format: string name of the entity or part of it (e.g., "shark", "turtle")
+	#This acts as a temporary blacklist for the current session.
+	blacklistedEntitiesByName = []

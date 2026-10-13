@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/grains_of_pizeallity"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio:end_steel_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

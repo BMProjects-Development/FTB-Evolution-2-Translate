@@ -1,0 +1,5 @@
+{
+  "fromBlock": "ftbmaterials:quartz_stone_ore",
+  "item": "minecraft:quartz",
+  "toBlock": "minecraft:stone"
+}

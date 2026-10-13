@@ -1,0 +1,2307 @@
+{
+  id: "7B3ADCA4950CB4F0",
+  group: "4780068BA76609B8",
+  order_index: 11,
+  icon: {
+    id: "oritech:atomic_forge",
+    count: 1,
+  },
+  filename: "oritech",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "33E4C81B762892B2",
+  quests: [
+    {
+      icon: {
+        id: "oritech:nickel_ingot",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      can_repeat: false,
+      id: "33E4C81B762892B2",
+      tasks: [
+        {
+          id: "765414790D7CA99B",
+          type: "item",
+          icon: {
+            id: "ftbmaterials:nickel_raw_ore",
+            count: 1,
+          },
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/nickel)",
+            },
+          },
+        },
+        {
+          id: "0E4AEB1113D49AF9",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbmaterials:nickel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EEB8ACD83BB96CD",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "5F40B28943B9FA9B",
+          type: "item",
+          item: {
+            id: "oritech:banana",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "71DEC691ACE188BF",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:basic_generator",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.5,
+      shape: "circle",
+      dependencies: [
+        "33E4C81B762892B2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2DCC43735EC5F60F",
+      tasks: [
+        {
+          id: "6EDC66CBDBBF3CA1",
+          type: "item",
+          item: {
+            id: "oritech:basic_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70637901922B7666",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7C6B9F2FA3DBF90E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_core_1",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "33E4C81B762892B2",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "143E07D2565798AB",
+      tasks: [
+        {
+          id: "0AE9E3C1553154B6",
+          type: "item",
+          icon: {
+            id: "oritech:machine_core_2",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritech:machine_core_1)item(oritech:machine_core_2)item(oritech:machine_core_3)item(oritech:machine_core_4)item(oritech:machine_core_5)item(oritech:machine_core_6)item(oritech:machine_core_7))",
+            },
+          },
+        },
+        {
+          id: "73EE4AE6225027B0",
+          type: "item",
+          item: {
+            id: "oritech:motor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06A85A1E47927AD5",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2434A9739FBA8617",
+          type: "item",
+          item: {
+            id: "oritech:machine_core_2",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "4773848029AB5876",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:pulverizer",
+        count: 1,
+      },
+      x: 2.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "143E07D2565798AB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "24CE908ED60FD514",
+      tasks: [
+        {
+          id: "4FC4DCB57BACB2A7",
+          type: "item",
+          item: {
+            id: "oritech:pulverizer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D180C34B3E31C20",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "113BEC0555D66EDD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:centrifuge",
+        count: 1,
+      },
+      x: 3.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "143E07D2565798AB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "50B7CA94F8BB6F58",
+      tasks: [
+        {
+          id: "361DE5E020C165B8",
+          type: "item",
+          item: {
+            id: "oritech:centrifuge",
+            count: 1,
+          },
+        },
+        {
+          id: "70D863E2402CBDEC",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "oritech:machine_fluid_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5238DF0FBB16F9AD",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "478B9D67B725829D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:foundry",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "143E07D2565798AB",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "0A6E103A6945D11E",
+      tasks: [
+        {
+          id: "3CC422173187376A",
+          type: "item",
+          item: {
+            id: "oritech:foundry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A41378A04706360",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5418070CA8402B16",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:fragment_forge",
+        count: 1,
+      },
+      x: 5.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "0A6E103A6945D11E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1E649B7D09AB54F5",
+      tasks: [
+        {
+          id: "33149BDB80F38B7B",
+          type: "item",
+          item: {
+            id: "oritech:fragment_forge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53193234A03534DA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6B1CCAFC205D681A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:assembler",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0A6E103A6945D11E",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "3AC24F0B92156F55",
+      tasks: [
+        {
+          id: "6DB9473A9D51E53F",
+          type: "item",
+          item: {
+            id: "oritech:assembler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "679FFC92B23F8AA0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3EECC9AD5E1C5F8D",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:cybernetic_augmentation_center",
+        count: 1,
+      },
+      x: 6.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "3AC24F0B92156F55",
+      ],
+      size: 1.25,
+      min_width: 300,
+      can_repeat: false,
+      id: "1B20BEE2BE4476A7",
+      tasks: [
+        {
+          id: "296676C38E571ABA",
+          type: "item",
+          item: {
+            id: "oritech:cybernetic_augmentation_center",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F51E89EEE20756F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3F0B774FEEC208AC",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:refinery",
+        count: 1,
+      },
+      x: 8.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "3AC24F0B92156F55",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "10AD11B1A8306AC9",
+      tasks: [
+        {
+          id: "4430A9C5BE8F500E",
+          type: "item",
+          item: {
+            id: "oritech:refinery",
+            count: 1,
+          },
+        },
+        {
+          id: "59AAE49EB827455B",
+          type: "item",
+          item: {
+            id: "oritech:refinery_chamber_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7862CD3C8CBC52F6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3097E2B45D381703",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:still_oil_bucket",
+        count: 1,
+      },
+      x: 8.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "10AD11B1A8306AC9",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2D48306B1E2F72B8",
+      tasks: [
+        {
+          id: "428522C4EB26B0D9",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "28C507C52AEE825E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:still_fuel_bucket",
+        count: 1,
+      },
+      x: 10.5,
+      y: -2.5,
+      shape: "circle",
+      dependencies: [
+        "10AD11B1A8306AC9",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "39EFBD54020011EF",
+      tasks: [
+        {
+          id: "1B89AFB32A6A269C",
+          type: "item",
+          item: {
+            id: "oritech:still_fuel_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F27551E955241A3",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "646D7D371F186AE5",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:fuel_generator",
+        count: 1,
+      },
+      x: 10.5,
+      y: -4.5,
+      shape: "hexagon",
+      dependencies: [
+        "39EFBD54020011EF",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "7F186F5B5630DB4A",
+      tasks: [
+        {
+          id: "0662F00EFE97AC62",
+          type: "item",
+          item: {
+            id: "oritech:fuel_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D14B732E9502FAF",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "75692650E0AFD8E3",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:steam_boiler_addon",
+        count: 1,
+      },
+      x: 0.0,
+      y: -4.5,
+      shape: "circle",
+      dependencies: [
+        "33E4C81B762892B2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "692DC36FB22620DB",
+      tasks: [
+        {
+          id: "23D7840E7F33E28A",
+          type: "item",
+          item: {
+            id: "oritech:steam_boiler_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5284A9F947DE877A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "29062512DD42E041",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:steam_engine",
+        count: 1,
+      },
+      x: 2.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "692DC36FB22620DB",
+      ],
+      size: 1.5,
+      optional: true,
+      can_repeat: false,
+      id: "67D437F7F6220BB5",
+      tasks: [
+        {
+          id: "68CE2E878B5EF923",
+          type: "item",
+          item: {
+            id: "oritech:steam_engine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1825C207EF36126E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:enderic_laser",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "3AC24F0B92156F55",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "036C11AC70835846",
+      tasks: [
+        {
+          id: "7C189D874C385FFE",
+          type: "item",
+          item: {
+            id: "oritech:enderic_lens",
+            count: 1,
+          },
+        },
+        {
+          id: "10FBAD00902D1F1F",
+          type: "item",
+          item: {
+            id: "oritech:enderic_laser",
+            count: 1,
+          },
+        },
+        {
+          id: "5252888A29773714",
+          type: "item",
+          item: {
+            id: "oritech:target_designator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EBFFA8E89880CA0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "044CA545EA378A85",
+          type: "item",
+          item: {
+            id: "oritech:motor",
+            count: 1,
+          },
+        },
+        {
+          id: "7EED121A17B86D2A",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:enderic_laser",
+        count: 1,
+      },
+      x: 10.0,
+      y: 2.5,
+      shape: "circle",
+      dependencies: [
+        "036C11AC70835846",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "727FC1D9337AAD8C",
+      tasks: [
+        {
+          id: "3B05C59A1B3F56A9",
+          type: "item",
+          item: {
+            id: "oritech:enderic_laser",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "4624BEACAC919484",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2354625A3701EA5C",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:flux_gate",
+        count: 1,
+      },
+      x: 12.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "036C11AC70835846",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "0C9CD2D8F10D750F",
+      tasks: [
+        {
+          id: "05F9E7717962AB1D",
+          type: "item",
+          item: {
+            id: "oritech:fluxite",
+            count: 1,
+          },
+        },
+        {
+          id: "28D8B33BAFD2A5F2",
+          type: "item",
+          item: {
+            id: "oritech:flux_gate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68F49A4216FF50D4",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5039E1A4D8107AB9",
+          type: "item",
+          item: {
+            id: "oritech:fluxite",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "7C8E8A64DE278235",
+          type: "item",
+          item: {
+            id: "minecraft:budding_amethyst",
+            count: 1,
+          },
+        },
+        {
+          id: "35FC722CD5A1C6C9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:enderic_railgun",
+        count: 1,
+      },
+      x: 12.5,
+      y: 2.5,
+      shape: "diamond",
+      dependencies: [
+        "0C9CD2D8F10D750F",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 400,
+      can_repeat: false,
+      id: "6697F832067F1A9C",
+      tasks: [
+        {
+          id: "4B727B54886857CA",
+          type: "item",
+          item: {
+            id: "oritech:enderic_railgun",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E9BD6A7AF60904B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:atomic_forge",
+        count: 1,
+      },
+      x: 15.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0C9CD2D8F10D750F",
+      ],
+      size: 1.75,
+      can_repeat: false,
+      id: "091B8E814908DEDF",
+      tasks: [
+        {
+          id: "031D53F09F9E6472",
+          type: "item",
+          item: {
+            id: "oritech:atomic_forge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "037EDF3E9F05F5D0",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "0E36E2BF3A2A57AC",
+          type: "item",
+          item: {
+            id: "oritech:machine_core_4",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "1B7AE0E1382D1419",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:prometheum_ingot",
+        count: 1,
+      },
+      x: 15.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "091B8E814908DEDF",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2ECAD5F752E445F1",
+      tasks: [
+        {
+          id: "33807E553D07D408",
+          type: "item",
+          item: {
+            id: "oritech:prometheum_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F9CEC97AD04D0E9",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "070597B10E0D3915",
+          type: "item",
+          item: {
+            id: "oritech:prometheum_ingot",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "669EC2C243E6FD2D",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:nuclear_reactor_controller",
+        count: 1,
+      },
+      x: 15.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "091B8E814908DEDF",
+      ],
+      size: 1.5,
+      min_width: 350,
+      can_repeat: false,
+      id: "3F75F781DE5123F4",
+      tasks: [
+        {
+          id: "479B85C2C5087C80",
+          type: "item",
+          item: {
+            id: "oritech:nuclear_reactor_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00E23D08DAB96D03",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1252EBCF2F7A058A",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:reactor_wall",
+        count: 1,
+      },
+      x: 14.5,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "3F75F781DE5123F4",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 350,
+      can_repeat: false,
+      id: "45B2C8BD2ACBA46D",
+      tasks: [
+        {
+          id: "105711A82043304F",
+          type: "item",
+          item: {
+            id: "oritech:reactor_wall",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "614D0BCE7913D94C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:reactor_rod",
+        count: 1,
+      },
+      x: 14.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "3F75F781DE5123F4",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      can_repeat: false,
+      id: "0E0B4F549B42AF63",
+      tasks: [
+        {
+          id: "200DC63D1223B179",
+          type: "item",
+          icon: {
+            id: "oritech:reactor_rod",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))",
+              "minecraft:custom_name": "\"Reactor Rods\"",
+            },
+          },
+        },
+        {
+          id: "23857B53382C2608",
+          type: "item",
+          item: {
+            id: "oritech:reactor_fuel_port",
+            count: 1,
+          },
+        },
+        {
+          id: "5C391A14FEE12A36",
+          type: "item",
+          item: {
+            id: "oritech:reactor_neutron_reflector",
+            count: 1,
+          },
+        },
+        {
+          id: "5E0907252C228A2D",
+          type: "item",
+          icon: {
+            id: "oritech:uranium_pellet",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritech:uranium_pellet)item(oritech:plutonium_pellet))",
+              "minecraft:custom_name": "\"Reactor Fuel\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AD924850E5206AC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:reactor_heat_vent",
+        count: 1,
+      },
+      x: 15.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "3F75F781DE5123F4",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      can_repeat: false,
+      id: "030F1F8A4B0C1EBF",
+      tasks: [
+        {
+          id: "5A18B3355BC0949C",
+          type: "item",
+          item: {
+            id: "oritech:reactor_heat_vent",
+            count: 1,
+          },
+        },
+        {
+          id: "063CF8DB8C40A151",
+          type: "item",
+          item: {
+            id: "oritech:reactor_heat_pipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18BA77B6547CB563",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:reactor_energy_port",
+        count: 1,
+      },
+      x: 15.5,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "3F75F781DE5123F4",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      can_repeat: false,
+      id: "4A5FD3641E0A566E",
+      tasks: [
+        {
+          id: "6525BC16B1EAE044",
+          type: "item",
+          item: {
+            id: "oritech:reactor_energy_port",
+            count: 1,
+          },
+        },
+        {
+          id: "1D643D98CEB8FCAD",
+          type: "item",
+          item: {
+            id: "oritech:reactor_redstone_port",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E49D4DE3BB59A2E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:reactor_heat_absorber",
+        count: 1,
+      },
+      x: 16.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "3F75F781DE5123F4",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      can_repeat: false,
+      id: "456030ECDFA9CE3B",
+      tasks: [
+        {
+          id: "63D8367E3135F3EF",
+          type: "item",
+          item: {
+            id: "oritech:reactor_heat_absorber",
+            count: 1,
+          },
+        },
+        {
+          id: "77240872AC41D4B0",
+          type: "item",
+          item: {
+            id: "oritech:reactor_coolant_absorber_port",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DD107E84EDC7C0C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:particle_accelerator",
+        count: 1,
+      },
+      x: 17.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "091B8E814908DEDF",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "2C0C63951FDED180",
+      tasks: [
+        {
+          id: "0817E4AE84990A64",
+          type: "item",
+          item: {
+            id: "oritech:particle_accelerator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60CEFAAF390CA777",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "706F4355551847FB",
+          type: "item",
+          item: {
+            id: "oritech:flux_gate",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "39F2E290FD62DD95",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:accelerator_ring",
+        count: 1,
+      },
+      x: 20.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "2C0C63951FDED180",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "7791DA964DA2A80D",
+      tasks: [
+        {
+          id: "7878D1695F448930",
+          type: "item",
+          item: {
+            id: "oritech:accelerator_motor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C7738F7A6CE1AFC",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "74124C4A69A35FC2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:accelerator_motor",
+        count: 1,
+      },
+      x: 21.5,
+      y: -1.5,
+      shape: "circle",
+      dependencies: [
+        "7791DA964DA2A80D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1770A460E1FD7CC8",
+      tasks: [
+        {
+          id: "76C5E0A769724678",
+          type: "item",
+          item: {
+            id: "oritech:accelerator_ring",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79E7BA56ACB99183",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5F9EF40EA2924D3E",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:accelerator_sensor",
+        count: 1,
+      },
+      x: 21.5,
+      y: 1.5,
+      shape: "circle",
+      dependencies: [
+        "7791DA964DA2A80D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "778A876616D4638E",
+      tasks: [
+        {
+          id: "51A1F783C4428ADA",
+          type: "item",
+          item: {
+            id: "oritech:accelerator_sensor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A508EEC26E67AF2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7A7A1A3FED9ECFC3",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:tachyon_absorber",
+        count: 1,
+      },
+      x: 23.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "1770A460E1FD7CC8",
+        "778A876616D4638E",
+      ],
+      size: 1.25,
+      min_width: 300,
+      can_repeat: false,
+      id: "77C53FD36F7747EA",
+      tasks: [
+        {
+          id: "20475389DC252042",
+          type: "item",
+          item: {
+            id: "oritech:tachyon_absorber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69E5B25AE00D792B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "74EA9C02780B54E2",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:black_hole",
+        count: 1,
+      },
+      x: 25.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "77C53FD36F7747EA",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "107B36DF506002D4",
+      tasks: [
+        {
+          id: "2AB90856E49A5CE8",
+          type: "item",
+          item: {
+            id: "oritech:black_hole",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DCA4B25B9503FEA",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "775D610FEBB0AF52",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:soul_flowers",
+        count: 1,
+      },
+      x: 7.5,
+      y: 2.5,
+      shape: "diamond",
+      dependencies: [
+        "3AC24F0B92156F55",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2588279A071E5A6B",
+      tasks: [
+        {
+          id: "307A38BAB131FECA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2003A3B09499C056",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:stabilized_enchanter",
+        count: 1,
+      },
+      x: 6.5,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "2588279A071E5A6B",
+      ],
+      size: 1.25,
+      min_width: 300,
+      can_repeat: false,
+      id: "13DFA7B0975971B7",
+      tasks: [
+        {
+          id: "6D4C5FDEA7FEEA25",
+          type: "item",
+          item: {
+            id: "oritech:arcane_catalyst",
+            count: 1,
+          },
+        },
+        {
+          id: "4DBBCDDE4643013E",
+          type: "item",
+          item: {
+            id: "oritech:stabilized_enchanter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41B25FC00E6AF04E",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "1330380403CE6264",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:enchanted_book",
+        count: 1,
+      },
+      x: 6.5,
+      y: 6.5,
+      shape: "circle",
+      dependencies: [
+        "13DFA7B0975971B7",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "17B369A4BF64EE98",
+      tasks: [
+        {
+          id: "5BDF5C0534C59C38",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "166607A83CF4DFA7",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:spawner_controller",
+        count: 1,
+      },
+      x: 8.5,
+      y: 4.5,
+      shape: "circle",
+      dependencies: [
+        "2588279A071E5A6B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2765AC7C3E0350FE",
+      tasks: [
+        {
+          id: "593B5356F0B171D1",
+          type: "item",
+          item: {
+            id: "oritech:spawner_controller",
+            count: 1,
+          },
+        },
+        {
+          id: "4B57273AED62AE48",
+          type: "item",
+          item: {
+            id: "oritech:spawner_cage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4666C60BB9326C12",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "16C81A603EBA71B4",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_extender",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "143E07D2565798AB",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "0A92084D7043133A",
+      tasks: [
+        {
+          id: "375D1BBFC1D054B4",
+          type: "item",
+          item: {
+            id: "oritech:machine_extender",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DBF42467D11E3B7",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "27F720EC410AFFC9",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_speed_addon",
+        count: 1,
+      },
+      x: 1.0,
+      y: 4.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "22B83D03C6C3E61E",
+      tasks: [
+        {
+          id: "3AAD934CAC32D6E5",
+          type: "item",
+          item: {
+            id: "oritech:machine_speed_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "050E05E601FB254A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "50091A3762338524",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "7369C88350E90CA0",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_efficiency_addon",
+        count: 1,
+      },
+      x: 2.0,
+      y: 4.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "39BC89942A5CA7E1",
+      tasks: [
+        {
+          id: "19C27C364DCBE852",
+          type: "item",
+          item: {
+            id: "oritech:machine_efficiency_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "346E42D9702F8222",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0D346E0A5D62778E",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "681F060453DEEC41",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:synergy_matrix_addon",
+        count: 1,
+      },
+      x: 3.0,
+      y: 4.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "535666E7CDE3BD43",
+      tasks: [
+        {
+          id: "40A2B057EB3D172C",
+          type: "item",
+          item: {
+            id: "oritech:synergy_matrix_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "319E7BEA121A73F4",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5D0581A7C6D1E771",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:auxiliary_processing_chamber_addon",
+        count: 1,
+      },
+      x: 4.0,
+      y: 4.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "61BF4B18F713FECD",
+      tasks: [
+        {
+          id: "4CF3DF89C0FC6AB8",
+          type: "item",
+          item: {
+            id: "oritech:auxiliary_processing_chamber_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A51CE766EDEA5B0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "76822EC3F4E2C04D",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_burst_addon",
+        count: 1,
+      },
+      x: 1.0,
+      y: 5.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "738AAB7C13A1C2CF",
+      tasks: [
+        {
+          id: "391FC4263C4FE359",
+          type: "item",
+          item: {
+            id: "oritech:machine_burst_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FC5A5F10BEB5B30",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3090A628C70829A0",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_capacitor_addon",
+        count: 1,
+      },
+      x: 2.0,
+      y: 5.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0F3EDB9AE592016B",
+      tasks: [
+        {
+          id: "28DA03471645CC88",
+          type: "item",
+          item: {
+            id: "oritech:machine_capacitor_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64BC721C07F60EE8",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1193AF61D7E75E24",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "329375114F79A107",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_acceptor_addon",
+        count: 1,
+      },
+      x: 3.0,
+      y: 5.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0BAF0C06F01C4E80",
+      tasks: [
+        {
+          id: "50AD70B384FC75BF",
+          type: "item",
+          item: {
+            id: "oritech:machine_acceptor_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "630A36C42CE35BF5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0C44E1D6F335475B",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "671FFD864423381C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:control_unit_addon",
+        count: 1,
+      },
+      x: 4.0,
+      y: 5.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "033F3D2427ED6F40",
+      tasks: [
+        {
+          id: "6C9B743B6591A275",
+          type: "item",
+          item: {
+            id: "oritech:control_unit_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "597393EF2C8E6950",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1EC403B54AA9D757",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "354E397E861D5285",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_yield_addon",
+        count: 1,
+      },
+      x: 1.0,
+      y: 6.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3D9FFFF325533514",
+      tasks: [
+        {
+          id: "031E343C97C2CA6F",
+          type: "item",
+          item: {
+            id: "oritech:machine_yield_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "189864D313782751",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6FB47C76AE6B6A11",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "12C147FB079BDB6B",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_silk_touch_addon",
+        count: 1,
+      },
+      x: 2.0,
+      y: 6.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "68760266CAAF9F8C",
+      tasks: [
+        {
+          id: "4D0905A08C8A18C0",
+          type: "item",
+          item: {
+            id: "oritech:machine_silk_touch_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "181DF165304ADCAC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "273DA0EC23E2F5B4",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:quarry_addon",
+        count: 1,
+      },
+      x: 3.0,
+      y: 6.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "06DA083C1726EE4C",
+      tasks: [
+        {
+          id: "03C0D30DFD18B413",
+          type: "item",
+          item: {
+            id: "oritech:quarry_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23414B434230BAEB",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "15DBD82DE37F1CA8",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "59BA6A36431F2468",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:machine_hunter_addon",
+        count: 1,
+      },
+      x: 4.0,
+      y: 6.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "7A26B0FFC0BCA275",
+      tasks: [
+        {
+          id: "7B832946B8A4949C",
+          type: "item",
+          item: {
+            id: "oritech:machine_hunter_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42F8121719A53C60",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "402DF14C0622FB62",
+          type: "item",
+          item: {
+            id: "oritech:plastic_sheet",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "26FA0BE042C745A9",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "388AF731788D496F",
+      x: 0.25,
+      y: 2.5,
+      shape: "gear",
+      id: "5B3ED5891CBDF272",
+    },
+    {
+      linked_quest: "74935522E3445523",
+      x: 17.5,
+      y: -2.0,
+      shape: "gear",
+      id: "682A43074ACE8A41",
+    },
+    {
+      linked_quest: "691F8412128B2F33",
+      x: 6.5,
+      y: -4.5,
+      shape: "gear",
+      id: "452FF488C9202520",
+    },
+  ],
+  images: [
+    {
+      x: 12.75,
+      y: -9.5,
+      width: 9.58,
+      height: 5.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/oritechlogo.png",
+      click_action: {
+        type: "open_quest",
+        data: "33E4C81B762892B2",
+      },
+      id: "23592362C6D48071",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 45.0,
+      image: "oritech:block/nickel_plating/center",
+      order: -1,
+      id: "03CF9A50AC8E642C",
+    },
+    {
+      x: 15.0,
+      y: 7.0,
+      width: 3.64,
+      height: 3.48,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/oritech_reactor.png",
+      id: "0DC8D9EAF3C1A1C8",
+    },
+    {
+      x: 23.5,
+      y: 4.0,
+      width: 3.8,
+      height: 3.55,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/oritech_accelerator.png",
+      id: "097C1D113143FF6D",
+    },
+    {
+      x: 23.0,
+      y: -3.5,
+      width: 5.26,
+      height: 2.33,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/oritech_black_hole.png",
+      id: "01182BEE66A981B9",
+    },
+  ],
+}

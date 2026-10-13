@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "creative_goo",
+  "key": {
+    "A": "justdirethings:time_crystal",
+    "B": "justdirethings:eclipsealloy_ingot",
+    "C": "minecraft:nether_star"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 2,
+    "id": "justdynathings:creative_goo"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  id: "4D6F39068B0224D8",
+  order_index: 9,
+  icon: {
+    id: "mffs:focus_matrix",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "1D16D5CE384A0605",
+      item: {
+        id: "mffs:speed_module",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 1000.0,
+    },
+    {
+      id: "009A6382A394EA51",
+      item: {
+        id: "mffs:capacity_module",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 1000.0,
+    },
+    {
+      id: "30118C4B9B9C5A33",
+      item: {
+        id: "mffs:focus_matrix",
+        count: 1,
+      },
+      count: 9,
+      random_bonus: 9,
+      weight: 500.0,
+    },
+    {
+      id: "353C169418CDCD50",
+      item: {
+        id: "mffs:translation_module",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 125.0,
+    },
+    {
+      id: "27FA230A6DE1DF8F",
+      item: {
+        id: "mffs:scale_module",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 2,
+      weight: 125.0,
+    },
+  ],
+  loot_crate: {
+    string_id: "box_of_modules",
+    color: 16777215,
+    item_name: "ftbquests.reward_table.modules",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

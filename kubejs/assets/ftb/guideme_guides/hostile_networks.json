@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Hostile Neural Networks"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Data Models and the Data Center in FTB Evolution 2",
+        "color": "dark_gray"
+      }
+    ]
+  },
+  "default_language": "en_us"
+}

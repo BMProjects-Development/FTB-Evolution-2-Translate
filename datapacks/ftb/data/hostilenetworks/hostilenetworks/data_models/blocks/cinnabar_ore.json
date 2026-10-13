@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbmaterials:cinnabar_stone_ore",
+  "variants": [
+    "ftbmaterials:cinnabar_deepslate_ore",
+    "ftbmaterials:cinnabar_nether_ore",
+    "ftbmaterials:cinnabar_end_ore"
+  ],
+  "name_color": "#C83A3A",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.cinnabar_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:cinnabar_gem",
+      "count": 12
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

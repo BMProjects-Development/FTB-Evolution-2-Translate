@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:storage_blocks/raw_copper",
+  "result": {
+    "amount": 1620,
+    "id": "hephaestus:molten_copper"
+  },
+  "temperature": 900,
+  "time": 250
+}

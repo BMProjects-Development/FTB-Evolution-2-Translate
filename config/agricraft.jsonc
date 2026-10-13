@@ -1,0 +1,50 @@
+{
+  "rconfig:version": 0,
+  "core": {
+    "register_packs_by_default": true,
+    "crop_sticks_prevent_trampling": true,
+    "plant_off_crop_sticks": true,
+    "crop_sticks_collide": true,
+    "only_fertile_crops_spread": false,
+    "allow_fertilizer_mutation": true,
+    "clone_mutations": false,
+    "override_vanilla_farming": true,
+    "converts_seed_only_in_analyzer": false,
+    "growth_multiplier": 1.0,
+    "only_mature_seed_drops": false,
+    "disable_weeds": false,
+    "mature_weeds_kill_plants": true,
+    "weeds_spreading": true,
+    "weeds_destroy_crop_sticks": false,
+    "disable_fertilizer_weeds": true,
+    "raking_drops_items": true,
+    "seed_compost_value": 0.3,
+    "seed_bag_capactity": 64,
+    "seed_bag_enchant_cost": 10
+  },
+  "stats": {
+    "gain_min": 1,
+    "gain_max": 10,
+    "gain_hidden": false,
+    "growth_min": 1,
+    "growth_max": 10,
+    "growth_hidden": false,
+    "strength_min": 1,
+    "strength_max": 10,
+    "strength_hidden": false,
+    "resistance_min": 1,
+    "resistance_max": 10,
+    "resistance_hidden": false,
+    "fertility_min": 1,
+    "fertility_max": 10,
+    "fertility_hidden": false,
+    "mutativity_min": 1,
+    "mutativity_max": 10,
+    "mutativity_hidden": false
+  },
+  "compat": {
+    "mysticalagriculture": true,
+    "pneumaticcraft": true,
+    "industrialforegoing": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "dimresources:laser",
+  "rf_per_tick": 2200,
+  "duration": 300,
+  "laser_level": 12,
+  "planet": "dimresources:crystalore",
+  "outputs": [
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:diamond"
+      },
+      "weight": 15
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:emerald"
+      },
+      "weight": 15
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:quartz"
+      },
+      "weight": 25
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:lapis_lazuli"
+      },
+      "weight": 30
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:amethyst_shard"
+      },
+      "weight": 5
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:dimensional_shard_gem"
+      },
+      "weight": 5
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "stellaris"
+    }
+  ],
+  "entity": "stellaris:lunar_parasite",
+  "variants": [
+    "stellaris:parasite_affected_villager",
+    "stellaris:parasite_affected_villager_evolved"
+  ],
+  "name_color": "#7A8AA0",
+  "display": {
+    "scale": 0.7
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lunar_parasite",
+  "fabricator_drops": [
+    {
+      "id": "stellaris:parasite",
+      "count": 4
+    },
+    {
+      "id": "stellaris:lunar_parasite_tooth",
+      "count": 8
+    }
+  ]
+}

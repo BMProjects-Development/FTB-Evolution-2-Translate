@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "mysticalagradditions:nether_prosperity_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "mysticalagriculture:prosperity_shard"
+  }
+}

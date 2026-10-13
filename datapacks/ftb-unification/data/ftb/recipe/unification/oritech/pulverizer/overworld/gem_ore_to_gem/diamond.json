@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/diamond"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:diamond"
+    }
+  ],
+  "time": 100
+}

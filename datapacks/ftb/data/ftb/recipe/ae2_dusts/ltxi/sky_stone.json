@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ae2:sky_stone_block"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ae2:sky_dust"
+    }
+  ]
+}

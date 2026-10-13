@@ -1,0 +1,15 @@
+{
+  "type": "ltxi:pressing",
+  "item_inputs": [
+    {
+      "ingredient": "minecraft:copper_block"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 9,
+      "id": "ftbmaterials:copper_plate"
+    }
+  ],
+  "mode": "ltxi:plate_pressing"
+}

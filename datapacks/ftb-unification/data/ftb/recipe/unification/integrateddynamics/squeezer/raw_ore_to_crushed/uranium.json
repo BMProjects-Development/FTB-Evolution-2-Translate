@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "ftbmaterials:uranium_raw_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:uranium_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:uranium_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

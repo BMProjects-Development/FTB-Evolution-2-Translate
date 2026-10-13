@@ -1,0 +1,207 @@
+{
+  "id": "ftb:swashbuckler",
+  "title": {
+    "translate": "ftb.shopkeeper.swashbuckler",
+    "color": "blue"
+  },
+  "model": {
+    "villager_data": {
+      "type": "savanna",
+      "profession": "weaponsmith",
+      "level": 3
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.swashbuckler",
+        "color": "blue"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:swashbuckler_wares",
+      "shop_unlock": [
+        {
+          "name": "blackpowder",
+          "item": {
+            "id": "irons_artifice:blackpowder",
+            "count": 16
+          },
+          "cost": 8
+        },
+        {
+          "name": "bullet",
+          "item": {
+            "id": "irons_artifice:bullet",
+            "count": 16
+          },
+          "cost": 20
+        },
+        {
+          "name": "mechanical_components",
+          "item": {
+            "id": "irons_artifice:mechanical_components",
+            "count": 4
+          },
+          "cost": 40
+        },
+        {
+          "name": "flintlock",
+          "item": {
+            "id": "irons_artifice:flintlock",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "arquebus",
+          "item": {
+            "id": "irons_artifice:arquebus",
+            "count": 1
+          },
+          "cost": 50
+        },
+        {
+          "name": "musket",
+          "item": {
+            "id": "irons_artifice:musket",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "blunderbuss",
+          "item": {
+            "id": "irons_artifice:blunderbuss",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "six_shooter",
+          "item": {
+            "id": "irons_artifice:six_shooter",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "blackpowder_revolver",
+          "item": {
+            "id": "irons_artifice:blackpowder_revolver",
+            "count": 1
+          },
+          "cost": 45
+        },
+        {
+          "name": "clockwork_rifle",
+          "item": {
+            "id": "irons_artifice:clockwork_rifle",
+            "count": 1
+          },
+          "cost": 50
+        },
+        {
+          "name": "handgun",
+          "item": {
+            "id": "reliquary:handgun",
+            "count": 1
+          },
+          "cost": 100
+        },
+        {
+          "name": "magazines/neutral_magazine",
+          "item": {
+            "id": "reliquary:magazines/neutral_magazine",
+            "count": 2
+          },
+          "cost": 40
+        },
+        {
+          "name": "lead_core_modifier",
+          "item": {
+            "id": "irons_artifice:lead_core_modifier",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "steel_core_modifier",
+          "item": {
+            "id": "irons_artifice:steel_core_modifier",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "buffer_spring_modifier",
+          "item": {
+            "id": "irons_artifice:buffer_spring_modifier",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "seeking_powder_modifier",
+          "item": {
+            "id": "irons_artifice:seeking_powder_modifier",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 1
+        },
+        {
+          "name": "overcharged_powder_modifier",
+          "item": {
+            "id": "irons_artifice:overcharged_powder_modifier",
+            "count": 1
+          },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "tnt",
+          "item": {
+            "id": "minecraft:tnt",
+            "count": 4
+          },
+          "cost": 30
+        },
+        {
+          "name": "spyglass",
+          "item": {
+            "id": "minecraft:spyglass",
+            "count": 1
+          },
+          "cost": 6
+        },
+        {
+          "name": "compass",
+          "item": {
+            "id": "minecraft:compass",
+            "count": 1
+          },
+          "cost": 6
+        },
+        {
+          "name": "warp_scroll",
+          "item": {
+            "id": "waystones:warp_scroll",
+            "count": 2
+          },
+          "cost": 20
+        },
+        {
+          "name": "lootcrate",
+          "item": {
+            "id": "ftbquests:lootcrate",
+            "count": 1
+          },
+          "cost": 60
+        }
+      ]
+    }
+  ]
+}

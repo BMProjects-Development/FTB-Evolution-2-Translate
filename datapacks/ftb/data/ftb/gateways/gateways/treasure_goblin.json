@@ -1,0 +1,33 @@
+{
+  "type": "gateways:normal",
+  "size": "small",
+  "color": "#FFD24A",
+  "waves": [
+    {
+      "entities": [
+        {
+          "type": "apotheosis:invader",
+          "invader": "ftb:events/treasure_goblin",
+          "desc": "name.apotheosis.treasure_goblin"
+        }
+      ],
+      "max_wave_time": 400,
+      "setup_time": 0
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "apotheosis:entity/treasure_goblin",
+      "rolls": 1,
+      "desc": "rewards.ftb.treasure_goblin"
+    }
+  ],
+  "rules": {
+    "spawn_range": 1.0,
+    "leash_range": 48.0,
+    "lives": 1,
+    "follow_range_boost": 0.0,
+    "remove_mobs_on_failure": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ftbmaterials:aluminum_plate",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:aluminum_wire"
+  }
+}

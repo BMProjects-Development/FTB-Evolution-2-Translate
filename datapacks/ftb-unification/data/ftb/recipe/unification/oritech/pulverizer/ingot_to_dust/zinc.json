@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/zinc"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:zinc_dust"
+    }
+  ],
+  "time": 100
+}

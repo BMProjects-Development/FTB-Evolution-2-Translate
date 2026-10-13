@@ -1,0 +1,7 @@
+{
+  "type": "ftbic:refining_material",
+  "definition": {
+    "material": "c:hellforged",
+    "enabled": false
+  }
+}

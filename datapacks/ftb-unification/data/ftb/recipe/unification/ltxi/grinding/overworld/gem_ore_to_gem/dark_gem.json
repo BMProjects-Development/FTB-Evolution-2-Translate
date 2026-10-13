@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/dark_gem"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "evilcraft:dark_gem"
+    },
+    {
+      "count": {
+        "chance": 0.25,
+        "max": 1,
+        "min": 1
+      },
+      "id": "evilcraft:dark_gem",
+      "required": false
+    }
+  ]
+}

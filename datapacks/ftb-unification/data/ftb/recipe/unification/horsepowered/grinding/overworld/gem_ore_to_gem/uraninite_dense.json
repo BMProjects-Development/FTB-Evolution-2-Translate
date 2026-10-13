@@ -1,0 +1,13 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/uraninite_dense",
+  "result": {
+    "count": 10,
+    "id": "powah:uraninite"
+  },
+  "secondary": {
+    "id": "powah:uraninite"
+  },
+  "secondaryChance": 25,
+  "time": 16
+}

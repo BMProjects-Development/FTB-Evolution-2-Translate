@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/tin",
+  "result": {
+    "id": "ftbmaterials:tin_raw_ore"
+  },
+  "secondary": {
+    "id": "ftbmaterials:tin_raw_ore"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

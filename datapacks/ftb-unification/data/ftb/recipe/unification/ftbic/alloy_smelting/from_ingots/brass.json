@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/zinc"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/copper"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:brass_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

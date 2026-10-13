@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/iridium",
+  "result": {
+    "id": "ftbmaterials:iridium_raw_ore"
+  },
+  "secondary": {
+    "id": "ftbmaterials:iridium_raw_ore"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

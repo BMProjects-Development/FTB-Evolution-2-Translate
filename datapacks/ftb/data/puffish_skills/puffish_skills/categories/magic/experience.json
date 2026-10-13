@@ -1,0 +1,445 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "100 + 3600 * (1 - 1 / exp((level / 15)^2))"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					},
+					"is_magic": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#c:is_magic"
+								}
+							}
+						]
+					},
+					"is_target_dummy": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Tags:[\"target_dummy.entity\"]}"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_magic & !is_target_dummy",
+						"expression": "damage * 0.5"
+					}
+				],
+				"anti_farming_per_entity": {
+					"limit_per_entity": 10000,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:take_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_taken_damage"
+							}
+						]
+					},
+					"is_self_sacrifice": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#neovitae:self_sacrifice"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_self_sacrifice",
+						"expression": "damage * 3"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "arsmagicalegacy:level_change",
+					"conditions": {
+						"level": 1
+					}
+				},
+				"experience": [
+					{
+						"expression": "60"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "neovitae:ritual_activated",
+					"conditions": {}
+				},
+				"experience": [
+					{
+						"expression": "100"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "neovitae:imperfect_ritual_activated",
+					"conditions": {}
+				},
+				"experience": [
+					{
+						"expression": "20"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "occultism:ritual",
+					"conditions": {}
+				},
+				"experience": [
+					{
+						"expression": "80"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "cast"
+					}
+				},
+				"experience": [
+					{
+						"expression": "5"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "reap"
+					}
+				},
+				"experience": [
+					{
+						"expression": "8"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "extract"
+					}
+				},
+				"experience": [
+					{
+						"expression": "8"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "deposit"
+					}
+				},
+				"experience": [
+					{
+						"expression": "3"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "research"
+					}
+				},
+				"experience": [
+					{
+						"expression": "25"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "infuse"
+					}
+				},
+				"experience": [
+					{
+						"expression": "60"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "offer"
+					}
+				},
+				"experience": [
+					{
+						"expression": "15"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "anima:progression",
+					"conditions": {
+						"event": "priest_ability"
+					}
+				},
+				"experience": [
+					{
+						"expression": "10"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "evilcraft:box_of_eternal_closure_capture",
+					"conditions": {}
+				},
+				"experience": [
+					{
+						"expression": "80"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "evilcraft:necromance",
+					"conditions": {
+						"entity": {}
+					}
+				},
+				"experience": [
+					{
+						"expression": "20"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:criterion",
+			"data": {
+				"criterion": {
+					"trigger": "evilcraft:distort",
+					"conditions": {
+						"min_entities": 1
+					}
+				},
+				"experience": [
+					{
+						"expression": "10"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_enchant_item": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.enchant_item"
+								}
+							}
+						]
+					},
+					"is_spells_cast": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:ftb.spells_cast"
+								}
+							}
+						]
+					},
+					"is_rites_performed": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:ftb.rites_performed"
+								}
+							}
+						]
+					},
+					"is_brews_bottled": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:ftb.brews_bottled"
+								}
+							}
+						]
+					},
+					"is_research_completed": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:ftb.research_completed"
+								}
+							}
+						]
+					},
+					"is_affliction_levels": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:ftb.affliction_levels"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_enchant_item",
+						"expression": "30"
+					},
+					{
+						"condition": "is_spells_cast",
+						"expression": "5"
+					},
+					{
+						"condition": "is_rites_performed",
+						"expression": "100"
+					},
+					{
+						"condition": "is_brews_bottled",
+						"expression": "10"
+					},
+					{
+						"condition": "is_research_completed",
+						"expression": "40"
+					},
+					{
+						"condition": "is_affliction_levels",
+						"expression": "150"
+					}
+				]
+			}
+		}
+	]
+}

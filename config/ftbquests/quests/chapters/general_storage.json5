@@ -1,0 +1,7271 @@
+{
+  id: "1E741D8D60A01B78",
+  group: "28224E273DBAA255",
+  order_index: 0,
+  icon: {
+    id: "sophisticatedstorage:netherite_barrel",
+    count: 1,
+    components: {
+      "sophisticatedstorage:wood_type": "oak",
+    },
+  },
+  filename: "general_storage",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "049DE43A1B31C38F",
+  quests: [
+    {
+      icon: {
+        id: "sophisticatedbackpacks:backpack",
+        count: 1,
+      },
+      x: -3.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.5,
+      min_width: 300,
+      id: "05CEF45909A11F60",
+      tasks: [
+        {
+          id: "78D3693D14169634",
+          type: "item",
+          item: {
+            id: "sophisticatedbackpacks:backpack",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67B7B6F8A5502E95",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "49F2082C1B703A92",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:chest",
+        count: 1,
+        components: {
+          "sophisticatedcore:storage_uuid": [
+            2108501928,
+            -968865165,
+            -1935860283,
+            -141889569,
+          ],
+          "sophisticatedstorage:wood_type": "oak",
+        },
+      },
+      x: 3.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.5,
+      min_width: 300,
+      id: "3ACF3359B3B59A05",
+      tasks: [
+        {
+          id: "70A34DDFF7058AA7",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:basic_tier_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "75A91CC491740DEA",
+          type: "item",
+          icon: {
+            id: "sophisticatedstorage:chest",
+            count: 1,
+            components: {
+              "sophisticatedcore:storage_uuid": [
+                2108501928,
+                -968865165,
+                -1935860283,
+                -141889569,
+              ],
+              "sophisticatedstorage:wood_type": "oak",
+            },
+          },
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05C90A136C1DFE46",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "471FEE65C75A08C5",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:basic_tier_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:upgrade_base",
+        count: 1,
+      },
+      x: -5.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "05CEF45909A11F60",
+      ],
+      size: 2.0,
+      min_width: 300,
+      id: "141CE17C25D2A53A",
+      tasks: [
+        {
+          id: "3B52708CAAC88501",
+          type: "item",
+          item: {
+            id: "sophisticatedbackpacks:upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21ED2C8D03C680CF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0F7A52E1293E81DC",
+          type: "item",
+          item: {
+            id: "sophisticatedbackpacks:upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:upgrade_base",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "3ACF3359B3B59A05",
+      ],
+      size: 2.0,
+      id: "6FF752712E99A936",
+      tasks: [
+        {
+          id: "105518342B2AE1B7",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7823A13834F9B672",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "0C646ADD4EFD24FF",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      x: -4.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "05CEF45909A11F60",
+      ],
+      size: 1.0,
+      id: "304B25BADD64077D",
+      tasks: [
+        {
+          id: "51E0FB26781697CB",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70AEAAE11C0CC76F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0C372812C5646173",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:stack_upgrade_tier_4",
+        count: 1,
+      },
+      x: -6.5,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "141CE17C25D2A53A",
+      ],
+      size: 1.0,
+      id: "3506242698EDF435",
+      tasks: [
+        {
+          id: "4A84D885C313D512",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:stack_upgrade_starter_tier)item(sophisticatedbackpacks:stack_upgrade_tier_1)item(sophisticatedbackpacks:stack_upgrade_tier_2)item(sophisticatedbackpacks:stack_upgrade_tier_3)item(sophisticatedbackpacks:stack_upgrade_tier_4)item(sophisticatedbackpacks:stack_upgrade_omega_tier))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66824D47A10039EF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5C1EB35636DBC13B",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:magnet_upgrade",
+        count: 1,
+      },
+      x: -6.0,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "141CE17C25D2A53A",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "580866E99C53DB3E",
+      tasks: [
+        {
+          id: "63C4D2F3F7059C8E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:pickup_upgrade)item(sophisticatedbackpacks:advanced_pickup_upgrade)item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:advanced_magnet_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BA863FC7236A5CE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3C5E2DB6E3F1A078",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:void_upgrade",
+        count: 1,
+      },
+      x: -6.0,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "141CE17C25D2A53A",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "4BA8E435EDA995AC",
+      tasks: [
+        {
+          id: "4B65088186551D3C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:void_upgrade)item(sophisticatedbackpacks:advanced_void_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AC73737775413FD",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1CE6519515A0455B",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:crafting_upgrade",
+        count: 1,
+      },
+      x: -5.5,
+      y: -1.0,
+      shape: "diamond",
+      dependencies: [
+        "141CE17C25D2A53A",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "367E6EB08A8C70EB",
+      tasks: [
+        {
+          id: "386D9AA214E6D415",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:stonecutter_upgrade)item(sophisticatedbackpacks:anvil_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CA8B27D5FFD825B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6CD1F5DD49FD2F9C",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+        count: 1,
+      },
+      x: 4.0,
+      y: -1.0,
+      shape: "rsquare",
+      dependencies: [
+        "3ACF3359B3B59A05",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "03569C25419223DC",
+      tasks: [
+        {
+          id: "2CC8184A4A0C3AED",
+          type: "item",
+          icon: {
+            id: "sophisticatedstorage:basic_to_iron_tier_upgrade",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_to_iron_tier_upgrade)item(sophisticatedstorage:basic_to_gold_tier_upgrade)item(sophisticatedstorage:basic_to_diamond_tier_upgrade)item(sophisticatedstorage:basic_to_netherite_tier_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "01EFD837370C8198",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2D84DA88AB31D7AD",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:limited_iron_barrel_1",
+        count: 1,
+        components: {
+          "sophisticatedstorage:wood_type": "oak",
+        },
+      },
+      x: 5.0,
+      y: -1.0,
+      shape: "rsquare",
+      dependencies: [
+        "03569C25419223DC",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 250,
+      id: "5F820AFF46239CC6",
+      tasks: [
+        {
+          id: "530053F67ED5E6F3",
+          type: "item",
+          icon: {
+            id: "sophisticatedstorage:limited_barrel_1",
+            count: 1,
+            components: {
+              "sophisticatedstorage:wood_type": "oak",
+            },
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:limited_barrel_1)item(sophisticatedstorage:limited_barrel_2)item(sophisticatedstorage:limited_barrel_3)item(sophisticatedstorage:limited_barrel_4))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "491C9F93F50594C6",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "708776CEBE166A1B",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:controller",
+        count: 1,
+      },
+      x: 5.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "68583162106594A8",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "7B77544B48E690CB",
+      tasks: [
+        {
+          id: "602795FE5862F328",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:storage_tool",
+            count: 1,
+          },
+        },
+        {
+          id: "6C624170FAC67874",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:controller",
+            count: 1,
+          },
+        },
+        {
+          id: "48F07D6B6C21A8E5",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "sophisticatedstorage:storage_link",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1BC6BFC9E166EA53",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "03B21BFF4DBC8E01",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:packing_tape",
+        count: 1,
+      },
+      x: 4.0,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "3ACF3359B3B59A05",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "68583162106594A8",
+      tasks: [
+        {
+          id: "2115455A5E33999B",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:packing_tape",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13BD725E1931C1CB",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5D2CB912E2D1328A",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:backpack",
+        count: 1,
+        components: {
+          "sophisticatedcore:accent_color": -14869215,
+          "sophisticatedcore:main_color": -14869215,
+          "sophisticatedcore:number_of_inventory_slots": 27,
+          "sophisticatedcore:number_of_upgrade_slots": 1,
+        },
+      },
+      x: -4.0,
+      y: -1.0,
+      shape: "rsquare",
+      dependencies: [
+        "05CEF45909A11F60",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "08204AA5ACCC914E",
+      tasks: [
+        {
+          id: "7FAA87B19ACACCBC",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dyes)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08C8BEACB8E91AAE",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "69F417F0F19D030D",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:dye_essence",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedbackpacks:inception_upgrade",
+        count: 1,
+      },
+      x: -5.5,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "141CE17C25D2A53A",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "6686C39B8D5B5319",
+      tasks: [
+        {
+          id: "5B1F0D435BD534B1",
+          type: "item",
+          item: {
+            id: "sophisticatedbackpacks:inception_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "080EB1F896D442AA",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "3E733B68934304E6",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:ender_chest",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      hide_until_deps_complete: true,
+      size: 2.0,
+      optional: true,
+      id: "049DE43A1B31C38F",
+      tasks: [
+        {
+          id: "5B8D61770B7554D0",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0E20A0B600B0F49E",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:stack_upgrade_tier_1",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "6FF752712E99A936",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "5672B339AE16EE6C",
+      tasks: [
+        {
+          id: "4DBC16ACBFEF4D40",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:stack_upgrade_tier_1)item(sophisticatedstorage:stack_upgrade_tier_1_plus)item(sophisticatedstorage:stack_upgrade_tier_2)item(sophisticatedstorage:stack_upgrade_tier_3)item(sophisticatedstorage:stack_upgrade_tier_4)item(sophisticatedstorage:stack_upgrade_tier_5))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "670523E9529B1A18",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2998A0B85DBD699C",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:void_upgrade",
+        count: 1,
+      },
+      x: 7.0,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "6FF752712E99A936",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "1B10A2DED0629D6B",
+      tasks: [
+        {
+          id: "3EF3D33D52CB41A5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:void_upgrade)item(sophisticatedstorage:advanced_void_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1789C0F99154C76A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "62292324FB1A9E56",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:magnet_upgrade",
+        count: 1,
+      },
+      x: 7.0,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "6FF752712E99A936",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "606BDEB81F65A79F",
+      tasks: [
+        {
+          id: "3B68713C93B4FAA8",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:pickup_upgrade)item(sophisticatedstorage:advanced_pickup_upgrade)item(sophisticatedstorage:magnet_upgrade)item(sophisticatedstorage:advanced_magnet_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66CFAB0CE559649A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6969D1433D7A9F86",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:crafting_upgrade",
+        count: 1,
+      },
+      x: 6.5,
+      y: -1.0,
+      shape: "diamond",
+      dependencies: [
+        "6FF752712E99A936",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "59376277A06E251A",
+      tasks: [
+        {
+          id: "1E44E4A78D48D820",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:crafting_upgrade)item(sophisticatedstorage:stonecutter_upgrade)item(sophisticatedstorage:smelting_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3110605D0616DCD4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "339A9ED9C3CB0789",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "sophisticatedstorage:hopper_upgrade",
+        count: 1,
+      },
+      x: 6.5,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "6FF752712E99A936",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "5A8E25FA6815812E",
+      tasks: [
+        {
+          id: "310335F073D442F0",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(sophisticatedstorage:hopper_upgrade)item(sophisticatedstorage:advanced_hopper_upgrade))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10A943DDDA902D1B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7ADD5208E3B938DE",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 851113901940762234,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ae2:block/cell_workbench_top",
+        },
+      },
+      x: 9.5,
+      y: 1.5,
+      shape: "gear",
+      size: 2.0,
+      min_width: 250,
+      id: "37104662F0BDDE66",
+      tasks: [
+        {
+          id: "0AAF1E3BD30F51F1",
+          type: "item",
+          item: {
+            id: "ae2:charger",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "659AD36453F9AC47",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "6F2BE316BF27F025",
+          type: "item",
+          item: {
+            id: "ae2:not_so_mysterious_cube",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:charged_certus_quartz_crystal",
+        count: 1,
+      },
+      x: 13.5,
+      y: 1.5,
+      shape: "none",
+      dependencies: [
+        "09B3528CF3C615C6",
+      ],
+      size: 1.5,
+      icon_scale: 2.0,
+      hide_lock_icon: true,
+      id: "73EC5E7F2300B99D",
+      tasks: [
+        {
+          id: "78B8198E8713DA7C",
+          type: "item",
+          item: {
+            id: "ae2:certus_quartz_dust",
+            count: 1,
+          },
+        },
+        {
+          id: "778725BC7B83D34E",
+          type: "item",
+          item: {
+            id: "ae2:certus_quartz_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44A7009F765C8A8B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "405A0006B2E7749C",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:growth_accelerator",
+        count: 1,
+      },
+      x: 14.0,
+      y: 6.0,
+      dependencies: [
+        "0224277CBEC1375E",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "60871670B71C711F",
+      tasks: [
+        {
+          id: "4E4AE2BAE9D69058",
+          type: "item",
+          item: {
+            id: "ae2:growth_accelerator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42D34212460CE107",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0458E40726BABF24",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "3CE0DA747322C1FC",
+          type: "item",
+          item: {
+            id: "ae2:annihilation_plane",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:fluix_crystal",
+        count: 1,
+      },
+      x: 14.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "73EC5E7F2300B99D",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "78ADC11570C5561E",
+      tasks: [
+        {
+          id: "7E156873E60B69F7",
+          type: "item",
+          item: {
+            id: "ae2:fluix_crystal",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "431CE889DE898C07",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "312F69CB05AEA604",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:crystal_resonance_generator",
+        count: 1,
+      },
+      x: 13.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "78ADC11570C5561E",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "0224277CBEC1375E",
+      tasks: [
+        {
+          id: "6D4D112569B7A4EF",
+          type: "item",
+          item: {
+            id: "ae2:energy_acceptor",
+            count: 1,
+          },
+        },
+        {
+          id: "5E8589F2866188F9",
+          type: "item",
+          item: {
+            id: "ae2:fluix_glass_cable",
+            count: 1,
+          },
+        },
+        {
+          id: "73910D1CA7580039",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:crystal_resonance_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C09D5FF7CBB8290",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1066CCD0929FAD92",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "0C3323880819C958",
+          type: "item",
+          item: {
+            id: "ae2:energy_cell",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:inscriber",
+        count: 1,
+      },
+      x: 12.5,
+      y: 3.5,
+      shape: "rsquare",
+      dependencies: [
+        "73EC5E7F2300B99D",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "663460DE8AF7E464",
+      tasks: [
+        {
+          id: "010FA7DD575A2D08",
+          type: "item",
+          item: {
+            id: "ae2:inscriber",
+            count: 1,
+          },
+        },
+        {
+          id: "4A0E3A9A16172E93",
+          type: "item",
+          item: {
+            id: "ae2:printed_calculation_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "6540FDC216483362",
+          type: "item",
+          item: {
+            id: "ae2:printed_engineering_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "424997BDCAB23659",
+          type: "item",
+          item: {
+            id: "ae2:printed_logic_processor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "105EF35C8204A684",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "043209DA4BD2F497",
+          type: "item",
+          item: {
+            id: "ae2:inscriber",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "46243D99CE1866C7",
+          type: "item",
+          item: {
+            id: "ae2:speed_card",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:printed_silicon",
+        count: 1,
+      },
+      x: 12.0,
+      y: 5.5,
+      dependencies: [
+        "663460DE8AF7E464",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "10143533A2437ABE",
+      tasks: [
+        {
+          id: "5C9EA4BD007EDEF1",
+          type: "item",
+          item: {
+            id: "ftbmaterials:silicon_gem",
+            count: 1,
+          },
+        },
+        {
+          id: "2A9F8453FF261C0B",
+          type: "item",
+          item: {
+            id: "ae2:printed_silicon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "642B586CC7D0AA17",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "16B88955B2E54705",
+          type: "item",
+          item: {
+            id: "ae2:printed_calculation_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "238BACCFD7BE97EF",
+          type: "item",
+          item: {
+            id: "ae2:printed_engineering_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "77E3FA2CDF34F21D",
+          type: "item",
+          item: {
+            id: "ae2:printed_logic_processor",
+            count: 1,
+          },
+        },
+        {
+          id: "0236664F2B41C76F",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:logic_processor",
+        count: 1,
+      },
+      x: 12.0,
+      y: 7.5,
+      shape: "hexagon",
+      dependencies: [
+        "10143533A2437ABE",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "02F6AC9E53029E0A",
+      tasks: [
+        {
+          id: "27F8AF789DE14145",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ae2:engineering_processor)item(ae2:logic_processor)item(ae2:calculation_processor))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C540D1F99A9A54F",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3078B5C02B937115",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:crafting_terminal",
+        count: 1,
+      },
+      x: 11.0,
+      y: 10.0,
+      shape: "hexagon",
+      dependencies: [
+        "46A1341E5E97ABDC",
+      ],
+      size: 1.0,
+      id: "45E7D62C229F898C",
+      tasks: [
+        {
+          id: "2194BF94997B00BA",
+          type: "item",
+          item: {
+            id: "ae2:crafting_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "688467EA5D16D641",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:drive",
+        count: 1,
+      },
+      x: 12.0,
+      y: 10.5,
+      shape: "hexagon",
+      dependencies: [
+        "46A1341E5E97ABDC",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "71024D8DC19834AC",
+      tasks: [
+        {
+          id: "736F6172F362C5F8",
+          type: "item",
+          item: {
+            id: "ae2:drive",
+            count: 1,
+          },
+        },
+        {
+          id: "5479E86686A3263A",
+          type: "item",
+          item: {
+            id: "ae2:cell_component_1k",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C00A7BA8E813523",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:cell_workbench",
+        count: 1,
+      },
+      x: 11.0,
+      y: 12.0,
+      shape: "square",
+      dependencies: [
+        "71024D8DC19834AC",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 250,
+      id: "083990CE5CA6E313",
+      tasks: [
+        {
+          id: "385954490EB6E48C",
+          type: "item",
+          item: {
+            id: "ae2:cell_workbench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74CDCCD98CB813E9",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "07A324237DBE4364",
+          type: "item",
+          item: {
+            id: "ae2:void_card",
+            count: 1,
+          },
+        },
+        {
+          id: "3408A2AAB82E10D2",
+          type: "item",
+          item: {
+            id: "ae2:equal_distribution_card",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:import_bus",
+        count: 1,
+      },
+      x: 13.0,
+      y: 8.5,
+      shape: "diamond",
+      dependencies: [
+        "02F6AC9E53029E0A",
+      ],
+      size: 1.0,
+      min_width: 350,
+      id: "2FFA4CF8C062AD5E",
+      tasks: [
+        {
+          id: "2C78F0A7A6C9E0D4",
+          type: "item",
+          icon: {
+            id: "ae2:import_bus",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))",
+              "minecraft:custom_name": "\"I/O Bus\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3783DEBE010B41A9",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "40F4286DC8B9F3BC",
+          type: "item",
+          item: {
+            id: "ae2:speed_card",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "4CC254A4A9942A7F",
+          type: "item",
+          item: {
+            id: "ae2:capacity_card",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:1k_crafting_storage",
+        count: 1,
+      },
+      x: 13.0,
+      y: 14.0,
+      shape: "square",
+      dependencies: [
+        "7E4FF5A454039E47",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "43949500F6A0B46A",
+      tasks: [
+        {
+          id: "5E7D77AA22AEB355",
+          type: "item",
+          icon: {
+            id: "ae2:1k_crafting_storage",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))",
+              "minecraft:custom_name": "\"Any Crafting Storage\"",
+            },
+          },
+        },
+        {
+          id: "07AD0E71B667C55D",
+          type: "item",
+          item: {
+            id: "ae2:crafting_accelerator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E3898EDC0E064E4",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "40984ACB942A9BA5",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "1644EB746E300C9B",
+          type: "item",
+          item: {
+            id: "ae2:16k_crafting_storage",
+            count: 1,
+          },
+        },
+        {
+          id: "60AB78F9DE88A1A8",
+          type: "item",
+          item: {
+            id: "ae2:crafting_accelerator",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:molecular_assembler",
+        count: 1,
+      },
+      x: 11.0,
+      y: 15.0,
+      shape: "square",
+      dependencies: [
+        "69F87073390131D5",
+      ],
+      size: 1.0,
+      min_width: 300,
+      require_sequential_tasks: true,
+      id: "16B60BCB8240F808",
+      tasks: [
+        {
+          id: "0D39FA23D0F8D9B4",
+          type: "item",
+          item: {
+            id: "ae2:pattern_provider",
+            count: 1,
+          },
+        },
+        {
+          id: "3FBC5BF7FCC72319",
+          type: "item",
+          item: {
+            id: "ae2:molecular_assembler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CE832313CB082B4",
+          type: "currency",
+          team_reward: false,
+          amount: 7,
+        },
+        {
+          id: "25EEE9AA93799528",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:reaction_chamber",
+        count: 1,
+      },
+      x: 17.0,
+      y: 5.5,
+      dependencies: [
+        "4B463FDAEAC42511",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "3334E05101A7297F",
+      tasks: [
+        {
+          id: "2EE1BCED7D8919E7",
+          type: "item",
+          item: {
+            id: "advanced_ae:reaction_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "544F51BF3DC4CB35",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "57D5D5658BB744A8",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:singularity",
+        count: 1,
+      },
+      x: 17.0,
+      y: 3.5,
+      shape: "diamond",
+      dependencies: [
+        "78ADC11570C5561E",
+      ],
+      size: 1.5,
+      id: "4B463FDAEAC42511",
+      tasks: [
+        {
+          id: "24481A52D8B8902C",
+          type: "item",
+          item: {
+            id: "ae2:condenser",
+            count: 1,
+          },
+        },
+        {
+          id: "616DD1A38ECF453E",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:singularity",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0532EED39182F66E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "10F585BF251A0FCA",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "4D642BDAF91DB4DE",
+          type: "item",
+          item: {
+            id: "ae2:cell_component_1k",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:adv_pattern_provider_upgrade",
+        count: 1,
+      },
+      x: 12.0,
+      y: 16.5,
+      shape: "square",
+      dependencies: [
+        "16B60BCB8240F808",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "06918197435AF24E",
+      tasks: [
+        {
+          id: "744E20D735EAD308",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "advanced_ae:adv_pattern_provider_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "7B7BFAEEC68C93EB",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "extendedae:pattern_provider_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15903267EC039385",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1F489FF4D70AC587",
+          type: "item",
+          item: {
+            id: "advanced_ae:adv_pattern_provider_capacity_upgrade",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:crystal_assembler",
+        count: 1,
+      },
+      x: 15.5,
+      y: 7.5,
+      shape: "rsquare",
+      dependencies: [
+        "02F6AC9E53029E0A",
+        "79E5C4E3958DA8DD",
+      ],
+      size: 1.0,
+      id: "333F134987890582",
+      tasks: [
+        {
+          id: "21E84F8F57AA3937",
+          type: "item",
+          item: {
+            id: "extendedae:crystal_assembler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D3F4D5BDBE2C80E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "468DB3DA7D3D8361",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:stock_export_bus_part",
+        count: 1,
+      },
+      x: 14.0,
+      y: 9.5,
+      shape: "diamond",
+      dependencies: [
+        "2FFA4CF8C062AD5E",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "5D7BD0CDE35A3196",
+      tasks: [
+        {
+          id: "0D5927DFC84737B5",
+          type: "item",
+          item: {
+            id: "advanced_ae:stock_export_bus_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79B732AFCF92EB50",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "34CF00FB41E5DB86",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_core",
+        count: 1,
+      },
+      x: 17.0,
+      y: 13.0,
+      shape: "square",
+      dependencies: [
+        "06EC32E6140E68C1",
+      ],
+      size: 1.0,
+      id: "325D35004FF683C2",
+      tasks: [
+        {
+          id: "7C24344CD7B0F9CE",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2985921AA5B8D14D",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+        {
+          id: "3EF9F9A9026FB224",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_structure",
+        count: 1,
+      },
+      x: 19.5,
+      y: 13.0,
+      shape: "none",
+      dependencies: [
+        "325D35004FF683C2",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      icon_scale: 2.0,
+      optional: true,
+      min_width: 300,
+      hide_lock_icon: true,
+      id: "3D767C3E2F0DE320",
+      tasks: [
+        {
+          id: "773075F6D65887F3",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_structure",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "632459408DDA3488",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0008CC966AAF8144",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:data_entangler",
+        count: 1,
+      },
+      x: 18.5,
+      y: 14.0,
+      shape: "diamond",
+      dependencies: [
+        "3D767C3E2F0DE320",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "2568C81FA7914FE2",
+      tasks: [
+        {
+          id: "20916CD86C0A81A6",
+          type: "item",
+          item: {
+            id: "advanced_ae:data_entangler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6377864337A12D20",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "0CD3CBF1762158E3",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "3545F68C3F77CC8E",
+          type: "item",
+          item: {
+            id: "advanced_ae:shattered_singularity",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_multi_threader",
+        count: 1,
+      },
+      x: 18.5,
+      y: 12.0,
+      shape: "diamond",
+      dependencies: [
+        "3D767C3E2F0DE320",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4F3CA2DCE719D18A",
+      tasks: [
+        {
+          id: "57F6DD185E3A34FD",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_multi_threader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21DE17226D4D5164",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "07FBAFD66C28F742",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "56F55EF0F4E336F2",
+          type: "item",
+          item: {
+            id: "advanced_ae:shattered_singularity",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_storage_128",
+        count: 1,
+      },
+      x: 20.5,
+      y: 14.0,
+      shape: "diamond",
+      dependencies: [
+        "3D767C3E2F0DE320",
+      ],
+      size: 1.0,
+      optional: true,
+      progression_mode: "linear",
+      id: "3BFF8EFB5E7186A4",
+      tasks: [
+        {
+          id: "00A4D09EDA359F3C",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_storage_128",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7FF5D703E7D23762",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "19384907F75C44E7",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "advanced_ae:quantum_storage_256",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_crafter",
+        count: 1,
+      },
+      x: 15.5,
+      y: 15.0,
+      shape: "square",
+      dependencies: [
+        "06EC32E6140E68C1",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "49835EC10C5AE8D8",
+      tasks: [
+        {
+          id: "6BA6C1159D9FFA44",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41DD54ACF12B36B8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3AD23DD4C0DC1BE7",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:entro_crystal",
+        count: 1,
+      },
+      x: 15.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "78ADC11570C5561E",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "79E5C4E3958DA8DD",
+      tasks: [
+        {
+          id: "1CED2259154A1C5B",
+          type: "item",
+          item: {
+            id: "extendedae:entro_seed",
+            count: 1,
+          },
+        },
+        {
+          id: "44CA161F2B3BF996",
+          type: "item",
+          item: {
+            id: "extendedae:entro_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57F37731B1BAB72B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "605893DC87A76387",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:concurrent_processor",
+        count: 1,
+      },
+      x: 15.5,
+      y: 10.0,
+      shape: "hexagon",
+      dependencies: [
+        "333F134987890582",
+      ],
+      size: 1.0,
+      id: "16E0A9FD1B08D34E",
+      tasks: [
+        {
+          id: "3A968F24C22FECCB",
+          type: "item",
+          item: {
+            id: "extendedae:concurrent_processor_press",
+            count: 1,
+          },
+        },
+        {
+          id: "7AD0ED53D9930ADC",
+          type: "item",
+          item: {
+            id: "extendedae:concurrent_processor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75DB4B6B785E4F39",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "75A10CE94E4804EC",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:crystal_fixer",
+        count: 1,
+      },
+      x: 17.0,
+      y: 7.5,
+      shape: "rsquare",
+      dependencies: [
+        "333F134987890582",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "25A18CFB6B3E038B",
+      tasks: [
+        {
+          id: "5BA67F5899B559B9",
+          type: "item",
+          item: {
+            id: "extendedae:crystal_fixer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F345DB9ECE438DB",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "54FCD3B3BB7DFEE4",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:wireless_access_point",
+        count: 1,
+      },
+      x: 2.5,
+      y: 4.0,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "46A1341E5E97ABDC",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 250,
+      id: "0C784115309E7C1C",
+      tasks: [
+        {
+          id: "6977DD1818546AA2",
+          type: "item",
+          item: {
+            id: "ae2:wireless_access_point",
+            count: 1,
+          },
+        },
+        {
+          id: "2A325E3FB310DD49",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:wireless_booster",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B6FE54F77112482",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "449234AC08F8FD4F",
+          type: "item",
+          item: {
+            id: "ae2:wireless_booster",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:wireless_crafting_terminal",
+        count: 1,
+      },
+      x: 2.5,
+      y: 6.0,
+      shape: "square",
+      dependencies: [
+        "0C784115309E7C1C",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 250,
+      id: "54C31D0BAFA952D4",
+      tasks: [
+        {
+          id: "5FEB6B7B3C8EBFE8",
+          type: "item",
+          item: {
+            id: "ae2:wireless_crafting_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "76D6D34926A7D728",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "254693A38D59F720",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:quantum_entangled_singularity",
+        count: 1,
+      },
+      x: 4.5,
+      y: 4.0,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "46A1341E5E97ABDC",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "3A59D1773EBD3B8A",
+      tasks: [
+        {
+          id: "232B93A30789864B",
+          type: "item",
+          item: {
+            id: "ae2:quantum_entangled_singularity",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "50B92D9FA4C16F40",
+          type: "item",
+          item: {
+            id: "ae2:quantum_link",
+            count: 1,
+          },
+        },
+        {
+          id: "4D6C0DFDBB750AF7",
+          type: "item",
+          item: {
+            id: "ae2:quantum_ring",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "51D9A3F67450D03D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4BB034A7821EA3FF",
+          type: "item",
+          item: {
+            id: "ae2:quantum_ring",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "06806C12689FBEFE",
+          type: "item",
+          item: {
+            id: "ae2:quantum_link",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ae2:item/smithing_table_pattern",
+        },
+      },
+      x: 11.5,
+      y: 0.0,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "37104662F0BDDE66",
+      ],
+      size: 1.0,
+      id: "6BB9FD515DFD8FF1",
+      tasks: [
+        {
+          id: "55B1C70507F60EDF",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2339C60514409925",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:controller",
+        count: 1,
+      },
+      x: 13.0,
+      y: 10.0,
+      shape: "hexagon",
+      dependencies: [
+        "46A1341E5E97ABDC",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "0E06BDC6265EB7F7",
+      tasks: [
+        {
+          id: "3509D2F41D6F4F08",
+          type: "item",
+          item: {
+            id: "ae2:controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60E8964EC62C3ED4",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5B81DFFA4305F7B9",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:crafting_unit",
+        count: 1,
+      },
+      x: 12.0,
+      y: 13.0,
+      shape: "none",
+      dependencies: [
+        "71024D8DC19834AC",
+      ],
+      size: 1.0,
+      icon_scale: 2.0,
+      min_width: 250,
+      hide_lock_icon: true,
+      id: "7E4FF5A454039E47",
+      tasks: [
+        {
+          id: "6D728EB09B59FB1D",
+          type: "item",
+          item: {
+            id: "ae2:crafting_unit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0027A241F86013CA",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "239F52EFC3B209D5",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_unit",
+        count: 1,
+      },
+      x: 15.5,
+      y: 13.0,
+      shape: "hexagon",
+      dependencies: [
+        "7E4FF5A454039E47",
+        "16E0A9FD1B08D34E",
+      ],
+      size: 1.5,
+      id: "06EC32E6140E68C1",
+      tasks: [
+        {
+          id: "0A0F8A0CA9998FE6",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_unit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E5D9E990DBA77BF",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2C857AD228363DA7",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "01F57B94CE903014",
+          type: "item",
+          item: {
+            id: "advanced_ae:shattered_singularity",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:fluix_glass_cable",
+        count: 1,
+      },
+      x: 12.0,
+      y: 9.0,
+      shape: "rsquare",
+      dependencies: [
+        "02F6AC9E53029E0A",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "46A1341E5E97ABDC",
+      tasks: [
+        {
+          id: "101BA566216C32AD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ae2:fluix_glass_cable)item(ae2:fluix_covered_cable)item(ae2:fluix_smart_cable))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C8E845BEDA5FD05",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "2C7E3317F61FDDBD",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:pattern_encoding_terminal",
+        count: 1,
+      },
+      x: 11.0,
+      y: 14.0,
+      shape: "square",
+      dependencies: [
+        "7E4FF5A454039E47",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "69F87073390131D5",
+      tasks: [
+        {
+          id: "779A817D32072FE1",
+          type: "item",
+          item: {
+            id: "ae2:pattern_encoding_terminal",
+            count: 1,
+          },
+        },
+        {
+          id: "38CCB8AA500EA96D",
+          type: "item",
+          item: {
+            id: "ae2:blank_pattern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67FC6611443D1A99",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "48CC6F7C04FD35EF",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "0CD35BED507A882D",
+          type: "item",
+          item: {
+            id: "ae2:blank_pattern",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_accelerator",
+        count: 1,
+      },
+      x: 20.5,
+      y: 12.0,
+      shape: "diamond",
+      dependencies: [
+        "3D767C3E2F0DE320",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "355C3ACB16CC2DE9",
+      tasks: [
+        {
+          id: "09E0B8C21DAC57D8",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_accelerator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33D94C5AC158EF48",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "188592C9B86B95FF",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_accelerator",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:cable_interface",
+        count: 1,
+      },
+      x: 11.0,
+      y: 8.5,
+      shape: "diamond",
+      dependencies: [
+        "02F6AC9E53029E0A",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "1B1E4B79CB5D4C35",
+      tasks: [
+        {
+          id: "62978C611C641A3D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:interface)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FF7960D77F879C4",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "087834C8F237F681",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:storage_bus",
+        count: 1,
+      },
+      x: 10.0,
+      y: 9.5,
+      shape: "diamond",
+      dependencies: [
+        "1B1E4B79CB5D4C35",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "4882D3E03CC01268",
+      tasks: [
+        {
+          id: "02D61F21E37162C1",
+          type: "item",
+          item: {
+            id: "ae2:storage_bus",
+            count: 1,
+          },
+        },
+        {
+          id: "7F7368FB8502752E",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "extendedae:tag_storage_bus",
+            count: 1,
+          },
+        },
+        {
+          id: "039475E4B0E50BDF",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "extendedae:mod_storage_bus",
+            count: 1,
+          },
+        },
+        {
+          id: "0D74599D90BB3B7E",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "extendedae:precise_storage_bus",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7330363A97A5D2F8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "049CF3C00777850F",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:large_quartz_bud",
+        count: 1,
+      },
+      x: 11.5,
+      y: 1.5,
+      dependencies: [
+        "37104662F0BDDE66",
+      ],
+      size: 1.0,
+      id: "09B3528CF3C615C6",
+      tasks: [
+        {
+          id: "05B2459DFCE419AB",
+          type: "item",
+          item: {
+            id: "ae2:certus_quartz_crystal",
+            count: 1,
+          },
+        },
+        {
+          id: "7A02A050E415180B",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:charger",
+            count: 1,
+          },
+        },
+        {
+          id: "5CCDA50CD1637BEC",
+          type: "observation",
+          icon: {
+            id: "ae2:damaged_budding_quartz",
+            count: 1,
+          },
+          optional_task: true,
+          timer: 0,
+          observation_type: "block",
+          to_observe: "ae2:damaged_budding_quartz",
+        },
+      ],
+      rewards: [
+        {
+          id: "06B3AF51FF7869A2",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:sky_stone_block",
+        count: 1,
+      },
+      x: 10.5,
+      y: 4.0,
+      shape: "hexagon",
+      dependency_requirement: "one_started",
+      size: 1.5,
+      id: "3B33C4D5A2D400D4",
+      tasks: [
+        {
+          id: "7C18A8BC8F5747A6",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:sky_dust",
+            count: 1,
+          },
+        },
+        {
+          id: "1F2A26222EAA759D",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:sky_stone_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5163FBE1A88B07B9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 20.0,
+      y: 10.0,
+      shape: "diamond",
+      dependencies: [
+        "711D381A7974F88A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6B6C60BFE1D378D0",
+      tasks: [
+        {
+          id: "3FB6FB9AEEAE5739",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(extendedae:assembler_matrix_wall)item(extendedae:assembler_matrix_glass))",
+            },
+          },
+          count: 150,
+        },
+        {
+          id: "7EB3F43B37F6CB8E",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_frame",
+            count: 1,
+          },
+          count: 68,
+        },
+        {
+          id: "1B4AF8613805D9F5",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_pattern",
+            count: 1,
+          },
+          count: 30,
+        },
+        {
+          id: "7A0F2DB356A4A43A",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_crafter",
+            count: 1,
+          },
+          count: 90,
+        },
+        {
+          id: "14774EA7CEFA9189",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_speed",
+            count: 1,
+          },
+          count: 5,
+        },
+      ],
+      rewards: [
+        {
+          id: "68092205D0B7DF4F",
+          type: "currency",
+          team_reward: false,
+          amount: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 21.0,
+      y: 13.0,
+      shape: "diamond",
+      dependencies: [
+        "3D767C3E2F0DE320",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "75A7DDE0D617B5E6",
+      tasks: [
+        {
+          id: "031720B6D6E59607",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_structure",
+            count: 1,
+          },
+          count: 218,
+        },
+        {
+          id: "6F6B7949C735378D",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_accelerator",
+            count: 1,
+          },
+          count: 121,
+        },
+        {
+          id: "5C59EDD54F8A82C6",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_storage_256",
+            count: 1,
+          },
+        },
+        {
+          id: "1D74DB0D226208C8",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_multi_threader",
+            count: 1,
+          },
+        },
+        {
+          id: "0757243D0A6D1B0A",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_core",
+            count: 1,
+          },
+        },
+        {
+          id: "7B8E3AF64B0A2B71",
+          type: "item",
+          item: {
+            id: "advanced_ae:data_entangler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "584068FF7D32FBA7",
+          type: "currency",
+          team_reward: false,
+          amount: 250,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:assembler_matrix_frame",
+        count: 1,
+      },
+      x: 17.5,
+      y: 9.0,
+      shape: "diamond",
+      dependencies: [
+        "711D381A7974F88A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "57CBEE2A35F98614",
+      tasks: [
+        {
+          id: "57934F6C9E1B32B8",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "610A1C3119E09B2B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2679109CB3B3EAEF",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_frame",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:assembler_matrix_wall",
+        count: 1,
+      },
+      x: 18.5,
+      y: 10.0,
+      shape: "none",
+      dependencies: [
+        "16E0A9FD1B08D34E",
+      ],
+      size: 1.0,
+      icon_scale: 2.0,
+      optional: true,
+      min_width: 350,
+      id: "711D381A7974F88A",
+      tasks: [
+        {
+          id: "2661A1BEC799B3C9",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_wall",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42F41FC0F773CE7F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2F77F1A9D924F9D6",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_wall",
+            count: 1,
+          },
+          count: 32,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:assembler_matrix_pattern",
+        count: 1,
+      },
+      x: 17.5,
+      y: 11.0,
+      shape: "diamond",
+      dependencies: [
+        "711D381A7974F88A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "75D7595FD90E77E5",
+      tasks: [
+        {
+          id: "5B1DC3A434E40473",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_pattern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61E3B5E41D51EE26",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:assembler_matrix_crafter",
+        count: 1,
+      },
+      x: 19.5,
+      y: 11.0,
+      shape: "diamond",
+      dependencies: [
+        "711D381A7974F88A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3FD6F10BE6F06FFF",
+      tasks: [
+        {
+          id: "1975425ED51F2AF3",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75A493FC0BCA81A6",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:assembler_matrix_speed",
+        count: 1,
+      },
+      x: 19.5,
+      y: 9.0,
+      shape: "diamond",
+      dependencies: [
+        "711D381A7974F88A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "7675666E156F0A94",
+      tasks: [
+        {
+          id: "67B7C841C7D6181C",
+          type: "item",
+          item: {
+            id: "extendedae:assembler_matrix_speed",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "340B959A1421C54E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "appflux:flux_accessor",
+        count: 1,
+      },
+      x: 13.0,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "0224277CBEC1375E",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "1733FCE814C7DE2D",
+      tasks: [
+        {
+          id: "619E259715D3DAFC",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(appflux:fe_1k_cell)item(appflux:fe_4k_cell)item(appflux:fe_16k_cell)item(appflux:fe_64k_cell)item(appflux:fe_256k_cell)item(appflux:fe_1m_cell)item(appflux:fe_4m_cell)item(appflux:fe_16m_cell)item(appflux:fe_64m_cell)item(appflux:fe_256m_cell))",
+            },
+          },
+        },
+        {
+          id: "45C791169D3DCB15",
+          type: "item",
+          item: {
+            id: "appflux:flux_accessor",
+            count: 1,
+          },
+        },
+        {
+          id: "6C988DB409F086C2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "appflux:induction_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "101EBC0BD63EC474",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "35F7C1A440DAA699",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:creative_controller",
+        count: 1,
+      },
+      x: -8.5,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "203166AA7B1EA334",
+      ],
+      size: 1.25,
+      id: "60C650264AA5525D",
+      tasks: [
+        {
+          id: "7A2B58FD3F6E8094",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controllers)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04E083519A7D07C1",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5D2F017EF368E505",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:cable",
+        count: 1,
+      },
+      x: -8.5,
+      y: 2.5,
+      dependencies: [
+        "60C650264AA5525D",
+      ],
+      size: 1.0,
+      id: "71F17C85D540C559",
+      tasks: [
+        {
+          id: "6C942023C86BAFA7",
+          type: "item",
+          item: {
+            id: "refinedstorage:cable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70E0BEA99CECE5BC",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "25573443750721EB",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:exporter",
+        count: 1,
+      },
+      x: -8.5,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "71F17C85D540C559",
+      ],
+      size: 1.0,
+      id: "0D864FD6A668D8C6",
+      tasks: [
+        {
+          id: "6FC669F1EEC65421",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:tiered_exporters)",
+            },
+          },
+        },
+        {
+          id: "3D22C65DCF3BF778",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:tiered_importers)",
+            },
+          },
+        },
+        {
+          id: "042D580737DAD156",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:tiered_interfaces)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A36149FF8792742",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1309488E2D7C589A",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:external_storage",
+        count: 1,
+      },
+      x: -8.5,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "60C650264AA5525D",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "68778308CBAB4AE3",
+      tasks: [
+        {
+          id: "440D443FD16D6862",
+          type: "item",
+          item: {
+            id: "refinedstorage:external_storage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0277A9ABC2050A05",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "26C7CE256BF26454",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:constructor",
+        count: 1,
+      },
+      x: -8.0,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "71F17C85D540C559",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "2BFD68083AD1B894",
+      tasks: [
+        {
+          id: "7FA59A33896369F6",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:tiered_constructors)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "594801682520081F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "430018F51E3F2FE0",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:wireless_transmitter",
+        count: 1,
+      },
+      x: -16.0,
+      y: 3.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "52C305EDBE2CCC55",
+      ],
+      size: 1.0,
+      id: "612340743D7C7536",
+      tasks: [
+        {
+          id: "1A33A7B304C14570",
+          type: "item",
+          item: {
+            id: "refinedstorage:wireless_transmitter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F555566E52A6399",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5B5C3FF1C8722125",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:disk_drive",
+        count: 1,
+      },
+      x: -11.5,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "60C650264AA5525D",
+      ],
+      size: 1.25,
+      min_width: 350,
+      id: "6AA51581B0CA5271",
+      tasks: [
+        {
+          id: "0298F33C902DF61F",
+          type: "item",
+          item: {
+            id: "refinedstorage:disk_drive",
+            count: 1,
+          },
+        },
+        {
+          id: "05537C33CBF522CE",
+          type: "item",
+          item: {
+            id: "refinedstorage:storage_housing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FADC0D1AF6FC053",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6D8F165F99887EB3",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:grid",
+        count: 1,
+      },
+      x: -14.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "6AA51581B0CA5271",
+      ],
+      size: 1.25,
+      id: "52C305EDBE2CCC55",
+      tasks: [
+        {
+          id: "3F9FFD1149E05A1A",
+          type: "item",
+          item: {
+            id: "refinedstorage:grid",
+            count: 1,
+          },
+        },
+        {
+          id: "63A9B1A487825837",
+          type: "item",
+          item: {
+            id: "refinedstorage:crafting_grid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "519F95E1EF5CCAC5",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "09A66A7B37B207D9",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:pattern",
+        count: 1,
+      },
+      x: -14.0,
+      y: 2.5,
+      dependencies: [
+        "52C305EDBE2CCC55",
+      ],
+      size: 1.0,
+      id: "35E8F57E93106BFE",
+      tasks: [
+        {
+          id: "0C757F522F38E694",
+          type: "item",
+          item: {
+            id: "refinedstorage:pattern_grid",
+            count: 1,
+          },
+        },
+        {
+          id: "35FC1980D3C2DFE4",
+          type: "item",
+          item: {
+            id: "refinedstorage:pattern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56AB224260283220",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4687DD5B4386BA06",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:security_manager",
+        count: 1,
+      },
+      x: -17.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "5E1FD04538F89292",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "7D3A5740B5857874",
+      tasks: [
+        {
+          id: "780F36FD6C0FBD5D",
+          type: "item",
+          item: {
+            id: "refinedstorage:security_manager",
+            count: 1,
+          },
+        },
+        {
+          id: "1709F491BB712818",
+          type: "item",
+          item: {
+            id: "refinedstorage:security_card",
+            count: 1,
+          },
+        },
+        {
+          id: "0E57D57211BF746E",
+          type: "item",
+          item: {
+            id: "refinedstorage:fallback_security_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0485F5BEF515C51A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "79733FA87AC74535",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:disk_interface",
+        count: 1,
+      },
+      x: -11.5,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "6AA51581B0CA5271",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "400FD8861E907DDA",
+      tasks: [
+        {
+          id: "12F76015AADF8F6A",
+          type: "item",
+          item: {
+            id: "refinedstorage:disk_interface",
+            count: 1,
+          },
+        },
+        {
+          id: "2E2CF42092AA43D8",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(cabletiers:elite_disk_interface)item(cabletiers:ultra_disk_interface)item(cabletiers:mega_disk_interface)item(cabletiers:creative_disk_interface))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19520E49C7E7A6CA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "342C8110F31CB465",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:detector",
+        count: 1,
+      },
+      x: -6.0,
+      y: 5.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "203166AA7B1EA334",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "40DCA09032568A0F",
+      tasks: [
+        {
+          id: "56FEF0936A942F21",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage:relay",
+            count: 1,
+          },
+        },
+        {
+          id: "1F5678E16CD00CB2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage:storage_monitor",
+            count: 1,
+          },
+        },
+        {
+          id: "719076FEAE72C8D1",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage:detector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64F2C5B0E6AFCFB5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0DC2ADD052E88E0D",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:autocrafter",
+        count: 1,
+      },
+      x: -14.0,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "35E8F57E93106BFE",
+      ],
+      size: 1.0,
+      id: "3F5480E01ABA887B",
+      tasks: [
+        {
+          id: "4E13E9A89C75F145",
+          type: "item",
+          item: {
+            id: "refinedstorage:autocrafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60892087262B4917",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "37D84F0DC5C91699",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:autocrafter_manager",
+        count: 1,
+      },
+      x: -13.5,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "35E8F57E93106BFE",
+      ],
+      size: 1.0,
+      id: "5CDE33FC6A041416",
+      tasks: [
+        {
+          id: "0F849C8597055D4D",
+          type: "item",
+          item: {
+            id: "refinedstorage:autocrafter_manager",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BB8C9E23E248172",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3C752796BFEF95F4",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:autocrafting_monitor",
+        count: 1,
+      },
+      x: -14.5,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "35E8F57E93106BFE",
+      ],
+      size: 1.0,
+      id: "33EDFB2DC1BEA7F0",
+      tasks: [
+        {
+          id: "2441F12D3A6DD7B5",
+          type: "item",
+          item: {
+            id: "refinedstorage:autocrafting_monitor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "226222F3D5E2AA2B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "08AFB403D0BEB9CF",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:1k_storage_part",
+        count: 1,
+      },
+      x: -12.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "6AA51581B0CA5271",
+      ],
+      size: 1.0,
+      id: "5CC2FE30CF016754",
+      tasks: [
+        {
+          id: "7391816BB121ED4B",
+          type: "item",
+          item: {
+            id: "refinedstorage:1k_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26191D8A316DE399",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "32A104C46756DBFE",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:64k_storage_part",
+        count: 1,
+      },
+      x: -13.0,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "5CC2FE30CF016754",
+      ],
+      size: 1.0,
+      id: "7AAE6DAFE0092A95",
+      tasks: [
+        {
+          id: "232F1642437EC2F6",
+          type: "item",
+          item: {
+            id: "refinedstorage:64k_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04AC5FD8B1600BE6",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4409AC32E5958DE1",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:64b_fluid_storage_part",
+        count: 1,
+      },
+      x: -10.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "6AA51581B0CA5271",
+      ],
+      hide_until_deps_complete: false,
+      size: 1.0,
+      optional: true,
+      id: "32B4188E9438E43F",
+      tasks: [
+        {
+          id: "185FF8CA5DAD0FE8",
+          type: "item",
+          item: {
+            id: "refinedstorage:64b_fluid_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EF6D445DC58D768",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "69134AD322220803",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:4096b_fluid_storage_part",
+        count: 1,
+      },
+      x: -10.0,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "32B4188E9438E43F",
+      ],
+      hide_until_deps_complete: false,
+      size: 1.0,
+      optional: true,
+      id: "2EAA02B80B0E4D5A",
+      tasks: [
+        {
+          id: "6926B45547CD8160",
+          type: "item",
+          item: {
+            id: "refinedstorage:4096b_fluid_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02AD794994D6BA2E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "57CC5C5769510516",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:upgrade",
+        count: 1,
+      },
+      x: -11.5,
+      y: 2.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      size: 1.0,
+      id: "27D28CC22BB5C665",
+      tasks: [
+        {
+          id: "7F17FB9019397B0D",
+          type: "item",
+          item: {
+            id: "refinedstorage:upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EB7B466F7D7BDFC",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "70D6DB499F7A64E6",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:speed_upgrade",
+        count: 1,
+      },
+      x: -12.0,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "27D28CC22BB5C665",
+      ],
+      size: 1.0,
+      id: "31FD89FA8B730048",
+      tasks: [
+        {
+          id: "6D19DFF89BD3E8E4",
+          type: "item",
+          item: {
+            id: "refinedstorage:speed_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "2370B721B04264CE",
+          type: "item",
+          item: {
+            id: "refinedstorage:stack_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "541C0D1CA65AC82A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "568CDF4D54E7721F",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:fortune_1_upgrade",
+        count: 1,
+      },
+      x: -10.5,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "27D28CC22BB5C665",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "3CD3CA5B619F5698",
+      tasks: [
+        {
+          id: "7F31E6F7A6728CF1",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(refinedstorage:fortune_1_upgrade)item(refinedstorage:fortune_2_upgrade)item(refinedstorage:fortune_3_upgrade))",
+              "minecraft:custom_name": "\"Fortune Upgrades\"",
+            },
+          },
+        },
+        {
+          id: "781377383707C59E",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage:silk_touch_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B0A3020435AAD4F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "75CA635E1B2680DF",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:regulator_upgrade",
+        count: 1,
+      },
+      x: -12.5,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "27D28CC22BB5C665",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "0C59F30673774398",
+      tasks: [
+        {
+          id: "18E55AC12D3A4A1D",
+          type: "item",
+          item: {
+            id: "refinedstorage:regulator_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2739DCB167051E46",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "55D6A6FFD8F57DAF",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:range_upgrade",
+        count: 1,
+      },
+      x: -11.5,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "27D28CC22BB5C665",
+      ],
+      size: 1.0,
+      id: "50EFBD8BDE0C88AF",
+      tasks: [
+        {
+          id: "626B9F9426305FCF",
+          type: "item",
+          item: {
+            id: "refinedstorage:range_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FFE2B7B6C8B85AA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "005F92EABD8E970A",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:autocrafting_upgrade",
+        count: 1,
+      },
+      x: -11.0,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "27D28CC22BB5C665",
+      ],
+      size: 1.0,
+      id: "4F72252AD2DCAECC",
+      tasks: [
+        {
+          id: "30F6699A80CB75AC",
+          type: "item",
+          item: {
+            id: "refinedstorage:autocrafting_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "004826C01AC70E6D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "028CC01BD4DFF3F2",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:configuration_card",
+        count: 1,
+      },
+      x: -6.5,
+      y: 6.0,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "203166AA7B1EA334",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "58982359699AFB7F",
+      tasks: [
+        {
+          id: "0374CFE177A3BBB9",
+          type: "item",
+          item: {
+            id: "refinedstorage:configuration_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C21EE29D1FB4E56",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "0C7D633DF61E88F8",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:network_transmitter",
+        count: 1,
+      },
+      x: -16.0,
+      y: 4.5,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "52C305EDBE2CCC55",
+      ],
+      size: 1.0,
+      id: "5E1FD04538F89292",
+      tasks: [
+        {
+          id: "1B756B6772815DC2",
+          type: "item",
+          item: {
+            id: "refinedstorage:network_card",
+            count: 1,
+          },
+        },
+        {
+          id: "2AD770B05AA53B81",
+          type: "item",
+          item: {
+            id: "refinedstorage:network_transmitter",
+            count: 1,
+          },
+        },
+        {
+          id: "6DEFB70B597A4DF6",
+          type: "item",
+          item: {
+            id: "refinedstorage:network_receiver",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C4390B61D887212",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1592ACC04E9FC776",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:wrench",
+        count: 1,
+      },
+      x: -7.0,
+      y: 5.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "203166AA7B1EA334",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "2CB418AE76610E8F",
+      tasks: [
+        {
+          id: "1BADC46A2368C0EC",
+          type: "item",
+          item: {
+            id: "refinedstorage:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47E2410FAB506743",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "381A2D7B837DB1A0",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:creative_wireless_grid",
+        count: 1,
+      },
+      x: -17.0,
+      y: 3.5,
+      shape: "rsquare",
+      dependencies: [
+        "612340743D7C7536",
+      ],
+      size: 1.0,
+      id: "03BEFC2150D09E7A",
+      tasks: [
+        {
+          id: "337FF67CC276D3F0",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage:wireless_grid",
+            count: 1,
+          },
+        },
+        {
+          id: "5D7F6D7D25BCC11A",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage:wireless_autocrafting_monitor",
+            count: 1,
+          },
+        },
+        {
+          id: "423B73A068574492",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "refinedstorage_quartz_arsenal:wireless_crafting_grid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EA11E240CE42AFC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "33305DDF0955E3AD",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:iron_crafter",
+        count: 1,
+      },
+      x: -13.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "3F5480E01ABA887B",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "59AD05C4C9642285",
+      tasks: [
+        {
+          id: "683B8E8C3801D325",
+          type: "item",
+          item: {
+            id: "extrastorage:iron_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A0B5131E21395C2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "51115F51AE36F54B",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:gold_crafter",
+        count: 1,
+      },
+      x: -14.5,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "59AD05C4C9642285",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "73B45ED40DC41735",
+      tasks: [
+        {
+          id: "5B218A6A03FADB71",
+          type: "item",
+          item: {
+            id: "extrastorage:gold_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2744F4157AD39338",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "43A44E9EF2462F46",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:diamond_crafter",
+        count: 1,
+      },
+      x: -14.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "73B45ED40DC41735",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "0BA876EC757BBE6F",
+      tasks: [
+        {
+          id: "78D31B03F31ED73E",
+          type: "item",
+          item: {
+            id: "extrastorage:diamond_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DA0E84698D71FFA",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "53B5F638A86B7DCE",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:netherite_crafter",
+        count: 1,
+      },
+      x: -14.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "0BA876EC757BBE6F",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      icon_scale: 1.25,
+      optional: true,
+      id: "210833F817D7AF9E",
+      tasks: [
+        {
+          id: "0D922C768AEC0FCD",
+          type: "item",
+          item: {
+            id: "extrastorage:netherite_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4348CF6198C1144E",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "384C311D4971A83B",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+        {
+          id: "47B28A8D65F8F03A",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:256k_item_storage_part",
+        count: 1,
+      },
+      x: -12.5,
+      y: 6.0,
+      shape: "diamond",
+      dependencies: [
+        "7AAE6DAFE0092A95",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4F5A267B3042E308",
+      tasks: [
+        {
+          id: "40DA0A4675FF307F",
+          type: "item",
+          item: {
+            id: "extrastorage:256k_item_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "622F721456163740",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "2BD8EEE799B690DD",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:16384k_item_storage_part",
+        count: 1,
+      },
+      x: -13.0,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "4F5A267B3042E308",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "32A9DED264608999",
+      tasks: [
+        {
+          id: "0C44B309AB9E5DFC",
+          type: "item",
+          item: {
+            id: "extrastorage:16384k_item_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4266993DBCA4E218",
+          type: "currency",
+          team_reward: false,
+          amount: 45,
+        },
+        {
+          id: "031742533520759B",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:16384b_fluid_storage_part",
+        count: 1,
+      },
+      x: -10.5,
+      y: 6.0,
+      shape: "diamond",
+      dependencies: [
+        "2EAA02B80B0E4D5A",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "5B5447A65D9C82B9",
+      tasks: [
+        {
+          id: "65D225DA3C372D45",
+          type: "item",
+          item: {
+            id: "extrastorage:16384b_fluid_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "131075E9A9FE545C",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "2BC81238E0A72033",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extrastorage:1048576b_fluid_storage_part",
+        count: 1,
+      },
+      x: -10.0,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "5B5447A65D9C82B9",
+      ],
+      hide_until_deps_complete: false,
+      size: 1.0,
+      optional: true,
+      id: "1CBB7F801A4C554C",
+      tasks: [
+        {
+          id: "524AD17A4A27CE5D",
+          type: "item",
+          item: {
+            id: "extrastorage:1048576b_fluid_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19175A4BF5C51E17",
+          type: "currency",
+          team_reward: false,
+          amount: 45,
+        },
+        {
+          id: "7583618753F813A3",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:destructor",
+        count: 1,
+      },
+      x: -9.0,
+      y: 1.5,
+      shape: "diamond",
+      dependencies: [
+        "71F17C85D540C559",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "461A01BDC4D4B1BD",
+      tasks: [
+        {
+          id: "6FA7544DA9F3A7BF",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:tiered_destructors)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23294C724914AA07",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1B04A3EFDCCBD871",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2174502260259284846,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 14.0,
+      y: 8.5,
+      shape: "diamond",
+      dependencies: [
+        "2FFA4CF8C062AD5E",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "3BB67EB21BCABF19",
+      tasks: [
+        {
+          id: "2F3541ED4C69723B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "054D708E9DB43C95",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3964575564399764791,
+        },
+        {
+          id: "7E83DB379F199BA5",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedtypes:64k_energy_storage_part",
+        count: 1,
+      },
+      x: -11.5,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "6AA51581B0CA5271",
+      ],
+      size: 1.0,
+      id: "049F3DE6E841700A",
+      tasks: [
+        {
+          id: "25F9A79E861827DF",
+          type: "item",
+          item: {
+            id: "refinedtypes:64k_energy_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B15A3F1B0883B9B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedtypes:1024k_energy_storage_part",
+        count: 1,
+      },
+      x: -12.0,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "049F3DE6E841700A",
+      ],
+      size: 1.0,
+      id: "087317C9849CA182",
+      tasks: [
+        {
+          id: "70F76BEB7AED8EBB",
+          type: "item",
+          item: {
+            id: "refinedtypes:1024k_energy_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F282ED3BF6BB238",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedtypes:65536k_energy_storage_part",
+        count: 1,
+      },
+      x: -11.5,
+      y: 7.5,
+      shape: "diamond",
+      dependencies: [
+        "087317C9849CA182",
+      ],
+      size: 1.0,
+      id: "1E56EBF681327B7A",
+      tasks: [
+        {
+          id: "1AB9507176505896",
+          type: "item",
+          item: {
+            id: "refinedtypes:65536k_energy_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71C73AC7E202537C",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedtypes:8388608k_energy_storage_part",
+        count: 1,
+      },
+      x: -11.0,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "1E56EBF681327B7A",
+      ],
+      size: 1.0,
+      id: "6EEA3370CA4BB298",
+      tasks: [
+        {
+          id: "1E541DED173FB4A6",
+          type: "item",
+          item: {
+            id: "refinedtypes:8388608k_energy_storage_part",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "564882EAEA3F447A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "refinedstorage:quartz_enriched_iron",
+        count: 1,
+      },
+      x: -6.5,
+      y: 4.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "203166AA7B1EA334",
+      tasks: [
+        {
+          id: "7D6CD858B3E886E6",
+          type: "item",
+          item: {
+            id: "refinedstorage:quartz_enriched_iron",
+            count: 1,
+          },
+        },
+        {
+          id: "3D0E391A93A8E893",
+          type: "item",
+          item: {
+            id: "refinedstorage:machine_casing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F177314762EC770",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dankstorage:dank_1",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "565BE0BC0B0CC3F8",
+      tasks: [
+        {
+          id: "43154F13089BFE68",
+          type: "item",
+          item: {
+            id: "dankstorage:dank_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16A64AEB01D3FA75",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "78E1963217A82D2E",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dankstorage:dock",
+        count: 1,
+      },
+      x: 0.5,
+      y: 5.5,
+      dependencies: [
+        "565BE0BC0B0CC3F8",
+      ],
+      size: 1.0,
+      id: "672771AD1045C7B6",
+      tasks: [
+        {
+          id: "13700BD198C98344",
+          type: "item",
+          item: {
+            id: "dankstorage:dock",
+            count: 1,
+          },
+        },
+        {
+          id: "21AA9417FFF00C68",
+          type: "item",
+          item: {
+            id: "dankstorage:1_to_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FA0E08B331A4810",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "68F69586065C5B6E",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dankstorage:red_print",
+        count: 1,
+      },
+      x: -0.5,
+      y: 5.5,
+      dependencies: [
+        "565BE0BC0B0CC3F8",
+      ],
+      size: 1.0,
+      id: "2C504032C44CED68",
+      tasks: [
+        {
+          id: "612E053E2DFDC31C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "173B273F96E56B7B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:oak_1",
+        count: 1,
+      },
+      x: -3.5,
+      y: 11.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "42E091DE8BD7F1B9",
+      tasks: [
+        {
+          id: "244B1084A1378FA0",
+          type: "item",
+          item: {
+            id: "functionalstorage:oak_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43060BDDA749EC8A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6E8E00041FC0099D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:copper_upgrade",
+        count: 1,
+      },
+      x: -5.23,
+      y: 10.5,
+      dependencies: [
+        "42E091DE8BD7F1B9",
+      ],
+      size: 1.0,
+      id: "475662C0E0DCB7B3",
+      tasks: [
+        {
+          id: "26E0EF7420593305",
+          type: "item",
+          icon: {
+            id: "functionalstorage:copper_upgrade",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(functionalstorage:copper_upgrade)item(functionalstorage:gold_upgrade)item(functionalstorage:diamond_upgrade)item(functionalstorage:netherite_upgrade))",
+              "minecraft:custom_name": "\"Any Storage Upgrade\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55D05C571DB2B1E3",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7B98C970AFC7B48D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:compacting_drawer",
+        count: 1,
+      },
+      x: -5.23,
+      y: 12.5,
+      dependencies: [
+        "42E091DE8BD7F1B9",
+      ],
+      size: 1.0,
+      id: "193CAE408B6B3A27",
+      tasks: [
+        {
+          id: "16502BDE0A17F3D6",
+          type: "item",
+          icon: {
+            id: "functionalstorage:compacting_drawer",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(functionalstorage:compacting_drawer)item(functionalstorage:simple_compacting_drawer)item(functionalstorage:compacting_framed_drawer)item(functionalstorage:framed_simple_compacting_drawer))",
+              "minecraft:custom_name": "\"Any Compacting Drawer\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7FEC7EA7AA7DF56F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7769D632C6788D5A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:void_upgrade",
+        count: 1,
+      },
+      x: -3.5,
+      y: 13.5,
+      dependencies: [
+        "42E091DE8BD7F1B9",
+      ],
+      size: 1.0,
+      id: "55EA2F8E610CCEBA",
+      tasks: [
+        {
+          id: "55BDC5CFF8C141BC",
+          type: "item",
+          item: {
+            id: "functionalstorage:void_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "20069ECA2E1246DB",
+          type: "item",
+          item: {
+            id: "functionalstorage:pusher_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25A429F27DD252B1",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2A7699ACEF7294B9",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:fluid_1",
+        count: 1,
+      },
+      x: -1.77,
+      y: 12.5,
+      dependencies: [
+        "42E091DE8BD7F1B9",
+      ],
+      size: 1.0,
+      id: "4CE28131C331AED1",
+      tasks: [
+        {
+          id: "593B580FF0A76140",
+          type: "item",
+          item: {
+            id: "functionalstorage:fluid_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1ACD2513EE2C4E9B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7C0260A715B8B00D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:storage_controller",
+        count: 1,
+      },
+      x: -1.77,
+      y: 10.5,
+      dependencies: [
+        "42E091DE8BD7F1B9",
+      ],
+      size: 1.0,
+      id: "6A5528EABA0C5417",
+      tasks: [
+        {
+          id: "7FD6304F9FCD8DBB",
+          type: "item",
+          item: {
+            id: "functionalstorage:storage_controller",
+            count: 1,
+          },
+        },
+        {
+          id: "28CAF97C1C29C7CF",
+          type: "item",
+          item: {
+            id: "functionalstorage:linking_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "618D4789857865C8",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "65314F7DCC8FAD1B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "functionalstorage:ender_drawer",
+        count: 1,
+      },
+      x: -0.5,
+      y: 10.5,
+      dependencies: [
+        "6A5528EABA0C5417",
+      ],
+      size: 1.0,
+      id: "42F6822772C6D47F",
+      tasks: [
+        {
+          id: "2CB12BB00CB9B894",
+          type: "item",
+          item: {
+            id: "functionalstorage:ender_drawer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "500DABCB0A979171",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2FDA4C433C3850B9",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "enderthing:key",
+        count: 1,
+      },
+      x: 1.0,
+      y: 7.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "55ED3216C84AED71",
+      tasks: [
+        {
+          id: "10B7B6FC1CA140AF",
+          type: "item",
+          item: {
+            id: "enderthing:key",
+            count: 1,
+          },
+        },
+        {
+          id: "28EA3F37F9C97ADB",
+          type: "item",
+          item: {
+            id: "enderthing:lock",
+            count: 1,
+          },
+        },
+        {
+          id: "5A4A5E0E285F1B09",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "enderthing:card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A3DFCA079BEE7AF",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6E24E08F16CA08FC",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "enderthing:pack",
+        count: 1,
+      },
+      x: 1.0,
+      y: 8.5,
+      dependencies: [
+        "55ED3216C84AED71",
+      ],
+      size: 1.0,
+      id: "216021782F3FE441",
+      tasks: [
+        {
+          id: "7D021CEE9D0DEAFE",
+          type: "item",
+          item: {
+            id: "enderthing:pack",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7637DE0166AB4BF2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2D12969CDA6E5199",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "infinitystorage:infinity_storage_drive",
+        count: 1,
+      },
+      x: -1.0,
+      y: 7.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "4DCCA4E4366E74A9",
+      tasks: [
+        {
+          id: "7C7823D0ED7340C1",
+          type: "item",
+          item: {
+            id: "infinitystorage:infinity_storage_drive",
+            count: 1,
+          },
+        },
+        {
+          id: "5C5544F113EBED5E",
+          type: "item",
+          item: {
+            id: "infinitystorage:infinity_cobblestone_drive",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14B9B6AC376880A3",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "41834A660E686AD8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "infinitystorage:infinity_water_drive",
+        count: 1,
+      },
+      x: -1.0,
+      y: 8.5,
+      dependencies: [
+        "4DCCA4E4366E74A9",
+      ],
+      size: 1.0,
+      id: "63110E3D31811F5A",
+      tasks: [
+        {
+          id: "3147552B30E73925",
+          type: "item",
+          item: {
+            id: "infinitystorage:infinity_water_drive",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FB69E59263FFEFF",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "54490F96042841D1",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "cabletiers:elite_exporter",
+        count: 1,
+      },
+      x: -10.0,
+      y: 10.5,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "71F17C85D540C559",
+      ],
+      size: 1.25,
+      optional: true,
+      id: "1DB1F4F07B69E962",
+      tasks: [
+        {
+          id: "7D3D0B1F2497B89D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(cabletiers:elite_exporters)item_tag(cabletiers:elite_importers)item_tag(cabletiers:elite_constructors)item_tag(cabletiers:elite_destructors))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28A71AC4ED0A9712",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "cabletiers:ultra_exporter",
+        count: 1,
+      },
+      x: -11.5,
+      y: 10.5,
+      dependencies: [
+        "1DB1F4F07B69E962",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "7965E4D3C905F614",
+      tasks: [
+        {
+          id: "122000592FF33FC8",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(cabletiers:ultra_exporters)item_tag(cabletiers:ultra_importers)item_tag(cabletiers:ultra_constructors)item_tag(cabletiers:ultra_destructors))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5092C3BB4FE0EAC0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "cabletiers:mega_exporter",
+        count: 1,
+      },
+      x: -13.0,
+      y: 10.5,
+      dependencies: [
+        "7965E4D3C905F614",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "62A41211A2BE7ECA",
+      tasks: [
+        {
+          id: "4F0F14CE2AE76983",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(cabletiers:mega_exporters)item_tag(cabletiers:mega_importers)item_tag(cabletiers:mega_constructors)item_tag(cabletiers:mega_destructors))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36B6576E42D08631",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "cabletiers:elite_interface",
+        count: 1,
+      },
+      x: -11.5,
+      y: 9.5,
+      dependencies: [
+        "1DB1F4F07B69E962",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "10BBBA9A6797C745",
+      tasks: [
+        {
+          id: "1F6E5CAA73FCCE40",
+          type: "item",
+          item: {
+            id: "cabletiers:elite_interface",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21B789DA28E7ACF2",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "cabletiers:elite_autocrafter",
+        count: 1,
+      },
+      x: -11.5,
+      y: 11.5,
+      dependencies: [
+        "1DB1F4F07B69E962",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5373D6C12E9D73F7",
+      tasks: [
+        {
+          id: "3F8E1EF3246D1C9A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(cabletiers:elite_autocrafters)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F6767FC4FE6162B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "applied_oritech:me_dock",
+        count: 1,
+      },
+      x: 11.0,
+      y: 16.5,
+      shape: "square",
+      dependencies: [
+        "16B60BCB8240F808",
+        "0A92084D7043133A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "388AF731788D496F",
+      tasks: [
+        {
+          id: "3CF724630BE4B71B",
+          type: "item",
+          item: {
+            id: "applied_oritech:me_dock",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33BE98DCD1AE26E9",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2F0A98EFCF18EF08",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "applied_oritech:me_pattern_provider_addon",
+        count: 1,
+      },
+      x: 10.5,
+      y: 17.5,
+      dependencies: [
+        "388AF731788D496F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3ED64ED872F07A3F",
+      tasks: [
+        {
+          id: "4E4C5ED272091999",
+          type: "item",
+          item: {
+            id: "applied_oritech:me_pattern_provider_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69106CFB1F5638BB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "60BB9FB674CD4E9F",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "applied_oritech:me_interface_addon",
+        count: 1,
+      },
+      x: 11.5,
+      y: 17.5,
+      dependencies: [
+        "388AF731788D496F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "158630D19585BD58",
+      tasks: [
+        {
+          id: "6150400432A2A628",
+          type: "item",
+          item: {
+            id: "applied_oritech:me_interface_addon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57882D59FD144238",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5B842C92CEB25CF1",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:me_p2p_tunnel",
+        count: 1,
+      },
+      x: 10.5,
+      y: 7.5,
+      shape: "hexagon",
+      dependencies: [
+        "02F6AC9E53029E0A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1C7948CF6E2BC000",
+      tasks: [
+        {
+          id: "18B9EE9E994B1592",
+          type: "item",
+          item: {
+            id: "ae2:me_p2p_tunnel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D89490F1DD80A72",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:spatial_io_port",
+        count: 1,
+      },
+      x: 13.0,
+      y: 12.0,
+      shape: "square",
+      dependencies: [
+        "71024D8DC19834AC",
+      ],
+      size: 1.0,
+      id: "7FD238A5383D6E5B",
+      tasks: [
+        {
+          id: "1D8DFC1AC4DFF688",
+          type: "item",
+          item: {
+            id: "ae2:spatial_io_port",
+            count: 1,
+          },
+        },
+        {
+          id: "5642FEFEAF26E672",
+          type: "item",
+          item: {
+            id: "ae2:spatial_pylon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66856655C8930BD0",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7FD091A882EB77EC",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:spatial_storage_cell_2",
+        count: 1,
+      },
+      x: 14.0,
+      y: 12.0,
+      dependencies: [
+        "7FD238A5383D6E5B",
+      ],
+      size: 1.0,
+      id: "269346450A749EFD",
+      tasks: [
+        {
+          id: "33B3349C21AD2667",
+          type: "item",
+          item: {
+            id: "ae2:spatial_storage_cell_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CC519FC09FDF9FC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4A401AA72629F0EE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:quantum_chestplate",
+        count: 1,
+      },
+      x: 17.5,
+      y: 16.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3334E05101A7297F",
+        "0C784115309E7C1C",
+      ],
+      size: 1.25,
+      optional: true,
+      id: "1037FC9AD3F7D981",
+      tasks: [
+        {
+          id: "1DB3D4D8A98FCD15",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "55872DEA547C9A04",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "414FF7257C178DD9",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "625545D7DAB4FB88",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F020E08218A385F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "advanced_ae:flight_card",
+        count: 1,
+      },
+      x: 19.0,
+      y: 16.0,
+      dependencies: [
+        "1037FC9AD3F7D981",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "552AA567EBB882B3",
+      tasks: [
+        {
+          id: "6BBF7B5027D7C577",
+          type: "item",
+          item: {
+            id: "advanced_ae:quantum_upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4354CC8CB61C43D0",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:ex_pattern_provider",
+        count: 1,
+      },
+      x: 10.0,
+      y: 16.5,
+      shape: "square",
+      dependencies: [
+        "16B60BCB8240F808",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "35D6DB55F576BEF4",
+      tasks: [
+        {
+          id: "606027D654C99764",
+          type: "item",
+          item: {
+            id: "extendedae:ex_pattern_provider",
+            count: 1,
+          },
+        },
+        {
+          id: "6C4BB24A43799688",
+          type: "item",
+          item: {
+            id: "extendedae:ex_drive",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1157F255122B2D2C",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7BAA606A6E49E42B",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "extendedae:wireless_connect",
+        count: 1,
+      },
+      x: 6.5,
+      y: 4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "46A1341E5E97ABDC",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1ED8FE89274AB03E",
+      tasks: [
+        {
+          id: "29FA8CC0C1416A97",
+          type: "item",
+          item: {
+            id: "extendedae:wireless_connect",
+            count: 1,
+          },
+        },
+        {
+          id: "33FB5443AC19871E",
+          type: "item",
+          item: {
+            id: "extendedae:wireless_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6397E7CC4901B1AC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:level_emitter",
+        count: 1,
+      },
+      x: 11.0,
+      y: 6.5,
+      dependencies: [
+        "02F6AC9E53029E0A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3137AB59719BED16",
+      tasks: [
+        {
+          id: "3ED9261130B1AF6C",
+          type: "item",
+          item: {
+            id: "ae2:level_emitter",
+            count: 1,
+          },
+        },
+        {
+          id: "25D9142EC36EB983",
+          type: "item",
+          item: {
+            id: "extendedae:threshold_level_emitter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DCD6874D74B954C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2wtlib:quantum_bridge_card",
+        count: 1,
+      },
+      x: 4.5,
+      y: 6.0,
+      shape: "gear",
+      dependencies: [
+        "3A59D1773EBD3B8A",
+        "54C31D0BAFA952D4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6A899B1C877F613A",
+      tasks: [
+        {
+          id: "2C0014487A15FA02",
+          type: "item",
+          item: {
+            id: "ae2wtlib:quantum_bridge_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60181BE9E4E0F16E",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nep:pattern_decoder",
+        count: 1,
+      },
+      x: 12.0,
+      y: 15.0,
+      shape: "square",
+      dependencies: [
+        "69F87073390131D5",
+      ],
+      size: 1.0,
+      id: "420F0EE98B6DC834",
+      tasks: [
+        {
+          id: "24FB509124B73159",
+          type: "item",
+          item: {
+            id: "nep:pattern_decoder",
+            count: 1,
+          },
+        },
+        {
+          id: "0A8D747C94E87BD7",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "nep:apothic_enchanting_encoding_module",
+            count: 1,
+          },
+        },
+        {
+          id: "6AABDFB7338A1B76",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "nep:mystical_agriculture_encoding_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3680DE6CED74734C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dimstorage:dimensional_chest",
+        count: 1,
+      },
+      x: -4.5,
+      y: 4.0,
+      size: 1.0,
+      id: "65DE65CA3E8C78DA",
+      tasks: [
+        {
+          id: "05E8EC0C2A516F5A",
+          type: "item",
+          item: {
+            id: "dimstorage:dimensional_chest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "120E34C56A144B61",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "181569E646780EF9",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "3BCB8667CCEBAE57",
+      x: -2.5,
+      y: 4.0,
+      shape: "diamond",
+      size: 1.5,
+      id: "6590A4CA0A45C2E5",
+    },
+    {
+      linked_quest: "68A9006D2FE4A38D",
+      x: -3.0,
+      y: 5.0,
+      shape: "hexagon",
+      id: "16AC14FC65C52F8C",
+    },
+    {
+      linked_quest: "65EB766D0445C1A6",
+      x: -2.0,
+      y: 5.0,
+      shape: "hexagon",
+      id: "16B8382EBF3303AA",
+    },
+    {
+      linked_quest: "28493A960B770451",
+      x: -2.5,
+      y: 6.0,
+      shape: "hexagon",
+      id: "7CB0F65A13D02AEB",
+    },
+    {
+      linked_quest: "349143B50076A759",
+      x: -2.5,
+      y: 7.0,
+      shape: "hexagon",
+      id: "06CC1B162C3C1343",
+    },
+    {
+      linked_quest: "6750DD01D865937D",
+      x: -2.5,
+      y: 8.0,
+      id: "73BFB224E26D262C",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 45.0,
+      image: "sophisticatedstorage:block/gold_barrel_bottom",
+      order: 1,
+      id: "7C1B17120618592B",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 45.0,
+      image: "minecraft:block/glass",
+      order: -6,
+      id: "09B56EE566F2AD5B",
+    },
+    {
+      x: -5.5,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer_silicon/glass_viewer_silicon",
+      id: "6CDFB55D33CCC5B0",
+    },
+    {
+      x: 6.5,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer_silicon/glass_viewer_silicon",
+      id: "4C0D6437444DE5F8",
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      width: 8.892857142857142,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/storage_text.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "049DE43A1B31C38F",
+      },
+      id: "58BAB966823A233D",
+    },
+    {
+      x: -4.5,
+      y: -3.1,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "ftb:textures/quests/chest.png",
+      id: "1827C075D753FDD2",
+    },
+    {
+      x: 4.4,
+      y: -3.1,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "ftb:textures/quests/chestflipped.png",
+      id: "15E62408C1271487",
+    },
+    {
+      x: 7.5,
+      y: 6.3,
+      width: 4.0,
+      height: 2.5940946282461756,
+      rotation: 0.0,
+      image: "ftb:textures/quests/ae2/ae2demo.png",
+      id: "7FA073AC1D4962C0",
+    },
+    {
+      x: 15.5,
+      y: 15.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 0.0,
+      image: "advanced_ae:block/quantum_crafter_grid_on",
+      alpha: 155,
+      id: "0EFF42EFABBB3E05",
+    },
+    {
+      x: 15.5,
+      y: 13.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 45.0,
+      image: "advanced_ae:block/crafting/quantum_internal_powered_animation",
+      id: "25BF91D8B2BC37F8",
+    },
+    {
+      x: 12.0,
+      y: 7.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ae2:block/molecular_assembler_lights",
+      id: "1BD111E33B557E95",
+    },
+    {
+      x: 17.0,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: -90.0,
+      image: "extendedae:part/active_formation_plane_on",
+      id: "3C0C3CFF898EDAF0",
+    },
+    {
+      x: 17.0,
+      y: 3.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "ae2:item/singularity",
+      id: "0CB9D9D0C1303FAC",
+    },
+    {
+      x: 12.0,
+      y: 13.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftbquests:tasks/input_only",
+      id: "5A7BB2BB5D0A09F2",
+    },
+    {
+      x: 9.0,
+      y: 13.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "enderio:block/vacuum_portal",
+      id: "33D1522A2BFB8527",
+    },
+    {
+      x: 9.0,
+      y: 13.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 45.0,
+      image: "ae2:block/chest/top",
+      alpha: 100,
+      order: -1,
+      id: "6FC45A8194563122",
+    },
+    {
+      x: 12.5,
+      y: 3.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ae2:block/chest/top",
+      order: -3,
+      id: "129FB638C9832A08",
+    },
+    {
+      x: 9.5,
+      y: 1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ae2:block/fluix_block_empty",
+      order: -1,
+      id: "756B7AC3B50DC457",
+    },
+    {
+      x: 9.5,
+      y: 1.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ae2:block/glass/quartz_glass_item",
+      id: "54FCE82670767329",
+    },
+    {
+      x: 12.0,
+      y: 13.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "extendedae:block/ex_io_port_bottom",
+      order: -1,
+      id: "366284817006BA82",
+    },
+    {
+      x: 19.5,
+      y: 13.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "advanced_ae:block/crafting/quantum_unit",
+      id: "7B9721BDD9CC4697",
+    },
+    {
+      x: 13.0,
+      y: 10.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ae2:block/controller",
+      id: "2E07F0C157F292F1",
+    },
+    {
+      x: 18.5,
+      y: 10.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "extendedae:block/assembler_matrix/frame_block_on",
+      color: 11645361,
+      id: "5CACCA238590DE5A",
+    },
+    {
+      x: -8.5,
+      y: 9.2,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/controller/on",
+      id: "302E9C954E8A8518",
+    },
+    {
+      x: -8.5,
+      y: 9.2,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/controller/cutouts/light_blue",
+      id: "3390AE3F7ECDBAA4",
+    },
+    {
+      x: -7.65,
+      y: 9.2,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/disk_drive/front",
+      id: "603E6237A5E1922F",
+    },
+    {
+      x: -6.8,
+      y: 9.2,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/disk_interface/front",
+      id: "06F3C38E340F6B02",
+    },
+    {
+      x: -8.5,
+      y: 8.35,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/crafting_grid/cutouts/light_blue",
+      id: "3E57E1033389BDE7",
+    },
+    {
+      x: -8.5,
+      y: 8.35,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/crafting_grid/front",
+      id: "36EB6F1573F33FDB",
+    },
+    {
+      x: -7.65,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter/side",
+      id: "5416E3CEA1D2BE4C",
+    },
+    {
+      x: -7.65,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter/cutouts/side/light_blue",
+      id: "0F4FF8178253E6C3",
+    },
+    {
+      x: -6.8,
+      y: 8.35,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafting_monitor/cutouts/cyan",
+      id: "1AA8AEAF9B26EE3D",
+    },
+    {
+      x: -6.8,
+      y: 8.35,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafting_monitor/front",
+      id: "74ED37FA9CB78474",
+    },
+    {
+      x: -7.65,
+      y: 8.35,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter_manager/front",
+      id: "0F3657BADB9F36D6",
+    },
+    {
+      x: -7.65,
+      y: 8.35,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter_manager/cutouts/light_blue",
+      id: "245D516375DDF463",
+    },
+    {
+      x: -6.8,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter/cutouts/side/light_blue",
+      id: "2B323B42C2990F75",
+    },
+    {
+      x: -8.5,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter/side",
+      id: "20C025E6A3EF8937",
+    },
+    {
+      x: -6.8,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter/side",
+      id: "6950366668D99F1F",
+    },
+    {
+      x: -8.5,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/autocrafter/cutouts/side/light_blue",
+      id: "149F3F338D75ABFF",
+    },
+    {
+      x: -6.8,
+      y: 9.2,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/disk_interface/cutouts/light_blue",
+      id: "02575A388AAB9D56",
+    },
+    {
+      x: -12.0,
+      y: -4.0,
+      width: 8.0,
+      height: 2.75,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/refined_storage_logo.png",
+      order: 3,
+      id: "5DFA3888C5A68EF2",
+    },
+    {
+      x: -11.5,
+      y: 5.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "refinedstorage:block/disk_interface/back",
+      id: "59A83137F2896D30",
+    },
+    {
+      x: -12.5,
+      y: 5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 5635925,
+      id: "56F5D7F70C3D7186",
+    },
+    {
+      x: -12.5,
+      y: 6.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 16733695,
+      id: "292D6259CABCF169",
+    },
+    {
+      x: -10.5,
+      y: 5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 5635925,
+      id: "598F5F00E080828E",
+    },
+    {
+      x: -13.0,
+      y: 5.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 43690,
+      id: "59FAB7072030C8A7",
+    },
+    {
+      x: -10.0,
+      y: 5.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 43690,
+      id: "6C9976C5C447E4C4",
+    },
+    {
+      x: -10.5,
+      y: 6.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 16733695,
+      id: "3BFE2FD0544E6E57",
+    },
+    {
+      x: -13.0,
+      y: 6.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 16755200,
+      id: "772E2505E0B87E27",
+    },
+    {
+      x: -10.0,
+      y: 6.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 16755200,
+      id: "067F0B15BA94B1E2",
+    },
+    {
+      x: -11.0,
+      y: 7.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 16755200,
+      id: "12E5A7D32F0297C7",
+    },
+    {
+      x: -11.5,
+      y: 7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 16733695,
+      id: "0A27BA8AA719CB08",
+    },
+    {
+      x: -12.0,
+      y: 7.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 43690,
+      id: "1B068BBBC4EE58C9",
+    },
+    {
+      x: -11.5,
+      y: 6.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/network_receiver/cutouts/white",
+      color: 5635925,
+      id: "22C60A3ECF5B163A",
+    },
+    {
+      x: -16.5,
+      y: 4.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "refinedstorage:block/constructor/cutouts/active",
+      color: 11184810,
+      id: "48B3B2292E96C6E8",
+    },
+    {
+      x: -16.5,
+      y: 4.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 45.0,
+      image: "refinedstorage:block/constructor/cutouts/active",
+      color: 11184810,
+      id: "56B0A902657FE416",
+    },
+    {
+      x: -11.5,
+      y: 2.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "refinedstorage:textures/gui/sprites/crafting_grid/crafting_matrix_filtering_slot_highlight.png",
+      color: 5635925,
+      id: "11DDB44705E42806",
+    },
+    {
+      x: -12.0,
+      y: -4.0,
+      width: 8.75,
+      height: 3.75,
+      rotation: 0.0,
+      image: "minecraft:block/white_concrete",
+      color: 5658198,
+      id: "0FF4B09EBCC51B12",
+    },
+    {
+      x: -8.5,
+      y: 4.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "refinedstorage:block/controller/cutouts/purple",
+      id: "4C5DCD2631BE6B88",
+    },
+    {
+      x: 11.5,
+      y: -4.0,
+      width: 4.5,
+      height: 4.5,
+      rotation: 45.0,
+      image: "advanced_ae:block/crafting/quantum_unit",
+      id: "24059211446B566E",
+    },
+    {
+      x: 11.5,
+      y: -4.0,
+      width: 10.0,
+      height: 2.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/ae2/ae2logo.png",
+      order: 3,
+      id: "169BD9079778D112",
+    },
+    {
+      x: 11.5,
+      y: -4.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 45.0,
+      image: "ae2:block/controller",
+      order: 1,
+      id: "5E12239DFD5277D3",
+    },
+    {
+      x: 11.5,
+      y: -4.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 45.0,
+      image: "ae2:block/controller_lights",
+      order: 2,
+      id: "2E48A4C7062FB254",
+    },
+    {
+      x: -3.5,
+      y: 11.5,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "functionalstorage:block/oak_front_4",
+      id: "73FFB0788FFD51E8",
+    },
+  ],
+}

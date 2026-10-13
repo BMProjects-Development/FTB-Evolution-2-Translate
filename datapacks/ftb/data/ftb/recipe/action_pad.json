@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:redstone",
+    "#c:ingots/iron"
+  ],
+  "result": {
+    "id": "ftbpc:action_pad",
+    "count": 1
+  }
+}

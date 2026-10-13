@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pantryforblockheads"
+    }
+  ],
+  "type": "energizedpower:plant_growth_chamber",
+  "fluid": "minecraft:water",
+  "fluidConsumption": 0.0625,
+  "ingredient": "pantryforblockheads:turnip_seeds",
+  "results": [
+    {
+      "percentages": [
+        1.0,
+        0.33,
+        0.33
+      ],
+      "result": {
+        "id": "pantryforblockheads:turnip_seeds"
+      }
+    },
+    {
+      "percentages": [
+        1.0,
+        0.75,
+        0.25
+      ],
+      "result": {
+        "id": "pantryforblockheads:turnip"
+      }
+    }
+  ],
+  "soilType": "#energizedpower:crops",
+  "ticks": 4000
+}

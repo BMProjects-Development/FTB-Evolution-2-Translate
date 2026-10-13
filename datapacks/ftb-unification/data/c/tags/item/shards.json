@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:shards/desh",
+    "#c:shards/novite"
+  ]
+}

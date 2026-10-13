@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:dusts/redstone",
+    "#c:ingots/copper"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "enderio:redstone_alloy_ingot"
+    }
+  ],
+  "time": 80
+}

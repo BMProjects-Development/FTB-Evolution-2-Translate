@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/enderium"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbic:enderium_dust"
+    }
+  ],
+  "time": 100
+}

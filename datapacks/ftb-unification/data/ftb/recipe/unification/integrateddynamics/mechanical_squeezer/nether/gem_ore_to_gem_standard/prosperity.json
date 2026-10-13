@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "mysticalagradditions:nether_prosperity_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "mysticalagriculture:prosperity_shard",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "mysticalagriculture:prosperity_shard",
+        "count": 2
+      },
+      "chance": 0.375
+    }
+  ],
+  "duration": 20
+}

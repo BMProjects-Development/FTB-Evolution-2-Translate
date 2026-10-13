@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "H": "framedblocks:framed_half_slope",
+    "S": "framedblocks:framed_slab"
+  },
+  "pattern": [
+    "H",
+    "SS"
+  ],
+  "result": {
+    "id": "framedblocks:framed_sliced_sloped_stairs_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "functionalstorage:custom_compacting",
+  "higher_input": {
+    "count": 1,
+    "id": "geore:topaz_block"
+  },
+  "lower_input": {
+    "count": 4,
+    "id": "geore:topaz_shard"
+  }
+}

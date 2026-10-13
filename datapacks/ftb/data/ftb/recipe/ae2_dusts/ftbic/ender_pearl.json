@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ender_pearls"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ae2:ender_dust"
+      }
+    }
+  ]
+}

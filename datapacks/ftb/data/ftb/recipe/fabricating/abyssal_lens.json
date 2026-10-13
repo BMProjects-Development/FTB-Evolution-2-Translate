@@ -1,0 +1,59 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:hunt_standard",
+      "count": 1
+    },
+    {
+      "ingredient": "ftb:tectonic_ingot",
+      "count": 1
+    },
+    {
+      "ingredient": "nautec:flawless_prismarine_crystal",
+      "count": 8
+    },
+    {
+      "ingredient": "nautec:deep_steel_plating",
+      "count": 16
+    },
+    {
+      "ingredient": "nautec:resonant_shard",
+      "count": 32
+    },
+    {
+      "ingredient": "nautec:laser_channeling_coil",
+      "count": 4
+    },
+    {
+      "ingredient": "reliquary:kraken_shell",
+      "count": 1
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_block",
+      "count": 2
+    },
+    {
+      "ingredient": "nautec:atlantic_gold_ingot",
+      "count": 16
+    }
+  ],
+  "fluids": [
+    {
+      "id": "nautec:eas",
+      "amount": 16000
+    },
+    {
+      "id": "oritech:still_oil",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:abyssal_lens"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 1000000,
+  "stage": "ftb_beast_phase2"
+}

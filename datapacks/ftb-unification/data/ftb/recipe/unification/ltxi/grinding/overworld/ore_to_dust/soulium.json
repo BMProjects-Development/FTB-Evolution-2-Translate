@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/soulium"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 4,
+      "id": "mysticalagriculture:soulium_dust"
+    },
+    {
+      "count": {
+        "chance": 0.5,
+        "max": 2,
+        "min": 2
+      },
+      "id": "mysticalagriculture:soulium_dust",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ae2:gray_covered_dense_cable"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ae2:gray_covered_cable"
+  }
+}

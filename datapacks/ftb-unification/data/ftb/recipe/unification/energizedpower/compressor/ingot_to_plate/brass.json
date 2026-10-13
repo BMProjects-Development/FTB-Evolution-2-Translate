@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:brass_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:brass_plate"
+  }
+}

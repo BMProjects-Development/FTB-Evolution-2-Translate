@@ -1,0 +1,1956 @@
+{
+  id: "23BFAC5DD218D2A6",
+  group: "4A2F4752A3C3721A",
+  order_index: 1,
+  icon: {
+    id: "patchouli:guide_book",
+    count: 1,
+    components: {
+      "patchouli:book": "arsmagicalegacy:arcane_compendium",
+    },
+  },
+  filename: "ars_magica",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "3070FD15982582F5",
+  quests: [
+    {
+      icon: {
+        id: "patchouli:guide_book",
+        count: 1,
+        components: {
+          "patchouli:book": "arsmagicalegacy:arcane_compendium",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "3070FD15982582F5",
+      tasks: [
+        {
+          id: "39A82E2F96609047",
+          type: "item",
+          item: {
+            id: "patchouli:guide_book",
+            count: 1,
+            components: {
+              "patchouli:book": "arsmagicalegacy:arcane_compendium",
+            },
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "23B64331AD829C19",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "67ACE5EC6C8429BC",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:liquid_etherium_bucket",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "3070FD15982582F5",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4BDB6F7BD54FE910",
+      tasks: [
+        {
+          id: "47F70C779C7E3943",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:liquid_etherium_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F525F81D2E2D0FF",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:vinteum_dust",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "3070FD15982582F5",
+      ],
+      size: 1.0,
+      id: "43B8B4ADA8187922",
+      tasks: [
+        {
+          id: "29296AF499DF1132",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:vinteum_dust",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "10B10E1A13118D1B",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:topaz",
+            count: 1,
+          },
+        },
+        {
+          id: "4397D32F8D2EAA2E",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:chimerite",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58DF114713B8D283",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4AE707C2836AD059",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:occulus",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "43B8B4ADA8187922",
+      ],
+      size: 1.0,
+      id: "3ED3881C36561AFA",
+      tasks: [
+        {
+          id: "2F8A0AF4CBEFC196",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:occulus",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F3B86716B082D2B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "54750AFFAF441166",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:blue",
+            },
+          },
+        },
+        {
+          id: "250315F9B14243D5",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:infinity_orb",
+        count: 1,
+        components: {
+          "arsmagicalegacy:skill_point": "arsmagicalegacy:blue",
+        },
+      },
+      x: 4.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "3ED3881C36561AFA",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "047392629FC030FF",
+      tasks: [
+        {
+          id: "688C4B7C6B890622",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5E673CD7C1F62127",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:inscription_table",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "3ED3881C36561AFA",
+      ],
+      size: 1.0,
+      id: "5D40844A4B69B3E8",
+      tasks: [
+        {
+          id: "54725A1F25C9EE46",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:spell_parchment",
+            count: 1,
+          },
+        },
+        {
+          id: "55B971E415061B25",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:inscription_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B4BF700EDA1AB87",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2DEB9228F5E38E23",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:inscription_table_upgrade_tier_3",
+        count: 1,
+      },
+      x: 6.0,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "5D40844A4B69B3E8",
+      ],
+      size: 1.0,
+      id: "5032BB5B2E4CEC4A",
+      tasks: [
+        {
+          id: "06FC2A22F40913B4",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:inscription_table_upgrade_tier_1",
+            count: 1,
+          },
+        },
+        {
+          id: "203343E390C14B70",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:inscription_table_upgrade_tier_2",
+            count: 1,
+          },
+        },
+        {
+          id: "4C00EE42291AF0B5",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:inscription_table_upgrade_tier_3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2319FBF3B5CB1B58",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "355697FCFA946AAD",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:spell_recipe",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "5D40844A4B69B3E8",
+      ],
+      size: 1.0,
+      id: "14DC3D850BC8283C",
+      tasks: [
+        {
+          id: "593DE5E1E02CE890",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:spell_recipe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F8B8F90C6141776",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7D7E13F1B359100D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:blank_rune",
+        count: 1,
+      },
+      x: 8.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "14DC3D850BC8283C",
+      ],
+      size: 1.0,
+      id: "5117E5A7B36F61FC",
+      tasks: [
+        {
+          id: "495F1A8461DEC5FB",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:blank_rune",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "621CEF39DB6877E4",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5C7411494DE3AB2F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:mage_chestplate",
+        count: 1,
+      },
+      x: 8.0,
+      y: -4.0,
+      shape: "circle",
+      dependencies: [
+        "5117E5A7B36F61FC",
+      ],
+      size: 1.0,
+      id: "2779B1ED12A8A648",
+      tasks: [
+        {
+          id: "12A53B0304759334",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:mage_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "331A3A468EE8429B",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:mage_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "3F0F0CA133A78E29",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:mage_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "124EAE73945EE8DE",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:mage_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A4774B04EE13CF8",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "75EEAC6D69EA764D",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:altar_core",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "14DC3D850BC8283C",
+      ],
+      size: 1.75,
+      id: "6F50BE9EBF4E149D",
+      tasks: [
+        {
+          id: "4526B38458985294",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:altar_core",
+            count: 1,
+          },
+        },
+        {
+          id: "647AC8784C56CDE4",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:magic_wall",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+      rewards: [
+        {
+          id: "26DFB66C772C826F",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "545779224C947B35",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:spell",
+        count: 1,
+      },
+      x: 13.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "6F50BE9EBF4E149D",
+      ],
+      size: 1.75,
+      id: "1F694D7302EBE072",
+      tasks: [
+        {
+          id: "17AD36D9CAAE7515",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:spell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59424BB8C52D8A25",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "4C01FB455CCCF9A5",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 2,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:blue",
+            },
+          },
+        },
+        {
+          id: "354E6BCDC409E2F5",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:spell_book",
+        count: 1,
+      },
+      x: 14.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "1F694D7302EBE072",
+      ],
+      size: 1.0,
+      id: "5EE9E2D553EC2130",
+      tasks: [
+        {
+          id: "334C8DD84F9CF1ED",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:spell_book",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AEE4B2B15558D9B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "397CFC6543EA3EF8",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:affinity_tome",
+        count: 1,
+      },
+      x: 13.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "1F694D7302EBE072",
+      ],
+      size: 1.0,
+      id: "6707C926C50776BD",
+      tasks: [
+        {
+          id: "547CADB2D47A033C",
+          type: "advancement",
+          advancement: "arsmagicalegacy:affinity_one_percent",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "2271E97D65B35328",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "17169A4596247E19",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:affinity_tome",
+        count: 1,
+      },
+      x: 14.5,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "6707C926C50776BD",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1FF93FE18E8F7EE4",
+      tasks: [
+        {
+          id: "3D5B95B98BE1A415",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_tome",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4869BDBB0C75AC65",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:infinity_orb",
+        count: 1,
+        components: {
+          "arsmagicalegacy:skill_point": "arsmagicalegacy:red",
+        },
+      },
+      x: 13.0,
+      y: -4.0,
+      shape: "circle",
+      dependencies: [
+        "6707C926C50776BD",
+      ],
+      size: 1.0,
+      id: "5E3BBD0F8D9946E3",
+      tasks: [
+        {
+          id: "3B9CE68548997CAB",
+          type: "advancement",
+          advancement: "arsmagicalegacy:hidden_skill",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "353C5F4B8CD11C12",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3FB858348B8C4FA8",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:mana_cake",
+        count: 1,
+      },
+      x: 13.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "1F694D7302EBE072",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "45CD833DF80BEAC3",
+      tasks: [
+        {
+          id: "194FF17C6DC9F7C1",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:mana_cake",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15A6B9DF4436859C",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:infinity_orb",
+        count: 1,
+        components: {
+          "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+        },
+      },
+      x: 14.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "1F694D7302EBE072",
+      ],
+      size: 1.0,
+      id: "7B5AE868BF763D43",
+      tasks: [
+        {
+          id: "57DDF58ADE6DF0F9",
+          type: "advancement",
+          advancement: "arsmagicalegacy:level_10",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "67F77957F2967433",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5409247A888CAF7F",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 2,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+            },
+          },
+        },
+        {
+          id: "7D2DD8FD090E3323",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:obelisk",
+        count: 1,
+      },
+      x: 10.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "6F50BE9EBF4E149D",
+      ],
+      size: 1.5,
+      id: "5CDB81EABD6385D0",
+      tasks: [
+        {
+          id: "69EA391A9A3A339D",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:obelisk",
+            count: 1,
+          },
+        },
+        {
+          id: "747804058B67C948",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:crystal_wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4704976BDECF04A5",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "1D63146D2BA2EADA",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:wizards_chalk",
+        count: 1,
+      },
+      x: 10.0,
+      y: 4.0,
+      shape: "circle",
+      dependencies: [
+        "5CDB81EABD6385D0",
+      ],
+      size: 1.0,
+      id: "53E89BAA247F2D81",
+      tasks: [
+        {
+          id: "695875A87CC70FC6",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:wizards_chalk",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46D417FDB2F20D64",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3A26437FAEBB8205",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:magitech_goggles",
+        count: 1,
+      },
+      x: 8.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "5CDB81EABD6385D0",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "716BACCDE07BB05E",
+      tasks: [
+        {
+          id: "7579B3E75E354301",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:magitech_goggles",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A82721D7EF4ED4E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:moonstone",
+        count: 1,
+      },
+      x: 11.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "53E89BAA247F2D81",
+      ],
+      size: 1.0,
+      id: "3EB5B2498F0B2A8A",
+      tasks: [
+        {
+          id: "1827B2B0266F38F5",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:moonstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C1A7DB84C2D8F97",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "27593CC685D102F8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:sunstone",
+        count: 1,
+      },
+      x: 9.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "53E89BAA247F2D81",
+      ],
+      size: 1.0,
+      id: "5B7AE500196A3035",
+      tasks: [
+        {
+          id: "7FBDD315CA98AB3D",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:sunstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "185C40ED34255D0C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3D36303532D85A37",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:celestial_prism",
+        count: 1,
+      },
+      x: 11.0,
+      y: 7.5,
+      shape: "hexagon",
+      dependencies: [
+        "3EB5B2498F0B2A8A",
+      ],
+      size: 1.5,
+      id: "4E5672F36E0FBD81",
+      tasks: [
+        {
+          id: "444799D362DAFEE9",
+          type: "observation",
+          icon: {
+            id: "arsmagicalegacy:celestial_prism",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "arsmagicalegacy:celestial_prism",
+        },
+      ],
+      rewards: [
+        {
+          id: "5ACF3C14B4C78600",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "10F7B9258D8A9989",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:black_aurem",
+        count: 1,
+      },
+      x: 9.0,
+      y: 7.5,
+      shape: "hexagon",
+      dependencies: [
+        "5B7AE500196A3035",
+      ],
+      size: 1.5,
+      id: "1A850EA969AFE13C",
+      tasks: [
+        {
+          id: "6BD5C23831ED861B",
+          type: "observation",
+          icon: {
+            id: "arsmagicalegacy:black_aurem",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "arsmagicalegacy:black_aurem",
+        },
+      ],
+      rewards: [
+        {
+          id: "64EA0E9D2CF19921",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "117889FB8959B3DE",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:redstone_inlay",
+        count: 1,
+      },
+      x: 23.0,
+      y: 0.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "1F694D7302EBE072",
+      ],
+      hide_until_deps_complete: true,
+      size: 2.0,
+      id: "1A9736775EA052B0",
+      tasks: [
+        {
+          id: "79C99FB526C3E615",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:redstone_inlay",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "11BDDA29DD3583F1",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "21A7C1DA4C4F38B4",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:water_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 18.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "1A9736775EA052B0",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "2A0AC5FFA464150C",
+      tasks: [
+        {
+          id: "68B491AC2C0804D3",
+          type: "kill",
+          entity: "arsmagicalegacy:water_guardian",
+          value: 1,
+        },
+        {
+          id: "7EEBD28349443E63",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:water",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5431802FB60CDB39",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4CE9325A4C8F2551",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+            },
+          },
+        },
+        {
+          id: "54F1839A7374B701",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:earth_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 20.0,
+      y: -4.5,
+      shape: "hexagon",
+      dependencies: [
+        "2A0AC5FFA464150C",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "2E24342B5A3D96C7",
+      tasks: [
+        {
+          id: "2957A1B1786B7DA0",
+          type: "kill",
+          entity: "arsmagicalegacy:earth_guardian",
+          value: 1,
+        },
+        {
+          id: "5F0A07F14FF98B1A",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:earth",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12043BF0C3579F9F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "14DDB5437C364D34",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+            },
+          },
+        },
+        {
+          id: "7FC7FD8077A668AB",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:air_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 23.0,
+      y: -5.5,
+      shape: "hexagon",
+      dependencies: [
+        "2E24342B5A3D96C7",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "234EDABC4DC710EC",
+      tasks: [
+        {
+          id: "617FEB301D65BC33",
+          type: "kill",
+          entity: "arsmagicalegacy:air_guardian",
+          value: 1,
+        },
+        {
+          id: "1EE843E135594532",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:air",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "675729B130BA70DB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4ABEAEE7C8589697",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+            },
+          },
+        },
+        {
+          id: "7744E8F1EA72FD60",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:arcane_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 26.0,
+      y: -4.5,
+      shape: "hexagon",
+      dependencies: [
+        "234EDABC4DC710EC",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "42CCD46AABFF6DAF",
+      tasks: [
+        {
+          id: "0ECEC92FEC06E643",
+          type: "kill",
+          entity: "arsmagicalegacy:arcane_guardian",
+          value: 1,
+        },
+        {
+          id: "6197C08A95B21F8A",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:arcane",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37B2391D277400A2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3A68E5BBFE8AC309",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+            },
+          },
+        },
+        {
+          id: "6C0ADC1D7960882F",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:life_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 28.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "42CCD46AABFF6DAF",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "64FB0BBFC60A0A4D",
+      tasks: [
+        {
+          id: "370B9DBDF0876B86",
+          type: "kill",
+          entity: "arsmagicalegacy:life_guardian",
+          value: 1,
+        },
+        {
+          id: "1034689CC0282AB1",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:life",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73F440EBCA10CF99",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "385146D147F3A1F3",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:green",
+            },
+          },
+        },
+        {
+          id: "2BF1038B3B847077",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:ice_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 28.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "64FB0BBFC60A0A4D",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "7C03B317E26A290C",
+      tasks: [
+        {
+          id: "2C873E56E67EA846",
+          type: "kill",
+          entity: "arsmagicalegacy:ice_guardian",
+          value: 1,
+        },
+        {
+          id: "4988F48165B87DFA",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:ice",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23CD05D9A932A77A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "29AC3510F59AF3AE",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:red",
+            },
+          },
+        },
+        {
+          id: "1D2D4BA1F722CC00",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:nature_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 26.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "7C03B317E26A290C",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "7935F6FE44D4CFD3",
+      tasks: [
+        {
+          id: "6FF75D94D4F75F21",
+          type: "kill",
+          entity: "arsmagicalegacy:nature_guardian",
+          value: 1,
+        },
+        {
+          id: "45FFEC217B528DA7",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:nature",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2513B1A5150436FF",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "38891E0A9100EFC8",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:red",
+            },
+          },
+        },
+        {
+          id: "1FADE90DB5B87606",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:lightning_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 23.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "7935F6FE44D4CFD3",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "7F82B80575A669AE",
+      tasks: [
+        {
+          id: "1EF8D34045D3514C",
+          type: "kill",
+          entity: "arsmagicalegacy:lightning_guardian",
+          value: 1,
+        },
+        {
+          id: "7E0DA112E3BABDC7",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:lightning",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30EE944343405935",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "18777536D13A837A",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:red",
+            },
+          },
+        },
+        {
+          id: "75C3B94BDDD652A4",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:fire_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 20.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "7F82B80575A669AE",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.5,
+      id: "4416B4374B2A0CE5",
+      tasks: [
+        {
+          id: "661A9D4932879ADC",
+          type: "kill",
+          entity: "arsmagicalegacy:fire_guardian",
+          value: 1,
+        },
+        {
+          id: "473C407D6A87248A",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:fire",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "331CFD3D09DE6546",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7DF06C20131EEA76",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 1,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:red",
+            },
+          },
+        },
+        {
+          id: "721CCE5FA8BB5A49",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:ender_guardian_spawn_egg",
+        count: 1,
+      },
+      x: 18.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "4416B4374B2A0CE5",
+      ],
+      hide_until_deps_complete: true,
+      size: 2.0,
+      id: "04A54945082F9B5C",
+      tasks: [
+        {
+          id: "429AC711070CDBBB",
+          type: "kill",
+          entity: "arsmagicalegacy:ender_guardian",
+          value: 1,
+        },
+        {
+          id: "52FED5B8C41FB8D1",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:affinity_essence",
+            count: 1,
+            components: {
+              "arsmagicalegacy:affinity": "arsmagicalegacy:ender",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "106E4B98B85C3EBF",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "64B92D86C50F6A90",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "arsmagicalegacy:infinity_orb",
+            count: 2,
+            components: {
+              "arsmagicalegacy:skill_point": "arsmagicalegacy:red",
+            },
+          },
+        },
+        {
+          id: "1814235D5AE358D2",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:battlemage_chestplate",
+        count: 1,
+      },
+      x: 21.0,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "4416B4374B2A0CE5",
+      ],
+      size: 1.0,
+      id: "460216B38525C483",
+      tasks: [
+        {
+          id: "271F8D59D98FF4B9",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:battlemage_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "2F21418A1C833837",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:battlemage_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "6DA11A40CD853A58",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:battlemage_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "581C39F55EABDBD3",
+          type: "item",
+          item: {
+            id: "arsmagicalegacy:battlemage_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AC044405A4561E7",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2305B4756130895D",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 16.5,
+      y: -3.5,
+      width: 2.37,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_water_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "2A0AC5FFA464150C",
+      },
+      dependency: "1A9736775EA052B0",
+      id: "79E1C48FE82FA25B",
+    },
+    {
+      x: 19.0,
+      y: -7.0,
+      width: 2.11,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_earth_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "2E24342B5A3D96C7",
+      },
+      dependency: "2A0AC5FFA464150C",
+      id: "618C6F3E28F494CC",
+    },
+    {
+      x: 23.0,
+      y: -8.5,
+      width: 1.31,
+      height: 3.2,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_air_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "234EDABC4DC710EC",
+      },
+      dependency: "2E24342B5A3D96C7",
+      id: "2E9A6F377B3480FA",
+    },
+    {
+      x: 27.5,
+      y: -7.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_arcane_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "42CCD46AABFF6DAF",
+      },
+      dependency: "234EDABC4DC710EC",
+      id: "1E2A85ED1B568707",
+    },
+    {
+      x: 30.5,
+      y: -3.0,
+      width: 2.75,
+      height: 2.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_life_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "64FB0BBFC60A0A4D",
+      },
+      dependency: "42CCD46AABFF6DAF",
+      id: "72748D01F3DFBE92",
+    },
+    {
+      x: 30.5,
+      y: 3.0,
+      width: 2.75,
+      height: 2.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_ice_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "7C03B317E26A290C",
+      },
+      dependency: "64FB0BBFC60A0A4D",
+      id: "52A8596E35DE01FB",
+    },
+    {
+      x: 27.5,
+      y: 7.0,
+      width: 2.65,
+      height: 2.9,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_nature_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "7935F6FE44D4CFD3",
+      },
+      dependency: "7C03B317E26A290C",
+      id: "63490DB9DD62D663",
+    },
+    {
+      x: 23.0,
+      y: 8.5,
+      width: 2.29,
+      height: 2.9,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_lightning_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "7F82B80575A669AE",
+      },
+      dependency: "7935F6FE44D4CFD3",
+      id: "27822B8CF00D1848",
+    },
+    {
+      x: 19.0,
+      y: 7.0,
+      width: 1.79,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_fire_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "4416B4374B2A0CE5",
+      },
+      dependency: "7F82B80575A669AE",
+      id: "723712607A12E203",
+    },
+    {
+      x: 16.5,
+      y: 3.5,
+      width: 2.77,
+      height: 2.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_ender_guardian.png",
+      click_action: {
+        type: "open_quest",
+        data: "04A54945082F9B5C",
+      },
+      dependency: "4416B4374B2A0CE5",
+      id: "73AA18B4E2BD2145",
+    },
+    {
+      x: 10.4,
+      y: -2.95,
+      width: 2.65,
+      height: 2.9,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/aml_crafting_altar.png",
+      click_action: {
+        type: "open_quest",
+        data: "6F50BE9EBF4E149D",
+      },
+      id: "70029CC02A1F2832",
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      width: 11.0,
+      height: 1.54,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/ars_magica_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "3070FD15982582F5",
+      },
+      id: "06459F2848C342C2",
+    },
+    {
+      x: -2.5,
+      y: 3.0,
+      width: 2.4,
+      height: 2.4,
+      rotation: -12.0,
+      image: "arsmagicalegacy:item/arcane_compendium",
+      id: "55CF1B245EE303BB",
+    },
+  ],
+}

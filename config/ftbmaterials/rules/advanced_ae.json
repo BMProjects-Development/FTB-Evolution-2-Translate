@@ -1,0 +1,46 @@
+{
+  "advanced_ae:react": [
+    {
+      "path": "input_fluid/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "input_fluid/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "fluidOutput/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "input_items/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "input_items/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "itemOutput/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

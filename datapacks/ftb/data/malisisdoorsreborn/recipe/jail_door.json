@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "BB",
+    "BC",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:iron_bars",
+    "C": "minecraft:iron_chain"
+  },
+  "result": {
+    "id": "malisisdoorsreborn:jail_door",
+    "count": 3
+  }
+}

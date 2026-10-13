@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/sulfur",
+  "result": {
+    "count": 2,
+    "id": "ftbmaterials:sulfur_dust"
+  },
+  "secondary": {
+    "count": 2,
+    "id": "ftbmaterials:sulfur_dust"
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

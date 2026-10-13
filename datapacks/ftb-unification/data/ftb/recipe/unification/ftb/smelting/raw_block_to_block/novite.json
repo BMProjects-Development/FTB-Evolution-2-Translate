@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "stellaris:raw_novite_block",
+  "result": {
+    "id": "stellaris:novite_block"
+  },
+  "experience": 9.0,
+  "cookingtime": 1800
+}

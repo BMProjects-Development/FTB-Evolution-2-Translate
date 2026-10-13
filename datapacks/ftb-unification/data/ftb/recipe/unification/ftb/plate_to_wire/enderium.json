@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ftbic:enderium_plate",
+  "result": {
+    "count": 1,
+    "id": "ftbic:enderium_wire"
+  }
+}

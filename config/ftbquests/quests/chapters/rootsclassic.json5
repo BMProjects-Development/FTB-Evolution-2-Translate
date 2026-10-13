@@ -1,0 +1,944 @@
+{
+  id: "4DC3791895990DEA",
+  group: "4A2F4752A3C3721A",
+  order_index: 6,
+  icon: {
+    id: "rootsclassic:altar",
+    count: 1,
+  },
+  filename: "rootsclassic",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  quests: [
+    {
+      icon: {
+        id: "rootsclassic:bark_knife",
+        count: 1,
+      },
+      x: -1.5,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "276D73B7CB872EB4",
+      tasks: [
+        {
+          id: "10B7DC4E8F3C50A5",
+          type: "item",
+          item: {
+            id: "rootsclassic:bark_knife",
+            count: 1,
+          },
+        },
+        {
+          id: "79137957EC19FAE3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(rootsclassic:oak_bark)item(rootsclassic:spruce_bark)item(rootsclassic:birch_bark)item(rootsclassic:jungle_bark)item(rootsclassic:acacia_bark)item(rootsclassic:dark_oak_bark))",
+              "minecraft:custom_name": "\"Barks\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7EFAEAE83979442F",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "7E35E8D8C0616ECD",
+          type: "item",
+          item: {
+            id: "rootsclassic:runic_tablet",
+            count: 1,
+          },
+        },
+        {
+          id: "50A0940D26028774",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:sylvan_hood",
+        count: 1,
+      },
+      x: -9.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "4D563409688A677A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "7A62124632A54C21",
+      tasks: [
+        {
+          id: "5BE29D6640FCF373",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_hood",
+            count: 1,
+          },
+        },
+        {
+          id: "11FEA6A93EFF35AC",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_robe",
+            count: 1,
+          },
+        },
+        {
+          id: "3AE83AD1470C3BD5",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_tunic",
+            count: 1,
+          },
+        },
+        {
+          id: "63359FD9EA8D6A20",
+          type: "item",
+          item: {
+            id: "rootsclassic:sylvan_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FD85AD5458235B2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:wildwood_mask",
+        count: 1,
+      },
+      x: -9.5,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "4D563409688A677A",
+      ],
+      dep_control_pts: {
+        "4D563409688A677A": [
+          -8.8,
+          0.666667,
+          -8.8,
+          1.333333,
+        ],
+      },
+      size: 1.0,
+      optional: true,
+      id: "6D85B6C5DBC0DB9E",
+      tasks: [
+        {
+          id: "28CD3ECD61A4052F",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_mask",
+            count: 1,
+          },
+        },
+        {
+          id: "1B7B93C54F85E3D9",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "2A3741C6D43D97CA",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "33CBEC9FB6F918FE",
+          type: "item",
+          item: {
+            id: "rootsclassic:wildwood_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "45FDE5ED9E1FF188",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:living_sword",
+        count: 1,
+      },
+      x: -7.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "1BC985066A1B7A34",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "30BF3228B479E90E",
+      tasks: [
+        {
+          id: "3F9E782771BE1447",
+          type: "item",
+          icon: {
+            id: "rootsclassic:living_sword",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(rootsclassic:living_sword)item(rootsclassic:living_pickaxe)item(rootsclassic:living_shovel)item(rootsclassic:living_axe)item(rootsclassic:living_hoe))",
+              "minecraft:custom_name": "\"Living Tools\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "619EF7F2FD5EA1B3",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:altar",
+        count: 1,
+      },
+      x: -5.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4335085FC6B1EEF4",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "0B1BDF71E95BC9D3",
+      tasks: [
+        {
+          id: "4FE789065CD47F9E",
+          type: "item",
+          item: {
+            id: "rootsclassic:altar",
+            count: 1,
+          },
+        },
+        {
+          id: "2996121DEDBE0C80",
+          type: "item",
+          item: {
+            id: "rootsclassic:brazier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C191FC19485E156",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "0CE659E6AC808F4B",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:old_root",
+        count: 1,
+      },
+      x: -3.5,
+      y: 0.0,
+      dependencies: [
+        "276D73B7CB872EB4",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "4335085FC6B1EEF4",
+      tasks: [
+        {
+          id: "3758EAD6DDE4F602",
+          type: "item",
+          item: {
+            id: "rootsclassic:old_root",
+            count: 1,
+          },
+        },
+        {
+          id: "3FAA4953E81869A2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "rootsclassic:verdant_sprig",
+            count: 1,
+          },
+        },
+        {
+          id: "3407A18DCF84BF5C",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "rootsclassic:infernal_bulb",
+            count: 1,
+          },
+        },
+        {
+          id: "10692E70B7D0BE78",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "rootsclassic:dragons_eye",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "655DE5AC387B9D29",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "127E5AAAF0359934",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:mortar",
+        count: 1,
+      },
+      x: -3.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "276D73B7CB872EB4",
+        "4335085FC6B1EEF4",
+      ],
+      size: 1.5,
+      id: "3C25C86651ED40F0",
+      tasks: [
+        {
+          id: "2D2F56FF47875977",
+          type: "item",
+          item: {
+            id: "rootsclassic:pestle",
+            count: 1,
+          },
+        },
+        {
+          id: "426802EE651823A6",
+          type: "item",
+          item: {
+            id: "rootsclassic:mortar",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3428580AEE4299BA",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7F59E499502C59B2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:growth_powder",
+        count: 1,
+      },
+      x: -3.0,
+      y: 4.0,
+      shape: "gear",
+      dependencies: [
+        "3C25C86651ED40F0",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6FFE1E65585E14F7",
+      tasks: [
+        {
+          id: "1BDC9687F864C5B8",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "rootsclassic:growth_powder",
+            count: 1,
+          },
+        },
+        {
+          id: "2E63B3231DCBC833",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "rootsclassic:healing_poultice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B31FEFDF11F4AE1",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "736BEA8CD6197640",
+          type: "item",
+          item: {
+            id: "rootsclassic:healing_poultice",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:imbuer",
+        count: 1,
+      },
+      x: -5.5,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "1F94EE798B7E6A74",
+      ],
+      size: 1.0,
+      id: "7A9856F0E081944C",
+      tasks: [
+        {
+          id: "79D0735F3420C6A5",
+          type: "item",
+          item: {
+            id: "rootsclassic:imbuer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6814B6F12019112A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "39199AA9501C52E0",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbevolutioncompanion:odd_berry_bush",
+        count: 1,
+      },
+      x: -1.5,
+      y: 2.0,
+      shape: "gear",
+      dependencies: [
+        "276D73B7CB872EB4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "66B9795304E0E752",
+      tasks: [
+        {
+          id: "242CA87FF0A1BA23",
+          type: "item",
+          item: {
+            id: "rootsclassic:blackcurrant",
+            count: 1,
+          },
+        },
+        {
+          id: "4EED9B9EC43B0B0E",
+          type: "item",
+          item: {
+            id: "rootsclassic:redcurrant",
+            count: 1,
+          },
+        },
+        {
+          id: "2B3064458F38AE45",
+          type: "item",
+          item: {
+            id: "rootsclassic:whitecurrant",
+            count: 1,
+          },
+        },
+        {
+          id: "5868F46179377B91",
+          type: "item",
+          item: {
+            id: "rootsclassic:elderberry",
+            count: 1,
+          },
+        },
+        {
+          id: "01948D7BD9AC78E4",
+          type: "item",
+          item: {
+            id: "rootsclassic:nightshade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13797500C2FAA0C9",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:staff",
+        count: 1,
+      },
+      x: -7.5,
+      y: 4.0,
+      dependencies: [
+        "7A9856F0E081944C",
+      ],
+      size: 1.0,
+      id: "04AB4805983D4AE1",
+      tasks: [
+        {
+          id: "5307E553E1BAC1C6",
+          type: "item",
+          item: {
+            id: "rootsclassic:staff",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C79250CEE7B0CE0",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6AD41FE755D4F550",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:spell_powder",
+        count: 1,
+      },
+      x: -5.5,
+      y: 2.0,
+      dependencies: [
+        "3C25C86651ED40F0",
+      ],
+      size: 1.0,
+      id: "1F94EE798B7E6A74",
+      tasks: [
+        {
+          id: "2A959687ED7C2A09",
+          type: "item",
+          item: {
+            id: "rootsclassic:spell_powder",
+            count: 1,
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "73D9D9C30A95FE20",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "06D31E6F849D3B2C",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:altar",
+        count: 1,
+      },
+      x: -7.5,
+      y: 3.0,
+      shape: "gear",
+      dependencies: [
+        "04AB4805983D4AE1",
+        "0D4F466475046F7F",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      id: "03E5AC0691822FB0",
+      tasks: [
+        {
+          id: "1FFF08C10BA75B7D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A8033B416A38E45",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:engraved_blade",
+        count: 1,
+      },
+      x: -9.5,
+      y: 3.0,
+      shape: "rsquare",
+      dependencies: [
+        "4D563409688A677A",
+      ],
+      dep_control_pts: {
+        "4D563409688A677A": [
+          -10.278316326530614,
+          1.20501700680272,
+          -9.968792517006804,
+          2.7288265306122454,
+        ],
+      },
+      size: 1.0,
+      min_width: 300,
+      id: "7755246DDD1956F3",
+      tasks: [
+        {
+          id: "45B72A961C2B9CB3",
+          type: "item",
+          item: {
+            id: "rootsclassic:engraved_blade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BACAE2D284C6168",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5EC78EBB838EBE2E",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:mundane_standing_stone",
+        count: 1,
+      },
+      x: -7.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0B1BDF71E95BC9D3",
+      ],
+      size: 1.0,
+      id: "1BC985066A1B7A34",
+      tasks: [
+        {
+          id: "326E084D7A268CC8",
+          type: "item",
+          item: {
+            id: "rootsclassic:mundane_standing_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "651377F66374A045",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3883F0538CC65DAB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:crystal_staff",
+        count: 1,
+      },
+      x: -7.5,
+      y: 2.0,
+      dependencies: [
+        "1BC985066A1B7A34",
+        "1F94EE798B7E6A74",
+      ],
+      dep_control_pts: {
+        "1BC985066A1B7A34": [
+          -7.968792517006804,
+          0.9669217687074791,
+          -7.778316326530607,
+          1.9669217687074791,
+        ],
+      },
+      size: 1.0,
+      id: "0D4F466475046F7F",
+      tasks: [
+        {
+          id: "18FFF78EEB106CC5",
+          type: "item",
+          item: {
+            id: "rootsclassic:crystal_staff",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CEA02D434A810DA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5F55BD4718C1E212",
+          type: "xp",
+          team_reward: false,
+          xp: 75,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:attuned_standing_stone",
+        count: 1,
+      },
+      x: -9.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "1BC985066A1B7A34",
+      ],
+      size: 1.0,
+      id: "4D563409688A677A",
+      tasks: [
+        {
+          id: "0B0875B0DAB2F327",
+          type: "item",
+          item: {
+            id: "rootsclassic:attuned_standing_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "147AED2ED2516825",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "72538D5C13C56EDD",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:aesthetic_standing_stone",
+        count: 1,
+      },
+      x: -11.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4D563409688A677A",
+      ],
+      size: 1.5,
+      id: "016821326AD093AF",
+      tasks: [
+        {
+          id: "71287B1349E0A4AC",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(rootsclassic:vacuum_standing_stone)item(rootsclassic:repulsor_standing_stone)item(rootsclassic:accelerator_standing_stone)item(rootsclassic:entangler_standing_stone)item(rootsclassic:igniter_standing_stone)item(rootsclassic:grower_standing_stone)item(rootsclassic:healer_standing_stone))",
+              "minecraft:custom_name": "\"Energized Standing Stones\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23B3CE9B788EAD81",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2E3828EA7358C736",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "rootsclassic:mutating_powder",
+        count: 1,
+      },
+      x: -4.0,
+      y: 4.0,
+      dependencies: [
+        "3C25C86651ED40F0",
+      ],
+      size: 1.0,
+      id: "1C69B5FD59EE4E72",
+      tasks: [
+        {
+          id: "5719EC4A486CF170",
+          type: "item",
+          item: {
+            id: "rootsclassic:mutating_powder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70642C582F06F394",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "39919FEA1BE27986",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -6.5,
+      y: -3.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "rootsclassic:block/altar",
+      id: "5A062F5FF5BDA185",
+    },
+    {
+      x: -6.5,
+      y: -3.0,
+      width: 6.0,
+      height: 1.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/rootsclassic_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "276D73B7CB872EB4",
+      },
+      id: "0BFD1BF3F5E09A44",
+    },
+    {
+      x: -10.6,
+      y: -2.5,
+      width: 1.9,
+      height: 1.9,
+      rotation: -12.0,
+      image: "rootsclassic:block/imbuer",
+      id: "455D121108C74317",
+    },
+    {
+      x: -2.4,
+      y: -2.5,
+      width: 1.9,
+      height: 1.9,
+      rotation: 12.0,
+      image: "rootsclassic:block/flare_orchid",
+      id: "3878B3B1E032E4E8",
+    },
+  ],
+}

@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "entity": "thaumaturge:brainy_zombie",
+  "variants": [
+    "thaumaturge:brainy_husk",
+    "thaumaturge:brainy_drowned",
+    "thaumaturge:giant_brainy_zombie"
+  ],
+  "name_color": "#8A6A8A",
+  "display": {
+    "scale": 1.0
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.brainy_zombie",
+  "fabricator_drops": [
+    {
+      "id": "thaumaturge:brain",
+      "count": 4
+    },
+    {
+      "id": "minecraft:rotten_flesh",
+      "count": 64
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "count": 8
+    }
+  ]
+}

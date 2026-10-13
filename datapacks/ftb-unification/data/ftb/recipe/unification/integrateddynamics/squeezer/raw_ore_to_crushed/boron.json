@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "colossal_reactors:boron_raw",
+  "output_items": [
+    {
+      "item": {
+        "id": "colossal_reactors:boron_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "colossal_reactors:boron_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "ltxi:garden_simulating",
+  "fluid_inputs": [
+    {
+      "amount": 250,
+      "ingredient": "#minecraft:water"
+    }
+  ],
+  "item_inputs": [
+    {
+      "consume_chance": 0.0,
+      "ingredient": "witchery:mandrake_seeds"
+    }
+  ],
+  "item_results": [
+    {
+      "count": {
+        "chance": 0.1,
+        "max": 1,
+        "min": 1
+      },
+      "id": "witchery:mandrake_root",
+      "required": false
+    }
+  ],
+  "mode": "ltxi:farming"
+}

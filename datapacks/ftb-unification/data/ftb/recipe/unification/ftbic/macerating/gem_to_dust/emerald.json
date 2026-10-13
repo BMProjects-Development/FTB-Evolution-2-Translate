@@ -1,0 +1,15 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "minecraft:emerald"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:emerald_dust"
+      }
+    }
+  ]
+}

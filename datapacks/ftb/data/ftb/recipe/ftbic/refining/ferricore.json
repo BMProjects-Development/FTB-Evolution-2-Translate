@@ -1,0 +1,7 @@
+{
+  "type": "ftbic:refining_material",
+  "definition": {
+    "material": "c:ferricore",
+    "enabled": false
+  }
+}

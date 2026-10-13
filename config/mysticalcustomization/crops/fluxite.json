@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "oritech:fluxite"
+  },
+  "name": "Fluxite",
+  "color": "#BB9CE8",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

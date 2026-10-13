@@ -1,0 +1,16 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:raw_materials/plutonium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:plutonium_dust"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:plutonium_tiny_dust"
+    }
+  ],
+  "time": 100
+}

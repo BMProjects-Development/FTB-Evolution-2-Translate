@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "hephaestus:molten_enderium"
+  },
+  "result": {
+    "id": "ftbic:enderium_block"
+  }
+}

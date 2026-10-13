@@ -1,0 +1,212 @@
+	[Pudge.Hook]
+		#Maximum load the hook can withstand
+		# Default: 10.0
+		# Range: 0.0 ~ 20.0
+		strength = 10.0
+		#Damage dealt to an entity on impact
+		# Default: 0.0
+		# Range: 0.0 ~ 100.0
+		damage = 0.0
+		#Amount of time (in seconds) the hook can withstand fire
+		# Default: 10.0
+		# Range: 0.0 ~ 60.0
+		resistance = 10.0
+		#Controls interaction with dropped items on the ground
+		affectsItems = true
+		#Controls interaction with non-playable characters
+		affectsNPCs = true
+		#Controls interaction with players
+		affectsPlayers = true
+		#Blocks that will be broken when hit by this hook
+		breakableBlocks = ["#c:glass_blocks", "#c:glass_panes"]
+		#Blocks this hook can be attached to.
+		#Works as a whitelist. If anything is specified here, the hook will attach only to these blocks
+		hookableBlocks = []
+		#Blocks this hook cannot be attached to.
+		#Works as a blacklist, preventing the hook from being attached to specified blocks
+		reboundableBlocks = ["#c:gravels", "minecraft:suspicious_gravel", "#c:sands", "minecraft:soul_sand", "minecraft:dirt", "minecraft:mud"]
+
+	[Pudge.Launcher]
+		#Durability of the launcher
+		# Default: 300
+		# Range: 0 ~ 65535
+		durability = 300
+		#Launch velocity of the hook
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		launchVelocity = 1.5
+		#Controls how fast the launcher reels in the rope
+		# Default: 0.7
+		# Range: 0.1 ~ 4.0
+		reelingSpeed = 0.7
+		#Controls how high you will be thrown when performing Jump Boost or Tarzan Jump
+		# Default: 0.6
+		# Range: 0.0 ~ 3.0
+		jumpBoostStrength = 0.6
+		#Controls how far you will be thrown when performing Tarzan Jump
+		# Default: 0.6
+		# Range: 0.0 ~ 3.0
+		tarzanJumpStrength = 0.6
+		#Allows to adjust your weight advantage/disadvantage over the hooked entity
+		# Default: 20.0
+		# Range: 0.0 ~ 1000.0
+		shooterWeightFactor = 20.0
+
+	[Pudge.Rope]
+		#Maximal rope length
+		# Default: 32
+		# Range: 1 ~ 80
+		maxLength = 32
+		#Rope width
+		# Default: 3.0
+		# Range: 1.0 ~ 10.0
+		width = 3.0
+		#Defines how elastic the rope is
+		# Default: 0.0
+		# Range: 0.0 ~ 0.95
+		elasticity = 0.0
+		#Rope color
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		color = "DARK_RED"
+
+	[Spear.Hook]
+		#Maximum load the hook can withstand
+		# Default: 5.0
+		# Range: 0.0 ~ 20.0
+		strength = 5.0
+		#Damage dealt to an entity on impact
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		damage = 2.0
+		#Amount of time (in seconds) the hook can withstand fire
+		# Default: 5.0
+		# Range: 0.0 ~ 60.0
+		resistance = 5.0
+		#Controls interaction with dropped items on the ground
+		affectsItems = false
+		#Controls interaction with non-playable characters
+		affectsNPCs = true
+		#Controls interaction with players
+		affectsPlayers = true
+		#Blocks that will be broken when hit by this hook
+		breakableBlocks = ["#c:glass_blocks", "#c:glass_panes"]
+		#Blocks this hook can be attached to.
+		#Works as a whitelist. If anything is specified here, the hook will attach only to these blocks
+		hookableBlocks = []
+		#Blocks this hook cannot be attached to.
+		#Works as a blacklist, preventing the hook from being attached to specified blocks
+		reboundableBlocks = ["#c:obsidians", "#c:storage_blocks", "minecraft:bedrock"]
+
+	[Spear.Launcher]
+		#Durability of the launcher
+		# Default: 180
+		# Range: 0 ~ 65535
+		durability = 180
+		#Launch velocity of the hook
+		# Default: 2.5
+		# Range: 0.1 ~ 10.0
+		launchVelocity = 2.5
+		#Controls how fast the launcher reels in the rope
+		# Default: 0.5
+		# Range: 0.1 ~ 4.0
+		reelingSpeed = 0.5
+		#Controls how high you will be thrown when performing Jump Boost or Tarzan Jump
+		# Default: 0.8
+		# Range: 0.0 ~ 3.0
+		jumpBoostStrength = 0.8
+		#Controls how far you will be thrown when performing Tarzan Jump
+		# Default: 0.8
+		# Range: 0.0 ~ 3.0
+		tarzanJumpStrength = 0.8
+		#Allows to adjust your weight advantage/disadvantage over the hooked entity
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		shooterWeightFactor = 4.0
+
+	[Spear.Rope]
+		#Maximal rope length
+		# Default: 64
+		# Range: 1 ~ 80
+		maxLength = 64
+		#Rope width
+		# Default: 4.0
+		# Range: 1.0 ~ 10.0
+		width = 4.0
+		#Defines how elastic the rope is
+		# Default: 0.6
+		# Range: 0.0 ~ 0.95
+		elasticity = 0.6
+		#Rope color
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		color = "BLACK"
+
+	[Web.Hook]
+		#Maximum load the hook can withstand
+		# Default: 2.0
+		# Range: 0.0 ~ 20.0
+		strength = 2.0
+		#Damage dealt to an entity on impact
+		# Default: 0.0
+		# Range: 0.0 ~ 100.0
+		damage = 0.0
+		#Amount of time (in seconds) the hook can withstand fire
+		# Default: 1.0
+		# Range: 0.0 ~ 60.0
+		resistance = 1.0
+		#Controls interaction with dropped items on the ground
+		affectsItems = true
+		#Controls interaction with non-playable characters
+		affectsNPCs = true
+		#Controls interaction with players
+		affectsPlayers = true
+		#Blocks that will be broken when hit by this hook
+		breakableBlocks = ["#c:gravels", "minecraft:suspicious_gravel", "#c:sands", "minecraft:soul_sand"]
+		#Blocks this hook can be attached to.
+		#Works as a whitelist. If anything is specified here, the hook will attach only to these blocks
+		hookableBlocks = []
+		#Blocks this hook cannot be attached to.
+		#Works as a blacklist, preventing the hook from being attached to specified blocks
+		reboundableBlocks = ["minecraft:dirt", "minecraft:mud"]
+
+	[Web.Launcher]
+		#Durability of the launcher
+		# Default: 240
+		# Range: 0 ~ 65535
+		durability = 240
+		#Launch velocity of the hook
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		launchVelocity = 2.0
+		#Controls how fast the launcher reels in the rope
+		# Default: 0.8
+		# Range: 0.1 ~ 4.0
+		reelingSpeed = 0.8
+		#Controls how high you will be thrown when performing Jump Boost or Tarzan Jump
+		# Default: 1.0
+		# Range: 0.0 ~ 3.0
+		jumpBoostStrength = 1.0
+		#Controls how far you will be thrown when performing Tarzan Jump
+		# Default: 1.0
+		# Range: 0.0 ~ 3.0
+		tarzanJumpStrength = 1.0
+		#Allows to adjust your weight advantage/disadvantage over the hooked entity
+		# Default: 0.5
+		# Range: 0.0 ~ 1000.0
+		shooterWeightFactor = 0.5
+
+	[Web.Rope]
+		#Maximal rope length
+		# Default: 76
+		# Range: 1 ~ 80
+		maxLength = 76
+		#Rope width
+		# Default: 6.0
+		# Range: 1.0 ~ 10.0
+		width = 6.0
+		#Defines how elastic the rope is
+		# Default: 0.95
+		# Range: 0.0 ~ 0.95
+		elasticity = 0.95
+		#Rope color
+		#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		color = "WHITE"

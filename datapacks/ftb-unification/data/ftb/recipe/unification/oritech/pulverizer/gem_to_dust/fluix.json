@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:gems/fluix"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ae2:fluix_dust"
+    }
+  ],
+  "time": 100
+}

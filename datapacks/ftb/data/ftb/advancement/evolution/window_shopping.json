@@ -1,0 +1,126 @@
+{
+  "parent": "ftb:evolution/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.window_shopping.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.window_shopping.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tavern": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#ftb:shopkeepers/tavern"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "manor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#ftb:shopkeepers/manor"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#ftb:shopkeepers/ship"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mage_tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#ftb:shopkeepers/mage_tower"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "witch_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#ftb:shopkeepers/witch_hut"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "haunted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "#ftb:shopkeepers/haunted"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tavern",
+      "manor",
+      "ship",
+      "mage_tower",
+      "witch_hut",
+      "haunted"
+    ]
+  ]
+}

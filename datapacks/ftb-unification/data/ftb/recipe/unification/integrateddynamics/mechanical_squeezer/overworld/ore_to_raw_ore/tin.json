@@ -1,0 +1,31 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/tin",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore"
+      },
+      "chance": 0.33
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore"
+      },
+      "chance": 0.15
+    }
+  ],
+  "duration": 40
+}

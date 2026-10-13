@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/novite"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:novite_dust"
+    }
+  ],
+  "time": 100
+}

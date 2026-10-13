@@ -1,0 +1,354 @@
+{
+  id: "37050078793DE537",
+  order_index: 5,
+  icon: {
+    id: "ae2:fluix_crystal",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "2D8EB37C6F95382E",
+      item: {
+        id: "ae2:certus_quartz_crystal",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "629A968B4603DDC0",
+      item: {
+        id: "ae2:fluix_crystal",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "60C2662642134046",
+      item: {
+        id: "ae2:charged_certus_quartz_crystal",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "180FFC6CB09D17AC",
+      item: {
+        id: "ftbmaterials:silicon_gem",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "187C74BE0076DF40",
+      item: {
+        id: "ae2:basic_card",
+        count: 1,
+      },
+      count: 4,
+      weight: 6.0,
+    },
+    {
+      id: "51557C32C2A34A72",
+      item: {
+        id: "ae2:advanced_card",
+        count: 1,
+      },
+      count: 2,
+      weight: 6.0,
+    },
+    {
+      id: "7C47AC2B7A252B7F",
+      item: {
+        id: "ae2:logic_processor",
+        count: 1,
+      },
+      count: 4,
+      weight: 6.0,
+    },
+    {
+      id: "3069631D90C9D0EC",
+      item: {
+        id: "ae2:calculation_processor",
+        count: 1,
+      },
+      count: 4,
+      weight: 6.0,
+    },
+    {
+      id: "7332873ED0E0A7E9",
+      item: {
+        id: "ae2:engineering_processor",
+        count: 1,
+      },
+      count: 4,
+      weight: 6.0,
+    },
+    {
+      id: "764EDAA42027D6DC",
+      item: {
+        id: "ae2:speed_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "0B92C8F790709503",
+      item: {
+        id: "ae2:capacity_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "25282A00A03DF179",
+      item: {
+        id: "ae2:redstone_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "24A40C681A7E84D1",
+      item: {
+        id: "ae2:crafting_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "753B4051FFFDBEE3",
+      item: {
+        id: "ae2:void_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "2B44AEB76BA9A4A7",
+      item: {
+        id: "ae2:energy_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "75B0588ECAC87CCC",
+      item: {
+        id: "ae2:equal_distribution_card",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6A38311DAF6147EC",
+      item: {
+        id: "ae2:cell_component_1k",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "177A9131794AD5D9",
+      item: {
+        id: "ae2:mysterious_cube",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "7C4CFDAC48C82780",
+      item: {
+        id: "ae2:annihilation_plane",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "100EE0A4D8006FD1",
+      item: {
+        id: "ae2:formation_plane",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "538E4116BF20013D",
+      item: {
+        id: "ae2:fluix_smart_cable",
+        count: 1,
+      },
+      count: 16,
+      weight: 4.0,
+    },
+    {
+      id: "471E8823201BD914",
+      item: {
+        id: "ae2:cell_component_4k",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2EF0C471136AB2B2",
+      item: {
+        id: "ae2:crafting_accelerator",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "318E4B233049D762",
+      item: {
+        id: "ae2:1k_crafting_storage",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "46CF2E0AC48408DD",
+      item: {
+        id: "ae2:4k_crafting_storage",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7707BC3DD5FC35D5",
+      item: {
+        id: "ae2:energy_cell",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "12E6CBE07385A567",
+      item: {
+        id: "ae2:flawless_budding_quartz",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7B25BFB466B1F214",
+      item: {
+        id: "extendedae:entro_crystal",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "5227CACC5A2BAC3E",
+      item: {
+        id: "ae2:fluix_smart_dense_cable",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "7DF8909DE5EE0CBF",
+      item: {
+        id: "extendedae:smart_annihilation_plane",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "755F08B5D204A24D",
+      item: {
+        id: "extendedae:active_formation_plane",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5889D7C8B963773D",
+      item: {
+        id: "ae2:cell_component_16k",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "149FC2A0C8395FD0",
+      item: {
+        id: "ae2:16k_crafting_storage",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6268B85A5E4FD89E",
+      item: {
+        id: "ae2:wireless_terminal",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7C92A50F1E1AA12A",
+      item: {
+        id: "ae2:dense_energy_cell",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3DE47710342DEC0F",
+      item: {
+        id: "ae2:entropy_manipulator",
+        count: 1,
+        components: {
+          "ae2:stored_energy": 200000.0,
+        },
+      },
+      weight: 2.0,
+    },
+    {
+      id: "52368A18918B03B6",
+      item: {
+        id: "ae2:cell_component_64k",
+        count: 1,
+      },
+    },
+    {
+      id: "76B1F5AE8B8A4FFB",
+      item: {
+        id: "extendedae:infinity_cobblestone_cell",
+        count: 1,
+      },
+    },
+    {
+      id: "18B10DEFBEB431FB",
+      item: {
+        id: "extendedae:infinity_water_cell",
+        count: 1,
+      },
+    },
+    {
+      id: "1220D7CEE9118FA4",
+      item: {
+        id: "ae2:singularity",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "box_of_ae2_goodies",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.box_of_ae2_goodies",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

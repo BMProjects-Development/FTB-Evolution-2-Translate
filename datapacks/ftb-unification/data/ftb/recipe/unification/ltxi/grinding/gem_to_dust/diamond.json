@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "minecraft:diamond"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:diamond_dust"
+    }
+  ]
+}

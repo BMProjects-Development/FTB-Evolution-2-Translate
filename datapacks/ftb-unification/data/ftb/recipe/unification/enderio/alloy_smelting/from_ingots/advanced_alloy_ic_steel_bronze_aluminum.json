@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4800,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/steel"
+    },
+    {
+      "count": 2,
+      "ingredient": "#c:ingots/bronze"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/aluminum"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ftbic:advanced_alloy"
+  }
+}

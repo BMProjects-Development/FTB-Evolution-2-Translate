@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/tin",
+  "result": {
+    "id": "ftbmaterials:tin_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:tin_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

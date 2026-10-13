@@ -1,0 +1,8 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "littlejoys:drop_rush"
+}

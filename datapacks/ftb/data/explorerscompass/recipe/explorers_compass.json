@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": "minecraft:amethyst_shard",
+    "S": "minecraft:ender_eye",
+    "C": "minecraft:compass"
+  },
+  "result": {
+    "id": "explorerscompass:explorerscompass"
+  }
+}

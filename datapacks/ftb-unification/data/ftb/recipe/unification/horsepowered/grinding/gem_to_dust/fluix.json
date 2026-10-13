@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ae2:fluix_crystal",
+  "result": {
+    "id": "ae2:fluix_dust"
+  },
+  "time": 16
+}

@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:raw_materials/niobium",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "ltxi:niobium_dust"
+  }
+}

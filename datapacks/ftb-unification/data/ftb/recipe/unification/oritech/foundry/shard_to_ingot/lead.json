@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:lead_shard",
+    "ftbmaterials:lead_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:lead_ingot"
+    }
+  ],
+  "time": 80
+}

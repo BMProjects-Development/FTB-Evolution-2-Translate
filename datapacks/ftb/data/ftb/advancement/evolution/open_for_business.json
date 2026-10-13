@@ -1,0 +1,23 @@
+{
+  "parent": "ftb:evolution/window_shopping",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.open_for_business.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.open_for_business.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

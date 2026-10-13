@@ -1,0 +1,26 @@
+{
+  "type": "ftbic:hydroponic_mutation",
+  "input_fluids": [
+    {
+      "amount": 500,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "mysticalagriculture:electrum_seeds"
+    },
+    {
+      "ingredient": "mysticalagriculture:copper_seeds"
+    }
+  ],
+  "outputs": [
+    {
+      "chance": 0.2,
+      "item": {
+        "id": "mysticalagriculture:gold_seeds"
+      }
+    }
+  ],
+  "processing_time": 4.0
+}

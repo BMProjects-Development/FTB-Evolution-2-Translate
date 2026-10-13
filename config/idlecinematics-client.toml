@@ -1,0 +1,82 @@
+#Enable automatic activation
+enabled = false
+#Seconds without input before activation
+# Default: 25
+# Range: 5 ~ 3600
+afkTimeoutSeconds = 120
+#Camera movement multiplier
+# Default: 1.0
+# Range: 0.1 ~ 4.0
+panSpeed = 1.0
+#Seconds before choosing a new shot
+# Default: 9
+# Range: 5 ~ 30
+shotDurationSeconds = 9
+#How the shot director selects compositions
+#Allowed Values: DYNAMIC, PLAYER_FOCUSED, ENVIRONMENT_FOCUSED, CLASSIC
+shotMode = "DYNAMIC"
+#Camera distance multiplier
+# Default: 1.0
+# Range: 0.6 ~ 1.6
+cameraDistance = 1.0
+smoothTransitions = true
+hideHud = true
+#Allow shots to feature nearby living entities
+includeNearbyEntities = true
+#Show the selected shot pool and preset while cinematic mode is active
+showDebugPreset = false
+#Transition duration multiplier; shot speed is unaffected
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+transitionIntensity = 1.0
+countdownEnabled = true
+# Default: 3
+# Range: 0 ~ 10
+countdownSeconds = 3
+exitOnFocusRegain = false
+showTimerTitle = false
+showAfkTimer = true
+# Default: 1.0
+# Range: 0.5 ~ 2.0
+hudScale = 1.0
+#Allowed Values: CENTER, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+hudAnchor = "TOP_LEFT"
+enableNewMotionFamilies = true
+#Comma-separated namespaced cinematic preset identifiers disabled by the user
+disabledCinematicPresets = ""
+playerShotPoolEnabled = true
+landscapeShotPoolEnabled = true
+entityShotPoolEnabled = true
+celestialShotPoolEnabled = true
+fpsCapEnabled = false
+# Default: 30
+# Range: 10 ~ 260
+fpsCap = 30
+cinematicFovEnabled = false
+# Default: 55
+# Range: 30 ~ 110
+cinematicFov = 55
+audioProfileEnabled = false
+# Default: 0.35
+# Range: 0.0 ~ 1.0
+cinematicMasterVolume = 0.35
+#Bounded scene-analysis budget; safety checks remain enabled in every mode
+#Allowed Values: PERFORMANCE, BALANCED, QUALITY
+analysisQuality = "BALANCED"
+warningSoundEnabled = true
+# Default: 0.65
+# Range: 0.0 ~ 1.0
+warningVolume = 0.65
+#Keep rendering cinematic frames while Minecraft is inactive or unfocused
+maintainCinematicRendering = false
+renderDistanceProfileEnabled = false
+# Default: 8
+# Range: 2 ~ 64
+cinematicRenderDistance = 8
+#Play selected Emotecraft emotes during local-player cinematic shots
+emotecraftAutomation = true
+# Default: 60
+# Range: 0 ~ 100
+emotecraftChancePercent = 60
+#Comma-separated Emotecraft emote UUIDs; unavailable IDs are preserved
+emotecraftEmotePool = "1d1e0001-51a7-4ed0-9000-000000000001,1d1e0002-51a7-4ed0-9000-000000000002,1d1e0003-51a7-4ed0-9000-000000000003"

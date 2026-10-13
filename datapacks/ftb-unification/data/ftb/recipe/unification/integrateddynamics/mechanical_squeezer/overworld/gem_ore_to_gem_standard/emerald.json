@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/emerald",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 1
+      },
+      "chance": 0.25
+    }
+  ],
+  "duration": 20
+}

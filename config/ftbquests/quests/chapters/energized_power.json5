@@ -1,0 +1,2164 @@
+{
+  id: "155AABAC189A7758",
+  group: "4780068BA76609B8",
+  order_index: 2,
+  icon: {
+    id: "energizedpower:energized_crystal_matrix",
+    count: 1,
+  },
+  filename: "energized_power",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "196DBB74F9A47B69",
+  quests: [
+    {
+      icon: {
+        id: "energizedpower:basic_machine_frame",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "196DBB74F9A47B69",
+      tasks: [
+        {
+          id: "586DBDF10293ABE1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "62D8E47DCD1BAE11",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:basic_machine_frame",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "196DBB74F9A47B69",
+        "4278C6A88AE6F6D4",
+      ],
+      dependency_requirement: "all_started",
+      size: 1.75,
+      id: "65A01F46F7044328",
+      tasks: [
+        {
+          id: "396EB648F406CB0F",
+          type: "item",
+          item: {
+            id: "energizedpower:basic_machine_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B9CB4AF6CD4F804",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "780CA6D3B25FE528",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:energized_power_book",
+        count: 1,
+      },
+      x: 2.0,
+      y: -1.5,
+      shape: "diamond",
+      dependencies: [
+        "65A01F46F7044328",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "2A868E9D86980F2C",
+      tasks: [
+        {
+          id: "63CA7F6214CD7480",
+          type: "item",
+          item: {
+            id: "energizedpower:energized_power_book",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F94E2E8354DA43B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:powered_furnace",
+        count: 1,
+      },
+      x: 3.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "65A01F46F7044328",
+      ],
+      size: 1.0,
+      id: "2418AC7F8E4D0437",
+      tasks: [
+        {
+          id: "3ACB5F4CF8BAD73C",
+          type: "item",
+          item: {
+            id: "energizedpower:powered_furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2554F9D1ED297D85",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "620A7EBD23FB20CA",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:pulverizer",
+        count: 1,
+      },
+      x: 5.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "2418AC7F8E4D0437",
+      ],
+      size: 1.0,
+      id: "61FB33A5F7FACDB9",
+      tasks: [
+        {
+          id: "43726DE4D8F1DBA6",
+          type: "item",
+          item: {
+            id: "energizedpower:pulverizer",
+            count: 1,
+          },
+        },
+        {
+          id: "685AB694508432C2",
+          type: "item",
+          item: {
+            id: "energizedpower:crusher",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "464983ECD81F488D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "27122DF056C7A04F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:sawmill",
+        count: 1,
+      },
+      x: 7.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "61FB33A5F7FACDB9",
+      ],
+      size: 1.0,
+      id: "22059B7A059A6295",
+      tasks: [
+        {
+          id: "5A1AC0D43B05532C",
+          type: "item",
+          item: {
+            id: "energizedpower:sawmill",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25F91710081D82C8",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "48EFFF7F10B10A94",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:auto_crafter",
+        count: 1,
+      },
+      x: 3.0,
+      y: -3.5,
+      shape: "hexagon",
+      dependencies: [
+        "2418AC7F8E4D0437",
+      ],
+      size: 1.0,
+      id: "4AD16D2958B25FFB",
+      tasks: [
+        {
+          id: "30DD05DA14B1FA9F",
+          type: "item",
+          item: {
+            id: "energizedpower:auto_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "711F0992241D183D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "477DB4F43FA2E611",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:block_placer",
+        count: 1,
+      },
+      x: 5.0,
+      y: -3.5,
+      shape: "diamond",
+      dependencies: [
+        "61FB33A5F7FACDB9",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "41381654B022CD0D",
+      tasks: [
+        {
+          id: "3EF418C31A95570F",
+          type: "item",
+          item: {
+            id: "energizedpower:block_placer",
+            count: 1,
+          },
+        },
+        {
+          id: "1DE8CCD9A97A92BB",
+          type: "item",
+          item: {
+            id: "energizedpower:auto_stonecutter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C51C235F94E9E8A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:heat_generator",
+        count: 1,
+      },
+      x: 3.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "65A01F46F7044328",
+      ],
+      size: 1.0,
+      id: "52A6CCD14E5E5144",
+      tasks: [
+        {
+          id: "684455E5461CFBA5",
+          type: "item",
+          item: {
+            id: "energizedpower:heat_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F3E5E79FFFFBD06",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1613FDA2E725F4AB",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:battery_5",
+        count: 1,
+      },
+      x: 5.0,
+      y: 1.5,
+      shape: "circle",
+      dependencies: [
+        "52A6CCD14E5E5144",
+      ],
+      size: 1.0,
+      id: "24394380B59A3DA0",
+      tasks: [
+        {
+          id: "40ABEB973214B51D",
+          type: "item",
+          item: {
+            id: "energizedpower:charger",
+            count: 1,
+          },
+        },
+        {
+          id: "2681DB8B46050D04",
+          type: "item",
+          item: {
+            id: "energizedpower:battery_5",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6797C91F1F9B89C5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "35D8C21DF50B06FE",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:battery_box",
+        count: 1,
+      },
+      x: 7.0,
+      y: 1.5,
+      shape: "circle",
+      dependencies: [
+        "24394380B59A3DA0",
+      ],
+      size: 1.0,
+      id: "5F6D849BF0735415",
+      tasks: [
+        {
+          id: "65E7A3B966290F74",
+          type: "item",
+          item: {
+            id: "energizedpower:battery_box",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "459FD4123D74C353",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "619F47F33DB1D9D5",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:solar_panel_3",
+        count: 1,
+      },
+      x: 2.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "65A01F46F7044328",
+      ],
+      size: 1.0,
+      id: "454517F5F0917F46",
+      tasks: [
+        {
+          id: "1ED9A1363255DBDF",
+          type: "item",
+          item: {
+            id: "energizedpower:solar_panel_1",
+            count: 1,
+          },
+        },
+        {
+          id: "789389126730DFD7",
+          type: "item",
+          item: {
+            id: "energizedpower:solar_panel_3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B157A67F1F8D026",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6D8A9F77B701DCDE",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:plant_growth_chamber",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "65A01F46F7044328",
+      ],
+      size: 1.0,
+      id: "3CAB8C8CA70E31C9",
+      tasks: [
+        {
+          id: "35E39A65B467EE6C",
+          type: "item",
+          item: {
+            id: "energizedpower:plant_growth_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AFBC29E3B5F8031",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5BAF9062CABD29F9",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:gear_press_mold",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "65A01F46F7044328",
+      ],
+      size: 1.0,
+      id: "627553EDEFCE9C01",
+      tasks: [
+        {
+          id: "57F7118A97BA2BDE",
+          type: "item",
+          item: {
+            id: "energizedpower:press_mold_maker",
+            count: 1,
+          },
+        },
+        {
+          id: "13C10ED7B81A45B1",
+          type: "item",
+          item: {
+            id: "energizedpower:gear_press_mold",
+            count: 1,
+          },
+        },
+        {
+          id: "54874DD4E19056F2",
+          type: "item",
+          item: {
+            id: "energizedpower:rod_press_mold",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "375B7930039C02DD",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3C3CFEAC32876737",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:metal_press",
+        count: 1,
+      },
+      x: 7.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "627553EDEFCE9C01",
+      ],
+      size: 1.0,
+      id: "0D6C804C2A6E9ECE",
+      tasks: [
+        {
+          id: "3C007D98E8227F0A",
+          type: "item",
+          item: {
+            id: "energizedpower:metal_press",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DAB6FB04CA8F763",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "57686C51DB5EFE52",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:hardened_machine_frame",
+        count: 1,
+      },
+      x: 9.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0D6C804C2A6E9ECE",
+      ],
+      size: 1.75,
+      id: "4726F0EF568479F8",
+      tasks: [
+        {
+          id: "40B9619881343280",
+          type: "item",
+          item: {
+            id: "energizedpower:hardened_machine_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E987B33DD19BED9",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "62E362FF9AB7CCF2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:assembling_machine",
+        count: 1,
+      },
+      x: 9.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "4726F0EF568479F8",
+      ],
+      size: 1.0,
+      id: "0004A2325D5DE642",
+      tasks: [
+        {
+          id: "2B1083C3ED283B8D",
+          type: "item",
+          item: {
+            id: "energizedpower:assembling_machine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D65E0F1CEFE285A",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "503C40A5ADC3B19B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:speed_upgrade_module_1",
+        count: 1,
+      },
+      x: 11.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "0004A2325D5DE642",
+      ],
+      size: 1.0,
+      id: "6CD01296F218E3A9",
+      tasks: [
+        {
+          id: "76F5A99647DF4506",
+          type: "item",
+          item: {
+            id: "energizedpower:basic_upgrade_module",
+            count: 1,
+          },
+        },
+        {
+          id: "56A79EF0640F4A29",
+          type: "item",
+          item: {
+            id: "energizedpower:speed_upgrade_module_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DAE57B53837D6C3",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "52C1B324B0CB658A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:thermal_generator",
+        count: 1,
+      },
+      x: 9.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "4726F0EF568479F8",
+      ],
+      size: 1.0,
+      id: "1B95E11A97F6D2C6",
+      tasks: [
+        {
+          id: "571321ADB19782F0",
+          type: "item",
+          item: {
+            id: "energizedpower:thermal_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5028B03D9E3FE8DC",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6C28CDE9E02A8324",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:induction_smelter",
+        count: 1,
+      },
+      x: 11.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "4726F0EF568479F8",
+      ],
+      size: 1.0,
+      id: "64D5A4564AB0C180",
+      tasks: [
+        {
+          id: "1949E738D79CEA71",
+          type: "item",
+          item: {
+            id: "energizedpower:induction_smelter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1ADC0E048D78E174",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6769E149EF7C5BA4",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:fluid_tank_small",
+        count: 1,
+      },
+      x: 9.5,
+      y: 4.0,
+      shape: "circle",
+      dependencies: [
+        "1B95E11A97F6D2C6",
+      ],
+      size: 1.0,
+      id: "535CC5C59EEBAEF1",
+      tasks: [
+        {
+          id: "3EA182C298CE43CA",
+          type: "item",
+          item: {
+            id: "energizedpower:copper_fluid_pipe",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "46629147CE8E9AD5",
+          type: "item",
+          item: {
+            id: "energizedpower:fluid_tank_small",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40FAD72BC21BF23A",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3615378F32449F5B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:stone_solidifier",
+        count: 1,
+      },
+      x: 11.5,
+      y: 4.0,
+      shape: "circle",
+      dependencies: [
+        "535CC5C59EEBAEF1",
+      ],
+      size: 1.0,
+      id: "2D9A1A4DBC4D54BC",
+      tasks: [
+        {
+          id: "461F0B3EA334A961",
+          type: "item",
+          item: {
+            id: "energizedpower:stone_solidifier",
+            count: 1,
+          },
+        },
+        {
+          id: "776A1774C50BA3EE",
+          type: "item",
+          item: {
+            id: "energizedpower:stone_liquefier",
+            count: 1,
+          },
+        },
+        {
+          id: "32CD138B69B95F75",
+          type: "item",
+          item: {
+            id: "energizedpower:fluid_freezer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2503392725C16A83",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "4E70B6DF2A6BA86E",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:advanced_alloy",
+        count: 1,
+      },
+      x: 11.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "4726F0EF568479F8",
+      ],
+      size: 1.0,
+      id: "39CF1A9F34B62EDD",
+      tasks: [
+        {
+          id: "1298D5677A7CB6F4",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_alloy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "676CDADD3C94A0B5",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "4E5B296C18C4DE20",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:advanced_machine_frame",
+        count: 1,
+      },
+      x: 14.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "39CF1A9F34B62EDD",
+      ],
+      size: 1.75,
+      id: "2CC87ECDB76CCBD1",
+      tasks: [
+        {
+          id: "6C7F344902B89DF1",
+          type: "item",
+          item: {
+            id: "energizedpower:advanced_machine_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10D0930CC260E9B9",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "538D8E7B93380EBE",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:crystal_growth_chamber",
+        count: 1,
+      },
+      x: 14.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "2CC87ECDB76CCBD1",
+      ],
+      size: 1.0,
+      id: "6A59069E389CBA24",
+      tasks: [
+        {
+          id: "1E163D76DA6DEF61",
+          type: "item",
+          item: {
+            id: "energizedpower:crystal_growth_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "472E6DD95D49508C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "143A007E677AD326",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:advanced_pulverizer",
+        count: 1,
+      },
+      x: 16.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "2CC87ECDB76CCBD1",
+      ],
+      size: 1.0,
+      id: "4C97C7EB355F1A8C",
+      tasks: [
+        {
+          id: "44FFF40F3921069A",
+          type: "item",
+          item: {
+            id: "energizedpower:advanced_powered_furnace",
+            count: 1,
+          },
+        },
+        {
+          id: "57FD1C39000AB56C",
+          type: "item",
+          item: {
+            id: "energizedpower:advanced_pulverizer",
+            count: 1,
+          },
+        },
+        {
+          id: "3B11D9129245880D",
+          type: "item",
+          item: {
+            id: "energizedpower:advanced_crusher",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D1D0F3D7E85D355",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "495C3F99ECED0C8A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:advanced_auto_crafter",
+        count: 1,
+      },
+      x: 14.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "6A59069E389CBA24",
+      ],
+      size: 1.0,
+      id: "06701D04327780C6",
+      tasks: [
+        {
+          id: "7DA2AA651707189D",
+          type: "item",
+          item: {
+            id: "energizedpower:advanced_auto_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77647929AA33256E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4B6043670EE4FEF5",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:charging_station",
+        count: 1,
+      },
+      x: 16.0,
+      y: -4.0,
+      shape: "circle",
+      dependencies: [
+        "4C97C7EB355F1A8C",
+      ],
+      size: 1.0,
+      id: "5A559FF1147D2459",
+      tasks: [
+        {
+          id: "49E96ECB9C0DA463",
+          type: "item",
+          item: {
+            id: "energizedpower:charging_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4561966516BC3859",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "469629EE8D9A30F2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:lightning_generator",
+        count: 1,
+      },
+      x: 14.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "2CC87ECDB76CCBD1",
+      ],
+      size: 1.0,
+      id: "7F452738E6DA6DE2",
+      tasks: [
+        {
+          id: "600B0A0DDDC2565C",
+          type: "item",
+          item: {
+            id: "energizedpower:lightning_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7376A52827383C8C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "619B7F57F93A2B22",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:filtration_plant",
+        count: 1,
+      },
+      x: 16.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "2CC87ECDB76CCBD1",
+      ],
+      size: 1.0,
+      id: "45AEC6C17B2D353C",
+      tasks: [
+        {
+          id: "3D321A1FBB7BD794",
+          type: "item",
+          item: {
+            id: "energizedpower:filtration_plant",
+            count: 1,
+          },
+        },
+        {
+          id: "6268F1FBF101233F",
+          type: "item",
+          item: {
+            id: "energizedpower:charcoal_filter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FC8F2EF12919D0F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "613B56606B407B75",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:energized_crystal_matrix",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "2CC87ECDB76CCBD1",
+      ],
+      size: 1.0,
+      id: "5D5E354DBE1226B7",
+      tasks: [
+        {
+          id: "30584A1C508FA062",
+          type: "item",
+          item: {
+            id: "energizedpower:crystal_matrix",
+            count: 1,
+          },
+        },
+        {
+          id: "51D28361663CA4B1",
+          type: "item",
+          item: {
+            id: "energizedpower:energized_crystal_matrix",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30FBAE4B1FFC34DA",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6B121649BC4831BA",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:reinforced_advanced_machine_frame",
+        count: 1,
+      },
+      x: 18.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "5D5E354DBE1226B7",
+      ],
+      size: 1.75,
+      id: "254F71CE27B713D8",
+      tasks: [
+        {
+          id: "7AB130AC990150A1",
+          type: "item",
+          item: {
+            id: "energizedpower:reinforced_advanced_machine_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AEB9B90348B21CE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1855884A630669F9",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:teleporter",
+        count: 1,
+      },
+      x: 18.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "254F71CE27B713D8",
+      ],
+      size: 1.0,
+      id: "61B9CB144078F595",
+      tasks: [
+        {
+          id: "157A8FD807505568",
+          type: "item",
+          item: {
+            id: "energizedpower:teleporter",
+            count: 1,
+          },
+        },
+        {
+          id: "69A51FF7B3DCA10F",
+          type: "item",
+          item: {
+            id: "energizedpower:teleporter_matrix",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70E975049C688524",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "57B00CA2C6783C26",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:weather_controller",
+        count: 1,
+      },
+      x: 20.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "254F71CE27B713D8",
+      ],
+      size: 1.0,
+      id: "3C141E8FE709BDF2",
+      tasks: [
+        {
+          id: "73DD4618D7EDF1F0",
+          type: "item",
+          item: {
+            id: "energizedpower:weather_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AC5099913404D51",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "14AAD6C858A391AB",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:time_controller",
+        count: 1,
+      },
+      x: 20.5,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "3C141E8FE709BDF2",
+      ],
+      size: 1.0,
+      id: "5A08FA1A20258BB2",
+      tasks: [
+        {
+          id: "687372B5B9CCE8D8",
+          type: "item",
+          item: {
+            id: "energizedpower:time_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E11BE9C7FE9B495",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1F3CDEFDDF36BF2C",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:crystallized_lapis_lazuli",
+        count: 1,
+      },
+      x: 20.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "254F71CE27B713D8",
+      ],
+      size: 1.0,
+      id: "5C58946645097EBF",
+      tasks: [
+        {
+          id: "42C45273237D8676",
+          type: "item",
+          item: {
+            id: "energizedpower:crystallized_lapis_lazuli",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "394715556C4E2CE8",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "57315D7062D69A79",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:elite_machine_frame",
+        count: 1,
+      },
+      x: 23.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "5C58946645097EBF",
+      ],
+      size: 1.75,
+      id: "3F44E3225E41C7CF",
+      tasks: [
+        {
+          id: "4C50C9FD910BD86B",
+          type: "item",
+          item: {
+            id: "energizedpower:energized_alloy_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "252B8FFA967BE52F",
+          type: "item",
+          item: {
+            id: "energizedpower:elite_machine_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2ABADE1C7C535607",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1645C188478A9089",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:elite_powered_furnace",
+        count: 1,
+      },
+      x: 23.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "3F44E3225E41C7CF",
+      ],
+      size: 1.0,
+      id: "39454A3309E666EA",
+      tasks: [
+        {
+          id: "3231631202C5D056",
+          type: "item",
+          item: {
+            id: "energizedpower:elite_powered_furnace",
+            count: 1,
+          },
+        },
+        {
+          id: "3F972EAF5413CF68",
+          type: "item",
+          item: {
+            id: "energizedpower:elite_auto_crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C34113AC38A8C02",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7271F3D8DE4360D0",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:elite_upgrade_module",
+        count: 1,
+      },
+      x: 25.0,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "3F44E3225E41C7CF",
+      ],
+      size: 1.0,
+      id: "6AD61318102E2CEE",
+      tasks: [
+        {
+          id: "4E6C8760A9451EF6",
+          type: "item",
+          item: {
+            id: "energizedpower:elite_upgrade_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40E984FB1DF9010E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7942566748910979",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:elite_battery_box",
+        count: 1,
+      },
+      x: 23.0,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "3F44E3225E41C7CF",
+      ],
+      size: 1.0,
+      id: "537D4A1C121F9114",
+      tasks: [
+        {
+          id: "49D70C02D3E567DE",
+          type: "item",
+          item: {
+            id: "energizedpower:elite_battery_box",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E1025996F66ECD1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5DD2ACECBD3B3305",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:superconductor",
+        count: 1,
+      },
+      x: 25.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "3F44E3225E41C7CF",
+      ],
+      size: 1.0,
+      id: "694B3717341A77D5",
+      tasks: [
+        {
+          id: "73C73A4600C31D5A",
+          type: "item",
+          item: {
+            id: "energizedpower:coolant_cell",
+            count: 1,
+          },
+        },
+        {
+          id: "2B06C1B91EC36CFA",
+          type: "item",
+          item: {
+            id: "energizedpower:superconductor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2929DBBA4A3ADF65",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "114CF3BFF4A54832",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:superconductive_cable",
+        count: 1,
+      },
+      x: 27.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "694B3717341A77D5",
+      ],
+      size: 2.0,
+      id: "2D1B85CD83A93F5E",
+      tasks: [
+        {
+          id: "228413E12F67B37B",
+          type: "item",
+          item: {
+            id: "energizedpower:superconductive_cable",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "51B9BE902B080416",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "277894E2E169327E",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:wrench",
+        count: 1,
+      },
+      x: 2.5,
+      y: 5.5,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "196DBB74F9A47B69",
+      ],
+      size: 1.0,
+      id: "1B51F2E8350A3145",
+      tasks: [
+        {
+          id: "6BFB080B50F1552A",
+          type: "item",
+          item: {
+            id: "energizedpower:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6EBE2B57C2FE74A8",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1975AE28BBE97FDB",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:item_conveyor_belt",
+        count: 1,
+      },
+      x: 4.5,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "1B51F2E8350A3145",
+      ],
+      size: 1.0,
+      id: "5A1884B152041DF2",
+      tasks: [
+        {
+          id: "5C31B8C5AFEB9D48",
+          type: "item",
+          item: {
+            id: "energizedpower:item_conveyor_belt",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "50252FACE2160EEF",
+          type: "item",
+          item: {
+            id: "energizedpower:item_conveyor_belt_loader",
+            count: 1,
+          },
+        },
+        {
+          id: "7079BF5BF77EE7E2",
+          type: "item",
+          item: {
+            id: "energizedpower:item_conveyor_belt_sorter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7798A4C0DF92DC51",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6BEFBB54E89090ED",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:fast_item_conveyor_belt",
+        count: 1,
+      },
+      x: 4.5,
+      y: 7.5,
+      shape: "circle",
+      dependencies: [
+        "5A1884B152041DF2",
+      ],
+      size: 1.0,
+      id: "2CE134BC4AFE943F",
+      tasks: [
+        {
+          id: "5491E99B6109750A",
+          type: "item",
+          item: {
+            id: "energizedpower:fast_item_conveyor_belt",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "31519E628D009BCB",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "621D618FCE886764",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:express_item_conveyor_belt",
+        count: 1,
+      },
+      x: 6.5,
+      y: 7.5,
+      shape: "circle",
+      dependencies: [
+        "2CE134BC4AFE943F",
+      ],
+      size: 1.0,
+      id: "4314E0DEC99B8C9C",
+      tasks: [
+        {
+          id: "2783813AB04FEE2D",
+          type: "item",
+          item: {
+            id: "energizedpower:express_item_conveyor_belt",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "3E5E512EAE00E956",
+          type: "item",
+          item: {
+            id: "energizedpower:express_item_conveyor_belt_loader",
+            count: 1,
+          },
+        },
+        {
+          id: "3E3997FFB304152A",
+          type: "item",
+          item: {
+            id: "energizedpower:express_item_conveyor_belt_sorter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A0AAD4B38254A62",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "60644114B4EED171",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:turbo_item_conveyor_belt",
+        count: 1,
+      },
+      x: 6.5,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "4314E0DEC99B8C9C",
+      ],
+      size: 1.0,
+      id: "763CFE19384B50BF",
+      tasks: [
+        {
+          id: "44AE8BB79EB434E7",
+          type: "item",
+          item: {
+            id: "energizedpower:turbo_item_conveyor_belt",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "1CA37214D606891F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4A1381DA47A6DB70",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:item_silo_tiny",
+        count: 1,
+      },
+      x: 4.5,
+      y: 3.5,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "196DBB74F9A47B69",
+      ],
+      size: 1.0,
+      id: "11EABC139262D289",
+      tasks: [
+        {
+          id: "1BC9C08EF15D7F53",
+          type: "item",
+          item: {
+            id: "energizedpower:item_silo_tiny",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BFDC1861485F6EF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1B223BE8F901DE42",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:xp_drain",
+        count: 1,
+      },
+      x: 6.5,
+      y: 3.5,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "196DBB74F9A47B69",
+      ],
+      size: 1.0,
+      id: "5FE464F00FF65F8E",
+      tasks: [
+        {
+          id: "4B504D9BB961C5FC",
+          type: "item",
+          item: {
+            id: "energizedpower:xp_drain",
+            count: 1,
+          },
+        },
+        {
+          id: "5E2D688537A13F83",
+          type: "item",
+          item: {
+            id: "energizedpower:xp_storage_tiny",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42D6A35EABEC71C1",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4CF0E78DE6C0132E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:energy_analyzer",
+        count: 1,
+      },
+      x: 2.5,
+      y: 7.5,
+      shape: "diamond",
+      dependencies: [
+        "1B51F2E8350A3145",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6F21487103C2B864",
+      tasks: [
+        {
+          id: "4E61FC4DEB089F28",
+          type: "item",
+          item: {
+            id: "energizedpower:energy_analyzer",
+            count: 1,
+          },
+        },
+        {
+          id: "48D41081629F15FB",
+          type: "item",
+          item: {
+            id: "energizedpower:machine_configurator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A6B9C06829F254B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "4278C6A88AE6F6D4",
+      x: 0.0,
+      y: 2.0,
+      shape: "gear",
+      id: "7A0EF3DE8D9834C3",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 5.0,
+      width: 2.3,
+      height: 2.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/ep_solar_ladder.png",
+      click_action: {
+        type: "open_quest",
+        data: "454517F5F0917F46",
+      },
+      id: "78C929C236371200",
+    },
+    {
+      x: 11.0,
+      y: 7.0,
+      width: 3.13,
+      height: 2.5,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/ep_belt_line.png",
+      click_action: {
+        type: "open_quest",
+        data: "763CFE19384B50BF",
+      },
+      id: "4B4DD00F5B1E7736",
+    },
+    {
+      x: 18.5,
+      y: -5.5,
+      width: 2.6,
+      height: 1.12,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/ep_controllers.png",
+      click_action: {
+        type: "open_quest",
+        data: "3C141E8FE709BDF2",
+      },
+      id: "7C2811D4E267B062",
+    },
+    {
+      x: 0.0,
+      y: -5.0,
+      width: 7.0,
+      height: 0.64,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/energized_power_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "196DBB74F9A47B69",
+      },
+      id: "01A22C42BFBD5299",
+    },
+    {
+      x: -2.0,
+      y: -1.5,
+      width: 2.2,
+      height: 2.2,
+      rotation: -12.0,
+      image: "energizedpower:item/energized_power_book",
+      id: "2751C8AF88D72DEA",
+    },
+  ],
+}

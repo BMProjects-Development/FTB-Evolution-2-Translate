@@ -1,0 +1,16 @@
+{
+  "type": "energizedpower:crystal_growth_chamber",
+  "ingredient": {
+    "count": 4,
+    "ingredient": "geore:osmium_block"
+  },
+  "result": {
+    "percentages": [
+      0.25
+    ],
+    "result": {
+      "id": "geore:budding_osmium"
+    }
+  },
+  "ticks": 32000
+}

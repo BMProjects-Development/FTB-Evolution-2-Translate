@@ -1,0 +1,73 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "gem": "apotheosis:overworld/royalty",
+  "bonuses": [
+    {
+      "type": "apotheosis:all_stats",
+      "attributes": [
+        "minecraft:max_health",
+        "minecraft:knockback_resistance",
+        "minecraft:movement_speed",
+        "minecraft:attack_damage",
+        "minecraft:attack_knockback",
+        "minecraft:attack_speed",
+        "minecraft:block_break_speed",
+        "minecraft:armor",
+        "minecraft:armor_toughness",
+        "minecraft:luck",
+        "minecraft:step_height",
+        "minecraft:block_interaction_range",
+        "minecraft:entity_interaction_range",
+        "apothic_attributes:armor_pierce",
+        "apothic_attributes:armor_shred",
+        "apothic_attributes:arrow_damage",
+        "apothic_attributes:arrow_velocity",
+        "apothic_attributes:cold_damage",
+        "apothic_attributes:crit_chance",
+        "apothic_attributes:crit_damage",
+        "apothic_attributes:current_hp_damage",
+        "apothic_attributes:dodge_chance",
+        "apothic_attributes:experience_gained",
+        "apothic_attributes:fire_damage",
+        "apothic_attributes:ghost_health",
+        "apothic_attributes:healing_received",
+        "apothic_attributes:life_steal",
+        "apothic_attributes:overheal",
+        "apothic_attributes:prot_pierce",
+        "apothic_attributes:prot_shred",
+        "neoforge:swim_speed"
+      ],
+      "gem_class": {
+        "key": "curios",
+        "types": [
+          "apothic_compats:back",
+          "apothic_compats:belt",
+          "apothic_compats:body",
+          "apothic_compats:bracelet",
+          "apothic_compats:charm",
+          "apothic_compats:curio",
+          "apothic_compats:feet",
+          "apothic_compats:hands",
+          "apothic_compats:head",
+          "apothic_compats:necklace",
+          "apothic_compats:ring",
+          "apothic_compats:brooch",
+          "apothic_compats:rune",
+          "apothic_compats:an_focus"
+        ]
+      },
+      "operation": "add_multiplied_base",
+      "values": {
+        "flawed": 0.0025,
+        "normal": 0.0037,
+        "flawless": 0.005,
+        "perfect": 0.0063
+      }
+    }
+  ]
+}

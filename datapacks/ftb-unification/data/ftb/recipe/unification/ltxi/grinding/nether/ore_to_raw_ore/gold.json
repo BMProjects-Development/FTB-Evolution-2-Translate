@@ -1,0 +1,32 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:gold_nether_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "minecraft:raw_gold"
+    },
+    {
+      "count": {
+        "chance": 1.0,
+        "max": 2,
+        "min": 2
+      },
+      "id": "minecraft:raw_gold",
+      "required": false
+    },
+    {
+      "count": {
+        "chance": 0.495,
+        "max": 2,
+        "min": 2
+      },
+      "id": "minecraft:raw_gold",
+      "required": false
+    }
+  ]
+}

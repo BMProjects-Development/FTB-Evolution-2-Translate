@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "ftb:nether_star"
+    }
+  ],
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "neoforge:ingredient_type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "ftb:nether_star"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "chance": 0.05,
+      "item": "mysticalagradditions:nether_star_shard"
+    },
+    {
+      "item": "productivebees:wax"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  id: "37BAC011D926EE4F",
+  order_index: 30,
+  icon: {
+    id: "ironfurnaces:iron_furnace",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "5361BA43585C254B",
+      item: {
+        id: "ironfurnaces:copper_furnace",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "0B68B39F325460DB",
+      item: {
+        id: "ironfurnaces:iron_furnace",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "728F87872578746E",
+      item: {
+        id: "ironfurnaces:augment_blasting",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "0B14B8B3B456BD97",
+      item: {
+        id: "ironfurnaces:augment_smoking",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1A0062402D5B77BF",
+      item: {
+        id: "ironfurnaces:silver_furnace",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5264E5475BBA628F",
+      item: {
+        id: "ironfurnaces:gold_furnace",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "1F7A086FD4A1BFEE",
+      item: {
+        id: "ironfurnaces:augment_speed",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "4E627156116903AE",
+      item: {
+        id: "ironfurnaces:augment_fuel",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5B532D670D6D0E18",
+      item: {
+        id: "ironfurnaces:diamond_furnace",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "49B7564E6D722914",
+      item: {
+        id: "ironfurnaces:emerald_furnace",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0DD216895552D518",
+      item: {
+        id: "ironfurnaces:augment_factory",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5F4568824BE127DD",
+      item: {
+        id: "ironfurnaces:augment_generator",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3D6521411A6E3F74",
+      item: {
+        id: "ironfurnaces:obsidian_furnace",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3BABE75A63D8011D",
+      item: {
+        id: "ironfurnaces:crystal_furnace",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2B553A0CDCB4147D",
+      item: {
+        id: "ironfurnaces:rainbow_coal",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6355205D2312CCB2",
+      item: {
+        id: "ironfurnaces:netherite_furnace",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_furnace",
+    color: 5635925,
+    item_name: "ftbquests.loot_crate.random_furnace",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

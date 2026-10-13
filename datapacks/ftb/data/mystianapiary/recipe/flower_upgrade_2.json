@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:storage_blocks/gold",
+    "#minecraft:flowers",
+    "#c:dusts/redstone"
+  ],
+  "result": {
+    "id": "mystianapiary:flower_upgrade_2",
+    "count": 1
+  }
+}

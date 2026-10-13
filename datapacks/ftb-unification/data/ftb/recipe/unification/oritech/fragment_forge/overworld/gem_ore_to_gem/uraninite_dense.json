@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/uraninite_dense"
+  ],
+  "itemResults": [
+    {
+      "count": 10,
+      "id": "powah:uraninite"
+    }
+  ],
+  "time": 40
+}

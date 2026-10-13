@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "extendedae:ex_pattern_access_part",
+    "#c:ingots/iron"
+  ],
+  "result": {
+    "id": "extendedae:pattern_terminal_upgrade"
+  }
+}

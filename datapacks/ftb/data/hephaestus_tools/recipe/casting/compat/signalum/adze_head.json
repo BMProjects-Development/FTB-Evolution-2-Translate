@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus_tools:adze_head_cast",
+  "cast_consumed": false,
+  "cooling_time": 120,
+  "fluid": {
+    "amount": 180,
+    "id": "hephaestus:molten_signalum"
+  },
+  "result": {
+    "count": 1,
+    "id": "hephaestus_tools:adze_head"
+  }
+}

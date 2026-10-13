@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:tin_shard",
+    "ftbmaterials:tin_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:tin_ingot"
+    }
+  ],
+  "time": 80
+}

@@ -1,0 +1,142 @@
+{
+  "type": "dimresources:laser",
+  "rf_per_tick": 2200,
+  "duration": 300,
+  "laser_level": 12,
+  "planet": "dimresources:crystalore",
+  "outputs": [
+    {
+      "stack": {
+        "count": 1,
+        "id": "mysticalagriculture:prosperity_shard"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "xycraft_world:xychorium_gem_blue"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "xycraft_world:xychorium_gem_green"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "xycraft_world:xychorium_gem_red"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "xycraft_world:xychorium_gem_dark"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "xycraft_world:xychorium_gem_light"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:diamond"
+      },
+      "weight": 40
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "arsmagicalegacy:chimerite"
+      },
+      "weight": 40
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "arsmagicalegacy:sunstone"
+      },
+      "weight": 40
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:quartz"
+      },
+      "weight": 25
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "powah:uraninite"
+      },
+      "weight": 20
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "arsmagicalegacy:moonstone"
+      },
+      "weight": 20
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "nodeworks:celestine_shard"
+      },
+      "weight": 15
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "mysticalagriculture:soulium_dust"
+      },
+      "weight": 15
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:dimensional_shard_gem"
+      },
+      "weight": 12
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:lapis_lazuli"
+      },
+      "weight": 12
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "arsmagicalegacy:topaz"
+      },
+      "weight": 12
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "evilcraft:dark_gem"
+      },
+      "weight": 12
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:emerald"
+      },
+      "weight": 10
+    }
+  ]
+}

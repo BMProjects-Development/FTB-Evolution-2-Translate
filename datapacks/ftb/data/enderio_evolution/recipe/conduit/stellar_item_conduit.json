@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "enderio:conduit_binder",
+    "C": {
+      "neoforge:ingredient_type": "enderio:conduit",
+      "conduit_type": "enderio_evolution:melodic_item_conduit"
+    },
+    "I": "enderio_evolution:stellar_alloy_ingot"
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio_evolution:stellar_item_conduit"
+    },
+    "count": 2,
+    "id": "enderio:conduit"
+  }
+}

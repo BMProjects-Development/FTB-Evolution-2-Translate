@@ -1,0 +1,59 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:tectonic_ingot",
+      "count": 1
+    },
+    {
+      "ingredient": "ftb:arcane_codex",
+      "count": 1
+    },
+    {
+      "ingredient": "justdirethings:time_crystal",
+      "count": 32
+    },
+    {
+      "ingredient": "oritech:tachyon_absorber",
+      "count": 1
+    },
+    {
+      "ingredient": "arsmagicalegacy:moonstone",
+      "count": 8
+    },
+    {
+      "ingredient": "ltxi:nova",
+      "count": 1
+    },
+    {
+      "ingredient": "justdirethings:paradoxmachine",
+      "count": 1
+    },
+    {
+      "ingredient": "minecraft:heavy_core",
+      "count": 1
+    },
+    {
+      "ingredient": "ftbarmory:aeternium_block",
+      "count": 4
+    }
+  ],
+  "fluids": [
+    {
+      "id": "oritech:still_strange_matter",
+      "amount": 16000
+    },
+    {
+      "id": "justdirethings:time_fluid_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:causal_anchor"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 1000000,
+  "stage": "ftb_beast_phase2"
+}

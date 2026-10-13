@@ -1,0 +1,25 @@
+{
+  "ae2:entropy": [
+    {
+      "path": "input/fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "input/fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "output/fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "bonusParameters": {
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "amplifier": {
+          "base": 0.0,
+          "max": 2.0,
+          "scalar": 1.0
+        },
+        "duration": {
+          "base": 120.0,
+          "scalar": 0.0
+        },
+        "effect": "minecraft:strength"
+      },
+      "targetSelf": true
+    },
+    "irons_jewelry:attribute": {
+      "amount": 2.0,
+      "attribute": "minecraft:armor_toughness",
+      "operation": "add_value"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:slowness"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:resistance"
+    }
+  },
+  "descriptionId": "material.irons_jewelry.unobtainium",
+  "ingredient": "#c:ingots/unobtainium",
+  "paletteLocation": "irons_jewelry:palettes/unobtainium",
+  "quality": 2.5
+}

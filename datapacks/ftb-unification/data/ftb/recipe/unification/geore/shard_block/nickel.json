@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:nickel_shard"
+  },
+  "result": {
+    "id": "geore:nickel_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "attack": 1.0,
+  "blinding": true,
+  "flowerTag": "c:storage_blocks/lumium",
+  "particleColor": "#dde8ae",
+  "primaryColor": "#f4ffc3",
+  "secondaryColor": "#804f40",
+  "useGlowLayer": true
+}

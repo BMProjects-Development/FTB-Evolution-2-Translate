@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:platinum_nether_ore",
+  "result": {
+    "id": "ftbmaterials:platinum_raw_ore",
+    "count": 2
+  },
+  "secondary": {
+    "id": "ftbmaterials:platinum_raw_ore",
+    "count": 2
+  },
+  "secondaryChance": 100,
+  "time": 16
+}

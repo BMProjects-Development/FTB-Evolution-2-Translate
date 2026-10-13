@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:redstone_end_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 8,
+        "id": "minecraft:redstone"
+      }
+    },
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 4,
+        "id": "minecraft:redstone"
+      }
+    }
+  ]
+}

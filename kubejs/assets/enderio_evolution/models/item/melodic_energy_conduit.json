@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "enderio_evolution:block/conduit/melodic_energy_conduit",
+    "particle": "enderio_evolution:block/conduit/melodic_energy_conduit"
+  },
+  "elements": [
+    {
+      "from": [2, 2, 2],
+      "to": [14, 14, 14],
+      "faces": {
+        "north": {"uv": [10, 10, 16, 16], "texture": "#0"},
+        "east": {"uv": [10, 10, 16, 16], "texture": "#0"},
+        "south": {"uv": [10, 10, 16, 16], "texture": "#0"},
+        "west": {"uv": [10, 10, 16, 16], "texture": "#0"},
+        "up": {"uv": [10, 10, 16, 16], "texture": "#0"},
+        "down": {"uv": [10, 10, 16, 16], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "scale": [1.1, 1.1, 1.1]
+    }
+  }
+}

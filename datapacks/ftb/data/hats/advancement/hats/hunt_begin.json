@@ -1,0 +1,23 @@
+{
+  "parent": "hats:hats/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "text": "Let The Hunt Begin!"
+    },
+    "description": {
+      "text": "Open the hat menu in Hunting Mode. Time to find some style."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger_from_code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

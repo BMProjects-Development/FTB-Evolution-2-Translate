@@ -1,0 +1,2099 @@
+{
+  id: "26CE87343552E13F",
+  group: "4A2F4752A3C3721A",
+  order_index: 7,
+  icon: {
+    id: "witchery:guidebook",
+    count: 1,
+  },
+  filename: "witchery",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "720DB36A13C6BBDC",
+  quests: [
+    {
+      icon: {
+        id: "witchery:belladonna_seeds",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "720DB36A13C6BBDC",
+      tasks: [
+        {
+          id: "1A4C7E930B62D5F8",
+          type: "item",
+          item: {
+            id: "witchery:belladonna_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "53A4A40C2E0D429F",
+          type: "item",
+          item: {
+            id: "witchery:mandrake_seeds",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4466534069D5EEAE",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "07B324C799BFF881",
+          type: "item",
+          item: {
+            id: "witchery:mandrake_root",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "7E97B33CA36081B8",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:guidebook",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "720DB36A13C6BBDC",
+      ],
+      size: 1.5,
+      id: "74CB218EFCB2185A",
+      tasks: [
+        {
+          id: "476DFB69E59042A7",
+          type: "item",
+          item: {
+            id: "witchery:guidebook",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07C5AB9C1DD1F1DC",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4252E01FDFD03E69",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:cauldron",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "74CB218EFCB2185A",
+      ],
+      size: 1.5,
+      id: "75833FE4473ACD2F",
+      tasks: [
+        {
+          id: "329249CAA612F688",
+          type: "item",
+          icon: {
+            id: "witchery:cauldron",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(ftb:witchery/cauldrons)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2256A6BF7CF71543",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "75FD1F3601063D3A",
+          type: "item",
+          item: {
+            id: "witchery:wood_ash",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "02ABDB950D5CACCA",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:iron_witches_oven",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "75833FE4473ACD2F",
+      ],
+      size: 1.5,
+      id: "47F71E08732A4852",
+      tasks: [
+        {
+          id: "4AE3B34BFEAE32D6",
+          type: "item",
+          icon: {
+            id: "witchery:iron_witches_oven",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(ftb:witchery/witches_ovens)",
+            },
+          },
+        },
+        {
+          id: "20453752ABB4A907",
+          type: "item",
+          item: {
+            id: "witchery:jar",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "03985BB78501955F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0896F76EE97ED634",
+          type: "item",
+          item: {
+            id: "witchery:jar",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "5DEE2B17B67E1516",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:iron_witches_oven_fume_extension",
+        count: 1,
+      },
+      x: 5.5,
+      y: -2.0,
+      dependencies: [
+        "47F71E08732A4852",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "7B33A66F4C09D967",
+      tasks: [
+        {
+          id: "6E08A194E248D650",
+          type: "item",
+          icon: {
+            id: "witchery:iron_witches_oven_fume_extension",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(ftb:witchery/witches_oven_fume_extensions)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64077FF9BD068127",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:deepslate_altar_block",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "2A53B680B919D776",
+      ],
+      size: 1.5,
+      id: "39F2353FFE78EA20",
+      tasks: [
+        {
+          id: "723DDFAAD913DE6B",
+          type: "item",
+          item: {
+            id: "witchery:deepslate_altar_block",
+            count: 1,
+          },
+          count: 6,
+        },
+      ],
+      rewards: [
+        {
+          id: "63382CECE45133BB",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "31E3F14A0ACE633A",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:brew_of_revealing",
+        count: 1,
+      },
+      x: 8.0,
+      y: 2.0,
+      dependencies: [
+        "39F2353FFE78EA20",
+      ],
+      size: 1.0,
+      id: "5BE987F72F75E6B4",
+      tasks: [
+        {
+          id: "23A07A21E62ED24E",
+          type: "item",
+          item: {
+            id: "witchery:brew_of_revealing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31F021B2112B4E69",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "082A457FCB3FD134",
+          type: "item",
+          item: {
+            id: "witchery:jar",
+            count: 1,
+          },
+          random_bonus: 9,
+        },
+        {
+          id: "3F9D27A2972AFEC1",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:happenstance_oil",
+        count: 1,
+      },
+      x: 10.0,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "5BE987F72F75E6B4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3BC3912753C84805",
+      tasks: [
+        {
+          id: "2DB3A5CA2A506B31",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "49401CD1B7BECE77",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:distillery",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      dependencies: [
+        "39F2353FFE78EA20",
+      ],
+      size: 1.0,
+      id: "54C808CC43A93EC0",
+      tasks: [
+        {
+          id: "557A2FEF8E45E929",
+          type: "item",
+          item: {
+            id: "witchery:distillery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "741D7934A4987D4C",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "0FB17C409B01A7BD",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:spinning_wheel",
+        count: 1,
+      },
+      x: 12.0,
+      y: 0.0,
+      dependencies: [
+        "54C808CC43A93EC0",
+      ],
+      size: 1.0,
+      id: "354E14D2455E5317",
+      tasks: [
+        {
+          id: "2C31935DB1C56BFE",
+          type: "item",
+          item: {
+            id: "witchery:spinning_wheel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A557D1B3EDA3B68",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "527C35ECC457E2C9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:mutandis",
+        count: 1,
+      },
+      x: 8.0,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "47F71E08732A4852",
+      ],
+      size: 1.5,
+      id: "2A53B680B919D776",
+      tasks: [
+        {
+          id: "6B0B79AAAB383F5C",
+          type: "item",
+          item: {
+            id: "witchery:mutandis",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50CE48D09C979DCA",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "44D270DD237E7558",
+          type: "item",
+          item: {
+            id: "witchery:mutandis",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 6,
+        },
+        {
+          id: "3B5BB2CC3DF7FDBF",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:mutandis_extremis",
+        count: 1,
+      },
+      x: 8.0,
+      y: -4.5,
+      dependencies: [
+        "2A53B680B919D776",
+      ],
+      size: 1.0,
+      id: "0D831CA92D518208",
+      tasks: [
+        {
+          id: "40C62B2E971A4160",
+          type: "item",
+          item: {
+            id: "witchery:mutandis_extremis",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73F70AA26F0F9A47",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "2E6C4168EEABBFEF",
+          type: "item",
+          item: {
+            id: "witchery:mutandis_extremis",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "45DE6FF5E662520A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:mutating_sprig",
+        count: 1,
+      },
+      x: 10.0,
+      y: -4.5,
+      dependencies: [
+        "0D831CA92D518208",
+      ],
+      size: 1.0,
+      id: "3E8FE865C4FAA360",
+      tasks: [
+        {
+          id: "02B565C8BD645EB3",
+          type: "item",
+          item: {
+            id: "witchery:mutating_sprig",
+            count: 1,
+          },
+        },
+        {
+          id: "5901BF0145C1810A",
+          type: "kill",
+          optional_task: true,
+          entity: "witchery:ent",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1EEDE02132E8905B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "76E405A2A862FA41",
+          type: "item",
+          item: {
+            id: "witchery:ent_twig",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "39A0F4334A06F90E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:grassper",
+        count: 1,
+      },
+      x: 10.0,
+      y: -2.5,
+      dependencies: [
+        "3E8FE865C4FAA360",
+      ],
+      size: 1.0,
+      id: "2CF31599FE4D718C",
+      tasks: [
+        {
+          id: "62AA1D3BC31F95FB",
+          type: "item",
+          item: {
+            id: "witchery:grassper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13F809F62F165DEB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3B756A7DB3104AA4",
+          type: "item",
+          item: {
+            id: "witchery:grassper",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "6717FC35C10A9DE3",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:critter_snare",
+        count: 1,
+      },
+      x: 11.5,
+      y: -4.0,
+      dependencies: [
+        "2CF31599FE4D718C",
+      ],
+      size: 1.0,
+      id: "0E9C90976C66641C",
+      tasks: [
+        {
+          id: "4A3BC16395848148",
+          type: "item",
+          item: {
+            id: "witchery:critter_snare",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BCA31225618A39E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "11FBD3047FB51279",
+          type: "item",
+          item: {
+            id: "witchery:critter_snare",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "249E8240C060A112",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:wormwood",
+        count: 1,
+      },
+      x: 12.0,
+      y: -2.5,
+      dependencies: [
+        "2CF31599FE4D718C",
+      ],
+      size: 1.0,
+      id: "4E0BA295792F02DF",
+      tasks: [
+        {
+          id: "787FA9DA81B4A0A3",
+          type: "item",
+          item: {
+            id: "witchery:wormwood",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "411DDABCCBF14392",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "15D60309226C318F",
+          type: "item",
+          item: {
+            id: "witchery:wispy_cotton",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 2,
+        },
+        {
+          id: "1EEFB92B4F5A01A6",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:ender_bramble",
+        count: 1,
+      },
+      x: 14.0,
+      y: -2.5,
+      dependencies: [
+        "4E0BA295792F02DF",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "62B1F0F9D5F9895A",
+      tasks: [
+        {
+          id: "3103D73E75F078C7",
+          type: "item",
+          item: {
+            id: "witchery:ender_bramble",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D5C724052E46C33",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:taglock",
+        count: 1,
+      },
+      x: 4.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "74CB218EFCB2185A",
+      ],
+      size: 1.5,
+      id: "4BBF3655536142E9",
+      tasks: [
+        {
+          id: "0D2B67D10B69F83A",
+          type: "item",
+          item: {
+            id: "witchery:taglock",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3CCB43D24FDD7F79",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "282CD5A284147727",
+          type: "item",
+          item: {
+            id: "witchery:bone_needle",
+            count: 1,
+          },
+          count: 5,
+          random_bonus: 5,
+        },
+        {
+          id: "17610190291255B7",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:waystone",
+        count: 1,
+      },
+      x: 4.0,
+      y: 4.0,
+      dependencies: [
+        "4BBF3655536142E9",
+      ],
+      size: 1.0,
+      id: "1289B963EA711CAD",
+      tasks: [
+        {
+          id: "6FC44C28F7366A68",
+          type: "item",
+          item: {
+            id: "witchery:waystone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1870889D025C98E7",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "63F52ACF3E47235F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:poppet",
+        count: 1,
+      },
+      x: 6.0,
+      y: 2.0,
+      dependencies: [
+        "4BBF3655536142E9",
+        "39F2353FFE78EA20",
+      ],
+      size: 1.0,
+      id: "44B05983766D847B",
+      tasks: [
+        {
+          id: "254B0A4FA827A496",
+          type: "item",
+          item: {
+            id: "witchery:poppet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18F1C4B7619B518B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3A8C973357BEA4A5",
+          type: "item",
+          item: {
+            id: "witchery:spanish_moss",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "5797503319FB98F4",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:death_protection_poppet",
+        count: 1,
+      },
+      x: 8.0,
+      y: 4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "44B05983766D847B",
+        "54C808CC43A93EC0",
+        "0D831CA92D518208",
+      ],
+      size: 1.0,
+      id: "69A98E479FA0D905",
+      tasks: [
+        {
+          id: "468F9A988027CF9C",
+          type: "item",
+          item: {
+            id: "witchery:death_protection_poppet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "545B527C11D72C95",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+        {
+          id: "61EE7769C4492C6F",
+          type: "item",
+          item: {
+            id: "witchery:drop_of_luck",
+            count: 1,
+          },
+        },
+        {
+          id: "0105B60B0ECD2E12",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:voodoo_poppet",
+        count: 1,
+      },
+      x: 7.0,
+      y: 4.0,
+      dependencies: [
+        "44B05983766D847B",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "129860E2C9082F1C",
+      tasks: [
+        {
+          id: "11BBAA4CAC488CA0",
+          type: "item",
+          item: {
+            id: "witchery:voodoo_poppet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "170FE6122486C1CE",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "7F0B2F19927C860A",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:vampiric_poppet",
+        count: 1,
+      },
+      x: 6.0,
+      y: 4.0,
+      dependencies: [
+        "44B05983766D847B",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0D1C211E62DB361A",
+      tasks: [
+        {
+          id: "10D173D002E18292",
+          type: "item",
+          item: {
+            id: "witchery:vampiric_poppet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F0E68A09C23BF99",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "1962BD82D37C5463",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:ritual_chalk",
+        count: 1,
+      },
+      x: 14.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "354E14D2455E5317",
+      ],
+      size: 1.5,
+      id: "58BC157CB468BAD7",
+      tasks: [
+        {
+          id: "2E072308D0DE18AA",
+          type: "item",
+          item: {
+            id: "witchery:ritual_chalk",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E1EB649EC1C08A6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "09EBD92346F825C0",
+          type: "item",
+          item: {
+            id: "witchery:ritual_chalk",
+            count: 1,
+          },
+        },
+        {
+          id: "155146B8FDD26C7A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:golden_ritual_chalk",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      dependencies: [
+        "58BC157CB468BAD7",
+      ],
+      size: 1.0,
+      id: "59F9E4D81168E7B6",
+      tasks: [
+        {
+          id: "078CA1D2618A1FB6",
+          type: "item",
+          item: {
+            id: "witchery:golden_ritual_chalk",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47912014E62AE775",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "317586062079DC88",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:coven_contract",
+        count: 1,
+      },
+      x: 14.0,
+      y: 2.0,
+      dependencies: [
+        "58BC157CB468BAD7",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "77FAC5980E0A7A5D",
+      tasks: [
+        {
+          id: "3A441346D8608911",
+          type: "item",
+          item: {
+            id: "witchery:coven_contract",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58C71345061AA095",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:brazier",
+        count: 1,
+      },
+      x: 21.5,
+      y: 0.0,
+      dependencies: [
+        "2AAC5AE4E1520348",
+      ],
+      size: 1.0,
+      id: "21812817F84A52D1",
+      tasks: [
+        {
+          id: "36B7DC4E867890B9",
+          type: "item",
+          item: {
+            id: "witchery:brazier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11627CC9A9354E02",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6707B15CD0C445A8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:bloodstone_pendant",
+        count: 1,
+      },
+      x: 23.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "21812817F84A52D1",
+      ],
+      size: 1.5,
+      optional: true,
+      id: "659C0BF1D4150E50",
+      tasks: [
+        {
+          id: "40AB12B87C3F2E93",
+          type: "item",
+          item: {
+            id: "witchery:blood_crucible",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "192C1D2DA26BAD52",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:moon_charm",
+        count: 1,
+      },
+      x: 23.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "21812817F84A52D1",
+      ],
+      size: 1.5,
+      optional: true,
+      id: "29656D8C06B7A2F7",
+      tasks: [
+        {
+          id: "207A27B4053EC2ED",
+          type: "item",
+          item: {
+            id: "witchery:moon_charm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47A132C3C7B6F9B1",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "29EC73CD95C87583",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:brew_of_sleeping",
+        count: 1,
+      },
+      x: 23.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "21812817F84A52D1",
+      ],
+      size: 1.5,
+      optional: true,
+      id: "07C62222A3914CD9",
+      tasks: [
+        {
+          id: "2AC141FFC2C180D3",
+          type: "item",
+          item: {
+            id: "witchery:brew_of_sleeping",
+            count: 1,
+          },
+        },
+        {
+          id: "2074A8893E9D94A8",
+          type: "dimension",
+          dimension: "witchery:dream_world",
+        },
+        {
+          id: "3DDBB279736D310C",
+          type: "dimension",
+          dimension: "witchery:nightmare_world",
+        },
+      ],
+      rewards: [
+        {
+          id: "7162E2F565DEBA8D",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+        {
+          id: "5A45AE0701D10AB7",
+          type: "item",
+          item: {
+            id: "witchery:wispy_cotton",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "62F3A14959FE7000",
+          type: "item",
+          item: {
+            id: "witchery:disturbed_cotton",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "3597F35548B085F9",
+          type: "xp",
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:tarot_deck",
+        count: 1,
+      },
+      x: 17.5,
+      y: -1.5,
+      dependencies: [
+        "59F9E4D81168E7B6",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "17FAD6B414738DC2",
+      tasks: [
+        {
+          id: "590328A0E3FCB3AF",
+          type: "item",
+          item: {
+            id: "witchery:tarot_deck",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7748E6FD28107B8F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:necromantic_stone",
+        count: 1,
+      },
+      x: 20.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "59F9E4D81168E7B6",
+        "4D2974A8DC0256BA",
+      ],
+      size: 1.5,
+      id: "2AAC5AE4E1520348",
+      tasks: [
+        {
+          id: "3E3886AF536D4D49",
+          type: "item",
+          item: {
+            id: "witchery:necromantic_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FDF18FDF807C8AB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "131FEB978C8993BB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:necromantic_soulbind",
+        count: 1,
+      },
+      x: 20.0,
+      y: 6.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2AAC5AE4E1520348",
+      ],
+      hide_until_deps_complete: true,
+      size: 2.0,
+      optional: true,
+      id: "36038380E0C3F405",
+      tasks: [
+        {
+          id: "76FE7C13CC7CCDB7",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:necromantic_soulbind",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EE6273DB0EF1953",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "50B512FB2158FF46",
+          type: "item",
+          item: {
+            id: "minecraft:totem_of_undying",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:witches_hand",
+        count: 1,
+      },
+      x: 21.5,
+      y: 4.5,
+      dependencies: [
+        "36038380E0C3F405",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "43D715B893372DC6",
+      tasks: [
+        {
+          id: "7979CC5D1332CE3C",
+          type: "item",
+          item: {
+            id: "witchery:witches_hand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6416CAB62911E406",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "59EC808F1DB374EB",
+          type: "xp",
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:ancient_tablet",
+        count: 1,
+      },
+      x: 21.5,
+      y: 7.5,
+      dependencies: [
+        "36038380E0C3F405",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "511C982980D29F6B",
+      tasks: [
+        {
+          id: "23053105A5CEA741",
+          type: "advancement",
+          icon: {
+            id: "witchery_forbidden_magic:ancient_tablet",
+            count: 1,
+          },
+          advancement: "witchery:necro/2",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "02F995E2092EBD2C",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "0452A7308F6CA3E6",
+          type: "xp",
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:soul_cage",
+        count: 1,
+      },
+      x: 23.0,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "43D715B893372DC6",
+        "511C982980D29F6B",
+      ],
+      size: 1.5,
+      optional: true,
+      id: "3A6004A6F9AA8A10",
+      tasks: [
+        {
+          id: "596AE248E0C0BB3C",
+          type: "advancement",
+          icon: {
+            id: "witchery_forbidden_magic:soul_cage",
+            count: 1,
+          },
+          advancement: "witchery:soul",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "319FBBE902E22C51",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:zombie_head",
+        count: 1,
+      },
+      x: 25.0,
+      y: 6.0,
+      dependencies: [
+        "3A6004A6F9AA8A10",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "59429D6ED1EBF212",
+      tasks: [
+        {
+          id: "21C294004DC52F4E",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "45F63D68E3DE98E5",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      x: 27.0,
+      y: 6.0,
+      dependencies: [
+        "59429D6ED1EBF212",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "34FC6EDF6C1D4200",
+      tasks: [
+        {
+          id: "57B5F9A76FCB6A34",
+          type: "advancement",
+          icon: {
+            id: "witchery_forbidden_magic:ancient_tablet",
+            count: 1,
+          },
+          advancement: "witchery:necro/3",
+          criterion: "",
+        },
+        {
+          id: "047E9B680F0B859C",
+          type: "kill",
+          icon: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+          entity: "minecraft:wither",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1B20D02CF06913F6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:phylactery",
+        count: 1,
+      },
+      x: 29.0,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "34FC6EDF6C1D4200",
+      ],
+      size: 1.5,
+      optional: true,
+      id: "24ACDC2BB0A27070",
+      tasks: [
+        {
+          id: "2CCA016A76895907",
+          type: "advancement",
+          icon: {
+            id: "witchery_forbidden_magic:ancient_tablet",
+            count: 1,
+          },
+          advancement: "witchery:necro/4",
+          criterion: "",
+        },
+        {
+          id: "0DCB50AFF0356E68",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:phylactery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "424C03E4DAB6C107",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:soul_in_a_bottle",
+        count: 1,
+      },
+      x: 31.5,
+      y: 6.0,
+      shape: "diamond",
+      dependencies: [
+        "24ACDC2BB0A27070",
+      ],
+      size: 2.0,
+      optional: true,
+      id: "44AFF4B7385115C5",
+      tasks: [
+        {
+          id: "0A28B8D826C2365E",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:soul_in_a_bottle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A58B0C0C6823388",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:lifeblood",
+        count: 1,
+      },
+      x: 24.5,
+      y: 4.5,
+      dependencies: [
+        "3A6004A6F9AA8A10",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0C9BBC137D055B80",
+      tasks: [
+        {
+          id: "48EA7718FFF61DBD",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:lifeblood",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "661238DBD8416433",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:soulstone_pendant",
+        count: 1,
+      },
+      x: 26.5,
+      y: 4.5,
+      dependencies: [
+        "0C9BBC137D055B80",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "52B5ABFD7DA5E75A",
+      tasks: [
+        {
+          id: "0D7E604BFBEF210E",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:soulstone_pendant",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65B9CD73602DDB4B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:brew_of_soul_severance",
+        count: 1,
+      },
+      x: 24.5,
+      y: 7.5,
+      dependencies: [
+        "3A6004A6F9AA8A10",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "22D3C16250EAAB17",
+      tasks: [
+        {
+          id: "00CB6D7AD144C214",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:brew_of_soul_severance",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E44026828DC2C07",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery_forbidden_magic:petrification_contract",
+        count: 1,
+      },
+      x: 26.5,
+      y: 7.5,
+      dependencies: [
+        "22D3C16250EAAB17",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "25B6E92B02340718",
+      tasks: [
+        {
+          id: "543AC8C835CEBAAF",
+          type: "item",
+          item: {
+            id: "witchery_forbidden_magic:petrification_contract",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "779C4ACC7108E08D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:arthana",
+        count: 1,
+      },
+      x: 18.0,
+      y: 0.0,
+      dependencies: [
+        "59F9E4D81168E7B6",
+      ],
+      size: 1.0,
+      id: "4D2974A8DC0256BA",
+      tasks: [
+        {
+          id: "41D327CECD5B6CCA",
+          type: "item",
+          item: {
+            id: "witchery:arthana",
+            count: 1,
+          },
+        },
+        {
+          id: "66F109009CB53332",
+          type: "item",
+          item: {
+            id: "witchery:spectral_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1930D46264A43362",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1D1FF0B07F01A37E",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:infernal_chalk",
+        count: 1,
+      },
+      x: 16.0,
+      y: -2.0,
+      dependencies: [
+        "59F9E4D81168E7B6",
+      ],
+      size: 1.0,
+      id: "5B9A6795C7A9747A",
+      tasks: [
+        {
+          id: "07BEAA0E13DCA0EE",
+          type: "item",
+          item: {
+            id: "witchery:infernal_chalk",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "225B6A4950498A06",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2EF1562471F06D8C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:refined_evil",
+        count: 1,
+      },
+      x: 16.0,
+      y: -4.0,
+      dependencies: [
+        "5B9A6795C7A9747A",
+      ],
+      size: 1.0,
+      id: "5459984CD8A172E5",
+      tasks: [
+        {
+          id: "461302422FB475DF",
+          type: "item",
+          item: {
+            id: "witchery:refined_evil",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:demon_heart",
+        count: 1,
+      },
+      x: 16.0,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "5459984CD8A172E5",
+      ],
+      size: 1.5,
+      id: "7F82D5208B9CB9C9",
+      tasks: [
+        {
+          id: "773BEB51840C147E",
+          type: "kill",
+          entity: "witchery:demon",
+          value: 1,
+        },
+        {
+          id: "7360F33E86660650",
+          type: "item",
+          item: {
+            id: "witchery:demon_heart",
+            count: 1,
+          },
+        },
+        {
+          id: "732899B058D54F3F",
+          type: "item",
+          item: {
+            id: "witchery:demons_blood",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CAB918AEF8AA60C",
+          type: "currency",
+          team_reward: false,
+          amount: 40,
+        },
+        {
+          id: "6D7A2B5D30656169",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: -3.8,
+      y: 0.0,
+      width: 3.8,
+      height: 3.8,
+      rotation: -30.0,
+      image: "witchery:block/blood_stained_wool",
+      id: "6DC8D76D66351A17",
+    },
+    {
+      x: -3.8,
+      y: 0.0,
+      width: 1.9,
+      height: 1.9,
+      rotation: 0.0,
+      image: "witchery:item/guidebook",
+      order: 3,
+      id: "6682E62008B14EDB",
+    },
+    {
+      x: -3.2,
+      y: -5.15,
+      width: 2.6,
+      height: 2.6,
+      rotation: 18.0,
+      image: "witchery:item/arthana",
+      id: "24E4F1FB0D954B6F",
+    },
+    {
+      x: -3.2,
+      y: 4.4,
+      width: 1.95,
+      height: 1.95,
+      rotation: -22.0,
+      image: "witchery:item/mandrake_root",
+      id: "170E25E39BE8F3DC",
+    },
+    {
+      x: 4.5,
+      y: -5.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 14.0,
+      image: "witchery:item/belladonna_flower",
+      id: "2B70C4E18D5A6390",
+    },
+    {
+      x: 12.5,
+      y: 2.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: -12.0,
+      image: "witchery:item/ritual_chalk",
+      id: "3C81D5F29E6B74A1",
+    },
+    {
+      x: 19.0,
+      y: -4.5,
+      width: 2.6,
+      height: 2.6,
+      rotation: 10.0,
+      image: "witchery:item/tarot_deck",
+      id: "2A7584EC5964F6BA",
+    },
+    {
+      x: 20.0,
+      y: 3.0,
+      width: 6.3,
+      height: 0.7,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/witchery_forbidden_magic_title.png",
+      id: "48B76FF625054191",
+    },
+    {
+      x: 25.0,
+      y: -3.0,
+      width: 1.95,
+      height: 1.95,
+      rotation: 12.0,
+      image: "witchery_forbidden_magic:item/necromantic_soulbind",
+      id: "674B879B0DA6E7CD",
+    },
+    {
+      x: 13.5,
+      y: -5.0,
+      width: 1.95,
+      height: 1.95,
+      rotation: -12.0,
+      image: "witchery_forbidden_magic:item/soul_in_a_bottle",
+      id: "46CC13DB7B44E374",
+    },
+    {
+      x: 20.0,
+      y: 6.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/witchery_forbidden_magic_logo.png",
+      dependency: "2AAC5AE4E1520348",
+      id: "7638479432274644",
+    },
+    {
+      x: 29.5,
+      y: 3.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 14.0,
+      image: "minecraft:item/totem_of_undying",
+      dependency: "2AAC5AE4E1520348",
+      id: "2D29C353FF3F254A",
+    },
+    {
+      x: 29.5,
+      y: 9.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: -14.0,
+      image: "witchery:item/necromantic_stone",
+      dependency: "2AAC5AE4E1520348",
+      id: "702F446247EAEC5D",
+    },
+  ],
+}

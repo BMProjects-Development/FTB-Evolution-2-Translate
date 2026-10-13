@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus_tools:tough_binding_cast",
+  "cast_consumed": false,
+  "cooling_time": 140,
+  "fluid": {
+    "amount": 270,
+    "id": "hephaestus:molten_signalum"
+  },
+  "result": {
+    "count": 1,
+    "id": "hephaestus_tools:tough_binding"
+  }
+}

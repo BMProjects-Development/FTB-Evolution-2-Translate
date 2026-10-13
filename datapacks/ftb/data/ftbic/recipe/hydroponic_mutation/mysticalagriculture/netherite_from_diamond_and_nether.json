@@ -1,0 +1,26 @@
+{
+  "type": "ftbic:hydroponic_mutation",
+  "input_fluids": [
+    {
+      "amount": 500,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "mysticalagriculture:diamond_seeds"
+    },
+    {
+      "ingredient": "mysticalagriculture:nether_seeds"
+    }
+  ],
+  "outputs": [
+    {
+      "chance": 0.12,
+      "item": {
+        "id": "mysticalagriculture:netherite_seeds"
+      }
+    }
+  ],
+  "processing_time": 6.0
+}

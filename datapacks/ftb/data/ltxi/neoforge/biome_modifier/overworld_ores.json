@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#ftb:no_ore_gen",
+  "features": [
+    "ltxi:peridotite_ore",
+    "ltxi:titanium_ore"
+  ],
+  "step": "underground_ores"
+}

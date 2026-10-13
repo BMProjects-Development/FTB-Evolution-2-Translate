@@ -1,0 +1,26 @@
+#Modpack Configuration Settings
+["Custom server in multiplayer Screen"]
+	#Name of the server
+	"Server Name" = ""
+	#IP of the server
+	"Server IP" = ""
+
+["Check if the modpack has any updates available"]
+	#Check if the modpack has any updates available, default = false
+	"Update Checker" = false
+	#Project ID for the modpack, found on curse forge
+	"Project ID" = 0
+
+["Misc Modpack Settings"]
+	#Modpack name shown in /modpack
+	"Modpack name" = ""
+	#Version of the modpack shown in /modpack
+	"Modpack Version" = ""
+	#Add a URL to link your discord, BBL Discord = https://discord.gg/benbenlaw
+	"Discord URL" = ""
+	#Set the horizon height, default = 0.0, if in skyblock modpacks set to -64.0
+	"Horizon Height" = 0.0
+	#If enabled, players will be teleported to their spawn point if they fall into the void, default = false
+	"Enable Void Protection" = false
+	#Speed that blocks in the bblcore:climbable_blocks tag can be climbed, default = 0.15
+	"Climbable Block Speed" = 0.15

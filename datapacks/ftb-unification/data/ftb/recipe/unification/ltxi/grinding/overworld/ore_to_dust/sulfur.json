@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/sulfur"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:sulfur_dust"
+    },
+    {
+      "count": {
+        "chance": 0.5,
+        "max": 2,
+        "min": 2
+      },
+      "id": "ftbmaterials:sulfur_dust",
+      "required": false
+    }
+  ]
+}

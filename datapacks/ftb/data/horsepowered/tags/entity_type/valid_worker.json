@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "minecraft:allay",
+    "easy_npc:villager",
+    "easy_npc:humanoid",
+    "easy_npc:humanoid_slim"
+  ]
+}

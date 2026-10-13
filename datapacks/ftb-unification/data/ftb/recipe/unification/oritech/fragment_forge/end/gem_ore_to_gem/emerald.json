@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:emerald_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "minecraft:emerald"
+    }
+  ],
+  "time": 40
+}

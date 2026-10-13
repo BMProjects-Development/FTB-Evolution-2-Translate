@@ -1,0 +1,62 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "type": "apotheosis:attribute",
+  "attribute": "apothic_attributes:life_steal",
+  "categories": [
+    "apothic_compats:back",
+    "apothic_compats:belt",
+    "apothic_compats:body",
+    "apothic_compats:bracelet",
+    "apothic_compats:charm",
+    "apothic_compats:curio",
+    "apothic_compats:feet",
+    "apothic_compats:hands",
+    "apothic_compats:head",
+    "apothic_compats:necklace",
+    "apothic_compats:ring",
+    "apothic_compats:brooch",
+    "apothic_compats:rune",
+    "apothic_compats:an_focus"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 25
+    }
+  },
+  "operation": "add_value",
+  "values": {
+    "apotheosis:uncommon": {
+      "min": 0.0075,
+      "max": 0.015,
+      "step": 0.0075
+    },
+    "apotheosis:rare": {
+      "min": 0.015,
+      "max": 0.0225,
+      "step": 0.0075
+    },
+    "apotheosis:epic": {
+      "min": 0.0225,
+      "max": 0.03,
+      "step": 0.0075
+    },
+    "apotheosis:mythic": {
+      "min": 0.03,
+      "max": 0.0375,
+      "step": 0.0075
+    },
+    "ftbarmory:exalted": {
+      "min": 0.0354,
+      "max": 0.0425,
+      "step": 0.0071
+    }
+  }
+}

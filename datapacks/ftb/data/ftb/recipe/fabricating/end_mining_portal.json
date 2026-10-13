@@ -1,0 +1,17 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "minecraft:end_stone", "count": 8 },
+    { "ingredient": "minecraft:diamond_pickaxe", "count": 1 },
+    { "ingredient": "minecraft:echo_shard", "count": 8 }
+  ],
+  "fluids": [
+    { "id": "justdirethings:unstable_portal_fluid_source", "amount": 10000 }
+  ],
+  "results": [
+    { "id": "jamd:end_portal" }
+  ],
+  "ticks": 800,
+  "energy_per_tick": 10000,
+  "stage": "skyline3_unlocked"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/lead"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/boron"
+    }
+  ],
+  "result": {
+    "id": "colossal_reactors:tough_alloy_ingot",
+    "count": 3
+  },
+  "ticks": 480
+}

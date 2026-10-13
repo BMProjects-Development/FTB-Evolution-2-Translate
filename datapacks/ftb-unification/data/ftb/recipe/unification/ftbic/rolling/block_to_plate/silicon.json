@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:rolling",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:silicon_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:silicon_plate",
+        "count": 9
+      }
+    }
+  ]
+}

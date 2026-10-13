@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ftbic:nickel_deepslate_ore",
+    "ftbic:nickel_stone_ore",
+    "ftbmaterials:nickel_deepslate_ore",
+    "ftbmaterials:nickel_stone_ore",
+    "oritech:deepslate_nickel_ore",
+    "oritech:nickel_ore"
+  ]
+}

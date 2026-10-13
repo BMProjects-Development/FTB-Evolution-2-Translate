@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "stellaris:raw_desh_block",
+  "result": {
+    "id": "stellaris:desh_block"
+  },
+  "experience": 9.0,
+  "cookingtime": 900
+}

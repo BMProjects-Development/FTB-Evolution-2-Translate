@@ -1,0 +1,13 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/xychorium_light",
+  "result": {
+    "count": 2,
+    "id": "xycraft_world:xychorium_gem_light"
+  },
+  "secondary": {
+    "id": "xycraft_world:xychorium_gem_light"
+  },
+  "secondaryChance": 25,
+  "time": 16
+}

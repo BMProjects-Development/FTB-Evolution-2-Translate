@@ -1,0 +1,18 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "stellaris:raw_novite",
+  "result": {
+    "percentages": [
+      1.0,
+      0.5
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "result": {
+      "id": "ftbmaterials:novite_dust"
+    }
+  }
+}

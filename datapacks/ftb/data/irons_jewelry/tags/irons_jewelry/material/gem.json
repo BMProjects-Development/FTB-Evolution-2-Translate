@@ -1,0 +1,117 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "irons_spellbooks:divine_pearl",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:black_quartz",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:celestigem",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:clay",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:cognitive_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:diamatine",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:dimensional_shard",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:emeradic_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:fluix",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:fluxite",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:fused_consciousness",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:insanium_gemstone",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:mnemonic_fragment",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:nitro_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:palis",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:prismarine",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:pulsating_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:source_gem",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:time_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:tiny_chaos_fragment",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:void_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:dark_gem",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:flawless_prismarine",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:spiritus_crystal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:spiritus_invictus",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:spiritus_nihilum",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:spiritus_ruina",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:spiritus_vindicta",
+      "required": false
+    }
+  ]
+}

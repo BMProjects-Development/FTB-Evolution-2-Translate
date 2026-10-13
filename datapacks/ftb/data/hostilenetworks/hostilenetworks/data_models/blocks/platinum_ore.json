@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "oritech:deepslate_platinum_ore",
+  "variants": [
+    "oritech:endstone_platinum_ore",
+    "ftbmaterials:platinum_stone_ore",
+    "ftbmaterials:platinum_deepslate_ore",
+    "ftbmaterials:platinum_nether_ore",
+    "ftbmaterials:platinum_end_ore"
+  ],
+  "name_color": "#B8C5CC",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.platinum_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:platinum_raw_ore",
+      "count": 12
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

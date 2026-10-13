@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": "#c:ores/uraninite_dense",
+  "result": {
+    "count": 1,
+    "id": "powah:uraninite"
+  }
+}

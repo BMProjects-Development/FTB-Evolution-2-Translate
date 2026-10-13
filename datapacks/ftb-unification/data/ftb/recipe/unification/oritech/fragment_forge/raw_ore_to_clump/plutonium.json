@@ -1,0 +1,16 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:raw_materials/plutonium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:plutonium_clump"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:plutonium_tiny_dust"
+    }
+  ],
+  "time": 40
+}

@@ -1,0 +1,4 @@
+#This this enables or disables this mod.
+CleanView = true
+#Adds the red vignette aroud your screen if you are near to the boarder.
+BoarderVignette = true

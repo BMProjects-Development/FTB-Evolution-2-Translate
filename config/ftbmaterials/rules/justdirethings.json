@@ -1,0 +1,18 @@
+{
+  "justdirethings:goospread": [
+    {
+      "path": "input/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "input/tag",
+      "action": {
+        "field": "id",
+        "output_value": "<item_tag_map>"
+      }
+    }
+  ]
+}

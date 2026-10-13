@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ores/nickel",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_nickel"
+  },
+  "temperature": 1000,
+  "time": 150
+}

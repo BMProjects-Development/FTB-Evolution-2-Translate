@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:cobblestones"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ftb:allay_trades/after_cobble"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "descriptionId": "ftb.irons.material.dark_gem",
+  "ingredient": "evilcraft:dark_gem",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/dark_gem",
+  "quality": 2.0,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:life_steal",
+      "operation": "add_value",
+      "amount": 0.02
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:night_vision"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:blindness"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "amplifier": {
+          "base": 0.0,
+          "max": 1.0,
+          "scalar": 0.5
+        },
+        "duration": {
+          "base": 60.0,
+          "scalar": 0.0
+        },
+        "effect": "minecraft:wither"
+      },
+      "targetSelf": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "thaumaturge:ingot_thaumium",
+    "P": "refinedstorage:basic_processor",
+    "R": "minecraft:gold_block",
+    "S": "refinedtypes:64k_essentia_storage_part"
+  },
+  "pattern": [
+    "PEP",
+    "SRS",
+    "PSP"
+  ],
+  "result": {
+    "id": "refinedtypes:256k_essentia_storage_part"
+  }
+}

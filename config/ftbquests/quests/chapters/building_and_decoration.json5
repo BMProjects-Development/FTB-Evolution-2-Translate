@@ -1,0 +1,1391 @@
+{
+  id: "7432AECD4F04EA05",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 2,
+  icon: {
+    id: "minecraft:stonecutter",
+    count: 1,
+  },
+  filename: "building_and_decoration",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "377E6E387004CA7E",
+  quests: [
+    {
+      icon: {
+        id: "minecraft:stonecutter",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "377E6E387004CA7E",
+      tasks: [
+        {
+          id: "2513F20E05CE676D",
+          type: "item",
+          item: {
+            id: "minecraft:stonecutter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E181910DE3BFF3A",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "5C14A7E87B7C7473",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "chisel:chisel_iron",
+        count: 1,
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.5,
+      id: "1CBCDBA892A21481",
+      tasks: [
+        {
+          id: "575442B006482AD9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(chisel:chisel_iron)item(chisel:chisel_diamond)item(chisel:chisel_obsidian))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E5FB28F3B3DE9F1",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "623BAD89C403A096",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "chisel:auto_chisel",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      dependencies: [
+        "1CBCDBA892A21481",
+      ],
+      size: 1.0,
+      id: "2030D1D78E2AA7DE",
+      tasks: [
+        {
+          id: "443BC586B0D6BEE5",
+          type: "item",
+          item: {
+            id: "chisel:auto_chisel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15BF704B394350F1",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1AD9C9176C924543",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "framedblocks:framed_hammer",
+        count: 1,
+      },
+      x: 0.0,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.5,
+      id: "29FE9DA4102EBB42",
+      tasks: [
+        {
+          id: "7F8AABC8C6A2C67C",
+          type: "item",
+          item: {
+            id: "framedblocks:framed_hammer",
+            count: 1,
+          },
+        },
+        {
+          id: "11CD2E5A85F40732",
+          type: "item",
+          item: {
+            id: "framedblocks:framed_cube",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "124EB01B65DB5991",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7C58EED737EC2FBD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "framedblocks:framing_saw",
+        count: 1,
+      },
+      x: 0.0,
+      y: 5.0,
+      dependencies: [
+        "29FE9DA4102EBB42",
+      ],
+      size: 1.0,
+      id: "1EEA91FF83950090",
+      tasks: [
+        {
+          id: "1E389A4DF1A5AF40",
+          type: "item",
+          item: {
+            id: "framedblocks:framing_saw",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20AE18BDDB6028EE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "20F4304D50258C76",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "architectural_building_wand:redstone_building_wand",
+        count: 1,
+      },
+      x: 3.5,
+      y: 1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "22BB5B95E316458D",
+      tasks: [
+        {
+          id: "6C0C2A7BD4A9E7E0",
+          type: "item",
+          item: {
+            id: "architectural_building_wand:redstone_building_wand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B00F30C1D54A7A6",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "betterblockz:blockz_core_blockz_0",
+        count: 1,
+      },
+      x: 0.0,
+      y: -3.5,
+      shape: "hexagon",
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.5,
+      id: "6D8E5365B422735D",
+      tasks: [
+        {
+          id: "4923B6CB88897839",
+          type: "item",
+          item: {
+            id: "betterblockz:blockz_core_blockz_0",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7467333A065AC666",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4862CC82917C4BFD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "decorz:cyber_light_white_panel",
+        count: 1,
+      },
+      x: 0.5,
+      y: -5.0,
+      dependencies: [
+        "6D8E5365B422735D",
+      ],
+      size: 1.0,
+      id: "7F55F51B79B150FB",
+      tasks: [
+        {
+          id: "6FF543A1DF9F92BE",
+          type: "item",
+          item: {
+            id: "decorz:cyber_light_white_panel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35EAA09456BDCADB",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "16B6CFE34313D54E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "decorativewoodenlattices:oak_lattice_001",
+        count: 1,
+      },
+      x: -0.5,
+      y: -5.0,
+      dependencies: [
+        "6D8E5365B422735D",
+      ],
+      size: 1.0,
+      id: "3774C5D696778FF4",
+      tasks: [
+        {
+          id: "713D4C432FC96DC3",
+          type: "item",
+          item: {
+            id: "decorativewoodenlattices:oak_lattice_001",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6536E8ECE7DA6F59",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6A40A5EE0958D5E3",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwroofs:oak_roof",
+        count: 1,
+      },
+      x: 2.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.5,
+      id: "23B44ACF78688229",
+      tasks: [
+        {
+          id: "5A499724DE2DA754",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "745FE6E3FAC27958",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwroofs:roofing_hammer",
+        count: 1,
+      },
+      x: 2.5,
+      y: -4.0,
+      dependencies: [
+        "23B44ACF78688229",
+      ],
+      size: 1.0,
+      id: "1914278B9065D883",
+      tasks: [
+        {
+          id: "6E2CA654A77B5B49",
+          type: "item",
+          item: {
+            id: "mcwroofs:roofing_hammer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C29D813BC3CB56A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "26A66EC7E51715F6",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwwindows:oak_window",
+        count: 1,
+      },
+      x: 4.5,
+      y: -4.5,
+      dependencies: [
+        "23B44ACF78688229",
+      ],
+      size: 1.0,
+      id: "4676483E1F4B7CA5",
+      tasks: [
+        {
+          id: "2D4A24A1006FBEA4",
+          type: "item",
+          item: {
+            id: "mcwwindows:window_base",
+            count: 1,
+          },
+        },
+        {
+          id: "72BC3CF612254F43",
+          type: "item",
+          item: {
+            id: "mcwwindows:hammer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "730CE143E8B55622",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4BCBA9043F806768",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwdoors:oak_barn_door",
+        count: 1,
+      },
+      x: 3.5,
+      y: -3.5,
+      dependencies: [
+        "23B44ACF78688229",
+      ],
+      size: 1.0,
+      id: "607211F8C680B88A",
+      tasks: [
+        {
+          id: "7BA48E82E28F38BD",
+          type: "item",
+          item: {
+            id: "mcwdoors:print_oak",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28E838739C58600E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7CFF0371BE01E7AC",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwpaths:andesite_diamond_paving",
+        count: 1,
+      },
+      x: 4.0,
+      y: -2.5,
+      dependencies: [
+        "23B44ACF78688229",
+      ],
+      size: 1.0,
+      id: "3F05300BC56B409C",
+      tasks: [
+        {
+          id: "65C768C13B258758",
+          type: "item",
+          item: {
+            id: "mcwpaths:andesite_diamond_paving",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "191794FE0D8C18C4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "75BD33C74D4F4268",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwbridges:rope_oak_bridge",
+        count: 1,
+      },
+      x: 3.5,
+      y: -5.0,
+      dependencies: [
+        "23B44ACF78688229",
+      ],
+      size: 1.0,
+      id: "12A77A3CB31A42F4",
+      tasks: [
+        {
+          id: "4AB8BD3241D46B65",
+          type: "item",
+          item: {
+            id: "mcwbridges:pliers",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B9D8CDDA661EC8B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "30569A0E86032DFD",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mcwlights:tavern_lantern",
+        count: 1,
+      },
+      x: 5.0,
+      y: -3.5,
+      dependencies: [
+        "23B44ACF78688229",
+      ],
+      size: 1.0,
+      id: "45979A90BFA03AA6",
+      tasks: [
+        {
+          id: "26C8CCC3A844241C",
+          type: "item",
+          item: {
+            id: "mcwlights:tavern_lantern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "560F90F1F4F4667C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1D0C9267B2E5F3CF",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "glassential:glass_ethereal",
+        count: 1,
+      },
+      x: -2.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.5,
+      id: "6AECB7C2DF87D34F",
+      tasks: [
+        {
+          id: "66E3EB26035CF5DB",
+          type: "item",
+          item: {
+            id: "glassential:glass_ethereal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14004535917BBCF7",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "732F174B8E9AFE39",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "glassential:glass_light",
+        count: 1,
+      },
+      x: -4.0,
+      y: -2.5,
+      dependencies: [
+        "6AECB7C2DF87D34F",
+      ],
+      size: 1.0,
+      id: "4307A169AF52A267",
+      tasks: [
+        {
+          id: "310ED959C3BF03F0",
+          type: "item",
+          item: {
+            id: "glassential:glass_light",
+            count: 1,
+          },
+        },
+        {
+          id: "183E2F0BDEB5D487",
+          type: "item",
+          item: {
+            id: "glassential:glass_redstone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25FB8E8EB721E0DF",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "546237B2CB34ACF5",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "glassential:one_way_glass",
+        count: 1,
+      },
+      x: -4.5,
+      y: -3.5,
+      dependencies: [
+        "6AECB7C2DF87D34F",
+      ],
+      size: 1.0,
+      id: "493D3F41AFD2AF3F",
+      tasks: [
+        {
+          id: "73A588417F71BDEC",
+          type: "item",
+          item: {
+            id: "glassential:one_way_glass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17DF4797C33F70A7",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "28B9C2FFE85503EA",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "glassential:glass_painter",
+        count: 1,
+      },
+      x: -3.5,
+      y: -4.5,
+      dependencies: [
+        "6AECB7C2DF87D34F",
+      ],
+      size: 1.0,
+      id: "34EE10F62A7C95EA",
+      tasks: [
+        {
+          id: "240DEB1EDA3294D6",
+          type: "item",
+          item: {
+            id: "glassential:glass_painter",
+            count: 1,
+          },
+        },
+        {
+          id: "48CCBD81C09CC3FA",
+          type: "item",
+          item: {
+            id: "glassential:colorable_glass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "392544400B64A303",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1510833AA7766C5B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "connectedglass:borderless_glass",
+        count: 1,
+      },
+      x: -2.5,
+      y: -4.0,
+      dependencies: [
+        "6AECB7C2DF87D34F",
+      ],
+      size: 1.0,
+      id: "23BAF609BE4D464F",
+      tasks: [
+        {
+          id: "7A8FED1DE35FE18A",
+          type: "item",
+          item: {
+            id: "connectedglass:borderless_glass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "788F2AE0164FF1A7",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "303846D95777F7C5",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "crystalix:crystalix_glass",
+        count: 1,
+      },
+      x: -3.5,
+      y: -3.5,
+      dependencies: [
+        "6AECB7C2DF87D34F",
+      ],
+      size: 1.0,
+      id: "5A1DA2B60986EAF9",
+      tasks: [
+        {
+          id: "6E160FE614F4FF7A",
+          type: "item",
+          item: {
+            id: "crystalix:crystalix_glass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E49522F1E32968D",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "3C407841FFCEA94C",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "crystalix:crystalix_wand",
+        count: 1,
+      },
+      x: -4.5,
+      y: -4.5,
+      dependencies: [
+        "5A1DA2B60986EAF9",
+      ],
+      size: 1.0,
+      id: "672FEF37D5F5783C",
+      tasks: [
+        {
+          id: "6584DA57B783CB16",
+          type: "item",
+          item: {
+            id: "crystalix:crystalix_wand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DDF4324698E227C",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "62A2C571A08B850B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "malisisdoorsreborn:door_factory",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.0,
+      id: "1EF4458125E12666",
+      tasks: [
+        {
+          id: "2DFD92F3AB8E1DBF",
+          type: "item",
+          item: {
+            id: "malisisdoorsreborn:door_factory",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BD8E82B125442FE",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2AF206593F699C6C",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "malisisswitchesreborn:power_linker",
+        count: 1,
+      },
+      x: 2.5,
+      y: 3.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.0,
+      id: "6E0B8B406E7D94CA",
+      tasks: [
+        {
+          id: "7D03064587DB21BE",
+          type: "item",
+          item: {
+            id: "malisisswitchesreborn:power_linker",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F6048D4FC7E8C72",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7471BC4811FA6985",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "holosigns:glass_sign",
+        count: 1,
+      },
+      x: 1.5,
+      y: 3.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.0,
+      id: "3C9556B5DA05C0CE",
+      tasks: [
+        {
+          id: "5BBD3C808C7A1140",
+          type: "item",
+          item: {
+            id: "holosigns:glass_sign",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5817F6BB7E90129B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "67DE19F4515C62B7",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:flower_pot",
+        count: 1,
+      },
+      x: 3.5,
+      y: 2.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.0,
+      id: "3C3703F7BC1BE459",
+      tasks: [
+        {
+          id: "618B8CA7D0BBF431",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6C8053BF0C0B2811",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "comforts:sleeping_bag_red",
+        count: 1,
+      },
+      x: -3.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.5,
+      id: "66FD982E02F0014A",
+      tasks: [
+        {
+          id: "6700672FB0E2B3E3",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(comforts:sleeping_bags)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5ACBFA0FBAE98098",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4472D995646EEE18",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "comforts:hammock_white",
+        count: 1,
+      },
+      x: -5.0,
+      y: 0.0,
+      dependencies: [
+        "66FD982E02F0014A",
+      ],
+      size: 1.0,
+      id: "7ED0B679AA8D8F35",
+      tasks: [
+        {
+          id: "793C551966C65C0A",
+          type: "item",
+          item: {
+            id: "comforts:rope_and_nail",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "19CEA73CCF4221E2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(comforts:hammocks)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DBB5CB4BFA13CEF",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2D082BBD855BA649",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "betterfishtanks:fish_bag_item",
+        count: 1,
+      },
+      x: -3.5,
+      y: 1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "377E6E387004CA7E",
+      ],
+      size: 1.0,
+      id: "1749497FC966AEFB",
+      tasks: [
+        {
+          id: "36CD4808021A6A6F",
+          type: "item",
+          item: {
+            id: "betterfishtanks:fish_bag_item",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DA42BA5365FC309",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "51EF156002F981B6",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "betterfishtanks:fish_tank_block",
+        count: 1,
+      },
+      x: -3.5,
+      y: 2.5,
+      shape: "rsquare",
+      dependencies: [
+        "1749497FC966AEFB",
+      ],
+      size: 1.0,
+      id: "1F9D424E8172A112",
+      tasks: [
+        {
+          id: "7906D162F0E2024A",
+          type: "item",
+          item: {
+            id: "betterfishtanks:fish_tank_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D4261F6EB2627F5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5121FD34882729EC",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "betterfishtanks:aquarist_table",
+        count: 1,
+      },
+      x: -2.5,
+      y: 2.5,
+      shape: "rsquare",
+      dependencies: [
+        "1F9D424E8172A112",
+      ],
+      size: 1.0,
+      id: "5D61821B89B22271",
+      tasks: [
+        {
+          id: "262607AF04142DD5",
+          type: "item",
+          item: {
+            id: "betterfishtanks:aquarist_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3124ECA958ECEA5F",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "187FF27454799484",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "3EFAC6FC58219F86",
+      x: -1.5,
+      y: 3.5,
+      shape: "rsquare",
+      id: "69D8920537BDCA40",
+    },
+    {
+      linked_quest: "6CB85481E967E81A",
+      x: -2.5,
+      y: 3.5,
+      shape: "rsquare",
+      id: "4334D8314335CDB7",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 45.0,
+      image: "minecraft:block/chiseled_stone_bricks",
+      id: "36285395168EA6CF",
+    },
+    {
+      x: 0.0,
+      y: -7.0,
+      width: 9.6,
+      height: 0.81,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/building_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "377E6E387004CA7E",
+      },
+      id: "5B136D903419A4B7",
+    },
+    {
+      x: 1.5,
+      y: 1.0,
+      width: 0.9,
+      height: 0.9,
+      rotation: 0.0,
+      image: "framedblocks:item/framed_hammer",
+      id: "6B80C475C19F9B41",
+    },
+    {
+      x: 9.0,
+      y: 2.0,
+      width: 0.9,
+      height: 0.9,
+      rotation: 0.0,
+      image: "holosigns:item/glass_sign",
+      id: "459D5ADE23BB1065",
+    },
+    {
+      x: -1.5,
+      y: 1.0,
+      width: 0.9,
+      height: 0.9,
+      rotation: 0.0,
+      image: "comforts:item/sleeping_bag_red",
+      id: "6B13B9142321CBCB",
+    },
+    {
+      x: -1.5,
+      y: -1.0,
+      width: 0.9,
+      height: 0.9,
+      rotation: 0.0,
+      image: "glassential:item/glass_painter",
+      id: "1EA994B75434C6C0",
+    },
+    {
+      x: 11.0,
+      y: -0.5,
+      width: 0.9,
+      height: 0.9,
+      rotation: 0.0,
+      image: "mcwroofs:item/roofing_hammer",
+      id: "731450B1B8AD1EB2",
+    },
+    {
+      x: 1.5,
+      y: -1.0,
+      width: 0.9,
+      height: 0.9,
+      rotation: 0.0,
+      image: "chisel:item/chisel_iron",
+      id: "5C7603B815DE496F",
+    },
+    {
+      x: 11.5,
+      y: -6.0,
+      width: 2.6,
+      height: 1.24,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/building_macaws_roofs.png",
+      id: "7FEB9921FAF74122",
+    },
+    {
+      x: 9.0,
+      y: -3.0,
+      width: 1.8,
+      height: 1.8,
+      rotation: 45.0,
+      image: "ftb:textures/quests/titles_and_logos/building_framedblocks.png",
+      id: "1385C9B8A3606884",
+    },
+    {
+      x: -6.0,
+      y: -3.0,
+      width: 1.6,
+      height: 1.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/building_connectedglass.png",
+      id: "22A8D480C2996290",
+    },
+    {
+      x: 5.0,
+      y: 9.0,
+      width: 1.8,
+      height: 1.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/building_fishtanks.png",
+      id: "56C6C87EFA431604",
+    },
+    {
+      x: -5.5,
+      y: 5.0,
+      width: 2.55,
+      height: 2.55,
+      rotation: 45.0,
+      image: "betterblockz:block/hazard_blockz_0",
+      id: "67ACB440A4FB4FFE",
+    },
+    {
+      x: 6.0,
+      y: 4.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 0.0,
+      image: "malisisdoorsreborn:block/door_factory",
+      id: "6DAB6F2893933207",
+    },
+  ],
+}

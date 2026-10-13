@@ -1,0 +1,2928 @@
+{
+  id: "366003AD7B6B722C",
+  group: "4A2F4752A3C3721A",
+  order_index: 4,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "occultism:item/advancement/beholder_icon",
+    },
+  },
+  filename: "occultism",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "10F792474C01A594",
+  quests: [
+    {
+      icon: {
+        id: "occultism:datura_seeds",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "square",
+      size: 2.0,
+      id: "10F792474C01A594",
+      tasks: [
+        {
+          id: "0BC92579596D0BF0",
+          type: "item",
+          item: {
+            id: "occultism:datura_seeds",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "484EE5F850108C72",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "58D5D69295E70FA8",
+          type: "item",
+          item: {
+            id: "occultism:dictionary_of_spirits",
+            count: 1,
+            components: {
+              "modonomicon:book_id": "occultism:dictionary_of_spirits",
+            },
+          },
+        },
+        {
+          id: "5622C66FD041F5BC",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:datura",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      dependencies: [
+        "10F792474C01A594",
+      ],
+      size: 1.0,
+      id: "4E90956E9A3ADAC9",
+      tasks: [
+        {
+          id: "17BA3B9EDDCFB1FE",
+          type: "item",
+          item: {
+            id: "occultism:datura",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4F9E1ED66002B69B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "51F0C3997EF499DD",
+          type: "item",
+          item: {
+            id: "occultism:datura",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "5C3191FC7F65A7A9",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:spirit_fire",
+        count: 1,
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "4E90956E9A3ADAC9",
+      ],
+      size: 1.0,
+      id: "76323B3FF4F17A2B",
+      tasks: [
+        {
+          id: "183FEFA2AEF46058",
+          type: "observation",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "occultism:block/spirit_fire_0",
+            },
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "occultism:spirit_fire",
+        },
+      ],
+      rewards: [
+        {
+          id: "2A78FF6986FB9F71",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "0686102F96378E08",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:divination_rod",
+        count: 1,
+      },
+      x: 6.5,
+      y: -1.5,
+      shape: "octagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0D0892AD0DB44795",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 350,
+      id: "0A63C6F9B76293DB",
+      tasks: [
+        {
+          id: "6AFDB993FDAAC25B",
+          type: "item",
+          item: {
+            id: "occultism:divination_rod",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10169CBB8EC0B1DF",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:block/otherworld_sapling",
+        },
+      },
+      x: 2.0,
+      y: 1.5,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "4E90956E9A3ADAC9",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "465A950126ABF758",
+      tasks: [
+        {
+          id: "45E409BCABAACDB1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7734B174C89CAB26",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 6.5,
+      y: 1.5,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3830D82DFA731ABA",
+      ],
+      size: 1.0,
+      id: "633843210DE84A0D",
+      tasks: [
+        {
+          id: "2E079C677B170563",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "16AA036B197150E7",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:book_of_binding_empty",
+        count: 1,
+      },
+      x: 5.0,
+      y: 1.5,
+      dependencies: [
+        "76323B3FF4F17A2B",
+      ],
+      size: 1.0,
+      id: "62BB8F93956480BA",
+      tasks: [
+        {
+          id: "37C21BBDA45D09C8",
+          type: "item",
+          item: {
+            id: "occultism:book_of_binding_empty",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4937C41F81C87357",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0B33AC1ED12AE4ED",
+          type: "item",
+          item: {
+            id: "minecraft:writable_book",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "589993E2618C8B23",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:golden_sacrificial_bowl",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "3830D82DFA731ABA",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "3031334952FA6DCC",
+      tasks: [
+        {
+          id: "28DC00FA31DE8AB6",
+          type: "item",
+          item: {
+            id: "occultism:sacrificial_bowl",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "06C1EF6F388BE142",
+          type: "item",
+          item: {
+            id: "occultism:golden_sacrificial_bowl",
+            count: 1,
+          },
+        },
+        {
+          id: "2657647D4CF31BBA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C193B9C0EF83BD9",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7F25D91FC669BE83",
+          type: "item",
+          item: {
+            id: "occultism:sacrificial_bowl",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "4C4D240C1DC0676A",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:textures/gui/book/familiar.png",
+        },
+      },
+      x: 15.5,
+      y: 6.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "4DB0A34E6C46B0B8",
+      ],
+      size: 2.0,
+      id: "6338A56F731A5F25",
+      tasks: [
+        {
+          id: "5BE8C72BDBCC78CE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1C3CF3D859AF47E0",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:textures/gui/book/possession.png",
+        },
+      },
+      x: 15.5,
+      y: 3.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "4113BA0BADB486F0",
+      ],
+      size: 2.0,
+      id: "0EBEF0B2D2F13C3D",
+      tasks: [
+        {
+          id: "6B0602266368826B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7B96A6D4F57D410E",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:textures/gui/book/infusion.png",
+        },
+      },
+      x: 15.5,
+      y: -3.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "4113BA0BADB486F0",
+      ],
+      size: 2.0,
+      id: "51D07B8762C46982",
+      tasks: [
+        {
+          id: "4F725B8E1BB9B8D1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "31C960D5ABB26290",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:textures/gui/book/summoning.png",
+        },
+      },
+      x: 15.5,
+      y: -6.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "782A8F5006E367E0",
+      ],
+      size: 2.0,
+      id: "6137DE875E13EF72",
+      tasks: [
+        {
+          id: "34F38A214F5DEFC3",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "737F46AA7123AC9A",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_controller_base",
+        count: 1,
+      },
+      x: 17.0,
+      y: -5.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "32E0A399AFBE3099",
+      ],
+      size: 1.5,
+      id: "3BCB8667CCEBAE57",
+      tasks: [
+        {
+          id: "50A7FB14A0508D90",
+          type: "item",
+          item: {
+            id: "occultism:storage_controller_base",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C83F1C6127E5813",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "039FB715B5AAF233",
+          type: "item",
+          item: {
+            id: "occultism:storage_controller_base",
+            count: 1,
+          },
+        },
+        {
+          id: "50236D4605675D33",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:miner_ancient_eldritch",
+        count: 1,
+      },
+      x: 37.0,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "4C9473D2E4149656",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4CDCFE544B72E6C4",
+      tasks: [
+        {
+          id: "4963A4FFAF035A65",
+          type: "item",
+          item: {
+            id: "occultism:miner_ancient_eldritch",
+            count: 1,
+            components: {
+              "occultism:max_mining_time": 15,
+              "occultism:rolls_per_operation": 1,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7734A2A05AD40D03",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "3FA8C83EF3712033",
+          type: "item",
+          item: {
+            id: "occultism:mining_dim_core",
+            count: 1,
+          },
+        },
+        {
+          id: "6C23B95CE07BD69E",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 7529627429444840816,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:eldritch_chalice",
+        count: 1,
+      },
+      x: 39.5,
+      y: 0.0,
+      shape: "none",
+      dependencies: [
+        "4C9473D2E4149656",
+      ],
+      size: 5.0,
+      icon_scale: 2.0,
+      hide_lock_icon: true,
+      id: "63516E977D8BC7C4",
+      tasks: [
+        {
+          id: "0CD8B43E19FAA756",
+          type: "item",
+          item: {
+            id: "occultism:eldritch_chalice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40E50722F10AAC7E",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "773C7F5A4C0F719A",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 7529627429444840816,
+        },
+        {
+          id: "1D3859FB1ADAE5E5",
+          type: "xp",
+          team_reward: false,
+          xp: 500,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_rainbow",
+        count: 1,
+      },
+      x: 36.0,
+      y: -1.5,
+      shape: "square",
+      dependencies: [
+        "4C9473D2E4149656",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4B4DFB318CE36DAE",
+      tasks: [
+        {
+          id: "0CFA739C354E4E8F",
+          type: "item",
+          item: {
+            id: "occultism:chalk_rainbow",
+            count: 1,
+          },
+        },
+        {
+          id: "577DA4A65FE8F59B",
+          type: "item",
+          item: {
+            id: "occultism:chalk_void",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72CAD890AC4B3B99",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "490D4212EF265CB7",
+          type: "item",
+          item: {
+            id: "minecraft:parrot_spawn_egg",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:trinity_gem",
+        count: 1,
+      },
+      x: 36.0,
+      y: 1.5,
+      shape: "square",
+      dependencies: [
+        "4C9473D2E4149656",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3FB2A1A98B36234F",
+      tasks: [
+        {
+          id: "51A6F2324100813C",
+          type: "item",
+          item: {
+            id: "occultism:trinity_gem",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "688D3FA91704FCB1",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "6C74C6DBFA6AEBFC",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 7529627429444840816,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_white",
+        count: 1,
+      },
+      x: 6.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "10E3AB8F0B7B9F30",
+        "50F2EDF92D289869",
+        "62BB8F93956480BA",
+        "0D0892AD0DB44795",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "3830D82DFA731ABA",
+      tasks: [
+        {
+          id: "104BF5D2B1265E42",
+          type: "item",
+          item: {
+            id: "occultism:chalk_white_impure",
+            count: 1,
+          },
+        },
+        {
+          id: "1413D3CA26969B83",
+          type: "item",
+          item: {
+            id: "occultism:chalk_white",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DC0C93202640DF9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6197B79F283641C3",
+          type: "item",
+          item: {
+            id: "occultism:brush",
+            count: 1,
+          },
+        },
+        {
+          id: "0DB5C3E8E7353D99",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_black",
+        count: 1,
+      },
+      x: 28.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "23B06AB674CC7193",
+      ],
+      size: 2.0,
+      icon_scale: 1.25,
+      id: "0733AB66BFEB220E",
+      tasks: [
+        {
+          id: "2E3FF0CE7917E6AD",
+          type: "item",
+          item: {
+            id: "occultism:witherite_dust",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "6A4F20EEA55A3003",
+          type: "item",
+          item: {
+            id: "occultism:chalk_black",
+            count: 1,
+          },
+        },
+        {
+          id: "4F5B19C4CE59D14D",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13FF006C84084181",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "09F062539DBBCE30",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "749B60023DAC4176",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_purple",
+        count: 1,
+      },
+      x: 15.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4113BA0BADB486F0",
+      ],
+      size: 2.0,
+      icon_scale: 1.25,
+      id: "016E959A387A1E03",
+      tasks: [
+        {
+          id: "3796C602A75AF46B",
+          type: "item",
+          item: {
+            id: "occultism:chalk_purple",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1586F4334F407F1C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6A1B095DEC76AFA6",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_lime",
+        count: 1,
+      },
+      x: 18.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "32E0A399AFBE3099",
+      ],
+      size: 2.0,
+      icon_scale: 1.25,
+      id: "6E07405D08CCC2D4",
+      tasks: [
+        {
+          id: "771E4DEDAC06F542",
+          type: "item",
+          item: {
+            id: "occultism:chalk_lime",
+            count: 1,
+          },
+        },
+        {
+          id: "6315C7854C14EC59",
+          type: "item",
+          item: {
+            id: "occultism:chalk_light_gray",
+            count: 1,
+          },
+        },
+        {
+          id: "5DF9A9A04979CEE8",
+          type: "item",
+          item: {
+            id: "minecraft:skeleton_skull",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CF44CD4FAB08113",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0759685C91996AB4",
+          type: "item",
+          item: {
+            id: "minecraft:skeleton_skull",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "034F27A9B6C54823",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_orange",
+        count: 1,
+      },
+      x: 21.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4FD0504ADB98E0C0",
+        "081F9BFA0347582F",
+      ],
+      size: 2.0,
+      icon_scale: 1.25,
+      id: "0017F48E23512C75",
+      tasks: [
+        {
+          id: "4E8870F8911582FA",
+          type: "item",
+          item: {
+            id: "occultism:chalk_orange",
+            count: 1,
+          },
+        },
+        {
+          id: "224DB43D99CAFB3F",
+          type: "item",
+          item: {
+            id: "occultism:chalk_gray",
+            count: 1,
+          },
+        },
+        {
+          id: "315AAC7AA5709151",
+          type: "item",
+          item: {
+            id: "occultism:spirit_attuned_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C0C0BB3617EA2D3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "228E07A112D460FF",
+          type: "item",
+          item: {
+            id: "occultism:spirit_attuned_crystal",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "0EA3560AC288875F",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_red",
+        count: 1,
+      },
+      x: 24.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0C24D8CD961D86B2",
+      ],
+      size: 2.0,
+      icon_scale: 1.25,
+      id: "2F0C6EA5380AA661",
+      tasks: [
+        {
+          id: "2D7586BD9A42680C",
+          type: "item",
+          item: {
+            id: "occultism:chalk_red",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6017C9B94F9C4DE8",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "76A2FA772689690A",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/familiar_drikwing",
+        count: 1,
+      },
+      x: 17.5,
+      y: 5.0,
+      shape: "square",
+      dependencies: [
+        "0EBEF0B2D2F13C3D",
+        "6338A56F731A5F25",
+      ],
+      size: 1.5,
+      id: "4F7B94DCD4B52CE4",
+      tasks: [
+        {
+          id: "3C308BEEE3895C69",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2492F1DAAAAC965D",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/craft_dimensional_matrix",
+        count: 1,
+      },
+      x: 17.0,
+      y: 0.0,
+      dependencies: [
+        "016E959A387A1E03",
+      ],
+      size: 1.0,
+      id: "32E0A399AFBE3099",
+      tasks: [
+        {
+          id: "73321E3B3F365163",
+          type: "item",
+          item: {
+            id: "occultism:research_fragment_dust",
+            count: 1,
+          },
+        },
+        {
+          id: "384F6CB8C36C544F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "occultism:ritual_dummy/craft_research_fragment_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B881ED974B1F9BE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "41667CE307AA834B",
+          type: "item",
+          item: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "1D144FA7F6198745",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/summon_djinni_crusher",
+        count: 1,
+      },
+      x: 21.5,
+      y: 2.25,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6E07405D08CCC2D4",
+      ],
+      size: 1.0,
+      id: "5F0AAD028931A220",
+      tasks: [
+        {
+          id: "41685895FDFE2D3B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "301956E2B80AB95B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/possess_enderman",
+        count: 1,
+      },
+      x: 20.25,
+      y: 5.0,
+      shape: "square",
+      dependencies: [
+        "4F7B94DCD4B52CE4",
+      ],
+      size: 1.5,
+      id: "013375F170CE6A2F",
+      tasks: [
+        {
+          id: "72D916898EED9BF4",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2A59595324A9E5CE",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/repair_chalks",
+        count: 1,
+      },
+      x: 20.0,
+      y: -2.0,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6E07405D08CCC2D4",
+      ],
+      size: 1.0,
+      id: "4FD0504ADB98E0C0",
+      tasks: [
+        {
+          id: "1D13D516425A8FDE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7FD4D3E894B33C7E",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/repair_chalks",
+        count: 1,
+      },
+      x: 26.25,
+      y: -0.75,
+      shape: "square",
+      dependencies: [
+        "2F0C6EA5380AA661",
+      ],
+      size: 1.0,
+      id: "23B06AB674CC7193",
+      tasks: [
+        {
+          id: "5A4A1F326C2F75BC",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "63B793CBD4C218C8",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:demonic_meat",
+        count: 1,
+      },
+      x: 23.0,
+      y: 5.0,
+      shape: "rsquare",
+      hide_dependency_lines: false,
+      dependencies: [
+        "013375F170CE6A2F",
+      ],
+      size: 1.5,
+      id: "53B7A49C8138D3B0",
+      tasks: [
+        {
+          id: "7A9D7FFEF219BA64",
+          type: "item",
+          item: {
+            id: "occultism:demonic_meat",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CBF0FBF5B461277",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5F3A7C2668057C39",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/summon_afrit_crusher",
+        count: 1,
+      },
+      x: 26.25,
+      y: 0.75,
+      shape: "square",
+      hide_dependent_lines: true,
+      dependencies: [
+        "2F0C6EA5380AA661",
+      ],
+      size: 1.0,
+      id: "7E909792A1E7CFD1",
+      tasks: [
+        {
+          id: "6A2D276566E902AD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1517A16670094B31",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/summon_marid_crusher",
+        count: 1,
+      },
+      x: 32.75,
+      y: 1.5,
+      shape: "square",
+      hide_dependent_lines: true,
+      dependencies: [
+        "1DCCF9A58A557282",
+      ],
+      size: 1.0,
+      id: "1A3C52B662D8237B",
+      tasks: [
+        {
+          id: "53A96A871A0DB011",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "17D05587D06BBF96",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:cruelty_essence",
+        count: 1,
+      },
+      x: 32.75,
+      y: 3.75,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "1DCCF9A58A557282",
+      ],
+      size: 1.0,
+      id: "38D3BE7AF6792B8D",
+      tasks: [
+        {
+          id: "0B3158F809FEEEE6",
+          type: "item",
+          item: {
+            id: "occultism:cruelty_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54B6E76B191CE14E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "06FE222B067747E3",
+          type: "item",
+          item: {
+            id: "occultism:cruelty_essence",
+            count: 1,
+          },
+        },
+        {
+          id: "239090C982D17C0B",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/repair_chalks",
+        count: 1,
+      },
+      x: 32.75,
+      y: -1.5,
+      shape: "square",
+      hide_dependency_lines: false,
+      hide_dependent_lines: true,
+      dependencies: [
+        "1DCCF9A58A557282",
+      ],
+      size: 1.0,
+      id: "4A63B415FED7E777",
+      tasks: [
+        {
+          id: "373810705E9367E4",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "290C20DC7B138FA1",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_blue",
+        count: 1,
+      },
+      x: 31.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "3964E9A95D52B0FD",
+      ],
+      size: 2.0,
+      icon_scale: 1.25,
+      id: "1DCCF9A58A557282",
+      tasks: [
+        {
+          id: "39742FAC5A02C917",
+          type: "item",
+          item: {
+            id: "occultism:chalk_blue",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5586FBD52EEDE6E3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0D058B20CED4A6FE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_green",
+        count: 1,
+      },
+      x: 26.0,
+      y: 6.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "1CAA9A2F7F3EDAD3",
+      ],
+      size: 1.0,
+      id: "1CD21F10064581B4",
+      tasks: [
+        {
+          id: "7606AE5A93F38C74",
+          type: "item",
+          item: {
+            id: "occultism:chalk_green",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "07685B5EA229858B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "173DFEEFAB17F3B3",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_light_blue",
+        count: 1,
+      },
+      x: 26.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "5F0AAD028931A220",
+      ],
+      size: 1.0,
+      id: "5D5D0878275558BC",
+      tasks: [
+        {
+          id: "18028C150DA769D3",
+          type: "item",
+          item: {
+            id: "occultism:chalk_light_blue",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "529BEBB9634ED173",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "70CE009B65F1C150",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_pink",
+        count: 1,
+      },
+      x: 25.5,
+      y: 5.0,
+      shape: "hexagon",
+      dependencies: [
+        "53B7A49C8138D3B0",
+      ],
+      size: 1.0,
+      id: "1CAA9A2F7F3EDAD3",
+      tasks: [
+        {
+          id: "4769FDB62B4C583A",
+          type: "item",
+          item: {
+            id: "occultism:chalk_pink",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27CFB47A3390D2D7",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7D86F00180DDCA45",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_brown",
+        count: 1,
+      },
+      x: 35.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "38D3BE7AF6792B8D",
+      ],
+      size: 1.0,
+      id: "43BF1E0CE33F8BB7",
+      tasks: [
+        {
+          id: "48FB07292F725224",
+          type: "item",
+          item: {
+            id: "occultism:chalk_brown_impure",
+            count: 1,
+          },
+        },
+        {
+          id: "2377F223D4F57790",
+          type: "item",
+          item: {
+            id: "occultism:chalk_brown",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31EFFA8B8AF4B51C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7A40DF1D08BA56A2",
+          type: "item",
+          item: {
+            id: "occultism:cruelty_essence",
+            count: 1,
+          },
+        },
+        {
+          id: "3BBDE85D852099A0",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_magenta",
+        count: 1,
+      },
+      x: 35.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "4A63B415FED7E777",
+      ],
+      size: 1.0,
+      id: "337838FB759E4377",
+      tasks: [
+        {
+          id: "3B42072BEC6993A1",
+          type: "item",
+          item: {
+            id: "occultism:chalk_magenta_impure",
+            count: 1,
+          },
+        },
+        {
+          id: "54F8C6F5E5D693C0",
+          type: "item",
+          item: {
+            id: "occultism:chalk_magenta",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B0CC9BDF635C5DE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2E9E6B5B3BDF6236",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:chalk_cyan",
+        count: 1,
+      },
+      x: 34.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4A63B415FED7E777",
+      ],
+      size: 1.0,
+      id: "504EEAA75990C78C",
+      tasks: [
+        {
+          id: "13CFFC7E6B3CFF6B",
+          type: "item",
+          item: {
+            id: "occultism:chalk_cyan_impure",
+            count: 1,
+          },
+        },
+        {
+          id: "5E95B985000E49C4",
+          type: "item",
+          item: {
+            id: "occultism:chalk_cyan",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05723456D7589AFE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1D9B301D3FFFF86B",
+          type: "item",
+          item: {
+            id: "occultism:echo_dust",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "171062C7BE46CAF5",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:item/pentacle",
+        },
+      },
+      x: 12.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "42B887FC6D9FE211",
+      ],
+      size: 3.0,
+      icon_scale: 1.25,
+      min_width: 300,
+      id: "4113BA0BADB486F0",
+      tasks: [
+        {
+          id: "54EB6D0B709EFC9A",
+          type: "item",
+          item: {
+            id: "occultism:crushed_end_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "333C6EF0DC1B393B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0C6175867E550DEB",
+          type: "item",
+          item: {
+            id: "occultism:chalk_white_impure",
+            count: 1,
+          },
+        },
+        {
+          id: "50F876104B0EE332",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 13.5,
+      y: -2.0,
+      shape: "gear",
+      dependencies: [
+        "4113BA0BADB486F0",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "782A8F5006E367E0",
+      tasks: [
+        {
+          id: "67A22BBA4C91522B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "01C82E7EC37BD564",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 13.5,
+      y: 2.0,
+      shape: "gear",
+      dependencies: [
+        "4113BA0BADB486F0",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4DB0A34E6C46B0B8",
+      tasks: [
+        {
+          id: "3F405FB146055F6D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "04D98A28A75DECE7",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_stabilizer_tier1",
+        count: 1,
+      },
+      x: 18.5,
+      y: -5.0,
+      dependencies: [
+        "3BCB8667CCEBAE57",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "68A9006D2FE4A38D",
+      tasks: [
+        {
+          id: "577EF032B259FBA4",
+          type: "item",
+          item: {
+            id: "occultism:storage_stabilizer_tier1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61C0FD04387FBC29",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2E86D61C581E41C0",
+          type: "item",
+          item: {
+            id: "occultism:storage_stabilizer_tier1",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_stabilizer_tier2",
+        count: 1,
+      },
+      x: 21.0,
+      y: -5.0,
+      dependencies: [
+        "68A9006D2FE4A38D",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "65EB766D0445C1A6",
+      tasks: [
+        {
+          id: "44DE0D8CBF2813B4",
+          type: "item",
+          item: {
+            id: "occultism:storage_stabilizer_tier2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03EB4AA407767CF5",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_stabilizer_tier3",
+        count: 1,
+      },
+      x: 24.5,
+      y: -5.0,
+      dependencies: [
+        "65EB766D0445C1A6",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "28493A960B770451",
+      tasks: [
+        {
+          id: "5818ED752C740CC7",
+          type: "item",
+          item: {
+            id: "occultism:storage_stabilizer_tier3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75A5824C5722753D",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_stabilizer_tier4",
+        count: 1,
+      },
+      x: 28.5,
+      y: -5.0,
+      hide_dependent_lines: true,
+      dependencies: [
+        "28493A960B770451",
+        "4A63B415FED7E777",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "349143B50076A759",
+      tasks: [
+        {
+          id: "63F59107DF22A6D2",
+          type: "item",
+          item: {
+            id: "occultism:storage_stabilizer_tier4",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62279E99DD92C44A",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:stable_wormhole",
+        count: 1,
+      },
+      x: 18.0,
+      y: -6.0,
+      dependencies: [
+        "3BCB8667CCEBAE57",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3AF598F0517B7BA6",
+      tasks: [
+        {
+          id: "5EDBA308D11F5380",
+          type: "item",
+          item: {
+            id: "occultism:stable_wormhole",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B83347BF3854ACC",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 18.0,
+      y: -4.0,
+      shape: "gear",
+      dependencies: [
+        "3BCB8667CCEBAE57",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1F09A28387DA18A6",
+      tasks: [
+        {
+          id: "45CC5A8334951331",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "687B2A838F54D603",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:cursed_honey",
+        count: 1,
+      },
+      x: 20.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "6E07405D08CCC2D4",
+      ],
+      size: 1.0,
+      id: "081F9BFA0347582F",
+      tasks: [
+        {
+          id: "5FF587056FB1EBE1",
+          type: "item",
+          item: {
+            id: "occultism:cursed_honey",
+            count: 1,
+          },
+        },
+        {
+          id: "08719C324E10F055",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "occultism:ritual_dummy/possess_bee",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16FE3ECF85A86E4D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "058712706EDA1C46",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/wild_hunt",
+        count: 1,
+      },
+      x: 27.0,
+      y: 5.0,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "1CD21F10064581B4",
+        "1CAA9A2F7F3EDAD3",
+        "5D5D0878275558BC",
+      ],
+      size: 1.5,
+      id: "10E8E47BEFCA8F97",
+      tasks: [
+        {
+          id: "553BD544A0125D67",
+          type: "checkmark",
+        },
+        {
+          id: "79182D262D72B84F",
+          type: "item",
+          icon: {
+            id: "occultism:ritual_dummy/wild_strong_breeze",
+            count: 1,
+          },
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_weak_breeze)item(occultism:ritual_dummy/wild_breeze)item(occultism:ritual_dummy/wild_strong_breeze))",
+              "minecraft:custom_name": "\"Trial Summons\"",
+            },
+          },
+        },
+        {
+          id: "2863432ECAE88DDF",
+          type: "item",
+          icon: {
+            id: "occultism:ritual_dummy/wild_horde_illager",
+            count: 1,
+          },
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_hunt)item(occultism:ritual_dummy/wild_horde_illager))",
+              "minecraft:custom_name": "\"Wild Summons\"",
+            },
+          },
+        },
+        {
+          id: "7143B1EFAB0A1582",
+          type: "item",
+          icon: {
+            id: "occultism:ritual_dummy/wild_husk",
+            count: 1,
+          },
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_creeper)item(occultism:ritual_dummy/wild_drowned)item(occultism:ritual_dummy/wild_husk)item(occultism:ritual_dummy/wild_silverfish))",
+              "minecraft:custom_name": "\"Horde Summons\"",
+            },
+          },
+        },
+        {
+          id: "25C2CD55816664D4",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/wild_random_animal_common)item(occultism:ritual_dummy/wild_random_animal_rideable)item(occultism:ritual_dummy/wild_random_animal_small)item(occultism:ritual_dummy/wild_random_animal_special)item(occultism:ritual_dummy/wild_random_animal_water)item(occultism:ritual_dummy/wild_villager))",
+              "minecraft:custom_name": "\"Group Summons\"",
+            },
+          },
+        },
+        {
+          id: "76A6B2D6E28D494F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(occultism:ritual_dummy/misc_bee_nest)item(occultism:ritual_dummy/misc_bell)item(occultism:ritual_dummy/misc_budding_amethyst)item(occultism:ritual_dummy/misc_reinforced_deepslate)item(occultism:ritual_dummy/misc_wild_trim))",
+              "minecraft:custom_name": "\"Item Summons\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22CD4AA800A2A81F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "49D58AB5E9E96498",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:ritual_dummy/misc_eldritch_chalice",
+        count: 1,
+      },
+      x: 36.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "504EEAA75990C78C",
+        "337838FB759E4377",
+        "43BF1E0CE33F8BB7",
+      ],
+      size: 2.0,
+      min_width: 275,
+      progression_mode: "linear",
+      id: "4C9473D2E4149656",
+      tasks: [
+        {
+          id: "52841CB1A766BAAE",
+          type: "item",
+          item: {
+            id: "minecraft:beacon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7046A9A42F700BE2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "60069192ACC46E96",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+        },
+        {
+          id: "531A6AB4C462B29F",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:afrit_essence",
+        count: 1,
+      },
+      x: 23.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "0017F48E23512C75",
+        "5F0AAD028931A220",
+      ],
+      size: 1.0,
+      id: "0C24D8CD961D86B2",
+      tasks: [
+        {
+          id: "717AF6017CB6D58C",
+          type: "item",
+          item: {
+            id: "occultism:afrit_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A2388A583EA665B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "27E025F1897B291F",
+          type: "item",
+          item: {
+            id: "occultism:afrit_essence",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "22C87CBAC7AFC289",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:marid_essence",
+        count: 1,
+      },
+      x: 29.75,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "0733AB66BFEB220E",
+      ],
+      size: 1.0,
+      id: "3964E9A95D52B0FD",
+      tasks: [
+        {
+          id: "17EDCB2E94C8B43B",
+          type: "item",
+          item: {
+            id: "occultism:marid_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "115499256C6B4D4D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7E570CD64690DD51",
+          type: "item",
+          item: {
+            id: "occultism:marid_essence",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "054A21A56C376A9F",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:spirit_attuned_gem",
+        count: 1,
+      },
+      x: 5.0,
+      y: -1.5,
+      dependencies: [
+        "76323B3FF4F17A2B",
+      ],
+      size: 1.0,
+      id: "0D0892AD0DB44795",
+      tasks: [
+        {
+          id: "185290C49B1AA75E",
+          type: "item",
+          item: {
+            id: "occultism:spirit_attuned_gem",
+            count: 1,
+          },
+        },
+        {
+          id: "588CE48BC4FAD72B",
+          type: "item",
+          item: {
+            id: "occultism:spirit_attuned_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32909C7CB2580F69",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6DACF28FF92EAFB6",
+          type: "item",
+          item: {
+            id: "occultism:spirit_attuned_gem",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "76BF17830B0A7FC9",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:otherstone",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.5,
+      dependencies: [
+        "76323B3FF4F17A2B",
+      ],
+      size: 1.0,
+      id: "50F2EDF92D289869",
+      tasks: [
+        {
+          id: "438673D8562CCBA9",
+          type: "item",
+          item: {
+            id: "occultism:otherstone",
+            count: 1,
+          },
+        },
+        {
+          id: "0AF26E34A4343D1E",
+          type: "item",
+          item: {
+            id: "occultism:burnt_otherstone",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "5F5F34ACFA5F8F7D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "54645BD3A81BC95B",
+          type: "item",
+          item: {
+            id: "occultism:otherstone",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "017AD6C395438B18",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:otherworld_log",
+        count: 1,
+      },
+      x: 5.0,
+      y: -0.5,
+      dependencies: [
+        "76323B3FF4F17A2B",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "10E3AB8F0B7B9F30",
+      tasks: [
+        {
+          id: "262D9B61911CE073",
+          type: "item",
+          item: {
+            id: "occultism:otherworld_sapling_natural",
+            count: 1,
+          },
+        },
+        {
+          id: "165BB151399FBD7E",
+          type: "item",
+          item: {
+            id: "occultism:otherworld_log",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "12F00A229206B604",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6D4D94FFCA443283",
+          type: "item",
+          item: {
+            id: "occultism:otherworld_log",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "6887620EBC0D1AA9",
+          type: "item",
+          item: {
+            id: "occultism:otherworld_sapling_natural",
+            count: 1,
+          },
+        },
+        {
+          id: "40B21C95E9ACC82B",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "occultism:item/ritual_dummy_summon",
+        },
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "3031334952FA6DCC",
+      ],
+      size: 2.0,
+      id: "42B887FC6D9FE211",
+      tasks: [
+        {
+          id: "63CCD5B192C043E9",
+          type: "observation",
+          icon: {
+            id: "occultism:spawn_egg/foliot",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "entity_type",
+          to_observe: "occultism:foliot",
+        },
+        {
+          id: "18CCA0FA3EE27232",
+          type: "item",
+          item: {
+            id: "minecraft:copper_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "7C94CC692FF1DC3B",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "1930FC0621540465",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "33B77A573F887CD1",
+          type: "item",
+          item: {
+            id: "ftbmaterials:silver_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "0E3B613D41D00A72",
+          type: "item",
+          item: {
+            id: "occultism:book_of_binding_bound_foliot",
+            count: 1,
+            components: {
+              "occultism:spirit_name": "Morlymrynne",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35434C203DEC4318",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "52F472DDF3846C49",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_controller_stabilized",
+        count: 1,
+      },
+      x: 37.0,
+      y: -1.5,
+      shape: "square",
+      dependencies: [
+        "4C9473D2E4149656",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6750DD01D865937D",
+      tasks: [
+        {
+          id: "23BC0A2258451662",
+          type: "item",
+          item: {
+            id: "occultism:storage_controller_stabilized",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "176C49E00129C011",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "78BB6529DE727ABF",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 7529627429444840816,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:storage_remote",
+        count: 1,
+      },
+      x: 21.0,
+      y: -6.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "3AF598F0517B7BA6",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "078CAC5AA9A2D84D",
+      tasks: [
+        {
+          id: "7A52ACFF32CA5B2D",
+          type: "item",
+          item: {
+            id: "occultism:storage_remote",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29121D70085CE819",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:dimensional_matrix",
+        count: 1,
+      },
+      x: 21.0,
+      y: -3.5,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "3BCB8667CCEBAE57",
+        "4FD0504ADB98E0C0",
+      ],
+      size: 1.0,
+      id: "047AA74F1CED211E",
+      tasks: [
+        {
+          id: "10B94D67C04AE5CC",
+          type: "item",
+          item: {
+            id: "occultism:dimensional_matrix",
+            count: 1,
+          },
+        },
+        {
+          id: "34E4854C5D701F99",
+          type: "item",
+          item: {
+            id: "occultism:storage_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C3AC07A696517D8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4A09A22E3DEC7CC8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 2.0,
+      y: -1.5,
+      shape: "gear",
+      hide_dependency_lines: true,
+      dependencies: [
+        "10F792474C01A594",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "44E044BA9C152631",
+      tasks: [
+        {
+          id: "346A097A266F1BCD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5A1537E0BFAC88DB",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 15.5,
+      y: -6.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/dimensional_mineshaft_portal",
+      order: 1,
+      id: "3BC3CFC6DD7BA559",
+    },
+    {
+      x: 15.5,
+      y: -3.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/dimensional_mineshaft_portal",
+      order: 1,
+      id: "0EABA13D9F5ABF74",
+    },
+    {
+      x: 15.5,
+      y: 3.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/dimensional_mineshaft_portal",
+      order: 1,
+      id: "6C1A9B30913282A2",
+    },
+    {
+      x: 15.5,
+      y: 6.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/dimensional_mineshaft_portal",
+      order: 1,
+      id: "21FC8789EBDDDD91",
+    },
+    {
+      x: 7.0,
+      y: -4.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "occultism:textures/gui/book/familiar_fairy.png",
+      id: "1175AF5B52335768",
+    },
+    {
+      x: 7.0,
+      y: 4.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "occultism:textures/gui/book/familiar_beholder.png",
+      id: "0765699E6BC2D99B",
+    },
+    {
+      x: -2.25,
+      y: 0.0,
+      width: 1.45,
+      height: 1.45,
+      rotation: 25.0,
+      image: "occultism:block/chalk_glyph/5",
+      color: 16733525,
+      id: "079E4A443EF5FC15",
+    },
+    {
+      x: 0.0,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 65.0,
+      image: "occultism:block/chalk_glyph/11",
+      color: 5592575,
+      id: "771CD72F5621709C",
+    },
+    {
+      x: 0.0,
+      y: 1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: -35.0,
+      image: "occultism:block/chalk_glyph/12",
+      color: 43520,
+      id: "5A0E1B6BFCB0E761",
+    },
+    {
+      x: 24.5,
+      y: -5.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/stable_wormhole_frame",
+      color: 16755200,
+      id: "2B33CBAB29C95BD6",
+    },
+    {
+      x: 28.5,
+      y: -5.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/stable_wormhole_frame",
+      color: 16733695,
+      id: "18FF65FD3E8E94B3",
+    },
+    {
+      x: 21.0,
+      y: -5.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "occultism:block/stable_wormhole_frame",
+      id: "695177E878C8F4C5",
+    },
+    {
+      x: 36.5,
+      y: 0.0,
+      width: 5.0,
+      height: 5.0,
+      rotation: 45.0,
+      image: "occultism:block/dimensional_mineshaft_portal",
+      id: "2C7B6B657BA60F61",
+    },
+    {
+      x: 36.5,
+      y: 0.0,
+      width: 6.0,
+      height: 6.0,
+      rotation: 45.0,
+      image: "ftbquests:tasks/input_only",
+      color: 11141290,
+      order: -1,
+      id: "1D6B4D016BD90666",
+    },
+  ],
+}

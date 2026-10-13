@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "attack": 1.0,
+  "description": "productivebees.ingredient.description.only_spawnegg",
+  "flowerBlock": "enderio:end_steel_block",
+  "particleColor": "#fcf29b",
+  "primaryColor": "#fcf29b",
+  "secondaryColor": "#b0a654",
+  "size": 0.7,
+  "useGlowLayer": true
+}

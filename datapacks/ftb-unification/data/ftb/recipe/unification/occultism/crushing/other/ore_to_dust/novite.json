@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/other/novite",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "ftbmaterials:novite_dust"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:desh_shard",
+    "ftbmaterials:desh_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "stellaris:desh_ingot"
+    }
+  ],
+  "time": 80
+}

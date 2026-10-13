@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "#c:coal_coke",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "ftbmaterials:coal_coke_dust"
+  }
+}

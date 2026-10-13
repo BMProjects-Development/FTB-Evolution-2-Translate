@@ -1,0 +1,26 @@
+{
+  "descriptionId": "ftb.irons.material.hellforged",
+  "ingredient": "#c:ingots/hellforged",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/hellforged",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "neovitae:bonus_sacrifice",
+      "amount": 0.2,
+      "operation": "add_value"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": true,
+      "action": {
+        "type": "irons_jewelry:heal",
+        "amount": {
+          "base": 1.0,
+          "scalar": 1.0
+        }
+      }
+    }
+  }
+}

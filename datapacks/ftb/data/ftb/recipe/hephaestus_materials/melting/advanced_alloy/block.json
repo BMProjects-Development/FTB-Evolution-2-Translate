@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:storage_blocks/advanced_alloy",
+  "result": {
+    "amount": 810,
+    "id": "ftb:molten_advanced_alloy"
+  },
+  "temperature": 1000,
+  "time": 240
+}

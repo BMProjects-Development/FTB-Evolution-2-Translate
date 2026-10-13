@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "arsmagicalegacy:sunstone_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "arsmagicalegacy:sunstone"
+  }
+}

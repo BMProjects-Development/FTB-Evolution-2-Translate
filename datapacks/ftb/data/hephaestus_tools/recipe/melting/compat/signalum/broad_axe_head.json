@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:signalum"
+    },
+    "items": "hephaestus_tools:broad_axe_head",
+    "strict": false
+  },
+  "result": {
+    "amount": 720,
+    "id": "hephaestus:molten_signalum"
+  },
+  "temperature": 1000,
+  "time": 240
+}

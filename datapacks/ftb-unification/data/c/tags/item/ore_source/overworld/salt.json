@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:salt_deepslate_ore",
+    "ftbmaterials:salt_stone_ore"
+  ]
+}

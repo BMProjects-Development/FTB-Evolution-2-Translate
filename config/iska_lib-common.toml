@@ -1,0 +1,26 @@
+#When true and FTB Teams is loaded, shop teams can sync with FTB team membership.
+ftbTeamsSyncEnabled = true
+#When false (default), Library progressive explosions do not break blocks in FTB Chunks claimed chunks.
+#Entity damage still applies. When true, claimed chunks can be griefed by those explosions.
+#No effect if FTB Chunks is not loaded.
+explosionGriefFtbClaims = false
+
+#Stage-related gates used by Library integrations
+[stages]
+
+	#Ultimine stage gate (consumed by Ultimine integration)
+	[stages.ultimine]
+		#When true, Ultimine requires the configured stage before use
+		enable_ultimine_stage_gate = false
+		#Stage id required for Ultimine when the gate is enabled (empty = none)
+		ultimine_required_stage = ""
+		#Scope for the Ultimine stage check: player, world, or team
+		ultimine_stage_scope = "player"
+
+#Filesystem bootstrap for JSON fluids/tools/gases before a ResourceManager exists.
+#Paths are relative to the game directory. Folders and .zip/.jar packs are read in-place (not extracted).
+#Order = merge priority (later entries override earlier).
+[bootstrap]
+	#Data/pack roots to scan at mod init (KubeJS data root, Open Loader, Global Packs, instance datapacks).
+	#A path is a pack root if it contains .zip/.jar children or folders with pack.mcmeta; otherwise a data root.
+	datapack_paths = ["kubejs/data", "datapacks", "config/openloader/data", "global_packs/required_data", "global_packs/optional_data"]

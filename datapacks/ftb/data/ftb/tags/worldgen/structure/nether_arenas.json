@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mns:small_arena",
+    "mns:large_arena",
+    "mns:dragon_arena"
+  ]
+}

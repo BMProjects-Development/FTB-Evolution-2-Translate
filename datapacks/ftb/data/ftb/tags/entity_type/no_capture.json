@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#ftb:no_capture_base",
+    {
+      "id": "easy_npc:humanoid",
+      "required": false
+    },
+    {
+      "id": "easy_npc:humanoid_slim",
+      "required": false
+    }
+  ]
+}

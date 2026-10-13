@@ -1,0 +1,4 @@
+#Automatically pull blank patterns from ME storage when encoding a pattern with an empty blank pattern slot.
+autoRestock = true
+#Show a button on the Pattern Encoding Terminal to return an encoded pattern back to blank.
+returnButton = true

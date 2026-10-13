@@ -1,0 +1,28 @@
+{
+  "type": "colossal_reactors:coolant",
+  "entries": [
+    {
+      "coolant_id": "colossal_reactors:water",
+      "inputs": ["#c:water"],
+      "output": "oritech:still_steam",
+      "outputs": ["oritech:still_steam"],
+      "rf_increment_percent": 0,
+      "mb_decrement_percent": 100,
+      "reduce_rf_production": true,
+      "rf_to_coolant_factor": 0.45,
+      "steam_per_coolant": 0.8,
+      "overheating": 0.26
+    },
+    {
+      "coolant_id": "colossal_reactors:mek_sodium",
+      "inputs": ["#c:sodium", "%mekanism:sodium"],
+      "outputs": ["#c:superheated_sodium", "%mekanism:superheated_sodium"],
+      "rf_increment_percent": 0,
+      "mb_decrement_percent": 100,
+      "reduce_rf_production": true,
+      "rf_to_coolant_factor": 0.45,
+      "steam_per_coolant": 1.0,
+      "overheating": 0.3
+    }
+  ]
+}

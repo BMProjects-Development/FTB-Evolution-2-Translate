@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:storage_blocks/raw_silver",
+  "result": {
+    "count": 12,
+    "id": "ftbmaterials:silver_dust"
+  },
+  "secondary": {
+    "count": 9,
+    "id": "ftbmaterials:silver_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

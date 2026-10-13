@@ -1,0 +1,16 @@
+{
+  "type": "colossal_reactors:turbine_generation",
+  "entries": [
+    {
+      "coolant_id": "colossal_reactors:water",
+      "inputs": [
+        "oritech:still_steam",
+        "#c:steam",
+        "colossal_reactors:gas_fluid_steam",
+        "%mekanism:steam"
+      ],
+      "output": "minecraft:water",
+      "rf_production": 120
+    }
+  ]
+}

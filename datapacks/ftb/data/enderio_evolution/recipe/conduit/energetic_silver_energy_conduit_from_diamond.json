@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "enderio:conduit_binder",
+    "C": "minecraft:diamond",
+    "I": "enderio_evolution:energetic_silver_ingot"
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio_evolution:energetic_silver_energy_conduit"
+    },
+    "count": 8,
+    "id": "enderio:conduit"
+  }
+}

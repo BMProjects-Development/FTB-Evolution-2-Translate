@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#ftb:no_ore_gen",
+  "features": [
+    "thaumaturge:ore_cinnabar",
+    "thaumaturge:ore_amber"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,1 @@
+Platform.getInfo("ftb").name = "FTB";

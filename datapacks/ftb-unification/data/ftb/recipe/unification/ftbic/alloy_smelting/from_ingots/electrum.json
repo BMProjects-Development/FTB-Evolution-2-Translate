@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/silver"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:electrum_ingot",
+        "count": 2
+      }
+    }
+  ]
+}

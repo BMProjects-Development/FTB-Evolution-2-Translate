@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "tag": "c:gems/xychorium"
+  },
+  "name": "Xychorium",
+  "color": "#53B8D4",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

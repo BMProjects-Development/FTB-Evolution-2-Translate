@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:sulfur_end_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 4,
+      "id": "ftbmaterials:sulfur_dust"
+    },
+    {
+      "count": {
+        "chance": 1.0,
+        "max": 4,
+        "min": 4
+      },
+      "id": "ftbmaterials:sulfur_dust",
+      "required": false
+    }
+  ]
+}

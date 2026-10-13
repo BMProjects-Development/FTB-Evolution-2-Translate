@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "powah:uraninite_ore",
+  "variants": [
+    "powah:uraninite_ore_poor",
+    "powah:uraninite_ore_dense",
+    "powah:deepslate_uraninite_ore",
+    "powah:deepslate_uraninite_ore_poor",
+    "powah:deepslate_uraninite_ore_dense"
+  ],
+  "name_color": "#5FA800",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.uraninite_ore",
+  "fabricator_drops": [
+    {
+      "id": "powah:uraninite_raw",
+      "count": 12
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "ftb:evolution/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.bear_necessities.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.bear_necessities.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "frostbear:frost_bear"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

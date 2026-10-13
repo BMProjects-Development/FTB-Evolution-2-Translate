@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:niter_deepslate_ore",
+    "ftbmaterials:niter_stone_ore"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/uraninite_poor"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "powah:uraninite"
+    }
+  ],
+  "time": 40
+}

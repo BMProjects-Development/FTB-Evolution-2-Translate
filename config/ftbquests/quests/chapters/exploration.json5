@@ -1,0 +1,2455 @@
+{
+  id: "4B8A25B37CB9CC7B",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 4,
+  icon: {
+    id: "explorerscompass:explorerscompass",
+    count: 1,
+  },
+  filename: "exploration",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "7F209ECB076B2B30",
+  quests: [
+    {
+      icon: {
+        id: "explorerscompass:explorerscompass",
+        count: 1,
+      },
+      x: -3.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "7F209ECB076B2B30",
+      tasks: [
+        {
+          id: "7B459F46C69CE0D7",
+          type: "item",
+          item: {
+            id: "explorerscompass:explorerscompass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F6B6FBADC992DA4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6E8BBCF5D0C607E4",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:ender_eye",
+        count: 1,
+      },
+      x: 3.0,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "5AB13D8A178233DD",
+      tasks: [
+        {
+          id: "47E44CD10E667A9B",
+          type: "structure",
+          structure: "#minecraft:eye_of_ender_located",
+        },
+      ],
+      rewards: [
+        {
+          id: "4EE378E788FD800D",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5DF8998FCC9F18C9",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:mossy_cobblestone",
+        count: 1,
+      },
+      x: 2.5,
+      y: -1.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "5EBF7DD6E28CBBCD",
+      tasks: [
+        {
+          id: "6761AA9007A8D451",
+          type: "structure",
+          structure: "dungeoncrawl:dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "63F47A7DD67F6050",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "756554FDB1FDC49C",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:chiseled_stone_bricks",
+        count: 1,
+      },
+      x: 3.5,
+      y: -1.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "15DA8CCB11B85EA6",
+      tasks: [
+        {
+          id: "20338306B27B17C2",
+          type: "structure",
+          structure: "ftb:dungeons/stone_dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "7B46804AFACE0A39",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2A21341E72E3D7FA",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:chiseled_sandstone",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "7638D24AFD676A7F",
+      tasks: [
+        {
+          id: "611DC296A4127701",
+          type: "structure",
+          structure: "mtr:jungle_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "70A72679F7910236",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "59B726ECBF60AC2F",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:trial_key",
+        count: 1,
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "170CF50988CB58E6",
+      tasks: [
+        {
+          id: "7BF5112AF64448AA",
+          type: "structure",
+          structure: "mss:arena",
+        },
+      ],
+      rewards: [
+        {
+          id: "617BB343F96A6CBE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5ECE6E8AAD20D169",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "paraglider:stamina_vessel",
+        count: 1,
+      },
+      x: 3.0,
+      y: -0.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "30C87E5D353137F6",
+      tasks: [
+        {
+          id: "5C0245F0D02A61C6",
+          type: "structure",
+          structure: "paraglider:underground_horned_statue",
+        },
+      ],
+      rewards: [
+        {
+          id: "7ABFA01F83DC36CA",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "388ED25874584A38",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:echo_shard",
+        count: 1,
+      },
+      x: 3.0,
+      y: 1.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "34FF9A882AA4ABCB",
+      tasks: [
+        {
+          id: "32F8B3044F5E05B4",
+          type: "structure",
+          structure: "minecraft:ancient_city",
+        },
+      ],
+      rewards: [
+        {
+          id: "23A0183F13332799",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3E1DFE1AD90FE5A5",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonbone",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "6A7DB2334016638A",
+      tasks: [
+        {
+          id: "2B092EB5FF103855",
+          type: "structure",
+          structure: "#iceandfire:dragon_roost",
+        },
+      ],
+      rewards: [
+        {
+          id: "171EE8C31369628D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3846F8B821ACD5FA",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonscales_red",
+        count: 1,
+      },
+      x: 1.5,
+      y: 6.0,
+      dependencies: [
+        "6A7DB2334016638A",
+      ],
+      size: 1.0,
+      id: "6933686D0F959FAA",
+      tasks: [
+        {
+          id: "2DE802D09EFB1362",
+          type: "kill",
+          icon: {
+            id: "iceandfire:dragonscales_red",
+            count: 1,
+          },
+          entity: "iceandfire:fire_dragon",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7D8E583DC92CEA8B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7B7B78E94AEF75FC",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonscales_blue",
+        count: 1,
+      },
+      x: 0.0,
+      y: 6.5,
+      dependencies: [
+        "6A7DB2334016638A",
+      ],
+      size: 1.0,
+      id: "7F59F90B1B6F9A67",
+      tasks: [
+        {
+          id: "7705337955F2053E",
+          type: "kill",
+          icon: {
+            id: "iceandfire:dragonscales_blue",
+            count: 1,
+          },
+          entity: "iceandfire:ice_dragon",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "260F1B2F6E87BFA9",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5E020E008114B535",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonscales_electric",
+        count: 1,
+      },
+      x: -1.5,
+      y: 6.0,
+      dependencies: [
+        "6A7DB2334016638A",
+      ],
+      size: 1.0,
+      id: "19ADE41D01CF22B7",
+      tasks: [
+        {
+          id: "2ABA2B49C8027977",
+          type: "kill",
+          icon: {
+            id: "iceandfire:dragonscales_electric",
+            count: 1,
+          },
+          entity: "iceandfire:lightning_dragon",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3EFA8D16699D228E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2944E875F90E6471",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_skull_fire",
+        count: 1,
+      },
+      x: 0.0,
+      y: 8.0,
+      dependencies: [
+        "6933686D0F959FAA",
+        "7F59F90B1B6F9A67",
+        "19ADE41D01CF22B7",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      id: "250945907CE6EA9D",
+      tasks: [
+        {
+          id: "6BADEBBA351BFE5C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(iceandfire:dragon_skulls)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D7759C12088B74B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "792BEF1645BC200E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_seeker",
+        count: 1,
+      },
+      x: 0.0,
+      y: 9.0,
+      dependencies: [
+        "250945907CE6EA9D",
+      ],
+      size: 1.0,
+      id: "1754F4058CB200D4",
+      tasks: [
+        {
+          id: "633B753EF4C11F6A",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_seeker",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BB77EB589417CD9",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "72C855A1229ADF60",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonscales_red",
+        count: 1,
+      },
+      x: 0.0,
+      y: 10.0,
+      dependencies: [
+        "1754F4058CB200D4",
+      ],
+      size: 1.0,
+      id: "7465320331494BD7",
+      tasks: [
+        {
+          id: "3D42D24780096C54",
+          type: "structure",
+          structure: "#iceandfire:dragon_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "2829646620CC825E",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "6475EBC4A4A21BAA",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:mossy_stone_bricks",
+        count: 1,
+      },
+      x: 3.5,
+      y: 6.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "7EE3B916522A9170",
+      tasks: [
+        {
+          id: "4C4F48A3D4A014F7",
+          type: "structure",
+          structure: "iceandfire:gorgon_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "38126645B73BCF70",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "38BEE7748CD6E5B8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:gorgon_head",
+        count: 1,
+      },
+      x: 3.5,
+      y: 7.5,
+      dependencies: [
+        "7EE3B916522A9170",
+      ],
+      size: 1.0,
+      id: "693BD17350005AC9",
+      tasks: [
+        {
+          id: "644FB14A1C9F4B3F",
+          type: "item",
+          item: {
+            id: "iceandfire:gorgon_head",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71FBF87D9B7D616E",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3012B2C7DDF26161",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:mud",
+        count: 1,
+      },
+      x: -3.5,
+      y: 6.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "502E257ED1246812",
+      tasks: [
+        {
+          id: "6842FC8EFECF4513",
+          type: "structure",
+          structure: "iceandfire:hydra_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "2BD056ADD54E1EAC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6BB91D17A8EC3F30",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:hydra_fang",
+        count: 1,
+      },
+      x: -3.5,
+      y: 7.5,
+      dependencies: [
+        "502E257ED1246812",
+      ],
+      size: 1.0,
+      id: "73127D9218A217CB",
+      tasks: [
+        {
+          id: "2C6B1C49B81E9FD9",
+          type: "kill",
+          icon: {
+            id: "iceandfire:hydra_fang",
+            count: 1,
+          },
+          entity: "iceandfire:hydra",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4F9A018361E636AA",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2DD403241E1F51A4",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:white_wool",
+        count: 1,
+      },
+      x: -2.0,
+      y: 8.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "6B9AD6056DC2E540",
+      tasks: [
+        {
+          id: "56F1020CCA70C829",
+          type: "structure",
+          structure: "iceandfire:cyclops_cave",
+        },
+      ],
+      rewards: [
+        {
+          id: "22DBA55B7CB1A7B0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "20CE8D739D3D689A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:cyclops_eye",
+        count: 1,
+      },
+      x: -2.0,
+      y: 10.0,
+      dependencies: [
+        "6B9AD6056DC2E540",
+      ],
+      size: 1.0,
+      id: "15C698B306B3B577",
+      tasks: [
+        {
+          id: "3A65E7CDE5D2F22D",
+          type: "kill",
+          icon: {
+            id: "iceandfire:cyclops_eye",
+            count: 1,
+          },
+          entity: "iceandfire:cyclops",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "440ACDE1F0CE4B69",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6913E6C1E0E01D70",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dread_stone_bricks",
+        count: 1,
+      },
+      x: 2.0,
+      y: 8.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "20393692539B1184",
+      tasks: [
+        {
+          id: "2D618FAF172F7EA6",
+          type: "structure",
+          structure: "iceandfire:mausoleum",
+        },
+      ],
+      rewards: [
+        {
+          id: "7282D9E7E2A4418E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5A71F08CCA64A21A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dread_key",
+        count: 1,
+      },
+      x: 2.0,
+      y: 10.0,
+      dependencies: [
+        "20393692539B1184",
+      ],
+      size: 1.0,
+      id: "6EFD9C957BD47563",
+      tasks: [
+        {
+          id: "32D8D761B5EE41EF",
+          type: "item",
+          item: {
+            id: "iceandfire:dread_key",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "600B342FAFF3293B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "46F8A3A799C83F5C",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:prismarine_bricks",
+        count: 1,
+      },
+      x: -8.5,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "1D96D2FF800AE80A",
+      tasks: [
+        {
+          id: "12AAE35DF81B3F8D",
+          type: "structure",
+          structure: "mtr:ocean_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "5440F93BFDF0BF08",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "544B10DBB8D10A90",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:sponge",
+        count: 1,
+      },
+      x: -8.5,
+      y: 6.0,
+      dependencies: [
+        "1D96D2FF800AE80A",
+      ],
+      size: 1.0,
+      id: "25975DB5C7ADE870",
+      tasks: [
+        {
+          id: "2901ABE85A9D8C86",
+          type: "kill",
+          icon: {
+            id: "minecraft:sponge",
+            count: 1,
+          },
+          entity: "minecraft:elder_guardian",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "30AFC62C82A25FAA",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "1FEB578ACC688A72",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:trident",
+        count: 1,
+      },
+      x: -6.5,
+      y: 4.5,
+      size: 1.0,
+      id: "1F842D40F39C5763",
+      tasks: [
+        {
+          id: "4CE825DC79A35896",
+          type: "structure",
+          structure: "hopo:underwater/underwater_city",
+        },
+      ],
+      rewards: [
+        {
+          id: "7A75ADFFF1F8B622",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4BB536753C795C02",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dark_oak_boat",
+        count: 1,
+      },
+      x: -10.5,
+      y: 4.5,
+      size: 1.0,
+      id: "2965565D68C9761B",
+      tasks: [
+        {
+          id: "16AE3F11520C3A75",
+          type: "structure",
+          structure: "ati_structures:ancient_vessel",
+        },
+      ],
+      rewards: [
+        {
+          id: "4A9F40CBC5BE5875",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "66CEEEE80DDABC2E",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dark_prismarine",
+        count: 1,
+      },
+      x: -6.5,
+      y: 6.0,
+      size: 1.0,
+      id: "21D5042B16907B90",
+      tasks: [
+        {
+          id: "5ABCC3E26E0DD3A3",
+          type: "structure",
+          structure: "ftb:dungeons/aqua_dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "19F7260B42C6DF0D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5DCEA2211BEEEBBB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:siren_tear",
+        count: 1,
+      },
+      x: -8.5,
+      y: 7.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "7063420D36849583",
+      tasks: [
+        {
+          id: "704F0A046EB5222E",
+          type: "structure",
+          structure: "iceandfire:siren_island",
+        },
+      ],
+      rewards: [
+        {
+          id: "6D2B226B57BB3E35",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7CF84F5A36DD652A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:earplugs",
+        count: 1,
+      },
+      x: -8.5,
+      y: 9.0,
+      dependencies: [
+        "7063420D36849583",
+      ],
+      size: 1.0,
+      id: "124F536BB57E1365",
+      tasks: [
+        {
+          id: "56FAC461D80A7DAB",
+          type: "kill",
+          icon: {
+            id: "iceandfire:earplugs",
+            count: 1,
+          },
+          entity: "iceandfire:siren",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "7090A339D9A6CCDA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3AACF0FCCC181011",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:sea_serpent_fang",
+        count: 1,
+      },
+      x: -10.5,
+      y: 6.0,
+      size: 1.0,
+      id: "269CA7E3614C0826",
+      tasks: [
+        {
+          id: "2EAC82D218A870B5",
+          type: "kill",
+          icon: {
+            id: "iceandfire:sea_serpent_fang",
+            count: 1,
+          },
+          entity: "iceandfire:sea_serpent",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5BFC68A23575C445",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "33AF797E9F780A72",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      x: -8.5,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "120E37CE2AB140FA",
+      tasks: [
+        {
+          id: "1B9B015FB20DF2A0",
+          type: "structure",
+          structure: "incendium:infernal_altar",
+        },
+      ],
+      rewards: [
+        {
+          id: "26A4855137963CC7",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "260D53A124C0DEF7",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:blaze_rod",
+        count: 1,
+      },
+      x: -8.5,
+      y: -0.5,
+      dependencies: [
+        "120E37CE2AB140FA",
+      ],
+      size: 1.0,
+      id: "7B828C91840C23A5",
+      tasks: [
+        {
+          id: "7A64AC5B5FCBA3B0",
+          type: "advancement",
+          icon: {
+            id: "minecraft:blaze_rod",
+            count: 1,
+          },
+          advancement: "incendium:infernal_dunes/inferno/kill",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "33696B93A63203EB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "553EB5A29DA57D3D",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gilded_blackstone",
+        count: 1,
+      },
+      x: -10.0,
+      y: -2.0,
+      size: 1.0,
+      id: "342991AE8AC9BC34",
+      tasks: [
+        {
+          id: "3285054F4FD8D96A",
+          type: "structure",
+          structure: "incendium:forbidden_castle",
+        },
+      ],
+      rewards: [
+        {
+          id: "5C2B77F601DB239A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4494AB1A2C607CDF",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nether_bricks",
+        count: 1,
+      },
+      x: -10.0,
+      y: -0.5,
+      size: 1.0,
+      id: "2C3ED0622537D3DD",
+      tasks: [
+        {
+          id: "64683A8D410EFEDE",
+          type: "structure",
+          structure: "mns:mega_fortress",
+        },
+      ],
+      rewards: [
+        {
+          id: "794CEBE86AC9824F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6905896B8CD5A38E",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:ominous_trial_key",
+        count: 1,
+      },
+      x: -8.5,
+      y: 0.5,
+      size: 1.0,
+      id: "1D86C25D8DDA3F1E",
+      tasks: [
+        {
+          id: "51CF192D4FB9E5DE",
+          type: "structure",
+          structure: "#ftb:nether_arenas",
+        },
+      ],
+      rewards: [
+        {
+          id: "4D1EBC10C8F1343F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5B491074724F5FC2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_upgrade_smithing_template",
+        count: 1,
+      },
+      x: -7.0,
+      y: -2.0,
+      size: 1.0,
+      id: "1BF72D9D4ECB46B8",
+      tasks: [
+        {
+          id: "5D8D36689181073F",
+          type: "structure",
+          structure: "mtr:nether_temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "75FF37A1E1B01BAC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6C69878CDC232760",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:red_nether_bricks",
+        count: 1,
+      },
+      x: -7.0,
+      y: -0.5,
+      size: 1.0,
+      id: "49A2DD994F720F84",
+      tasks: [
+        {
+          id: "6EB5D18D46DD6FF4",
+          type: "structure",
+          structure: "ftb:dungeons/nether_dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "260518EB027F9448",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "56AB2347E40A740F",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:elytra",
+        count: 1,
+      },
+      x: 8.5,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "319428452110100A",
+      tasks: [
+        {
+          id: "429D7D906FC65DA9",
+          type: "structure",
+          structure: "#ftb:mega_ships",
+        },
+      ],
+      rewards: [
+        {
+          id: "3B74323A3F4BD4AC",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6F08AF0E5CCE99A4",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:shulker_box",
+        count: 1,
+      },
+      x: 8.5,
+      y: -0.5,
+      size: 1.0,
+      id: "1FF99FC384C22A24",
+      tasks: [
+        {
+          id: "56E1907094AD4A14",
+          type: "structure",
+          structure: "mes:enderkeep_courtyard",
+        },
+      ],
+      rewards: [
+        {
+          id: "3032F661D2C5AAFD",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "4322546C837C9899",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:lightning_rod",
+        count: 1,
+      },
+      x: 0.0,
+      y: 13.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "656B7E686D7EBBE4",
+      tasks: [
+        {
+          id: "3CDCAE977732EFD0",
+          type: "structure",
+          structure: "thunderrelics:thunder_court",
+        },
+      ],
+      rewards: [
+        {
+          id: "386E024B10A45EDD",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "660511AA147B5588",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "thunderrelics:royal_glaive",
+        count: 1,
+      },
+      x: 0.0,
+      y: 15.0,
+      dependencies: [
+        "656B7E686D7EBBE4",
+      ],
+      size: 1.0,
+      id: "7D5121F9B867A99D",
+      tasks: [
+        {
+          id: "500500E2C161CA92",
+          type: "kill",
+          icon: {
+            id: "thunderrelics:royal_glaive",
+            count: 1,
+          },
+          entity: "thunderrelics:thunder_king",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "6AD5E7DD5E41962F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2BA457A63D2AA18C",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:huntsman_spear",
+        count: 1,
+      },
+      x: -2.0,
+      y: 13.0,
+      size: 1.0,
+      id: "203E01E473B7DCFA",
+      tasks: [
+        {
+          id: "266553B104C2847A",
+          type: "kill",
+          icon: {
+            id: "witchery:huntsman_spear",
+            count: 1,
+          },
+          entity: "witchery:horned_huntsman",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "2909B5EFCF18884E",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "198E78F1826C9A45",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:leonards_urn",
+        count: 1,
+      },
+      x: 2.0,
+      y: 13.0,
+      size: 1.0,
+      id: "24D8E1226694FEED",
+      tasks: [
+        {
+          id: "786CBB8B7DD171A9",
+          type: "kill",
+          icon: {
+            id: "witchery:leonards_urn",
+            count: 1,
+          },
+          entity: "witchery:leonard",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "344F96FEFEED0FFD",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6EE8156228ECC630",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:mogs_quiver",
+        count: 1,
+      },
+      x: 4.0,
+      y: 13.0,
+      size: 1.0,
+      id: "167F48E2584A3022",
+      tasks: [
+        {
+          id: "57C4EB5ECB5A4A09",
+          type: "kill",
+          icon: {
+            id: "witchery:mogs_quiver",
+            count: 1,
+          },
+          entity: "witchery:mog",
+          value: 1,
+        },
+        {
+          id: "444F2251E5319AF1",
+          type: "kill",
+          icon: {
+            id: "witchery:gulgs_gurdle",
+            count: 1,
+          },
+          entity: "witchery:gulg",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "106EF27B884392FB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "63F542411EFB1E39",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:death_sickle",
+        count: 1,
+      },
+      x: -4.0,
+      y: 13.0,
+      size: 1.0,
+      id: "409A27E9A4A6941D",
+      tasks: [
+        {
+          id: "56C9EDF814662CED",
+          type: "kill",
+          icon: {
+            id: "witchery:death_sickle",
+            count: 1,
+          },
+          entity: "witchery:death",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1248FF871E966325",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1555A3ED82A8343C",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:gateway",
+        count: 1,
+      },
+      x: -10.5,
+      y: 7.5,
+      size: 1.0,
+      id: "569357C95D1210AA",
+      tasks: [
+        {
+          id: "46B8E8AAEBF412BD",
+          type: "structure",
+          structure: "nautec:underwater_gateway",
+        },
+      ],
+      rewards: [
+        {
+          id: "30632EE6226D3134",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "51A845C4CD901CA2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:aquatic_catalyst",
+        count: 1,
+      },
+      x: -6.5,
+      y: 7.5,
+      size: 1.0,
+      id: "2913824ED3340F93",
+      tasks: [
+        {
+          id: "3CD31DD0714464F1",
+          type: "structure",
+          structure: "nautec:ruins_1",
+        },
+      ],
+      rewards: [
+        {
+          id: "2BCEE9EB9E782978",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1227573F506B0C03",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:bell",
+        count: 1,
+      },
+      x: -3.0,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "4E77F883F5F8C4E7",
+      tasks: [
+        {
+          id: "38B12D6134598A0B",
+          type: "structure",
+          structure: "#minecraft:village",
+        },
+      ],
+      rewards: [
+        {
+          id: "12A81A0454065B41",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "42945B88F8CE1CB7",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:barrel",
+        count: 1,
+      },
+      x: -4.0,
+      y: -1.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "7AE9316511656205",
+      tasks: [
+        {
+          id: "4A847220B12DB83D",
+          type: "structure",
+          structure: "#ftb:shopkeepers/tavern",
+        },
+      ],
+      rewards: [
+        {
+          id: "3FC54988D3F6AD3F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3FBB473DE82E98AC",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:totem_of_undying",
+        count: 1,
+      },
+      x: -4.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "33D0A75727D9CB58",
+      tasks: [
+        {
+          id: "337EFE3459956FDB",
+          type: "structure",
+          structure: "#ftb:shopkeepers/manor",
+        },
+      ],
+      rewards: [
+        {
+          id: "6A07646DA99892CF",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5254D90E35A98114",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "arsmagicalegacy:blank_rune",
+        count: 1,
+      },
+      x: -4.0,
+      y: 1.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "5A03706C37C733CE",
+      tasks: [
+        {
+          id: "7CA20AE7810989C1",
+          type: "structure",
+          structure: "#ftb:shopkeepers/mage_tower",
+        },
+      ],
+      rewards: [
+        {
+          id: "57712D946F858985",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "14A4575FF4BBBC0F",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "witchery:mandrake_seeds",
+        count: 1,
+      },
+      x: -2.0,
+      y: 1.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "5758A01C78625749",
+      tasks: [
+        {
+          id: "709F42A2E3C2BF86",
+          type: "structure",
+          structure: "#ftb:shopkeepers/witch_hut",
+        },
+      ],
+      rewards: [
+        {
+          id: "1E4AF8586FDEB531",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2C860C0160FF3123",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "evilcraft:dark_gem",
+        count: 1,
+      },
+      x: -2.0,
+      y: -1.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "18DE042E91A96693",
+      tasks: [
+        {
+          id: "42C0F4526343025D",
+          type: "structure",
+          structure: "#ftb:shopkeepers/haunted",
+        },
+      ],
+      rewards: [
+        {
+          id: "11996B4D19E34B14",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1E95A43BA8340DE4",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "starcatcher:tackle_box",
+        count: 1,
+      },
+      x: -1.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "2B5ECE4CD3F8412B",
+      tasks: [
+        {
+          id: "1A48C668F6974141",
+          type: "structure",
+          structure: "underwater_village:temple",
+        },
+      ],
+      rewards: [
+        {
+          id: "55229D1C54A5F956",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7103E334C36273F8",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:flintlock",
+        count: 1,
+      },
+      x: -3.0,
+      y: 1.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "55B3900E2E519129",
+      tasks: [
+        {
+          id: "1D62C0845628099E",
+          type: "structure",
+          structure: "#ftb:shopkeepers/ship",
+        },
+      ],
+      rewards: [
+        {
+          id: "60F28B0AB2F1D4B0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "58539CD7A23BA193",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:grass_block",
+        count: 1,
+      },
+      x: 8.5,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "4FE64D008CCF0CA2",
+      tasks: [
+        {
+          id: "52CD1A19C7C03226",
+          type: "advancement",
+          advancement: "ftb:exploration/skylands",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "75B3A38A738DB375",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "227FD2CB3677FDB6",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:magma_block",
+        count: 1,
+      },
+      x: 10.5,
+      y: 5.0,
+      size: 1.0,
+      id: "40892A92CA977BA0",
+      tasks: [
+        {
+          id: "4E7952D26F40358B",
+          type: "biome",
+          biome: "terralith:volcanic_peaks",
+        },
+      ],
+      rewards: [
+        {
+          id: "570AFF6B361EE41F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "38960BC421359931",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:yellow_terracotta",
+        count: 1,
+      },
+      x: 10.5,
+      y: 6.5,
+      size: 1.0,
+      id: "388CACAF16133436",
+      tasks: [
+        {
+          id: "436D90D4B7156F5D",
+          type: "biome",
+          biome: "terralith:yellowstone",
+        },
+      ],
+      rewards: [
+        {
+          id: "6B602DB25555F844",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6E0D094005FE6946",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:red_mushroom_block",
+        count: 1,
+      },
+      x: 10.5,
+      y: 8.0,
+      size: 1.0,
+      id: "46EEC36A2FA7A0D0",
+      tasks: [
+        {
+          id: "7FC0D587775B85AA",
+          type: "biome",
+          biome: "terralith:mirage_isles",
+        },
+      ],
+      rewards: [
+        {
+          id: "4D1BB1E8ABFD34BF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2A69D4B893153659",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:blue_orchid",
+        count: 1,
+      },
+      x: 6.5,
+      y: 8.0,
+      size: 1.0,
+      id: "6B87A87B53F85BD4",
+      tasks: [
+        {
+          id: "31C1D978C6277C81",
+          type: "biome",
+          biome: "terralith:moonlight_grove",
+        },
+      ],
+      rewards: [
+        {
+          id: "7A0AF25DBAF0C61D",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5AB84610176E0BF3",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherrack",
+        count: 1,
+      },
+      x: 6.5,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "42348582DFB34EA1",
+      tasks: [
+        {
+          id: "23233DC1DD972E1B",
+          type: "dimension",
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "37E3906283232200",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "70911514F016DD7E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:crimson_fungus",
+        count: 1,
+      },
+      x: 6.5,
+      y: 6.5,
+      dependencies: [
+        "42348582DFB34EA1",
+      ],
+      size: 1.0,
+      id: "7F0A4B19ED4DF750",
+      tasks: [
+        {
+          id: "5CB13610FF8F36FA",
+          type: "biome",
+          biome: "incendium:infernal_dunes",
+        },
+        {
+          id: "42C88270A9E83BB9",
+          type: "biome",
+          biome: "incendium:inverted_forest",
+        },
+        {
+          id: "42C715F246CFF7C7",
+          type: "biome",
+          biome: "incendium:toxic_heap",
+        },
+        {
+          id: "5F242D564D149312",
+          type: "biome",
+          biome: "incendium:weeping_valley",
+        },
+        {
+          id: "391A6C97265CE0BB",
+          type: "biome",
+          biome: "incendium:withered_forest",
+        },
+      ],
+      rewards: [
+        {
+          id: "276ACD7655D05EE4",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "723F99FE130ED3A8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:end_stone",
+        count: 1,
+      },
+      x: 8.5,
+      y: 6.0,
+      size: 1.0,
+      id: "57A55BDA10B81ACB",
+      tasks: [
+        {
+          id: "31D0FCC6382286E8",
+          type: "dimension",
+          dimension: "minecraft:the_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "1CBE5A8DB208D936",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "33E12F08686BBB4C",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:budding_amethyst",
+        count: 1,
+      },
+      x: 8.5,
+      y: 7.5,
+      dependencies: [
+        "57A55BDA10B81ACB",
+      ],
+      size: 1.0,
+      id: "506CE8202884EF43",
+      tasks: [
+        {
+          id: "4569F4DF2460F380",
+          type: "biome",
+          biome: "resonance:crystallized_end",
+        },
+      ],
+      rewards: [
+        {
+          id: "7498574D3B8EFFD2",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2D77FA1B99B36460",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:blackstone",
+        count: 1,
+      },
+      x: 8.5,
+      y: 9.0,
+      dependencies: [
+        "506CE8202884EF43",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "1A235CAF42A6F6A0",
+      tasks: [
+        {
+          id: "271836E374C51033",
+          type: "biome",
+          biome: "nullscape:shadowlands",
+        },
+        {
+          id: "7443B6A620A86B46",
+          type: "biome",
+          biome: "nullscape:void_barrens",
+        },
+        {
+          id: "63013C1ACC26AB96",
+          type: "biome",
+          biome: "nullscape:crystal_peaks",
+        },
+      ],
+      rewards: [
+        {
+          id: "4B65B24B3AA48CDB",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "47C347C993716245",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "1237537100194BED",
+      x: -2.0,
+      y: 15.0,
+      id: "6BB2FAF3008FE82F",
+    },
+    {
+      linked_quest: "7A8669713BE28E8F",
+      x: -4.0,
+      y: 15.0,
+      id: "6B99218623FDD21A",
+    },
+    {
+      linked_quest: "34C8824842867F5D",
+      x: 2.0,
+      y: 15.0,
+      id: "1AC1E40A7F90DEB6",
+    },
+    {
+      linked_quest: "2E063BB63F0D37CC",
+      x: 4.0,
+      y: 15.0,
+      id: "69F08279F499A2EF",
+    },
+    {
+      linked_quest: "494E845D8A649A95",
+      x: -1.0,
+      y: 14.0,
+      id: "558531CA56987589",
+    },
+    {
+      linked_quest: "4F33BBD62C89D3D1",
+      x: -3.0,
+      y: 14.0,
+      id: "5794976959566CBE",
+    },
+    {
+      linked_quest: "69555EBF3EE460F6",
+      x: 3.0,
+      y: 14.0,
+      id: "4990148A03AF3DB4",
+    },
+    {
+      linked_quest: "375EB6B5189844BD",
+      x: 1.0,
+      y: 14.0,
+      id: "12067513EA683FDB",
+    },
+    {
+      linked_quest: "5060BFECF1EE9856",
+      x: -10.5,
+      y: 9.0,
+      id: "1AECFCBC9E55ACDB",
+    },
+    {
+      linked_quest: "77FFEC3A2289F5C2",
+      x: -6.5,
+      y: 9.0,
+      id: "76C2EFAE3682E122",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -5.0,
+      width: 6.33,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "7F209ECB076B2B30",
+      },
+      id: "7F0C31D24FB4F0DD",
+    },
+    {
+      x: 3.0,
+      y: -3.5,
+      width: 4.25,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_overworld.png",
+      click_action: {
+        type: "open_quest",
+        data: "5AB13D8A178233DD",
+      },
+      id: "3F182DB892DF14B9",
+    },
+    {
+      x: 0.0,
+      y: 3.0,
+      width: 5.33,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_ice_and_fire.png",
+      click_action: {
+        type: "open_quest",
+        data: "6A7DB2334016638A",
+      },
+      id: "25378C0665D0CA10",
+    },
+    {
+      x: -8.5,
+      y: 3.0,
+      width: 3.0,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_oceans.png",
+      click_action: {
+        type: "open_quest",
+        data: "1D96D2FF800AE80A",
+      },
+      id: "7ACE2F6DCC658D95",
+    },
+    {
+      x: -8.5,
+      y: -3.5,
+      width: 4.75,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_nether.png",
+      click_action: {
+        type: "open_quest",
+        data: "120E37CE2AB140FA",
+      },
+      id: "75DF1958243E18C6",
+    },
+    {
+      x: 8.5,
+      y: -3.5,
+      width: 3.42,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_end.png",
+      click_action: {
+        type: "open_quest",
+        data: "319428452110100A",
+      },
+      id: "2640936109A56F78",
+    },
+    {
+      x: 0.0,
+      y: 11.5,
+      width: 3.0,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_bosses.png",
+      click_action: {
+        type: "open_quest",
+        data: "656B7E686D7EBBE4",
+      },
+      id: "4936917BA7D1D88C",
+    },
+    {
+      x: -3.0,
+      y: -3.5,
+      width: 3.52,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_vendors.png",
+      click_action: {
+        type: "open_quest",
+        data: "4E77F883F5F8C4E7",
+      },
+      id: "2F65BB0FCF90B495",
+    },
+    {
+      x: 8.5,
+      y: 3.0,
+      width: 2.76,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/exploration_worlds.png",
+      click_action: {
+        type: "open_quest",
+        data: "4FE64D008CCF0CA2",
+      },
+      id: "4646E182BF1113D1",
+    },
+  ],
+}

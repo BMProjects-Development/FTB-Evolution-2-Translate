@@ -1,0 +1,5 @@
+{
+  "fromBlock": "ftbmaterials:cinnabar_deepslate_ore",
+  "item": "ftbmaterials:cinnabar_gem",
+  "toBlock": "minecraft:deepslate"
+}

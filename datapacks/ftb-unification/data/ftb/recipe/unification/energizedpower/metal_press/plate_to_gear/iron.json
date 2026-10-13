@@ -1,0 +1,11 @@
+{
+  "type": "energizedpower:metal_press",
+  "ingredient": {
+    "count": 4,
+    "ingredient": "ftbmaterials:iron_plate"
+  },
+  "pressMold": "#energizedpower:metal_press/press_molds/gear",
+  "result": {
+    "id": "ftbmaterials:iron_gear"
+  }
+}

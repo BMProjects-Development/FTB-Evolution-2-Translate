@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/dimensional_shard",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "ftbmaterials:dimensional_shard_gem"
+  }
+}

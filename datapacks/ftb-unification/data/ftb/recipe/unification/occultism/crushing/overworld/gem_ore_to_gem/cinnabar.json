@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/cinnabar",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "ftbmaterials:cinnabar_gem"
+  }
+}

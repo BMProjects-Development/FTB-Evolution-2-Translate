@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "iceandfire:fire_dragon",
+    "iceandfire:ice_dragon",
+    "iceandfire:lightning_dragon",
+    "iceandfire:hydra",
+    "iceandfire:gorgon",
+    "iceandfire:cyclops",
+    "iceandfire:siren",
+    "iceandfire:sea_serpent",
+    "iceandfire:deathworm",
+    "iceandfire:cockatrice",
+    "iceandfire:stymphalian_bird",
+    "iceandfire:troll",
+    "iceandfire:amphithere",
+    "iceandfire:hippogryph",
+    "iceandfire:hippocampus",
+    "iceandfire:pixie",
+    "iceandfire:ghost",
+    "iceandfire:dread_lich",
+    "iceandfire:dread_knight",
+    "iceandfire:dread_horse",
+    "iceandfire:dread_beast",
+    "iceandfire:dread_ghoul",
+    "iceandfire:dread_scuttler",
+    "iceandfire:dread_thrall"
+  ]
+}

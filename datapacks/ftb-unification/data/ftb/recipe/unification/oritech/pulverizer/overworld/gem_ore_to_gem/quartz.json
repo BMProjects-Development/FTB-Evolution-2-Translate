@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/quartz"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:quartz"
+    }
+  ],
+  "time": 100
+}

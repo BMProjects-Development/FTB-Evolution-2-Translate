@@ -1,0 +1,34 @@
+{
+  "parent": "ftb:evolution/royal_audience",
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.regicide.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.regicide.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "king": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "thunderrelics:thunder_king"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/uraninite_poor"
+  ],
+  "itemResults": [
+    {
+      "id": "powah:uraninite"
+    }
+  ],
+  "time": 100
+}

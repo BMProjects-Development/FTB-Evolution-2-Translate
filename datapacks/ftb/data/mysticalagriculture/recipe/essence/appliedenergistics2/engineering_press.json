@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:certus_quartz"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "EME",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:certus_quartz_essence",
+    "M": "#c:gems/diamond"
+  },
+  "result": {
+    "id": "ae2:engineering_processor_press",
+    "count": 1
+  }
+}

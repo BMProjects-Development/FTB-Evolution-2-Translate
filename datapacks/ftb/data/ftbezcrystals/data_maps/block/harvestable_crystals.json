@@ -1,0 +1,25 @@
+{
+  "values": {
+    "ae2:quartz_cluster": {
+      "bud": "ae2:small_quartz_bud",
+      "budding_block": [
+        "ae2:flawless_budding_quartz",
+        "ae2:flawed_budding_quartz",
+        "ae2:chipped_budding_quartz",
+        "ae2:damaged_budding_quartz"
+      ]
+    },
+    "nautec:prismarine_cluster": {
+      "bud": "nautec:small_prismarine_bud",
+      "budding_block": [
+        "nautec:budding_prismarine"
+      ]
+    },
+    "nodeworks:celestine_cluster": {
+      "bud": "nodeworks:small_celestine_bud",
+      "budding_block": [
+        "nodeworks:budding_celestine"
+      ]
+    }
+  }
+}

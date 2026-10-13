@@ -1,0 +1,5 @@
+[client]
+	#Show the hold-to-skip hint at low alpha while the jump key is not held
+	showSkipHint = true
+	#Close any open screen when a cutscene starts
+	closeScreenOnStart = true

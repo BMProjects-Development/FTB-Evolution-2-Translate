@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/chromium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:chromium_shard"
+    }
+  ],
+  "time": 100
+}

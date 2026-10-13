@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "ftb:molten_energetic_alloy"
+  },
+  "result": {
+    "id": "enderio:energetic_alloy_block"
+  }
+}

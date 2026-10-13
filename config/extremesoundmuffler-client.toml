@@ -1,0 +1,82 @@
+#General settings
+[general]
+	#Blacklisted Sounds - add the name of the sounds to blacklist, separated with comma 
+	#
+	# Default: "ui.", "music.", "ambient."
+	forbiddenSounds = ["ui.", "music.", "ambient."]
+	#Mods that shouldn't appear in the Mods section, sepparated by comma. 
+	#
+	# Default: fabricloader, neoforge, java, mixinextras, fiber, extremesoundmuffler
+	forbiddenMods = ["fabricloader", "neoforge", "java", "mixinextras", "fiber", "extremesoundmuffler"]
+	#Use global muffled sounds?
+	#Global muffled sounds are stored in the .minecraft folder while local muffled sounds are stored in the modpack folder 
+	#
+	# Default: false
+	useGlobalMuffledSounds = false
+	#Allow the "ALL" sounds list to include the blacklisted sounds? 
+	#
+	# Default: false
+	lawfulAllList = false
+	#Volume set when pressed the mute button by  Default 
+	#
+	# Default: 0.0
+	# Range: 0.0 ~ 0.9
+	defaultMuteVolume = 0.0
+	#Set to true to move the muffle and play buttons to the left side of the GUI 
+	#
+	# Default: false
+	leftButtons = false
+	#Allow Ko-Fi tip in the Muffler screen? 
+	#
+	# Default: true
+	showTip = true
+	#Whether or not use the dark theme 
+	#
+	# Default: false
+	useDarkTheme = false
+
+#Inventory button settings
+[inventory_button]
+	#Disable the Muffle button in the player inventory? 
+	#
+	# Default: false
+	disableInventoryButton = false
+	#Coordinates for the Muffler button in the player inventory.
+	# You can change this in game by holding the RMB over the button and draging it around 
+	#
+	# Default: 75
+	# Range: > -2147483648
+	invButtonX = 75
+	#Coordinates for the Muffler button in the player inventory. 
+	#You can change this in game by holding the RMB over the button and draging it around 
+	#
+	# Default: 7
+	# Range: > -2147483648
+	invButtonY = 7
+	#Disable the Muffle button in the creative player inventory? 
+	#
+	# Default: false
+	disableCreativeInventoryButton = false
+	#Coordinates for the Muffler button in the creative player inventory.
+	# You can change this in game by holding the RMB over the button and draging it around 
+	#
+	# Default: 2
+	# Range: > -2147483648
+	creativeInvButtonX = 2
+	#Coordinates for the Muffler button in the creative player inventory. 
+	#You can change this in game by holding the RMB over the button and draging it around
+	# Default: 2
+	# Range: > -2147483648
+	creativeInvButtonY = 2
+
+#Anchor settings
+[Anchors]
+	#Disable the Anchors? 
+	#
+	# Default: false
+	disableAnchors = false
+	#Set max size for anchors (Warning: high values may cause LAG!). 
+	#
+	# Default: 32
+	# Range: > 1
+	maxAnchorRange = 32

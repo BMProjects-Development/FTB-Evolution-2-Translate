@@ -1,0 +1,11 @@
+[general]
+	#Whether the mod is enabled.
+	enabled = true
+	#The initial backoff delay in ticks when an item pipe fails to insert items.
+	# Default: 2
+	# Range: 1 ~ 1200
+	baseBackoffTicks = 2
+	#The maximum backoff delay in ticks for item pipes.
+	# Default: 32
+	# Range: 1 ~ 1200
+	maxBackoffTicks = 32

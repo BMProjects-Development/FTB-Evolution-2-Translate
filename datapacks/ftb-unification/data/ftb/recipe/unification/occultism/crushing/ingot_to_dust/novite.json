@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "#c:ingots/novite",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "ftbmaterials:novite_dust"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ingots/ferricore",
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_ferricore"
+  },
+  "temperature": 800,
+  "time": 120
+}

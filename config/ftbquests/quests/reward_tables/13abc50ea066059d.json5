@@ -1,0 +1,94 @@
+{
+  id: "13ABC50EA066059D",
+  order_index: 29,
+  icon: {
+    id: "bhc:red_heart_canister",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "004CA46CD2561D49",
+      item: {
+        id: "bhc:relic_apple",
+        count: 1,
+      },
+      count: 32,
+      random_bonus: 16,
+      weight: 6.0,
+    },
+    {
+      id: "7412D0FE18AA5F17",
+      item: {
+        id: "bhc:red_heart_canister",
+        count: 1,
+      },
+      count: 20,
+      weight: 5.0,
+    },
+    {
+      id: "718C87971EA59271",
+      item: {
+        id: "bhc:yellow_heart_canister",
+        count: 1,
+      },
+      count: 15,
+      weight: 4.0,
+    },
+    {
+      id: "0E6131ED3C3FC4E9",
+      item: {
+        id: "bhc:green_heart_canister",
+        count: 1,
+      },
+      count: 10,
+      weight: 3.0,
+    },
+    {
+      id: "430148A0D67F0E78",
+      item: {
+        id: "bhc:blue_heart_canister",
+        count: 1,
+      },
+      count: 5,
+      weight: 2.0,
+    },
+    {
+      id: "59521E48531878E5",
+      item: {
+        id: "bhc:heart_amulet",
+        count: 1,
+      },
+      only_one: true,
+      weight: 2.0,
+    },
+    {
+      id: "66CF6ECE6925F07E",
+      item: {
+        id: "bhc:soul_heart_canister",
+        count: 1,
+      },
+    },
+    {
+      id: "522B6F94C4364964",
+      item: {
+        id: "bhc:soul_heart_amulet",
+        count: 1,
+      },
+      only_one: true,
+    },
+  ],
+  loot_crate: {
+    string_id: "random_heart",
+    color: 16755200,
+    item_name: "ftbquests.loot_crate.random_heart",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

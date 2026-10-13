@@ -1,0 +1,1366 @@
+{
+  id: "1D7D877A620A601D",
+  group: "34AB008A83BAD0A6",
+  order_index: 1,
+  icon: {
+    id: "minecraft:oak_log",
+    count: 1,
+  },
+  filename: "getting_started",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  quests: [
+    {
+      icon: {
+        id: "minecraft:oak_log",
+        count: 1,
+      },
+      x: -0.5,
+      y: 0.0,
+      shape: "gear",
+      size: 2.0,
+      id: "65457E1A8AAEDF51",
+      tasks: [
+        {
+          id: "254E5075B2383654",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)",
+            },
+          },
+        },
+        {
+          id: "58DF0CD6BFF84079",
+          type: "item",
+          item: {
+            id: "minecraft:wooden_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "76CF12B9225282FD",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "077512CD890B4117",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "sophisticatedbackpacks:backpack",
+            count: 1,
+            components: {
+              "sophisticatedcore:number_of_inventory_slots": 27,
+              "sophisticatedcore:number_of_upgrade_slots": 1,
+            },
+          },
+        },
+        {
+          id: "69F75818020CA597",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:stone_pickaxe",
+        count: 1,
+      },
+      x: 1.5,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "65457E1A8AAEDF51",
+      ],
+      size: 1.0,
+      id: "62A6EDE3018075BC",
+      tasks: [
+        {
+          id: "3E01B1FC9C5FA432",
+          type: "item",
+          item: {
+            id: "minecraft:cobblestone",
+            count: 1,
+          },
+        },
+        {
+          id: "1EB38D5E165CD47A",
+          type: "item",
+          item: {
+            id: "minecraft:stone_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "742173450559CC00",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "44839DD1C816D2CE",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8125427816321308143,
+        },
+        {
+          id: "2486A0AB7A0F9C6F",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "minecraft:torch",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      x: 3.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "62A6EDE3018075BC",
+      ],
+      size: 1.0,
+      id: "6D79D4AAD0431D98",
+      tasks: [
+        {
+          id: "2951B263BD889C8D",
+          type: "item",
+          item: {
+            id: "minecraft:furnace",
+            count: 1,
+          },
+        },
+        {
+          id: "576DCD301F8DCDB0",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:coals)",
+            },
+          },
+        },
+        {
+          id: "09C95BBE8EFB024C",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "37F5CA0334CEEF4F",
+          type: "item",
+          item: {
+            id: "minecraft:iron_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10170809334E2625",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7D22479E6F09C84A",
+          type: "item",
+          item: {
+            id: "minecraft:raw_iron",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "hephaestus:smeltery_controller",
+        count: 1,
+      },
+      x: 4.5,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "6D79D4AAD0431D98",
+      ],
+      size: 1.0,
+      id: "01583CD13DE25A1C",
+      tasks: [
+        {
+          id: "602ACD055950404C",
+          type: "item",
+          item: {
+            id: "hephaestus:forge_brick",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "6BBF2E81BD95800A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5A105D254F67FFDF",
+          type: "item",
+          item: {
+            id: "hephaestus:forge_brick",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+        {
+          id: "27D308840BA04908",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:chest",
+        count: 1,
+      },
+      x: 1.0,
+      y: 1.5,
+      dependencies: [
+        "65457E1A8AAEDF51",
+      ],
+      size: 1.0,
+      id: "7EFD51F029547AFF",
+      tasks: [
+        {
+          id: "5ABBD4430BD93879",
+          type: "item",
+          item: {
+            id: "minecraft:chest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E837EBAD71D4C6B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "3F20019E2BE93B62",
+          type: "item",
+          item: {
+            id: "sophisticatedstorage:basic_tier_upgrade",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "4EEAFC2AEF58515A",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "energizedpower:textures/gui/book_icons/comparator_mode_energy.png",
+        },
+      },
+      x: 4.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "6D79D4AAD0431D98",
+      ],
+      size: 1.0,
+      id: "1F42537BFD6A6F33",
+      tasks: [
+        {
+          id: "0F1858239A75514D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritech:basic_generator)item(integrateddynamics:coal_generator)item(justdirethings:generatort1)item(powah:furnator_starter)item(powah:magmator_starter)item(energizedpower:solar_panel_1)item(horsepowered:generator)item(powah:solar_panel_starter)item(stellaris:coal_generator))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E53A5A22602BB4F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "770A395F232AE8D7",
+          type: "item",
+          item: {
+            id: "minecraft:coal_block",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "2A00B6916E6AA37B",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftbchunks:textures/waypoint_home.png",
+        },
+      },
+      x: -0.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "65457E1A8AAEDF51",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "52AC92FEEDB40F4F",
+      tasks: [
+        {
+          id: "1F103F09B7944A39",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "72DA2E1F01C61F72",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 2472952087955583111,
+        },
+        {
+          id: "405DE387F15E0FC6",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/renders/ftb_skyline.png",
+        },
+      },
+      x: 19.5,
+      y: 0.0,
+      shape: "none",
+      dependencies: [
+        "30AD073D8434BE97",
+        "3BDC1484FE89DE9D",
+      ],
+      size: 4.0,
+      icon_scale: 2.0,
+      id: "37BE5ED4CC6DCAB5",
+      tasks: [
+        {
+          id: "28D26C7CCF0839A5",
+          type: "item",
+          item: {
+            id: "ftbevolutioncompanion:ftb_skyline",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D12DA1913170B13",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "5C7AB3ED7BF1B9F7",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 6449217915222121663,
+        },
+        {
+          id: "5EF7C09B19C866F1",
+          type: "xp",
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justdirethings:gooblock_tier1",
+        count: 1,
+      },
+      x: 7.0,
+      y: -1.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6D79D4AAD0431D98",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "52243EEF2C055424",
+      tasks: [
+        {
+          id: "58B8225BEA2D97FD",
+          type: "item",
+          item: {
+            id: "justdirethings:gooblock_tier1",
+            count: 1,
+          },
+        },
+        {
+          id: "314EAA230D97052B",
+          type: "item",
+          item: {
+            id: "justdirethings:raw_ferricore",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BF1576B9EFD8D4D",
+          type: "currency",
+          amount: 10,
+        },
+        {
+          id: "5BBC54AB820E6F4F",
+          type: "item",
+          item: {
+            id: "justdirethings:ferricore_ingot",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "19B830B1F3A41A0D",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ltxi:textures/item/t1_circuit.png",
+        },
+      },
+      x: 11.0,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "3CF1870586E420DB",
+      ],
+      size: 1.0,
+      id: "21246763BADC28E0",
+      tasks: [
+        {
+          id: "2CDF75AE6BB56973",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:electronic_circuit)item(ltxi:t1_circuit)item(energizedpower:basic_circuit))",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:quartz",
+        count: 1,
+      },
+      x: 9.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "14510C717D3834C1",
+      ],
+      size: 1.0,
+      id: "3CF1870586E420DB",
+      tasks: [
+        {
+          id: "34D9C42FD46997F0",
+          type: "item",
+          item: {
+            id: "minecraft:quartz",
+            count: 1,
+          },
+        },
+        {
+          id: "1092A04E20DC38CB",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ae2:certus_quartz_dust",
+            count: 1,
+          },
+        },
+        {
+          id: "1FDDE242122ACB85",
+          type: "item",
+          item: {
+            id: "ftbmaterials:silicon_gem",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A5469B1CA958A23",
+          type: "currency",
+          amount: 10,
+        },
+        {
+          id: "46F3953816A68B22",
+          type: "item",
+          item: {
+            id: "ftbmaterials:silicon_gem",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 12,
+        },
+        {
+          id: "518656545071CCE8",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "pentagon",
+      dependencies: [
+        "6D79D4AAD0431D98",
+      ],
+      size: 1.0,
+      id: "4A892B55276CEEE3",
+      tasks: [
+        {
+          id: "2BA3E37CBD8BA92B",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+        {
+          id: "1497FD1CD13CCDF0",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5493C6AD4B7821B6",
+          type: "currency",
+          amount: 25,
+        },
+        {
+          id: "7A2214C2CB220F10",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "620100D82F2E5FF1",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:block/nether_portal",
+        },
+      },
+      x: 7.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4A892B55276CEEE3",
+      ],
+      size: 1.5,
+      min_width: 250,
+      id: "14510C717D3834C1",
+      tasks: [
+        {
+          id: "6FC4ED55725BF0C0",
+          type: "item",
+          item: {
+            id: "minecraft:obsidian",
+            count: 1,
+          },
+          count: 10,
+        },
+        {
+          id: "296B1FC482B71F2F",
+          type: "item",
+          item: {
+            id: "minecraft:flint_and_steel",
+            count: 1,
+          },
+        },
+        {
+          id: "404A8C08A7390D9C",
+          type: "dimension",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "minecraft:block/nether_portal",
+            },
+          },
+          dimension: "minecraft:the_nether",
+        },
+      ],
+      rewards: [
+        {
+          id: "16EC552A501FC540",
+          type: "currency",
+          amount: 25,
+        },
+        {
+          id: "1E3560E8C0476D88",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 7855799128151010103,
+        },
+        {
+          id: "76672FE75C063C90",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "enderio:void_chassis",
+        count: 1,
+      },
+      x: 7.0,
+      y: 1.5,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "6D79D4AAD0431D98",
+      ],
+      size: 1.0,
+      id: "3242DFBF0D574B6E",
+      tasks: [
+        {
+          id: "7B3C3B6B6F0DEAF9",
+          type: "item",
+          item: {
+            id: "enderio:grains_of_infinity",
+            count: 1,
+          },
+        },
+        {
+          id: "1852E8DC0B8ECDC3",
+          type: "item",
+          item: {
+            id: "enderio:void_chassis",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B5DF77B1C0173C2",
+          type: "currency",
+          amount: 3,
+        },
+        {
+          id: "5E3A60B9595B583B",
+          type: "item",
+          item: {
+            id: "enderio:void_chassis",
+            count: 1,
+          },
+        },
+        {
+          id: "65C46162CC1A8D82",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: -2.5,
+      y: 0.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "65457E1A8AAEDF51",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.25,
+      id: "209C086AC37B0B44",
+      tasks: [
+        {
+          id: "0EDC849E2DE1FC29",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "44DEECA1EA38BF66",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:pumpkin_pie",
+        count: 1,
+      },
+      x: 1.0,
+      y: -1.5,
+      shape: "diamond",
+      dependencies: [
+        "65457E1A8AAEDF51",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "30BAA2AC524A2ACD",
+      tasks: [
+        {
+          id: "785029107A287E3E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(pantryforblockheads:burger)item(minecraft:pumpkin_pie))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78EAAF5498AA1094",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "05467384DF5E56FB",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8125427816321308143,
+        },
+        {
+          id: "1B7AD90F50A57744",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "kindredspirits:kindred_charm",
+        count: 1,
+      },
+      x: -0.5,
+      y: 2.0,
+      shape: "diamond",
+      dependencies: [
+        "65457E1A8AAEDF51",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "25B2D69A3A827D18",
+      tasks: [
+        {
+          id: "22F04FDB4DE7954F",
+          type: "item",
+          item: {
+            id: "kindredspirits:kindred_charm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E1DA5E13D7F25B4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "65FBB83C9C826AF4",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 3011350495281355900,
+        },
+        {
+          id: "2AC90949A1A1E155",
+          type: "xp",
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "kindredspirits:nightfox_spawn_egg",
+        count: 1,
+      },
+      x: -0.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "25B2D69A3A827D18",
+      ],
+      size: 1.25,
+      optional: true,
+      id: "4C4B66375F395436",
+      tasks: [
+        {
+          id: "4B94894BEB84C605",
+          type: "advancement",
+          advancement: "kindredspirits:bond_level_5",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "6C1D47EFBB712759",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbmaterials:steel_ingot",
+        count: 1,
+      },
+      x: 15.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "524F093A735BE7DD",
+      ],
+      size: 1.0,
+      id: "4278C6A88AE6F6D4",
+      tasks: [
+        {
+          id: "36DB64DBD8BBF50F",
+          type: "item",
+          item: {
+            id: "ftbmaterials:steel_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "3C60E5FEF7533AAB",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(enderio:alloy_smelter)item(energizedpower:alloy_furnace)item(energizedpower:induction_smelter)item(ftbic:alloy_smelter)item(oritech:foundry))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D3A233ED9FC5210",
+          type: "currency",
+          amount: 25,
+        },
+        {
+          id: "7F4C29D76056BCE6",
+          type: "item",
+          item: {
+            id: "ftbmaterials:steel_ingot",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "7376FFEBFEE46868",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:enderium_plate",
+        count: 1,
+      },
+      x: 16.5,
+      y: -1.0,
+      shape: "rsquare",
+      dependencies: [
+        "4278C6A88AE6F6D4",
+      ],
+      size: 1.0,
+      id: "30AD073D8434BE97",
+      tasks: [
+        {
+          id: "66F27AC159B289F2",
+          type: "item",
+          item: {
+            id: "ftbmaterials:steel_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "198B3309E785EDBC",
+          type: "item",
+          item: {
+            id: "ftbic:enderium_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "310FCC3B1073BCE6",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(energizedpower:compressor)item(ftbic:roller)item(ltxi:material_press))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2AA1AB9E0CAB6614",
+          type: "currency",
+          amount: 10,
+        },
+        {
+          id: "1F47F22998B8A52B",
+          type: "item",
+          item: {
+            id: "ftbmaterials:steel_plate",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "2C131C69C8FC1481",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "scannable:scanner",
+        count: 1,
+        components: {
+          "scannable:energy": 20000,
+        },
+      },
+      x: 4.5,
+      y: -3.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "1F42537BFD6A6F33",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0270ADB3945D2C1A",
+      tasks: [
+        {
+          id: "3E8CEE95E7145DF9",
+          type: "item",
+          item: {
+            id: "scannable:scanner",
+            count: 1,
+            components: {
+              "scannable:energy": 20000,
+            },
+          },
+        },
+        {
+          id: "01E9525916A38B8E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(scannable:common_ores_module)item(scannable:rare_ores_module)item(scannable:block_module))",
+            },
+          },
+        },
+        {
+          id: "6A6D77E42A0A7985",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "justdirethings:pocket_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C4AE3E9DD53CBB7",
+          type: "currency",
+          amount: 3,
+        },
+        {
+          id: "1ECA0ADC2EC14F90",
+          type: "item",
+          item: {
+            id: "justdirethings:coal_t1",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "6A956C8E109BF69D",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "enderio:vat",
+        count: 1,
+      },
+      x: 16.5,
+      y: 1.0,
+      shape: "rsquare",
+      dependencies: [
+        "4278C6A88AE6F6D4",
+      ],
+      size: 1.0,
+      id: "3BDC1484FE89DE9D",
+      tasks: [
+        {
+          id: "26BF8AEFF68CFD0E",
+          type: "item",
+          item: {
+            id: "enderio:vat",
+            count: 1,
+          },
+        },
+        {
+          id: "1F6F21A2568EB6EB",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "enderio:rocket_fuel_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "620D006649DA2A8B",
+          type: "currency",
+          amount: 10,
+        },
+        {
+          id: "7B568E0FD5D9172A",
+          type: "item",
+          item: {
+            id: "enderio:fluid_tank",
+            count: 1,
+          },
+        },
+        {
+          id: "2D2C8034F6381F97",
+          type: "xp",
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/renders/ftb_antimatter_constructor.png",
+        },
+      },
+      x: 11.0,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.0,
+      icon_scale: 2.0,
+      id: "1DD27C056EB93771",
+      tasks: [
+        {
+          id: "5E834046C74C825E",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1580AF3AD516028C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/renders/aml_ice_guardian.png",
+        },
+      },
+      x: 13.0,
+      y: 4.5,
+      shape: "none",
+      size: 1.0,
+      icon_scale: 2.0,
+      id: "2B396BAC38F76E44",
+      tasks: [
+        {
+          id: "57D7BF10D08DE7D2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "686A57EB43AF6DC8",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/renders/structures/stellaris_spacestation.png",
+        },
+      },
+      x: 15.0,
+      y: 4.5,
+      shape: "none",
+      size: 1.0,
+      icon_scale: 2.0,
+      id: "6DD06EC00EE795D9",
+      tasks: [
+        {
+          id: "7139A767AEA775C7",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4C96C1D3A787B27E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ae2:mysterious_cube",
+        count: 1,
+      },
+      x: 9.0,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.0,
+      icon_scale: 2.0,
+      id: "795D11D12A8F53E2",
+      tasks: [
+        {
+          id: "2E8E2E7AD9A28429",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "20B58B988ED83BA5",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "3EC0F38A5F8D01E2",
+      x: 3.0,
+      y: 3.0,
+      id: "2857A2B01A62835D",
+    },
+    {
+      linked_quest: "565BE0BC0B0CC3F8",
+      x: 3.0,
+      y: -1.5,
+      id: "17BCCC26946B09FC",
+    },
+    {
+      linked_quest: "524F093A735BE7DD",
+      x: 13.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "78A629719A99E39F",
+    },
+  ],
+  images: [
+    {
+      x: 1.0,
+      y: 6.0,
+      width: 1.72,
+      height: 2.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/kindred_quokka.png",
+      id: "75F7A0453D8706CC",
+    },
+    {
+      x: -0.5,
+      y: 6.0,
+      width: 3.02,
+      height: 3.3,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/kindred_direwolf.png",
+      order: 1,
+      id: "2381B7BA46F8C85D",
+    },
+    {
+      x: -2.0,
+      y: 6.5,
+      width: 3.0,
+      height: 2.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/kindred_nightfox.png",
+      order: 2,
+      id: "4EB0B64D7EB24A04",
+    },
+    {
+      x: 12.0,
+      y: 3.0,
+      width: 4.5,
+      height: 0.63,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/getting_started_where_next.png",
+      id: "532A9E96F0B49297",
+    },
+    {
+      x: -0.5,
+      y: -5.5,
+      width: 3.63,
+      height: 3.34,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/structures/classic_starterhouse.png",
+      id: "53440135ABA2D010",
+    },
+    {
+      x: 12.0,
+      y: -3.0,
+      width: 3.74,
+      height: 3.19,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/heph_forge_table.png",
+      id: "71895D50BAC1DF00",
+    },
+    {
+      x: 4.5,
+      y: 4.5,
+      width: 3.85,
+      height: 3.7,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/heph_smeltery.png",
+      id: "33D990AA23FE0778",
+    },
+  ],
+}

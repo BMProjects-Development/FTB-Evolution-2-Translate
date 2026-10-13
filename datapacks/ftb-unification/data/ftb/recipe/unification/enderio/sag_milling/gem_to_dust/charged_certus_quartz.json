@@ -1,0 +1,14 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": "ae2:charged_certus_quartz_crystal",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ae2:certus_quartz_dust"
+      }
+    }
+  ]
+}

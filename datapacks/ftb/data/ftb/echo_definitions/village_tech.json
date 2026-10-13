@@ -1,0 +1,285 @@
+{
+  "id": "ftb:village_tech",
+  "title": {
+    "translate": "ftb.shopkeeper.village_tech",
+    "color": "red"
+  },
+  "model": {
+    "villager_data": {
+      "type": "desert",
+      "profession": "toolsmith",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_tech",
+        "color": "red"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_tech_wares",
+      "shop_unlock": [
+        {
+          "name": "rubber",
+          "item": {
+            "id": "ftbic:rubber",
+            "count": 16
+          },
+          "cost": 8
+        },
+        {
+          "name": "industrial_grade_metal",
+          "item": {
+            "id": "ftbic:industrial_grade_metal",
+            "count": 8
+          },
+          "cost": 15
+        },
+        {
+          "name": "ingot_cast",
+          "item": {
+            "id": "hephaestus:ingot_cast",
+            "count": 1
+          },
+          "cost": 5
+        },
+        {
+          "name": "nugget_cast",
+          "item": {
+            "id": "hephaestus:nugget_cast",
+            "count": 1
+          },
+          "cost": 5
+        },
+        {
+          "name": "gear_cast",
+          "item": {
+            "id": "hephaestus:gear_cast",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "plate_cast",
+          "item": {
+            "id": "hephaestus:plate_cast",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "rod_cast",
+          "item": {
+            "id": "hephaestus:rod_cast",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "dielectric_paste",
+          "item": {
+            "id": "powah:dielectric_paste",
+            "count": 8
+          },
+          "cost": 10
+        },
+        {
+          "name": "item_pipe",
+          "item": {
+            "id": "pipez:item_pipe",
+            "count": 16
+          },
+          "cost": 12
+        },
+        {
+          "name": "basic_upgrade",
+          "item": {
+            "id": "pipez:basic_upgrade",
+            "count": 1
+          },
+          "cost": 15
+        },
+        {
+          "name": "card_item",
+          "item": {
+            "id": "laserio:card_item",
+            "count": 1
+          },
+          "cost": 8
+        },
+        {
+          "name": "plastic_sheet",
+          "item": {
+            "id": "oritech:plastic_sheet",
+            "count": 8
+          },
+          "cost": 12
+        },
+        {
+          "name": "motor",
+          "item": {
+            "id": "oritech:motor",
+            "count": 2
+          },
+          "cost": 30
+        },
+        {
+          "name": "spark_fruit",
+          "item": {
+            "id": "ltxi:spark_fruit",
+            "count": 1
+          },
+          "cost": 8
+        },
+        {
+          "name": "basic_solar_cell",
+          "item": {
+            "id": "energizedpower:basic_solar_cell",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "dark_steel_grinding_ball",
+          "item": {
+            "id": "enderio:dark_steel_grinding_ball",
+            "count": 4
+          },
+          "cost": 30
+        },
+        {
+          "name": "variable",
+          "item": {
+            "id": "integrateddynamics:variable",
+            "count": 16
+          },
+          "cost": 20
+        },
+        {
+          "name": "speed_upgrade",
+          "item": {
+            "id": "modularrouters:speed_upgrade",
+            "count": 2
+          },
+          "cost": 25
+        },
+        {
+          "name": "focus_matrix",
+          "item": {
+            "id": "mffs:focus_matrix",
+            "count": 4
+          },
+          "cost": 30
+        },
+        {
+          "name": "graphite_ingot",
+          "item": {
+            "id": "ftbmaterials:graphite_ingot",
+            "count": 32
+          },
+          "cost": 8
+        },
+        {
+          "name": "infinity_dirt_cell",
+          "item": {
+            "id": "ftb:infinity_dirt_cell",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "infinity_sand_cell",
+          "item": {
+            "id": "ftb:infinity_sand_cell",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "infinity_netherrack_cell",
+          "item": {
+            "id": "ftb:infinity_netherrack_cell",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "infinity_andesite_cell",
+          "item": {
+            "id": "ftb:infinity_andesite_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_soul_sand_cell",
+          "item": {
+            "id": "ftb:infinity_soul_sand_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_blackstone_cell",
+          "item": {
+            "id": "ftb:infinity_blackstone_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_basalt_cell",
+          "item": {
+            "id": "ftb:infinity_basalt_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_cobbled_deepslate_cell",
+          "item": {
+            "id": "ftb:infinity_cobbled_deepslate_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_lava_cell",
+          "item": {
+            "id": "ftb:infinity_lava_cell",
+            "count": 1
+          },
+          "cost": 500
+        },
+        {
+          "name": "infinity_sky_stone_cell",
+          "item": {
+            "id": "ftb:infinity_sky_stone_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_kivi_cell",
+          "item": {
+            "id": "ftb:infinity_kivi_cell",
+            "count": 1
+          },
+          "cost": 300
+        },
+        {
+          "name": "infinity_end_stone_cell",
+          "item": {
+            "id": "ftb:infinity_end_stone_cell",
+            "count": 1
+          },
+          "cost": 500
+        }
+      ]
+    }
+  ]
+}

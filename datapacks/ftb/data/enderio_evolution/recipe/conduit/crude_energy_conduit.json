@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "enderio:conduit_binder",
+    "I": [
+      "minecraft:copper_ingot",
+      "minecraft:iron_ingot"
+    ]
+  },
+  "pattern": [
+    "BBB",
+    "III",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio_evolution:crude_energy_conduit"
+    },
+    "count": 8,
+    "id": "enderio:conduit"
+  }
+}

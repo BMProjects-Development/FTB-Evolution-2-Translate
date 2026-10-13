@@ -1,0 +1,69 @@
+#Enable ToroHealth
+enabled = true
+
+[hudOptions]
+	#Show HUD
+	showHUD = false
+	#Show entity
+	showEntity = true
+	#Allowed Values: LIGHT, HEAVY
+	frameStyle = "LIGHT"
+	#Allowed Values: NONE, LAST, CUMULATIVE
+	healthChangeType = "LAST"
+	onlyWhenHurt = false
+	# Default: 128.0
+	# Range: 0.0 ~ 1024.0
+	hudDistance = 128.0
+	# Default: 20
+	# Range: 0 ~ 200
+	hudHideDelay = 20
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	anchorPoint = "TOP_LEFT"
+	# Default: 2
+	# Range: -500 ~ 500
+	hudXPosition = 2
+	# Default: 2
+	# Range: -500 ~ 500
+	hudYPosition = 2
+	# Default: 1
+	# Range: 1 ~ 4
+	hudScale = 1
+
+[particleOptions]
+	showParticle = true
+	#Allowed Values: WORLD_LIGHT, FULL_BRIGHT
+	particleLightMode = "WORLD_LIGHT"
+	# Default: 64.0
+	# Range: 0.0 ~ 1024.0
+	particleDistance = 64.0
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	damageColor = 16711680
+	# Default: 65280
+	# Range: 0 ~ 16777215
+	healColor = 65280
+
+[inWorldBarOptions]
+	#Allowed Values: NONE, WHEN_HOLDING_WEAPON, ALWAYS
+	inWorldBarVisibilityMode = "ALWAYS"
+	#Allowed Values: ENTITY_LIGHT, FULL_BRIGHT
+	inWorldBarLightMode = "ENTITY_LIGHT"
+	onlyWhenLookingAt = false
+	onlyWhenHurt = true
+	# Default: 64.0
+	# Range: 0.0 ~ 1024.0
+	inWorldBarDistance = 128.0
+
+[barColor]
+	# Default: 65280
+	# Range: 0 ~ 16777215
+	friendColor = 65280
+	# Default: 32768
+	# Range: 0 ~ 16777215
+	friendColorSecondary = 32768
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	foeColor = 16711680
+	# Default: 8388608
+	# Range: 0 ~ 16777215
+	foeColorSecondary = 8388608

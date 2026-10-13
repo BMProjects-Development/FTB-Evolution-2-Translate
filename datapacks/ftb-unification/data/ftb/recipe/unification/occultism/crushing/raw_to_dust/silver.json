@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:raw_materials/silver",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "ftbmaterials:silver_dust"
+  }
+}

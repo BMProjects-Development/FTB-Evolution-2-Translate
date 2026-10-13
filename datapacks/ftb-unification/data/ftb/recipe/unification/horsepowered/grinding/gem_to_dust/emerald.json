@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "minecraft:emerald",
+  "result": {
+    "id": "ftbmaterials:emerald_dust"
+  },
+  "time": 16
+}

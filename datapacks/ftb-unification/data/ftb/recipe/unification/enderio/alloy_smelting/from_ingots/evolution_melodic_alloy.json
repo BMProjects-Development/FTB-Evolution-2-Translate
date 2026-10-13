@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 10000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:crystalline_pink_slime_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio:end_steel_ingot"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_evolution:melodic_alloy_ingot"
+  }
+}

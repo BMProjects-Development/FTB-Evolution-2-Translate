@@ -1,0 +1,63 @@
+{
+  "quest.742BC34CA43A9BDC.quest_desc": [
+    "Fill the &aFeeding Trough&r with animal food and every 1,200 ticks it feeds the adult animals within 4 blocks across and 1 block up or down, which sets them breeding.",
+    "",
+    "Each Speed upgrade takes 60 ticks off that timer.",
+  ],
+  "quest.1125AF119766A86F.title": "&aWatering Trough",
+  "quest.77D71E4CCF457B99.quest_desc": [
+    "Use a brown or red mushroom, or a crimson or warped fungus, on a &aComposter&r and there's a 20% chance a growth sprouts on one of its four sides, as long as that side is open air.",
+    "",
+    "The growth ages like a crop and needs a light level of 9 or more to grow. Right-click it once it's fully grown to pick the mushrooms, and it stays in place to grow again.",
+  ],
+  "quest.39B6E59D53A410C2.quest_desc": [
+    "Bees plant flowers. When a hive has two or more flower types nearby, each honey delivery has a 15% chance to plant a new flower with a color blended from its neighbors.",
+  ],
+  "quest.1451C80A726C94AC.quest_desc": [
+    "Most level 4 Farmers sell &aLuffa&r, 4 for 2 emeralds.",
+    "",
+    "It has to be planted on a fence post. &aDried Luffa&r is a renewable source of Sponge, so you don't need to raid an ocean monument.",
+  ],
+  "quest.1CF009233E5F3180.title": "&3Farm Controller",
+  "quest.72E34549F2F844F4.title": "&aWildflowers",
+  "quest.72E34549F2F844F4.quest_desc": [
+    "This mod adds 32 flowers that grow wild in forest, plains, jungle, swamp, hill, mountain and other temperate or wet biomes.",
+    "",
+    "Each kind has its own color, and flowers that bees plant come out as a blend of their neighbors. Craft one on its own for the vanilla dye closest to its color, or two dyes from a tall flower.",
+  ],
+  "quest.1451C80A726C94AC.title": "&aLuffa",
+  "quest.33F929B0D52A951D.title": "&eProductive Farming",
+  "quest.1125AF119766A86F.quest_desc": [
+    "The &aWatering Trough&r holds 10,000 mB of water. Every cycle it takes 200 ticks off the breeding cooldown of each nearby adult animal, using 100 mB per animal.",
+    "",
+    "Next to a &aFeeding Trough&r, animals are ready to breed again sooner, because each cycle shortens the 6,000-tick cooldown that follows breeding.",
+  ],
+  "quest.33F929B0D52A951D.quest_desc": [
+    "&eProductive Farming&r gives crops traits. &bGrowth&r speeds up vanilla and &eMystical Agriculture&r crops and shortens planter time, and &bYield&r adds to a crop's drops. &bMutability&r and &bResistance&r show up too, but neither has any effect in this pack.",
+    "",
+    "[\"\", \"Look at a planted crop and hold \", {\"keybind\": \"key.jade.show_details\", \"color\": \"yellow\", \"hover_event\": {\"action\": \"show_text\", \"value\": \"Default: Left Shift\"}}, \" to see its traits.\"]",
+    "",
+    "Each time a crop finishes growing it has a chance to raise one of its four traits, picked at random. Wheat, carrots, potatoes, beetroot and mushroom growths roll at 7%, and so does &aLuffa&r in an &eAgritech Evolved&r planter. &eMystical Agriculture&r crops roll at 6% for tier 1, down to 1% at tier 6, while the four elemental seeds roll at 7%.",
+    "",
+    "Seeds keep their traits when you replant them, &eAgritech Evolved&r planters included. A seed with Very High Growth finishes in a quarter of the normal planter time.",
+  ],
+  "quest.3A6F87DEB3A4AD72.title": "&aNutrient Water",
+  "quest.77D71E4CCF457B99.title": "&aMushroom Growths",
+  "quest.1CF009233E5F3180.quest_desc": [
+    "The &3Farm Controller&r runs a walled field for you. Build a ring of stone bricks, bricks or glass, set the controller into it facing outward and right-click it with an empty hand to form the farm. Crops are planted on the layer just above the top of the ring.",
+    "",
+    "Every 264 ticks it harvests every ripe crop on the farm and collects the drops into its 27 slots. It stops when those slots are full, so pull the output out.",
+    "{@pagebreak}",
+    "It has 4 upgrade slots. The &aUpgrade: Speed&r from &eProductive Bees&r fits, and four of them cut the cycle to 120 ticks.",
+    "",
+    "A farm can hold up to 1,024 blocks of volume, with a wall ring of up to 200 blocks and a height of 20.",
+  ],
+  "task.398E3AC168B45A1E.title": "Any Wildflower",
+  "quest.3A6F87DEB3A4AD72.quest_desc": [
+    "Build the walls at least three blocks tall, with the controller in the top row, and the farm doubles as a fish farm. The message when the farm forms should read height 3 or more. Put in pairs of cod, salmon, squid or other fish and the controller breeds them, making 50 mB of &aNutrient Water&r per fish each cycle.",
+    "",
+    "The controller spends that water to bonemeal the crops growing on top of the farm, 50 mB for each one it grows. The tank holds 10,000 mB, enough for 200 bonemeals, so a bigger farm needs more fish.",
+  ],
+  "quest.39B6E59D53A410C2.title": "&aBusy Bees",
+  "quest.742BC34CA43A9BDC.title": "&aFeeding Trough",
+}

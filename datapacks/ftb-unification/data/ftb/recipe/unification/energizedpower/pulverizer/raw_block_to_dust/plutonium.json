@@ -1,0 +1,42 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "#c:storage_blocks/raw_plutonium",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7,
+      0.33
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7,
+      0.33,
+      0.15
+    ],
+    "result": {
+      "id": "ftbmaterials:plutonium_dust"
+    }
+  }
+}

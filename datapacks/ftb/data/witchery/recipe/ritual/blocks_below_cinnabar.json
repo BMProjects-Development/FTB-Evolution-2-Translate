@@ -1,0 +1,80 @@
+{
+  "type": "witchery:ritual",
+  "block_mapping": {
+    "G": "witchery:golden_ritual_chalk",
+    "L": "witchery:otherwhere_chalk"
+  },
+  "pattern": [
+    "_____LLLLL_____",
+    "___LL_____LL___",
+    "__L_________L__",
+    "_L___________L_",
+    "_L___________L_",
+    "L_____________L",
+    "L_____________L",
+    "L______G______L",
+    "L_____________L",
+    "L_____________L",
+    "_L___________L_",
+    "_L___________L_",
+    "__L_________L__",
+    "___LL_____LL___",
+    "_____LLLLL_____"
+  ],
+  "ritual_events": [
+    {
+      "type": "witchery:consume_items",
+      "items": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "witchery:phantom_vapor"
+        },
+        {
+          "item": {
+            "neoforge:ingredient_type": "neoforge:components",
+            "components": {
+              "witchery:attuned": true
+            },
+            "items": "witchery:attuned_stone"
+          }
+        }
+      ]
+    },
+    {
+      "type": "witchery:consume_items",
+      "item_ids": [
+        {
+          "item": "ftbmaterials:cinnabar_gem"
+        }
+      ],
+      "items": []
+    },
+    {
+      "type": "witchery:block_break_particle_disc",
+      "radius": 7,
+      "time": 200
+    },
+    {
+      "type": "witchery:mine_blocks_below",
+      "targets": [
+        {
+          "ore": "ftbmaterials:cinnabar_stone_ore",
+          "deepslate_ore": "ftbmaterials:cinnabar_deepslate_ore"
+        }
+      ]
+    },
+    {
+      "type": "witchery:summon_item",
+      "items": [
+        {
+          "id": "witchery:attuned_stone"
+        }
+      ]
+    }
+  ]
+}

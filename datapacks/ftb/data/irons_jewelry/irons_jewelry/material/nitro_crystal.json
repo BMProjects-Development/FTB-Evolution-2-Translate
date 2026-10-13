@@ -1,0 +1,27 @@
+{
+  "descriptionId": "ftb.irons.material.nitro_crystal",
+  "ingredient": "powah:crystal_nitro",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/nitro_crystal",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:crit_chance",
+      "amount": 0.05,
+      "operation": "add_value"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "damageType": "minecraft:explosion",
+        "amount": {
+          "base": 2,
+          "scalar": 1
+        }
+      }
+    }
+  }
+}

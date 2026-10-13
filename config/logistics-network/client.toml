@@ -1,0 +1,20 @@
+#Whether newly placed nodes should be visible by default.
+defaultNodeVisibility = true
+#Maximum number of nodes rendered when holding a wrench. Nearest nodes are prioritized.
+# Default: 200
+# Range: > 1
+maxRenderedNodes = 200
+#Maximum number of visible node models rendered. Nearest nodes are prioritized. 0 = unlimited.
+# Default: 500
+# Range: > 0
+maxVisibleNodes = 500
+#Render logistics nodes as connected textures when neighboring nodes are visible.
+connectedNodeTextures = true
+#GUI theme for logistics node screens: light, dark, redstone, nebula, glass, terminal, pastel, brutalist
+theme = "dark"
+#Use the classic green terminal look for the network computer instead of the selected GUI theme.
+computerClassicTheme = true
+#Invert the wrench copy/paste controls so right-click pastes and modifier 1 + right-click copies.
+invertCopyPasteControls = false
+#Ask for confirmation before creating a network.
+confirmNetworkCreation = true

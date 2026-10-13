@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/enderium",
+  "result": {
+    "id": "ftbic:enderium_dust"
+  },
+  "time": 16
+}

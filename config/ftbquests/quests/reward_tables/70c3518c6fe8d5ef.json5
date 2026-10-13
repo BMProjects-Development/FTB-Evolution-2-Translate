@@ -1,0 +1,287 @@
+{
+  id: "70C3518C6FE8D5EF",
+  order_index: 8,
+  icon: {
+    id: "minecraft:cookie",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "31500E4DAD8DD138",
+      item: {
+        id: "pantryforblockheads:burger",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "6BFF1FCEF0F192C2",
+      item: {
+        id: "pantryforblockheads:burrito",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "0423E961A77B21A2",
+      item: {
+        id: "pantryforblockheads:taco",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "69E590505D51BF14",
+      item: {
+        id: "pantryforblockheads:hotdog",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "643AF5BEB322A871",
+      item: {
+        id: "pantryforblockheads:sandwich",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "538003EC98CBAD0B",
+      item: {
+        id: "pantryforblockheads:flatbread",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "10D55F6A5603B018",
+      item: {
+        id: "pantryforblockheads:fried_egg",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "5D7E67F4AE6686E2",
+      item: {
+        id: "pantryforblockheads:nigiri_sushi",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "3F0724A66CC4DCF2",
+      item: {
+        id: "pantryforblockheads:fortune_cookie",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "69CE8ECAA4B84CE9",
+      item: {
+        id: "pantryforblockheads:chocolate_doughnut",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "57A29D3400900ADB",
+      item: {
+        id: "pantryforblockheads:bacon",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "13FDF177C143CE39",
+      item: {
+        id: "pantryforblockheads:pretzel",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "6CA80FFAFBA6A9B1",
+      item: {
+        id: "oritech:banana",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 8.0,
+    },
+    {
+      id: "19F954C728FC8BBC",
+      item: {
+        id: "minecraft:cooked_beef",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "1F4C73BAAA944F56",
+      item: {
+        id: "minecraft:cooked_porkchop",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "4FA6B86C0FCEDC38",
+      item: {
+        id: "minecraft:cooked_mutton",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "4A1D6872818C9EC9",
+      item: {
+        id: "minecraft:golden_carrot",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "36A0960DA8AD60EB",
+      item: {
+        id: "pantryforblockheads:cheese_pizza",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 4.0,
+    },
+    {
+      id: "49448EDFB957C95C",
+      item: {
+        id: "pantryforblockheads:pepperoni_pizza",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 4.0,
+    },
+    {
+      id: "2C26F0489CA8E410",
+      item: {
+        id: "pantryforblockheads:vegetable_pizza",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 4.0,
+    },
+    {
+      id: "6D036A8735B884F7",
+      item: {
+        id: "pantryforblockheads:muffin",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 4.0,
+    },
+    {
+      id: "32A6BE0FBC354D5E",
+      item: {
+        id: "pantryforblockheads:berry_muffin",
+        count: 1,
+      },
+      random_bonus: 1,
+      weight: 4.0,
+    },
+    {
+      id: "543674371685ABB6",
+      item: {
+        id: "productivebees:milk_bottle",
+        count: 1,
+      },
+      count: 2,
+      random_bonus: 3,
+      weight: 4.0,
+    },
+    {
+      id: "4970E013268F7D61",
+      item: {
+        id: "auroral:hot_cocoa",
+        count: 1,
+      },
+      count: 4,
+      weight: 4.0,
+    },
+    {
+      id: "32E508405619AD11",
+      item: {
+        id: "auroral:frosted_cookies",
+        count: 1,
+      },
+      count: 4,
+      weight: 4.0,
+    },
+    {
+      id: "330A22E6E1DFBCCD",
+      item: {
+        id: "minecraft:golden_apple",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "11E54E073CEB554B",
+      item: {
+        id: "minecraft:glistering_melon_slice",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "2C4332BF7434A4B6",
+      item: {
+        id: "minecraft:enchanted_golden_apple",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "grandma_s_treat",
+    color: 5635925,
+    item_name: "ftbquests.reward_table.grandmas_treat",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

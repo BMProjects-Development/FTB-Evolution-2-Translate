@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:iron_plate"
+  }
+}

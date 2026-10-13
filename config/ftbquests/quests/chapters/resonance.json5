@@ -1,0 +1,766 @@
+{
+  id: "44976EA48A397669",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 7,
+  icon: {
+    id: "resonance:resonant_sword",
+    count: 1,
+  },
+  filename: "resonance",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "4A4DCCA388BB4131",
+  quests: [
+    {
+      icon: {
+        id: "resonance:amethyst_ingot",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "4A4DCCA388BB4131",
+      tasks: [
+        {
+          id: "6E69F8C09F3B2F52",
+          type: "item",
+          item: {
+            id: "resonance:amethyst_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3978BA0BFC1765DD",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "795D80A8A0361C63",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_sword",
+        count: 1,
+      },
+      x: 3.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4A4DCCA388BB4131",
+      ],
+      size: 1.5,
+      id: "13553FB69A409A3C",
+      tasks: [
+        {
+          id: "5090EC392C839C65",
+          type: "item",
+          item: {
+            id: "resonance:resonant_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27AED28D904C570E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "53837C13EED705DE",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_pickaxe",
+        count: 1,
+      },
+      x: 1.5,
+      y: -1.5,
+      dependencies: [
+        "4A4DCCA388BB4131",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "688AEF1836224F70",
+      tasks: [
+        {
+          id: "2A0BE23DAECCA556",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "resonance:resonant_pickaxe",
+            count: 1,
+          },
+        },
+        {
+          id: "3F2965F1D7C9AE6E",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "resonance:resonant_axe",
+            count: 1,
+          },
+        },
+        {
+          id: "5773E3A4576921CC",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "resonance:resonant_shovel",
+            count: 1,
+          },
+        },
+        {
+          id: "52F168F0F273A2FE",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "resonance:resonant_hoe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "107C3964F3473E10",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "486711D1666D3732",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_chestplate",
+        count: 1,
+      },
+      x: 1.5,
+      y: 1.5,
+      dependencies: [
+        "4A4DCCA388BB4131",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "1B65544DB3E28173",
+      tasks: [
+        {
+          id: "61E044B419ACFE91",
+          type: "item",
+          item: {
+            id: "resonance:resonant_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "230B374BB12198A0",
+          type: "item",
+          item: {
+            id: "resonance:resonant_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "18D83254D4048CB8",
+          type: "item",
+          item: {
+            id: "resonance:resonant_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "56377D0459EC91A1",
+          type: "item",
+          item: {
+            id: "resonance:resonant_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32BA658C0F8F2550",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3C9BB8105211939A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_horse_armor",
+        count: 1,
+      },
+      x: 1.5,
+      y: 3.5,
+      dependencies: [
+        "1B65544DB3E28173",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "23AA90CD5AE29FE0",
+      tasks: [
+        {
+          id: "4AB0C2B07C800E62",
+          type: "item",
+          item: {
+            id: "resonance:resonant_horse_armor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F89AE1595AA134A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_arrow",
+        count: 1,
+      },
+      x: 3.0,
+      y: -2.5,
+      dependencies: [
+        "13553FB69A409A3C",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "14D959D707960395",
+      tasks: [
+        {
+          id: "276130310164099E",
+          type: "item",
+          item: {
+            id: "resonance:resonant_arrow",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "5F6EDE3AECF2FBE3",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_spear",
+        count: 1,
+      },
+      x: 4.5,
+      y: -1.5,
+      dependencies: [
+        "13553FB69A409A3C",
+      ],
+      size: 1.0,
+      id: "26D8F33ED69CA752",
+      tasks: [
+        {
+          id: "1BB13A54783B264C",
+          type: "item",
+          item: {
+            id: "resonance:resonant_spear",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F8A3D3CC593C603",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4E0909EB4A9E0256",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_lantern",
+        count: 1,
+      },
+      x: 4.5,
+      y: 1.5,
+      dependencies: [
+        "13553FB69A409A3C",
+      ],
+      size: 1.0,
+      id: "409198E1B4B019C6",
+      tasks: [
+        {
+          id: "724EF6AFFBA30107",
+          type: "item",
+          item: {
+            id: "resonance:resonant_lantern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "795275F877936552",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "63DF6880FEE645CB",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:frequency_relay",
+        count: 1,
+      },
+      x: 6.0,
+      y: 3.0,
+      dependencies: [
+        "409198E1B4B019C6",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5F1395A57ED60EA9",
+      tasks: [
+        {
+          id: "750030FBCDF70F64",
+          type: "item",
+          item: {
+            id: "resonance:frequency_relay",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "23BAD13C777AB0FF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_totem",
+        count: 1,
+      },
+      x: 3.0,
+      y: 2.5,
+      dependencies: [
+        "13553FB69A409A3C",
+      ],
+      size: 1.0,
+      id: "500EB382B0DC9055",
+      tasks: [
+        {
+          id: "258018D3CDFE6E2A",
+          type: "item",
+          item: {
+            id: "resonance:resonant_totem",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "156E8D40E88EA258",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2C5020C21FD02E1A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:chorus_resonator",
+        count: 1,
+      },
+      x: 5.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "13553FB69A409A3C",
+      ],
+      size: 1.5,
+      id: "1FE29273851FCD53",
+      tasks: [
+        {
+          id: "6EFA26DEC94DD41B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4BBE95919C13BBFA",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:harmonic_fragment",
+        count: 1,
+      },
+      x: 7.5,
+      y: -1.5,
+      dependencies: [
+        "1FE29273851FCD53",
+      ],
+      size: 1.0,
+      id: "40A3ED3E8C7150D1",
+      tasks: [
+        {
+          id: "2F240FDF60C1F227",
+          type: "item",
+          item: {
+            id: "resonance:harmonic_fragment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "552F34D2B88EE413",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2016DC8D9B480435",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:whisper_fragment",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      dependencies: [
+        "1FE29273851FCD53",
+      ],
+      size: 1.0,
+      id: "12B104EC9EBC037F",
+      tasks: [
+        {
+          id: "5BAAE81EB05691D2",
+          type: "item",
+          item: {
+            id: "resonance:whisper_fragment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5789118F3AC2DD13",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2864952942DA2CE6",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:crystal_fragment",
+        count: 1,
+      },
+      x: 7.5,
+      y: 1.5,
+      dependencies: [
+        "1FE29273851FCD53",
+      ],
+      size: 1.0,
+      id: "5B4CF39A8E66EFE8",
+      tasks: [
+        {
+          id: "419A28306751B874",
+          type: "item",
+          item: {
+            id: "resonance:crystal_fragment",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "323ABD1346633138",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1F1B8CF087C2CFF9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:amethyst_block",
+        count: 1,
+      },
+      x: 9.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "40A3ED3E8C7150D1",
+        "12B104EC9EBC037F",
+        "5B4CF39A8E66EFE8",
+      ],
+      size: 1.5,
+      id: "4C19A536A5728595",
+      tasks: [
+        {
+          id: "425C85C034C71C8B",
+          type: "structure",
+          structure: "resonance:harmonic_arena",
+        },
+      ],
+      rewards: [
+        {
+          id: "6EDEAA07AD142351",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7DDE356D4D70AE1F",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:crystal_shard_projectile",
+        count: 1,
+      },
+      x: 12.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "4C19A536A5728595",
+      ],
+      size: 2.0,
+      min_width: 300,
+      id: "69555EBF3EE460F6",
+      tasks: [
+        {
+          id: "4CD70024BBCDE19E",
+          type: "kill",
+          icon: {
+            id: "resonance:crystal_shard_projectile",
+            count: 1,
+          },
+          entity: "resonance:the_harmonic",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "37BC3C48142B8322",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "317D20C0CA2D5450",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:crystal_log",
+        count: 1,
+      },
+      x: 14.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "69555EBF3EE460F6",
+      ],
+      size: 1.25,
+      id: "5B77D5B6B114F8E7",
+      tasks: [
+        {
+          id: "5D2BDE2595AA05BE",
+          type: "item",
+          item: {
+            id: "resonance:crystal_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E5B504121E4328A",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6F3D15B992464493",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "resonance:resonant_wolf_armor",
+        count: 1,
+      },
+      x: 16.5,
+      y: 0.0,
+      dependencies: [
+        "5B77D5B6B114F8E7",
+      ],
+      size: 1.0,
+      id: "173844FF90D32141",
+      tasks: [
+        {
+          id: "2D33DF6EDF833107",
+          type: "item",
+          item: {
+            id: "resonance:resonant_wolf_armor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "106442F30FCD4183",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "5AA1141AC86E8CC5",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 15.5,
+      y: 0.0,
+      width: 3.3,
+      height: 3.3,
+      rotation: 45.0,
+      image: "resonance:block/crystal_grass_block_top",
+      id: "65A477919592DDC9",
+    },
+    {
+      x: -3.0,
+      y: 0.0,
+      width: 3.4,
+      height: 3.4,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/resonance_logo.png",
+      click_action: {
+        type: "open_quest",
+        data: "4A4DCCA388BB4131",
+      },
+      id: "5BDB84EB0E5D4C11",
+    },
+    {
+      x: 4.5,
+      y: -5.1,
+      width: 6.75,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/resonance_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "4A4DCCA388BB4131",
+      },
+      id: "538366044FFB279C",
+    },
+    {
+      x: 5.5,
+      y: -3.0,
+      width: 1.4,
+      height: 1.4,
+      rotation: -8.0,
+      image: "minecraft:block/amethyst_cluster",
+      id: "1DABF90D6D4DB6D5",
+    },
+  ],
+}

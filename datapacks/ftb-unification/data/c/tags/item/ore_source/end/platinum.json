@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:platinum_end_ore",
+    "oritech:endstone_platinum_ore"
+  ]
+}

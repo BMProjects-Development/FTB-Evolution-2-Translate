@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/titanium",
+    "#c:ingots/titanium"
+  ],
+  "result": {
+    "id": "ftbmaterials:titanium_plate"
+  }
+}

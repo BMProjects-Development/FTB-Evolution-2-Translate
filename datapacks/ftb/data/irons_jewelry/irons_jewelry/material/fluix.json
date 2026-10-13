@@ -1,0 +1,16 @@
+{
+  "descriptionId": "ftb.irons.material.fluix",
+  "ingredient": "ae2:fluix_crystal",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/fluix",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:block_interaction_range",
+      "amount": 0.25,
+      "operation": "add_value"
+    }
+  }
+}

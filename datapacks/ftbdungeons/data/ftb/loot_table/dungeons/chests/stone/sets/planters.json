@@ -1,0 +1,265 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:white_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:orange_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:magenta_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:light_blue_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:yellow_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:lime_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:pink_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:gray_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:light_gray_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:cyan_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:purple_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:blue_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:brown_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:green_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:red_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "agritechevolved:black_terracotta_planter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

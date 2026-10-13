@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:cinnabar_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:cinnabar_gem"
+    }
+  ],
+  "time": 40
+}

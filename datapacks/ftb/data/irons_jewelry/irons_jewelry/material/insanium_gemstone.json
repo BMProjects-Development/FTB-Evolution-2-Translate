@@ -1,0 +1,29 @@
+{
+  "descriptionId": "ftb.irons.material.insanium_gemstone",
+  "ingredient": "mysticalagradditions:insanium_gemstone",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/insanium",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:max_health",
+      "amount": 3.0,
+      "operation": "add_value"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "duration": 80,
+        "amplifier": {
+          "base": 0,
+          "scalar": 1,
+          "max": 2
+        },
+        "effect": "minecraft:weakness"
+      }
+    }
+  }
+}

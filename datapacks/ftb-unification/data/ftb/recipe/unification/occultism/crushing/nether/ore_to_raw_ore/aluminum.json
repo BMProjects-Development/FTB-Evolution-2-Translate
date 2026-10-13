@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "ftbmaterials:aluminum_nether_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "ftbmaterials:aluminum_raw_ore"
+  }
+}

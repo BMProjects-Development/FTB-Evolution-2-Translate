@@ -1,0 +1,1101 @@
+#The height of kelp to be able to grow.
+# Default: 40
+# Range: > 25
+kelpHeight = 40
+#The amount of power required by the mixer each tick.
+# Default: 10
+# Range: > 0
+mixerPowerRequirement = 10
+#The amount of power required by the Augmentation Station each tick.
+# Default: 25
+# Range: > 0
+augmentationPowerRequirement = 25
+#The amount of power required by the Deep Sea Drain each tick.
+# Default: 20
+# Range: > 0
+drainPowerRequirement = 20
+#The distance of normals lasers.
+# Default: 16
+# Range: 0 ~ 128
+laserDistance = 16
+#The distance of Long Distance Laser lasers.
+# Default: 64
+# Range: 0 ~ 128
+longDistanceLaserDistance = 64
+#The capacity of the Mixers Input Tank
+# Default: 32000
+# Range: > 0
+mixerInputCapacity = 32000
+#The capacity of the Mixers Output Tank
+# Default: 32000
+# Range: > 0
+mixerOutputCapacity = 32000
+#The mB of salt water a Deep Sea Drain pumps each second on a beam of exactly its power requirement. It scales with the square root of the beam, so four times the beam pumps twice as much
+# Default: 500
+# Range: > 0
+drainSaltWaterAmount = 500
+#The fluid capacity of the Deep Sea Drain
+# Default: 128000
+# Range: > 0
+drainCapacity = 128000
+#Determines whether to give the player a book when joining a new world
+spawnBookInInventory = false
+#Determines whether the player should be able to collect salt water when picking up water in an ocean biome
+collectSaltWater = false
+#Determines whether the player should be able to collect pressurized air bottles by right-clicking on a bubble column
+collectAirWithBottle = true
+#The amount of damage the guardian augments laser deals
+# Default: 3
+# Range: > 0
+guardianAugmentDamage = 3
+#Set to false to disable the rendering of augments, this can improve performance
+allowAugmentRendering = true
+#The amount laser power required to have the fisher work
+# Default: 1
+# Range: > 0
+fisherLaserLevel = 1
+#The amount of ticks the fisher takes to make a new item
+# Default: 40
+# Range: > 0
+fisherRunDuration = 40
+#The radius on the x and z plane the fisher checks for the water
+# Default: 2
+# Range: > 1
+fisherRadius = 2
+#The y depth the fisher checks for water
+# Default: 2
+# Range: > 1
+fisherDepth = 2
+#The maximum rate at which bacteria can grow
+# Default: 5.0
+# Range: 0.0 ~ 3.4028234663852886E38
+bacteriaGrowthRateCap = 5.0
+#The maximum rate at which bacteria can produce
+# Default: 2.0
+# Range: 0.0 ~ 3.4028234663852886E38
+bacteriaProductionRateCap = 2.0
+#The maximum rate at which bacteria can resist mutation
+# Default: 1.0
+# Range: 0.0 ~ 3.4028234663852886E38
+bacteriaMutationResistanceCap = 1.0
+#The maximum size a bacteria colony can grow to
+# Default: 40000
+# Range: 0 ~ 9223372036854775807
+bacteriaColonySizeCap = 40000
+#The maximum lifespan of a bacteria colony
+# Default: 24000
+# Range: > 0
+bacteriaLifespanCap = 24000
+#Mod namespaces to prefer, in order, when a bacteria's product is an item tag. Packs with a unification mod should list its namespace first
+#An item from an earlier namespace wins; tag members from unlisted namespaces fall back to alphabetical order
+preferredTagNamespaces = ["ftbmaterials", "minecraft"]
+#The amount of ticks it takes for the Bacterial Analyzer to analyze a Petri Dish
+# Default: 60
+# Range: > 0
+bacteriaAnalyzerCraftingSpeed = 60
+#The amount of power used by the Bacterial Analyzer each tick
+# Default: 5
+# Range: > 0
+bacteriaAnalyzerPowerUsage = 5
+#The amount of ticks it takes for the Mutator to attempt a mutation
+# Default: 240
+# Range: > 0
+mutatorCraftingSpeed = 240
+#The amount of power used by the Mutator each tick
+# Default: 10
+# Range: > 0
+mutatorPowerUsage = 10
+#The Y level at or below which the Abyssal Eyes augment grants night vision
+# Default: 45
+# Range: -64 ~ 320
+abyssalEyesDepth = 45
+#The radius in which the Photophore Skin augment reveals nearby creatures
+# Default: 12.0
+# Range: 1.0 ~ 64.0
+photophoreSkinRadius = 12.0
+#The power capacity of the submarine
+# Default: 1000000
+# Range: > 1
+submarinePowerCapacity = 1000000
+#The amount of power the submarine uses each tick while occupied
+# Default: 1
+# Range: > 0
+submarineIdlePowerUsage = 1
+#The extra amount of power the submarine uses each tick while under way
+# Default: 6
+# Range: > 0
+submarineMovePowerUsage = 6
+#The extra amount of power the submarine uses each tick while keeping its occupants breathing
+# Default: 2
+# Range: > 0
+submarineOxygenPowerUsage = 2
+#Thrust applied to the submarine each tick while the throttle is open
+# Default: 0.056
+# Range: 0.001 ~ 1.0
+submarineSpeed = 0.056
+#Maximum speed of the submarine in blocks per tick. Values above 1.5 risk tripping server movement checks
+# Default: 0.81
+# Range: 0.05 ~ 1.5
+submarineMaxSpeed = 0.81
+#Third person camera distance while riding the submarine, in blocks. Vanilla default is 4
+# Default: 10.0
+# Range: 4.0 ~ 32.0
+submarineCameraDistance = 10.0
+#Whether lucky fishing zones appear on the water around players
+luckyZonesEnabled = true
+#Seconds between attempts to place a lucky fishing zone near a player
+# Default: 45
+# Range: 1 ~ 3600
+luckyZoneIntervalSeconds = 45
+#How far from the player a lucky fishing zone may appear
+# Default: 32
+# Range: 4 ~ 128
+luckyZoneSpawnDistance = 32
+#Minimum distance between two lucky fishing zones
+# Default: 48
+# Range: 4 ~ 256
+luckyZoneMinSeparation = 48
+#Maximum lucky fishing zones in a single chunk
+# Default: 1
+# Range: 1 ~ 16
+luckyZonesPerChunk = 1
+#Seconds a lucky fishing zone lasts before fading away
+# Default: 300
+# Range: 10 ~ 36000
+luckyZoneLifetimeSeconds = 300
+#Smallest lucky fishing zone radius. Every block in the radius must be open water
+# Default: 2
+# Range: 1 ~ 16
+luckyZoneMinRadius = 2
+#Largest lucky fishing zone radius. Every block in the radius must be open water
+# Default: 6
+# Range: 1 ~ 16
+luckyZoneMaxRadius = 6
+#Whether a lucky fishing zone disappears after one successful catch
+luckyZoneConsumedOnCatch = true
+#Hull integrity of the submarine, in half hearts
+# Default: 80.0
+# Range: 1.0 ~ 1024.0
+submarineMaxHealth = 80.0
+#Armor points of the submarine hull. Diamond armor is 20
+# Default: 20.0
+# Range: 0.0 ~ 30.0
+submarineArmor = 20.0
+#Armor toughness of the submarine hull. Diamond armor is 8
+# Default: 8.0
+# Range: 0.0 ~ 20.0
+submarineArmorToughness = 8.0
+#How strongly the submarine resists being knocked around when it is hit. 1 ignores knockback entirely
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+submarineKnockbackResistance = 0.0
+#Ticks between hull self repair pulses. Set to 0 to disable self repair
+# Default: 200
+# Range: > 0
+submarineAutorepairIntervalTicks = 200
+#Fraction of the hull restored by each self repair pulse
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+submarineAutorepairPercent = 0.01
+#The item that repairs a submarine in an anvil
+submarineRepairItem = "nautec:deep_steel_plating"
+#Fraction of the hull restored by each repair item used in an anvil
+# Default: 0.2
+# Range: 0.01 ~ 1.0
+submarineRepairPercent = 0.2
+#Percent of the submarine's power capacity the Solar Module collects every 5 seconds in open sunlit water
+# Default: 0.2
+# Range: 0.0 ~ 100.0
+submarineSolarPercentPer5s = 0.2
+#Power drawn by one activation of the Booster Module
+# Default: 20000
+# Range: > 0
+submarineBoostPowerCost = 20000
+#Ticks the Booster Module stays lit
+# Default: 200
+# Range: > 1
+submarineBoostDurationTicks = 200
+#Ticks after the boost expires before it can be used again
+# Default: 60
+# Range: > 0
+submarineBoostCooldownTicks = 60
+#Extra speed the Booster Module gives, as a fraction of the base speed
+# Default: 0.45
+# Range: 0.0 ~ 4.0
+submarineBoostSpeedBonus = 0.45
+#Power drawn by one activation of the Stealth Module
+# Default: 50000
+# Range: > 0
+submarineStealthPowerCost = 50000
+#Ticks the Stealth Module hides the submarine from mobs
+# Default: 2400
+# Range: > 1
+submarineStealthDurationTicks = 2400
+#Ticks after stealth expires before it can be used again
+# Default: 200
+# Range: > 0
+submarineStealthCooldownTicks = 200
+#Speed the Stealth Module gives up while it is running, as a fraction of the base speed
+# Default: 0.15
+# Range: 0.0 ~ 0.9
+submarineStealthSpeedPenalty = 0.15
+#Power drawn by one Sonar Module ping
+# Default: 30000
+# Range: > 0
+submarineSonarPowerCost = 30000
+#Ticks between Sonar Module pings
+# Default: 900
+# Range: > 0
+submarineSonarCooldownTicks = 900
+#Radius in blocks the Sonar Module marks hostile creatures in
+# Default: 32.0
+# Range: 1.0 ~ 128.0
+submarineSonarRadius = 32.0
+#Power drawn by one Shield Module discharge
+# Default: 25000
+# Range: > 0
+submarineShieldPowerCost = 25000
+#Ticks between Shield Module discharges
+# Default: 100
+# Range: > 0
+submarineShieldCooldownTicks = 100
+#Ticks a Shield Module discharge stuns the creatures it hits
+# Default: 60
+# Range: > 0
+submarineShieldStunTicks = 60
+#Damage a Shield Module discharge deals
+# Default: 10.0
+# Range: 0.0 ~ 1024.0
+submarineShieldDamage = 10.0
+#Radius in blocks of a Shield Module discharge
+# Default: 5.0
+# Range: 1.0 ~ 32.0
+submarineShieldRadius = 5.0
+#Power an installed Shield Module burns to absorb one heart of incoming damage
+# Default: 10000
+# Range: > 1
+submarineShieldPowerPerHeart = 10000
+#Range in blocks of the Impulse Laser beams
+# Default: 64.0
+# Range: 1.0 ~ 128.0
+submarineLaserRange = 64.0
+#Power drawn by one Teleport Module jump
+# Default: 200000
+# Range: > 0
+submarineTeleportPowerCost = 200000
+#Fraction of the power capacity that must be stored before a jump may be started
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+submarineTeleportMinPowerPercent = 0.2
+#Ticks between Teleport Module jumps
+# Default: 600
+# Range: > 0
+submarineTeleportCooldownTicks = 600
+#Armor toughness of the hull while an Armor Module is installed. Netherite armor is 12
+# Default: 12.0
+# Range: 0.0 ~ 20.0
+submarineArmorModuleToughness = 12.0
+#The fraction of a colony lost when a mutation attempt fails, before mutation resistance reduces it
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+mutatorFailureShrink = 0.25
+#The amount of ticks it takes for the Incubator to complete one growth cycle
+# Default: 100
+# Range: > 0
+incubatorCraftingSpeed = 100
+#The amount of power used by the Incubator each tick
+# Default: 20
+# Range: > 0
+incubatorPowerUsage = 20
+#The base amount of progress a Bio Reactor colony makes each tick, before production rate and colony size scale it
+# Default: 16.8
+# Range: 0.0 ~ 1000.0
+bioReactorBaseSpeed = 16.8
+#The amount of power the Bio Reactor requires before any colonies are counted
+# Default: 25
+# Range: > 0
+bioReactorPowerBase = 25
+#The extra amount of power the Bio Reactor requires for each colony it holds
+# Default: 25
+# Range: > 0
+bioReactorPowerPerColony = 25
+#The base amount of power a Bacterial Fuel Cell emits each tick, before production rate scales it
+# Default: 24
+# Range: > 0
+fuelCellPowerBase = 24
+#The base amount of colony consumed by a Bacterial Fuel Cell each tick, before production rate scales it
+# Default: 0.5
+# Range: 0.0 ~ 1000.0
+fuelCellBurnRate = 0.5
+#The purity a Bacterial Fuel Cell emits at when its colony is at the mutation resistance cap
+# Default: 2.5
+# Range: 0.0 ~ 10.0
+fuelCellMaxPurity = 2.5
+#The fraction of incoming purity a Prismatic Mirror passes on when it turns a beam
+# Default: 0.9
+# Range: 0.0 ~ 1.0
+mirrorPurityFactor = 0.9
+#The fraction of incoming purity each branch of a Beam Splitter carries
+# Default: 0.8
+# Range: 0.0 ~ 1.0
+splitterPurityFactor = 0.8
+#The purity a Focusing Lens adds to a beam passing straight through it
+# Default: 0.5
+# Range: 0.0 ~ 10.0
+lensPurityBonus = 0.5
+#The charge a Resonance Chamber can hold at zero purity. Purity raises this ceiling
+# Default: 2000.0
+# Range: 1.0 ~ 1.7976931348623157E308
+resonanceBaseCeiling = 2000.0
+#The amount of power a Resonance Chamber requires before it starts building charge
+# Default: 20
+# Range: > 0
+resonancePowerUsage = 20
+#The fraction of the stability ceiling at which a Resonance Chamber becomes critical and can craft
+# Default: 0.9
+# Range: 0.0 ~ 1.0
+resonanceCriticalLow = 0.9
+#The fraction of the stability ceiling above which a Resonance Chamber vents instead of crafting
+# Default: 1.1
+# Range: 1.0 ~ 10.0
+resonanceCriticalHigh = 1.1
+#The amount of ticks a Resonance Chamber stays cracked and inert after venting
+# Default: 200
+# Range: > 0
+resonanceVentCooldown = 200
+#The radius in blocks a Resonance Chamber vent reaches
+# Default: 4.0
+# Range: 0.0 ~ 32.0
+resonanceVentRadius = 4.0
+#The damage a Resonance Chamber vent deals to everything in range
+# Default: 8.0
+# Range: 0.0 ~ 1000.0
+resonanceVentDamage = 8.0
+#The Y level at or below which an Abyssal Pressure Forge will run. Recipes may demand deeper still
+# Default: 0
+# Range: -64 ~ 320
+pressureForgeDepth = 0
+#How many blocks of water must sit directly above an Abyssal Pressure Forge for it to run
+# Default: 8
+# Range: 0 ~ 320
+pressureForgeWaterColumn = 8
+#The amount of power an Abyssal Pressure Forge requires each tick
+# Default: 40
+# Range: > 0
+pressureForgePowerUsage = 40
+#The amount of Etching Acid in mb an Abyssal Pressure Forge consumes per craft
+# Default: 250
+# Range: > 0
+pressureForgeAcidUsage = 250
+#The Etching Acid capacity of an Abyssal Pressure Forge
+# Default: 4000
+# Range: > 1
+pressureForgeCapacity = 4000
+#The amount of ticks something is barred from using another gateway after arriving, which is what stops it bouncing straight back
+# Default: 100
+# Range: > 0
+gatewayCooldown = 100
+#Speed the Wave Jet adds each tick while held under water, until it reaches waveJetMaxSpeed
+# Default: 0.1
+# Range: 0.001 ~ 1.0
+waveJetThrust = 0.1
+#The amount of power the Wave Jet uses each tick while running
+# Default: 2
+# Range: > 0
+waveJetPowerUsage = 2
+#The amount of power a Sea Scout Dock requires before it will service a hull
+# Default: 20
+# Range: > 0
+dockPowerUsage = 20
+#The amount of power a Sea Scout Dock pushes into a docked hull each tick
+# Default: 40
+# Range: > 0
+dockChargeRate = 40
+#How many times faster fish bite while the bobber floats in a lucky fishing zone
+# Default: 2
+# Range: 1 ~ 10
+luckyZoneBiteSpeed = 2
+#How far ahead the Wave Jet spotlight throws its pool of light, in blocks
+# Default: 12
+# Range: 1 ~ 32
+waveJetLightRange = 12
+#Light level the Wave Jet spotlight casts where it lands, 0 to disable world lighting and leave only the visible cone
+# Default: 14
+# Range: 0 ~ 15
+waveJetLightLevel = 14
+#The amount of power the Wave Jet spotlight uses each tick while lit
+# Default: 1
+# Range: > 0
+waveJetLightPowerUsage = 1
+#How much power an Atlantean Rifle holds
+# Default: 1000000
+# Range: > 1
+riflePowerCapacity = 1000000
+#How much power an Atlantean Rifle accepts per tick while charging
+# Default: 20000
+# Range: > 1
+rifleMaxInput = 20000
+#Ticks the Atlantean Rifle spins up for before the beam appears
+# Default: 10
+# Range: 0 ~ 200
+rifleChargeTicks = 10
+#Ticks of continuous fire it takes the Atlantean Rifle to reach full damage and full power draw
+# Default: 200
+# Range: > 1
+rifleRampTicks = 200
+#Damage the Atlantean Rifle beam deals every two ticks when it first fires
+# Default: 4.0
+# Range: 0.0 ~ 1024.0
+rifleBaseDamage = 4.0
+#Damage the Atlantean Rifle beam deals every two ticks once fully ramped
+# Default: 20.0
+# Range: 0.0 ~ 1024.0
+rifleMaxDamage = 20.0
+#Power the Atlantean Rifle draws every two ticks when it first fires
+# Default: 125
+# Range: > 0
+rifleBaseDrain = 125
+#Power the Atlantean Rifle draws every two ticks once fully ramped
+# Default: 625
+# Range: > 0
+rifleMaxDrain = 625
+#How far the Atlantean Rifle beam reaches, in blocks
+# Default: 128.0
+# Range: 1.0 ~ 256.0
+rifleRange = 128.0
+#Fastest the Wave Jet pushes you along, in blocks per tick, before water drag takes about a fifth of it back
+# Default: 0.4
+# Range: 0.05 ~ 2.0
+waveJetMaxSpeed = 0.4
+#Radius in blocks of the tidal shockwave Neptune's Trident releases where it lands
+# Default: 5.0
+# Range: 0.0 ~ 32.0
+tridentShockwaveRadius = 5.0
+#Damage the tidal shockwave deals at its centre. It falls to half at the edge
+# Default: 14.0
+# Range: 0.0 ~ 1024.0
+tridentShockwaveDamage = 14.0
+#Extra tidal shockwave damage per level of Sharpness on the trident
+# Default: 3.0
+# Range: 0.0 ~ 1024.0
+tridentShockwaveDamagePerSharpness = 3.0
+#Knockback strength of the tidal shockwave at its centre. It falls to half at the edge
+# Default: 1.2
+# Range: 0.0 ~ 10.0
+tridentShockwaveKnockback = 1.2
+#Extra tidal shockwave knockback strength per level of Knockback on the trident
+# Default: 0.8
+# Range: 0.0 ~ 10.0
+tridentShockwaveKnockbackPerLevel = 0.8
+#Ticks after a tidal shockwave before Neptune's Trident can release another. It can still be thrown in the meantime
+# Default: 60
+# Range: 0 ~ 72000
+tridentShockwaveCooldown = 60
+#The fraction of a senescent, unfed colony that dies off for every 20 ticks it works in a reactor (at least 1 per 20 ticks). 0 turns decay off
+# Default: 0.02
+# Range: 0.0 ~ 1.0
+bioReactorDecayPerSecond = 0.02
+#The base amount of progress an Industrial Bio Reactor colony makes each tick, before production rate, colony size and strain multiplier scale it
+# Default: 16.8
+# Range: 0.0 ~ 1000.0
+industrialBioReactorBaseSpeed = 16.8
+#The amount of power the Industrial Bio Reactor requires before any colonies are counted
+# Default: 100
+# Range: > 0
+industrialBioReactorPowerBase = 100
+#The extra amount of power the Industrial Bio Reactor requires for each colony it holds
+# Default: 50
+# Range: > 0
+industrialBioReactorPowerPerColony = 50
+#The production speed each Reactor Speed Upgrade adds, as a fraction of the base speed (0.5 means +50% per upgrade)
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+reactorSpeedUpgradeBonus = 0.5
+#The factor each Reactor Speed Upgrade multiplies the reactor power draw by
+# Default: 1.6
+# Range: 1.0 ~ 100.0
+reactorSpeedUpgradePowerMultiplier = 1.6
+#The extra items each Reactor Yield Upgrade adds to every completed production cycle
+# Default: 1
+# Range: 0 ~ 64
+reactorYieldUpgradeBonus = 1
+#The factor each Reactor Yield Upgrade multiplies the reactor power draw by
+# Default: 1.8
+# Range: 1.0 ~ 100.0
+reactorYieldUpgradePowerMultiplier = 1.8
+#The factor each Reactor Efficiency Upgrade multiplies the nutrient vitality a colony spends per tick by (0.75 means 25% less per upgrade)
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+reactorEfficiencyUpgradeFactor = 0.75
+#The lowest fraction of vitality per tick that Reactor Efficiency Upgrades can bring a colony down to
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+reactorEfficiencyUpgradeFloor = 0.25
+#The factor each Reactor Efficiency Upgrade multiplies the reactor power draw by
+# Default: 1.2
+# Range: 1.0 ~ 100.0
+reactorEfficiencyUpgradePowerMultiplier = 1.2
+#How much faster a submarine with a Flight Module moves through the air than through water, as a multiplier. The flying top speed is submarineMaxSpeed times this, capped at 1.5
+# Default: 1.5
+# Range: 1.0 ~ 3.0
+submarineFlightSpeedMultiplier = 1.5
+#The extra amount of power a submarine with a Flight Module uses each tick while it is out of the water and holding itself up
+# Default: 4
+# Range: > 0
+submarineFlightPowerUsage = 4
+#How many chunks around the player the Eye of the Sea searches for its target structure. The Eye of Ender uses 100
+# Default: 100
+# Range: 1 ~ 256
+eyeOfTheSeaSearchRadius = 100
+#Ticks before the Eye of the Sea can be thrown again
+# Default: 40
+# Range: 0 ~ 72000
+eyeOfTheSeaCooldownTicks = 40
+#Seconds after throwing an Eye of the Sea during which lucky fishing zones form more often near the thrower
+# Default: 300
+# Range: 0 ~ 36000
+eyeOfTheSeaLuckyBoostSeconds = 300
+#How many times more often lucky fishing zones form near a player during the Eye of the Sea boost
+# Default: 2
+# Range: 1 ~ 10
+eyeOfTheSeaLuckyZoneMultiplier = 2
+#Determines whether the Diving Chestplate can be filled with any fluid in the c:oxygen tag, such as Stellaris oxygen. 1 mB fills 1 second of air
+divingSuitAcceptsOxygenFluid = true
+#Determines whether drinking an Air Bottle also adds oxygen to a worn helmet from another mod that holds c:oxygen fluid, such as a Stellaris space suit helmet
+airBottlesFillOxygenHelmets = true
+#Determines whether a full Diving Suit with air in its tank protects against Stellaris oxygen deprivation, using up its air instead
+divingSuitProtectsInSpace = true
+#The factor each Reactor Fusion Upgrade multiplies the reactor power draw by. It counts as one Speed, one Yield and one Efficiency Upgrade, but only this multiplier applies
+# Default: 2.5
+# Range: 1.0 ~ 1000.0
+reactorFusionUpgradePowerMultiplier = 2.5
+#The AP a Confined Spawner spends from its buffer each tick while it runs
+# Default: 50
+# Range: 0 ~ 30000
+confinedSpawnerPowerPerTick = 50
+#The most AP a Confined Spawner can hold in its buffer
+# Default: 500
+# Range: 1 ~ 30000
+confinedSpawnerPowerBuffer = 500
+#The liquid experience a Confined Spawner makes, as fluid ids in order of preference. The first one that exists is used,
+#so another mod's liquid experience can come first, for example "create_enchantment_industry:experience".
+#Experience Algae (nautec:experience_algae) is used when none of them exist
+confinedSpawnerXpFluids = ["justdirethings:xp_fluid_source"]
+#Whether the Deep Sea Drain only pumps in an ocean-like biome: one with a biome tag named ocean or sea, or an is_ tag with ocean or sea in its name, such as minecraft:is_ocean, c:is_deep_ocean or a mod's own ocean tag. The biome is checked at the drain and at the top of the water above it
+drainRequiresOcean = true
+#The total AP a Crystal Cradle must take in to grow a Prismarine Crystal Seed into a full Cultivated Prismarine Crystal
+# Default: 10000000
+# Range: 1 ~ 9223372036854775807
+crystalGrowthPower = 10000000
+#The lowest beam purity a Crystal Cradle grows its seed with. Weaker beams add nothing
+# Default: 2.0
+# Range: 0.0 ~ 10.0
+crystalGrowthPurity = 2.0
+#The FE per tick a Tidal Rotor makes in the shallowest, most enclosed ocean water it still runs in
+# Default: 40
+# Range: 0 ~ 1000000
+tidalRotorMinOutput = 40
+#The FE per tick a Tidal Rotor makes in open water at least 24 blocks deep
+# Default: 80
+# Range: 0 ~ 1000000
+tidalRotorMaxOutput = 80
+#The FE per tick a Thermal Vent Tap makes over a single heat source
+# Default: 350
+# Range: 0 ~ 10000000
+ventTapMinOutput = 350
+#The FE per tick a Thermal Vent Tap makes with all nine blocks below it hot
+# Default: 1250
+# Range: 0 ~ 10000000
+ventTapMaxOutput = 1250
+#The mB of Salt Water a Thermal Vent Tap boils each tick while it runs
+# Default: 10
+# Range: 1 ~ 100000
+ventTapSaltWaterPerTick = 10
+#The mB of Salt Water a Thermal Vent Tap boils for each Salt it leaves behind
+# Default: 1000
+# Range: > 1
+ventTapSaltWaterPerSalt = 1000
+#The AP a cold Fusion Plant must take in through its Laser Injectors before it ignites
+# Default: 5000000
+# Range: 1 ~ 9223372036854775807
+fusionIgnitionEnergy = 5000000
+#The FE a running Fusion Plant makes for each AP of injected beam at purity 3.0. Lower purity scales it down
+# Default: 50
+# Range: 1 ~ 100000
+fusionFePerAp = 50
+#The most FE per tick a Fusion Plant can make, however large its chamber and however many Containment Coils it has
+# Default: 300000
+# Range: 1 ~ 1073741823
+fusionMaxOutput = 300000
+#The FE per tick each Containment Coil in the shell adds to a Fusion Plant's output ceiling
+# Default: 4000
+# Range: 0 ~ 1073741823
+fusionCoilContainment = 4000
+#The lowest purity a beam entering a Laser Injector must have to count toward a Fusion Plant
+# Default: 2.0
+# Range: 0.0 ~ 10.0
+fusionMinPurity = 2.0
+#The FE a Fusion Plant makes from each mB of Salt Water it burns
+# Default: 2000
+# Range: > 1
+fusionFePerMb = 2000
+#The FE a Fusion Plant controller holds before it throttles down
+# Default: 4000000
+# Range: > 1
+fusionEnergyBuffer = 4000000
+#Ticks the Impulse Laser charges after the fire key is pressed before its beams appear
+# Default: 10
+# Range: 0 ~ 200
+submarineLaserChargeTicks = 10
+#Ticks of continuous fire the Impulse Laser takes to reach full width, damage and power draw
+# Default: 100
+# Range: 1 ~ 2400
+submarineLaserRampTicks = 100
+#Power the Impulse Laser draws each tick when it starts firing
+# Default: 400
+# Range: > 0
+submarineLaserMinDrain = 400
+#Power the Impulse Laser draws each tick once fully ramped
+# Default: 1400
+# Range: > 0
+submarineLaserMaxDrain = 1400
+#Damage each Impulse Laser beam deals per hit when it starts firing. A beam hits every 5 ticks
+# Default: 2.0
+# Range: 0.0 ~ 1024.0
+submarineLaserMinDamage = 2.0
+#Damage each Impulse Laser beam deals per hit once fully ramped
+# Default: 6.0
+# Range: 0.0 ~ 1024.0
+submarineLaserMaxDamage = 6.0
+#Extra Impulse Laser damage per hit once fully ramped, as a fraction of the target's maximum health. It starts at a third of this
+# Default: 0.0125
+# Range: 0.0 ~ 1.0
+submarineLaserMaxHealthPercent = 0.0125
+#The most FE per tick a Resonance Pylon sends or receives over its network
+# Default: 20000
+# Range: 1 ~ 1073741823
+resonancePylonThroughput = 20000
+#The FE a Resonance Pylon holds
+# Default: 200000
+# Range: > 1
+resonancePylonBuffer = 200000
+#The most FE per tick an Abyssal Pylon sends or receives over its network
+# Default: 50000
+# Range: 1 ~ 1073741823
+abyssalPylonThroughput = 50000
+#The FE an Abyssal Pylon holds
+# Default: 500000
+# Range: > 1
+abyssalPylonBuffer = 500000
+#The fraction of FE lost moving between pylons in the same dimension
+# Default: 0.05
+# Range: 0.0 ~ 0.99
+resonanceSameDimensionLoss = 0.05
+#The fraction of FE lost moving between Abyssal Pylons in different dimensions
+# Default: 0.15
+# Range: 0.0 ~ 0.99
+resonanceCrossDimensionLoss = 0.15
+#The most FE per tick a Resonance Charm draws from its network to charge the wearer's items
+# Default: 2000
+# Range: 1 ~ 107374182
+charmTransferRate = 2000
+#How far in blocks a Prismatic Emitter can reach the machines linked to it
+# Default: 16
+# Range: 1 ~ 64
+emitterRange = 16
+#The most FE per tick a Prismatic Emitter sends out, shared between its linked machines
+# Default: 10000
+# Range: 1 ~ 1073741823
+emitterThroughput = 10000
+#The FE a Prismatic Emitter holds
+# Default: 100000
+# Range: > 1
+emitterBuffer = 100000
+#The fraction of AP lost relaying through a Prism Satellite from Uplink Arrays to Downlink Arrays
+# Default: 0.1
+# Range: 0.0 ~ 0.99
+satelliteLoss = 0.1
+#The most machines one Prismatic Emitter can be linked to
+# Default: 16
+# Range: 1 ~ 256
+emitterMaxLinks = 16
+#The most Resonance Networks one player can own
+# Default: 16
+# Range: 1 ~ 1024
+resonanceMaxNetworksPerPlayer = 16
+#The liquid experience a Confined Spawner's tank holds, in mb. Experience made while it is full is lost
+# Default: 16000
+# Range: > 0
+confinedSpawnerXpCapacity = 16000
+#How many mb of liquid experience a Confined Spawner makes for each experience point. 20 matches most mods
+# Default: 20
+# Range: 0 ~ 1000
+confinedSpawnerXpRatio = 20
+#The beam power in AP a Colony Replicator needs to run
+# Default: 80
+# Range: > 0
+replicatorPowerUsage = 80
+#The lowest beam purity a Colony Replicator runs with
+# Default: 2.0
+# Range: 0.0 ~ 10.0
+replicatorPurity = 2.0
+#How many ticks a Colony Replicator takes to make one colony
+# Default: 600
+# Range: > 1
+replicatorDuration = 600
+#The total colony size of fodder a Colony Replicator uses up for each colony it makes
+# Default: 20000
+# Range: 1 ~ 9223372036854775807
+replicatorBiomassCost = 20000
+#The most fodder biomass a Colony Replicator stores
+# Default: 200000
+# Range: 1 ~ 9223372036854775807
+replicatorBiomassCap = 200000
+#The chance each stat is copied with an error when the colony has no Mutation Resistance.
+#It falls to nothing at the Mutation Resistance cap, so a capped colony always copies perfectly
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+replicatorErrorChance = 0.5
+#The chance a spliced colony takes the better parent's value for each stat
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+replicatorSpliceChance = 0.7
+#The beam power in AP an Oxygen Diffuser needs. Any purity works
+# Default: 10
+# Range: > 0
+oxygenDiffuserPower = 10
+#How far an Oxygen Diffuser's water breathing reaches, in blocks
+# Default: 12
+# Range: 1 ~ 64
+oxygenDiffuserRadius = 12
+#How far a Bubble Anchor's field reaches from its centre on fuel. 7 gives a 15x15x15 cube
+# Default: 7
+# Range: 1 ~ 32
+bubbleAnchorRadius = 7
+#The largest radius a Bubble Anchor reaches on a high purity laser beam
+# Default: 12
+# Range: 1 ~ 32
+bubbleAnchorMaxRadius = 12
+#The beam power in AP that runs a Bubble Anchor without fuel
+# Default: 20
+# Range: > 1
+bubbleAnchorLaserPower = 20
+#Scales how long each fuel item keeps a Bubble Anchor running. 1.0 gives 2 minutes per Dried Kelp Block
+# Default: 1.0
+# Range: 0.01 ~ 100.0
+bubbleAnchorFuelMultiplier = 1.0
+#How many blocks a Bubble Anchor checks each tick while clearing or refilling
+# Default: 1024
+# Range: 16 ~ 65536
+bubbleAnchorBlocksPerTick = 1024
+#How far in blocks a Nautechnical Distributor can link to a block
+# Default: 256
+# Range: 1 ~ 4096
+distributorRange = 256
+#The most blocks one Nautechnical Distributor can link to
+# Default: 64
+# Range: 1 ~ 1024
+distributorMaxLinks = 64
+#How many ticks a Nautechnical Distributor waits between moves. Each move has no amount limit
+# Default: 4
+# Range: 1 ~ 200
+distributorInterval = 4
+#The AP each Uplink and Downlink Array stores
+# Default: 5000000
+# Range: > 1
+satelliteApBuffer = 5000000
+#The FE each Uplink and Downlink Array stores
+# Default: 5000000
+# Range: > 1
+satelliteFeBuffer = 5000000
+#The most AP, and separately the most FE, a Downlink Array takes from its network each tick.
+#Each downlink can be set lower in its screen
+# Default: 100000
+# Range: > 0
+satelliteTransferLimit = 100000
+#The beam power in AP an Advanced Bacterial Analyzer needs to run
+# Default: 40
+# Range: > 0
+advancedAnalyzerPowerUsage = 40
+#The lowest beam purity an Advanced Bacterial Analyzer runs with
+# Default: 2.1
+# Range: 0.0 ~ 10.0
+advancedAnalyzerPurity = 2.1
+#How many ticks an Advanced Bacterial Analyzer takes per dish. All nine dishes run at the same time
+# Default: 60
+# Range: > 1
+advancedAnalyzerCraftingSpeed = 60
+#The beam power in AP a Grafting Station needs to run
+# Default: 100
+# Range: > 0
+graftingStationPowerUsage = 100
+#The lowest beam purity a Grafting Station runs with
+# Default: 2.8
+# Range: 0.0 ~ 10.0
+graftingStationPurity = 2.8
+#How many ticks a Grafting Station takes to grow one colony
+# Default: 1200
+# Range: > 1
+graftingStationDuration = 1200
+#The Salt Water in mb a Grafting Station uses for each colony
+# Default: 4000
+# Range: > 0
+graftingStationSaltWaterUsage = 4000
+#The Salt Water capacity of a Grafting Station
+# Default: 16000
+# Range: > 1
+graftingStationCapacity = 16000
+#How much FE an Energy Converter spends for each AP it sends
+# Default: 10
+# Range: 1 ~ 1000000
+energyConverterFePerAp = 10
+#How much FE an Energy Converter can hold
+# Default: 4000000
+# Range: > 1000
+energyConverterFeCapacity = 4000000
+#The highest transmission rate, in AP per tick, of an Energy Converter with no upgrades
+# Default: 150
+# Range: 1 ~ 1000000
+energyConverterBaseAp = 150
+#How much each Energy Conversion Upgrade raises an Energy Converter's highest rate, in AP per tick
+# Default: 150
+# Range: 0 ~ 1000000
+energyConversionUpgradeAp = 150
+#How much each Advanced Energy Conversion Upgrade raises an Energy Converter's highest rate, in AP per tick
+# Default: 500
+# Range: 0 ~ 1000000
+advancedEnergyConversionUpgradeAp = 500
+#How much each Ultimate Energy Conversion Upgrade raises an Energy Converter's highest rate, in AP per tick
+# Default: 1500
+# Range: 0 ~ 1000000
+ultimateEnergyConversionUpgradeAp = 1500
+#When beams merge into one block, how far the purity falls from the purest beam toward the average of all of them. 0 keeps the highest purity, 1 is a plain average
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+beamMergePurityDrop = 0.25
+#The fraction of purity laser power loses when a network's satellite carries it to a dimension that has no Uplink Array of its own
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+satelliteCrossDimensionPurityLoss = 0.05
+#The laser power a Resonance Node holds
+# Default: 200000
+# Range: > 1
+resonanceNodeApBuffer = 200000
+#The FE a Resonance Node holds
+# Default: 1000000
+# Range: > 1
+resonanceNodeFeBuffer = 1000000
+#Whether Resonance Nodes, Energy Nodes and Uplink and Downlink Arrays may keep their own chunk loaded when a player turns it on. When false, no block keeps a chunk loaded whatever its setting
+resonanceChunkLoading = true
+#The FE per tick each satellite crystal in the corners of a 7x7 or 9x9 Fusion Plant chamber adds to both its output ceiling and its maximum output
+# Default: 100000
+# Range: 0 ~ 268435455
+fusionSatelliteContainment = 100000
+#The FE each satellite crystal adds to what a Fusion Plant makes for each AP of injected beam
+# Default: 10
+# Range: 0 ~ 100000
+fusionSatelliteFePerAp = 10
+#How many times faster a Grafting Station grafts with an Advanced Grafting Anchor fitted (3.0 means +200%)
+# Default: 3.0
+# Range: 1.0 ~ 100.0
+advancedGraftingAnchorSpeed = 3.0
+#The factor an Advanced Grafting Anchor multiplies the Grafting Station's beam power requirement by
+# Default: 5.0
+# Range: 1.0 ~ 100.0
+advancedGraftingAnchorPowerMultiplier = 5.0
+#The extra AP output an Aquatic Catalyst gets for each Budding Prismarine block touching it, as a fraction of its normal output
+# Default: 0.25
+# Range: 0.0 ~ 10.0
+catalystBuddingOutputBonus = 0.25
+#The purity an Aquatic Catalyst's beam gains for each Budding Prismarine block touching it
+# Default: 0.1
+# Range: 0.0 ~ 10.0
+catalystBuddingPurityBonus = 0.1
+#The highest purity Budding Prismarine can raise an Aquatic Catalyst's beam to
+# Default: 2.0
+# Range: 0.0 ~ 10.0
+catalystBuddingMaxPurity = 2.0
+#The AP a running Conduit Beacon uses each tick, taken from its internal buffer
+# Default: 50
+# Range: > 0
+conduitBeaconPowerUsage = 50
+#The AP a Conduit Beacon stores. Incoming laser power fills it, and the beacon keeps running from it after the beam stops
+# Default: 5000
+# Range: > 1
+conduitBeaconBuffer = 5000
+#The horizontal radius in blocks around a running Conduit Beacon where hostile, passive and ambient mobs do not spawn naturally
+# Default: 128
+# Range: 0 ~ 1024
+conduitBeaconSpawnRadius = 128
+#The ticks a Biome Tank takes to grow one of its plant
+# Default: 600
+# Range: > 1
+biomeTankTicks = 600
+#Whether processing machines run faster on a laser beam stronger than they need. Speed grows with the square root of the beam, so four times the power a machine needs runs it twice as fast
+beamOverclock = true
+#The highest speed multiplier a stronger beam can give a machine. 0 means no limit
+# Default: 0.0
+# Range: 0.0 ~ 1000000.0
+beamOverclockMaxSpeed = 0.0
+#The FE per tick a Combustion Dynamo makes while it burns oil and water, before any additive
+# Default: 320
+# Range: 0 ~ 10000000
+combustionDynamoOutput = 320
+#How many ticks a Combustion Dynamo runs on each mB of oil, before any additive
+# Default: 10
+# Range: 1 ~ 100000
+combustionDynamoTicksPerOil = 10
+#The mB of water a Combustion Dynamo uses each tick it runs, before any additive
+# Default: 1
+# Range: 0 ~ 100000
+combustionDynamoWaterPerTick = 1
+#The mB each of a Combustion Dynamo's oil and water tanks holds
+# Default: 8000
+# Range: 1000 ~ 1000000
+combustionDynamoTankCapacity = 8000
+#The capacity in mB of each of the Laser Crafting Matrix's four tanks: two inputs and two outputs
+# Default: 16000
+# Range: > 1
+laserCraftingMatrixTankCapacity = 16000
+#With Starcatcher installed, the NauTec Fishing Rod catches Starcatcher fish instead of vanilla fishing loot
+starcatcherFishOnNautecRod = true
+#Ticks between item moves on a Conduit Tap face with no upgrade
+# Default: 20
+# Range: 1 ~ 1200
+conduitItemIntervalBase = 20
+#Ticks between item moves on a Conduit Tap face with the Eddy upgrade
+# Default: 10
+# Range: 1 ~ 1200
+conduitItemIntervalEddy = 10
+#Ticks between item moves on a Conduit Tap face with the Surge upgrade
+# Default: 5
+# Range: 1 ~ 1200
+conduitItemIntervalSurge = 5
+#Ticks between item moves on a Conduit Tap face with the Riptide upgrade
+# Default: 2
+# Range: 1 ~ 1200
+conduitItemIntervalRiptide = 2
+#Ticks between item moves on a Conduit Tap face with the Maelstrom upgrade
+# Default: 1
+# Range: 1 ~ 1200
+conduitItemIntervalMaelstrom = 1
+#Items moved per move on a Conduit Tap face with no upgrade
+# Default: 8
+# Range: 1 ~ 4096
+conduitItemsPerOpBase = 8
+#Items moved per move on a Conduit Tap face with the Eddy upgrade
+# Default: 16
+# Range: 1 ~ 4096
+conduitItemsPerOpEddy = 16
+#Items moved per move on a Conduit Tap face with the Surge upgrade
+# Default: 32
+# Range: 1 ~ 4096
+conduitItemsPerOpSurge = 32
+#Items moved per move on a Conduit Tap face with the Riptide upgrade
+# Default: 64
+# Range: 1 ~ 4096
+conduitItemsPerOpRiptide = 64
+#Items moved per move on a Conduit Tap face with the Maelstrom upgrade
+# Default: 64
+# Range: 1 ~ 4096
+conduitItemsPerOpMaelstrom = 64
+#mB per tick a Conduit Tap face moves with no upgrade
+# Default: 1000
+# Range: > 1
+conduitFluidRateBase = 1000
+#mB per tick a Conduit Tap face moves with the Eddy upgrade
+# Default: 5000
+# Range: > 1
+conduitFluidRateEddy = 5000
+#mB per tick a Conduit Tap face moves with the Surge upgrade
+# Default: 30000
+# Range: > 1
+conduitFluidRateSurge = 30000
+#mB per tick a Conduit Tap face moves with the Riptide upgrade
+# Default: 200000
+# Range: > 1
+conduitFluidRateRiptide = 200000
+#mB per tick a Conduit Tap face moves with the Maelstrom upgrade
+# Default: 1000000
+# Range: > 1
+conduitFluidRateMaelstrom = 1000000
+#FE per tick a Conduit Tap face moves with no upgrade. 0 means no limit
+# Default: 5000
+# Range: > 0
+conduitEnergyRateBase = 5000
+#FE per tick a Conduit Tap face moves with the Eddy upgrade. 0 means no limit
+# Default: 25000
+# Range: > 0
+conduitEnergyRateEddy = 25000
+#FE per tick a Conduit Tap face moves with the Surge upgrade. 0 means no limit
+# Default: 150000
+# Range: > 0
+conduitEnergyRateSurge = 150000
+#FE per tick a Conduit Tap face moves with the Riptide upgrade. 0 means no limit
+# Default: 1000000
+# Range: > 0
+conduitEnergyRateRiptide = 1000000
+#FE per tick a Conduit Tap face moves with the Maelstrom upgrade. 0 means no limit
+# Default: 5000000
+# Range: > 0
+conduitEnergyRateMaelstrom = 5000000
+#The most Current Conduit and Conduit Tap blocks one network can hold. Blocks past this are not reached
+# Default: 4096
+# Range: 2 ~ 65536
+conduitMaxNetworkSize = 4096
+#mB a Resonant Cistern channel holds, and the mB each Resonant Expansion adds
+# Default: 16000
+# Range: 1000 ~ 100000000
+resonantCisternTierCapacity = 16000
+#Ticks between automatic pushes and pulls on a Resonant Vault or Cistern face
+# Default: 10
+# Range: 1 ~ 1200
+resonantTransferInterval = 10
+#Items a Resonant Vault face pushes or pulls each transfer
+# Default: 16
+# Range: 1 ~ 4096
+resonantItemsPerTransfer = 16
+#mB a Resonant Cistern face pushes or pulls each transfer
+# Default: 1000
+# Range: > 1
+resonantFluidPerTransfer = 1000
+#The percent chance a Mutator attempt succeeds when a colony is given its own product's storage block (or the product, if it has no block).
+#A success keeps the strain and size and shifts the stats as a mutation does. 0 turns this off
+# Default: 25.0
+# Range: 0.0 ~ 100.0
+mutatorRefineChance = 25.0
+#Multiplies a Mutator attempt's success chance while an Electrolyte Algae Serum Vial is in its booster slot. A vial is used only when an attempt succeeds
+# Default: 3.0
+# Range: 1.0 ~ 100.0
+mutatorBoosterMultiplier = 3.0
+#The share of the normal failure loss a colony still takes when a boosted Mutator attempt fails. 0 means a boosted failure costs nothing, 1 means it costs the same as an unboosted one
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+mutatorBoostedFailureShrink = 0.0
+#The fraction of a colony's current size an Incubator cycle adds on top of its growth roll, multiplied by Growth Rate. 0 turns this off
+# Default: 0.03
+# Range: 0.0 ~ 1.0
+incubatorSizeGrowth = 0.03
+#The biomass a Colony Replicator gets from one of the item its template's strain makes, divided by the strain's Strain Yield.
+#The item's storage block gives nine times as much
+# Default: 100.0
+# Range: 0.0 ~ 1000000.0
+replicatorBiomassPerItem = 100.0
+#The size a Colony Replicator copy starts at, as a fraction of replicatorBiomassCost. 0 starts copies at a fresh graft's size
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+replicatorCopySize = 0.5
+#How far a Bubble Capsule's pocket reaches from the user's head. 2 gives a 5x5x5 cube
+# Default: 2
+# Range: 1 ~ 8
+bubbleCapsuleRadius = 2
+#How long a Bubble Capsule's pocket holds before the water returns, in seconds
+# Default: 30
+# Range: 5 ~ 600
+bubbleCapsuleSeconds = 30
+#Determines whether every strain with an incubation recipe also eats the item it makes and that item's storage block, in the Incubator and in Bio Reactors
+bacteriaProductNutrients = true
+#Multiplies a strain's incubation consume chance when it is fed the item it makes. A storage block is used up a ninth as often as that
+# Default: 1.5
+# Range: 0.01 ~ 100.0
+bacteriaProductConsumeMultiplier = 1.5

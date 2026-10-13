@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ftbmaterials:zinc_raw_block",
+  "output_items": [
+    {
+      "item": {
+        "count": 12,
+        "id": "ftbmaterials:zinc_dust"
+      }
+    },
+    {
+      "item": {
+        "count": 3,
+        "id": "ftbmaterials:zinc_dust"
+      },
+      "chance": 0.33
+    }
+  ],
+  "duration": 40
+}

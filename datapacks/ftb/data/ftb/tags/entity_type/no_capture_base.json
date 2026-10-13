@@ -1,0 +1,534 @@
+{
+  "replace": false,
+  "values": [
+    "#c:bosses",
+    {
+      "id": "artifacts:mimic",
+      "required": false
+    },
+    {
+      "id": "evilcraft:vengeance_spirit",
+      "required": false
+    },
+    {
+      "id": "easy_npc:allay",
+      "required": false
+    },
+    {
+      "id": "easy_npc:cat",
+      "required": false
+    },
+    {
+      "id": "easy_npc:cave_spider",
+      "required": false
+    },
+    {
+      "id": "easy_npc:chicken",
+      "required": false
+    },
+    {
+      "id": "easy_npc:cobblemon_npc",
+      "required": false
+    },
+    {
+      "id": "easy_npc:creeper",
+      "required": false
+    },
+    {
+      "id": "easy_npc:doppler",
+      "required": false
+    },
+    {
+      "id": "easy_npc:drowned",
+      "required": false
+    },
+    {
+      "id": "easy_npc:easy_model_entities_npc",
+      "required": false
+    },
+    {
+      "id": "easy_npc:enderman",
+      "required": false
+    },
+    {
+      "id": "easy_npc:evoker",
+      "required": false
+    },
+    {
+      "id": "easy_npc:fairy",
+      "required": false
+    },
+    {
+      "id": "easy_npc:fox",
+      "required": false
+    },
+    {
+      "id": "easy_npc:ghast",
+      "required": false
+    },
+    {
+      "id": "easy_npc:horse",
+      "required": false
+    },
+    {
+      "id": "easy_npc:husk",
+      "required": false
+    },
+    {
+      "id": "easy_npc:illusioner",
+      "required": false
+    },
+    {
+      "id": "easy_npc:iron_golem",
+      "required": false
+    },
+    {
+      "id": "easy_npc:orc",
+      "required": false
+    },
+    {
+      "id": "easy_npc:orc_warrior",
+      "required": false
+    },
+    {
+      "id": "easy_npc:pig",
+      "required": false
+    },
+    {
+      "id": "easy_npc:piglin",
+      "required": false
+    },
+    {
+      "id": "easy_npc:piglin_brute",
+      "required": false
+    },
+    {
+      "id": "easy_npc:pillager",
+      "required": false
+    },
+    {
+      "id": "easy_npc:skeleton",
+      "required": false
+    },
+    {
+      "id": "easy_npc:skeleton_bogged",
+      "required": false
+    },
+    {
+      "id": "easy_npc:skeleton_horse",
+      "required": false
+    },
+    {
+      "id": "easy_npc:slime",
+      "required": false
+    },
+    {
+      "id": "easy_npc:spider",
+      "required": false
+    },
+    {
+      "id": "easy_npc:stray",
+      "required": false
+    },
+    {
+      "id": "easy_npc:vex",
+      "required": false
+    },
+    {
+      "id": "easy_npc:villager",
+      "required": false
+    },
+    {
+      "id": "easy_npc:vindicator",
+      "required": false
+    },
+    {
+      "id": "easy_npc:wandering_trader",
+      "required": false
+    },
+    {
+      "id": "easy_npc:witch",
+      "required": false
+    },
+    {
+      "id": "easy_npc:wither_skeleton",
+      "required": false
+    },
+    {
+      "id": "easy_npc:wolf",
+      "required": false
+    },
+    {
+      "id": "easy_npc:zombie",
+      "required": false
+    },
+    {
+      "id": "easy_npc:zombie_horse",
+      "required": false
+    },
+    {
+      "id": "easy_npc:zombie_villager",
+      "required": false
+    },
+    {
+      "id": "easy_npc:zombified_piglin",
+      "required": false
+    },
+    {
+      "id": "occultism:afrit",
+      "required": false
+    },
+    {
+      "id": "occultism:afrit_unbound",
+      "required": false
+    },
+    {
+      "id": "occultism:bat_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:beaver_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:beholder_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:blacksmith_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:chimera_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:cthulhu_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:deer_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:demonic_husband",
+      "required": false
+    },
+    {
+      "id": "occultism:demonic_wife",
+      "required": false
+    },
+    {
+      "id": "occultism:devil_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:djinni",
+      "required": false
+    },
+    {
+      "id": "occultism:dragon_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:drikwing_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:fairy_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:foliot",
+      "required": false
+    },
+    {
+      "id": "occultism:goat_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:greedy_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:guardian_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:headless_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:iesnium_golem",
+      "required": false
+    },
+    {
+      "id": "occultism:marid",
+      "required": false
+    },
+    {
+      "id": "occultism:marid_unbound",
+      "required": false
+    },
+    {
+      "id": "occultism:mercy_goat",
+      "required": false
+    },
+    {
+      "id": "occultism:mummy_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_bee",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_blaze",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_breeze",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_elder_guardian",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_enderman",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_endermite",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_evoker",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_ghast",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_guardian",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_hoglin",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_phantom",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_shulker",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_skeleton",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_strong_breeze",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_warden",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_weak_breeze",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_weak_shulker",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_witch",
+      "required": false
+    },
+    {
+      "id": "occultism:possessed_zombified_piglin",
+      "required": false
+    },
+    {
+      "id": "occultism:shub_niggurath_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:shub_niggurath_spawn",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_bogged",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_cave_spider",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_horde_creeper",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_horde_drowned",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_horde_husk",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_horde_parched",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_horde_silverfish",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_hunt_skeleton",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_hunt_wither_skeleton",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_husk",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_silverfish",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_skeleton",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_slime",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_spider",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_stray",
+      "required": false
+    },
+    {
+      "id": "occultism:wild_zombie",
+      "required": false
+    },
+    {
+      "id": "occultism:wingnis_familiar",
+      "required": false
+    },
+    {
+      "id": "occultism:wondering_trader",
+      "required": false
+    },
+    {
+      "id": "productivebees:configurable_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:dye_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:lumber_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:quarry_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:rancher_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:collector_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:hoarder_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:farmer_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:creeper_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:cupid_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:ashy_mining_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:blue_banded_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:green_carpenter_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:yellow_black_carpenter_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:chocolate_mining_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:digger_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:leafcutter_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:mason_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:neon_cuckoo_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:nomad_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:reed_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:resin_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:sweat_bee",
+      "required": false
+    },
+    {
+      "id": "productivebees:bumble_bee",
+      "required": false
+    }
+  ]
+}

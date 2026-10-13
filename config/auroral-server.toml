@@ -1,0 +1,98 @@
+#Auroral Server Configuration
+[aurora]
+	#Chance of an aurora occurring each night in cold biomes (0.0 to 1.0)
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	aurora_chance = 0.33
+	#Minimum duration of an aurora in ticks (20 ticks = 1 second)
+	# Default: 6000
+	# Range: 1000 ~ 24000
+	aurora_min_duration = 6000
+	#Maximum duration of an aurora in ticks
+	# Default: 12000
+	# Range: 1000 ~ 24000
+	aurora_max_duration = 12000
+	#Durability repaired per second on Shimmersteel/Shimmerweave gear during aurora
+	# Default: 1
+	# Range: 0 ~ 10
+	aurora_repair_rate = 1
+	#Dimensions where auroras can occur, by dimension ID (for example minecraft:overworld). Auroras follow the night of each dimension's own day cycle, and the sky ribbons only show in dimensions that have a sky
+	aurora_dimensions = ["minecraft:overworld"]
+
+[combat]
+	#Health percentage threshold for Shimmersteel Sword execute (0.0 to 1.0)
+	# Default: 0.15
+	# Range: 0.0 ~ 0.5
+	execute_threshold = 0.15
+	#Duration in seconds of Frostbite applied by Shimmersteel Sword hits
+	# Default: 3.0
+	# Range: 0.5 ~ 10.0
+	sword_frostbite_duration = 3.0
+
+[equipment]
+	#Radius in blocks for Shimmerweave Goggles to apply Glowing effect to hostile mobs
+	# Default: 32
+	# Range: 8 ~ 64
+	goggles_glowing_radius = 32
+	#Speed multiplier for Shimmerweave Skates on regular ice (1.0 = +100% speed)
+	# Default: 1.05
+	# Range: 0.0 ~ 5.0
+	skates_ice_speed_boost = 1.05
+	#Speed multiplier for Shimmerweave Skates on packed/blue ice (2.0 = +200% speed)
+	# Default: 2.1
+	# Range: 0.0 ~ 10.0
+	skates_packed_ice_speed_boost = 2.1
+	#Radius in blocks for Shimmerweave Skates frost walker and lava walker effect
+	# Default: 2
+	# Range: 1 ~ 5
+	skates_frost_walker_radius = 2
+	#Speed multiplier for Shimmerweave Leggings on snow (0.2 = +20% speed)
+	# Default: 0.2
+	# Range: 0.0 ~ 2.0
+	leggings_snow_speed_boost = 0.2
+	#Speed multiplier for Shimmerweave Leggings on soul sand/soil (0.3 = +30% speed)
+	# Default: 0.3
+	# Range: 0.0 ~ 2.0
+	leggings_soul_speed_boost = 0.3
+	#Minimum distance in blocks below a falling player wearing Shimmerweave Skates to check for lava and turn it into obsidian before they land. Scales up with fall speed. 0 disables
+	# Default: 16
+	# Range: 0 ~ 64
+	skates_lava_fall_scan_depth = 16
+
+[nautilus]
+	#Duration of charge boost in ticks (10 = 0.5 seconds)
+	# Default: 10
+	# Range: 5 ~ 40
+	nautilus_boost_duration = 10
+	#Maximum boost strength multiplier at full charge (3.0 = 3x velocity)
+	# Default: 3.0
+	# Range: 1.0 ~ 10.0
+	nautilus_boost_strength = 3.0
+	#Ticks before wild nautili despawn after aurora ends (600 = 30 seconds)
+	# Default: 600
+	# Range: 100 ~ 6000
+	nautilus_despawn_delay = 600
+
+[hearthwood_log]
+	#How long the Hearthwood Log burns in ticks (168000 = 7 in-game days)
+	# Default: 168000
+	# Range: 24000 ~ 672000
+	hearthwood_log_burn_time = 168000
+	#Radius for Hearthwood Log frostbite protection
+	# Default: 16
+	# Range: 4 ~ 32
+	hearthwood_log_frostbite_radius = 16
+	#Trade discount percentage for villagers near Hearthwood Log (0.0 to 1.0)
+	# Default: 0.2
+	# Range: 0.0 ~ 0.5
+	hearthwood_log_villager_discount = 0.2
+
+[basin]
+	#Ticks between each aura fill during aurora (lower = faster)
+	# Default: 100
+	# Range: 20 ~ 1200
+	basin_fill_rate = 100
+	#Maximum aura levels a basin can hold (1 to 3)
+	# Default: 3
+	# Range: 1 ~ 3
+	basin_max_aura = 3

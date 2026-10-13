@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "#c:ore_source/overworld/lead",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "ftbmaterials:lead_raw_ore"
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"unlocked_by_default": true,
+	"title": {
+		"translate": "skill.ftb.ranged.title"
+	},
+	"description": {
+		"translate": "skill.ftb.ranged.description"
+	},
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "irons_artifice:six_shooter"
+		}
+	},
+	"starting_points": 1,
+	"background": {
+		"texture": "ftbevolution:textures/skills/backgrounds/ranged.png",
+		"width": 1024,
+		"height": 1024,
+		"position": "tile"
+	},
+	"colors": {
+		"connections": {
+			"locked": {
+				"fill": "#7a808c",
+				"stroke": "#000000"
+			},
+			"available": {
+				"fill": "#ffffff",
+				"stroke": "#000000"
+			},
+			"unlocked": {
+				"fill": "#e0b458",
+				"stroke": "#000000"
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  // When enabled, Toolkit will present a message to the user each time they join.
+  join_message: {
+    enable: false,
+    // The message displayed to the user on joining.
+    message: "Hello from ToolKit, this message can be change or disabled in config.",
+  },
+}

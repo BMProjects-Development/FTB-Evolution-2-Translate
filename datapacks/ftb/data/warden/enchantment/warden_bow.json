@@ -1,0 +1,43 @@
+{
+  "description": {
+    "translate": "ultimate_warden.enchantment.warden_bow",
+    "fallback": "Warden Bow",
+    "color": "blue"
+  },
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 4,
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 12.5,
+            "per_level_above_first": 0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:warden"
+          }
+        }
+      }
+    ]
+  }
+}

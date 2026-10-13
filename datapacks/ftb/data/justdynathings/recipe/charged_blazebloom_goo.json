@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "justdirethings:gooblock_tier2",
+    "justdirethings:coal_t2",
+    "justdirethings:raw_blazegold",
+    "justdirethings:totem_of_death_recall"
+  ],
+  "result": {
+    "id": "justdynathings:charged_blazebloom_goo"
+  }
+}

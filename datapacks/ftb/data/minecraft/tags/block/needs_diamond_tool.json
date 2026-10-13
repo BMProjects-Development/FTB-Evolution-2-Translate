@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "ftbmaterials:titanium_stone_ore", "required": false },
+    { "id": "ftbmaterials:titanium_deepslate_ore", "required": false },
+    { "id": "ftbmaterials:titanium_nether_ore", "required": false },
+    { "id": "ftbmaterials:titanium_end_ore", "required": false },
+    { "id": "ltxi:titanium_ore", "required": false },
+    { "id": "ltxi:deepslate_titanium_ore", "required": false },
+    { "id": "stellaris:titanium_ore", "required": false },
+    { "id": "stellaris:deepslate_titanium_ore", "required": false },
+    { "id": "stellaris:moon_titanium_ore", "required": false },
+    { "id": "oritech:black_hole", "required": false }
+  ]
+}

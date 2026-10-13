@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/uranium",
+  "result": {
+    "id": "ftbmaterials:uranium_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:uranium_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

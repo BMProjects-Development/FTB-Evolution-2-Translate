@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": "#minecraft:coals",
+    "G": "minecraft:gravel",
+    "L": "minecraft:clay_ball",
+    "S": "minecraft:sand"
+  },
+  "pattern": [
+    "CCS",
+    "GLS",
+    "GCC"
+  ],
+  "result": {
+    "count": 8,
+    "id": "hephaestus:forge_brick"
+  }
+}

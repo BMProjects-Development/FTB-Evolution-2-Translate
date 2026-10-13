@@ -1,0 +1,21 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:steel"
+    },
+    "items": "hephaestus_tools:large_blade",
+    "strict": false
+  },
+  "result": {
+    "amount": 720,
+    "id": "hephaestus:molten_steel"
+  },
+  "temperature": 1000,
+  "time": 120
+}

@@ -1,0 +1,15 @@
+{
+  "items": {
+    "iceandfire:deepslate_silver_ore": "ftbmaterials:silver_deepslate_ore",
+    "iceandfire:raw_silver": "ftbmaterials:silver_raw_ore",
+    "iceandfire:raw_silver_block": "ftbmaterials:silver_raw_block",
+    "iceandfire:silver_block": "ftbmaterials:silver_block",
+    "iceandfire:silver_ingot": "ftbmaterials:silver_ingot",
+    "iceandfire:silver_nugget": "ftbmaterials:silver_nugget",
+    "iceandfire:silver_ore": "ftbmaterials:silver_stone_ore"
+  },
+  "ore_blocks": {
+    "iceandfire:deepslate_silver_ore": "ftbmaterials:silver_deepslate_ore",
+    "iceandfire:silver_ore": "ftbmaterials:silver_stone_ore"
+  }
+}

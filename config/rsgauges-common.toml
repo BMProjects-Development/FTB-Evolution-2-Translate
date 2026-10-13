@@ -1,0 +1,47 @@
+[General]
+	#Disable wireless switch linking.
+	without_switch_linking = false
+	#Disable pulse time configuration.
+	without_pulsetime_config = false
+	#Disable right-click item switch configuration.
+	without_rightclick_item_switchconfig = false
+	#Disable sculk sensor triggering.
+	without_sculk_triggering = false
+	#Disable 'no output' option for switches.
+	without_switch_nooutput = false
+	#Update interval for gauges in ticks.
+	# Default: 4
+	# Range: 1 ~ 100
+	gauge_update_interval = 4
+	#Update interval for comparator switches in ticks.
+	# Default: 2
+	# Range: 1 ~ 100
+	comparator_switch_update_interval = 2
+	#Update interval for linear entity detectors.
+	# Default: 4
+	# Range: 1 ~ 100
+	autoswitch_linear_update_interval = 4
+	#Update interval for volumetric entity detectors.
+	# Default: 10
+	# Range: 1 ~ 100
+	autoswitch_volumetric_update_interval = 10
+	#Timeout for double-left-click config in ms.
+	# Default: 500
+	# Range: 100 ~ 2000
+	config_left_click_timeout = 500
+	#Maximum distance for switch linking (0=infinite).
+	# Default: 48
+	# Range: 0 ~ 2048
+	max_switch_linking_distance = 48
+	#List of block registry names to disable.
+	optOuts = []
+
+["Transport Terminal"]
+	#Energy capacity of the Transport Terminal.
+	# Default: 100000
+	# Range: > 0
+	transport_terminal_capacity = 100000
+	#Energy cost for a single teleport.
+	# Default: 1000
+	# Range: > 0
+	transport_terminal_teleport_cost = 1000

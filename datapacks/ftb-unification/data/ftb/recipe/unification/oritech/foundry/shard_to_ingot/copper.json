@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:copper_shard",
+    "ftbmaterials:copper_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "minecraft:copper_ingot"
+    }
+  ],
+  "time": 80
+}

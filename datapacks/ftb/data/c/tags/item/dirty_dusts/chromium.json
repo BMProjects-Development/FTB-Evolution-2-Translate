@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "ftbmaterials:chromium_dirty_dust",
+      "required": false
+    }
+  ]
+}

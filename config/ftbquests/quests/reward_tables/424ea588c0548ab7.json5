@@ -1,0 +1,41 @@
+{
+  id: "424EA588C0548AB7",
+  order_index: 12,
+  icon: {
+    id: "ftb:beast_heart",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "3AA86D510D61A444",
+      item: {
+        id: "powah:energy_cell_creative",
+        count: 1,
+      },
+    },
+    {
+      id: "741159B59AF92715",
+      item: {
+        id: "refinedstorage:creative_storage_disk",
+        count: 1,
+      },
+    },
+    {
+      id: "59163CE891B7673E",
+      item: {
+        id: "oritech:creative_tank",
+        count: 1,
+      },
+    },
+    {
+      id: "54E35F6647A6C22E",
+      item: {
+        id: "modularrouters:creative_module",
+        count: 1,
+      },
+    },
+  ],
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ftb:dungeons/stone/initiators/shaft_extender",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/shaft_extender/initiator",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

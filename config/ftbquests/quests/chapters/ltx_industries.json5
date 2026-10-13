@@ -1,0 +1,1730 @@
+{
+  id: "3D06D5642A622493",
+  group: "4780068BA76609B8",
+  order_index: 8,
+  icon: {
+    id: "ltxi:infinite_energy_cell_array",
+    count: 1,
+  },
+  filename: "ltx_industries",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "359C9BCF250CA832",
+  quests: [
+    {
+      icon: {
+        id: "ltxi:t1_circuit",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "359C9BCF250CA832",
+      ],
+      size: 1.5,
+      id: "7A727FA32BD3EF53",
+      tasks: [
+        {
+          id: "3B38F8145918987F",
+          type: "item",
+          item: {
+            id: "ltxi:t1_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DC325FEEF1B6C78",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:vitriol_berries",
+        count: 1,
+      },
+      x: 6.0,
+      y: -2.0,
+      dependencies: [
+        "5417AFD81227465D",
+      ],
+      size: 1.0,
+      id: "3EEF7169EA2EE7F2",
+      tasks: [
+        {
+          id: "3D8122A2D6B16F86",
+          type: "item",
+          item: {
+            id: "ltxi:vitriol_berries",
+            count: 1,
+          },
+        },
+        {
+          id: "00A191FDD3B9A3A0",
+          type: "item",
+          item: {
+            id: "ltxi:acidic_biomass",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14ABECB72B843FC6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:assembler",
+        count: 1,
+      },
+      x: 10.0,
+      y: 2.0,
+      dependencies: [
+        "06354FA695904AFD",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      id: "2E5E8A019A56881E",
+      tasks: [
+        {
+          id: "2C7814F858A56A14",
+          type: "item",
+          item: {
+            id: "ltxi:assembler",
+            count: 1,
+          },
+        },
+        {
+          id: "7E00DA21F198935A",
+          type: "item",
+          item: {
+            id: "ltxi:t2_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A17752144768662",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:chem_lab",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      hide_dependency_lines: false,
+      dependencies: [
+        "7A727FA32BD3EF53",
+      ],
+      size: 1.0,
+      id: "05840D6E05F68B73",
+      tasks: [
+        {
+          id: "7203955014B5D366",
+          type: "item",
+          item: {
+            id: "ltxi:chem_lab",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "100407B3FFCA2F21",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:arc_furnace",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      dependencies: [
+        "5417AFD81227465D",
+      ],
+      size: 1.0,
+      id: "7FD632909226FFEB",
+      tasks: [
+        {
+          id: "4D8D6C398C286564",
+          type: "item",
+          item: {
+            id: "ltxi:arc_furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30AB1461AD3873A4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:electrocentrifuge",
+        count: 1,
+      },
+      x: 6.0,
+      y: 2.0,
+      dependencies: [
+        "7FD632909226FFEB",
+      ],
+      size: 1.0,
+      id: "62C16C9468193F6C",
+      tasks: [
+        {
+          id: "4FE1FD3F7296DA1A",
+          type: "item",
+          item: {
+            id: "ltxi:electrocentrifuge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E3A6D62494BCDD7",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbmaterials:titanium_raw_ore",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "359C9BCF250CA832",
+      tasks: [
+        {
+          id: "5DFD4A1637BB84E9",
+          type: "item",
+          item: {
+            id: "ftbmaterials:titanium_raw_ore",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0AA9E5079F2F75F6",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:mixer",
+        count: 1,
+      },
+      x: 8.0,
+      y: -4.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "7A727FA32BD3EF53",
+      ],
+      size: 1.0,
+      id: "4382135A655314AF",
+      tasks: [
+        {
+          id: "5D0E0FE84C0B0F22",
+          type: "item",
+          item: {
+            id: "ltxi:mixer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CB851D7B790C7EE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:fabricator",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      dependencies: [
+        "2E5E8A019A56881E",
+        "6D7ED2315F9E93BD",
+      ],
+      size: 1.0,
+      id: "3E3BDECE4FC4283C",
+      tasks: [
+        {
+          id: "49589BB4CF30BC78",
+          type: "item",
+          item: {
+            id: "ltxi:fabricator",
+            count: 1,
+          },
+        },
+        {
+          id: "41DF10BF7F426290",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ltxi:upgrade_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "100C9AEF0A1C3212",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:grinder",
+        count: 1,
+      },
+      x: 4.0,
+      y: -2.0,
+      dependencies: [
+        "7A727FA32BD3EF53",
+      ],
+      size: 1.0,
+      id: "5417AFD81227465D",
+      tasks: [
+        {
+          id: "6696B01FE0F5AAA9",
+          type: "item",
+          item: {
+            id: "ltxi:grinder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C416AC52EB8DD50",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:diamond_ore_crystal",
+        count: 1,
+      },
+      x: 6.0,
+      y: -4.0,
+      shape: "gear",
+      dependencies: [
+        "6EDEAB6EB8C352F6",
+      ],
+      size: 1.0,
+      id: "2BDF212C585D1A2C",
+      tasks: [
+        {
+          id: "0D25DA6D98413994",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0F2279C9F04E5D3B",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:material_press",
+        count: 1,
+      },
+      x: 8.0,
+      y: 2.0,
+      dependencies: [
+        "62C16C9468193F6C",
+      ],
+      size: 1.0,
+      id: "06354FA695904AFD",
+      tasks: [
+        {
+          id: "3273AF9C2A9F24C8",
+          type: "item",
+          item: {
+            id: "ltxi:slatesteel_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "3CBBD841B6F99282",
+          type: "item",
+          item: {
+            id: "ltxi:material_press",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B6AEEC9FCF810E6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:t3_circuit",
+        count: 1,
+      },
+      x: 12.0,
+      y: 0.0,
+      dependencies: [
+        "6D7ED2315F9E93BD",
+        "2E5E8A019A56881E",
+      ],
+      size: 1.0,
+      id: "19019EBBF6A8CD45",
+      tasks: [
+        {
+          id: "3B3D2ABDD00A717F",
+          type: "item",
+          item: {
+            id: "ltxi:t3_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37A2C54B322BE645",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:medium_voltaic_cell",
+        count: 1,
+      },
+      x: 10.0,
+      y: -2.0,
+      dependencies: [
+        "677539F514A6986B",
+        "12991E755825749C",
+      ],
+      size: 1.0,
+      id: "6D7ED2315F9E93BD",
+      tasks: [
+        {
+          id: "7A833CE5C818B85C",
+          type: "item",
+          item: {
+            id: "ltxi:polymer",
+            count: 1,
+          },
+        },
+        {
+          id: "5B153F05D299C431",
+          type: "item",
+          item: {
+            id: "ltxi:medium_voltaic_cell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "550815007DAB8644",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:atmospheric_scrubber",
+        count: 1,
+      },
+      x: 14.0,
+      y: 0.0,
+      dependencies: [
+        "19019EBBF6A8CD45",
+      ],
+      size: 1.0,
+      id: "0E59D4359DA75B3D",
+      tasks: [
+        {
+          id: "02F9512EDE7CA205",
+          type: "item",
+          item: {
+            id: "ltxi:atmospheric_scrubber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19A834D137691511",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:digital_garden",
+        count: 1,
+      },
+      x: 12.0,
+      y: -2.0,
+      dependencies: [
+        "19019EBBF6A8CD45",
+      ],
+      size: 1.0,
+      id: "59E5B7EF32280569",
+      tasks: [
+        {
+          id: "7B270F48B1D6B851",
+          type: "item",
+          item: {
+            id: "ltxi:digital_garden",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4664E55BDF9CB3A2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:t4_circuit",
+        count: 1,
+      },
+      x: 20.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "18D0822972C250BA",
+        "54BECF70662E7965",
+        "3D3AD363723B756C",
+      ],
+      size: 1.5,
+      id: "5EF4EC94EEE9FCDB",
+      tasks: [
+        {
+          id: "7BC0FBAB0B7200D4",
+          type: "item",
+          item: {
+            id: "ltxi:t4_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "551175020934C0F7",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:wonderland_head",
+        count: 1,
+        components: {
+          "ltxi:upgrades": {
+            "ltxi:armor_passive_shield": 1,
+            "ltxi:armor_defense": 1,
+            "ltxi:default/wonderland_head": 1,
+          },
+          "limacore:energy": 125000,
+        },
+      },
+      x: 18.0,
+      y: 2.0,
+      shape: "diamond",
+      hide_dependency_lines: false,
+      dependencies: [
+        "5B01DB41B229C43D",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1BD6D491EEC018D0",
+      tasks: [
+        {
+          id: "045A2B70E5239C3C",
+          type: "item",
+          item: {
+            id: "ltxi:wonderland_head",
+            count: 1,
+            components: {
+              "ltxi:upgrades": {
+                "ltxi:armor_passive_shield": 1,
+                "ltxi:armor_defense": 1,
+                "ltxi:default/wonderland_head": 1,
+              },
+              "limacore:energy": 125000,
+            },
+          },
+        },
+        {
+          id: "10B12A8342EC5959",
+          type: "item",
+          item: {
+            id: "ltxi:wonderland_body",
+            count: 1,
+            components: {
+              "ltxi:upgrades": {
+                "ltxi:armor_passive_shield": 1,
+                "ltxi:default/wonderland_body": 1,
+                "ltxi:armor_defense": 1,
+              },
+              "limacore:energy": 125000,
+            },
+          },
+        },
+        {
+          id: "5F2083CB84D28115",
+          type: "item",
+          item: {
+            id: "ltxi:wonderland_legs",
+            count: 1,
+            components: {
+              "ltxi:upgrades": {
+                "ltxi:armor_passive_shield": 1,
+                "ltxi:armor_defense": 1,
+                "ltxi:default/wonderland_legs": 1,
+              },
+              "limacore:energy": 125000,
+            },
+          },
+        },
+        {
+          id: "3CC4975AF5FC54DD",
+          type: "item",
+          item: {
+            id: "ltxi:wonderland_feet",
+            count: 1,
+            components: {
+              "ltxi:upgrades": {
+                "ltxi:armor_passive_shield": 1,
+                "ltxi:default/wonderland_feet": 1,
+                "ltxi:armor_defense": 1,
+              },
+              "limacore:energy": 125000,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B672DAEE655CFCB",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:stargazer",
+        count: 1,
+        components: {
+          "ltxi:upgrades": {
+            "ltxi:default/stargazer": 1,
+          },
+        },
+      },
+      x: 12.0,
+      y: 2.0,
+      shape: "gear",
+      hide_dependency_lines: false,
+      dependencies: [
+        "19019EBBF6A8CD45",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4BFCCA0C7FA49C28",
+      tasks: [
+        {
+          id: "6470C8E57A9B2AED",
+          type: "item",
+          item: {
+            id: "ltxi:epsilon_sword",
+            count: 1,
+            components: {
+              "ltxi:upgrades": {
+                "ltxi:default/epsilon_melee": 1,
+              },
+              "limacore:energy": 80000,
+            },
+          },
+        },
+        {
+          id: "7B7309698598EF21",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ltxi:rocket_turret)item(ltxi:arc_turret))",
+            },
+          },
+        },
+        {
+          id: "3518AFC8391600B4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ltxi:aurora)item(ltxi:stargazer))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DB7323734CE8371",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:mirage",
+        count: 1,
+        components: {
+          "ltxi:upgrades": {
+            "ltxi:default/mirage": 1,
+          },
+        },
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "gear",
+      hide_dependency_lines: false,
+      dependencies: [
+        "3E3BDECE4FC4283C",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "680B3A82D8AF9950",
+      tasks: [
+        {
+          id: "5F4329B9065D310B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ltxi:serenity)item(ltxi:mirage)item(ltxi:wayfinder))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BE2A5BBD6A8C64C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:digital_furnace",
+        count: 1,
+      },
+      x: 4.0,
+      y: 2.0,
+      dependencies: [
+        "7A727FA32BD3EF53",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "2618CDD301362A21",
+      tasks: [
+        {
+          id: "6FAC0C6B14AE1494",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ltxi:digital_furnace)item(ltxi:digital_smoker)item(ltxi:digital_blast_furnace))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37D7DC2D33C75E59",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:spark_fruit",
+        count: 1,
+      },
+      x: 10.0,
+      y: -4.0,
+      size: 1.0,
+      id: "677539F514A6986B",
+      tasks: [
+        {
+          id: "653A108432BFBCD4",
+          type: "item",
+          item: {
+            id: "ltxi:spark_fruit",
+            count: 1,
+          },
+        },
+        {
+          id: "16AD4FF5ADCEA441",
+          type: "item",
+          item: {
+            id: "ltxi:sodium_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30C49694E8420418",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:daybreak",
+        count: 1,
+        components: {
+          "ltxi:ammo": 2,
+        },
+      },
+      x: 19.5,
+      y: 2.0,
+      shape: "gear",
+      hide_dependency_lines: false,
+      dependencies: [
+        "5EF4EC94EEE9FCDB",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3E7C6BF63D71A56A",
+      tasks: [
+        {
+          id: "6DD628B6710EAE2B",
+          type: "item",
+          item: {
+            id: "ltxi:daybreak",
+            count: 1,
+            components: {
+              "ltxi:ammo": 2,
+            },
+          },
+        },
+        {
+          id: "089196AFAA892262",
+          type: "item",
+          item: {
+            id: "ltxi:railgun_turret",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4991531F3FA4F198",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:t5_circuit",
+        count: 1,
+      },
+      x: 24.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "03BB4ADCCC53708D",
+        "1BD3EA2ADBDA309B",
+      ],
+      size: 1.75,
+      id: "45B06D8A03232CF8",
+      tasks: [
+        {
+          id: "5FDCC7F690D8E3F3",
+          type: "item",
+          item: {
+            id: "ltxi:t5_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BA27F7691263EA4",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:nova",
+        count: 1,
+      },
+      x: 26.5,
+      y: 0.0,
+      shape: "gear",
+      dependencies: [
+        "45B06D8A03232CF8",
+      ],
+      size: 1.5,
+      id: "2689B0928FA18765",
+      tasks: [
+        {
+          id: "2228AD682AFE6A1B",
+          type: "item",
+          item: {
+            id: "ltxi:nova",
+            count: 1,
+            components: {
+              "ltxi:upgrades": {
+                "ltxi:default/nova": 1,
+              },
+              "ltxi:ammo": 7,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "255A370E2D78E198",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:portable_generator",
+        count: 1,
+      },
+      x: 2.0,
+      y: 2.0,
+      dependencies: [
+        "7A727FA32BD3EF53",
+      ],
+      size: 1.0,
+      id: "660A89B05AEBBDBA",
+      tasks: [
+        {
+          id: "417437E2D279DB89",
+          type: "item",
+          item: {
+            id: "ltxi:portable_generator",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:sulfuric_acid_bucket",
+        count: 1,
+      },
+      x: 8.0,
+      y: -2.0,
+      dependencies: [
+        "3EEF7169EA2EE7F2",
+        "4382135A655314AF",
+      ],
+      size: 1.0,
+      id: "12991E755825749C",
+      tasks: [
+        {
+          id: "6ECC3AA2980A6F98",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ltxi:sulfuric_acid_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "123BD38D8F01C8BF",
+          type: "fluid",
+          optional_task: true,
+          fluid: {
+            fluid: "ltxi:sulfuric_acid",
+            amount: 1000,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56079CFCC3290CE1",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:fluoropolymer",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      dependencies: [
+        "0E59D4359DA75B3D",
+      ],
+      size: 1.0,
+      id: "7731A2CFF3B9769C",
+      tasks: [
+        {
+          id: "0A2287F82162288F",
+          type: "item",
+          item: {
+            id: "ltxi:fluoropolymer",
+            count: 1,
+          },
+        },
+        {
+          id: "11B4715506BF3EDD",
+          type: "item",
+          item: {
+            id: "ltxi:fluoropolymer_sheet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "35B3E71083262EE0",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:elite_circuit_board",
+        count: 1,
+      },
+      x: 18.0,
+      y: 0.0,
+      dependencies: [
+        "7731A2CFF3B9769C",
+      ],
+      size: 1.0,
+      id: "18D0822972C250BA",
+      tasks: [
+        {
+          id: "7505914F45A17A57",
+          type: "item",
+          item: {
+            id: "ltxi:elite_circuit_board",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A49A4CA3018A821",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:silicone_rubber",
+        count: 1,
+      },
+      x: 16.0,
+      y: 2.0,
+      dependencies: [
+        "7731A2CFF3B9769C",
+      ],
+      size: 1.0,
+      id: "5B01DB41B229C43D",
+      tasks: [
+        {
+          id: "70B7A7C084BFDCEC",
+          type: "item",
+          item: {
+            id: "ltxi:silicone_rubber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A365D2ED123D74E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:tungsten_slatesteel_ingot",
+        count: 1,
+      },
+      x: 14.0,
+      y: 2.0,
+      dependencies: [
+        "0E59D4359DA75B3D",
+      ],
+      size: 1.0,
+      id: "15BC82FEDC344BEE",
+      tasks: [
+        {
+          id: "248EC4CC0AFBE8A7",
+          type: "item",
+          item: {
+            id: "ltxi:tungsten_trioxide",
+            count: 1,
+          },
+        },
+        {
+          id: "0B6EE21205A9C0A2",
+          type: "item",
+          item: {
+            id: "ltxi:tungsten_slatesteel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78DA27712CBC56BA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4C520A391D370167",
+          type: "item",
+          item: {
+            id: "ltxi:tungsten_trioxide",
+            count: 2,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:argon_bucket",
+        count: 1,
+      },
+      x: 16.0,
+      y: -2.0,
+      dependencies: [
+        "0E59D4359DA75B3D",
+      ],
+      size: 1.0,
+      id: "781E24BC6FCF69AF",
+      tasks: [
+        {
+          id: "4F268B9B6648E80B",
+          type: "fluid",
+          fluid: {
+            fluid: "ltxi:argon",
+            amount: 1000,
+          },
+        },
+        {
+          id: "39906843076D4C19",
+          type: "item",
+          item: {
+            id: "ltxi:logic_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CFC934BAAE07B10",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:niobium_ingot",
+        count: 1,
+      },
+      x: 18.0,
+      y: -4.0,
+      dependencies: [
+        "781E24BC6FCF69AF",
+      ],
+      size: 1.0,
+      id: "5E72E067E7C37D7D",
+      tasks: [
+        {
+          id: "6409B090E0AF67C8",
+          type: "item",
+          item: {
+            id: "ltxi:niobium_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "7FA4BD380D5FDA2C",
+          type: "item",
+          item: {
+            id: "ltxi:niobium_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7742352570C3FB54",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:nano_logic_core",
+        count: 1,
+      },
+      x: 18.0,
+      y: -2.0,
+      dependencies: [
+        "5E72E067E7C37D7D",
+      ],
+      size: 1.0,
+      id: "54BECF70662E7965",
+      tasks: [
+        {
+          id: "7EF4B571868B3AC7",
+          type: "item",
+          item: {
+            id: "ltxi:nano_logic_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02A9E1D8A06035F9",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "437C2A0F3910B028",
+          type: "item",
+          item: {
+            id: "ltxi:pyroxene",
+            count: 2,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:large_voltaic_cell",
+        count: 1,
+      },
+      x: 20.0,
+      y: -4.0,
+      dependencies: [
+        "5E72E067E7C37D7D",
+      ],
+      size: 1.0,
+      id: "3D3AD363723B756C",
+      tasks: [
+        {
+          id: "540C45170DF05411",
+          type: "item",
+          item: {
+            id: "ltxi:large_voltaic_cell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C2C150C5AD295F1",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:infinite_water_tank",
+        count: 1,
+      },
+      x: 20.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "5EF4EC94EEE9FCDB",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "27E8B6B7A21D31D7",
+      tasks: [
+        {
+          id: "3DAC83344EB168D9",
+          type: "item",
+          item: {
+            id: "ltxi:infinite_water_tank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0574B9E2F0DF00B1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:rhenium_ingot",
+        count: 1,
+      },
+      x: 22.0,
+      y: -1.0,
+      dependencies: [
+        "5EF4EC94EEE9FCDB",
+      ],
+      size: 1.0,
+      id: "03BB4ADCCC53708D",
+      tasks: [
+        {
+          id: "7A736E0B395F4F47",
+          type: "item",
+          item: {
+            id: "ltxi:rhenium_7_oxide",
+            count: 1,
+          },
+        },
+        {
+          id: "29B331F1CF24C71B",
+          type: "item",
+          item: {
+            id: "ltxi:rhenium_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C051722957BB18B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "356D0366FE66CDD5",
+          type: "item",
+          item: {
+            id: "ltxi:rhenium_7_oxide",
+            count: 2,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:sculk_chemical",
+        count: 1,
+      },
+      x: 22.0,
+      y: 1.0,
+      dependencies: [
+        "5EF4EC94EEE9FCDB",
+      ],
+      size: 1.0,
+      id: "1BD3EA2ADBDA309B",
+      tasks: [
+        {
+          id: "45D9E78DD03E05CF",
+          type: "item",
+          item: {
+            id: "ltxi:gloom_shroom",
+            count: 1,
+          },
+        },
+        {
+          id: "607EFFD2A7DE4CA2",
+          type: "item",
+          item: {
+            id: "ltxi:sculk_chemical",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C48B4C0FC17533A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7B993A4FC060F57F",
+          type: "item",
+          item: {
+            id: "ltxi:gloom_shroom",
+            count: 8,
+          },
+          random_bonus: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:infinite_lava_tank",
+        count: 1,
+      },
+      x: 25.5,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "45B06D8A03232CF8",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3CB6C9F3F4A205E3",
+      tasks: [
+        {
+          id: "38E23CD949BAAAD9",
+          type: "item",
+          item: {
+            id: "ltxi:infinite_lava_tank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "711D17CDCC9F6BBF",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:t5_circuit",
+        count: 1,
+      },
+      x: 25.5,
+      y: -1.5,
+      shape: "diamond",
+      dependencies: [
+        "45B06D8A03232CF8",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "465A125AA3B84877",
+      tasks: [
+        {
+          id: "4BBF01D6C8A0EEF9",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7F8D88929FDA5CCD",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:voltaic_injector",
+        count: 1,
+      },
+      x: 4.0,
+      y: -4.0,
+      dependencies: [
+        "5417AFD81227465D",
+      ],
+      size: 1.0,
+      id: "6EDEAB6EB8C352F6",
+      tasks: [
+        {
+          id: "24D0D25A9DF18DAD",
+          type: "item",
+          item: {
+            id: "ltxi:hydrosieve",
+            count: 1,
+          },
+        },
+        {
+          id: "22BFA3EBF2F2B908",
+          type: "item",
+          item: {
+            id: "ltxi:voltaic_injector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74E4D5B613E706E5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:geo_synthesizer",
+        count: 1,
+      },
+      x: 2.0,
+      y: -2.0,
+      dependencies: [
+        "7A727FA32BD3EF53",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "21C4EB4528C091CA",
+      tasks: [
+        {
+          id: "48FF0B47850A413D",
+          type: "item",
+          item: {
+            id: "ltxi:geo_synthesizer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7155C0556E629137",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:auto_fabricator",
+        count: 1,
+      },
+      x: 14.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "19019EBBF6A8CD45",
+      ],
+      size: 1.0,
+      id: "507B07726C49351E",
+      tasks: [
+        {
+          id: "20376E1B0B128E61",
+          type: "item",
+          item: {
+            id: "ltxi:auto_fabricator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69323B3E9A545563",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ltxi:repair_station",
+        count: 1,
+      },
+      x: 22.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "3D3AD363723B756C",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "31053F968B050ADE",
+      tasks: [
+        {
+          id: "68C13F1838171977",
+          type: "item",
+          item: {
+            id: "ltxi:repair_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56A64C918E1EB349",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 7.0,
+      y: -6.5,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ltxi:block/fabricator_0",
+      id: "2F8BDB23762B1B64",
+    },
+    {
+      x: 7.0,
+      y: -6.5,
+      width: 11.0,
+      height: 1.11,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/ltx_industries_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "359C9BCF250CA832",
+      },
+      id: "1E5934D4F8097A87",
+    },
+    {
+      x: 1.0,
+      y: -3.5,
+      width: 1.1,
+      height: 1.1,
+      rotation: -15.0,
+      image: "ltxi:item/logic_core",
+      id: "7C15C47A7F3C833D",
+    },
+    {
+      x: 13.5,
+      y: -4.0,
+      width: 1.1,
+      height: 1.1,
+      rotation: 15.0,
+      image: "ltxi:item/ore_crystal",
+      id: "2EAA0BA35000949F",
+    },
+    {
+      x: 8.0,
+      y: 3.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "ltxi:textures/modular_icon/purple_drill_head.png",
+      id: "5B1D11DB28E74890",
+    },
+  ],
+}

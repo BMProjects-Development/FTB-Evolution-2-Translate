@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "oritech:magnetic_coil",
+    "s": "#c:ingots/nickel",
+    "w": "#c:plates/iron",
+    "i": "#c:storage_blocks/iron"
+  },
+  "pattern": [
+    " s ",
+    "wcw",
+    "wiw"
+  ],
+  "result": {
+    "id": "oritech:motor"
+  }
+}

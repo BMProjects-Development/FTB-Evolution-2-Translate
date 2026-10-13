@@ -1,0 +1,3 @@
+#AI Settings
+#The endpoint for an OpenAI compatible API
+openAICompatibleEndpoint = "http://localhost:11434"

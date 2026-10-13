@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:silver_shard",
+    "ftbmaterials:silver_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:silver_ingot"
+    }
+  ],
+  "time": 80
+}

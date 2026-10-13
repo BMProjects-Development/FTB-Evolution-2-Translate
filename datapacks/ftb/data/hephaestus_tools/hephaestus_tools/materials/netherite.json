@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:netherite",
+  "ingredient": {
+    "tag": "c:ingots/netherite"
+  },
+  "color": 4275005,
+  "head_stats": {
+    "durability": 1800,
+    "mining_speed": 9.0,
+    "attack_damage": 4.0,
+    "attack_speed": 1.0,
+    "tier": 5,
+    "enchantability": 15,
+    "trait": "solid"
+  },
+  "handle_stats": {
+    "durability_mult": 0.15,
+    "speed_mult": 0.04,
+    "damage_mult": 0.1,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 360
+  }
+}

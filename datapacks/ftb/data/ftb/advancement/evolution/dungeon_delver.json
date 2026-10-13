@@ -1,0 +1,92 @@
+{
+  "parent": "ftb:evolution/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_stone_bricks"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.dungeon_delver.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.dungeon_delver.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "stone_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/stone_temple"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_dungeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/stone_dungeon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "aqua_dungeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/aqua_dungeon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_dungeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/nether_dungeon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_temple",
+      "stone_dungeon",
+      "aqua_dungeon",
+      "nether_dungeon"
+    ]
+  ]
+}

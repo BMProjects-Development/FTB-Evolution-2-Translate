@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/other/novite"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "stellaris:raw_novite"
+    }
+  ],
+  "time": 40
+}

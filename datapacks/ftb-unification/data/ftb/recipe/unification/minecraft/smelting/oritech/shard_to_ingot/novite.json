@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": "ftbmaterials:novite_shard",
+  "result": {
+    "count": 1,
+    "id": "stellaris:novite_ingot"
+  }
+}

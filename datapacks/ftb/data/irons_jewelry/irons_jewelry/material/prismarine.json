@@ -1,0 +1,19 @@
+{
+  "descriptionId": "material.irons_jewelry.prismarine",
+  "ingredient": "#c:dusts/prismarine",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/peridot",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:water_movement_efficiency",
+      "amount": 0.2,
+      "operation": "add_value"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:conduit_power"
+    }
+  }
+}

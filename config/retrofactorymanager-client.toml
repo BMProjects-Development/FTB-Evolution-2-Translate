@@ -1,0 +1,3 @@
+#When true, the Blueprint editor is set as SFM's preferred program editor on game load.
+#Switching editors in-game sets this to false so your choice sticks.
+setBlueprintAsDefaultEditor = true

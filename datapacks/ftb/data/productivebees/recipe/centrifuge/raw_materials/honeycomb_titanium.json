@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:raw_materials/titanium"
+    }
+  ],
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "neoforge:ingredient_type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "productivebees:raw_materials/titanium"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "chance": 0.4,
+      "item": "ftbmaterials:titanium_raw_ore"
+    },
+    {
+      "item": "productivebees:wax"
+    }
+  ]
+}

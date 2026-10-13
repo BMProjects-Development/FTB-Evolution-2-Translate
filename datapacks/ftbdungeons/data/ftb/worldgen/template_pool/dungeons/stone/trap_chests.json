@@ -1,0 +1,636 @@
+{
+  "name": "ftb:dungeons/stone/trap_chests",
+  "fallback": "ftb:dungeons/stone/trap_chests",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_1",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_2",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_3",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_4",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_5",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_6",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_7",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_8",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_9",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_10",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_11",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_12",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_13",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/common_14",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_1",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_2",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_3",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_4",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_5",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_6",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_7",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_8",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_9",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_10",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_11",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_12",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_13",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/uncommon_14",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_1",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_2",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_3",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_4",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_5",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_6",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_7",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_8",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_9",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_10",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_11",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_12",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_13",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/rare_14",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_1",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_2",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_3",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_4",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_5",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_6",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_7",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_8",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_9",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_10",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_11",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_12",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_13",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/epic_14",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_1",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_2",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_3",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_4",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_5",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_6",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_7",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_8",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_9",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_10",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_11",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_12",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_13",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/trap_chest/legendary_14",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    }
+  ]
+}

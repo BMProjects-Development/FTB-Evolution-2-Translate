@@ -1,0 +1,204 @@
+{
+  "parent": "apotheosis:progression/frontier",
+  "criteria": {
+    "kill_apothic_invader": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "apotheosis:is_invader"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "previous_tier": {
+      "trigger": "minecraft:impossible"
+    },
+    "uncommon_chest": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 2.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "chest"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "uncommon_feet": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 2.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "feet"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "uncommon_hand": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            }
+          }
+        },
+        "slots": "hand"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "uncommon_helm": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 2.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "head"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "uncommon_legs": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 2.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "legs"
+      },
+      "trigger": "apotheosis:equipped_item"
+    }
+  },
+  "display": {
+    "background": "apotheosis:gui/advancements/backgrounds/apoth",
+    "description": {
+      "translate": "advancements.apotheosis.progression.ascent.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "advancements.apotheosis.progression.ascent.title"
+    }
+  },
+  "requirements": [
+    [
+      "previous_tier"
+    ],
+    [
+      "uncommon_helm"
+    ],
+    [
+      "uncommon_chest"
+    ],
+    [
+      "uncommon_legs"
+    ],
+    [
+      "uncommon_feet"
+    ],
+    [
+      "uncommon_hand"
+    ],
+    [
+      "kill_apothic_invader"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "ftb:evolution/components",
+  "display": {
+    "icon": {
+      "id": "ftb:beast_heart"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.beast_heart.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.beast_heart.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftb:beast_heart"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ftb:dungeons/stone/terminators/treasures",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/terminator/treasure/139",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/terminator/treasure/140",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/terminator/treasure/141",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    }
+  ]
+}

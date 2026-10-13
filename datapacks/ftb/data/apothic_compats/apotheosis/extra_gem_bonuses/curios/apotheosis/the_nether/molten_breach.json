@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "gem": "apotheosis:the_nether/molten_breach",
+  "bonuses": [
+    {
+      "type": "apotheosis:damage_reduction",
+      "damage_type": "fire",
+      "gem_class": {
+        "key": "curios",
+        "types": [
+          "apothic_compats:back",
+          "apothic_compats:belt",
+          "apothic_compats:body",
+          "apothic_compats:bracelet",
+          "apothic_compats:charm",
+          "apothic_compats:curio",
+          "apothic_compats:feet",
+          "apothic_compats:hands",
+          "apothic_compats:head",
+          "apothic_compats:necklace",
+          "apothic_compats:ring",
+          "apothic_compats:brooch",
+          "apothic_compats:rune",
+          "apothic_compats:an_focus"
+        ]
+      },
+      "values": {
+        "flawed": 0.0063,
+        "normal": 0.0125,
+        "flawless": 0.0187,
+        "perfect": 0.025
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "ftbmaterials:platinum_nether_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "ftbmaterials:platinum_raw_ore"
+  }
+}

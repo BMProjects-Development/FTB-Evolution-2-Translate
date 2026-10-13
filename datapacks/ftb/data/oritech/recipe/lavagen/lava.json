@@ -1,0 +1,10 @@
+{
+  "type": "oritech:lava_generator",
+  "fluidInput": {
+    "amount": 128,
+    "ingredient": "minecraft:lava"
+  },
+  "itemInputs": [],
+  "itemResults": [],
+  "time": 20
+}

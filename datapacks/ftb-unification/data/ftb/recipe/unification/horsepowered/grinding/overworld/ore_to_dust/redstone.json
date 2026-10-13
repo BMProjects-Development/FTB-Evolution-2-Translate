@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/redstone",
+  "result": {
+    "count": 2,
+    "id": "minecraft:redstone"
+  },
+  "secondary": {
+    "count": 2,
+    "id": "minecraft:redstone"
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

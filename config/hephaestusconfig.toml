@@ -1,0 +1,6 @@
+[forge_table]
+	# Forge Table interface
+	#Allowed Values: MODERN, CLASSIC
+	table_interface = "MODERN"
+	# Skip the craft cinematics (MODERN only)
+	skip_cinematics = false

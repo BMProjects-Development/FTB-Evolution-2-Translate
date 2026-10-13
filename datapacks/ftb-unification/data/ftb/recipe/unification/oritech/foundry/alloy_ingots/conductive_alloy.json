@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:ingots/iron",
+    "#c:ingots/copper"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "enderio:conductive_alloy_ingot"
+    }
+  ],
+  "time": 80
+}

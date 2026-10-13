@@ -1,0 +1,71 @@
+{
+  "hephaestus:melting": [
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    }
+  ],
+  "hephaestus:casting_table": [
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "hephaestus:casting_basin": [
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

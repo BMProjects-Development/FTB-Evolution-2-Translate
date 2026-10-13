@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/nickel",
+  "result": {
+    "id": "ftbmaterials:nickel_dust"
+  },
+  "time": 16
+}

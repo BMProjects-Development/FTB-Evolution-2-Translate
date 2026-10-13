@@ -1,0 +1,13 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/sapphire",
+  "result": {
+    "count": 2,
+    "id": "ftbmaterials:sapphire_gem"
+  },
+  "secondary": {
+    "id": "ftbmaterials:sapphire_gem"
+  },
+  "secondaryChance": 25,
+  "time": 16
+}

@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ingots/iesnium",
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_iesnium"
+  },
+  "temperature": 1200,
+  "time": 120
+}

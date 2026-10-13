@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/sapphire"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/sapphire"
+      }
+    }
+  ],
+  "type": "occultism:crystallize",
+  "ingredient": "#c:ores/sapphire",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "ftbmaterials:sapphire_gem"
+  }
+}

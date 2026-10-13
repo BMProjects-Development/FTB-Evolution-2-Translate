@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "nautec"
+    }
+  ],
+  "entity": "nautec:abyssal_maw",
+  "variants": [],
+  "name_color": "#2A3A5A",
+  "display": {
+    "scale": 0.6
+  },
+  "sim_cost": 768,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.abyssal_maw",
+  "fabricator_drops": [
+    {
+      "id": "nautec:abyssal_organ",
+      "count": 4
+    }
+  ]
+}

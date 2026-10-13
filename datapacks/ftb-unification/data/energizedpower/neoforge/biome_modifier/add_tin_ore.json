@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "energizedpower:tin_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "sources": [
+    { "type": "single", "resource": "hostilenetworks:item/empty_learner_slot" },
+    { "type": "single", "resource": "neovitae:item/curios_empty_sentient_armour_socket" }
+  ]
+}

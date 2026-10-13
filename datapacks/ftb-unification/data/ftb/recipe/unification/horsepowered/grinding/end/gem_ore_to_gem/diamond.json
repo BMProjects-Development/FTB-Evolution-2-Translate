@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:diamond_end_ore",
+  "result": {
+    "count": 4,
+    "id": "minecraft:diamond"
+  },
+  "secondary": {
+    "id": "minecraft:diamond",
+    "count": 2
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

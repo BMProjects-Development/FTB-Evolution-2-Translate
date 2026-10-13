@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:dark_gem_essence"
+  },
+  "result": {
+    "id": "evilcraft:dark_gem",
+    "count": 6
+  }
+}

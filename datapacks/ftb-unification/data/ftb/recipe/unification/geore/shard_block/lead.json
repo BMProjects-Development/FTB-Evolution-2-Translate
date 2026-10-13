@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:lead_shard"
+  },
+  "result": {
+    "id": "geore:lead_block"
+  }
+}

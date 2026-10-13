@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:charger",
+  "energy": 65536,
+  "ingredient": "minecraft:iron_block",
+  "result": {
+    "id": "appflux:energy_processor_press"
+  }
+}

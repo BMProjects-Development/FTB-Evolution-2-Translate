@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/boron"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "colossal_reactors:boron_raw"
+    }
+  ],
+  "time": 40
+}

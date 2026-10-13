@@ -1,0 +1,10 @@
+{
+  "attack": 1.0,
+  "flowerTag": "c:storage_blocks/niobium",
+  "particleColor": "#8B85F7",
+  "primaryColor": "#7B75E4",
+  "secondaryColor": "#3C3783",
+  "tertiaryColor": "#857FDD",
+  "size": 0.8,
+  "useGlowLayer": true
+}

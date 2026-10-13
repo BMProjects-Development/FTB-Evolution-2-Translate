@@ -1,0 +1,23 @@
+{
+  "parent": "ftb:evolution/finders_keepers",
+  "display": {
+    "icon": {
+      "id": "irons_artifice:bullet"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.quick_draw.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.quick_draw.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

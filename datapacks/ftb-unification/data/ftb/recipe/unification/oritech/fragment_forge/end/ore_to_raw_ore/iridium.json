@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:iridium_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "ftbmaterials:iridium_raw_ore"
+    }
+  ],
+  "time": 40
+}

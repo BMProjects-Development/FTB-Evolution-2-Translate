@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:rolling",
+  "inputs": [
+    {
+      "ingredient": "ftbic:enderium_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbic:enderium_plate",
+        "count": 9
+      }
+    }
+  ]
+}

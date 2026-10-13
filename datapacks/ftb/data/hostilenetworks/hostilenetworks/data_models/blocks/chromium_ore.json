@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "colossal_reactors:chromium_ore",
+  "variants": [
+    "colossal_reactors:deep_chromium_ore"
+  ],
+  "name_color": "#A9B4C2",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.chromium_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:chromium_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

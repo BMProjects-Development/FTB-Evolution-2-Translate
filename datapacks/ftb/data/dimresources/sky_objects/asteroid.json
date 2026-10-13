@@ -1,0 +1,14 @@
+{
+  "texture": "dimresources:asteroid",
+  "beam_color": 2499872,
+  "beam_radius": 0.05,
+  "size": 8.0,
+  "distance": 400.0,
+  "rotation_x": 125.0,
+  "rotation_z": -25.0,
+  "speed_x": 0.0,
+  "speed_z": 0.01,
+  "excluded_dimensions": [
+    "minecraft:overworld"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4800,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 2,
+      "ingredient": "#c:dusts/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/chromium"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "id": "ftbmaterials:stainless_steel_dust"
+  }
+}

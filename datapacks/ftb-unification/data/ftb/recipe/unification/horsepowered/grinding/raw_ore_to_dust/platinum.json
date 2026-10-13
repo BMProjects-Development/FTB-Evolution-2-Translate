@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/platinum",
+  "result": {
+    "id": "ftbmaterials:platinum_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:platinum_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

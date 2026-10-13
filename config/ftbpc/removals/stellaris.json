@@ -1,0 +1,20 @@
+[
+  "desh_ingot_from_blasting_ore",
+  "desh_ingot_from_smelting_ore",
+  "iron_ingot_from_blasting_moon_iron_ore",
+  "iron_ingot_from_smelting_moon_iron_ore",
+  "raw_titanium_block",
+  "raw_titanium_from_block",
+  "titanium_block",
+  "titanium_ingot_from_blasting_deepslate_ore",
+  "titanium_ingot_from_blasting_moon_ore",
+  "titanium_ingot_from_blasting_ore",
+  "titanium_ingot_from_blasting_raw",
+  "titanium_ingot_from_block",
+  "titanium_ingot_from_nuggets",
+  "titanium_ingot_from_smelting_deepslate_ore",
+  "titanium_ingot_from_smelting_moon_ore",
+  "titanium_ingot_from_smelting_ore",
+  "titanium_ingot_from_smelting_raw",
+  "titanium_nugget_from_ingot"
+]

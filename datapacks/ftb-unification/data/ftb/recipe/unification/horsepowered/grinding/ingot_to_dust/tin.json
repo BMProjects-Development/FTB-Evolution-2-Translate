@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/tin",
+  "result": {
+    "id": "ftbmaterials:tin_dust"
+  },
+  "time": 16
+}

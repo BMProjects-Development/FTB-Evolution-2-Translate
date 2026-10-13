@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:diamond_end_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:diamond",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

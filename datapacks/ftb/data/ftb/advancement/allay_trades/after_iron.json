@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/iron"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ftb:allay_trades/after_iron"
+  }
+}

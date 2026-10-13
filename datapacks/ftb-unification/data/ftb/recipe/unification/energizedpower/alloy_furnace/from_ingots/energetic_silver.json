@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/silver"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "id": "enderio_evolution:energetic_silver_ingot",
+    "count": 1
+  },
+  "ticks": 1000
+}

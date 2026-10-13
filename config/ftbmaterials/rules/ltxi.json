@@ -1,0 +1,305 @@
+{
+  "ltxi:assembling": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:chemical_reacting": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:electro_centrifuging": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "fluid_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:garden_simulating": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:geo_synthesis": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:grinding": [
+    {
+      "path": "fluid_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:material_fusing": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ltxi:mixing": [
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "fluid_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<fluid_tag_map>"
+      }
+    },
+    {
+      "path": "fluid_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<fluid_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "item_inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "item_results/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

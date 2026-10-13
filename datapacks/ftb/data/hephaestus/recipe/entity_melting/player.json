@@ -1,0 +1,6 @@
+{
+  "type": "hephaestus:entity_melting",
+  "entity": "minecraft:player",
+  "result_amount": 45,
+  "result_id": "hephaestus:molten_meat"
+}

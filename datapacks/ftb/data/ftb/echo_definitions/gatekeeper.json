@@ -1,0 +1,229 @@
+{
+  "id": "ftb:gatekeeper",
+  "title": {
+    "translate": "ftb.shopkeeper.gatekeeper",
+    "color": "yellow"
+  },
+  "model": {
+    "villager_data": {
+      "type": "jungle",
+      "profession": "armorer",
+      "level": 5
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.gatekeeper",
+        "color": "yellow"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:gatekeeper_wares",
+      "shop_unlock": [
+        {
+          "name": "gate_pearl_slime",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:basic/slime"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "gate_pearl_enderman",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:basic/enderman"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "gate_pearl_blaze",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:basic/blaze"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "gate_pearl_overworldian_nights",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:overworldian_nights"
+            }
+          },
+          "cost": 100
+        },
+        {
+          "name": "gate_pearl_emerald_grove",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:emerald_grove"
+            }
+          },
+          "cost": 100
+        },
+        {
+          "name": "gate_pearl_iron_automaton",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:iron_automaton"
+            }
+          },
+          "cost": 100
+        },
+        {
+          "name": "gate_pearl_frontier",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "apotheosis:tiered/frontier"
+            }
+          },
+          "cost": 150
+        },
+        {
+          "name": "gate_pearl_ascent",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "apotheosis:tiered/ascent"
+            }
+          },
+          "cost": 150
+        },
+        {
+          "name": "gate_pearl_hellish_fortress",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:hellish_fortress"
+            }
+          },
+          "cost": 300
+        },
+        {
+          "name": "gate_pearl_summit",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "apotheosis:tiered/summit"
+            }
+          },
+          "cost": 300
+        },
+        {
+          "name": "gate_pearl_pinnacle",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "apotheosis:tiered/pinnacle"
+            }
+          },
+          "cost": 300
+        },
+        {
+          "name": "gate_pearl_blaze_2",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:endless/blaze"
+            }
+          },
+          "cost": 500,
+          "max_claims": 1
+        },
+        {
+          "name": "gate_pearl_automaton_fabricator",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "gateways:endless/automaton_fabricator"
+            }
+          },
+          "cost": 500,
+          "max_claims": 1
+        },
+        {
+          "name": "gate_pearl_endless_invader",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "apotheosis:endless_invader"
+            }
+          },
+          "cost": 500,
+          "max_claims": 1
+        },
+        {
+          "name": "gate_pearl_merchants_gateway",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "count": 1,
+            "components": {
+              "gateways:gateway": "ftb:merchants_gateway"
+            }
+          },
+          "cost": 80
+        },
+        {
+          "name": "ominous_bottle",
+          "item": {
+            "id": "minecraft:ominous_bottle",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "trial_key",
+          "item": {
+            "id": "minecraft:trial_key",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "ominous_trial_key",
+          "item": {
+            "id": "minecraft:ominous_trial_key",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "boss_summoner",
+          "item": {
+            "id": "apotheosis:boss_summoner",
+            "count": 1
+          },
+          "cost": 200
+        }
+      ]
+    }
+  ]
+}

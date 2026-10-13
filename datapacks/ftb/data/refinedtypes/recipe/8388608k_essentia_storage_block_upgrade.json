@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "refinedstorage:storage_container_upgrade",
+  "part": "refinedtypes:8388608k_essentia_storage_part",
+  "result": "refinedtypes:8388608k_essentia_storage_block",
+  "sources": [
+    "refinedtypes:64k_essentia_storage_block",
+    "refinedtypes:256k_essentia_storage_block",
+    "refinedtypes:1024k_essentia_storage_block",
+    "refinedtypes:8192k_essentia_storage_block",
+    "refinedtypes:65536k_essentia_storage_block",
+    "refinedtypes:262144k_essentia_storage_block",
+    "refinedtypes:1048576k_essentia_storage_block"
+  ]
+}

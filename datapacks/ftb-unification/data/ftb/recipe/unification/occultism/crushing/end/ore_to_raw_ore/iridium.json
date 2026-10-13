@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "ftbmaterials:iridium_end_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "ftbmaterials:iridium_raw_ore"
+  }
+}

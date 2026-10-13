@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/xychorium_light"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "xycraft_world:xychorium_gem_light"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 1,
+        "id": "xycraft_world:xychorium_gem_light"
+      }
+    }
+  ]
+}

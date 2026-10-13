@@ -1,0 +1,7 @@
+{
+  "type": "ae2:charger",
+  "ingredient": "minecraft:compass",
+  "result": {
+    "id": "ae2:meteorite_compass"
+  }
+}

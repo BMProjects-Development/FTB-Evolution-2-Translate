@@ -1,0 +1,49 @@
+{
+  "id": "ftb:village_storage",
+  "title": {
+    "translate": "ftb.shopkeeper.village_storage",
+    "color": "aqua"
+  },
+  "model": {
+    "villager_data": {
+      "type": "taiga",
+      "profession": "cartographer",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_storage",
+        "color": "aqua"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_storage_wares",
+      "shop_unlock": [
+        { "name": "ss_upgrade_base", "item": { "id": "sophisticatedstorage:upgrade_base", "count": 4 }, "cost": 10 },
+        { "name": "sb_upgrade_base", "item": { "id": "sophisticatedbackpacks:upgrade_base", "count": 4 }, "cost": 10 },
+        { "name": "packing_tape", "item": { "id": "sophisticatedstorage:packing_tape", "count": 1 }, "cost": 6 },
+        { "name": "basic_tier_upgrade", "item": { "id": "sophisticatedstorage:basic_tier_upgrade", "count": 1 }, "cost": 12 },
+        { "name": "pickup_upgrade", "item": { "id": "sophisticatedbackpacks:pickup_upgrade", "count": 1 }, "cost": 15 },
+        { "name": "magnet_upgrade", "item": { "id": "sophisticatedbackpacks:magnet_upgrade", "count": 1 }, "cost": 35, "max_claims": 1, "per_player_max_claims": true },
+        { "name": "functionalstorage_oak", "item": { "id": "functionalstorage:oak_1", "count": 4 }, "cost": 10 },
+        { "name": "linking_tool", "item": { "id": "functionalstorage:linking_tool", "count": 1 }, "cost": 8 },
+        { "name": "dank_1", "item": { "id": "dankstorage:dank_1", "count": 1 }, "cost": 20, "max_claims": 1, "per_player_max_claims": true },
+        { "name": "rs_machine_casing", "item": { "id": "refinedstorage:machine_casing", "count": 4 }, "cost": 20 },
+        { "name": "rs_cable", "item": { "id": "refinedstorage:cable", "count": 16 }, "cost": 10 },
+        { "name": "rs_1k_storage_part", "item": { "id": "refinedstorage:1k_storage_part", "count": 1 }, "cost": 25 },
+        { "name": "rs_upgrade", "item": { "id": "refinedstorage:upgrade", "count": 4 }, "cost": 20 },
+        { "name": "certus_quartz_crystal", "item": { "id": "ae2:certus_quartz_crystal", "count": 8 }, "cost": 12 },
+        { "name": "sky_stone_block", "item": { "id": "ae2:sky_stone_block", "count": 8 }, "cost": 15 },
+        { "name": "fluix_glass_cable", "item": { "id": "ae2:fluix_glass_cable", "count": 16 }, "cost": 15 },
+        { "name": "ae2_speed_card", "item": { "id": "ae2:speed_card", "count": 1 }, "cost": 25 },
+        { "name": "ae2_capacity_card", "item": { "id": "ae2:capacity_card", "count": 1 }, "cost": 25 },
+        { "name": "ae2_void_card", "item": { "id": "ae2:void_card", "count": 1 }, "cost": 25 },
+        { "name": "ae2_equal_distribution_card", "item": { "id": "ae2:equal_distribution_card", "count": 1 }, "cost": 25 }
+      ]
+    }
+  ]
+}

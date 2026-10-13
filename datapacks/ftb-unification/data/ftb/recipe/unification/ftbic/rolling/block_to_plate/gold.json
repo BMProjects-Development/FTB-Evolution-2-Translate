@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:rolling",
+  "inputs": [
+    {
+      "ingredient": "minecraft:gold_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:gold_plate",
+        "count": 9
+      }
+    }
+  ]
+}

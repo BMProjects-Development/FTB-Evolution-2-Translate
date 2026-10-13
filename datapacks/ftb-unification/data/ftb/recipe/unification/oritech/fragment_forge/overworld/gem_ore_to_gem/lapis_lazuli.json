@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/lapis"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "minecraft:lapis_lazuli"
+    }
+  ],
+  "time": 40
+}

@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#c:is_snowy",
+  "entity_types": [
+    "frostbear:frost_bear"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/zinc",
+  "result": {
+    "id": "ftbmaterials:zinc_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:zinc_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

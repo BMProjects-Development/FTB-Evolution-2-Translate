@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "compressium"
+    }
+  ],
+  "type": "ftbic:basic_generator_fuel",
+  "ingredient": "compressium:coal_5",
+  "ticks": 944784000
+}

@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:raw_materials/novite"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:novite_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,17 @@
+{
+  "type": "nautec:mixing",
+  "duration": 100,
+  "fluid_ingredient": {
+    "amount": 250,
+    "id": "nautec:saltwater"
+  },
+  "fluid_result": {
+    "amount": 1000,
+    "id": "oritech:still_oil"
+  },
+  "ingredients": [
+    {
+      "ingredient": "nautec:algal_lipid"
+    }
+  ]
+}

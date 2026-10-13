@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "type": "ltxi:garden_simulating",
+  "fluid_inputs": [
+    {
+      "amount": 250,
+      "ingredient": "#minecraft:water"
+    }
+  ],
+  "item_inputs": [
+    {
+      "consume_chance": 0.0,
+      "ingredient": "mysticalagriculture:creeper_seeds"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "mysticalagriculture:creeper_essence"
+    }
+  ],
+  "mode": "ltxi:farming"
+}

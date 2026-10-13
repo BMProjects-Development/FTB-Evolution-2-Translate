@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "ftbmaterials:copper_plate"
+  ],
+  "result": {
+    "id": "ftbmaterials:copper_wire",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "values": {
+    "justdirethings:refined_t2_fluid_source":   { "fe_per_mb": 960 },
+    "justdirethings:refined_t2_fluid_flowing":  { "fe_per_mb": 960 },
+    "justdirethings:refined_t3_fluid_source":   { "fe_per_mb": 5280 },
+    "justdirethings:refined_t3_fluid_flowing":  { "fe_per_mb": 5280 },
+    "justdirethings:refined_t4_fluid_source":   { "fe_per_mb": 18080 },
+    "justdirethings:refined_t4_fluid_flowing":  { "fe_per_mb": 18080 }
+  }
+}

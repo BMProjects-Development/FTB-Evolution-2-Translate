@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/tin"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:tin_shard"
+    }
+  ],
+  "time": 100
+}

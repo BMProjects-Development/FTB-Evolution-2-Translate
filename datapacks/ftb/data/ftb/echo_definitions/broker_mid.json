@@ -1,0 +1,141 @@
+{
+  "id": "ftb:broker_mid",
+  "title": {
+    "translate": "ftb.shopkeeper.broker_mid",
+    "color": "gold"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "librarian",
+      "level": 4
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.broker_mid",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:broker_mid_wares",
+      "shop_unlock": [
+        {
+          "name": "conduit_binder",
+          "item": {
+            "id": "enderio:conduit_binder",
+            "count": 16
+          },
+          "cost": 8
+        },
+        {
+          "name": "printed_silicon",
+          "item": {
+            "id": "ae2:printed_silicon",
+            "count": 8
+          },
+          "cost": 30
+        },
+        {
+          "name": "plastic_sheet",
+          "item": {
+            "id": "oritech:plastic_sheet",
+            "count": 16
+          },
+          "cost": 25
+        },
+        {
+          "name": "silicon_gem",
+          "item": {
+            "id": "ftbmaterials:silicon_gem",
+            "count": 8
+          },
+          "cost": 25
+        },
+        {
+          "name": "ender_pearl",
+          "item": {
+            "id": "minecraft:ender_pearl",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "suspicious_sand",
+          "item": {
+            "id": "minecraft:suspicious_sand",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "heart_of_the_sea",
+          "item": {
+            "id": "minecraft:heart_of_the_sea",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "frogspawn",
+          "item": {
+            "id": "minecraft:frogspawn",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "wind_charge",
+          "item": {
+            "id": "minecraft:wind_charge",
+            "count": 1
+          },
+          "cost": 5
+        },
+        {
+          "name": "phantom_membrane",
+          "item": {
+            "id": "minecraft:phantom_membrane",
+            "count": 1
+          },
+          "cost": 25
+        },
+        {
+          "name": "wither_bone",
+          "item": {
+            "id": "bhc:wither_bone",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "blank_pattern",
+          "item": {
+            "id": "ae2:blank_pattern",
+            "count": 16
+          },
+          "cost": 20
+        },
+        {
+          "name": "prudentium_essence",
+          "item": {
+            "id": "mysticalagriculture:prudentium_essence",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "slime_ball",
+          "item": {
+            "id": "minecraft:slime_ball",
+            "count": 8
+          },
+          "cost": 20
+        }
+      ]
+    }
+  ]
+}

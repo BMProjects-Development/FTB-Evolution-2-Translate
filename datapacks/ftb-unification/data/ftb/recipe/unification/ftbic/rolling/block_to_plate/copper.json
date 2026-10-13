@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:rolling",
+  "inputs": [
+    {
+      "ingredient": "minecraft:copper_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:copper_plate",
+        "count": 9
+      }
+    }
+  ]
+}

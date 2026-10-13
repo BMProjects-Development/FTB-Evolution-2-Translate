@@ -1,0 +1,30 @@
+{
+  "parent": "ftb:evolution/beyond_netherite",
+  "display": {
+    "icon": {
+      "id": "ftbarmory:aurichalcum_ingot"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.red_gold.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.red_gold.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "aurichalcum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftbarmory:aurichalcum_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

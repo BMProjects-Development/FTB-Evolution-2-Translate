@@ -1,0 +1,112 @@
+[general]
+	#Turning this to false will make MFFS run without electricity or energy systems required. Great for vanilla!
+	enableElectricity = true
+	#Cache allows temporary data saving to decrease calculations required
+	useCache = true
+	#Should the interdiction matrix interact with creative players?
+	interactCreative = true
+	#Max custom mode field scale
+	# Default: 200
+	# Range: > 0
+	maxCustomModeScale = 200
+	#Give players a copy of the MFFS guidebook when they first join a world
+	giveGuidebookOnFirstJoin = true
+
+[coercion_deriver]
+	#Fortron catalyst production multiplier
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	catalystMultiplier = 1.5
+	#The amount of ticks a single catalyst item lasts for
+	# Default: 100
+	# Range: 1 ~ 10000
+	catalystBurnTime = 100
+	#FE to convert into 1 Fortron
+	# Default: 600
+	# Range: > 1
+	feCostPerFortron = 600
+	#FE to subtract when converting Fortron to FE
+	# Default: 10
+	# Range: > 0
+	fortronToFeLoss = 10
+	#Base limit of fortron produced per tick (20 per second). Scales with speed modules and catalyst.
+	# Default: 150
+	# Range: > 1
+	fortronPerTick = 150
+	#Production bonus per speed module. production = fortronPerTick + (fortronPerTick * speedModuleCount)... or x2 multiplicative
+	# Default: 25
+	# Range: > 1
+	fortronPerTickSpeedModule = 25
+	#Increases the maximum FE transfer rate per each speed module. Each module boosts the transfer rate by DEFAULT_FE_CAPACITY * multiplier FE/t.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	speedModuleTransferRateBonus = 0.1
+
+	[coercion_deriver.upgrades]
+		#Maximum amount of Speed Modules this device accepts. 0 indicates no limit.
+		# Default: 0
+		# Range: > 0
+		maxSpeedUpgradeCount = 0
+		#Maximum amount of Capacity Modules this device accepts. 0 indicates no limit.
+		# Default: 0
+		# Range: > 0
+		maxCapacityUpgradeCount = 0
+
+#Fortron Capacitor
+[fortron_capacitor]
+
+	[fortron_capacitor.upgrades]
+		#Maximum amount of Speed Modules this device accepts. 0 indicates no limit.
+		# Default: 0
+		# Range: > 0
+		maxSpeedUpgradeCount = 0
+		#Maximum amount of Capacity Modules this device accepts. 0 indicates no limit.
+		# Default: 0
+		# Range: > 0
+		maxCapacityUpgradeCount = 0
+
+[force_field_projector]
+	#How many force field blocks can be generated per tick? Less reduces lag.
+	# Default: 1000000
+	# Range: > 0
+	maxFFGenPerTick = 1000000
+	#Maximum horizontal size (in blocks) of a force field. 0 indicates no limit.
+	# Default: 0
+	# Range: > 0
+	maxFieldWidth = 0
+	#Maximum vertical size (in blocks) of a force field. 0 indicates no limit.
+	# Default: 0
+	# Range: > 0
+	maxFieldHeight = 0
+
+	[force_field_projector.upgrades]
+		#Maximum amount of Speed Modules this device accepts. 0 indicates no limit.
+		# Default: 0
+		# Range: > 0
+		maxSpeedUpgradeCount = 0
+		#Maximum amount of Capacity Modules this device accepts. 0 indicates no limit.
+		# Default: 0
+		# Range: > 0
+		maxCapacityUpgradeCount = 0
+
+[interdiction_matrix]
+	#Maximum action range (in blocks, as distance from interdiction matrix). 0 indicates no limit.
+	# Default: 0
+	# Range: > 0
+	maxActionRange = 0
+	#Maximum warning range (in blocks, as distance from interdiction matrix). 0 indicates no limit.
+	# Default: 0
+	# Range: > 0
+	maxWarningRange = 0
+
+[balance]
+	#Energy to consume when the Interdiction Matrix kills a player
+	# Default: 0
+	# Range: > 0
+	interdictionMatrixKillEnergy = 0
+
+[force_field]
+	#Allow server operators to bypass Force Field biometry
+	allowOpBiometryOverride = true
+	#Apply confusion and slowness effects to players sneak-passing through force fields
+	applyFieldWarpDebuff = false

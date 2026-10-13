@@ -1,0 +1,12 @@
+execute at @s run fill ~-100 ~-3 ~-100 ~0 ~-3 ~0 minecraft:bedrock
+execute at @s run fill ~1 ~-3 ~-100 ~100 ~-3 ~0 minecraft:bedrock
+execute at @s run fill ~-100 ~-3 ~1 ~0 ~-3 ~100 minecraft:bedrock
+execute at @s run fill ~1 ~-3 ~1 ~100 ~-3 ~100 minecraft:bedrock
+execute at @s run fill ~-100 ~-2 ~-100 ~0 ~-2 ~0 minecraft:dirt
+execute at @s run fill ~1 ~-2 ~-100 ~100 ~-2 ~0 minecraft:dirt
+execute at @s run fill ~-100 ~-2 ~1 ~0 ~-2 ~100 minecraft:dirt
+execute at @s run fill ~1 ~-2 ~1 ~100 ~-2 ~100 minecraft:dirt
+execute at @s run fill ~-100 ~-1 ~-100 ~0 ~-1 ~0 minecraft:grass_block
+execute at @s run fill ~1 ~-1 ~-100 ~100 ~-1 ~0 minecraft:grass_block
+execute at @s run fill ~-100 ~-1 ~1 ~0 ~-1 ~100 minecraft:grass_block
+execute at @s run fill ~1 ~-1 ~1 ~100 ~-1 ~100 minecraft:grass_block

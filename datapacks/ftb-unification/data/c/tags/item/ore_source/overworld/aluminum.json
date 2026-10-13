@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ftbic:aluminum_deepslate_ore",
+    "ftbic:aluminum_stone_ore",
+    "ftbmaterials:aluminum_deepslate_ore",
+    "ftbmaterials:aluminum_stone_ore",
+    "xycraft_world:aluminum_ore_deepslate",
+    "xycraft_world:aluminum_ore_kivi",
+    "xycraft_world:aluminum_ore_stone"
+  ]
+}

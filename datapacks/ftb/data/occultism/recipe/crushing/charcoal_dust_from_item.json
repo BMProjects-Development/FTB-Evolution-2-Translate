@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/charcoal"
+      }
+    }
+  ],
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "minecraft:charcoal",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "ftbmaterials:charcoal_dust"
+  }
+}

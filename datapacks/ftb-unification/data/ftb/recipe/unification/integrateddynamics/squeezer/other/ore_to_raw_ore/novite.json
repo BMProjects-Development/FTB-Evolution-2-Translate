@@ -1,0 +1,24 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "#c:ore_source/other/novite",
+  "output_items": [
+    {
+      "item": {
+        "id": "stellaris:raw_novite",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "stellaris:raw_novite"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "stellaris:raw_novite"
+      },
+      "chance": 0.33
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+#Completing this advancement will unlock magic for the player. Leave empty to not require an advancement and have magic unlocked from the start.
+magic_advancement = "arsmagicalegacy:root"
+#The default mana to burnout ratio, used in calculating spell costs.
+# Default: 0.5
+# Range: 0.0 ~ 10.0
+mana_to_burnout_ratio = 0.5
+
+#Configuration for the various blocks.
+[blocks]
+	#The time in ticks between multiblock checks for the altar.
+	# Default: 20
+	# Range: 1 ~ 200
+	altar_check_interval = 20
+	#Whether inscription table upgrading is allowed in-world. If disabled, the upgrades must be applied through crafting.
+	inscription_table_in_world_upgrading = true
+	#The maximum etherium an Obelisk can store.
+	# Default: 5000
+	# Range: > 1
+	obelisk_max_etherium = 5000
+	#The maximum etherium a Celestial Prism can store.
+	# Default: 5000
+	# Range: > 1
+	celestial_prism_max_etherium = 5000
+	#The maximum etherium a Black Aurem can store.
+	# Default: 5000
+	# Range: > 1
+	black_aurem_max_etherium = 5000
+	#The speed multiplier used by the Redstone Inlay, multiplied by the regular rail's speed.
+	# Default: 2.5
+	# Range: 1.0 ~ 16.0
+	redstone_inlay_speed_multiplier = 2.5
+	#The teleportation range of the Gold Inlay, in blocks.
+	# Default: 8
+	# Range: 2 ~ 32
+	gold_inlay_range = 8
+
+#Configuration for the various items.
+[items]
+	#The time in ticks between checks for the Arcane Compendium conversion. Set to 0 to disable the conversion entirely.
+	# Default: 20
+	# Range: 0 ~ 200
+	arcane_compendium_conversion_check_interval = 20
+	#The time in ticks that the Arcane Compendium conversion takes.
+	# Default: 50
+	# Range: 1 ~ 1200
+	arcane_compendium_conversion_duration = 50
+	#The horizontal range of the Arcane Compendium conversion.
+	# Default: 3
+	# Range: 1 ~ 16
+	arcane_compendium_conversion_horizontal_range = 3
+	#The vertical range of the Arcane Compendium conversion.
+	# Default: 2
+	# Range: 1 ~ 16
+	arcane_compendium_conversion_vertical_range = 2
+	#The mana multiplier applied when using the Arcane Spell Book.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	arcane_spell_book_mana_multiplier = 0.8
+	#The stat multiplier applied when using the Arcane Spell Book.
+	# Default: 1.4
+	# Range: 1.0 ~ 8.0
+	arcane_spell_book_stat_multiplier = 1.4
+	#Whether to enable the Life Ward functionality from the inventory, if Curios is installed. If Curios is not installed, this will always be considered true.
+	life_ward_enable_in_inventory = true
+	#The amount of ticks to wait until the Life Ward starts to regenerate.
+	# Default: 100
+	# Range: 1 ~ 1200
+	life_ward_cooldown = 100
+	#The amount of ticks to wait until the Life Ward regenerates half a heart, after the initial cooldown.
+	# Default: 20
+	# Range: 1 ~ 1200
+	life_ward_interval = 20
+	#The max extra health the Life Ward can provide.
+	# Default: 20.0
+	# Range: 0.0 ~ 32767.0
+	life_ward_max_health = 20.0
+	#Whether to enable the Lightning Charm functionality from the inventory, if Curios is installed. If Curios is not installed, this will always be considered true.
+	lightning_charm_enable_in_inventory = true
+	#The range of the Lightning Charm's effect.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	lightning_charm_range = 16.0
+	#The fall damage multiplier applied when wearing the Ender Boots.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	ender_boots_fall_damage_multiplier = 0.5
+
+#Configuration for the various entities.
+[entities]
+	#The distance from a boss within which the boss bar will be shown.
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	boss_player_check_distance = 32.0
+	#The time in ticks between the boss checking for players in its range to show the boss bar to.
+	# Default: 20
+	# Range: 1 ~ 1200
+	boss_player_check_interval = 20
+	#The time in ticks between a Dryad growing nearby plants.
+	# Default: 200
+	# Range: 1 ~ 72000
+	dryad_grow_interval = 200
+	#The chance of a Dryad growing nearby plants successfully.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	dryad_grow_chance = 0.01
+	#The radius of a Dryad's growing effect.
+	# Default: 2
+	# Range: 1 ~ 32767
+	dryad_grow_radius = 2
+	#If enough dryads are killed during this amount of time in ticks, the Nature Guardian will spawn. Set to 0 to disable this way of summoning the Nature Guardian.
+	# Default: 1200
+	# Range: 0 ~ 1000000
+	dryad_kill_cooldown = 1200
+	#The amount of dryads to be killed within the cooldown in order for the Nature Guardian to spawn.
+	# Default: 20
+	# Range: 1 ~ 32767
+	dryad_kills_for_nature_guardian_spawn = 20
+	#The amount of damage the Mana Vortex deals per stolen mana point.
+	# Default: 0.01
+	# Range: 0.0 ~ 10.0
+	damage = 0.01
+	#The maximum damage the Mana Vortex can deal.
+	# Default: 100.0
+	# Range: 1.0 ~ 1000000.0
+	max_damage = 100.0
+	#The range of the Mana Vortex.
+	# Default: 4.0
+	# Range: 1.0 ~ 16.0
+	range = 4.0
+	#The amount of mana a Mana Vortex will steal each tick, as a multiplier of the target's max mana.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	steal = 0.01
+
+#Configuration for the mana leveling and regeneration of players.
+[mana]
+	#The base value for mana calculation. Mana is calculated as base + multiplier * (level - 1).
+	# Default: 200.0
+	# Range: 0.0 ~ 1000000.0
+	base = 200.0
+	#The multiplier for mana calculation. Mana is calculated as base + multiplier * (level - 1).
+	# Default: 25.0
+	# Range: 0.0 ~ 1000000.0
+	multiplier = 25.0
+	#The multiplier for mana regeneration. Mana regeneration is calculated as (base + multiplier * (level - 1)) * regeneration.
+	# Default: 0.001
+	# Range: 0.0 ~ 1000000.0
+	regeneration = 0.001
+
+#Configuration for the burnout leveling and regeneration of players.
+[burnout]
+	#The base value for burnout calculation. Burnout is calculated as base + multiplier * (level - 1).
+	# Default: 200.0
+	# Range: 0.0 ~ 1000000.0
+	base = 200.0
+	#The multiplier for burnout calculation. Burnout is calculated as base + multiplier * (level - 1).
+	# Default: 25.0
+	# Range: 0.0 ~ 1000000.0
+	multiplier = 25.0
+	#The multiplier for burnout regeneration. Burnout regeneration is calculated as (base + multiplier * (level - 1)) * regeneration.
+	# Default: 0.001
+	# Range: 0.0 ~ 1000000.0
+	regeneration = 0.001
+
+#Configuration for the magic leveling of players.
+[level]
+	#The base value for leveling calculation. XP cost is calculated as multiplier * base ^ (level - 1).
+	# Default: 1.1
+	# Range: 0.0 ~ 10000.0
+	base = 1.1
+	#The multiplier for leveling calculation. XP cost is calculated as multiplier * base ^ (level - 1).
+	# Default: 2.5
+	# Range: 0.0 ~ 10000.0
+	multiplier = 2.5
+	#The extra blue skill points a player gets at level 1, in addition to the one they already get.
+	# Default: 2
+	# Range: 0 ~ 32767
+	extra_skill_points = 2
+
+#Configuration for the affinity shifting of players.
+[affinity]
+	#The affinity to xp ratio. When awarding xp, the amount of used affinities will be multiplied with this modifier.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	affinity_to_xp_ratio = 1.0
+	#By what factor affinity and xp gain will be amplified when a continuous spell shape is used.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	continuous_modifier = 0.25
+	#When an affinity shift is applied, what portion of it is subtracted from the direct opposite affinity.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	direct_opposite_multiplier = 0.75
+	#When an affinity shift is applied, what portion of it is subtracted from the major opposite affinities.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	major_opposite_multiplier = 0.5
+	#When an affinity shift is applied, what portion of it is subtracted from the minor opposite affinities.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minor_opposite_multiplier = 0.25
+	#When an affinity shift is applied, what portion of it is added to the adjacent affinities.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	adjacent_multiplier = 0.25
+	#When the Affinity Gains talent is learned, by what factor affinity gain will be amplified.
+	# Default: 1.1
+	# Range: 1.0 ~ 100.0
+	affinity_gains_modifier = 1.1
+	#When the Affinity Gains talent is learned, by what factor XP gain will be amplified.
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	affinity_gains_xp_modifier = 0.9
+	#The amount to add to an affinity when using an Affinity Tome.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	affinity_tome_shift = 0.1
+	#The amount to subtract from all other affinities when using an Affinity Tome.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	affinity_tome_reduction = 0.1
+
+#Configuration of various component-specific values.
+[components]
+	#The damage of damage-based components, in half hearts. May be amplified by spell modifiers.
+	# Default: 4.0
+	# Range: 0.0 ~ 32767.0
+	damage_damage = 4.0
+	#The duration of effect-based components, in ticks. May be amplified by spell modifiers.
+	# Default: 600.0
+	# Range: 1.0 ~ 32767.0
+	effect_duration = 600.0
+	#Whether to show effect particles for effect-based components.
+	effect_particles = false
+	#The range of the Attract component. May be amplified by spell modifiers.
+	# Default: 4.0
+	# Range: 1.0 ~ 16.0
+	attract_range = 4.0
+	#The speed of the Attract component. May be amplified by spell modifiers.
+	# Default: 1.0
+	# Range: 1.0 ~ 16.0
+	attract_speed = 1.0
+	#The duration used by the Banish Rain component. May be amplified by spell modifiers.
+	# Default: 24000.0
+	# Range: 1.0 ~ 2.147483647E9
+	banish_rain_duration = 24000.0
+	#The range of the Blink component. May be amplified by spell modifiers.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	blink_range = 16.0
+	#The damage of the Blizzard component. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	blizzard_damage = 2.0
+	#The duration of the Blizzard component. May be amplified by spell modifiers.
+	# Default: 600.0
+	# Range: 1.0 ~ 32767.0
+	blizzard_duration = 600.0
+	#The range of the Blizzard component. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	blizzard_range = 2.0
+	#The height used by the Blizzard component, relative to its width.
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	blizzard_height = 1.0
+	#The duration of the frost applied by the Blizzard component. May be amplified by spell modifiers.
+	# Default: 50.0
+	# Range: 1.0 ~ 32767.0
+	blizzard_frost_duration = 50.0
+	#The tick interval used by the Blizzard component.
+	# Default: 5
+	# Range: 1 ~ 100
+	blizzard_tick_interval = 5
+	#The mana factor of the Dig component. The mana cost factor will be multiplied with the block's hardness.
+	# Default: 1.25
+	# Range: 0.0 ~ 32767.0
+	dig_mana_factor = 1.25
+	#The tool tier of the Dig component. May be amplified by spell modifiers.
+	# Default: 2
+	# Range: 0 ~ 16
+	dig_tool_tier = 2
+	#The range of the Explosion component. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	explosion_range = 2.0
+	#The damage of the Falling Star component. May be amplified by spell modifiers.
+	# Default: 6.0
+	# Range: 1.0 ~ 100.0
+	falling_star_damage = 6.0
+	#The range of the Falling Star component. May be amplified by spell modifiers.
+	# Default: 6.0
+	# Range: 1.0 ~ 16.0
+	falling_star_range = 6.0
+	#The falling speed of the Falling Star component. May be amplified by spell modifiers.
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	falling_star_speed = 1.0
+	#The height used by the Falling Star component.
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	falling_star_height = 1.0
+	#The height in which the Falling Star will spawn.
+	# Default: 128.0
+	# Range: 1.0 ~ 384.0
+	falling_star_spawn_height = 128.0
+	#The damage of the Fire Rain component. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	fire_rain_damage = 2.0
+	#The duration of the Fire Rain component. May be amplified by spell modifiers.
+	# Default: 600.0
+	# Range: 1.0 ~ 32767.0
+	fire_rain_duration = 600.0
+	#The range of the Fire Rain component. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	fire_rain_range = 2.0
+	#The height used by the Fire Rain component, relative to its width.
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	fire_rain_height = 1.0
+	#The duration of the fire applied by the Fire Rain component. May be amplified by spell modifiers.
+	# Default: 50.0
+	# Range: 1.0 ~ 32767.0
+	fire_rain_fire_duration = 50.0
+	#The tick interval used by the Fire Rain component.
+	# Default: 5
+	# Range: 1 ~ 100
+	fire_rain_tick_interval = 5
+	#The speed of the Fling component. May be amplified by spell modifiers.
+	# Default: 1.0
+	# Range: 1.0 ~ 16.0
+	fling_speed = 1.0
+	#Whether the Forge component instantly kills villagers, dropping emeralds.
+	forge_smelts_villagers = true
+	#The duration of the Frost component, in ticks. May be amplified by spell modifiers.
+	# Default: 600.0
+	# Range: 1.0 ~ 32767.0
+	frost_duration = 600.0
+	#The damage of the Life Drain component, in ticks. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	life_drain_damage = 2.0
+	#The damage of the Life Tap component, in ticks. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	life_tap_damage = 2.0
+	#When the Life Tap component is cast, the caster regenerates the damage dealt, times their max mana, times this factor.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	life_tap_factor = 0.01
+	#When the Mana Blast component is cast, the damage is the caster's current mana, times this factor, potentially amplified by spell modifiers.
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	mana_blast_factor = 0.04
+	#The maximum amount of mana drained by the Mana Drain component.
+	# Default: 250.0
+	# Range: 0.0 ~ 32767.0
+	mana_drain_max = 250.0
+	#When the Melt Armor component is cast, what factor the armor's durability will be multiplied with.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	melt_armor_factor = 0.75
+	#How many times the Random Teleport component will try to find a position.
+	# Default: 64
+	# Range: 1 ~ 32767
+	random_teleport_max_tries = 64
+	#The range of the Random Teleport component. May be amplified by spell modifiers.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	random_teleport_range = 16.0
+	#The range of the Repel component. May be amplified by spell modifiers.
+	# Default: 4.0
+	# Range: 1.0 ~ 16.0
+	repel_range = 4.0
+	#The speed of the Repel component. May be amplified by spell modifiers.
+	# Default: 1.0
+	# Range: 1.0 ~ 16.0
+	repel_speed = 1.0
+	#The duration used by the Storm component. May be amplified by spell modifiers.
+	# Default: 72000.0
+	# Range: 1.0 ~ 2.147483647E9
+	storm_duration = 72000.0
+	#The range used by the Storm component. May be amplified by spell modifiers.
+	# Default: 64.0
+	# Range: 1.0 ~ 256.0
+	storm_range = 64.0
+	#The chance for the Storm component to summon a lightning bolt somewhere in range.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	storm_lightning_bolt_chance = 0.2
+	#The chance for the Storm component to summon a target-seeking lightning bolt somewhere in range.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	storm_lightning_bolt_target_chance = 0.2
+	#The amount of summons a player can have at the same time.
+	# Default: 1
+	# Range: 1 ~ 1000000
+	summon_count = 1
+	#The amount of mana, multiplied by the summons's health, that is consumed when using the Summon component.
+	# Default: 20.0
+	# Range: 0.0 ~ 1000000.0
+	summon_mana_cost = 20.0
+	#The range used by the Wizard's Autumn component. May be amplified by spell modifiers.
+	# Default: 2.0
+	# Range: 1.0 ~ 64.0
+	wizards_autumn_range = 2.0
+
+#Configuration of various shape-specific values.
+[shapes]
+	#The range used by the Beam shape.
+	# Default: 64.0
+	# Range: 1.0 ~ 256.0
+	beam_range = 64.0
+	#The range used by the Chain shape.
+	# Default: 16.0
+	# Range: 1.0 ~ 256.0
+	chain_range = 16.0
+	#The amount of extra targets the Chain shape can hit.
+	# Default: 4
+	# Range: 1 ~ 16
+	chain_extra_targets = 4
+	#The range used by the Chain shape when seeking extra targets. May be amplified by spell modifiers.
+	# Default: 4.0
+	# Range: 1.0 ~ 64.0
+	chain_extra_targets_range = 4.0
+	#The duration used by the Projectile shape. May be amplified by spell modifiers.
+	# Default: 30.0
+	# Range: 1.0 ~ 32767.0
+	projectile_duration = 30.0
+	#If a Gravity modifier is present on the Projectile, by how much gravity will be increased.
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	projectile_gravity = 0.025
+	#The speed used by the Projectile shape. May be amplified by spell modifiers.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	projectile_speed = 0.5
+	#The duration used by the Wall shape. May be amplified by spell modifiers.
+	# Default: 200.0
+	# Range: 1.0 ~ 32767.0
+	wall_duration = 200.0
+	#The range used by the Wall shape. May be amplified by spell modifiers.
+	# Default: 2.5
+	# Range: 0.0 ~ 16.0
+	wall_range = 2.5
+	#The height used by the Wall shape, relative to its width.
+	# Default: 0.8
+	# Range: 0.0 ~ 8.0
+	wall_height = 0.8
+	#The time in ticks between the Wall shape applying its effect.
+	# Default: 5
+	# Range: 1 ~ 100
+	wall_tick_interval = 5
+	#The duration used by the Wave shape. May be amplified by spell modifiers.
+	# Default: 80.0
+	# Range: 1.0 ~ 32767.0
+	wave_duration = 80.0
+	#If a Gravity modifier is present on the Wave, by how much gravity will be increased.
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	wave_gravity = 0.025
+	#The range used by the Wave shape. May be amplified by spell modifiers.
+	# Default: 1.0
+	# Range: 0.0 ~ 16.0
+	wave_range = 1.0
+	#The speed used by the Wave shape. May be amplified by spell modifiers.
+	# Default: 0.5
+	# Range: 0.0 ~ 8.0
+	wave_speed = 0.5
+	#The tick interval used by the Wave shape.
+	# Default: 5
+	# Range: 1 ~ 100
+	wave_tick_interval = 5
+	#The duration used by the Zone shape. May be amplified by spell modifiers.
+	# Default: 200.0
+	# Range: 1.0 ~ 32767.0
+	zone_duration = 200.0
+	#If a Gravity modifier is present on the Zone, by how much gravity will be increased.
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	zone_gravity = 0.025
+	#The range used by the Zone shape. May be amplified by spell modifiers.
+	# Default: 1.0
+	# Range: 0.0 ~ 16.0
+	zone_range = 1.0
+	#The height used by the Zone shape.
+	# Default: 0.25
+	# Range: 0.0 ~ 8.0
+	zone_height = 0.25
+	#The tick interval used by the Zone shape.
+	# Default: 5
+	# Range: 1 ~ 100
+	zone_tick_interval = 5
+
+#Configuration of various talent-specific values.
+[talents]
+	#The multiplier to various stats used by the Augmented Casting talent.
+	# Default: 1.4
+	# Range: 1.0 ~ 8.0
+	augmented_casting_multiplier = 1.5
+	#The amount of additional summons a player can have at the same time when they have the Extra Summons talent.
+	# Default: 1
+	# Range: 1 ~ 1000000
+	extra_summons_count = 1
+	#The multiplier to mana regeneration used by the Mana Regeneration 1 talent.
+	# Default: 1.05
+	# Range: 1.0 ~ 10.0
+	mana_regeneration_1_multiplier = 1.05
+	#The multiplier to mana regeneration used by the Mana Regeneration 2 talent.
+	# Default: 1.1
+	# Range: 1.0 ~ 10.0
+	mana_regeneration_2_multiplier = 1.1
+	#The multiplier to mana regeneration used by the Mana Regeneration 3 talent.
+	# Default: 1.15
+	# Range: 1.0 ~ 10.0
+	mana_regeneration_3_multiplier = 1.15
+	#If the player is at full mana and has the Shield Overload talent, the multiplier to incoming damage that will be applied.
+	# Default: 0.95
+	# Range: 0.0 ~ 1.0
+	shield_overload_multiplier = 0.95

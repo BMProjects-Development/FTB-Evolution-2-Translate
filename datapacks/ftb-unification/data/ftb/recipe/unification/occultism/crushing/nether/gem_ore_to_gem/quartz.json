@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "minecraft:nether_quartz_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "minecraft:quartz"
+  }
+}

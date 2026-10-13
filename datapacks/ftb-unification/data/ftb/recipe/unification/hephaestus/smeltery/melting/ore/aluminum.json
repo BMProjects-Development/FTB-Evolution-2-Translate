@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ores/aluminum",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_aluminum"
+  },
+  "temperature": 660,
+  "time": 150
+}

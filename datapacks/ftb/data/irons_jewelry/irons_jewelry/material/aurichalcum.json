@@ -1,0 +1,33 @@
+{
+  "descriptionId": "ftb.irons.material.aurichalcum",
+  "ingredient": "ftbarmory:aurichalcum_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/aurichalcum",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:attack_damage",
+      "operation": "add_multiplied_base",
+      "amount": 0.06
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:strength"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:weakness"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "amount": {
+          "base": 3.0,
+          "scalar": 1.5
+        },
+        "damageType": "minecraft:magic"
+      },
+      "targetSelf": false
+    }
+  }
+}

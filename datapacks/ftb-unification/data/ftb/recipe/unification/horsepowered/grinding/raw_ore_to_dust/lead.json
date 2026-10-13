@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/lead",
+  "result": {
+    "id": "ftbmaterials:lead_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:lead_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

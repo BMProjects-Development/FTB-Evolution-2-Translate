@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/boron",
+  "result": {
+    "id": "colossal_reactors:boron_raw"
+  },
+  "secondary": {
+    "id": "colossal_reactors:boron_raw"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

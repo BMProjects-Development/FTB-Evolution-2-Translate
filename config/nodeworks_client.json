@@ -1,0 +1,11 @@
+{
+  "invTerminalLayout": "SMALL",
+  "invTerminalCraftingCollapsed": false,
+  "invTerminalAutoPull": true,
+  "invTerminalAutoFocusSearch": true,
+  "invTerminalSortMode": "COUNT_DESC",
+  "invTerminalFilterMode": "BOTH",
+  "invTerminalKindMode": "BOTH",
+  "invTerminalJeiSync": false,
+  "scriptTerminalLayout": 0
+}

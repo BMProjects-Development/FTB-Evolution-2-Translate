@@ -1,0 +1,7 @@
+{
+  "type": "cookingforblockheads:toaster",
+  "ingredient": "minecraft:kelp",
+  "result": {
+    "item": "minecraft:dried_kelp"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "FGF",
+    "FFF"
+  ],
+  "key": {
+    "F": "minecraft:item_frame",
+    "G": "#c:glass_panes/colorless"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 8,
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true
+      },
+      "minecraft:item_name": {
+        "translate": "item.ftb.invisible_item_frame"
+      }
+    }
+  }
+}

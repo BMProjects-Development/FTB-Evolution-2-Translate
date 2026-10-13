@@ -1,0 +1,812 @@
+{
+  id: "6237554E573576FE",
+  group: "4780068BA76609B8",
+  order_index: 9,
+  icon: {
+    id: "mffs:projector",
+    count: 1,
+  },
+  filename: "mffs",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "1A1161EF6276767F",
+  quests: [
+    {
+      icon: {
+        id: "mffs:projector",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "68258EA281734B4A",
+      ],
+      size: 1.25,
+      id: "711E7B6204708BD7",
+      tasks: [
+        {
+          id: "5AF080B22E04F06C",
+          type: "item",
+          item: {
+            id: "mffs:projector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72F7E71E1FD52C9E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "040F5511A36C97F3",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "2BFF336385DF69BE",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:fortron_capacitor",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "75818C9F54BD4C02",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.25,
+      id: "68258EA281734B4A",
+      tasks: [
+        {
+          id: "2A4D07A70621939D",
+          type: "item",
+          item: {
+            id: "mffs:fortron_capacitor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "232AB0EF55647EA2",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4EE9EC150AD7AEED",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "430E8D6C930F77ED",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "300E6F46E79617DF",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:coercion_deriver",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "1A1161EF6276767F",
+      ],
+      size: 1.0,
+      id: "75818C9F54BD4C02",
+      tasks: [
+        {
+          id: "40E3029325F9283A",
+          type: "item",
+          item: {
+            id: "mffs:coercion_deriver",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FFEB6AB7035B044",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "54FA031353A81EB4",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "2AFDCC5F56035EEE",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "565C8FD27CB0DDAE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbmaterials:steel_ingot",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      min_width: 300,
+      id: "1A1161EF6276767F",
+      tasks: [
+        {
+          id: "728A13464D476887",
+          type: "item",
+          item: {
+            id: "ftbmaterials:steel_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "31B6D54220BB0866",
+          type: "item",
+          item: {
+            id: "mffs:focus_matrix",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3880616BAF5E1230",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "05D03D5D02C0F295",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "5BFFD0D93AC14D20",
+          type: "item",
+          item: {
+            id: "patchouli:guide_book",
+            count: 1,
+            components: {
+              "patchouli:book": "mffs:handbook",
+            },
+          },
+        },
+        {
+          id: "332A0A954E0B422F",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "mffs:textures/particle/fortron.png",
+        },
+      },
+      x: 2.0,
+      y: -2.0,
+      shape: "rsquare",
+      dependencies: [
+        "75818C9F54BD4C02",
+      ],
+      size: 1.0,
+      id: "166BA0D04A1686C7",
+      tasks: [
+        {
+          id: "53E0FD5ED01424A5",
+          type: "fluid",
+          fluid: {
+            fluid: "mffs:fortron_fluid",
+            amount: 1000,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "233BC9E70BE1021D",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "13C1AE715FD084DC",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "2C4D0CE38A236667",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "6C43A509BE15C6B8",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:biometric_identifier",
+        count: 1,
+      },
+      x: 4.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "68258EA281734B4A",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "1E2A91B73A752B3B",
+      tasks: [
+        {
+          id: "10BA343758533260",
+          type: "item",
+          item: {
+            id: "mffs:biometric_identifier",
+            count: 1,
+          },
+        },
+        {
+          id: "7DFAA6543B12E7B4",
+          type: "item",
+          item: {
+            id: "mffs:id_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "514E8ED757651E6A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4B4452E464B2178A",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "3D0C2B9835F58F94",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:interdiction_matrix",
+        count: 1,
+      },
+      x: 6.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "1E2A91B73A752B3B",
+      ],
+      size: 1.25,
+      id: "0089BFB911BD5E5B",
+      tasks: [
+        {
+          id: "6B61A2CE5218C23D",
+          type: "item",
+          item: {
+            id: "mffs:interdiction_matrix",
+            count: 1,
+          },
+        },
+        {
+          id: "4243D0DD3EDF33A4",
+          type: "item",
+          item: {
+            id: "mffs:id_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "168927C7D4C32132",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4959819CF8D3BE11",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "1477AC7ABDAA0995",
+          type: "xp",
+          team_reward: false,
+          xp: 66,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:cube_mode",
+        count: 1,
+      },
+      x: 6.0,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "711E7B6204708BD7",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      min_width: 300,
+      id: "0B1E459D12D11A0D",
+      tasks: [
+        {
+          id: "635B7364CF619AF2",
+          type: "item",
+          icon: {
+            id: "mffs:cube_mode",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mffs:cube_mode)item(mffs:sphere_mode)item(mffs:tube_mode)item(mffs:pyramid_mode)item(mffs:cylinder_mode)item(mffs:custom_mode))",
+              "minecraft:custom_name": "\"Shape Modes\"",
+            },
+          },
+        },
+        {
+          id: "44697126865CD99F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mffs:inverter_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2FEE6D89BB4AE293",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3AC7EF751C40C748",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "2F9AEDA3848A9ACD",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:camouflage_module",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "711E7B6204708BD7",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "56519A6A39FA9430",
+      tasks: [
+        {
+          id: "3EE910748019C5AF",
+          type: "item",
+          icon: {
+            id: "mffs:dome_module",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mffs:dome_module)item(mffs:camouflage_module)item(mffs:shock_module)item(mffs:glow_module)item(mffs:silence_module)item(mffs:fusion_module)item(mffs:reinforcement_module))",
+              "minecraft:custom_name": "\"Forcefield Tweaks\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "641758F1E9A63AB1",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "510A9C497E8868D2",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:warn_module",
+        count: 1,
+      },
+      x: 8.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "0089BFB911BD5E5B",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "56E9C123DD727E46",
+      tasks: [
+        {
+          id: "564EB2A18D14814B",
+          type: "item",
+          icon: {
+            id: "mffs:warn_module",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mffs:warn_module)item(mffs:block_access_module)item(mffs:block_alter_module)item(mffs:anti_friendly_module)item(mffs:anti_hostile_module)item(mffs:anti_personnel_module)item(mffs:anti_spawn_module)item(mffs:confiscation_module))",
+              "minecraft:custom_name": "\"Matrix Effects\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B0D94F64386FAE7",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "0B60E8C7EA3A2366",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:frequency_card",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.0,
+      dependencies: [
+        "1A1161EF6276767F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "2CA74676EAC1A040",
+      tasks: [
+        {
+          id: "2CA2C3F040C5B825",
+          type: "item",
+          item: {
+            id: "mffs:frequency_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "080614F9FF6FF234",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "689F4C68D0C01AFA",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:speed_module",
+        count: 1,
+      },
+      x: 2.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "75818C9F54BD4C02",
+      ],
+      size: 1.0,
+      id: "6600E26635FD3D0E",
+      tasks: [
+        {
+          id: "30DB060A3D74269F",
+          type: "item",
+          item: {
+            id: "mffs:speed_module",
+            count: 1,
+          },
+        },
+        {
+          id: "03B212FED6115796",
+          type: "item",
+          item: {
+            id: "mffs:capacity_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "077D449A3A789733",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "00FCC3DB46BF868B",
+          type: "item",
+          item: {
+            id: "mffs:speed_module",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "041D49792FAC35C6",
+          type: "item",
+          item: {
+            id: "mffs:capacity_module",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "43C893D7AD582858",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:collection_module",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "56519A6A39FA9430",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3435641A78B90D97",
+      tasks: [
+        {
+          id: "353EC1F56D14BEF5",
+          type: "item",
+          icon: {
+            id: "mffs:disintegration_module",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mffs:disintegration_module)item(mffs:sponge_module)item(mffs:stabilization_module)item(mffs:collection_module))",
+              "minecraft:custom_name": "\"Field Effects\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "474EE7E03DB1E138",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "4518C0B2B1FF3325",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mffs:scale_module",
+        count: 1,
+      },
+      x: 8.0,
+      y: -2.0,
+      shape: "square",
+      dependencies: [
+        "0B1E459D12D11A0D",
+      ],
+      size: 1.0,
+      id: "381B55C984A8BD33",
+      tasks: [
+        {
+          id: "63BED63863DF7B24",
+          type: "item",
+          item: {
+            id: "mffs:scale_module",
+            count: 1,
+          },
+        },
+        {
+          id: "6005CC29C4A280B2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mffs:translation_module",
+            count: 1,
+          },
+        },
+        {
+          id: "7B851AF49BDDA8F0",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mffs:rotation_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0ABA3B41A2C73836",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "480CD52AEDD3BF48",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 5579741163600094424,
+        },
+        {
+          id: "6249DACC9BA6EA88",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 5.0,
+      y: -4.5,
+      width: 8.61,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ftbevolution:textures/quests/titles_and_logos/mffs_logo.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "1A1161EF6276767F",
+      },
+      id: "72E6B925CC6C8F7F",
+    },
+    {
+      x: 5.0,
+      y: -4.5,
+      width: 9.9,
+      height: 3.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/boss_bar/blue_background.png",
+      alpha: 128,
+      id: "5D34E4BDD4A786AB",
+    },
+    {
+      x: 5.0,
+      y: 0.0,
+      width: 14.0,
+      height: 6.5,
+      rotation: 0.0,
+      image: "mffs:model/force_cube",
+      alpha: 63,
+      order: -2,
+      id: "5057FFDF7DCFA8B7",
+    },
+  ],
+}

@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "mysticalagradditions:nether_prosperity_ore",
+  "result": {
+    "count": 3,
+    "id": "mysticalagriculture:prosperity_shard"
+  },
+  "secondary": {
+    "id": "mysticalagriculture:prosperity_shard",
+    "count": 2
+  },
+  "secondaryChance": 38,
+  "time": 16
+}

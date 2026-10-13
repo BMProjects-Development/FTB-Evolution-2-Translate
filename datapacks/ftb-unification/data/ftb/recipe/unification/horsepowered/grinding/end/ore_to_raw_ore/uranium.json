@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:uranium_end_ore",
+  "result": {
+    "id": "ftbmaterials:uranium_raw_ore",
+    "count": 2
+  },
+  "secondary": {
+    "id": "ftbmaterials:uranium_raw_ore",
+    "count": 2
+  },
+  "secondaryChance": 100,
+  "time": 16
+}

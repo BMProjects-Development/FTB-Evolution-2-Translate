@@ -1,0 +1,6 @@
+{
+  "fluids": {
+    "mobflowutilities:liquid_xp": "justdirethings:xp_fluid_source",
+    "mobflowutilities:liquid_xp_flowing": "justdirethings:xp_fluid_flowing"
+  }
+}

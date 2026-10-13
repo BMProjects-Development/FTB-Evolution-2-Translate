@@ -1,0 +1,6 @@
+{
+  "fluids": {
+    "sophisticatedcore:xp_flowing": "justdirethings:xp_fluid_flowing",
+    "sophisticatedcore:xp_still": "justdirethings:xp_fluid_source"
+  }
+}

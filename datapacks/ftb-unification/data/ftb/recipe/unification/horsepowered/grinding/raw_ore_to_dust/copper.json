@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/copper",
+  "result": {
+    "id": "ftbmaterials:copper_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:copper_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

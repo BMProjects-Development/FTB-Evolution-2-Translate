@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/steel"
+    },
+    {
+      "count": 2,
+      "ingredient": "#c:ingots/bronze"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/aluminum"
+    }
+  ],
+  "result": {
+    "id": "ftbic:advanced_alloy",
+    "count": 1
+  },
+  "ticks": 480
+}

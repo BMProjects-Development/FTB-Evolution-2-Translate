@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "minecraft:lapis_ore",
+  "variants": [
+    "minecraft:deepslate_lapis_ore",
+    "ftbmaterials:lapis_lazuli_nether_ore",
+    "ftbmaterials:lapis_lazuli_end_ore"
+  ],
+  "name_color": "#5A78E0",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lapis_ore",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ore_blocks": {
+    "stellaris:deepslate_titanium_ore": "ftbmaterials:titanium_deepslate_ore",
+    "stellaris:silicon": "ftbmaterials:silicon_gem",
+    "stellaris:titanium_nugget": "ftbmaterials:titanium_nugget",
+    "stellaris:titanium_ore": "ftbmaterials:titanium_stone_ore"
+  }
+}

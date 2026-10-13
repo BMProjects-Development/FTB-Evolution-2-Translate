@@ -1,0 +1,183 @@
+[crystals]
+	#Ticks per crystal growth stage; three stages to maturity. Existing scheduled stages finish on their original schedule.
+	# Default: 24000
+	# Range: 1 ~ 1728000
+	crystal_phase_ticks = 12000
+	#Chance that a mature crystal is yellow: 0 never, 1 always.
+	# Default: 0.125
+	# Range: 0.0 ~ 1.0
+	yellow_probability = 0.20
+
+[souls]
+	#Capacity per soul kind. Lowering this does not delete souls already stored; deposits wait until there is room.
+	# Default: 64
+	# Range: 1 ~ 100000
+	well_capacity = 64
+
+[machines]
+	#Durability assigned to a fresh worker soul.
+	# Default: 20
+	# Range: 1 ~ 100000
+	worker_durability = 20
+	#Durability assigned to a fresh worker of the preferred soul kind.
+	# Default: 30
+	# Range: 1 ~ 100000
+	affinity_durability = 30
+	#Worker cost per placement or crop harvest.
+	# Default: 2
+	# Range: 1 ~ 100000
+	work_cost = 2
+	#Ticks per translation attempt.
+	# Default: 300
+	# Range: 1 ~ 100000
+	research_time = 300
+	#Worker cost per translation attempt.
+	# Default: 5
+	# Range: 1 ~ 100000
+	research_cost = 5
+	#Ticks per scribing attempt.
+	# Default: 100
+	# Range: 1 ~ 100000
+	scribe_time = 100
+	#Worker cost per scribing attempt.
+	# Default: 2
+	# Range: 1 ~ 100000
+	scribe_cost = 2
+	#Probability per attempt, from 0 (never) to 1 (always).
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	research_chance = 0.25
+	#Probability per attempt, from 0 (never) to 1 (always).
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	scribe_chance = 0.05
+	#Ticks per infusion ritual.
+	# Default: 200
+	# Range: 1 ~ 100000
+	infusion_ticks = 200
+	#Ticks to reconstruct a body.
+	# Default: 200
+	# Range: 1 ~ 100000
+	reconstruction_ticks = 200
+	#Ticks to blow one bucket of molten material.
+	# Default: 40
+	# Range: 1 ~ 100000
+	blow_ticks = 40
+	#Ticks per glassware extraction step.
+	# Default: 20
+	# Range: 1 ~ 100000
+	extraction_step_ticks = 20
+	#Ticks to forge Raw Saronite.
+	# Default: 200
+	# Range: 1 ~ 100000
+	saronite_ticks = 200
+	#Worker cost to start one Soul Forge smelt.
+	# Default: 5
+	# Range: 1 ~ 100000
+	smelt_cost = 5
+
+[ranges]
+	#Soul Well supply radius in blocks.
+	# Default: 32
+	# Range: 1 ~ 128
+	well_machine_range = 32
+	#Soul attraction range of a Well in blocks.
+	# Default: 10
+	# Range: 1 ~ 64
+	well_soul_range = 10
+	#Soul Relay connection range in blocks.
+	# Default: 10
+	# Range: 1 ~ 64
+	relay_range = 10
+	#Bone Cage suction radius in blocks.
+	# Default: 6
+	# Range: 1 ~ 32
+	cage_range = 6
+	#Suction radius with an active Synthetic Resonator.
+	# Default: 12
+	# Range: 1 ~ 64
+	boosted_cage_range = 12
+
+[automation]
+	#Worker cost per gathered batch.
+	# Default: 1
+	# Range: 1 ~ 100000
+	gather_cost = 1
+	#Worker cost per broken block.
+	# Default: 2
+	# Range: 1 ~ 100000
+	break_cost = 2
+	#Worker cost per sheared animal.
+	# Default: 4
+	# Range: 1 ~ 100000
+	shear_cost = 4
+	#Worker cost per bred pair.
+	# Default: 10
+	# Range: 1 ~ 100000
+	feed_cost = 10
+	#Worker cost per felled tree.
+	# Default: 10
+	# Range: 1 ~ 100000
+	fell_cost = 10
+	#Items gathered per worker payment.
+	# Default: 16
+	# Range: 1 ~ 1024
+	gather_batch = 16
+	#Horizontal item gathering radius.
+	# Default: 4
+	# Range: 1 ~ 32
+	gather_reach = 4
+	#Vertical item gathering radius.
+	# Default: 2
+	# Range: 1 ~ 16
+	gather_height = 2
+	#Breeding and shearing radius.
+	# Default: 4
+	# Range: 1 ~ 32
+	herd_reach = 4
+	#Breeding population limit per animal kind.
+	# Default: 12
+	# Range: 1 ~ 128
+	herd_limit = 12
+	#Maximum logs collected per tree.
+	# Default: 256
+	# Range: 1 ~ 1024
+	tree_limit = 256
+	#Maximum branch distance from the trunk.
+	# Default: 8
+	# Range: 1 ~ 16
+	tree_spread = 8
+	#Tree search radius.
+	# Default: 4
+	# Range: 1 ~ 16
+	forest_reach = 4
+
+[deities]
+	#Cooldown in ticks.
+	# Default: 6000
+	# Range: 1 ~ 1728000
+	worship_rest = 6000
+	#Cooldown in ticks.
+	# Default: 60
+	# Range: 1 ~ 1728000
+	travel_rest = 60
+	#Shrine travel cost in worship.
+	# Default: 1
+	# Range: 1 ~ 1728000
+	travel_cost = 1
+
+[magic]
+	#Allow the Ring of Power to grant survival flight.
+	ring_flight = true
+	#Allow the Flight spell. Does not disable astral projection.
+	spell_flight = true
+	#Spell IDs disabled on this server, for example excavate, quench, frost_nova. Learned spells and books are retained.
+	disabled_spells = []
+	#Multiplier for each soul kind in spell costs; positive fractional costs round up. Zero makes spells free.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	spell_cost_multiplier = 1.0
+	#Multiplier for newly started spell cooldowns; existing cooldowns finish normally.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	spell_cooldown_multiplier = 1.0

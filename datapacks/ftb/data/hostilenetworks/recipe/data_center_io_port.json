@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IBI",
+    "BRB",
+    "IBI"
+  ],
+  "key": {
+    "I": "#c:plates/steel",
+    "B": "minecraft:black_stained_glass",
+    "R": "#ftb:basic_circuits"
+  },
+  "result": {
+    "id": "hostilenetworks:data_center_io_port"
+  }
+}

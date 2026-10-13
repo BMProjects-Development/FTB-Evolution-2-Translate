@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "stellaris"
+    }
+  ],
+  "entity": "stellaris:star_crawler_boss",
+  "variants": [],
+  "name_color": "#5A6AC8",
+  "display": {
+    "scale": 0.3
+  },
+  "sim_cost": 2048,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:end_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.star_crawler_boss",
+  "fabricator_drops": [
+    {
+      "id": "stellaris:star_crawler_boss_trophy",
+      "count": 1
+    },
+    {
+      "id": "stellaris:lunar_crawler_spike_cluster",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:aluminum_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:aluminum_raw_ore"
+    }
+  ],
+  "time": 40
+}

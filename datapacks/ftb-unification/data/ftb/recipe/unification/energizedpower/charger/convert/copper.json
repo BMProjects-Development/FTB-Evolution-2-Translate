@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:charger",
+  "energy": 4194304,
+  "ingredient": "#c:ingots/copper",
+  "result": {
+    "id": "energizedpower:energized_copper_ingot"
+  }
+}

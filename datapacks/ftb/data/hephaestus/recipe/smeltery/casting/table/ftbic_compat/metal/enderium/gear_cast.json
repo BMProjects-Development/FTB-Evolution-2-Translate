@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:gear_cast",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 360,
+    "id": "hephaestus:molten_enderium"
+  },
+  "result": {
+    "id": "ftbic:enderium_gear"
+  }
+}

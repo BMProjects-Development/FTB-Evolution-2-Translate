@@ -1,0 +1,36 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:hunters_mark",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:dragon_relic",
+      "count": 4
+    },
+    {
+      "ingredient": "iceandfire:dragonscales_red",
+      "count": 8
+    }
+  ],
+  "fluids": [
+    {
+      "id": "neovitae:essentia_vitae_source",
+      "amount": 16000
+    },
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:hunt_standard",
+      "count": 2
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 300000,
+  "stage": "ftb_beast_hunt"
+}

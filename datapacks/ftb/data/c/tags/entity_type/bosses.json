@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "thunderrelics:thunder_king",
+      "required": false
+    },
+    {
+      "id": "stellaris:star_crawler_boss",
+      "required": false
+    },
+    {
+      "id": "stellaris:heart_of_luna",
+      "required": false
+    },
+    {
+      "id": "witchery:baba_yaga",
+      "required": false
+    },
+    {
+      "id": "witchery:death",
+      "required": false
+    },
+    {
+      "id": "witchery:lilith",
+      "required": false
+    },
+    {
+      "id": "witchery:horned_huntsman",
+      "required": false
+    },
+    {
+      "id": "witchery:leonard",
+      "required": false
+    },
+    {
+      "id": "witchery:mog",
+      "required": false
+    },
+    {
+      "id": "witchery:gulg",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 3,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:gems/quartz"
+    }
+  ],
+  "result": {
+    "id": "refinedstorage:quartz_enriched_iron",
+    "count": 4
+  },
+  "ticks": 500
+}

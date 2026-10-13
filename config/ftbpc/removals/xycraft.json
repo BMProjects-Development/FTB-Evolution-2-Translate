@@ -1,0 +1,11 @@
+[
+  "blasting/aluminum",
+  "packing/aluminum_block_forced",
+  "packing/aluminum_ingot_forced",
+  "packing/raw_aluminum_block_forced",
+  "shaped/lead_tagged",
+  "smelting/aluminum",
+  "unpacking/aluminum_ingot",
+  "unpacking/aluminum_nugget",
+  "unpacking/raw_aluminum"
+]

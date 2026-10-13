@@ -1,0 +1,26 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftbarmory:aeternium_ingot",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:adamantite_capacitor",
+      "count": 1
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:refined_t3_fluid_source",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:aeternium_capacitor"
+    }
+  ],
+  "ticks": 18000,
+  "energy_per_tick": 1000000
+}

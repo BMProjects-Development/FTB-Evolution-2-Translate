@@ -1,0 +1,7 @@
+{
+  "type": "colossal_reactors:add_features_if_oregen_enabled",
+  "biomes": "#ftb:no_ore_gen",
+  "features": "colossal_reactors:ore_lead_placed",
+  "step": "underground_ores",
+  "ore": "lead"
+}

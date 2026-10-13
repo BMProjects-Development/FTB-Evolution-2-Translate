@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:storage_blocks/raw_niobium"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 9,
+      "id": "ltxi:crushed_niobium_ore"
+    },
+    {
+      "count": {
+        "chance": 0.75,
+        "max": 2,
+        "min": 2
+      },
+      "id": "ltxi:crushed_niobium_ore",
+      "required": false
+    }
+  ]
+}

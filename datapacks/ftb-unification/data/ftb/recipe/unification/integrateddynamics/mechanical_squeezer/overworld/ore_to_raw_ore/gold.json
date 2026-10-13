@@ -1,0 +1,31 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/gold",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:raw_gold",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:raw_gold"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "minecraft:raw_gold"
+      },
+      "chance": 0.33
+    },
+    {
+      "item": {
+        "id": "minecraft:raw_gold"
+      },
+      "chance": 0.15
+    }
+  ],
+  "duration": 40
+}

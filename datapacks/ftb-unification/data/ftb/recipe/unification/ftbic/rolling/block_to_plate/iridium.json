@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:rolling",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:iridium_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:iridium_plate",
+        "count": 9
+      }
+    }
+  ]
+}

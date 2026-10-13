@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:ice_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1738492057,
+    "spacing": 128,
+    "separation": 48
+  }
+}

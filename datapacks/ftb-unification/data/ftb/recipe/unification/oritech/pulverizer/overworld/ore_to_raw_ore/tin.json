@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/tin"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:tin_raw_ore"
+    }
+  ],
+  "time": 100
+}

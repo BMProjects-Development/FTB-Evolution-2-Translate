@@ -1,0 +1,752 @@
+{
+	"magic_root": {
+		"definition": "magic_root",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"sorcery_link": {
+		"definition": "magic_damage_+2%",
+		"x": -60,
+		"y": -60,
+		"root": false
+	},
+	"sorcery_hub": {
+		"definition": "sorcery_hub",
+		"x": -120,
+		"y": -120,
+		"root": false
+	},
+	"occult_link": {
+		"definition": "magic_damage_+2%",
+		"x": 60,
+		"y": -60,
+		"root": false
+	},
+	"occult_hub": {
+		"definition": "occult_hub",
+		"x": 120,
+		"y": -120,
+		"root": false
+	},
+	"blood_link": {
+		"definition": "magic_resistance_+3%",
+		"x": 60,
+		"y": 60,
+		"root": false
+	},
+	"blood_hub": {
+		"definition": "blood_hub",
+		"x": 120,
+		"y": 120,
+		"root": false
+	},
+	"hedge_link": {
+		"definition": "magic_resistance_+3%",
+		"x": -60,
+		"y": 60,
+		"root": false
+	},
+	"hedge_hub": {
+		"definition": "hedge_hub",
+		"x": -120,
+		"y": 120,
+		"root": false
+	},
+	"ars_1": {
+		"definition": "arsmagicalegacy_max_mana_+5%",
+		"x": -180,
+		"y": -120,
+		"root": false
+	},
+	"ars_2": {
+		"definition": "ars_cost_reduction_+5%",
+		"x": -240,
+		"y": -120,
+		"root": false
+	},
+	"ars_3": {
+		"definition": "ars_xp_gain_+10%",
+		"x": -300,
+		"y": -120,
+		"root": false
+	},
+	"ars_4": {
+		"definition": "arsmagicalegacy_mana_regeneration_+5%",
+		"x": -360,
+		"y": -120,
+		"root": false
+	},
+	"ars_5": {
+		"definition": "arsmagicalegacy_burnout_regeneration_+10%",
+		"x": -420,
+		"y": -120,
+		"root": false
+	},
+	"ars_6": {
+		"definition": "ars_spell_power_+15%",
+		"x": -480,
+		"y": -120,
+		"root": false
+	},
+	"ars_7": {
+		"definition": "ars_cost_reduction_+5%",
+		"x": -540,
+		"y": -120,
+		"root": false
+	},
+	"ars_8": {
+		"definition": "arsmagicalegacy_max_mana_+5%",
+		"x": -600,
+		"y": -120,
+		"root": false
+	},
+	"ars_9": {
+		"definition": "ars_xp_gain_+10%",
+		"x": -660,
+		"y": -120,
+		"root": false
+	},
+	"ars_10": {
+		"definition": "arsmagicalegacy_mana_regeneration_+5%",
+		"x": -720,
+		"y": -120,
+		"root": false
+	},
+	"ars_11": {
+		"definition": "ars_cost_reduction_+5%",
+		"x": -780,
+		"y": -120,
+		"root": false
+	},
+	"ars_cap": {
+		"definition": "ars_cap",
+		"x": -840,
+		"y": -120,
+		"root": false
+	},
+	"th_1": {
+		"definition": "vis_discount_+2%",
+		"x": -120,
+		"y": -180,
+		"root": false
+	},
+	"th_2": {
+		"definition": "thaum_focus_power_+5%",
+		"x": -120,
+		"y": -240,
+		"root": false
+	},
+	"th_3": {
+		"definition": "thaum_warp_ward_+5%",
+		"x": -120,
+		"y": -300,
+		"root": false
+	},
+	"th_4": {
+		"definition": "vis_discount_+2%",
+		"x": -120,
+		"y": -360,
+		"root": false
+	},
+	"th_5": {
+		"definition": "thaum_infusion_stability_+1",
+		"x": -120,
+		"y": -420,
+		"root": false
+	},
+	"th_6": {
+		"definition": "thaum_focus_power_+5%",
+		"x": -120,
+		"y": -480,
+		"root": false
+	},
+	"th_7": {
+		"definition": "thaum_warp_ward_+5%",
+		"x": -120,
+		"y": -540,
+		"root": false
+	},
+	"th_8": {
+		"definition": "vis_discount_+2%",
+		"x": -120,
+		"y": -600,
+		"root": false
+	},
+	"th_9": {
+		"definition": "thaum_focus_power_+5%",
+		"x": -120,
+		"y": -660,
+		"root": false
+	},
+	"th_10": {
+		"definition": "thaum_focus_power_+5%",
+		"x": -120,
+		"y": -720,
+		"root": false
+	},
+	"th_11": {
+		"definition": "thaum_warp_ward_+5%",
+		"x": -120,
+		"y": -780,
+		"root": false
+	},
+	"th_cap": {
+		"definition": "thaum_cap",
+		"x": -120,
+		"y": -840,
+		"root": false
+	},
+	"en_1": {
+		"definition": "enchanting_discount_+5%",
+		"x": -180,
+		"y": -180,
+		"root": false
+	},
+	"en_2": {
+		"definition": "enchanting_arcana_+5",
+		"x": -240,
+		"y": -240,
+		"root": false
+	},
+	"en_3": {
+		"definition": "enchanting_discount_+5%",
+		"x": -300,
+		"y": -300,
+		"root": false
+	},
+	"en_4": {
+		"definition": "enchanting_arcana_+10",
+		"x": -360,
+		"y": -360,
+		"root": false
+	},
+	"rc_1": {
+		"definition": "roots_cost_reduction_+5%",
+		"x": -180,
+		"y": 120,
+		"root": false
+	},
+	"rc_2": {
+		"definition": "roots_staff_save_+5%",
+		"x": -240,
+		"y": 120,
+		"root": false
+	},
+	"rc_3": {
+		"definition": "roots_ritual_speed_+10%",
+		"x": -300,
+		"y": 120,
+		"root": false
+	},
+	"rc_4": {
+		"definition": "magic_damage_+3%",
+		"x": -360,
+		"y": 120,
+		"root": false
+	},
+	"rc_5": {
+		"definition": "roots_staff_save_+5%",
+		"x": -420,
+		"y": 120,
+		"root": false
+	},
+	"rc_6": {
+		"definition": "roots_potency_+1",
+		"x": -480,
+		"y": 120,
+		"root": false
+	},
+	"rc_7": {
+		"definition": "roots_cost_reduction_+5%",
+		"x": -540,
+		"y": 120,
+		"root": false
+	},
+	"rc_8": {
+		"definition": "roots_ritual_speed_+10%",
+		"x": -600,
+		"y": 120,
+		"root": false
+	},
+	"rc_9": {
+		"definition": "roots_staff_save_+5%",
+		"x": -660,
+		"y": 120,
+		"root": false
+	},
+	"rc_10": {
+		"definition": "roots_cost_reduction_+5%",
+		"x": -720,
+		"y": 120,
+		"root": false
+	},
+	"rc_11": {
+		"definition": "roots_ritual_speed_+10%",
+		"x": -780,
+		"y": 120,
+		"root": false
+	},
+	"rc_cap": {
+		"definition": "roots_cap",
+		"x": -840,
+		"y": 120,
+		"root": false
+	},
+	"wc_1": {
+		"definition": "witchery_altar_efficiency_+5%",
+		"x": -120,
+		"y": 180,
+		"root": false
+	},
+	"wc_2": {
+		"definition": "witchery_infusion_gain_+10%",
+		"x": -120,
+		"y": 240,
+		"root": false
+	},
+	"wc_3": {
+		"definition": "witchery_brew_bottling_+5%",
+		"x": -120,
+		"y": 300,
+		"root": false
+	},
+	"wc_4": {
+		"definition": "witch_power_+1",
+		"x": -120,
+		"y": 360,
+		"root": false
+	},
+	"wc_5": {
+		"definition": "witchery_poppet_durability_+10%",
+		"x": -120,
+		"y": 420,
+		"root": false
+	},
+	"wc_6": {
+		"definition": "witchery_symbol_mastery_+1",
+		"x": -120,
+		"y": 480,
+		"root": false
+	},
+	"wc_7": {
+		"definition": "witchery_altar_efficiency_+5%",
+		"x": -120,
+		"y": 540,
+		"root": false
+	},
+	"wc_8": {
+		"definition": "witchery_infusion_efficiency_+5%",
+		"x": -120,
+		"y": 600,
+		"root": false
+	},
+	"wc_9": {
+		"definition": "witchery_brew_bottling_+5%",
+		"x": -120,
+		"y": 660,
+		"root": false
+	},
+	"wc_10": {
+		"definition": "witch_power_+1",
+		"x": -120,
+		"y": 720,
+		"root": false
+	},
+	"wc_11": {
+		"definition": "witchery_infusion_efficiency_+5%",
+		"x": -120,
+		"y": 780,
+		"root": false
+	},
+	"wc_12": {
+		"definition": "witchery_poppet_durability_+10%",
+		"x": -120,
+		"y": 840,
+		"root": false
+	},
+	"wc_cap": {
+		"definition": "coven_cap",
+		"x": -120,
+		"y": 900,
+		"root": false
+	},
+	"nv_1": {
+		"definition": "bonus_self_sacrifice_+10",
+		"x": 180,
+		"y": 120,
+		"root": false
+	},
+	"nv_2": {
+		"definition": "sigil_cost_reduction_+5",
+		"x": 240,
+		"y": 120,
+		"root": false
+	},
+	"nv_3": {
+		"definition": "bonus_spiritus_+10",
+		"x": 300,
+		"y": 120,
+		"root": false
+	},
+	"nv_4": {
+		"definition": "vitae_ritual_efficiency_+5%",
+		"x": 360,
+		"y": 120,
+		"root": false
+	},
+	"nv_5": {
+		"definition": "bonus_self_sacrifice_+10",
+		"x": 420,
+		"y": 120,
+		"root": false
+	},
+	"nv_6": {
+		"definition": "blood_shield_+0.5",
+		"x": 480,
+		"y": 120,
+		"root": false
+	},
+	"nv_7": {
+		"definition": "vitae_sentient_growth_+10%",
+		"x": 540,
+		"y": 120,
+		"root": false
+	},
+	"nv_8": {
+		"definition": "sigil_cost_reduction_+5",
+		"x": 600,
+		"y": 120,
+		"root": false
+	},
+	"nv_9": {
+		"definition": "bonus_sacrifice_+10",
+		"x": 660,
+		"y": 120,
+		"root": false
+	},
+	"nv_10": {
+		"definition": "vitae_ritual_efficiency_+5%",
+		"x": 720,
+		"y": 120,
+		"root": false
+	},
+	"nv_11": {
+		"definition": "blood_siphon_+1",
+		"x": 780,
+		"y": 120,
+		"root": false
+	},
+	"nv_12": {
+		"definition": "vitae_sentient_growth_+10%",
+		"x": 840,
+		"y": 120,
+		"root": false
+	},
+	"nv_cap": {
+		"definition": "vitae_cap",
+		"x": 900,
+		"y": 120,
+		"root": false
+	},
+	"ec_1": {
+		"definition": "evilcraft_blood_harvest_+10%",
+		"x": 120,
+		"y": 180,
+		"root": false
+	},
+	"ec_2": {
+		"definition": "evilcraft_blood_efficiency_+5%",
+		"x": 120,
+		"y": 240,
+		"root": false
+	},
+	"ec_3": {
+		"definition": "evilcraft_broom_speed_+10%",
+		"x": 120,
+		"y": 300,
+		"root": false
+	},
+	"ec_4": {
+		"definition": "evilcraft_blood_harvest_+10%",
+		"x": 120,
+		"y": 360,
+		"root": false
+	},
+	"ec_5": {
+		"definition": "evilcraft_blood_efficiency_+5%",
+		"x": 120,
+		"y": 420,
+		"root": false
+	},
+	"ec_6": {
+		"definition": "evilcraft_spirit_binding_+2",
+		"x": 120,
+		"y": 480,
+		"root": false
+	},
+	"ec_7": {
+		"definition": "evilcraft_broom_speed_+10%",
+		"x": 120,
+		"y": 540,
+		"root": false
+	},
+	"ec_8": {
+		"definition": "evilcraft_blood_harvest_+10%",
+		"x": 120,
+		"y": 600,
+		"root": false
+	},
+	"ec_9": {
+		"definition": "evilcraft_blood_efficiency_+5%",
+		"x": 120,
+		"y": 660,
+		"root": false
+	},
+	"ec_10": {
+		"definition": "magic_damage_+3%",
+		"x": 120,
+		"y": 720,
+		"root": false
+	},
+	"ec_11": {
+		"definition": "evilcraft_blood_efficiency_+5%",
+		"x": 120,
+		"y": 780,
+		"root": false
+	},
+	"ec_cap": {
+		"definition": "evil_cap",
+		"x": 120,
+		"y": 840,
+		"root": false
+	},
+	"nc_1": {
+		"definition": "vampire_sun_resistance_+40",
+		"x": 180,
+		"y": 180,
+		"root": false
+	},
+	"nc_2": {
+		"definition": "witchery_ability_cooldown_+5%",
+		"x": 240,
+		"y": 240,
+		"root": false
+	},
+	"nc_3": {
+		"definition": "vampire_drink_speed_+2",
+		"x": 300,
+		"y": 300,
+		"root": false
+	},
+	"nc_4": {
+		"definition": "witchery_necromancy_+10%",
+		"x": 360,
+		"y": 360,
+		"root": false
+	},
+	"nc_5": {
+		"definition": "vampire_bat_form_duration_+600",
+		"x": 420,
+		"y": 420,
+		"root": false
+	},
+	"nc_6": {
+		"definition": "witchery_ability_cooldown_+5%",
+		"x": 480,
+		"y": 480,
+		"root": false
+	},
+	"nc_7": {
+		"definition": "witchery_lich_souls_+1",
+		"x": 540,
+		"y": 540,
+		"root": false
+	},
+	"nc_8": {
+		"definition": "vampire_sun_resistance_+40",
+		"x": 600,
+		"y": 600,
+		"root": false
+	},
+	"nc_9": {
+		"definition": "witchery_necromancy_+10%",
+		"x": 660,
+		"y": 660,
+		"root": false
+	},
+	"nc_10": {
+		"definition": "witchery_ability_cooldown_+5%",
+		"x": 720,
+		"y": 720,
+		"root": false
+	},
+	"nc_11": {
+		"definition": "vampire_drink_speed_+2",
+		"x": 780,
+		"y": 780,
+		"root": false
+	},
+	"nc_cap": {
+		"definition": "night_cap",
+		"x": 840,
+		"y": 840,
+		"root": false
+	},
+	"oc_1": {
+		"definition": "occult_ritual_haste_+10%",
+		"x": 120,
+		"y": -180,
+		"root": false
+	},
+	"oc_2": {
+		"definition": "occult_spirit_diligence_+5%",
+		"x": 120,
+		"y": -240,
+		"root": false
+	},
+	"oc_3": {
+		"definition": "tamed_damage_+5%",
+		"x": 120,
+		"y": -300,
+		"root": false
+	},
+	"oc_4": {
+		"definition": "occult_ritual_haste_+10%",
+		"x": 120,
+		"y": -360,
+		"root": false
+	},
+	"oc_5": {
+		"definition": "occult_spirit_diligence_+5%",
+		"x": 120,
+		"y": -420,
+		"root": false
+	},
+	"oc_6": {
+		"definition": "occult_familiar_bond_+1",
+		"x": 120,
+		"y": -480,
+		"root": false
+	},
+	"oc_7": {
+		"definition": "tamed_resistance_+5%",
+		"x": 120,
+		"y": -540,
+		"root": false
+	},
+	"oc_8": {
+		"definition": "occult_spirit_bounty_+5%",
+		"x": 120,
+		"y": -600,
+		"root": false
+	},
+	"oc_9": {
+		"definition": "occult_ritual_haste_+10%",
+		"x": 120,
+		"y": -660,
+		"root": false
+	},
+	"oc_10": {
+		"definition": "occult_spirit_diligence_+5%",
+		"x": 120,
+		"y": -720,
+		"root": false
+	},
+	"oc_11": {
+		"definition": "occult_spirit_bounty_+5%",
+		"x": 120,
+		"y": -780,
+		"root": false
+	},
+	"oc_cap": {
+		"definition": "occult_cap",
+		"x": 120,
+		"y": -840,
+		"root": false
+	},
+	"an_1": {
+		"definition": "anima_reaping_+10%",
+		"x": 185,
+		"y": -120,
+		"root": false
+	},
+	"an_2": {
+		"definition": "anima_soul_thrift_+5%",
+		"x": 250,
+		"y": -120,
+		"root": false
+	},
+	"an_3": {
+		"definition": "anima_spell_haste_+5%",
+		"x": 315,
+		"y": -120,
+		"root": false
+	},
+	"an_4": {
+		"definition": "anima_worker_endurance_+10%",
+		"x": 380,
+		"y": -120,
+		"root": false
+	},
+	"an_5": {
+		"definition": "anima_reaping_+10%",
+		"x": 445,
+		"y": -120,
+		"root": false
+	},
+	"an_6": {
+		"definition": "magic_damage_+3%",
+		"x": 510,
+		"y": -120,
+		"root": false
+	},
+	"an_7": {
+		"definition": "anima_spell_haste_+5%",
+		"x": 575,
+		"y": -120,
+		"root": false
+	},
+	"an_8": {
+		"definition": "anima_worker_endurance_+10%",
+		"x": 640,
+		"y": -120,
+		"root": false
+	},
+	"an_9": {
+		"definition": "anima_reaping_+10%",
+		"x": 705,
+		"y": -120,
+		"root": false
+	},
+	"an_10": {
+		"definition": "anima_soul_thrift_+5%",
+		"x": 770,
+		"y": -120,
+		"root": false
+	},
+	"an_11": {
+		"definition": "anima_spell_haste_+5%",
+		"x": 835,
+		"y": -120,
+		"root": false
+	},
+	"an_cap": {
+		"definition": "anima_cap",
+		"x": 900,
+		"y": -120,
+		"root": false
+	},
+	"archmagus": {
+		"definition": "archmagus_cap",
+		"x": -960,
+		"y": 0,
+		"root": false
+	},
+	"veil_master": {
+		"definition": "veil_master_cap",
+		"x": 1020,
+		"y": 0,
+		"root": false
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "refinedstorage:storage_container_upgrade",
+  "part": "refinedtypes:256k_essentia_storage_part",
+  "result": "refinedtypes:256k_essentia_storage_disk",
+  "sources": [
+    "refinedtypes:64k_essentia_storage_disk"
+  ]
+}

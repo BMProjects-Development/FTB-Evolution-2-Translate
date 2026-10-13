@@ -1,0 +1,40 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": "apotheosis:godforged_pearl",
+      "count": 4
+    },
+    {
+      "ingredient": "apothic_enchanting:infused_breath",
+      "count": 4
+    },
+    {
+      "ingredient": "apotheosis:infused_spawner_rune",
+      "count": 1
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 2
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:time_fluid_source",
+      "amount": 4000
+    }
+  ],
+  "results": [
+    {
+      "id": "apotheosis:pinnacle_spawner_upgrade_rune"
+    }
+  ],
+  "ticks": 2000,
+  "energy_per_tick": 25000,
+  "stage": "skyline3_unlocked"
+}

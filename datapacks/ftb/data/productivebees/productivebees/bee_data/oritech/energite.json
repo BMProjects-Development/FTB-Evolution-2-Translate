@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "attack": 1.0,
+  "beeTexture": "productivebees:textures/entity/bee/energite/bee",
+  "description": "productivebees.ingredient.description.only_spawnegg",
+  "flowerBlock": "oritech:energite",
+  "particleColor": "#ffc8ff",
+  "primaryColor": "#f43cff",
+  "secondaryColor": "#2f006a",
+  "selfbreed": false,
+  "size": 0.6,
+  "tertiaryColor": "#ae3bde",
+  "useGlowLayer": true
+}

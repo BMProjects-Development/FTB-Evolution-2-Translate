@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "colossal_reactors:deep_lead_ore",
+    "colossal_reactors:lead_ore",
+    "ftbic:lead_deepslate_ore",
+    "ftbic:lead_stone_ore",
+    "ftbmaterials:lead_deepslate_ore",
+    "ftbmaterials:lead_stone_ore"
+  ]
+}

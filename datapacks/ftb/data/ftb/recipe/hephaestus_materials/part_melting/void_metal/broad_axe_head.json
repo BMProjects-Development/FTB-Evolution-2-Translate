@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:void_metal"
+    },
+    "items": "hephaestus_tools:broad_axe_head",
+    "strict": false
+  },
+  "result": {
+    "amount": 720,
+    "id": "ftb:molten_void_metal"
+  },
+  "temperature": 1600,
+  "time": 120
+}

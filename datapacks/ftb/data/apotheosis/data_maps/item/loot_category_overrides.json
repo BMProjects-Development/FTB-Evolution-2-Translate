@@ -1,0 +1,19 @@
+{
+  "values": {
+    "ltxi:epsilon_drill": "apotheosis:breaker",
+    "oritech:electric_mace": "apotheosis:melee_weapon",
+    "neovitae:sentient_scythe": "apotheosis:melee_weapon",
+    "mutantmonsters:hulk_hammer": "apotheosis:melee_weapon",
+    "witchery:cane_sword": "apotheosis:melee_weapon",
+    "witchery:huntsman_spear": "apotheosis:melee_weapon",
+    "occultism:silver_spear": "apotheosis:melee_weapon",
+    "occultism:infused_spear": "apotheosis:melee_weapon",
+    "ltxi:serenity": "apothic_compats:gun",
+    "ltxi:mirage": "apothic_compats:gun",
+    "ltxi:aurora": "apothic_compats:gun",
+    "ltxi:hanabi": "apothic_compats:gun",
+    "ltxi:stargazer": "apothic_compats:gun",
+    "ltxi:daybreak": "apothic_compats:gun",
+    "ltxi:nova": "apothic_compats:gun"
+  }
+}

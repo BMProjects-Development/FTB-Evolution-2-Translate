@@ -1,0 +1,16 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:raw_materials/tin"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:tin_clump"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:tin_tiny_dust"
+    }
+  ],
+  "time": 40
+}

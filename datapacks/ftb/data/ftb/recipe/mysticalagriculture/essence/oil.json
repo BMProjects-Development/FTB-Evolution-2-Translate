@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:oil_essence"
+  },
+  "result": {
+    "id": "ftb:oil_residue",
+    "count": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "ftbmaterials:redstone_end_ore",
+  "outputs": [
+    {
+      "item": {
+        "count": 4,
+        "id": "minecraft:redstone"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 2,
+        "id": "minecraft:redstone"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:end_stone"
+      }
+    }
+  ]
+}

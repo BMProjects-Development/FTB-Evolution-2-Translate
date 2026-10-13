@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/platinum"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:platinum_dust"
+    }
+  ],
+  "time": 100
+}

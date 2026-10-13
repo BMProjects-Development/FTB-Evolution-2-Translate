@@ -1,0 +1,59 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:dynamo_matrix",
+      "count": 1
+    },
+    {
+      "ingredient": "ftb:arcane_codex",
+      "count": 1
+    },
+    {
+      "ingredient": "neovitae:hellforged_block",
+      "count": 1
+    },
+    {
+      "ingredient": "neovitae:crystal_cluster",
+      "count": 4
+    },
+    {
+      "ingredient": "evilcraft:dark_power_gem_block",
+      "count": 2
+    },
+    {
+      "ingredient": "evilcraft:promise_tier_3",
+      "count": 1
+    },
+    {
+      "ingredient": "occultism:iesnium_ingot",
+      "count": 8
+    },
+    {
+      "ingredient": "witchery:attuned_stone",
+      "count": 8
+    },
+    {
+      "ingredient": "anima:crystal_shard",
+      "count": 16
+    }
+  ],
+  "fluids": [
+    {
+      "id": "neovitae:essentia_vitae_source",
+      "amount": 16000
+    },
+    {
+      "id": "ftb:molten_spirit_attuned",
+      "amount": 1440
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:soul_covenant"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 1000000,
+  "stage": "ftb_beast_phase2"
+}

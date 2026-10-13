@@ -1,0 +1,197 @@
+{
+  "parent": "apotheosis:progression/ascent",
+  "criteria": {
+    "kill_wither": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "previous_tier": {
+      "trigger": "minecraft:impossible"
+    },
+    "rare_chest": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 3.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "chest"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "rare_feet": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 3.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "feet"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "rare_hand": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            }
+          }
+        },
+        "slots": "hand"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "rare_helm": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 3.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "head"
+      },
+      "trigger": "apotheosis:equipped_item"
+    },
+    "rare_legs": {
+      "conditions": {
+        "items": {
+          "predicates": {
+            "apotheosis:item_with_rarity": {
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic",
+                "apotheosis:mythic",
+                "ftbarmory:exalted"
+              ]
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": {
+                "contains": [
+                  {
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": {
+                      "min": 3.0
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "slots": "legs"
+      },
+      "trigger": "apotheosis:equipped_item"
+    }
+  },
+  "display": {
+    "background": "apotheosis:gui/advancements/backgrounds/apoth",
+    "description": {
+      "translate": "advancements.apotheosis.progression.summit.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.apotheosis.progression.summit.title"
+    }
+  },
+  "requirements": [
+    [
+      "previous_tier"
+    ],
+    [
+      "rare_helm"
+    ],
+    [
+      "rare_chest"
+    ],
+    [
+      "rare_legs"
+    ],
+    [
+      "rare_feet"
+    ],
+    [
+      "rare_hand"
+    ],
+    [
+      "kill_wither"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

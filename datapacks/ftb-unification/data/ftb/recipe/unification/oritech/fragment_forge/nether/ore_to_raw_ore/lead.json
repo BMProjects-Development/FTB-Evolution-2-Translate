@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:lead_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:lead_raw_ore"
+    }
+  ],
+  "time": 40
+}

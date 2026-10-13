@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "ltxi:niobium_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "ltxi:raw_niobium"
+  }
+}

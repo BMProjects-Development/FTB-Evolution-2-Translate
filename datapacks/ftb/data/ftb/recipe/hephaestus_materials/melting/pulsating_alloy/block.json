@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:storage_blocks/pulsating_alloy",
+  "result": {
+    "amount": 810,
+    "id": "ftb:molten_pulsating_alloy"
+  },
+  "temperature": 800,
+  "time": 240
+}

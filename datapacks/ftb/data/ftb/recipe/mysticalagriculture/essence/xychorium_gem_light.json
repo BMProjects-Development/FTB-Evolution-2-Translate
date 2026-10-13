@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:xychorium_essence"
+  },
+  "result": {
+    "id": "xycraft_world:xychorium_gem_light",
+    "count": 2
+  }
+}

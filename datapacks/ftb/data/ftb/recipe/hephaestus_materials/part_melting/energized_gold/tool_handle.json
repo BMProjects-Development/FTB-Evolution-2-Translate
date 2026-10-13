@@ -1,0 +1,21 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:energized_gold"
+    },
+    "items": "hephaestus_tools:tool_handle",
+    "strict": false
+  },
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_energized_gold"
+  },
+  "temperature": 800,
+  "time": 120
+}

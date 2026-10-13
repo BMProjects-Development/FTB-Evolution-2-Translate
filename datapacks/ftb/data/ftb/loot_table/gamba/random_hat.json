@@ -1,0 +1,1342 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hats:acornhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:aegishat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:alien_antennae"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:alienphil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:amalgalichhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:angel_and_devil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:angrymask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:antlers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:artsy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:artsy_doll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:astronaut"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:axolotl_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:azumanga_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:baby_crewmate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:babydolphin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:babyturtle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bandana"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bandanargb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:baseballeaster"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:baseballhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:baseballhatfestive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:baseballhatjuly"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:baseballhatrgb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:batwinghat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beanie"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beanieeaster"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beaniefestive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beaniejuly"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beaniergb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beaniespooky"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bee_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beehat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beehatpride"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beehattrans"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beetle_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:beret_ribbon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bicorne"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bigbrain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bigcrown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bigeyes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bigribbon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bigstevehead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:binky"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bluefireeye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bowler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:breadhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:brownbrick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:bunnyhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:burgerhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:burning_m_bison"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:caddycap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:camera"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:camerabeard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:candleonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:candycane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:capbackwards"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cardboard_box"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:carrotonstick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cartoonegg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cat_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cat_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:caterpillar_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:chalk_stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cheeseslice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:chefshat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:chi_ears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:chickenhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:chickenonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:chocolate_sauced"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:christmascakehat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:christmastree"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:circular_glasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:clockface"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cowboy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cowboyrgb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:crabonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:crown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:crystal_horns"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cucumbereyemask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cuphead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:cyclopseye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dairyqueen"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dangereqsue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dangeresquejuly"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dejiko"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:demoneyes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:demonhorns"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:digger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dimmahat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dipper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:discoball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:disguise"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:doctorhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dorkglassesandteeth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:doubletake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dragonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dragonskull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dragonskullender"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:drinkinhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:druid_antlers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:druid_antlers_rare"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dumhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dwarfbeard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:dwarfminerbeard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:easterhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eevee_ears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eggcracked"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:egghead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eggheadspots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eggonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:elfhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:explorerhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eyeholder_beeholder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eyeholder_dark"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eyeholder_evil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eyeholder_warm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eyeholder_xanath"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:eyepatch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fakeblight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fakefire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:farmerbrim"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:festiveantlers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:festiveribbon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fez"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:finnhood"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fireworks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fishing_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fishonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:flagjuly"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:flies"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:floatinghearts"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:floatingstar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:flowercrown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:floweronhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:foxhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fronthorns"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:frozenhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fulldiamondhelm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fullgoldhelm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fullironhelm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:fullsteelhelm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:ghostmask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:gnome"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:gnome_clover_wig"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:gnome_clover_wig_glasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:grandmadisguise"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:greaser"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:greenbirb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:greenstache"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:greyfoxhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:grinchhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:halo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:hat_of_discipline"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:hatpants"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:headbolts"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:headphonesblue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:headphonespink"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:headphonesred"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:headphonesreggae"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:headshot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:hockeymask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:holyhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:horsemask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:hosthat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:icedragonskull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:jackohat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:jesterhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:julydouble"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:julysunglasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:julytophat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:kirbymouthful"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:ladybug_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:largehorns"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:lightning_eyes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:lil_bows"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:lil_termagant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:lilbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:longfoxears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:madscientist"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:magikarp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:medusa"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:megamanhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:milady_doll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mimic_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mimic_head_dark"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mimic_head_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mindflayer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mindflayer_alhoon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:minerhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mistletoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:mohawk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:monkeyking"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:monocle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:moreeyes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:murdered"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:nekoears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:nyan_doll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:octodad"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:orange_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:palmtree"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:paperbag"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:partyhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:paypay"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:peepo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:penguinbaby"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:penguinhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:peppino"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:pighead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:pika_ears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:pinhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:plaguedoctor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:pog"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:pohatoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:policebucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:policesiren"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:pom_moog"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:poofballhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:poofballrgb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:popehat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:potionhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:presentsstack"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:propelhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:puchiko"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:questbook"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rabbitears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rabbitonhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rabi_en_rose"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rabi_en_rose_wig"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rainboworbiters"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:raincloud"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:ranahat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:redeyes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rednose"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:redshroomcap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:redstache"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbbigribbon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbbowler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbdragonskull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbdrinkinhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbeasterhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbfullhelm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbpartyhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbsmallbowler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbsunglasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbtoptophathat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rgbushanka"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:right_hand_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:right_hand_hat_cyborg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rimglasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:round_purple_wig"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:round_purple_wig_glasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:round_red_wig"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:round_red_wig_glasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:rubbernipple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sandcastle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:santaclaus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:santahat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sausage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:scouter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:seaweedhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:shakehat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sheep"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:shinymagikarp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:shrekears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:shroomcap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sidebow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:simsgem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sleepeyemask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:slime_cube_dnd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:slime_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:smokingpipe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:snowmanbaby"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sombrero"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sonichood"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:spadesoldier"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:special"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:spiderweb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sport_sunglasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:springer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sprout"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:spyzombie"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:stackofeggs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:stinkycheeseman"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:strawberry_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:stress"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:stuck_lollipop"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:summerhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sunglasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:sunglassesbig"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:supersandhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:swimmer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tanuki_leaf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear_bee"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear_ken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear_panda"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear_rembo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear_ryu"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:teddy_bear_scary"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:the_noise"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:the_noisier"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:thumbnail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tick_on_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tinkerhat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:toast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:toilet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tomato_splats"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:topcathat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tophat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:toptophathat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:toy_story_alien"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:traffic_cone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:triangleshades"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tricorne"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tvhead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tvheadrat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:tvheadstatic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:twilight_doll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:udder_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:unicornhorn"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:ushanka"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:vikinghat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:vikinghatbeard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:villagernose"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:winghat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:worm_hat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:worms_mine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hats:zigzagwitchhat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/bronze",
+  "result": {
+    "id": "ftbmaterials:bronze_dust"
+  },
+  "time": 16
+}

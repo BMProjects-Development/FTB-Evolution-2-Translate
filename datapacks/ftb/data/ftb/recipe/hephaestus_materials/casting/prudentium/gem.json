@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:gem_cast",
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 90,
+    "id": "mysticalagradditions:molten_prudentium"
+  },
+  "result": {
+    "id": "mysticalagriculture:prudentium_gemstone"
+  }
+}

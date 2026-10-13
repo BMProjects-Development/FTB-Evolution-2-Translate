@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:copper_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "minecraft:raw_copper"
+    }
+  ],
+  "time": 100
+}

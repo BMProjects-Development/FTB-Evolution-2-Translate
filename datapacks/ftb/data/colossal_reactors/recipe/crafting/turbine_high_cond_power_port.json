@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "key": {
+    "A": "colossal_reactors:turbine_power_port",
+    "B": "minecraft:dragon_breath"
+  },
+  "result": {
+    "id": "colossal_reactors:turbine_high_cond_power_port",
+    "count": 1
+  }
+}

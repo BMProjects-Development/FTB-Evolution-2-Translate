@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:redstone_crystal_essence"
+  },
+  "result": {
+    "id": "appflux:redstone_crystal",
+    "count": 6
+  }
+}

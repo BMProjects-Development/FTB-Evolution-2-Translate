@@ -1,0 +1,16 @@
+{
+  "type": "oritech:assembler",
+  "itemInputs": [
+    "ftbic:iridium_alloy",
+    "colossal_reactors:tough_alloy_block",
+    "ftbmaterials:titanium_block",
+    "nautec:aquarine_steel_block"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftb:composite_hull_plating"
+    }
+  ],
+  "time": 200
+}

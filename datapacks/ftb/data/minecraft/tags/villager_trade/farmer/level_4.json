@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "productivefarming:farmer/level_4/kiwi",
+    "productivefarming:farmer/level_4/goji_berry",
+    "productivefarming:farmer/level_4/butternut_squash",
+    "productivefarming:farmer/level_4/spoon_gourd",
+    "productivefarming:farmer/level_4/cucumber",
+    "productivefarming:farmer/level_4/vanilla_seeds",
+    "productivefarming:farmer/level_4/zucchini",
+    "productivefarming:farmer/level_4/akebia",
+    "productivefarming:farmer/level_4/sarsaparilla_seeds"
+  ]
+}

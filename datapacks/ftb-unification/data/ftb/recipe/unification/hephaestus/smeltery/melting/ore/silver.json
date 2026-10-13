@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ores/silver",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_silver"
+  },
+  "temperature": 960,
+  "time": 150
+}

@@ -1,0 +1,456 @@
+{
+  id: "0BCFC3959C93667A",
+  order_index: 4,
+  icon: {
+    id: "minecraft:ender_chest",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "27FDB1CE24FAC1DD",
+      item: {
+        id: "sophisticatedstorage:basic_tier_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "346041BA770BB22A",
+      item: {
+        id: "sophisticatedstorage:basic_to_copper_tier_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "58CED80FAD61B76A",
+      item: {
+        id: "sophisticatedstorage:stack_upgrade_tier_1",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "2709AE68195B3A0E",
+      item: {
+        id: "sophisticatedstorage:upgrade_base",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "09F1E4157C8B794D",
+      item: {
+        id: "functionalstorage:oak_1",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "10B8A6B462039A0D",
+      item: {
+        id: "functionalstorage:oak_2",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "1FDC14AD0BDA9E74",
+      item: {
+        id: "functionalstorage:oak_4",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "37ED1BA62EBDEB17",
+      item: {
+        id: "sophisticatedstorage:basic_to_iron_tier_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "2873098B69939833",
+      item: {
+        id: "sophisticatedstorage:copper_to_iron_tier_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5520B39334CFDFD0",
+      item: {
+        id: "sophisticatedstorage:pickup_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "565FA90AA8B5A6CC",
+      item: {
+        id: "sophisticatedstorage:magnet_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "66C7514ABD35BEEC",
+      item: {
+        id: "sophisticatedstorage:feeding_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "60C9D0CC321DD1F2",
+      item: {
+        id: "sophisticatedstorage:compacting_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "04E6B5CB33743050",
+      item: {
+        id: "sophisticatedstorage:void_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5884244AE7794300",
+      item: {
+        id: "sophisticatedstorage:filter_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "111CDEA1F981DA39",
+      item: {
+        id: "sophisticatedstorage:hopper_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0FEB215882128AAC",
+      item: {
+        id: "sophisticatedstorage:crafting_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "26CE00A5C45AB7AA",
+      item: {
+        id: "sophisticatedstorage:smelting_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "1ADF283B37A70AFA",
+      item: {
+        id: "sophisticatedstorage:compression_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0E23AD277C519F3B",
+      item: {
+        id: "functionalstorage:copper_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7197DFFA8ACAC0D8",
+      item: {
+        id: "functionalstorage:void_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "54B90ABEA5CB9ECE",
+      item: {
+        id: "functionalstorage:collector_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7AC0F8F0EA503DE2",
+      item: {
+        id: "functionalstorage:puller_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6358233055C7F015",
+      item: {
+        id: "functionalstorage:pusher_upgrade",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5B00134CBB71D85B",
+      item: {
+        id: "functionalstorage:compacting_drawer",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "727CB57FA92615A9",
+      item: {
+        id: "minecraft:ender_chest",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "24757B067F5FE0C8",
+      item: {
+        id: "evilcraft:dark_tank",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "3F2CE12099CB7DE4",
+      item: {
+        id: "nodeworks:import_chest",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "318847112C4B62E1",
+      item: {
+        id: "nodeworks:export_chest",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "09788511F7ECA246",
+      item: {
+        id: "sophisticatedstorage:basic_to_gold_tier_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "345910EA010B9891",
+      item: {
+        id: "sophisticatedstorage:iron_to_gold_tier_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7FF4F6A07DA5A86A",
+      item: {
+        id: "sophisticatedstorage:stack_upgrade_tier_1_plus",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "605A778ACD18955C",
+      item: {
+        id: "sophisticatedstorage:advanced_hopper_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "71670D0BDA99F2CD",
+      item: {
+        id: "sophisticatedstorage:advanced_magnet_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "129A6902716AA2B3",
+      item: {
+        id: "sophisticatedstorage:advanced_pickup_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5F4A8680003478C7",
+      item: {
+        id: "sophisticatedstorage:advanced_compacting_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "073EB8DD7D37D40D",
+      item: {
+        id: "functionalstorage:gold_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7CD02C8BF006A17C",
+      item: {
+        id: "functionalstorage:simple_compacting_drawer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "73FB7509C687960A",
+      item: {
+        id: "functionalstorage:fluid_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5787B07F659225E9",
+      item: {
+        id: "dankstorage:dank_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "339A697BA137CA37",
+      item: {
+        id: "nodeworks:storage_card",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "779DF3444EF7EE0E",
+      item: {
+        id: "nodeworks:storage_meter",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "045942CFE07BB3F1",
+      item: {
+        id: "nodeworks:inventory_terminal",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1F65997F2FDB0705",
+      item: {
+        id: "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1C38FADEED9DD27A",
+      item: {
+        id: "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "44596AB20EBA1C01",
+      item: {
+        id: "sophisticatedstorage:stack_upgrade_tier_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7AD9FA2EFA121DDC",
+      item: {
+        id: "functionalstorage:diamond_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0DBB3208B5061ADE",
+      item: {
+        id: "functionalstorage:storage_controller",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "029EE3B4FE0FA3D2",
+      item: {
+        id: "functionalstorage:ender_drawer",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3D311B671BE4F5A4",
+      item: {
+        id: "dankstorage:dank_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "46510A46968F87B1",
+      item: {
+        id: "nodeworks:portable_inventory_terminal",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "06D8F311874051AA",
+      item: {
+        id: "sophisticatedstorage:stack_upgrade_tier_3",
+        count: 1,
+      },
+    },
+    {
+      id: "354B781C8920B1FB",
+      item: {
+        id: "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+        count: 1,
+      },
+    },
+    {
+      id: "3B5569D392AA693F",
+      item: {
+        id: "functionalstorage:netherite_upgrade",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "storage_box",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.storage_box",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

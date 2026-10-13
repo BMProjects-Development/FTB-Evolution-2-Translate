@@ -1,0 +1,2 @@
+#Calculate AE2 item-transfer paths and send them to clients for rendering.
+enableTransferPaths = true

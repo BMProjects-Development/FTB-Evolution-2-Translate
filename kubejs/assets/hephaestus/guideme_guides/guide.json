@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Hephaestus Guide"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Smelteries, casting and molten metal",
+        "color": "dark_gray"
+      }
+    ]
+  },
+  "default_language": "en_us"
+}

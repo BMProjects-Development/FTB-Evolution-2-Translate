@@ -1,0 +1,62 @@
+#General settings
+[general]
+	#If the item used as an axe for the manual chopping block should be damaged
+	shouldDamageAxe = true
+	#If true the manual chopping block will drop the result items. If false it will put them in internal inventory.
+	choppingBlockDrop = true
+	#The amount of points for the chopper to do windup and do a chop. One lap around the chopping block is 8 points.
+	# Default: 8
+	# Range: > 1
+	pointsForWindup = 8
+	#The amount of points per rotation with a hand grindstone
+	# Default: 2
+	# Range: > 1
+	pointsPerRotation = 2
+	#The amount of points needed for a full press
+	# Default: 16
+	# Range: > 1
+	pointsForPress = 16
+	#The multiplier for manual chopping time when recipes aren't separated
+	# Default: 4
+	# Range: > 1
+	choppingMultiplier = 4
+	#The tank size of the press in mb (1000mb = 1 bucket)
+	# Default: 3000
+	# Range: > 1000
+	pressFluidTankSize = 3000
+	#The exhaustion amount added to the player when using the hand grindstone (0 to disable)
+	# Default: 0.1
+	# Range: 0.0 ~ 40.0
+	grindstoneExhaustion = 0.1
+	#The exhaustion amount added to the player when using the chopping block (0 to disable)
+	# Default: 0.1
+	# Range: 0.0 ~ 40.0
+	choppingBlockExhaustion = 0.1
+	#If the pickaxe used on the granite anvil should be damaged
+	shouldDamageGraniteAnvilPickaxe = true
+	#If true the granite anvil will drop the result items. If false it will put them in internal inventory.
+	graniteAnvilDrop = true
+	#The multiplier for granite anvil crushing time
+	# Default: 4
+	# Range: > 1
+	crushingMultiplier = 4
+	#The exhaustion amount added to the player when using the granite anvil (0 to disable)
+	# Default: 0.15
+	# Range: 0.0 ~ 40.0
+	graniteAnvilExhaustion = 0.15
+
+#Horse path settings
+[horse_path]
+	#How many non-replaceable blocks (chests, hoppers, gears, etc.) are tolerated in the horse's 7x7 working ring before validation fails. Levers are always allowed.
+	# Default: 2
+	# Range: 0 ~ 40
+	pathObstructionTolerance = 2
+	#Speed multiplier used for any path floor block not listed in pathSpeedEntries.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	pathSpeedDefault = 1.0
+	#Per-block speed multipliers for the floor blocks under the horse's circular path.
+	#Format: "namespace:block_id=multiplier". Multipliers below 1.0 slow the worker, above 1.0 speed it up.
+	#The final path speed is the average of the multipliers of every unique floor block the path crosses.
+	#Any block listed here also counts as valid floor, even if its top is not a full block (such as dirt paths).
+	pathSpeedEntries = ["minecraft:grass_block=0.5", "minecraft:dirt=0.5", "minecraft:coarse_dirt=0.5", "minecraft:rooted_dirt=0.5", "minecraft:dirt_path=1.0", "minecraft:packed_ice=2.0"]

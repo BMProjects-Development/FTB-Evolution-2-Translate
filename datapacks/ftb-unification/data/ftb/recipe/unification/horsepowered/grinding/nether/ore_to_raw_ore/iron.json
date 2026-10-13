@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:iron_nether_ore",
+  "result": {
+    "id": "minecraft:raw_iron",
+    "count": 2
+  },
+  "secondary": {
+    "id": "minecraft:raw_iron",
+    "count": 2
+  },
+  "secondaryChance": 100,
+  "time": 16
+}

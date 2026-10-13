@@ -1,0 +1,393 @@
+{
+  id: "5CB96C3606EC2291",
+  order_index: 26,
+  icon: {
+    id: "artifacts:crystal_heart",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "4D3BBEADDCCE7681",
+      item: {
+        id: "artifacts:cowboy_hat",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "2D84BC618E60C9A3",
+      item: {
+        id: "artifacts:anglers_hat",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "029657905DE8EFCC",
+      item: {
+        id: "artifacts:superstitious_hat",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "0BFB7CAD5ACE220E",
+      item: {
+        id: "artifacts:villager_hat",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "4C07E8504F74E892",
+      item: {
+        id: "artifacts:novelty_drinking_hat",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "7CD679539A391648",
+      item: {
+        id: "artifacts:plastic_drinking_hat",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "6752AC158F9252C7",
+      item: {
+        id: "artifacts:whoopee_cushion",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "729A0361E712EE67",
+      item: {
+        id: "artifacts:umbrella",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "191CE7698BDB2AFF",
+      item: {
+        id: "artifacts:onion_ring",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "3A99DBF2EDADB67F",
+      item: {
+        id: "artifacts:snowshoes",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "6D76C53977C4A415",
+      item: {
+        id: "artifacts:flippers",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "1A02E8D210D963C0",
+      item: {
+        id: "artifacts:kitty_slippers",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "5409C1820E04D7A0",
+      item: {
+        id: "artifacts:pocket_piston",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "14580E867EC6EE73",
+      item: {
+        id: "artifacts:eternal_steak",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "3A54FEE10DCBD489",
+      item: {
+        id: "artifacts:charm_of_sinking",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "6B14F2A62ADA9275",
+      item: {
+        id: "artifacts:charm_of_shrinking",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "4481EAD55BA177B7",
+      item: {
+        id: "artifacts:helium_flamingo",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "4549E4DEC461088D",
+      item: {
+        id: "artifacts:golden_hook",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "65FE99A9F26C2755",
+      item: {
+        id: "artifacts:lucky_scarf",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "1B837595D0CAA1CC",
+      item: {
+        id: "artifacts:snorkel",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "3449132232CA625C",
+      item: {
+        id: "artifacts:night_vision_goggles",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "12F2BC0BB82B2213",
+      item: {
+        id: "artifacts:running_shoes",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "29F8514E7155BD5F",
+      item: {
+        id: "artifacts:aqua_dashers",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1BAD2A3FB3113ADB",
+      item: {
+        id: "artifacts:bunny_hoppers",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "222D4B13747E2931",
+      item: {
+        id: "artifacts:steadfast_spikes",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6E9B771DC0F10A33",
+      item: {
+        id: "artifacts:strider_shoes",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0A70A53FF555A450",
+      item: {
+        id: "artifacts:rooted_boots",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "02FD0EEF97D96FB4",
+      item: {
+        id: "artifacts:obsidian_skull",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "334426A1EC448435",
+      item: {
+        id: "artifacts:antidote_vessel",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6A1C9DF64F06AE93",
+      item: {
+        id: "artifacts:digging_claws",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "70A278F4530AEE97",
+      item: {
+        id: "artifacts:feral_claws",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1FA7A3913886E52B",
+      item: {
+        id: "artifacts:fire_gauntlet",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4E80CC241F5F36B2",
+      item: {
+        id: "artifacts:pickaxe_heater",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "31900A686295ACFB",
+      item: {
+        id: "artifacts:flame_pendant",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "11D13A10B3465974",
+      item: {
+        id: "artifacts:shock_pendant",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7E05E8524B470EDC",
+      item: {
+        id: "artifacts:thorn_pendant",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "47D8EB8186F0F160",
+      item: {
+        id: "artifacts:panic_necklace",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3CAB29729610668F",
+      item: {
+        id: "artifacts:cross_necklace",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4E6376F8B8AE1747",
+      item: {
+        id: "artifacts:scarf_of_invisibility",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "17E349809A29705E",
+      item: {
+        id: "artifacts:withered_bracelet",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2EE01752FFBC961F",
+      item: {
+        id: "artifacts:cloud_in_a_bottle",
+        count: 1,
+      },
+    },
+    {
+      id: "39E5F39A380AD60C",
+      item: {
+        id: "artifacts:universal_attractor",
+        count: 1,
+      },
+    },
+    {
+      id: "64B7939A36130035",
+      item: {
+        id: "artifacts:crystal_heart",
+        count: 1,
+      },
+    },
+    {
+      id: "54F9D311306D2D0A",
+      item: {
+        id: "artifacts:power_glove",
+        count: 1,
+      },
+    },
+    {
+      id: "350E656FF074B9D1",
+      item: {
+        id: "artifacts:vampiric_glove",
+        count: 1,
+      },
+    },
+    {
+      id: "710BFCCECB6FD698",
+      item: {
+        id: "artifacts:chorus_totem",
+        count: 1,
+      },
+    },
+    {
+      id: "589C3D7ACF079955",
+      item: {
+        id: "artifacts:warp_drive",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_artifact",
+    color: 11141290,
+    item_name: "ftbquests.loot_crate.random_artifact",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

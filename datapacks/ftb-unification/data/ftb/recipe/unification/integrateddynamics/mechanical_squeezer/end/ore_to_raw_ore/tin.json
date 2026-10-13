@@ -1,0 +1,34 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ftbmaterials:tin_end_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore",
+        "count": 2
+      },
+      "chance": 1.0
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore",
+        "count": 2
+      },
+      "chance": 0.66
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:tin_raw_ore",
+        "count": 2
+      },
+      "chance": 0.3
+    }
+  ],
+  "duration": 40
+}

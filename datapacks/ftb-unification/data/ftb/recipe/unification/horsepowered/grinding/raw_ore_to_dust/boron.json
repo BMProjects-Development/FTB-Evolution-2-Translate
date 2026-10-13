@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/boron",
+  "result": {
+    "id": "colossal_reactors:boron_dust"
+  },
+  "secondary": {
+    "id": "colossal_reactors:boron_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

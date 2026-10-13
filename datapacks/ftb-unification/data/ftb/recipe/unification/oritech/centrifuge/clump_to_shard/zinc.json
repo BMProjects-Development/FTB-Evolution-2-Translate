@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/zinc"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:zinc_shard"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hephaestus_tools:dragonsteel_ice",
+  "ingredient": {
+    "item": "iceandfire:dragonsteel_ice_ingot"
+  },
+  "color": 7380911,
+  "head_stats": {
+    "durability": 2500,
+    "mining_speed": 10.0,
+    "attack_damage": 6.0,
+    "attack_speed": 1.0,
+    "tier": 5,
+    "enchantability": 10
+  },
+  "handle_stats": {
+    "durability_mult": 0.15,
+    "speed_mult": 0.06,
+    "damage_mult": 0.2,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 500
+  }
+}

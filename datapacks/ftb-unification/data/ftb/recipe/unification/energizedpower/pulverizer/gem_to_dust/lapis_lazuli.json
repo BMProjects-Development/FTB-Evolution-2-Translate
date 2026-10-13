@@ -1,0 +1,15 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "minecraft:lapis_lazuli",
+  "result": {
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ],
+    "result": {
+      "id": "ftbmaterials:lapis_lazuli_dust"
+    }
+  }
+}

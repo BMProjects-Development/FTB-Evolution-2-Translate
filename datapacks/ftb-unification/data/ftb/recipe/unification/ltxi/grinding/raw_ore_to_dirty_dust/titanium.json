@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:titanium_raw_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:titanium_dirty_dust"
+    },
+    {
+      "count": {
+        "chance": 0.5,
+        "max": 1,
+        "min": 1
+      },
+      "id": "ftbmaterials:titanium_dirty_dust",
+      "required": false
+    }
+  ]
+}

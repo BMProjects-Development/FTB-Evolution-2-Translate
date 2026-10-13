@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "ftbmaterials:aluminum_plate"
+  ],
+  "result": {
+    "id": "ftbmaterials:aluminum_wire",
+    "count": 2
+  }
+}

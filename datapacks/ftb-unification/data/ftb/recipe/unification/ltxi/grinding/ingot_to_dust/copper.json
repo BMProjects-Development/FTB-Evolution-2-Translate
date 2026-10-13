@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ingots/copper"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:copper_dust"
+    }
+  ]
+}

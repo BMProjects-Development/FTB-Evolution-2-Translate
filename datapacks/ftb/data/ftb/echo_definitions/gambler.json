@@ -1,0 +1,56 @@
+{
+  "id": "ftb:gambler",
+  "title": {
+    "translate": "ftb.shopkeeper.gambler",
+    "color": "gold"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "cleric",
+      "level": 3
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.gambler",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:gambler_wares",
+      "shop_unlock": [
+        { "name": "crate_random_garden", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_garden" } }, "cost": 25 },
+        { "name": "crate_grandma_s_treat", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "grandma_s_treat" } }, "cost": 25 },
+        { "name": "crate_random_passive_egg", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_passive_egg" } }, "cost": 35 },
+        { "name": "crate_random_tackle", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_tackle" } }, "cost": 35 },
+        { "name": "crate_random_wardrobe", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_wardrobe" } }, "cost": 30 },
+        { "name": "crate_random_occult", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_occult" } }, "cost": 40 },
+        { "name": "crate_random_furnace", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_furnace" } }, "cost": 35 },
+        { "name": "crate_random_potion", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_potion" } }, "cost": 25 },
+        { "name": "crate_random_monster", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_monster" } }, "cost": 80 },
+        { "name": "crate_random_armory_1", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_armory_1" } }, "cost": 60 },
+        { "name": "crate_storage_box", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "storage_box" } }, "cost": 60 },
+        { "name": "crate_random_backpack_addon", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_backpack_addon" } }, "cost": 60 },
+        { "name": "crate_box_of_ae2_goodies", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "box_of_ae2_goodies" } }, "cost": 80 },
+        { "name": "crate_box_of_rs2_goodies", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "box_of_rs2_goodies" } }, "cost": 80 },
+        { "name": "crate_technology_bundle", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "technology_bundle" } }, "cost": 100 },
+        { "name": "crate_random_logistics", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_logistics" } }, "cost": 60 },
+        { "name": "crate_adventurer_bundle", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "adventurer_bundle" } }, "cost": 80 },
+        { "name": "crate_random_builder", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_builder" } }, "cost": 100 },
+        { "name": "crate_random_arcane", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_arcane" } }, "cost": 60 },
+        { "name": "crate_random_enchanter", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_enchanter" } }, "cost": 100 },
+        { "name": "crate_random_armory_2", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_armory_2" } }, "cost": 180 },
+        { "name": "crate_bag_of_perfect_gems", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "bag_of_perfect_gems" } }, "cost": 200 },
+        { "name": "crate_random_mob_farm", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_mob_farm" } }, "cost": 180 },
+        { "name": "crate_random_artifact", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_artifact" } }, "cost": 250 },
+        { "name": "crate_random_armory_3", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_armory_3" } }, "cost": 500 },
+        { "name": "crate_high_roller", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "high_roller" } }, "cost": 750 },
+        { "name": "crate_random_heart", "item": { "id": "ftbquests:lootcrate", "count": 1, "components": { "ftbquests:loot_crate": "random_heart" } }, "cost": 500 }
+      ]
+    }
+  ]
+}

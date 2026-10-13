@@ -1,0 +1,5 @@
+[server]
+	#Ticks to wait for a client to confirm that a cutscene started before the session is dropped
+	# Default: 40
+	# Range: 1 ~ 1200
+	startTimeoutTicks = 40

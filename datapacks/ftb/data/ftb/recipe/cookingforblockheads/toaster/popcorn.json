@@ -1,0 +1,7 @@
+{
+  "type": "cookingforblockheads:toaster",
+  "ingredient": "pantryforblockheads:corn",
+  "result": {
+    "item": "pantryforblockheads:popcorn"
+  }
+}

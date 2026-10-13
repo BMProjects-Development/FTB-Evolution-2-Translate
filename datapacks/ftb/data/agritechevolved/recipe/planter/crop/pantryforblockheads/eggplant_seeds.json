@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pantryforblockheads"
+    }
+  ],
+  "type": "agritechevolved:crop",
+  "seed": "pantryforblockheads:eggplant_seeds",
+  "soils": [
+    "#agritechevolved:farmland_soils"
+  ],
+  "drops": [
+    {
+      "item": "pantryforblockheads:eggplant",
+      "min": 1,
+      "max": 1,
+      "chance": 1.0
+    },
+    {
+      "item": "pantryforblockheads:eggplant_seeds",
+      "min": 1,
+      "max": 2,
+      "chance": 1.0
+    }
+  ]
+}

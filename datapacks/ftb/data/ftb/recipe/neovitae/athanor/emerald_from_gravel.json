@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:athanor",
+  "inputs": [
+    "#c:gravels/emerald"
+  ],
+  "tool": "#neovitae:athanor_tool/cutting_fluids",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "minecraft:emerald"
+    }
+  ],
+  "chance_outputs": []
+}

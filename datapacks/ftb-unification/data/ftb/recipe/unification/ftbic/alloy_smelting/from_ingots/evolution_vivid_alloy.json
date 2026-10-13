@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:energetic_silver_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:ender_pearl"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio_evolution:vivid_alloy_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

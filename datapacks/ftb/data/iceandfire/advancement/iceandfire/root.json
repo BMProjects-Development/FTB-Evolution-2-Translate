@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+    "id": "iceandfire:dragon_skull_fire"
+    },
+    "title": {
+      "translate": "advancements.iceandfire.root.title"
+    },
+    "description": {
+      "translate": "advancements.iceandfire.root.description"
+    },
+    "background": "minecraft:block/deepslate",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

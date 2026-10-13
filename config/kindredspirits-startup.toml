@@ -1,0 +1,214 @@
+#Level 1 base stats for each companion species.
+#Attributes are built while the game loads, so changes need a restart.
+#These are not synced: a server and its clients should use the same values.
+[species]
+
+	[species.nightfox]
+		#Base max health at level 1.
+		# Default: 35.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 35.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.32
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.32
+		#Base attack damage at level 1.
+		# Default: 3.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 3.0
+		#Base armour.
+		# Default: 2.0
+		# Range: 0.0 ~ 30.0
+		armour = 2.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.0
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 1.0
+
+	[species.trex]
+		#Base max health at level 1.
+		# Default: 75.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 75.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.25
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.25
+		#Base attack damage at level 1.
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 4.0
+		#Base armour.
+		# Default: 2.0
+		# Range: 0.0 ~ 30.0
+		armour = 2.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.9
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 1.0
+
+	[species.mini_player]
+		#Base max health at level 1.
+		# Default: 45.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 45.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.3
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.3
+		#Base attack damage at level 1.
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 4.0
+		#Base armour.
+		# Default: 2.0
+		# Range: 0.0 ~ 30.0
+		armour = 2.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.0
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 0.5
+
+	[species.baby_dragon]
+		#Base max health at level 1.
+		# Default: 25.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 25.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.36
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.36
+		#Base attack damage at level 1.
+		# Default: 7.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 7.0
+		#Base armour.
+		# Default: 2.0
+		# Range: 0.0 ~ 30.0
+		armour = 2.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.0
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 1.5
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 1.5
+
+	[species.quokka]
+		#Base max health at level 1.
+		# Default: 45.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 45.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.36
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.36
+		#Base attack damage at level 1.
+		# Default: 2.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 2.0
+		#Base armour.
+		# Default: 6.0
+		# Range: 0.0 ~ 30.0
+		armour = 6.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.0
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 0.5
+
+	[species.gremlin]
+		#Base max health at level 1.
+		# Default: 25.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 25.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.4
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.4
+		#Base attack damage at level 1.
+		# Default: 2.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 2.0
+		#Base armour.
+		# Default: 2.0
+		# Range: 0.0 ~ 30.0
+		armour = 2.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.0
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 1.5
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 1.5
+
+	[species.direwolf]
+		#Base max health at level 1.
+		# Default: 45.0
+		# Range: 1.0 ~ 1024.0
+		max_health = 45.0
+		#Base movement speed. A vanilla wolf is 0.3.
+		# Default: 0.32
+		# Range: 0.0 ~ 2.0
+		movement_speed = 0.32
+		#Base attack damage at level 1.
+		# Default: 5.0
+		# Range: 0.0 ~ 1024.0
+		attack_damage = 5.0
+		#Base armour.
+		# Default: 4.0
+		# Range: 0.0 ~ 30.0
+		armour = 4.0
+		#Base knockback resistance, 0 to 1.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		knockback_resistance = 0.2
+		#How far it will notice something to fight, and how far its goals reach.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		follow_range = 24.0
+		#Multiplier on the per-level health and attack gains from the common config.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		growth_multiplier = 1.0

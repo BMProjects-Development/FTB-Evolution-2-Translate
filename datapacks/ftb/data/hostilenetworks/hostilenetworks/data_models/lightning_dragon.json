@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "entity": "iceandfire:lightning_dragon",
+  "variants": [],
+  "name_color": "#9A5AE0",
+  "display": {
+    "nbt": {
+      "Variant": "electric"
+    },
+    "scale": 0.15
+  },
+  "sim_cost": 3072,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lightning_dragon",
+  "fabricator_drops": [
+    {
+      "id": "iceandfire:dragonscales_electric",
+      "count": 8
+    },
+    {
+      "id": "iceandfire:dragonbone",
+      "count": 8
+    },
+    {
+      "id": "iceandfire:lightning_dragon_blood",
+      "count": 2
+    },
+    {
+      "id": "iceandfire:lightning_dragon_heart",
+      "count": 1
+    },
+    {
+      "id": "iceandfire:lightning_dragon_flesh",
+      "count": 8
+    }
+  ]
+}

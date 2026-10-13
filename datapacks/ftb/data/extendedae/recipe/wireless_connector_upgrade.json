@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "extendedae:wireless_hub",
+    "#c:ingots/iron"
+  ],
+  "result": {
+    "id": "extendedae:wireless_connector_upgrade"
+  }
+}

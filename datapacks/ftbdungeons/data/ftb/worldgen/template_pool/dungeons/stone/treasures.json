@@ -1,0 +1,96 @@
+{
+  "name": "ftb:dungeons/stone/treasures",
+  "fallback": "ftb:dungeons/stone/terminators/treasures",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/52",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/53",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/54",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/55",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/62",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/63",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/64",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/65",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/98",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/treasure/99",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    }
+  ]
+}

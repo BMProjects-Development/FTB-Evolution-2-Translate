@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ftbmaterials:tin_plate",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:tin_wire"
+  }
+}

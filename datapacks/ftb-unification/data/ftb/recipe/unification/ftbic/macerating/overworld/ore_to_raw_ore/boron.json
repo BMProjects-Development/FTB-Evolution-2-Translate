@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/boron"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "colossal_reactors:boron_raw"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "colossal_reactors:boron_raw"
+      }
+    }
+  ]
+}

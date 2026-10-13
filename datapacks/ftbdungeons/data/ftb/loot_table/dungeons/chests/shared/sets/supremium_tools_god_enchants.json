@@ -1,0 +1,247 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagradditions:supremium_paxel",
+          "weight": 751,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fortune": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_axe",
+          "weight": 312,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fortune": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_pickaxe",
+          "weight": 462,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fortune": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_sword",
+          "weight": 169,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "n": 20,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_sword",
+          "weight": 169,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "enchantments": {
+                "minecraft:looting": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:sharpness": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_sword",
+          "weight": 169,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "enchantments": {
+                "minecraft:looting": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:smite": {
+                  "n": 20,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

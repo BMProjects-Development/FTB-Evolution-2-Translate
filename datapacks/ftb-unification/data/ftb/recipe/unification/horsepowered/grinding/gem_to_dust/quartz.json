@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "minecraft:quartz",
+  "result": {
+    "id": "ftbmaterials:quartz_dust"
+  },
+  "time": 16
+}

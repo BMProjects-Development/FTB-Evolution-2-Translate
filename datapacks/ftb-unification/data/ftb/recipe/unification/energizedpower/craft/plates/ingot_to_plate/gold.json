@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/gold",
+    "#c:ingots/gold"
+  ],
+  "result": {
+    "id": "ftbmaterials:gold_plate"
+  }
+}

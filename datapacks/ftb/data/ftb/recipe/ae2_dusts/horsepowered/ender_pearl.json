@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ender_pearls",
+  "result": {
+    "id": "ae2:ender_dust"
+  },
+  "time": 16
+}

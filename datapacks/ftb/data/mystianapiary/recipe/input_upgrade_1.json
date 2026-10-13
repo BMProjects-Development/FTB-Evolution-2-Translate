@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:storage_blocks/iron",
+    "minecraft:hopper",
+    "#c:dusts/redstone"
+  ],
+  "result": {
+    "id": "mystianapiary:input_upgrade_1",
+    "count": 1
+  }
+}

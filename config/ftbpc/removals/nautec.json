@@ -1,0 +1,12 @@
+[
+  "bacteria_incubation/antimonophiles",
+  "bacteria_incubation/bauxitophiles",
+  "bacteria_incubation/constantophiles",
+  "bacteria_incubation/monazitophiles",
+  "bacteria_incubation/tungstophiles",
+  "bacteria_mutation/antimonophiles",
+  "bacteria_mutation/bauxitophiles",
+  "bacteria_mutation/constantophiles",
+  "bacteria_mutation/monazitophiles",
+  "bacteria_mutation/tungstophiles"
+]

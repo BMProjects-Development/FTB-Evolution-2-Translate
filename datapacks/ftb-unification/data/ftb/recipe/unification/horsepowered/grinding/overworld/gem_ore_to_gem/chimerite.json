@@ -1,0 +1,13 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/chimerite",
+  "result": {
+    "count": 2,
+    "id": "arsmagicalegacy:chimerite"
+  },
+  "secondary": {
+    "id": "arsmagicalegacy:chimerite"
+  },
+  "secondaryChance": 25,
+  "time": 16
+}

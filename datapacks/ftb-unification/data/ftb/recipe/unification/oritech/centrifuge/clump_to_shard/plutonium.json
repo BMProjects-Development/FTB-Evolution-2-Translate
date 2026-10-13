@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/plutonium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:plutonium_shard"
+    }
+  ],
+  "time": 100
+}

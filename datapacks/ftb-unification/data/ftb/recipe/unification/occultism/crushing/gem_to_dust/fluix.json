@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "ae2:fluix_crystal",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "ae2:fluix_dust"
+  }
+}

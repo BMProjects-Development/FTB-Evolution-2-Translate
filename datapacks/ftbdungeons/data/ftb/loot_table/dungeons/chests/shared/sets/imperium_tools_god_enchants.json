@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:imperium_axe",
+          "weight": 312,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fortune": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:imperium_shovel",
+          "weight": 333,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:imperium_sword",
+          "weight": 169,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "n": 20,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:imperium_sword",
+          "weight": 169,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:looting": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:sharpness": {
+                  "n": 19,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:imperium_sword",
+          "weight": 169,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:looting": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:smite": {
+                  "n": 20,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:redstone_block",
+    "G": "#c:glass_blocks",
+    "P": "refinedtypes:infinite_essentia_storage_part",
+    "R": "#c:dusts/redstone"
+  },
+  "pattern": [
+    "GRG",
+    "RPR",
+    "EEE"
+  ],
+  "result": {
+    "id": "refinedtypes:infinite_essentia_storage_disk"
+  }
+}

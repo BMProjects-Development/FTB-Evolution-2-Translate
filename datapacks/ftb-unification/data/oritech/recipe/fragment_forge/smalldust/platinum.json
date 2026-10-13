@@ -1,0 +1,12 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:nuggets/platinum"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:platinum_tiny_dust"
+    }
+  ],
+  "time": 40
+}

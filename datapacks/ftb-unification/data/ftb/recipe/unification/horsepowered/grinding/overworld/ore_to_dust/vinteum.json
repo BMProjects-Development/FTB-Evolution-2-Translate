@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/vinteum",
+  "result": {
+    "count": 2,
+    "id": "arsmagicalegacy:vinteum_dust"
+  },
+  "secondary": {
+    "count": 2,
+    "id": "arsmagicalegacy:vinteum_dust"
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

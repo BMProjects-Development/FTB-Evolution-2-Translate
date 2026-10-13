@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:compressing",
+  "inputs": [
+    {
+      "ingredient": "minecraft:ice",
+      "count": 9
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "minecraft:packed_ice"
+      }
+    }
+  ]
+}

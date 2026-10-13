@@ -1,0 +1,24 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "#c:ore_source/overworld/redstone",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone"
+      },
+      "chance": 0.33
+    }
+  ]
+}

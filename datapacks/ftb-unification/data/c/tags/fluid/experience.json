@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "justdirethings:xp_fluid_flowing",
+    "justdirethings:xp_fluid_source"
+  ],
+  "remove": [
+    "enderio:fluid_xp_juice_still",
+    "energizedpower:flowing_liquid_xp",
+    "energizedpower:liquid_xp",
+    "mobflowutilities:liquid_xp",
+    "mobflowutilities:liquid_xp_flowing",
+    "nautec:experience_algae",
+    "nautec:experience_algae_flowing",
+    "neovitae:liquified_experience_flowing",
+    "neovitae:liquified_experience_source",
+    "reliquary:xp_still",
+    "sophisticatedcore:xp_still"
+  ]
+}

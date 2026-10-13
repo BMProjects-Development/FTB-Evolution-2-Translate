@@ -1,0 +1,86 @@
+{
+  "config_version": "2.0.28",
+  "config_datetime": "2026-07-29_16-38-42",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.3
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "ati_structures:arachnid_dwelling",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:castillo",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:catalonian_castle",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:dark_keep",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:deepslate_keep",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:gnome_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:ice_tribe",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:pufferfish_cave",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:rotten_log",
+      "is_disabled": true
+    },
+    {
+      "name": "ati_structures:small_keep",
+      "is_disabled": true
+    },
+    {
+      "name": "energizedpower:factory_1",
+      "is_disabled": true
+    },
+    {
+      "name": "energizedpower:small_solar_farm",
+      "is_disabled": true
+    },
+    {
+      "name": "xycraft_world:surface_geyser",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "nautec:crystal_geodes",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "nautec:ruins_1",
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "name": "ati_structures:underground_small",
+      "structure_weights": {
+        "ati_structures:underwater_dungeon": 3,
+        "ati_structures:silverfish_nest": 7,
+        "ati_structures:sculk_deposit": 7,
+        "ati_structures:rotting_temple_underground": 7,
+        "ati_structures:pufferfish_cave": 7
+      }
+    }
+  ],
+  "structure_template_pools": []
+}

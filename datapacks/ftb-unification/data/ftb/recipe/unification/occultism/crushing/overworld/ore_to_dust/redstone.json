@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/redstone",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "minecraft:redstone"
+  }
+}

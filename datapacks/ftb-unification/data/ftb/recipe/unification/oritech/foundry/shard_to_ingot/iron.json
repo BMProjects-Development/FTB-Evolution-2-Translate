@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:iron_shard",
+    "ftbmaterials:iron_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "minecraft:iron_ingot"
+    }
+  ],
+  "time": 80
+}

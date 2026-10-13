@@ -1,0 +1,19 @@
+{
+  "values": {
+    "minecraft:magma_block": {
+      "temperature": 800
+    },
+    "powah:blazing_crystal_block": {
+      "temperature": 1500
+    },
+     "oritech:manhattan_module": {
+      "temperature": 4000
+    },
+      "ftbic:nuke": {
+      "temperature": 4000
+    },
+      "justdirethings:coalblock_t4": {
+      "temperature": 3000
+    }
+  }
+}

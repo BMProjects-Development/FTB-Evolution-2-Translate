@@ -1,0 +1,672 @@
+{
+  id: "5980398643E65CBF",
+  order_index: 2,
+  icon: {
+    id: "powah:energy_cell_basic",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "7DB3DF04B1065400",
+      item: {
+        id: "powah:dielectric_paste",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "6EC0801156700438",
+      item: {
+        id: "ftbic:rubber",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "6FF93D29194D18AF",
+      item: {
+        id: "ftbic:single_use_battery",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "480305C0DEFF2EFD",
+      item: {
+        id: "powah:energy_cable_starter",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "62457088A9AAB081",
+      item: {
+        id: "ftbic:lv_cable",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "080E3828DD8818D8",
+      item: {
+        id: "energizedpower:tin_cable",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "1467192D1B6627B9",
+      item: {
+        id: "powah:furnator_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "77D21EC59A495342",
+      item: {
+        id: "powah:magmator_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "5F172A00D26EA4E9",
+      item: {
+        id: "powah:thermo_generator_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "0FD46905BE65272B",
+      item: {
+        id: "powah:solar_panel_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "4195C59738D4AA88",
+      item: {
+        id: "powah:energy_cell_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "78CE67C9C98B4CEC",
+      item: {
+        id: "powah:battery_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "63E6F2335E3E6B75",
+      item: {
+        id: "powah:ender_gate_starter",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "63D15EA5F0D9CE86",
+      item: {
+        id: "mffs:focus_matrix",
+        count: 1,
+      },
+      count: 2,
+      weight: 6.0,
+    },
+    {
+      id: "0E607E2F925022FC",
+      item: {
+        id: "powah:energy_cable_basic",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "014E0689CE23AD10",
+      item: {
+        id: "ftbic:mv_cable",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "355433F0D5311757",
+      item: {
+        id: "energizedpower:copper_cable",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "6CCB597454F7003D",
+      item: {
+        id: "ltxi:small_voltaic_cell",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "6FFE31924BAAFA29",
+      item: {
+        id: "powah:furnator_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "25207EBBD37F5C23",
+      item: {
+        id: "powah:magmator_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "3D65BEF1EAEEE426",
+      item: {
+        id: "powah:thermo_generator_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1D719D2DF855465E",
+      item: {
+        id: "powah:solar_panel_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "14B461C7855A28A9",
+      item: {
+        id: "powah:energy_cell_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "5366196B46122350",
+      item: {
+        id: "powah:battery_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "081681F988CCA952",
+      item: {
+        id: "powah:ender_gate_basic",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "55364FF894DE49AA",
+      item: {
+        id: "energizedpower:basic_solar_cell",
+        count: 1,
+      },
+      count: 2,
+      weight: 4.0,
+    },
+    {
+      id: "41A98ABA90AB592F",
+      item: {
+        id: "energizedpower:battery_1",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6E2318CAC3038CA1",
+      item: {
+        id: "energizedpower:solar_panel_1",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6BD260587C7F4590",
+      item: {
+        id: "ftbic:basic_generator",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "5969E7322E433DC7",
+      item: {
+        id: "ftbic:lv_solar_panel",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "0E7136C6EF4AF4FE",
+      item: {
+        id: "ftbic:lv_battery",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "3696E63CC97199A5",
+      item: {
+        id: "justdirethings:generatort1",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6BBAF598EB4108D4",
+      item: {
+        id: "mffs:speed_module",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "3FD18D0DE0818388",
+      item: {
+        id: "mffs:capacity_module",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1DEE52A7D9E1DCD8",
+      item: {
+        id: "mffs:scale_module",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "4800EBD30E5D61B6",
+      item: {
+        id: "mffs:translation_module",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "3C44D8137B44A9D3",
+      item: {
+        id: "mffs:rotation_module",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "62E57C54A8D372E2",
+      item: {
+        id: "powah:energy_cable_hardened",
+        count: 1,
+      },
+      count: 8,
+      weight: 4.0,
+    },
+    {
+      id: "2324B66E88167A47",
+      item: {
+        id: "ftbic:hv_cable",
+        count: 1,
+      },
+      count: 8,
+      weight: 4.0,
+    },
+    {
+      id: "767575CF50F1CA7E",
+      item: {
+        id: "energizedpower:gold_cable",
+        count: 1,
+      },
+      count: 8,
+      weight: 4.0,
+    },
+    {
+      id: "7C4939B8F3E72DF8",
+      item: {
+        id: "ftbic:lv_battery_box",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "2883AF2FADBA98F2",
+      item: {
+        id: "ftbic:lv_transformer",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "74B3F5C511B294E5",
+      item: {
+        id: "ftbic:wind_mill",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "710AD81D3CAD7F3A",
+      item: {
+        id: "ftbic:geothermal_generator",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "20489735F58FE4E0",
+      item: {
+        id: "ftbic:charge_pad",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1135ACC34EB339EE",
+      item: {
+        id: "ftbic:energy_storage_upgrade",
+        count: 1,
+      },
+      count: 2,
+      weight: 4.0,
+    },
+    {
+      id: "7D4CA1807803529F",
+      item: {
+        id: "ltxi:medium_voltaic_cell",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1B729A64E36BD677",
+      item: {
+        id: "ltxi:solar_panel",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "462905095BFF5AFA",
+      item: {
+        id: "ltxi:portable_generator",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "75C43C78E7FCB75A",
+      item: {
+        id: "powah:furnator_hardened",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "384488598A4FF0A6",
+      item: {
+        id: "powah:magmator_hardened",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3352C639F8DDFFC2",
+      item: {
+        id: "powah:thermo_generator_hardened",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "37C157D0DC2A3D2F",
+      item: {
+        id: "powah:solar_panel_hardened",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2B6C5741853E63C8",
+      item: {
+        id: "powah:energy_cell_hardened",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0016D3FC5F311375",
+      item: {
+        id: "powah:battery_hardened",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "047C4453CDF2A1A1",
+      item: {
+        id: "powah:reactor_starter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "356A45B20D9CFF18",
+      item: {
+        id: "energizedpower:solar_panel_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "52A4EF80CA8680CE",
+      item: {
+        id: "energizedpower:battery_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4002BC8EBFDB7437",
+      item: {
+        id: "ftbic:mv_battery",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3BDDCB9C50CF7756",
+      item: {
+        id: "ftbic:mv_solar_panel",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7ED14CB8E8B1572C",
+      item: {
+        id: "justdirethings:generatorfluidt1",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "78D8A649EFEDCC35",
+      item: {
+        id: "justdirethings:energytransmitter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3582B4BA6ADD6F06",
+      item: {
+        id: "powah:energy_cable_blazing",
+        count: 1,
+      },
+      count: 8,
+      weight: 2.0,
+    },
+    {
+      id: "17503B44B4D6C4F4",
+      item: {
+        id: "ftbic:ev_cable",
+        count: 1,
+      },
+      count: 8,
+      weight: 2.0,
+    },
+    {
+      id: "409C280151D2A598",
+      item: {
+        id: "ftbic:mv_battery_box",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1BC1C40B28016274",
+      item: {
+        id: "ftbic:mv_transformer",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3C334217D43B2DEC",
+      item: {
+        id: "ftbic:hv_battery",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "64468AF94AE05548",
+      item: {
+        id: "ftbic:hv_solar_panel",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "139B8A1CBEBE9B08",
+      item: {
+        id: "ftbic:overclocker_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7AED615A055944FB",
+      item: {
+        id: "ftbic:transformer_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "40E9603C7EFC2F21",
+      item: {
+        id: "ltxi:large_voltaic_cell",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "74621584BB913BB5",
+      item: {
+        id: "ltxi:energy_cell_array",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "646C212162E889D2",
+      item: {
+        id: "powah:solar_panel_blazing",
+        count: 1,
+      },
+    },
+    {
+      id: "03ACA6CB09320B07",
+      item: {
+        id: "powah:energy_cell_blazing",
+        count: 1,
+      },
+    },
+    {
+      id: "1A5739A5CE9F2477",
+      item: {
+        id: "powah:reactor_basic",
+        count: 1,
+      },
+    },
+    {
+      id: "03A8568291668981",
+      item: {
+        id: "justdirethings:pocket_generator",
+        count: 1,
+      },
+    },
+    {
+      id: "7C86DB060BD03517",
+      item: {
+        id: "enderio:loot_capacitor",
+        count: 1,
+      },
+    },
+    {
+      id: "27A0270DA6C7E1B6",
+      item: {
+        id: "ftbic:hv_battery_box",
+        count: 1,
+      },
+    },
+    {
+      id: "402B3B1EC2468154",
+      item: {
+        id: "ftbic:ev_solar_panel",
+        count: 1,
+      },
+    },
+    {
+      id: "479B441AFFB97E90",
+      item: {
+        id: "ftbic:superconducting_cable",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "technology_bundle",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.technology_bundle",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

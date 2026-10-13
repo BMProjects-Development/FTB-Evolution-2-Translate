@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/dark_gem"
+  ],
+  "itemResults": [
+    {
+      "id": "evilcraft:dark_gem"
+    }
+  ],
+  "time": 100
+}

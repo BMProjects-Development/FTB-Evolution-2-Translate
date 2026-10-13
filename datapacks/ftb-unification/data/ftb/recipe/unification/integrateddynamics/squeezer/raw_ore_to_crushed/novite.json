@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "stellaris:raw_novite",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:novite_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:novite_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

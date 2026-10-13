@@ -1,0 +1,31 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:rune_plate",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:bound_essence",
+      "count": 4
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 16000
+    },
+    {
+      "id": "neovitae:essentia_vitae_source",
+      "amount": 8000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:arcane_codex",
+      "count": 2
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 300000
+}

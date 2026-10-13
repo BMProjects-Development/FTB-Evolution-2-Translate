@@ -1,0 +1,73 @@
+{
+  id: "664568D148890948",
+  order_index: 34,
+  icon: {
+    id: "anima:soul_gem",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "208DB65414E04E70",
+      item: {
+        id: "anima:benign_soul",
+        count: 1,
+      },
+    },
+    {
+      id: "7FC09E8DB4769024",
+      item: {
+        id: "anima:predator_soul",
+        count: 1,
+      },
+    },
+    {
+      id: "7F0ADCD8FD7B7C42",
+      item: {
+        id: "anima:doomed_soul",
+        count: 1,
+      },
+    },
+    {
+      id: "7C00CEC616B6AC39",
+      item: {
+        id: "anima:unhinged_soul",
+        count: 1,
+      },
+    },
+    {
+      id: "7FCB2A69A350B9E4",
+      item: {
+        id: "anima:aquatic_soul",
+        count: 1,
+      },
+      weight: 0.2,
+    },
+    {
+      id: "7DCAE338C6B36137",
+      item: {
+        id: "anima:ender_soul",
+        count: 1,
+      },
+      weight: 0.05,
+    },
+    {
+      id: "26A0A387014E1D45",
+      item: {
+        id: "anima:infernal_soul",
+        count: 1,
+      },
+      weight: 0.05,
+    },
+    {
+      id: "120A80D70252BCBD",
+      item: {
+        id: "anima:wise_soul",
+        count: 1,
+      },
+      weight: 0.05,
+    },
+  ],
+}

@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#minecraft:is_nether",
+  "entity_types": [
+    "minecraft:phantom"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lead",
+    { "id": "apothic_enchanting:flimsy_ender_lead", "required": false },
+    { "id": "apothic_enchanting:ender_lead", "required": false },
+    { "id": "apothic_enchanting:occult_ender_lead", "required": false },
+    "minecraft:name_tag",
+    { "id": "justdirethings:creaturecatcher", "required": false },
+    { "id": "mobflowutilities:mob_catcher", "required": false }
+  ]
+}

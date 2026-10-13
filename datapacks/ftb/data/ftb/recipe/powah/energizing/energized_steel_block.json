@@ -1,0 +1,9 @@
+{
+  "type": "powah:energizing",
+  "energy": 90000,
+  "ingredients": [
+    "#c:storage_blocks/iron",
+    "#c:storage_blocks/gold"
+  ],
+  "result": { "id": "powah:energized_steel_block", "count": 2 }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:olivine",
+  "ingredient": {
+    "tag": "c:gems/olivine"
+  },
+  "color": 6980904,
+  "head_stats": {
+    "durability": 400,
+    "mining_speed": 7.0,
+    "attack_damage": 2.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 12,
+    "trait": "temperate"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.0,
+    "damage_mult": 0.0,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 80
+  }
+}

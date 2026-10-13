@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_iron"
+    },
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_carbon"
+    }
+  ],
+  "output": {
+    "amount": 90,
+    "id": "hephaestus:molten_steel"
+  },
+  "temperature": 900
+}

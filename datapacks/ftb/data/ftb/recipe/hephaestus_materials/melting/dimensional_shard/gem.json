@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:gems/dimensional_shard",
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_dimensional_shard"
+  },
+  "temperature": 1000,
+  "time": 120
+}

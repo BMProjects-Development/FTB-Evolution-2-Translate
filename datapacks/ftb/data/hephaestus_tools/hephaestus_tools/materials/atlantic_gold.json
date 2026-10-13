@@ -1,0 +1,24 @@
+{
+  "id": "hephaestus_tools:atlantic_gold",
+  "ingredient": {
+    "item": "nautec:atlantic_gold_ingot"
+  },
+  "color": 13014068,
+  "head_stats": {
+    "durability": 200,
+    "mining_speed": 10.0,
+    "attack_damage": 1.5,
+    "attack_speed": 1.0,
+    "tier": 4,
+    "enchantability": 22
+  },
+  "handle_stats": {
+    "durability_mult": 0.1,
+    "speed_mult": 0.06,
+    "damage_mult": -0.03,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 40
+  }
+}

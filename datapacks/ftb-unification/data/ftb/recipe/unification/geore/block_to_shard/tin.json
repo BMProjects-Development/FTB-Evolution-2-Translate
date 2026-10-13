@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "geore:tin_block"
+  ],
+  "result": {
+    "id": "geore:tin_shard",
+    "count": 4
+  }
+}

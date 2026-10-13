@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ftbmaterials:cinnabar_end_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:cinnabar_gem",
+        "count": 4
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:cinnabar_gem",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 20
+}

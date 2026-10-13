@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 3,
+      "ingredient": "#c:dusts/copper"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/tin"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "id": "ftbmaterials:bronze_dust"
+  }
+}

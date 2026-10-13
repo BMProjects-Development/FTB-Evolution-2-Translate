@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbic:uranium_stone_ore",
+  "variants": [
+    "ftbic:uranium_deepslate_ore",
+    "ftbmaterials:uranium_stone_ore",
+    "ftbmaterials:uranium_deepslate_ore",
+    "ftbmaterials:uranium_nether_ore",
+    "ftbmaterials:uranium_end_ore",
+    "colossal_reactors:uranium_ore",
+    "colossal_reactors:deep_uranium_ore",
+    "oritech:deepslate_uranium_ore"
+  ],
+  "name_color": "#7FC000",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.uranium_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:uranium_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

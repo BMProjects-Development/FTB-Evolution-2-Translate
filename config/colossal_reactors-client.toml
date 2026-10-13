@@ -1,0 +1,25 @@
+#Reactor multiblock visuals (rod FILL blockstate updates on server in SP/integrated)
+[reactor]
+	#When true, reactor rod FILL blockstates are not updated each tick (less lag, no fuel-level animation).
+	#Read from client config in singleplayer/integrated; dedicated servers always update rod visuals. Default: false
+	disable_rod_fill_visual_update = false
+
+#Turbine rotor animation (client rendering only; does not affect RF/steam simulation)
+[turbine]
+	#When false, turbine rods and blades use static block models only (no extra BER or model wrapping).
+	#Useful on low-end PCs or very large turbines. Default: true
+	enable_rotor_rotation = true
+	#Maximum rotation speed in degrees per tick at full load (RF or steam vs estimated max). Default: 30
+	# Default: 30.0
+	# Range: 0.1 ~ 270.0
+	rotor_max_deg_per_tick = 30.0
+	#Minimum load factor (0-1) before the rotor starts spinning visually. Default: 0.01
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	rotor_min_load_to_spin = 0.01
+	#Ticks between client-side rod layout checks for nearby turbines. Default: 20
+	# Default: 20
+	# Range: 5 ~ 200
+	rotor_structure_check_interval_ticks = 20
+	#When true, rotor BER may run outside the camera frustum (heavier). Default: false
+	rotor_render_offscreen = false

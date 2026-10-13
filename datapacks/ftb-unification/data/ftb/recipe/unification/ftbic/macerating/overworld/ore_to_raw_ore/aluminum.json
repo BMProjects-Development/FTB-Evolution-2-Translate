@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/aluminum"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:aluminum_raw_ore"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:aluminum_raw_ore"
+      }
+    }
+  ]
+}

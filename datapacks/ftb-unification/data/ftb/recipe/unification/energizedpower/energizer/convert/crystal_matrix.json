@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:energizer",
+  "energy": 524288,
+  "ingredient": "energizedpower:crystal_matrix",
+  "result": {
+    "id": "energizedpower:energized_crystal_matrix"
+  }
+}

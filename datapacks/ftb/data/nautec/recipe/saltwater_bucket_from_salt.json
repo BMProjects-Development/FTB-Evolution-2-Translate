@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "saltwater_bucket",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "#c:dusts/salt"
+  ],
+  "result": {
+    "id": "nautec:saltwater_bucket",
+    "count": 1
+  }
+}

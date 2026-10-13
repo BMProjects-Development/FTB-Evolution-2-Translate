@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/steel",
+    "#c:ingots/steel"
+  ],
+  "result": {
+    "id": "ftbmaterials:steel_plate"
+  }
+}

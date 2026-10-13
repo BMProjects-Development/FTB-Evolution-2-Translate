@@ -1,0 +1,60 @@
+{
+  "basic_data": {
+    "bonus_loot": [
+      "apotheosis:entity/boss_drops"
+    ],
+    "weights": {
+      "haven": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "frontier": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "ascent": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "summit": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "pinnacle": {
+        "weight": 0,
+        "quality": 0.0
+      }
+    }
+  },
+  "entity": "witchery:horned_huntsman",
+  "size": {
+    "width": 1.0,
+    "height": 2.0
+  },
+  "stats": {
+    "apotheosis:rare": {
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:max_health",
+          "operation": "add_multiplied_base",
+          "value": 0.5
+        },
+        {
+          "attribute": "minecraft:attack_damage",
+          "operation": "add_multiplied_base",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:armor",
+          "operation": "add_value",
+          "value": 4.0
+        }
+      ],
+      "enchant_chance": 0.0,
+      "enchantment_levels": {
+        "primary": 23,
+        "secondary": 15
+      }
+    }
+  }
+}

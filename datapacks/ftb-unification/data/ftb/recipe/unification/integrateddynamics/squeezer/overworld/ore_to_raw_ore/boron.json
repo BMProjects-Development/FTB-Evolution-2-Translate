@@ -1,0 +1,24 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "#c:ore_source/overworld/boron",
+  "output_items": [
+    {
+      "item": {
+        "id": "colossal_reactors:boron_raw",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "colossal_reactors:boron_raw"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "colossal_reactors:boron_raw"
+      },
+      "chance": 0.33
+    }
+  ]
+}

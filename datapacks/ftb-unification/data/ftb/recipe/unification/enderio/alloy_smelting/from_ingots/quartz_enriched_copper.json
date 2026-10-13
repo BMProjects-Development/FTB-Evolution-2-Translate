@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 3,
+      "ingredient": "#c:ingots/copper"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:gems/quartz"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "id": "refinedstorage:quartz_enriched_copper"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "enderio:conduit_binder",
+    "C": {
+      "neoforge:ingredient_type": "enderio:conduit",
+      "conduit_type": "enderio:item"
+    },
+    "I": "minecraft:ender_eye"
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio_evolution:speedy_item_conduit"
+    },
+    "count": 1,
+    "id": "enderio:conduit"
+  }
+}

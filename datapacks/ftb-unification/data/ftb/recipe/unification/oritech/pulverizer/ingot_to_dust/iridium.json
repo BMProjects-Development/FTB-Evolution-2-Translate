@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/iridium"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:iridium_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/copper",
+  "result": {
+    "id": "ftbmaterials:copper_dust"
+  },
+  "time": 16
+}

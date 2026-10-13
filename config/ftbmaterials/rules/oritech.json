@@ -1,0 +1,10 @@
+{
+  "oritech:assembler": [
+    {
+      "path": "itemInputs",
+      "action": {
+        "output_value": "<item_or_tag_map>"
+      }
+    }
+  ]
+}

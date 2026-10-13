@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbic:aluminum_stone_ore",
+  "variants": [
+    "ftbic:aluminum_deepslate_ore",
+    "ftbmaterials:aluminum_stone_ore",
+    "ftbmaterials:aluminum_deepslate_ore",
+    "ftbmaterials:aluminum_nether_ore",
+    "ftbmaterials:aluminum_end_ore",
+    "xycraft_world:aluminum_ore_stone",
+    "xycraft_world:aluminum_ore_deepslate",
+    "xycraft_world:aluminum_ore_kivi"
+  ],
+  "name_color": "#C0C0C8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.aluminum_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:aluminum_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

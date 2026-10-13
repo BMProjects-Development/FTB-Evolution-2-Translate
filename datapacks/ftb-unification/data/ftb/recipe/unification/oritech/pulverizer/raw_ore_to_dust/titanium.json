@@ -1,0 +1,16 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:raw_materials/titanium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:titanium_dust"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:titanium_tiny_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "entity": "mutantmonsters:mutant_skeleton",
+  "variants": [],
+  "name_color": "#C8C8B0",
+  "display": {
+    "scale": 0.5
+  },
+  "sim_cost": 768,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.mutant_skeleton",
+  "fabricator_drops": [
+    {
+      "id": "mutantmonsters:mutant_skeleton_skull",
+      "count": 1
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_rib",
+      "count": 2
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_limb",
+      "count": 2
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_pelvis",
+      "count": 1
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_shoulder_pad",
+      "count": 2
+    },
+    {
+      "id": "minecraft:bone",
+      "count": 32
+    }
+  ]
+}

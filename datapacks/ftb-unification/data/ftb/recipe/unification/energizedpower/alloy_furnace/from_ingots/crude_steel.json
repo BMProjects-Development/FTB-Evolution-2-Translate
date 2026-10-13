@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:iron_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:clay_ball"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:cobblestones"
+    }
+  ],
+  "result": {
+    "id": "enderio_evolution:crude_steel_ingot",
+    "count": 1
+  },
+  "ticks": 1000
+}

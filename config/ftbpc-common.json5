@@ -1,0 +1,79 @@
+{
+  // Miscellaneous settings that don't fit in other categories.
+  misc: {
+    // A mapping of dimension IDs to forced game modes. Players entering the dimension will have their game mode changed accordingly.
+    dimension_forced_gamemodes: {
+    },
+    // Game rules that are forced on the server. The keys must be valid game rule IDs.
+    forced_game_rules: {
+      "minecraft:global_sound_events": false,
+    },
+    /*
+     * If true, Wandering Traders will no longer drink invisibility potions at night
+     * (or milk buckets to remove their invisibility when it's day)
+     * Default: false
+     */
+    no_wandering_trader_invis_potions: false,
+  },
+  shaders_notice: {
+    /*
+     * The shader pack to use when enabling shaders. Leave empty to use the default shader pack / first available shader pack in the list
+     * Default: ""
+     */
+    shader_pack_to_use: "",
+    /*
+     * When enabled, the shaders notice will be shown on world start if shaders are included in the pack.
+     * Default: false
+     */
+    show_on_start: true,
+  },
+  // Settings related to mob spawners.
+  spawners: {
+    /*
+     * When enabled, broken spawner blocks will be remembered and will respawn at a given interval.
+     * Default: false
+     */
+    allow_respawn: false,
+    /*
+     * When enabled, light sources near spawners will be broken to allow for mob spawning.
+     * Default: false
+     */
+    break_light_sources_near_spawners: false,
+    /*
+     * When enabled, the light level around spawners will be ignored for mob spawning.
+     * Default: false
+     */
+    ignore_light_level_for_spawners: false,
+    /*
+     * Apply a punishment effect when a player breaks a spawner.
+     * Default: false
+     */
+    punish_for_breaking_spawners: false,
+    /*
+     * A list of entity types that will be used to replace broken spawners. Set to an empty list to disable.
+     * Default: []
+     */
+    random_entity: [
+    ],
+    /*
+     * The interval in minutes at which spawners will respawn.
+     * Default: 60 | Range: 0 ~ 1440
+     */
+    respawn_interval: 60,
+  },
+  structure_placer: {
+    // Structure templates available for the Structure Placer feature. The key is the template name, and the value is the resource location of the structure.
+    templates: {
+    },
+  },
+  // Settings related to world generation.
+  worldgen: {
+    /*
+     * Applies to structures of type 'minecraft:jigsaw' only
+     * Maps template pool ID's to a forced rotation for that pool: one of 'none', 'clockwise_90', '180', 'counterclockwise_90'
+     */
+    structure_rotation_override: {
+      "ftb:spawn_pyramid/start": "none",
+    },
+  },
+}

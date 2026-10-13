@@ -1,0 +1,26 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "mysticalagradditions:nether_inferium_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "mysticalagriculture:inferium_essence",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "mysticalagriculture:inferium_essence",
+        "count": 2
+      },
+      "chance": 1.0
+    },
+    {
+      "item": {
+        "id": "mysticalagriculture:inferium_essence",
+        "count": 2
+      },
+      "chance": 0.495
+    }
+  ]
+}

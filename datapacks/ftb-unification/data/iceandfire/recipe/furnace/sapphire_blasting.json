@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "iceandfire:sapphire_ore",
+  "result": {
+    "id": "ftbmaterials:sapphire_gem"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

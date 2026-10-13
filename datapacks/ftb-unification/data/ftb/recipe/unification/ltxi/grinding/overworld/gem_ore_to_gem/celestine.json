@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/celestine"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "nodeworks:celestine_shard"
+    },
+    {
+      "count": {
+        "chance": 0.25,
+        "max": 1,
+        "min": 1
+      },
+      "id": "nodeworks:celestine_shard",
+      "required": false
+    }
+  ]
+}

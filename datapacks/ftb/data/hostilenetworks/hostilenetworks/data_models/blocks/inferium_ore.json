@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "mysticalagriculture:inferium_ore",
+  "variants": [
+    "mysticalagriculture:deepslate_inferium_ore",
+    "mysticalagradditions:nether_inferium_ore",
+    "mysticalagradditions:end_inferium_ore"
+  ],
+  "name_color": "#7FB23F",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.inferium_ore",
+  "fabricator_drops": [
+    {
+      "id": "mysticalagriculture:inferium_essence",
+      "count": 8
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

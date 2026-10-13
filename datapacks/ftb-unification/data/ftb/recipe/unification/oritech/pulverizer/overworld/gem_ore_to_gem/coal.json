@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/coal"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:coal"
+    }
+  ],
+  "time": 100
+}

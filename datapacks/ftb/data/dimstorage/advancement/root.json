@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "inv_changed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dimstorage:dim_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "stellaris:block/lunar_forest/lunar_planks",
+    "description": {
+      "translate": "advancements.dimstorage.root.desc"
+    },
+    "icon": {
+      "id": "dimstorage:dim_core"
+    },
+    "title": {
+      "translate": "advancements.dimstorage.root"
+    }
+  },
+  "requirements": [
+    [
+      "inv_changed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

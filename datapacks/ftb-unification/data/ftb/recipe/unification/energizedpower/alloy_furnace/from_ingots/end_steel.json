@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/grains_of_pizeallity"
+    }
+  ],
+  "result": {
+    "id": "enderio:end_steel_ingot",
+    "count": 1
+  },
+  "ticks": 1000
+}

@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:gold_shard",
+    "ftbmaterials:gold_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "minecraft:gold_ingot"
+    }
+  ],
+  "time": 80
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "synergy" }
+  ],
+  "type": "synergy:electric_melter",
+  "energy": 5000,
+  "fluid": {
+    "amount": 90,
+    "id": "colossal_reactors:molten_tough_alloy"
+  },
+  "input": {
+    "count": 1,
+    "item": "colossal_reactors:unrefined_tough_alloy"
+  },
+  "ticks": 400
+}

@@ -1,0 +1,1284 @@
+{
+  id: "4F0F16931654DF58",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 1,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "apotheosis:textures/gui/sword_full.png",
+    },
+  },
+  filename: "bounty_board",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "20D7DA6055C540FA",
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftblibrary:textures/faces/eidolon/zombie_brute.png",
+        },
+      },
+      x: -2.5,
+      y: 5.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "59C71582F19E8554",
+      tasks: [
+        {
+          id: "6347BBAD2ED20F25",
+          type: "kill",
+          icon: {
+            id: "minecraft:zombie_head",
+            count: 1,
+          },
+          entity: "minecraft:zombie",
+          value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "3D86769449563ACB",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:skeleton",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: -3.5,
+      y: 5.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "7D23D1C9DE75721F",
+      tasks: [
+        {
+          id: "268F689AFA620C03",
+          type: "kill",
+          icon: {
+            id: "minecraft:skeleton_skull",
+            count: 1,
+          },
+          entity: "minecraft:skeleton",
+          value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "3C5E72438F0E962D",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:enderman",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: -3.5,
+      y: 6.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "6DC738A434C5B02F",
+      tasks: [
+        {
+          id: "4087591E474FC477",
+          type: "kill",
+          icon: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+          entity: "minecraft:enderman",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "15B863C5712DC34B",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:creeper_head",
+        count: 1,
+      },
+      x: -1.5,
+      y: 5.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "77F964631F38EA2E",
+      tasks: [
+        {
+          id: "79684EDD87FFB47C",
+          type: "kill",
+          icon: {
+            id: "minecraft:gunpowder",
+            count: 1,
+          },
+          entity: "minecraft:creeper",
+          value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "6600D6457DD85A90",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:spider",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: -2.5,
+      y: 6.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "2EE5352D8E5F715F",
+      tasks: [
+        {
+          id: "3F437642D1B08EBF",
+          type: "kill",
+          icon: {
+            id: "minecraft:spider_eye",
+            count: 1,
+          },
+          entity: "minecraft:spider",
+          value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "3ABFA6B5B150E93D",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:blaze",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: -3.5,
+      y: 7.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "3D687BF735E54AE8",
+      tasks: [
+        {
+          id: "05BA59C2F9E1F43B",
+          type: "kill",
+          icon: {
+            id: "minecraft:blaze_powder",
+            count: 1,
+          },
+          entity: "minecraft:blaze",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "2DF4C6DD04450531",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 7,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:wither_skeleton",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: -2.5,
+      y: 7.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "708DD6CD3AE7F0FE",
+      tasks: [
+        {
+          id: "7B71A001741520D3",
+          type: "kill",
+          icon: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+          entity: "minecraft:wither_skeleton",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "6F6CA6B60E7A90C8",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/wither.png",
+        },
+      },
+      x: 2.5,
+      y: 3.0,
+      shape: "none",
+      size: 2.0,
+      icon_scale: 2.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "1237537100194BED",
+      tasks: [
+        {
+          id: "491E250D69066BBC",
+          type: "kill",
+          icon: {
+            id: "minecraft:nether_star",
+            count: 1,
+          },
+          entity: "minecraft:wither",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "0557C07388AAE669",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/warden.png",
+        },
+      },
+      x: -2.5,
+      y: 3.0,
+      shape: "none",
+      size: 2.0,
+      icon_scale: 2.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "7A8669713BE28E8F",
+      tasks: [
+        {
+          id: "61C0F35123FBB85E",
+          type: "kill",
+          entity: "minecraft:warden",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "4D8089814646119A",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:slime",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: -1.5,
+      y: 6.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "67078BCAD52BC4B4",
+      tasks: [
+        {
+          id: "58687506041183E7",
+          type: "kill",
+          icon: {
+            id: "minecraft:slime_ball",
+            count: 1,
+          },
+          entity: "minecraft:slime",
+          value: 20,
+        },
+      ],
+      rewards: [
+        {
+          id: "2956919E15D63FFC",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftblibrary:textures/faces/minecraft/shulker.png",
+        },
+      },
+      x: -1.5,
+      y: 7.5,
+      shape: "square",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "1CA8D89EE7C50CFD",
+      tasks: [
+        {
+          id: "5B97CEFB80FF361B",
+          type: "kill",
+          icon: {
+            id: "minecraft:shulker_shell",
+            count: 1,
+          },
+          entity: "minecraft:shulker",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "7DF845C439F88E2D",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 10,
+        },
+        {
+          id: "26E16B63A126978E",
+          type: "xp_levels",
+          team_reward: false,
+          auto: "enabled",
+          xp_levels: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:entity_face": "minecraft:wandering_trader",
+          "!ftbquests:icon": {
+          },
+        },
+      },
+      x: 0.0,
+      y: 4.5,
+      shape: "square",
+      size: 1.0,
+      min_width: 250,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "5C2C0986D6014ADD",
+      tasks: [
+        {
+          id: "4461612C1C9D3F92",
+          type: "kill",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:entity_face": "minecraft:wandering_trader",
+              "!ftbquests:icon": {
+              },
+            },
+          },
+          entity: "minecraft:wandering_trader",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "162390D3E7D61CED",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dragon_head",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.0,
+      shape: "none",
+      size: 2.0,
+      icon_scale: 1.5,
+      can_repeat: true,
+      repeat_cooldown: 82800,
+      id: "34C8824842867F5D",
+      tasks: [
+        {
+          id: "3EBAF104991E89BF",
+          type: "kill",
+          entity: "minecraft:ender_dragon",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "31864C0FB4427893",
+          type: "currency",
+          team_reward: false,
+          auto: "enabled",
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "fancymenu:textures/warning_framed_24x24.png",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 1.5,
+      id: "20D7DA6055C540FA",
+      tasks: [
+        {
+          id: "0DA7FD2807842E41",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0FEAD48C94172E3C",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:textures/mob_effect/hero_of_the_village.png",
+        },
+      },
+      x: 2.5,
+      y: 7.5,
+      shape: "square",
+      size: 1.0,
+      id: "24445EC4DA6492F1",
+      tasks: [
+        {
+          id: "02098D6B16FB668C",
+          type: "advancement",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "minecraft:textures/mob_effect/hero_of_the_village.png",
+            },
+          },
+          advancement: "minecraft:adventure/hero_of_the_village",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "3B89AB7A349D0D22",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond_sword",
+        count: 1,
+      },
+      x: 1.5,
+      y: 7.5,
+      shape: "square",
+      size: 1.0,
+      id: "29E78B39C74FBC4E",
+      tasks: [
+        {
+          id: "05B209B3FC005914",
+          type: "advancement",
+          advancement: "minecraft:adventure/kill_all_mobs",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "2D7C35C22F433284",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/hardcore_full.png",
+        },
+      },
+      x: 2.5,
+      y: 6.5,
+      shape: "square",
+      size: 1.0,
+      id: "3E0191A718C8CFF9",
+      tasks: [
+        {
+          id: "4BEC99EFB3F7A310",
+          type: "stat",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/hardcore_full.png",
+            },
+          },
+          stat: "minecraft:time_since_death",
+          value: 1728000,
+        },
+      ],
+      rewards: [
+        {
+          id: "63B5D52EB6F1D544",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "gateways:gate_pearl",
+        count: 1,
+      },
+      x: 3.5,
+      y: 5.5,
+      shape: "square",
+      size: 1.0,
+      id: "0D35D0D33922A201",
+      tasks: [
+        {
+          id: "4335140E412572D8",
+          type: "stat",
+          icon: {
+            id: "gateways:gate_pearl",
+            count: 1,
+            components: {
+              "gateways:gateway": "gateways:overworldian_nights",
+            },
+          },
+          stat: "gateways:gates_defeated",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "5EBC51CA1EE8F31C",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:oak_log",
+        count: 1,
+      },
+      x: -6.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "49540656967A58DC",
+      tasks: [
+        {
+          id: "2C0841581B2B5165",
+          type: "stat",
+          icon: {
+            id: "minecraft:oak_log",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 72000,
+        },
+      ],
+      rewards: [
+        {
+          id: "5E35622C21BB4D92",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0AE5E74393294FEA",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:stone",
+        count: 1,
+      },
+      x: -7.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "49540656967A58DC",
+      ],
+      size: 2.0,
+      id: "6964408274A7ACF7",
+      tasks: [
+        {
+          id: "478B24CD33E25174",
+          type: "stat",
+          icon: {
+            id: "minecraft:stone",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 720000,
+        },
+      ],
+      rewards: [
+        {
+          id: "1FAE99D0A2D73300",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "48C68B6217FFEA97",
+          type: "xp",
+          team_reward: false,
+          xp: 250,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_block",
+        count: 1,
+      },
+      x: -6.0,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "6964408274A7ACF7",
+      ],
+      size: 2.0,
+      id: "54E74795E1F9F9F2",
+      tasks: [
+        {
+          id: "3BE3E4F48966FCA8",
+          type: "stat",
+          icon: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 1800000,
+        },
+      ],
+      rewards: [
+        {
+          id: "34930CE1694376D7",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "108C0490EE21E60E",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 6681490501481013905,
+        },
+        {
+          id: "2D862D725783C5E8",
+          type: "xp",
+          team_reward: false,
+          xp: 250,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gold_block",
+        count: 1,
+      },
+      x: -7.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "54E74795E1F9F9F2",
+      ],
+      size: 2.0,
+      id: "1F70A066744E64EA",
+      tasks: [
+        {
+          id: "70128C9364C139CB",
+          type: "stat",
+          icon: {
+            id: "minecraft:gold_block",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 3600000,
+        },
+      ],
+      rewards: [
+        {
+          id: "5993F5758C0FDF0E",
+          type: "currency",
+          team_reward: false,
+          amount: 250,
+        },
+        {
+          id: "705B5CDE7F57D08B",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 7529627429444840816,
+        },
+        {
+          id: "5266A3AC3AF752CD",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 6681490501481013905,
+        },
+        {
+          id: "2A7ABF24ABFC805C",
+          type: "xp",
+          team_reward: false,
+          xp: 1000,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond_block",
+        count: 1,
+      },
+      x: -6.0,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "1F70A066744E64EA",
+      ],
+      size: 2.0,
+      id: "43B65AF71961292F",
+      tasks: [
+        {
+          id: "348612C4259B7BDF",
+          type: "stat",
+          icon: {
+            id: "minecraft:diamond_block",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 7200000,
+        },
+      ],
+      rewards: [
+        {
+          id: "4100A08E12B0DE17",
+          type: "currency",
+          team_reward: false,
+          amount: 500,
+        },
+        {
+          id: "20F69FAFBD11062C",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 6681490501481013905,
+        },
+        {
+          id: "56D48FA89E21AFC2",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 6681490501481013905,
+        },
+        {
+          id: "2A3BCD67A5A12F21",
+          type: "choice",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 7529627429444840816,
+        },
+        {
+          id: "04FB06CBFD9C72F1",
+          type: "xp_levels",
+          team_reward: false,
+          xp_levels: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:experience_bottle",
+        count: 1,
+      },
+      x: 1.5,
+      y: 6.5,
+      shape: "square",
+      size: 1.0,
+      id: "05B051603AC63B5A",
+      tasks: [
+        {
+          id: "2ECE3A322A73CA90",
+          type: "advancement",
+          advancement: "apothic_enchanting:max_rectified",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "01B6472F38E4E298",
+          type: "currency",
+          team_reward: false,
+          amount: 75,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:spawner",
+        count: 1,
+        components: {
+          "minecraft:enchantment_glint_override": true,
+        },
+      },
+      x: 2.5,
+      y: 5.5,
+      shape: "square",
+      size: 1.0,
+      id: "782CCA40CEBC135A",
+      tasks: [
+        {
+          id: "6D431BB7778BB418",
+          type: "advancement",
+          advancement: "apothic_spawners:ultimate_spawner",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "3E537857A9A3D158",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:stabilized_enchanter",
+        count: 1,
+      },
+      x: 3.5,
+      y: 6.5,
+      shape: "square",
+      size: 1.0,
+      id: "7BCC2E37198682F8",
+      tasks: [
+        {
+          id: "0FF42466C630E23E",
+          type: "advancement",
+          advancement: "minecraft:oritech/overenchanted",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "66CEA08EA8EFD505",
+          type: "currency",
+          team_reward: false,
+          amount: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_block",
+        count: 1,
+      },
+      x: 3.5,
+      y: 7.5,
+      shape: "square",
+      size: 1.0,
+      id: "6E5CEEE43F0DECA7",
+      tasks: [
+        {
+          id: "4E47FEAF634AD19A",
+          type: "advancement",
+          advancement: "lootr:100loot",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "08A02F7AF73669C2",
+          type: "currency",
+          team_reward: false,
+          amount: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:sigil_of_supremacy",
+        count: 1,
+      },
+      x: 1.5,
+      y: 5.5,
+      shape: "square",
+      size: 1.0,
+      id: "644DADBCF755057C",
+      tasks: [
+        {
+          id: "3E273B2F3ED739DF",
+          type: "advancement",
+          advancement: "apotheosis:gateways/sigil_of_supremacy",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "502061E90E620529",
+          type: "currency",
+          team_reward: false,
+          amount: 150,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_block",
+        count: 1,
+      },
+      x: -9.0,
+      y: 2.0,
+      shape: "hexagon",
+      size: 2.0,
+      invisible: true,
+      id: "5918EA666DF20DA4",
+      tasks: [
+        {
+          id: "4AD05B920A32C4D1",
+          type: "stat",
+          icon: {
+            id: "minecraft:netherite_block",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 72000000,
+        },
+      ],
+      rewards: [
+        {
+          id: "5A1CFE7B7401E71D",
+          type: "currency",
+          team_reward: false,
+          amount: 2500,
+        },
+        {
+          id: "493D2AD2DCDA615B",
+          type: "xp_levels",
+          team_reward: false,
+          xp_levels: 1000,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dragon_egg",
+        count: 1,
+      },
+      x: -9.0,
+      y: 4.0,
+      shape: "hexagon",
+      size: 2.0,
+      invisible: true,
+      id: "232E1BBB91DEF799",
+      tasks: [
+        {
+          id: "3D79736DE51DEE37",
+          type: "stat",
+          icon: {
+            id: "minecraft:dragon_egg",
+            count: 1,
+          },
+          stat: "minecraft:play_time",
+          value: 172800000,
+        },
+      ],
+      rewards: [
+        {
+          id: "3356997CCC43BD3F",
+          type: "currency",
+          team_reward: false,
+          amount: 10000,
+        },
+        {
+          id: "7822019ECA82B253",
+          type: "xp_levels",
+          team_reward: false,
+          xp_levels: 10000,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "25975DB5C7ADE870",
+      x: 5.5,
+      y: 1.5,
+      shape: "hexagon",
+      id: "1BCA7191506462AD",
+    },
+    {
+      linked_quest: "693BD17350005AC9",
+      x: 6.5,
+      y: 1.5,
+      shape: "hexagon",
+      id: "15841E9D1916E2D4",
+    },
+    {
+      linked_quest: "15C698B306B3B577",
+      x: 7.5,
+      y: 1.5,
+      shape: "hexagon",
+      id: "68F5FD690B04D9D8",
+    },
+    {
+      linked_quest: "203E01E473B7DCFA",
+      x: 5.0,
+      y: 6.5,
+      shape: "hexagon",
+      id: "24B7660969658584",
+    },
+    {
+      linked_quest: "7D5121F9B867A99D",
+      x: 8.0,
+      y: 6.5,
+      shape: "hexagon",
+      id: "554CFF2E049E474A",
+    },
+    {
+      linked_quest: "73127D9218A217CB",
+      x: 7.0,
+      y: 6.5,
+      shape: "hexagon",
+      id: "7E5047714E86B60B",
+    },
+    {
+      linked_quest: "7B828C91840C23A5",
+      x: 6.0,
+      y: 2.5,
+      shape: "hexagon",
+      id: "55C3514BFE2BF541",
+    },
+    {
+      linked_quest: "24D8E1226694FEED",
+      x: 7.0,
+      y: 2.5,
+      shape: "hexagon",
+      id: "2656C3564968FCCA",
+    },
+    {
+      linked_quest: "167F48E2584A3022",
+      x: 6.0,
+      y: 6.5,
+      shape: "hexagon",
+      id: "7554CA6209B6B1B9",
+    },
+    {
+      linked_quest: "494E845D8A649A95",
+      x: 6.0,
+      y: 4.5,
+      shape: "hexagon",
+      id: "172B12F3907F6F17",
+    },
+    {
+      linked_quest: "4F33BBD62C89D3D1",
+      x: 7.0,
+      y: 4.5,
+      shape: "hexagon",
+      id: "5F0B38D19CBED6F6",
+    },
+    {
+      linked_quest: "6933686D0F959FAA",
+      x: 5.5,
+      y: 3.5,
+      shape: "hexagon",
+      id: "42B5A8432847B0D5",
+    },
+    {
+      linked_quest: "7F59F90B1B6F9A67",
+      x: 6.5,
+      y: 3.5,
+      shape: "hexagon",
+      id: "63E77C98DA87C859",
+    },
+    {
+      linked_quest: "19ADE41D01CF22B7",
+      x: 7.5,
+      y: 3.5,
+      shape: "hexagon",
+      id: "7FCEB66CA17B5355",
+    },
+    {
+      linked_quest: "69555EBF3EE460F6",
+      x: 6.0,
+      y: 5.5,
+      shape: "hexagon",
+      id: "30809B1A16473390",
+    },
+    {
+      linked_quest: "409A27E9A4A6941D",
+      x: 7.0,
+      y: 5.5,
+      shape: "hexagon",
+      id: "4F15414F1F600BFD",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.0,
+      width: 7.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/bountytext2.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "20D7DA6055C540FA",
+      },
+      text_on_image: true,
+      text_shadow: true,
+      text_h_align: "start",
+      text_v_align: "start",
+      id: "4DF00BB43BF108D6",
+    },
+    {
+      x: 0.0,
+      y: -2.0,
+      width: 10.0,
+      height: 1.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/theme_assets/textbox.png",
+      id: "7F4ABCC2A621A5E2",
+    },
+    {
+      x: 6.5,
+      y: 0.0,
+      width: 6.75,
+      height: 0.7,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/bounty_boss_bounties.png",
+      id: "6F624FA410826841",
+    },
+  ],
+}

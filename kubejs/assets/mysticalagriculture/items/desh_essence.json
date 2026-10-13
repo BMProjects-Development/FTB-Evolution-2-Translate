@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mysticalagriculture:item/essence_ingot",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 15317597
+      }
+    ]
+  }
+}

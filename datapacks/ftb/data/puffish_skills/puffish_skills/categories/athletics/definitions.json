@@ -1,0 +1,912 @@
+﻿{
+	"aqua_cap": {
+		"title": { "translate": "skill.ftb.athletics.aqua_cap.title" },
+		"description": { "translate": "skill.ftb.athletics.aqua_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:heart_of_the_sea" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neoforge:swim_speed", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:oxygen_bonus", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"athletics_root": {
+		"title": { "translate": "skill.ftb.athletics.athletics_root.title" },
+		"description": { "translate": "skill.ftb.athletics.athletics_root.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/gear_locked.png", "available": "ftbevolution:textures/skills/frames/available/gear_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/gear_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:bunny_hoppers" } },
+		"size": 2.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:air_dash", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"cond_hub": {
+		"title": { "translate": "skill.ftb.athletics.cond_hub.title" },
+		"description": { "translate": "skill.ftb.athletics.cond_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_boots" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:count", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:distance", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"glide_cap": {
+		"title": { "translate": "skill.ftb.athletics.glide_cap.title" },
+		"description": { "translate": "skill.ftb.athletics.glide_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:paraglider" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:max_stamina", "value": 500, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:paragliding_stamina_efficiency", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"moment_cap": {
+		"title": { "translate": "skill.ftb.athletics.moment_cap.title" },
+		"description": { "translate": "skill.ftb.athletics.moment_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_effect_power.png" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:count", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:recharge", "value": -5, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:movement_speed", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"skies_hub": {
+		"title": { "translate": "skill.ftb.athletics.skies_hub.title" },
+		"description": { "translate": "skill.ftb.athletics.skies_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wind_charge" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:max_stamina", "value": 250, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"sustain_cap": {
+		"title": { "translate": "skill.ftb.athletics.sustain_cap.title" },
+		"description": { "translate": "skill.ftb.athletics.sustain_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_chestplate" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:dodge_chance", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:armor_durability", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"travel_cap": {
+		"title": { "translate": "skill.ftb.athletics.travel_cap.title" },
+		"description": { "translate": "skill.ftb.athletics.travel_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justdirethings:portalgun" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:instant_portals", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:mount_speed", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"utility_hub": {
+		"title": { "translate": "skill.ftb.athletics.utility_hub.title" },
+		"description": { "translate": "skill.ftb.athletics.utility_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_apple" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:stamina", "value": 2, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:consuming_speed", "value": 0.25, "operation": "multiply_base" } }
+		]
+	},
+
+	"vertical_cap": {
+		"title": { "translate": "skill.ftb.athletics.vertical_cap.title" },
+		"description": { "translate": "skill.ftb.athletics.vertical_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:firework_rocket" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:extra_jumps", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:air_dash", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:wall_climb", "value": 3, "operation": "addition" } }
+		]
+	},
+
+	"air_dash_+1": {
+		"title": { "translate": "skill.ftb.athletics.air_dash_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.air_dash_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:cloud_in_a_bottle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:air_dash", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"armor_durability_+1": {
+		"title": { "translate": "skill.ftb.athletics.armor_durability_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.armor_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:armor_durability", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_count_+1": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_count_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_count_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/combat_roll_arrow.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:count", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_distance_+0.5": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_distance_+0.5.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_distance_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "jump_boost" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:distance", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_distance_+1": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_distance_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_distance_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "jump_boost" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:distance", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_distance_+2.5": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_distance_+2.5.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_distance_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "jump_boost" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:distance", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_distance_+5": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_distance_+5.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_distance_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "jump_boost" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:distance", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_recharge_-0.5": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_recharge_-0.5.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_recharge_-0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/witchery_speed.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:recharge", "value": -0.5, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_recharge_-1": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_recharge_-1.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_recharge_-1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:redstone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:recharge", "value": -1, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_recharge_-2.5": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_recharge_-2.5.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_recharge_-2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:redstone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:recharge", "value": -2.5, "operation": "addition" } }
+		]
+	},
+
+	"combat_roll_recharge_-5": {
+		"title": { "translate": "skill.ftb.athletics.combat_roll_recharge_-5.title" },
+		"description": { "translate": "skill.ftb.athletics.combat_roll_recharge_-5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:redstone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:recharge", "value": -5, "operation": "addition" } }
+		]
+	},
+
+	"consuming_speed_+2%": {
+		"title": { "translate": "skill.ftb.athletics.consuming_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.consuming_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:eternal_steak" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:consuming_speed", "value": 0.02, "operation": "multiply_base" } }
+		]
+	},
+
+	"consuming_speed_+5%": {
+		"title": { "translate": "skill.ftb.athletics.consuming_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.consuming_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:eternal_steak" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:consuming_speed", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"consuming_speed_+10%": {
+		"title": { "translate": "skill.ftb.athletics.consuming_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.consuming_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:eternal_steak" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:consuming_speed", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"consuming_speed_+25%": {
+		"title": { "translate": "skill.ftb.athletics.consuming_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.consuming_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:eternal_steak" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:consuming_speed", "value": 0.25, "operation": "multiply_base" } }
+		]
+	},
+
+	"dodge_chance_+2%": {
+		"title": { "translate": "skill.ftb.athletics.dodge_chance_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.dodge_chance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "reliquary:angelic_feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:dodge_chance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"dodge_chance_+5%": {
+		"title": { "translate": "skill.ftb.athletics.dodge_chance_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.dodge_chance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "reliquary:angelic_feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:dodge_chance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"dodge_chance_+10%": {
+		"title": { "translate": "skill.ftb.athletics.dodge_chance_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.dodge_chance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "reliquary:angelic_feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:dodge_chance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"dodge_chance_+25%": {
+		"title": { "translate": "skill.ftb.athletics.dodge_chance_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.dodge_chance_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "reliquary:angelic_feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:dodge_chance", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"extra_jumps_+1": {
+		"title": { "translate": "skill.ftb.athletics.extra_jumps_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.extra_jumps_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/occultism_double_jump.png" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:extra_jumps", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"fall_reduction_+2%": {
+		"title": { "translate": "skill.ftb.athletics.fall_reduction_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.fall_reduction_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:slime_block" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"fall_reduction_+5%": {
+		"title": { "translate": "skill.ftb.athletics.fall_reduction_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.fall_reduction_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:slime_block" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"fall_reduction_+10%": {
+		"title": { "translate": "skill.ftb.athletics.fall_reduction_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.fall_reduction_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:hay_block" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"fall_reduction_+25%": {
+		"title": { "translate": "skill.ftb.athletics.fall_reduction_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.fall_reduction_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:slime_block" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"mount_speed_+2%": {
+		"title": { "translate": "skill.ftb.athletics.mount_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.mount_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:saddle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:mount_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"mount_speed_+5%": {
+		"title": { "translate": "skill.ftb.athletics.mount_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.mount_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:saddle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:mount_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"mount_speed_+10%": {
+		"title": { "translate": "skill.ftb.athletics.mount_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.mount_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:saddle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:mount_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"mount_speed_+25%": {
+		"title": { "translate": "skill.ftb.athletics.mount_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.mount_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:saddle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:mount_speed", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"movement_speed_+2%": {
+		"title": { "translate": "skill.ftb.athletics.movement_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.movement_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "speed" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:movement_speed", "value": 0.02, "operation": "multiply_base" } }
+		]
+	},
+
+	"movement_speed_+5%": {
+		"title": { "translate": "skill.ftb.athletics.movement_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.movement_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "speed" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:movement_speed", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"movement_speed_+10%": {
+		"title": { "translate": "skill.ftb.athletics.movement_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.movement_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "speed" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:movement_speed", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"movement_speed_+25%": {
+		"title": { "translate": "skill.ftb.athletics.movement_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.movement_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "speed" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:movement_speed", "value": 0.25, "operation": "multiply_base" } }
+		]
+	},
+
+	"oxygen_bonus_+0.5": {
+		"title": { "translate": "skill.ftb.athletics.oxygen_bonus_+0.5.title" },
+		"description": { "translate": "skill.ftb.athletics.oxygen_bonus_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "water_breathing" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:oxygen_bonus", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"oxygen_bonus_+1": {
+		"title": { "translate": "skill.ftb.athletics.oxygen_bonus_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.oxygen_bonus_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "water_breathing" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:oxygen_bonus", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"oxygen_bonus_+2.5": {
+		"title": { "translate": "skill.ftb.athletics.oxygen_bonus_+2.5.title" },
+		"description": { "translate": "skill.ftb.athletics.oxygen_bonus_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "water_breathing" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:oxygen_bonus", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"oxygen_bonus_+5": {
+		"title": { "translate": "skill.ftb.athletics.oxygen_bonus_+5.title" },
+		"description": { "translate": "skill.ftb.athletics.oxygen_bonus_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "water_breathing" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:oxygen_bonus", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_max_stamina_+25": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+25.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+25.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/paraglider_stamina_efficiency.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:max_stamina", "value": 25, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_max_stamina_+50": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+50.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+50.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/paraglider_stamina_efficiency.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:max_stamina", "value": 50, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_max_stamina_+100": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+100.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+100.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/paraglider_stamina_efficiency.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:max_stamina", "value": 100, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_max_stamina_+250": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+250.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_max_stamina_+250.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/paraglider_stamina_efficiency.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:max_stamina", "value": 250, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_stamina_recovery_+2%": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:enduring_elixir_1" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:stamina_recovery", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_stamina_recovery_+5%": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:enduring_elixir_1" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:stamina_recovery", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_stamina_recovery_+10%": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:enduring_elixir_1" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:stamina_recovery", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"paraglider_stamina_recovery_+25%": {
+		"title": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.paraglider_stamina_recovery_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:enduring_elixir_1" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:stamina_recovery", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"paragliding_stamina_efficiency_+2%": {
+		"title": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:spirit_orb" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:paragliding_stamina_efficiency", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"paragliding_stamina_efficiency_+5%": {
+		"title": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:spirit_orb" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:paragliding_stamina_efficiency", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"paragliding_stamina_efficiency_+10%": {
+		"title": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:spirit_orb" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:paragliding_stamina_efficiency", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"paragliding_stamina_efficiency_+25%": {
+		"title": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.paragliding_stamina_efficiency_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "paraglider:spirit_orb" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "paraglider:paragliding_stamina_efficiency", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"safe_fall_distance_+0.5": {
+		"title": { "translate": "skill.ftb.athletics.safe_fall_distance_+0.5.title" },
+		"description": { "translate": "skill.ftb.athletics.safe_fall_distance_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:safe_fall_distance", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"safe_fall_distance_+1": {
+		"title": { "translate": "skill.ftb.athletics.safe_fall_distance_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.safe_fall_distance_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:safe_fall_distance", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"safe_fall_distance_+2": {
+		"title": { "translate": "skill.ftb.athletics.safe_fall_distance_+2.title" },
+		"description": { "translate": "skill.ftb.athletics.safe_fall_distance_+2.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:safe_fall_distance", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"safe_fall_distance_+2.5": {
+		"title": { "translate": "skill.ftb.athletics.safe_fall_distance_+2.5.title" },
+		"description": { "translate": "skill.ftb.athletics.safe_fall_distance_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:safe_fall_distance", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"safe_fall_distance_+5": {
+		"title": { "translate": "skill.ftb.athletics.safe_fall_distance_+5.title" },
+		"description": { "translate": "skill.ftb.athletics.safe_fall_distance_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:safe_fall_distance", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"sneaking_speed_+2%": {
+		"title": { "translate": "skill.ftb.athletics.sneaking_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.sneaking_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:sculk_sensor" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:sneaking_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"sneaking_speed_+5%": {
+		"title": { "translate": "skill.ftb.athletics.sneaking_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.sneaking_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:sculk_sensor" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:sneaking_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"sneaking_speed_+10%": {
+		"title": { "translate": "skill.ftb.athletics.sneaking_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.sneaking_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:sculk_sensor" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:sneaking_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"sneaking_speed_+25%": {
+		"title": { "translate": "skill.ftb.athletics.sneaking_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.sneaking_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:sculk_sensor" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:sneaking_speed", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"sprinting_speed_+2%": {
+		"title": { "translate": "skill.ftb.athletics.sprinting_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.sprinting_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:running_shoes" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sprinting_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"sprinting_speed_+5%": {
+		"title": { "translate": "skill.ftb.athletics.sprinting_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.sprinting_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:running_shoes" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sprinting_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"sprinting_speed_+10%": {
+		"title": { "translate": "skill.ftb.athletics.sprinting_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.sprinting_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:running_shoes" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sprinting_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"sprinting_speed_+25%": {
+		"title": { "translate": "skill.ftb.athletics.sprinting_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.sprinting_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:running_shoes" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sprinting_speed", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"stamina_+0.5": {
+		"title": { "translate": "skill.ftb.athletics.stamina_+0.5.title" },
+		"description": { "translate": "skill.ftb.athletics.stamina_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:bread" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:stamina", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"stamina_+1": {
+		"title": { "translate": "skill.ftb.athletics.stamina_+1.title" },
+		"description": { "translate": "skill.ftb.athletics.stamina_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "minecraft:hunger" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:stamina", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"stamina_+2": {
+		"title": { "translate": "skill.ftb.athletics.stamina_+2.title" },
+		"description": { "translate": "skill.ftb.athletics.stamina_+2.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "minecraft:hunger" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:stamina", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"stamina_+2.5": {
+		"title": { "translate": "skill.ftb.athletics.stamina_+2.5.title" },
+		"description": { "translate": "skill.ftb.athletics.stamina_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "minecraft:hunger" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:stamina", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"stamina_+5": {
+		"title": { "translate": "skill.ftb.athletics.stamina_+5.title" },
+		"description": { "translate": "skill.ftb.athletics.stamina_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "minecraft:hunger" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:stamina", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"swim_speed_+2%": {
+		"title": { "translate": "skill.ftb.athletics.swim_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.athletics.swim_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "dolphins_grace" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neoforge:swim_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"swim_speed_+5%": {
+		"title": { "translate": "skill.ftb.athletics.swim_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.athletics.swim_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "dolphins_grace" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neoforge:swim_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"swim_speed_+10%": {
+		"title": { "translate": "skill.ftb.athletics.swim_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.athletics.swim_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "dolphins_grace" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neoforge:swim_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"swim_speed_+25%": {
+		"title": { "translate": "skill.ftb.athletics.swim_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.athletics.swim_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "dolphins_grace" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neoforge:swim_speed", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"wall_climb_+3": {
+		"title": { "translate": "skill.ftb.athletics.wall_climb_+3.title" },
+		"description": { "translate": "skill.ftb.athletics.wall_climb_+3.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:steadfast_spikes" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:wall_climb", "value": 3, "operation": "addition" } }
+		]
+	}
+}

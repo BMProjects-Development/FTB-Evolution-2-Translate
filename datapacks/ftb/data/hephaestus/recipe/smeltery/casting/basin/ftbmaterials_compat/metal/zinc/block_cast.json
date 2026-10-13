@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ftbmaterials"
+    }
+  ],
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "hephaestus:molten_zinc"
+  },
+  "result": {
+    "id": "ftbmaterials:zinc_block"
+  }
+}

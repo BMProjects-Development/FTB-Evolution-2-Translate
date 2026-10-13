@@ -1,0 +1,8 @@
+#Client settings
+[Client]
+	#Only render the nametag when directly looking at the Armor Stand. Set to false to use vanilla behavior (default: false)
+	directNametagOnly = false
+	#The distance squared at which Armor Stand nametags are rendered. Set to 0 to use vanilla behavior (default: 0)
+	# Default: 0
+	# Range: 0 ~ 64
+	nametagRenderDistance = 0

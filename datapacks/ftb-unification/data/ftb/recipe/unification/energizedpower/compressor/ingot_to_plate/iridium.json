@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:iridium_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:iridium_plate"
+  }
+}

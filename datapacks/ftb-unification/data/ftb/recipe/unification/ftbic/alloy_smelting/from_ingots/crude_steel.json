@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:iron_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:clay_ball"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:cobblestones"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio_evolution:crude_steel_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

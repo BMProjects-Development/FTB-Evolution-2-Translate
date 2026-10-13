@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/netherite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ftb:allay_trades/after_netherite"
+  }
+}

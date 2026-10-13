@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:athanor",
+  "inputs": [
+    "#c:gravels/iron"
+  ],
+  "tool": "#neovitae:athanor_tool/cutting_fluids",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:iron_dust"
+    }
+  ],
+  "chance_outputs": []
+}

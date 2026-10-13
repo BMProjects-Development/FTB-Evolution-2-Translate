@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 3,
+      "ingredient": "#c:ingots/copper"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:gems/quartz"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "refinedstorage:quartz_enriched_copper",
+        "count": 4
+      }
+    }
+  ]
+}

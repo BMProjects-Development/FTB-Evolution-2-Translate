@@ -1,0 +1,14 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "xycraft_world:xychorium_ore_kivi_dark",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      0.25
+    ],
+    "result": {
+      "id": "xycraft_world:xychorium_gem_dark"
+    }
+  }
+}

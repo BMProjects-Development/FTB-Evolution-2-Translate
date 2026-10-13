@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/aluminum",
+    "#c:ingots/aluminum"
+  ],
+  "result": {
+    "id": "ftbmaterials:aluminum_plate"
+  }
+}

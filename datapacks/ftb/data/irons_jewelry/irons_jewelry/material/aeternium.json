@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.aeternium",
+  "ingredient": "ftbarmory:aeternium_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/aeternium",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:healing_received",
+      "operation": "add_multiplied_base",
+      "amount": 0.08
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:regeneration"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:hunger"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:heal",
+        "amount": {
+          "base": 3.0,
+          "scalar": 1.5
+        }
+      },
+      "targetSelf": true
+    }
+  }
+}

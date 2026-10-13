@@ -1,0 +1,13 @@
+[output]
+	#Folder the .snbt files are written to, relative to the game directory.
+	directory = "structuregrabber"
+
+[capture]
+	#Save the entities standing in the region alongside its blocks.
+	include_entities = false
+	#Leave air out of the saved structure, so placing it does not clear what is already there. Structure voids are saved as ordinary blocks while this is on.
+	ignore_air = false
+	#Largest region the command will grab, counted in blocks.
+	# Default: 262144
+	# Range: 1 ~ 16777216
+	max_blocks = 262144

@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:storage_blocks/raw_cobalt",
+  "result": {
+    "amount": 1620,
+    "id": "hephaestus:molten_cobalt"
+  },
+  "temperature": 1100,
+  "time": 250
+}

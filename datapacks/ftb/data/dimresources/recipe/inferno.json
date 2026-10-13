@@ -1,0 +1,65 @@
+{
+  "type": "dimresources:laser",
+  "rf_per_tick": 2600,
+  "duration": 200,
+  "laser_level": 12,
+  "planet": "dimresources:inferno",
+  "outputs": [
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:quartz"
+      },
+      "weight": 120
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:glowstone_dust"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:raw_gold"
+      },
+      "weight": 40
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:netherrack"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:gravel"
+      },
+      "weight": 20
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:sulfur_dust"
+      },
+      "weight": 30
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:ancient_debris"
+      },
+      "weight": 3
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      },
+      "weight": 1
+    }
+  ]
+}

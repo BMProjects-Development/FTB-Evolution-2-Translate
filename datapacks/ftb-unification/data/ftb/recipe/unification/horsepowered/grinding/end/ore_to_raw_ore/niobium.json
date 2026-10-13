@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ltxi:niobium_ore",
+  "result": {
+    "id": "ltxi:raw_niobium",
+    "count": 2
+  },
+  "secondary": {
+    "id": "ltxi:raw_niobium",
+    "count": 2
+  },
+  "secondaryChance": 100,
+  "time": 16
+}

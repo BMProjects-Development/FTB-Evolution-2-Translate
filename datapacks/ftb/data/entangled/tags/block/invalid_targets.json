@@ -1,0 +1,645 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "advanced_ae:adv_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:data_entangler",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_accelerator",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_alloy_block",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_alloy_slab",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_alloy_stairs",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_alloy_wall",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_core",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_crafter",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_infusion_block",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_multi_threader",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_storage_128",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_storage_256",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_structure",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:quantum_unit",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:reaction_chamber",
+      "required": false
+    },
+    {
+      "id": "advanced_ae:small_adv_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "ae2:16k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:1k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:256k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:4k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:64k_crafting_storage",
+      "required": false
+    },
+    {
+      "id": "ae2:cable_bus",
+      "required": false
+    },
+    {
+      "id": "ae2:cell_workbench",
+      "required": false
+    },
+    {
+      "id": "ae2:charger",
+      "required": false
+    },
+    {
+      "id": "ae2:chipped_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:chiseled_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:condenser",
+      "required": false
+    },
+    {
+      "id": "ae2:controller",
+      "required": false
+    },
+    {
+      "id": "ae2:crafting_accelerator",
+      "required": false
+    },
+    {
+      "id": "ae2:crafting_monitor",
+      "required": false
+    },
+    {
+      "id": "ae2:crafting_unit",
+      "required": false
+    },
+    {
+      "id": "ae2:crank",
+      "required": false
+    },
+    {
+      "id": "ae2:creative_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:crystal_resonance_generator",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:cut_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:damaged_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:debug_cube_gen",
+      "required": false
+    },
+    {
+      "id": "ae2:debug_energy_gen",
+      "required": false
+    },
+    {
+      "id": "ae2:debug_item_gen",
+      "required": false
+    },
+    {
+      "id": "ae2:debug_phantom_node",
+      "required": false
+    },
+    {
+      "id": "ae2:dense_energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:drive",
+      "required": false
+    },
+    {
+      "id": "ae2:energy_acceptor",
+      "required": false
+    },
+    {
+      "id": "ae2:energy_cell",
+      "required": false
+    },
+    {
+      "id": "ae2:flawed_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawless_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_block",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:growth_accelerator",
+      "required": false
+    },
+    {
+      "id": "ae2:inscriber",
+      "required": false
+    },
+    {
+      "id": "ae2:interface",
+      "required": false
+    },
+    {
+      "id": "ae2:io_port",
+      "required": false
+    },
+    {
+      "id": "ae2:large_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "ae2:light_detector",
+      "required": false
+    },
+    {
+      "id": "ae2:matrix_frame",
+      "required": false
+    },
+    {
+      "id": "ae2:me_chest",
+      "required": false
+    },
+    {
+      "id": "ae2:medium_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "ae2:molecular_assembler",
+      "required": false
+    },
+    {
+      "id": "ae2:mysterious_cube",
+      "required": false
+    },
+    {
+      "id": "ae2:not_so_mysterious_cube",
+      "required": false
+    },
+    {
+      "id": "ae2:paint",
+      "required": false
+    },
+    {
+      "id": "ae2:pattern_provider",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_link",
+      "required": false
+    },
+    {
+      "id": "ae2:quantum_ring",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_brick_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_bricks",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_cluster",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_fixture",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_glass",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_pillar_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_vibrant_glass",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_block",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_brick",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_chest",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_small_brick",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_small_brick_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_small_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_small_brick_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_tank",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:small_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_quartz_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_sky_stone_block",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_sky_stone_chest",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_sky_stone_slab",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_sky_stone_stairs",
+      "required": false
+    },
+    {
+      "id": "ae2:smooth_sky_stone_wall",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_anchor",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_io_port",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_pylon",
+      "required": false
+    },
+    {
+      "id": "ae2:tiny_tnt",
+      "required": false
+    },
+    {
+      "id": "ae2:vibration_chamber",
+      "required": false
+    },
+    {
+      "id": "ae2:wireless_access_point",
+      "required": false
+    },
+    {
+      "id": "appflux:charged_redstone_block",
+      "required": false
+    },
+    {
+      "id": "appflux:flux_accessor",
+      "required": false
+    },
+    {
+      "id": "applied_oritech:me_dock",
+      "required": false
+    },
+    {
+      "id": "applied_oritech:me_extended_interface_addon",
+      "required": false
+    },
+    {
+      "id": "applied_oritech:me_extended_pattern_provider_addon",
+      "required": false
+    },
+    {
+      "id": "applied_oritech:me_interface_addon",
+      "required": false
+    },
+    {
+      "id": "applied_oritech:me_pattern_provider_addon",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_crafter",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_frame",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_glass",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_pattern",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_speed",
+      "required": false
+    },
+    {
+      "id": "extendedae:assembler_matrix_wall",
+      "required": false
+    },
+    {
+      "id": "extendedae:caner",
+      "required": false
+    },
+    {
+      "id": "extendedae:circuit_cutter",
+      "required": false
+    },
+    {
+      "id": "extendedae:crystal_assembler",
+      "required": false
+    },
+    {
+      "id": "extendedae:crystal_fixer",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_block",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_budding_fully",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_budding_half",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_budding_hardly",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_budding_mostly",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_cluster",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_cluster_large",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_cluster_medium",
+      "required": false
+    },
+    {
+      "id": "extendedae:entro_cluster_small",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_charger",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_drive",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_emc_interface",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_interface",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_io_port",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_molecular_assembler",
+      "required": false
+    },
+    {
+      "id": "extendedae:ex_pattern_provider",
+      "required": false
+    },
+    {
+      "id": "extendedae:fishbig",
+      "required": false
+    },
+    {
+      "id": "extendedae:ingredient_buffer",
+      "required": false
+    },
+    {
+      "id": "extendedae:machine_frame",
+      "required": false
+    },
+    {
+      "id": "extendedae:mddyue",
+      "required": false
+    },
+    {
+      "id": "extendedae:oversize_interface",
+      "required": false
+    },
+    {
+      "id": "extendedae:silicon_block",
+      "required": false
+    },
+    {
+      "id": "extendedae:wireless_connect",
+      "required": false
+    },
+    {
+      "id": "extendedae:wireless_hub",
+      "required": false
+    }
+  ]
+}

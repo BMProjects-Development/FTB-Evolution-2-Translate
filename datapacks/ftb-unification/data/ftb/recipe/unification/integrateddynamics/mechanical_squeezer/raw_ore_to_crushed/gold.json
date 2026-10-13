@@ -1,0 +1,18 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "minecraft:raw_gold",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:gold_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:gold_dust"
+      },
+      "chance": 0.33
+    }
+  ],
+  "duration": 40
+}

@@ -1,0 +1,16 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:raw_materials/lead"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:lead_clump"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:lead_tiny_dust"
+    }
+  ],
+  "time": 40
+}

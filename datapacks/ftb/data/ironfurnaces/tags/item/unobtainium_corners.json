@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "allthemodium:unobtainium_block",
+      "required": false
+    },
+    {
+      "id": "alltheores:unobtainium_block",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+[progression]
+	#Highest level a companion can reach.
+	# Default: 30
+	# Range: 1 ~ 200
+	max_level = 30
+	#Experience needed to go from level 1 to level 2. Each level adds half this again.
+	# Default: 93
+	# Range: 1 ~ 10000
+	base_experience = 90
+	#Experience granted when a companion is fed.
+	# Default: 4
+	# Range: 0 ~ 1000
+	experience_per_feed = 10
+	#Storage slots a companion grants at zero bond. The rest unlock as bond grows,
+	#up to the species maximum.
+	# Default: 3
+	# Range: 0 ~ 27
+	storage_base_slots = 9
+	#Health restored when a companion is given an item from the companion_healing tag.
+	# Default: 10.0
+	# Range: 0.0 ~ 1024.0
+	healing_per_item = 10.0
+	#Extra max health added per level, before the species growth multiplier.
+	# Default: 1.0
+	# Range: 0.0 ~ 20.0
+	health_per_level = 2.0
+	#Extra attack damage added per level, before the species growth multiplier.
+	# Default: 0.25
+	# Range: 0.0 ~ 20.0
+	attack_per_level = 0.25
+	#Extra armour added per level, before the species growth multiplier.
+	# Default: 0.1
+	# Range: 0.0 ~ 5.0
+	armour_per_level = 0.2
+	#Extra movement speed added per level, before the species growth multiplier.
+	# Default: 0.002
+	# Range: 0.0 ~ 0.1
+	speed_per_level = 0.002
+	#Share of the experience the owner earns that the bonded companion also receives.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	xp_share = 0.75
+	#Companion experience gained recently before gains drop to half rate.
+	#Saturation decays by one point a second.
+	# Default: 200
+	# Range: 0 ~ 100000
+	saturation_soft_cap = 200
+	#Saturation at which gains drop to a tenth. Moving away clears it.
+	# Default: 500
+	# Range: 0 ~ 100000
+	saturation_hard_cap = 500
+	#Chunks the owner has to move from where saturation started to clear it.
+	# Default: 3
+	# Range: 1 ~ 64
+	saturation_reset_chunks = 3
+	#Most rested experience a companion can store. Rested experience builds after five
+	#minutes without a gain and doubles gains until it is spent.
+	# Default: 1200
+	# Range: 0 ~ 100000
+	rested_cap = 1200
+	#Stars a companion can earn by prestiging at max level.
+	# Default: 5
+	# Range: 0 ~ 10
+	max_stars = 5
+	#Extra per-level stat growth for each star, as a fraction.
+	# Default: 0.1
+	# Range: 0.0 ~ 5.0
+	star_growth_bonus = 0.1
+	#Health restored by a Spirit Bandage, which is also in the companion_healing tag.
+	# Default: 6.0
+	# Range: 0.0 ~ 1024.0
+	bandage_healing = 6.0
+
+[bond]
+	#Highest bond level a companion can reach.
+	# Default: 30
+	# Range: 1 ~ 100
+	bond_max_level = 30
+	#Bond points needed for bond level 1. A companion earns one point a second
+	#while out with an active owner.
+	# Default: 760
+	# Range: 1 ~ 1000000
+	bond_base_cost = 760
+	#Multiplier on the point cost of each further bond level.
+	# Default: 1.06
+	# Range: 1.0 ~ 3.0
+	bond_growth = 1.06
+	#Seconds between feeds of the species' taming item for bond.
+	# Default: 600
+	# Range: 0 ~ 86400
+	bond_feed_cooldown_seconds = 500
+	#Share of the bond points already earned that one taming item feed grants.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	bond_feed_fraction = 0.05
+	#Bond level above which dying costs the companion a bond level.
+	# Default: 10
+	# Range: 0 ~ 100
+	bond_death_floor = 10
+	#Seconds without the owner moving or looking around before bond stops growing.
+	# Default: 120
+	# Range: 1 ~ 86400
+	afk_seconds = 120
+
+[taming]
+	#Chance that one of the species' taming items tames a wild companion.
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	taming_chance = 0.33
+
+[abilities]
+	#Run companion abilities. Turn off to leave companions as cosmetic pets.
+	abilities_enabled = true
+	#Dust the T-Rex's Crushing Might makes from each raw ore or ore item it crushes (into c:dusts/<x>).
+	# Default: 3
+	# Range: 1 ~ 64
+	crushing_might_dust = 3
+	#Crafting recipe ids the Mini Player's Helping Hand never copies. An entry ending in * matches every id that starts with the rest, so "somemod:*" covers a whole mod and "somemod:compress/*" one folder.
+	helping_hand_recipe_blacklist = []
+	#How many recipe steps Helping Hand follows from a crafted item looking for a way back to what went into it. Any recipe chain that leads back (an ingot block to ingots and ingots to the block, say) is never copied. Recipes of every type count, smelting and stonecutting included.
+	# Default: 4
+	# Range: 1 ~ 16
+	helping_hand_reverse_depth = 4
+
+[charm]
+	#Seconds a charm must rest before it can revive a companion that died.
+	# Default: 300
+	# Range: 0 ~ 86400
+	revive_cooldown_seconds = 300
+	#Fraction of progress towards the next level lost when a companion is revived.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	revive_experience_penalty = 0.5
+	#Let a companion that carries weapons copy the weapon its owner is holding.
+	#Turn off to leave it with its own default weapon.
+	mimic_owner_weapon = true
+	#Let players name the player skin a Mini Player wears.
+	#Turn off to keep every Mini Player wearing its owner's skin.
+	allow_skin_choice = true
+
+[worldgen]
+	#Scatter the odd block of suspicious sand into beach sand as new chunks generate. Brushing it can turn up a T-Rex Egg.
+	beach_suspicious_sand = true

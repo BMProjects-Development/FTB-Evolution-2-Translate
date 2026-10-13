@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "E": "mysticalagriculture:salt_essence"
+  },
+  "result": {
+    "id": "ftbmaterials:salt_dust",
+    "count": 6
+  }
+}

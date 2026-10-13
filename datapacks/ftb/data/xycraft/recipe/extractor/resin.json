@@ -1,0 +1,29 @@
+{
+  "type": "xycraft:extractor",
+  "catalyst": {
+    "context_matters:rule_type": "context_matters:block_tag",
+    "tag": "minecraft:leaves"
+  },
+  "output": {
+    "type": "xycraft:fluid",
+    "amount": 10,
+    "id": "ftb:bio_resin"
+  },
+  "target": {
+    "context_matters:rule_type": "context_matters:exclusive",
+    "rules": [
+      {
+        "context_matters:rule_type": "context_matters:block_tag",
+        "tag": "minecraft:logs"
+      },
+      {
+        "context_matters:rule_type": "context_matters:block_tag",
+        "tag": "integrateddynamics:menril_logs"
+      }
+    ]
+  },
+  "ticks": 10,
+  "valid_directions": [
+    "down"
+  ]
+}

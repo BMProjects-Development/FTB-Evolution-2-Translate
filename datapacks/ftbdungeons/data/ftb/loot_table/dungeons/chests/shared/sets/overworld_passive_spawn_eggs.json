@@ -1,0 +1,190 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allay_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:axolotl_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bee_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dolphin_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fox_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:frog_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_squid_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mooshroom_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mule_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ocelot_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:panda_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:parrot_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheep_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_horse_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sniffer_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snow_golem_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:squid_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tadpole_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trader_llama_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_horse_spawn_egg",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

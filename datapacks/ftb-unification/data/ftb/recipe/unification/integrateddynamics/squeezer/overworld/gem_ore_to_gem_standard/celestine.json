@@ -1,0 +1,19 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "#c:ore_source/overworld/celestine",
+  "output_items": [
+    {
+      "item": {
+        "id": "nodeworks:celestine_shard",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "nodeworks:celestine_shard",
+        "count": 1
+      },
+      "chance": 0.25
+    }
+  ]
+}

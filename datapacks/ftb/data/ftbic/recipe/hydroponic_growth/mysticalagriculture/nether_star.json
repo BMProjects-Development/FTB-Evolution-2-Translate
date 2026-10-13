@@ -1,0 +1,40 @@
+{
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "mysticalagriculture:nether_star_seeds"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "mysticalagriculture:nether_star_essence"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "mysticalagriculture:nether_star_seeds"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "id": "mysticalagriculture:fertilized_essence"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "mysticalagradditions:insanium_farmland",
+      "speed": 1.0
+    }
+  ]
+}

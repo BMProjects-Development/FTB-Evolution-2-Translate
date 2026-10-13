@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "energizedpower:plant_growth_chamber",
+  "fluid": "minecraft:water",
+  "fluidConsumption": 0.0625,
+  "ingredient": "witchery:mandrake_seeds",
+  "results": [
+    {
+      "percentages": [
+        1.0,
+        0.33,
+        0.33
+      ],
+      "result": {
+        "id": "witchery:mandrake_seeds"
+      }
+    },
+    {
+      "percentages": [
+        0.1
+      ],
+      "result": {
+        "id": "witchery:mandrake_root"
+      }
+    }
+  ],
+  "soilType": "#energizedpower:crops",
+  "ticks": 4000
+}

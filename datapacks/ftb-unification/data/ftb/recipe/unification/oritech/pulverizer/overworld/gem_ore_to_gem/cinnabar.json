@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/cinnabar"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:cinnabar_gem"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:quartz_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "minecraft:quartz"
+    }
+  ],
+  "time": 40
+}

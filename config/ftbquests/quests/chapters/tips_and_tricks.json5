@@ -1,0 +1,888 @@
+{
+  id: "5DA920F36DC40676",
+  group: "",
+  order_index: 1,
+  icon: {
+    id: "minecraft:torch",
+    count: 1,
+  },
+  filename: "tips_and_tricks",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "6D5D375874D5B12B",
+  quests: [
+    {
+      icon: {
+        id: "paraglider:paraglider",
+        count: 1,
+      },
+      x: -2.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "4B1C972E286927AF",
+      tasks: [
+        {
+          id: "2343AD305557ED2F",
+          type: "item",
+          item: {
+            id: "paraglider:paraglider",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E6356C5E4B782CF",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "77D3FB829314B246",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftblibrary:icons/keyboard",
+        },
+      },
+      x: 3.0,
+      y: 0.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "567D0EF74A1C1AC8",
+      tasks: [
+        {
+          id: "7DE8AE1E4E905B0A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5EA9FF7EB498AE23",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/bookmark_button_disabled.png",
+        },
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "78CD596A63855214",
+      tasks: [
+        {
+          id: "181AC79B8B73A7C6",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "54F5ACA125E53711",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:block/crafting_table_top",
+        },
+      },
+      x: -3.0,
+      y: 2.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "5D6A81A1C79814F5",
+      tasks: [
+        {
+          id: "7D0EAEFC43099DBE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "35686FD0844DE245",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "hephaestus_tools:textures/gui/forge_table/masterys/pickaxe/deep_miner.png",
+        },
+      },
+      x: 0.0,
+      y: -3.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "6E7A3D79BEA2B8D6",
+      tasks: [
+        {
+          id: "4058B0B2377C09E2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2BCF6702DFE807AC",
+          type: "xp",
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "witchery:textures/item/death_sickle_world.png",
+        },
+      },
+      x: 0.5,
+      y: -3.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "72BBE5DADD0E4B7F",
+      tasks: [
+        {
+          id: "282BC270E0C0BF5A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "10D0B9877D136406",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "toolbelt:belt",
+        count: 1,
+      },
+      x: 0.5,
+      y: 3.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "23F32119C3D6CF53",
+      tasks: [
+        {
+          id: "5643C7783C971D22",
+          type: "item",
+          item: {
+            id: "toolbelt:belt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70C452E40C8E6C78",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "4EA543C73E5E6D11",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "minecraft:textures/gui/sprites/container/slot/trashslot.png",
+        },
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "32CC8C6B1DE5504C",
+      tasks: [
+        {
+          id: "3F556E0801C2EA9A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6C3982F8F4ECA1CC",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "trashcans:item_trash_can",
+        count: 1,
+      },
+      x: 3.0,
+      y: -0.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "1BBCB850732E8104",
+      tasks: [
+        {
+          id: "59E0351C55DC4B7D",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "trashcans:item_trash_can",
+            count: 1,
+          },
+        },
+        {
+          id: "5DDE5C086BC28519",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "trashcans:energy_trash_can",
+            count: 1,
+          },
+        },
+        {
+          id: "783D1DFE85C96879",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "trashcans:liquid_trash_can",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59ED35FA63EDC32D",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "576BFED75C5030A5",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironjetpacks:jetpack",
+        count: 1,
+        components: {
+          "ironjetpacks:jetpack_id": "ironjetpacks:bronze",
+          "minecraft:attribute_modifiers": [
+            {
+              type: "minecraft:armor",
+              id: "ironjetpacks:armor.jetpack",
+              amount: 3.0,
+              operation: "add_value",
+              slot: "chest",
+            },
+            {
+              type: "minecraft:armor_toughness",
+              id: "ironjetpacks:armor.jetpack",
+              amount: 0.0,
+              operation: "add_value",
+              slot: "chest",
+            },
+          ],
+        },
+      },
+      x: -3.0,
+      y: 0.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "1E5E83D8109F9495",
+      tasks: [
+        {
+          id: "7E9BE044ABAA32ED",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ironjetpacks:jetpack)item(ironjetpacks:jetpack)item(ironjetpacks:jetpack))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41CA67414252AAF0",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "6CB62C5715C5911F",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "waystones:warp_stone",
+        count: 1,
+      },
+      x: -3.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "2C5CFE054A8C2754",
+      tasks: [
+        {
+          id: "15750EE532693DA3",
+          type: "item",
+          item: {
+            id: "waystones:warp_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A2DF47C6E7D237F",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "36ED4345C9A08436",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "elevatorid:elevator_white",
+        count: 1,
+      },
+      x: 2.5,
+      y: -3.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "390741EBD01E0634",
+      tasks: [
+        {
+          id: "445B1B96E2572DC2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(elevatorid:elevators))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7B697B65B0AC7039",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "5CD3EC2FFD218994",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "magnumtorch:diamond_magnum_torch",
+        count: 1,
+      },
+      x: 0.0,
+      y: 3.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "47567BF7AAB58A9A",
+      tasks: [
+        {
+          id: "7D99836BEA37744F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(magnumtorch:diamond_magnum_torch)item(magnumtorch:emerald_magnum_torch)item(magnumtorch:amethyst_magnum_torch))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A2F5660DB1C91C4",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "1452977B6F839C19",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "comforts:sleeping_bag_white",
+        count: 1,
+      },
+      x: -3.0,
+      y: -0.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "5A11E2B3CCCF089A",
+      tasks: [
+        {
+          id: "2ADE6F77F949613F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)",
+            },
+          },
+        },
+        {
+          id: "632B881A33EB0799",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75E0D7586DE5A786",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "5C0475DE38015318",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "simplemagnets:basicmagnet",
+        count: 1,
+      },
+      x: -0.5,
+      y: 3.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "2B6A9A76B6DA7B43",
+      tasks: [
+        {
+          id: "5E0D15FB8E57A166",
+          type: "item",
+          item: {
+            id: "simplemagnets:basicmagnet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D75F7EEED7961F1",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "2CDD3ACA94809A6F",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftbevolution:textures/skills/assets/apotheosis_sword_full.png",
+        },
+      },
+      x: -0.5,
+      y: -3.0,
+      shape: "diamond",
+      size: 1.0,
+      id: "493BC709709F7B7C",
+      tasks: [
+        {
+          id: "35453BE578B42388",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1425E620B01F6C89",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:bone_meal",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "08A79920751CC95D",
+      tasks: [
+        {
+          id: "11969A842714B6C2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "609B7F6DEF158E14",
+          type: "xp",
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "graveless:textures/gui/sprites/mob_effect/spirit_ward.png",
+        },
+      },
+      x: 0.0,
+      y: 2.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "5ED79D0B659DFEAF",
+      tasks: [
+        {
+          id: "5B1614148D32D804",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "39906CBAFB6A0AC5",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      x: 2.5,
+      y: 3.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "7A85DDFE6B7C4877",
+      tasks: [
+        {
+          id: "0B969503888E6D4D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D9E02484AE35744",
+          type: "currency",
+          amount: 1,
+        },
+        {
+          id: "2FF10A5DCFA411F0",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "architectural_building_wand:arcane_building_wand",
+        count: 1,
+      },
+      x: 3.0,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "37AC6DFD70F4A32B",
+      tasks: [
+        {
+          id: "3E920E9F011BAF2D",
+          type: "item",
+          item: {
+            id: "architectural_building_wand:redstone_building_wand",
+            count: 1,
+          },
+        },
+        {
+          id: "5BC3F8DA8B4D9898",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(architectural_building_wand:arcane_building_wand)item(architectural_building_wand:arcane_infuser))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6236986A98834F90",
+          type: "currency",
+          amount: 1,
+        },
+        {
+          id: "3B89B2766746916F",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -2.5,
+      y: 3.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "18FF9811FBC860BD",
+      tasks: [
+        {
+          id: "599640735E2A74EF",
+          type: "item",
+          item: {
+            id: "craftingstation:crafting_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0945BD84D3AC814B",
+          type: "currency",
+          amount: 1,
+        },
+        {
+          id: "0EC67CF7E87E49A3",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "crafting_on_a_stick:crafting_table",
+        count: 1,
+      },
+      x: 3.0,
+      y: 2.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "0A8F17889C23A3F5",
+      tasks: [
+        {
+          id: "1FC6BA9D1B087F7E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:crafting_on_a_stick)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DE26B88FB09F789",
+          type: "currency",
+          amount: 1,
+        },
+        {
+          id: "1CCC370CF7F17152",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "resourcefulconfig:textures/gui/sprites/icons/clipboard_list.png",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "6D5D375874D5B12B",
+      tasks: [
+        {
+          id: "47C89DF8F05D8DA1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5A9C864E99A6A31A",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "565BE0BC0B0CC3F8",
+      x: -3.0,
+      y: -2.0,
+      shape: "hexagon",
+      id: "3184D2189367C2BD",
+    },
+    {
+      linked_quest: "05CEF45909A11F60",
+      x: -2.5,
+      y: -3.0,
+      shape: "hexagon",
+      id: "5EEEDEA56B717D92",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -5.0,
+      width: 6.0,
+      height: 0.68,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/tips_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "567D0EF74A1C1AC8",
+      },
+      id: "547E7CED8579A37A",
+    },
+    {
+      x: 0.0,
+      y: 3.0,
+      width: 3.5,
+      height: 3.5,
+      rotation: 90.0,
+      image: "ftbevolution:textures/skills/frames/available/octocog_available.png",
+      alpha: 155,
+      id: "0450ACBF562CB2EA",
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      width: 3.5,
+      height: 3.5,
+      rotation: 90.0,
+      image: "ftbevolution:textures/skills/frames/available/octocog_available.png",
+      alpha: 155,
+      id: "461B03994BDC5158",
+    },
+    {
+      x: 3.0,
+      y: 0.0,
+      width: 3.5,
+      height: 3.5,
+      rotation: 90.0,
+      image: "ftbevolution:textures/skills/frames/available/octocog_available.png",
+      alpha: 155,
+      id: "2FE2A943DC2375E1",
+    },
+    {
+      x: -3.0,
+      y: 0.0,
+      width: 3.5,
+      height: 3.5,
+      rotation: 90.0,
+      image: "ftbevolution:textures/skills/frames/available/octocog_available.png",
+      alpha: 155,
+      id: "6C7A72183548B085",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 5.0,
+      height: 5.0,
+      rotation: -45.0,
+      image: "xycraft_world:block/connected/glass_viewer_silicon/glass_viewer_silicon",
+      alpha: 155,
+      order: -5,
+      id: "5EACE5BA2E3DC308",
+    },
+  ],
+}

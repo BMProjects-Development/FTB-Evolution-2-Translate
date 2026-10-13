@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:gems/prismarine",
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_prismarine"
+  },
+  "temperature": 800,
+  "time": 120
+}

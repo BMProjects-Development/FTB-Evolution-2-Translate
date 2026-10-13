@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/lapis"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:lapis_lazuli"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,34 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "ftbmaterials:lead_stone_ore",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:lead_raw_ore"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:lead_raw_ore"
+      }
+    },
+    {
+      "chance": 0.33,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:lead_raw_ore"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

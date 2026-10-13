@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/invar"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:invar_dust"
+    }
+  ],
+  "time": 100
+}

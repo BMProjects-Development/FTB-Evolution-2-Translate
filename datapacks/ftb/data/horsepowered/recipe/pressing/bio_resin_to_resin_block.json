@@ -1,0 +1,11 @@
+{
+  "type": "horsepowered:pressing",
+  "fluidInput": {
+    "amount": 1000,
+    "ingredient": "ftb:bio_resin"
+  },
+  "ingredient": "minecraft:sugar",
+  "result": {
+    "id": "xycraft_machines:resin_block"
+  }
+}

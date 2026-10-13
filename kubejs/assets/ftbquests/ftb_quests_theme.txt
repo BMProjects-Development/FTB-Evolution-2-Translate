@@ -1,0 +1,53 @@
+// Deep Blue #006895  Cerulean #0799BA  Teal #1FA5B0  Seafoam #8EC1B8  Sand #DFDCD3
+[#standard]
+background: ftbquests:textures/shapes/square/shape.png; color=#CC006895; tile_size=64
+key_reference_background: color:#F0004A6B; border=#FFFFFFFF
+button: hollow_rectangle:{{widget_border}}
+widget_border: #FFFFFFFF
+widget_background: #400799BA
+context_menu: color:#F0004A6B; border=#FFFFFFFF
+chapter_panel_background: color:#F5004A6B; border=#FFFFFFFF
+selected_chapter_highlight_1: #608EC1B8
+selected_chapter_highlight_2: #288EC1B8
+
+quest_view_background: color:#F0004A6B; border=#FFFFFFFF
+quest_view_border: #FFFFFFFF
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FFDFDCD3
+quest_completed_color: #FF8EC1B8
+quest_locked_color: #CC004A6B
+
+text_color: white
+quest_view_title: white
+hover_text_color: #FFDFDCD3
+tasks_text_color: #FF8EC1B8
+rewards_text_color: #FFDFDCD3
+
+dependency_line_texture: ftbquests:textures/gui/dependency.png
+dependency_line_thickness: 0.3d
+dependency_line_selected_speed: 1.0d
+dependency_line_unselected_speed: 0.5d
+dependency_line_uncompleted_color: #A0DFDCD3
+dependency_line_unavailable_color: #50DFDCD3
+dependency_line_completed_color: #FF8EC1B8
+dependency_line_requires_color: #FFFFFFFF
+dependency_line_required_for_color: #FFDFDCD3
+
+// Getting Started
+[1D7D877A620A601D]
+background: ftb:textures/quests/theme_assets/gettingstarted.png; color=#F50799BA
+dependency_line_thickness: 0.25d
+dependency_line_selected_speed: 1.5d
+dependency_line_uncompleted_color: #FF004A6B
+dependency_line_completed_color: #FFFFFFFF
+
+// Feed The Beast Progress
+[58316F0BE776F0A0]
+background: ftbquests:textures/shapes/square/shape.png; color=#CC1FA5B0; tile_size=64
+dependency_line_selected_speed: 1.5d
+dependency_line_uncompleted_color: #FF004A6B
+dependency_line_completed_color: #FFFFFFFF
+
+// Welcome Chapter
+[31FB8F048EA7FAFE]
+background: ftbevolution:textures/quests/titles_and_logos/mainmenu.png; color=#CC1FA5B0

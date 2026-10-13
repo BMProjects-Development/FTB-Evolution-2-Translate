@@ -1,0 +1,14 @@
+{
+  "fallback": "ftb:dungeons/aqua/lootboxes/epic",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/aqua/lootbox/epic/127",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

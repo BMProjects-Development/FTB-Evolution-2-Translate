@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "FTB Evolution 2 Ore Generation Datapack",
+    "min_format": [101, 0],
+    "max_format": [101, 2147483647]
+  }
+}

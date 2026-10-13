@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:magic",
+    "minecraft:indirect_magic",
+    "arsmagicalegacy:spell_drowning",
+    "arsmagicalegacy:spell_fire",
+    "arsmagicalegacy:spell_frost",
+    "arsmagicalegacy:spell_lightning",
+    "arsmagicalegacy:spell_magic",
+    "arsmagicalegacy:spell_physical",
+    "arsmagicalegacy:spell_physical_player",
+    "arsmagicalegacy:falling_star",
+    {
+      "id": "thaumaturge:focus_fire",
+      "required": false
+    },
+    "rootsclassic:generic",
+    "rootsclassic:fire",
+    "rootsclassic:wither",
+    "rootsclassic:cactus",
+    "evilcraft:vengeance_beam"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "allthemodium:allthemodium_block",
+      "required": false
+    },
+    {
+      "id": "alltheores:allthemodium_block",
+      "required": false
+    }
+  ]
+}

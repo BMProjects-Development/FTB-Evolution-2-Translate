@@ -1,0 +1,8 @@
+#General settings
+[General]
+	#Add tamed mountable entities to the call list upon mounting [Default: false]
+	addOnMount = false
+	#Add mountable entities to the call list upon being tamed [Default: false]
+	addOnTame = false
+	#A list of entity ids that are prohibited from being called
+	entityBlacklist = []

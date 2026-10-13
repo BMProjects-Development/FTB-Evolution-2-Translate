@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:lapis_shard"
+  },
+  "result": {
+    "id": "geore:lapis_block"
+  }
+}

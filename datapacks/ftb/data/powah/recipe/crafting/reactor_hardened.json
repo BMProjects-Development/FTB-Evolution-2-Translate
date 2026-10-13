@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "u": "powah:uraninite",
+    "l": "powah:capacitor_hardened",
+    "c": "powah:dielectric_casing"
+  },
+  "pattern": [
+    "ulu",
+    "lcl",
+    "ulu"
+  ],
+  "result": {
+    "count": 4,
+    "id": "powah:reactor_hardened"
+  }
+}

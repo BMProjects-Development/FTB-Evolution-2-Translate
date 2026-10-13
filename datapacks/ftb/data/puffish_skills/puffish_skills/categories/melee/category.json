@@ -1,0 +1,38 @@
+{
+	"unlocked_by_default": true,
+	"title": {
+		"translate": "skill.ftb.melee.title"
+	},
+	"description": {
+		"translate": "skill.ftb.melee.description"
+	},
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:iron_sword"
+		}
+	},
+	"starting_points": 1,
+	"background": {
+		"texture": "ftbevolution:textures/skills/backgrounds/melee.png",
+		"width": 1024,
+		"height": 1024,
+		"position": "fill"
+	},
+	"colors": {
+		"connections": {
+			"locked": {
+				"fill": "#a08c8c",
+				"stroke": "#000000"
+			},
+			"available": {
+				"fill": "#ffffff",
+				"stroke": "#000000"
+			},
+			"unlocked": {
+				"fill": "#ffb547",
+				"stroke": "#000000"
+			}
+		}
+	}
+}

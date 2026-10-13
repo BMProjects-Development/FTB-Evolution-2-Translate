@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "arsmagicalegacy:sunstone_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "arsmagicalegacy:sunstone",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

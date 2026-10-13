@@ -1,0 +1,48 @@
+{
+  "occultism:crushing": [
+    {
+      "path": "ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "occultism:crystallize": [
+    {
+      "path": "ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

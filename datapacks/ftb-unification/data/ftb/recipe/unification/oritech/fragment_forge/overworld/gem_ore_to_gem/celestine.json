@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/celestine"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "nodeworks:celestine_shard"
+    }
+  ],
+  "time": 40
+}

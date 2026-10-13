@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:compressing",
+  "inputs": [
+    {
+      "count": 64,
+      "ingredient": "ftbic:antimatter"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftb:ultradense_antimatter"
+      }
+    }
+  ]
+}

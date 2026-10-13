@@ -1,0 +1,2008 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "rootsclassic:growth_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "integrateddynamics:crystalized_menril_chunk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 14,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.75,
+                "n": 14,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 118,
+          "name": "energizedpower:basic_machine_frame"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 160,
+          "name": "minecraft:iron_chain",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "oritech:portable_tank"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 9,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 9,
+                "max": 18,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 140,
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.42
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 190,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:fire_charge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.4,
+                "n": 14,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 154,
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4152841635
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ftbmaterials:electrum_ingot",
+          "weight": 32
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:basic_card",
+          "weight": 36
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:advanced_card",
+          "weight": 28
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "name": "sophisticatedstorage:upgrade_base",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:upgrade_base",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:upgrade",
+          "weight": 36
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "colossal_reactors:turbine_blade",
+          "weight": 32
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mininggadgets:upgrade_efficiency_1",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pipez:basic_upgrade",
+          "weight": 32
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper",
+          "weight": 28
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "name": "enderio:energetic_alloy_ingot",
+          "weight": 48
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "name": "minecraft:piston",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "ftbic:fuse",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbic:lv_battery",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "name": "ftbic:small_coolant_cell",
+          "weight": 36
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5934489403
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "energizedpower:hardened_machine_frame",
+          "weight": 3120
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 34788
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_4k",
+          "weight": 2496
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powah:crystal_blazing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 3120
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5507574388
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 88,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 11,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0169172925
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "apotheosis:spawner_rune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "name": "ae2:fluix_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "laserio:logic_chip",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1010874382
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "pantryforblockheads:burger",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 7,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:fermented_spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:taco",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 7,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:hotdog",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 7,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0671052602
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.11278195
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 356
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ltxi:epsilon_drill",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:staff_of_levity",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:inferium_bow",
+          "weight": 108,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 18,
+                "max": 24,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:prudentium_bow",
+          "weight": 84,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 18,
+                "max": 24,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:tertium_bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 18,
+                "max": 24,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.65,
+                "n": 32,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:turtle_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.8,
+                "n": 5,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0017543859
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "rootsclassic:brazier"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "witchery:brazier"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "enderio:travel_anchor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 32,
+          "name": "minecraft:budding_amethyst",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0013457372
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0032573648
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "evilcraft:vein_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "p": 0.5,
+                  "n": 19,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rootsclassic:engraved_blade",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "p": 0.5,
+                  "n": 19,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9856
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/tertium_tools",
+          "weight": 22,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:infused_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "p": 0.5,
+                  "n": 19,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:dark_steel_sword",
+          "weight": 435,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "evilcraft:vein_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rootsclassic:engraved_blade",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:infused_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:dark_steel_sword",
+          "weight": 435,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "evilcraft:vein_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rootsclassic:engraved_blade",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:infused_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "p": 0.5,
+                  "n": 20,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ],
+          "weight": 435
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ltxi:epsilon_drill",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 18,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:efficiency": {
+                  "p": 0.5,
+                  "n": 19,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/tertium_armor",
+          "weight": 11,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.21
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_harming"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/blazegold_armor",
+          "weight": 100,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.3,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 15,
+                "min": 5,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/blazegold_tools",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/carbon_armor",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/diamond_armor",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/diamond_tools",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/epsilon_tools",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/ferricore_tools",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/inferium_armor",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/inferium_tools",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/iron_tools",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/overworld_logs",
+          "weight": 245,
+          "functions": [
+            {
+              "count": {
+                "n": 16,
+                "p": 0.3,
+                "type": "minecraft:binomial"
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/overworld_saplings",
+          "weight": 245,
+          "functions": [
+            {
+              "count": {
+                "n": 6,
+                "p": 0.35,
+                "type": "minecraft:binomial"
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/tertium_armor",
+          "weight": 1,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.3,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 15,
+                "min": 5,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/tertium_tools",
+          "weight": 1,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.6,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 40,
+                "min": 5,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 116
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0529846154
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.7
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 8,
+                "p": 0.791025
+              }
+            }
+          ],
+          "weight": 24733804
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ],
+          "weight": 19458104
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 5,
+                "p": 0.750091
+              }
+            }
+          ],
+          "weight": 14841078
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/candles",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 16264406
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 2,
+                "p": 0.812568
+              }
+            }
+          ],
+          "weight": 10325414
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 10,
+                "p": 0.835276
+              }
+            }
+          ],
+          "weight": 4323634
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 13,
+                "p": 0.675833
+              }
+            }
+          ],
+          "weight": 4323634
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mud",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 14,
+                "max": 28
+              }
+            }
+          ],
+          "weight": 3951416
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 13
+              }
+            }
+          ],
+          "weight": 3574656
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/stone/sets/planters",
+          "weight": 2836734
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bhc:yellow_heart_canister",
+          "weight": 1899738
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/overworld_mob_heads",
+          "weight": 1300074
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:copper_backpack",
+          "weight": 1360363
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:iron_backpack",
+          "weight": 1360363
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:spirit_attuned_gem",
+          "weight": 1142700
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bhc:green_heart_canister",
+          "weight": 949870
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 735704
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/prudentium_tools",
+          "weight": 615470
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/ferricore_armor",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "weight": 606608
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/prudentium_armor",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "weight": 606608
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rootsclassic:staff",
+          "weight": 575706
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_16k",
+          "weight": 535692
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 379360
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 357094
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 48,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 297578
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/stone/sets/music_discs",
+          "weight": 249218
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 13,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 140958
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 22,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 140958
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpleteleporters:ender_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "weight": 61396
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/ferricore_armor",
+          "weight": 53564
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/tertium_armor",
+          "weight": 424
+        },
+        {
+          "type": "minecraft:item",
+          "name": "energizedpower:elite_machine_frame",
+          "weight": 51774
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powah:capacitor_hardened",
+          "weight": 2149102
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powah:capacitor_blazing",
+          "weight": 2149102
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 39
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "weight": 17854
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:polymorphic_catalyst",
+          "weight": 10110
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 57460990
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3214138,
+          "name": "enderio_evolution:capacitor_silver",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3214138,
+          "name": "enderio:double_layer_capacitor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/stone/sets/vanilla_filler"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "minecraft:nether_bricks", "count": 8 },
+    { "ingredient": "minecraft:netherite_pickaxe", "count": 1 }
+  ],
+  "fluids": [
+    { "id": "minecraft:lava", "amount": 10000 }
+  ],
+  "results": [
+    { "id": "jamd:nether_portal" }
+  ],
+  "ticks": 600,
+  "energy_per_tick": 5000,
+  "stage": "skyline2_unlocked"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ftbmaterials:quartz_end_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 4
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:quartz",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 20
+}

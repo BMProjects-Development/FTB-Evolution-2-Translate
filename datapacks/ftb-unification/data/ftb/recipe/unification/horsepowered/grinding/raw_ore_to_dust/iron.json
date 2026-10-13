@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/iron",
+  "result": {
+    "id": "ftbmaterials:iron_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:iron_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

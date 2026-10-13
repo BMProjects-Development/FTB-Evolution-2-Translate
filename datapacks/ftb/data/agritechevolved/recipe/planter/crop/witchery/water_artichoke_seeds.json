@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "agritechevolved:crop",
+  "seed": "witchery:water_artichoke_seeds",
+  "soils": [
+    "#agritechevolved:water_soils"
+  ],
+  "drops": [
+    {
+      "item": "witchery:water_artichoke_globe",
+      "min": 1,
+      "max": 1,
+      "chance": 1.0
+    },
+    {
+      "item": "witchery:water_artichoke_seeds",
+      "min": 1,
+      "max": 2,
+      "chance": 1.0
+    }
+  ]
+}

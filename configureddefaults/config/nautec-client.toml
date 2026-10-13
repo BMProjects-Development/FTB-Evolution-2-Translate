@@ -1,0 +1,8 @@
+#Horizontal position of the submarine power HUD, as a fraction of the screen width
+# Default: 0.02
+# Range: 0.0 ~ 1.0
+submarineHudX = 0.02
+#Vertical position of the submarine power HUD, as a fraction of the screen height
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+submarineHudY = 0.75

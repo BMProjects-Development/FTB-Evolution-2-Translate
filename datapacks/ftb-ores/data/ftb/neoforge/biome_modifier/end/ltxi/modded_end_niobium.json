@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "nullscape:shadowlands",
+    "nullscape:void_barrens",
+    "nullscape:crystal_peaks",
+    "resonance:crystallized_end"
+  ],
+  "features": [
+    "ftb:end/ltxi/niobium_ore_modded",
+    "ftb:end/ltxi/niobium_clusters"
+  ],
+  "step": "underground_ores"
+}

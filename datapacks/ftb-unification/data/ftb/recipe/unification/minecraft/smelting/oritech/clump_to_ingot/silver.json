@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": "ftbmaterials:silver_clump",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:silver_ingot"
+  }
+}

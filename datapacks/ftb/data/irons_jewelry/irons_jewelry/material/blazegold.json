@@ -1,0 +1,19 @@
+{
+  "descriptionId": "ftb.irons.material.blazegold",
+  "ingredient": "justdirethings:blazegold_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/blazegold",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:overheal",
+      "amount": 0.1,
+      "operation": "add_multiplied_base"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:speed"
+    }
+  }
+}

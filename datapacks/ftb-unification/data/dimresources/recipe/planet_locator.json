@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:compass",
+    "B": "ftbmaterials:dimensional_shard_gem"
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "id": "dimresources:planet_locator"
+  }
+}

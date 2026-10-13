@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "evilcraft:dark_gem"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "evilcraft:dark_gem_crushed"
+    }
+  ]
+}

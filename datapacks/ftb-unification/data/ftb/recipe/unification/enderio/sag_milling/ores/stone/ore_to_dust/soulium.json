@@ -1,0 +1,27 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "mysticalagriculture:soulium_ore",
+  "outputs": [
+    {
+      "item": {
+        "count": 4,
+        "id": "mysticalagriculture:soulium_dust"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 2,
+        "id": "mysticalagriculture:soulium_dust"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+/*
+ * Server-specific configuration for FTB Library
+ * Modpack defaults should be defined in <instance>/config/ftblibrary-server.json5
+ *   (may be overwritten on modpack update)
+ * Server admins may locally override this by copying into <instance>/world/serverconfig/ftblibrary-server.json5
+ *   (will NOT be overwritten on modpack update)
+ * This is for testing only!
+ */
+{
+  section1: {
+    // Default: "hello"
+    test1: "hello",
+    // Default: "world"
+    test2: "world",
+    // Default: true
+    test3: true,
+  },
+  section2: {
+    // Default: false
+    test4: false,
+    // Default: 1 | Range: 0 ~ 10
+    test5: 1,
+  },
+}

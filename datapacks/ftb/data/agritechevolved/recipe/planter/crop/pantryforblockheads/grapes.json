@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pantryforblockheads"
+    }
+  ],
+  "type": "agritechevolved:crop",
+  "seed": "pantryforblockheads:grapes",
+  "soils": [
+    "#agritechevolved:dirt_soils"
+  ],
+  "drops": [
+    {
+      "item": "pantryforblockheads:grapes",
+      "min": 2,
+      "max": 4,
+      "chance": 1.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/topaz"
+  ],
+  "itemResults": [
+    {
+      "id": "arsmagicalegacy:topaz"
+    }
+  ],
+  "time": 100
+}

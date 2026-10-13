@@ -1,0 +1,15 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/boron"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "colossal_reactors:boron_dust"
+      }
+    }
+  ]
+}

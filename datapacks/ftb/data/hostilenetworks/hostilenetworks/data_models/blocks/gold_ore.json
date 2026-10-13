@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "minecraft:gold_ore",
+  "variants": [
+    "minecraft:deepslate_gold_ore",
+    "ftbmaterials:gold_nether_ore",
+    "ftbmaterials:gold_end_ore"
+  ],
+  "name_color": "#FCEE4B",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.gold_ore",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:raw_gold",
+      "count": 12
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

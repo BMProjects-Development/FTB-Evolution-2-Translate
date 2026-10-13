@@ -1,0 +1,27 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:raw_materials/lead",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:lead_dust"
+      }
+    },
+    {
+      "chance": 0.8,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:lead_dust"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:silver_dust"
+      }
+    }
+  ]
+}

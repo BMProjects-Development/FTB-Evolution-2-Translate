@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:nuggets/adamantite",
+  "result": {
+    "amount": 10,
+    "id": "ftb:molten_adamantite"
+  },
+  "temperature": 2000,
+  "time": 33
+}

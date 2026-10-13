@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:sulfur_nether_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 3,
+        "id": "ftbmaterials:sulfur_dust"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 3,
+        "id": "ftbmaterials:sulfur_dust"
+      }
+    }
+  ]
+}

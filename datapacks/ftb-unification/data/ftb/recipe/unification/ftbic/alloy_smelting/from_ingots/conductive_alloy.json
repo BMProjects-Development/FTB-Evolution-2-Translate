@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/copper"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio:conductive_alloy_ingot",
+        "count": 2
+      }
+    }
+  ]
+}

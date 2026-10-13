@@ -1,0 +1,18 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ltxi:raw_niobium",
+  "output_items": [
+    {
+      "item": {
+        "id": "ltxi:niobium_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ltxi:niobium_dust"
+      },
+      "chance": 0.33
+    }
+  ],
+  "duration": 40
+}

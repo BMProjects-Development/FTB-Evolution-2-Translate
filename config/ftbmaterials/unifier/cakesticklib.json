@@ -1,0 +1,8 @@
+{
+  "items": {
+    "cakesticklib:advanced_alloy_ingot": "ftbic:advanced_alloy",
+    "cakesticklib:advanced_alloy_plate": "energizedpower:advanced_alloy_plate",
+    "cakesticklib:carbon_fiber": "ftbic:carbon_fibers",
+    "cakesticklib:sulfur_dust": "ftbmaterials:sulfur_dust"
+  }
+}

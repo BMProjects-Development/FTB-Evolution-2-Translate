@@ -1,0 +1,252 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 12
+      },
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:granite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tuff",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:calcite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dripstone_block",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 6,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Spicy Magic Shroom",
+                "color": "#fb6f6f",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Insanely Spectacular",
+                  "color": "#974e4e"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:silk_touch": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Magma Boots",
+                "color": "#ff5e4d",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Fire resistant ",
+                  "color": "#a65959"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16751175
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_protection": 4,
+                "minecraft:unbreaking": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Cactus Chestplate",
+                "color": "#66ff7f",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "generation": 0,
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Unbreakable",
+                  "color": "#64b471"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:thorns": 3,
+                "minecraft:unbreaking": 3,
+                "minecraft:mending": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 6541157
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flow_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:globe_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:guster_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mojang_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_banner_pattern"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

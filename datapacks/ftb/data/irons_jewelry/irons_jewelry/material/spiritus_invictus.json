@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.spiritus_invictus",
+  "ingredient": "neovitae:spiritus_invictus_shard",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/spiritus_invictus",
+  "quality": 2.0,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:armor_toughness",
+      "operation": "add_value",
+      "amount": 1.0
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:resistance"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:slowness"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:knockback",
+        "strength": {
+          "base": 1.5,
+          "scalar": 0.5
+        }
+      },
+      "targetSelf": false
+    }
+  }
+}

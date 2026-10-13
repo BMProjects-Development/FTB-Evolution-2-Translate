@@ -1,0 +1,331 @@
+﻿{
+	"deeper_seam_hub": {
+		"title": { "translate": "skill.ftb.mining.deeper_seam_hub.title" },
+		"description": { "translate": "skill.ftb.mining.deeper_seam_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/ftbultimine_ultiminer.png" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:max_blocks_modifier", "value": 16, "operation": "addition" } }
+		]
+	},
+
+	"excav_d_cap": {
+		"title": { "translate": "skill.ftb.mining.excav_d_cap.title" },
+		"description": { "translate": "skill.ftb.mining.excav_d_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:conduit" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:submerged_mining_speed", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:block_interaction_range", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"excav_u_cap": {
+		"title": { "translate": "skill.ftb.mining.excav_u_cap.title" },
+		"description": { "translate": "skill.ftb.mining.excav_u_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justhammers:gold_destructor_hammer" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:pickaxe_speed", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:block_interaction_range", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"mining_root": {
+		"title": { "translate": "skill.ftb.mining.mining_root.title" },
+		"description": { "translate": "skill.ftb.mining.mining_root.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/gear_locked.png", "available": "ftbevolution:textures/skills/frames/available/gear_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/gear_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justdirethings:eclipsealloy_pickaxe" } },
+		"size": 2.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:max_blocks_modifier", "value": 16, "operation": "addition" } }
+		]
+	},
+
+	"prosp_d_cap": {
+		"title": { "translate": "skill.ftb.mining.prosp_d_cap.title" },
+		"description": { "translate": "skill.ftb.mining.prosp_d_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_ingot" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:pickaxe_durability", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:mining_fortune", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"prosp_u_cap": {
+		"title": { "translate": "skill.ftb.mining.prosp_u_cap.title" },
+		"description": { "translate": "skill.ftb.mining.prosp_u_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "mininggadgets:upgrade_fortune_2" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:mining_fortune", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"quarryman_hub": {
+		"title": { "translate": "skill.ftb.mining.quarryman_hub.title" },
+		"description": { "translate": "skill.ftb.mining.quarryman_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "mininggadgets:mininggadget" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:pickaxe_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ultimine_d_cap": {
+		"title": { "translate": "skill.ftb.mining.ultimine_d_cap.title" },
+		"description": { "translate": "skill.ftb.mining.ultimine_d_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:eternal_steak" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:exhaustion_modifier", "value": -10.5, "operation": "addition" } }
+		]
+	},
+
+	"ultimine_u_cap": {
+		"title": { "translate": "skill.ftb.mining.ultimine_u_cap.title" },
+		"description": { "translate": "skill.ftb.mining.ultimine_u_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_explosion_royal_3.png" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:max_blocks_modifier", "value": 48, "operation": "addition" } }
+		]
+	},
+
+	"block_interaction_range_+1": {
+		"title": { "translate": "skill.ftb.mining.block_interaction_range_+1.title" },
+		"description": { "translate": "skill.ftb.mining.block_interaction_range_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spyglass" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:block_interaction_range", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"exhaustion_modifier_-0.5": {
+		"title": { "translate": "skill.ftb.mining.exhaustion_modifier_-0.5.title" },
+		"description": { "translate": "skill.ftb.mining.exhaustion_modifier_-0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "saturation" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:exhaustion_modifier", "value": -0.5, "operation": "addition" } }
+		]
+	},
+
+	"exhaustion_modifier_-1": {
+		"title": { "translate": "skill.ftb.mining.exhaustion_modifier_-1.title" },
+		"description": { "translate": "skill.ftb.mining.exhaustion_modifier_-1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "saturation" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:exhaustion_modifier", "value": -1, "operation": "addition" } }
+		]
+	},
+
+	"experience_gained_+2%": {
+		"title": { "translate": "skill.ftb.mining.experience_gained_+2%.title" },
+		"description": { "translate": "skill.ftb.mining.experience_gained_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"experience_gained_+5%": {
+		"title": { "translate": "skill.ftb.mining.experience_gained_+5%.title" },
+		"description": { "translate": "skill.ftb.mining.experience_gained_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"experience_gained_+10%": {
+		"title": { "translate": "skill.ftb.mining.experience_gained_+10%.title" },
+		"description": { "translate": "skill.ftb.mining.experience_gained_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"experience_gained_+25%": {
+		"title": { "translate": "skill.ftb.mining.experience_gained_+25%.title" },
+		"description": { "translate": "skill.ftb.mining.experience_gained_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"fortune_+5%": {
+		"title": { "translate": "skill.ftb.mining.fortune_+5%.title" },
+		"description": { "translate": "skill.ftb.mining.fortune_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "luck" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fortune", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"fortune_+10%": {
+		"title": { "translate": "skill.ftb.mining.fortune_+10%.title" },
+		"description": { "translate": "skill.ftb.mining.fortune_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "luck" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fortune", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"max_blocks_modifier_+8": {
+		"title": { "translate": "skill.ftb.mining.max_blocks_modifier_+8.title" },
+		"description": { "translate": "skill.ftb.mining.max_blocks_modifier_+8.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "mining_helmet:mining_helmet" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftbultimine:max_blocks_modifier", "value": 8, "operation": "addition" } }
+		]
+	},
+
+	"mining_fortune_+1": {
+		"title": { "translate": "skill.ftb.mining.mining_fortune_+1.title" },
+		"description": { "translate": "skill.ftb.mining.mining_fortune_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/oritech_luck.png" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:mining_fortune", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"pickaxe_durability_+1": {
+		"title": { "translate": "skill.ftb.mining.pickaxe_durability_+1.title" },
+		"description": { "translate": "skill.ftb.mining.pickaxe_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:pickaxe_durability", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"pickaxe_speed_+2%": {
+		"title": { "translate": "skill.ftb.mining.pickaxe_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.mining.pickaxe_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "haste" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:pickaxe_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"pickaxe_speed_+5%": {
+		"title": { "translate": "skill.ftb.mining.pickaxe_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.mining.pickaxe_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justdirethings:blazegold_pickaxe" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:pickaxe_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"pickaxe_speed_+10%": {
+		"title": { "translate": "skill.ftb.mining.pickaxe_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.mining.pickaxe_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justdirethings:celestigem_pickaxe" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:pickaxe_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"pickaxe_speed_+25%": {
+		"title": { "translate": "skill.ftb.mining.pickaxe_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.mining.pickaxe_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ltxi:epsilon_drill" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:pickaxe_speed", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"submerged_mining_speed_+2%": {
+		"title": { "translate": "skill.ftb.mining.submerged_mining_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.mining.submerged_mining_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "conduit_power" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:submerged_mining_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"submerged_mining_speed_+5%": {
+		"title": { "translate": "skill.ftb.mining.submerged_mining_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.mining.submerged_mining_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "conduit_power" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:submerged_mining_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"submerged_mining_speed_+10%": {
+		"title": { "translate": "skill.ftb.mining.submerged_mining_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.mining.submerged_mining_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "conduit_power" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:submerged_mining_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"submerged_mining_speed_+25%": {
+		"title": { "translate": "skill.ftb.mining.submerged_mining_speed_+25%.title" },
+		"description": { "translate": "skill.ftb.mining.submerged_mining_speed_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "conduit_power" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:submerged_mining_speed", "value": 0.25, "operation": "addition" } }
+		]
+	}
+}

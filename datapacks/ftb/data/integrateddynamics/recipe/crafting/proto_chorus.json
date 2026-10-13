@@ -1,0 +1,21 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "integrateddynamics:menril_berries",
+      "count": 2
+    },
+    {
+      "ingredient": "#c:ender_pearls",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "integrateddynamics:proto_chorus"
+    }
+  ],
+  "ticks": 40,
+  "energy_per_tick": 25000,
+  "stage": "skyline1_unlocked"
+}

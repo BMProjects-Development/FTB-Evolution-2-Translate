@@ -1,0 +1,26 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftbarmory:adamantite_ingot",
+      "count": 4
+    },
+    {
+      "ingredient": "enderio:octadic_capacitor",
+      "count": 1
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:refined_t2_fluid_source",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:adamantite_capacitor"
+    }
+  ],
+  "ticks": 18000,
+  "energy_per_tick": 1000000
+}

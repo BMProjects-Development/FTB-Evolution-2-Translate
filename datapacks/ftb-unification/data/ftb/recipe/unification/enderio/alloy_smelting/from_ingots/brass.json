@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4800,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/zinc"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/copper"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ftbmaterials:brass_ingot"
+  }
+}

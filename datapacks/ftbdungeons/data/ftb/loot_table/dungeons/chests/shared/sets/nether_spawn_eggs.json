@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hoglin_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_brute_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:strider_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zoglin_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombified_piglin_spawn_egg",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "ftbmaterials:uranium_ingot",
+  "result": {
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ],
+    "result": {
+      "id": "ftbmaterials:uranium_dust"
+    }
+  }
+}

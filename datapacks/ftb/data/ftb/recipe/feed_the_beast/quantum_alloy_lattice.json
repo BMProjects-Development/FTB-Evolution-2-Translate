@@ -1,0 +1,30 @@
+{
+  "type": "ltxi:arc_smelting",
+  "craft_time": 400,
+  "fluid_inputs": [
+    {
+      "amount": 4000,
+      "ingredient": "minecraft:lava"
+    }
+  ],
+  "item_inputs": [
+    {
+      "count": 16,
+      "ingredient": "ltxi:tungsten_slatesteel_ingot"
+    },
+    {
+      "count": 4,
+      "ingredient": "justdirethings:eclipsealloy_block"
+    },
+    {
+      "count": 8,
+      "ingredient": "oritech:prometheum_ingot"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "ftb:quantum_alloy_lattice"
+    }
+  ]
+}

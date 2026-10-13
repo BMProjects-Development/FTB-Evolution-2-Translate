@@ -1,0 +1,15 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "evilcraft:dark_gem"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "evilcraft:dark_gem_crushed"
+      }
+    }
+  ]
+}

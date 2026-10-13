@@ -1,0 +1,20 @@
+{
+  "type": "energizedpower:filtration_plant",
+  "icon": "ftbmaterials:platinum_raw_ore",
+  "result": {
+    "percentages": [
+      0.33
+    ],
+    "result": {
+      "id": "energizedpower:stone_pebble"
+    }
+  },
+  "secondaryResult": {
+    "percentages": [
+      0.05
+    ],
+    "result": {
+      "id": "ftbmaterials:platinum_raw_ore"
+    }
+  }
+}

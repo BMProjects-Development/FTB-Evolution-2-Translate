@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ores/lead",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_lead"
+  },
+  "temperature": 327,
+  "time": 150
+}

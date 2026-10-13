@@ -1,0 +1,33 @@
+{
+  "type": "ltxi:assembling",
+  "craft_time": 400,
+  "fluid_inputs": [
+    {
+      "amount": 4000,
+      "ingredient": "justdirethings:refined_t3_fluid_source"
+    }
+  ],
+  "item_inputs": [
+    {
+      "count": 8,
+      "ingredient": "justdirethings:coal_t3"
+    },
+    {
+      "count": 2,
+      "ingredient": "colossal_reactors:reactor_rod"
+    },
+    {
+      "ingredient": "oritech:overcharged_crystal"
+    },
+    {
+      "count": 4,
+      "ingredient": "ftbic:antimatter"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "ftb:fuel_core"
+    }
+  ]
+}

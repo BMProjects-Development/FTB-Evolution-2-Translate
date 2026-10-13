@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:storage_blocks/raw_copper",
+  "result": {
+    "count": 12,
+    "id": "ftbmaterials:copper_dust"
+  },
+  "secondary": {
+    "count": 9,
+    "id": "ftbmaterials:copper_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

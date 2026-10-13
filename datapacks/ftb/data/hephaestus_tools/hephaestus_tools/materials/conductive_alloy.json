@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:conductive_alloy",
+  "ingredient": {
+    "tag": "c:ingots/conductive_alloy"
+  },
+  "color": 14129541,
+  "head_stats": {
+    "durability": 220,
+    "mining_speed": 7.5,
+    "attack_damage": 1.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 18,
+    "trait": "shock"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.01,
+    "damage_mult": -0.05,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 45
+  }
+}

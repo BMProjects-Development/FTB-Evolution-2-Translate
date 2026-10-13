@@ -1,0 +1,8 @@
+#Server settings
+[server]
+	#The cooldown (in seconds) applied to a teleporter after use, preventing immediate re-teleport. Set to 0 to disable. [Default: 3, Min: 0, Max: 300]
+	# Default: 3
+	# Range: 0 ~ 300
+	teleportCooldown = 3
+	#If true, a redstone pulse always triggers the teleporter regardless of any pending cooldown. [Default: true]
+	redstonePreventsCooldown = true

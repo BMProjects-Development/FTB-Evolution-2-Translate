@@ -1,0 +1,32 @@
+#Machine configuration options
+[Machines]
+
+	[Machines.Infuser]
+		#Should the Infuser be enabled?
+		enabled = true
+
+	[Machines.Crafter]
+		#Should the Crafter be enabled?
+		enabled = true
+
+	[Machines.Farmer]
+		#Should the Farmer be enabled?
+		enabled = true
+		#Should recipes be generated dynamically for all Mystical Agriculture crops?
+		dynamicMysticalAgricultureRecipes = true
+
+	[Machines.Fertilizer]
+		#Should the Fertilizer be enabled?
+		enabled = true
+
+	[Machines."Infusion Altarnator"]
+		#Should the Infusion Altarnator be enabled?
+		enabled = true
+
+	[Machines."Awakening Altarnator"]
+		#Should the Awakening Altar be enabled?
+		enabled = true
+
+	[Machines.Enchanternator]
+		#Should the Enchanternator be enabled?
+		enabled = true

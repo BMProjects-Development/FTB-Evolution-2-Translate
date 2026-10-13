@@ -1,0 +1,79 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1787702400000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:3f6b1c2a-8d54-4e0b-9a17-c25e40d8b6f1-1787702400000] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/glorious_evolution.ogg
+  audio_instance_weight_0 = 1.0
+  play_mode = normal
+  looping = false
+  volume = 0.4
+  sound_source = music
+  element_type = audio_v2
+  instance_identifier = 7c94e5d8-2b6f-4a31-b8e2-5f0d19c7a3e4-1787702400000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1440
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -451
+  y = 133
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a1d27f9b-6e83-4c5a-9d40-8b3c61e0f5a2-1787702400000
+  [loading_requirement_container_meta:a1d27f9b-6e83-4c5a-9d40-8b3c61e0f5a2-1787702400000] = [groups:][instances:d4b80c3e-1f72-4968-a5db-2e9647c8b0f3-1787702400000;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:d4b80c3e-1f72-4968-a5db-2e9647c8b0f3-1787702400000] =
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #5CA6EFFF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}

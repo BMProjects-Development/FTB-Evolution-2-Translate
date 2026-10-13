@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "ftb:overworld/xycraft_world/ore_kivi",
+    "ftb:overworld/xycraft_world/ore_marble"
+  ],
+  "step": "raw_generation"
+}

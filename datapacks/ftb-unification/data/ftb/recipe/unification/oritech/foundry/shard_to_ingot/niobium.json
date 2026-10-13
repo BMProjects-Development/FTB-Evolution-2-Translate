@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ltxi:niobium_ore_solution",
+    "ltxi:niobium_ore_solution"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ltxi:niobium_ingot"
+    }
+  ],
+  "time": 80
+}

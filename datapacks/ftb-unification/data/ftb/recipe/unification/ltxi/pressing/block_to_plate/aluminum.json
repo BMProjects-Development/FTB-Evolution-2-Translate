@@ -1,0 +1,15 @@
+{
+  "type": "ltxi:pressing",
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:aluminum_block"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 9,
+      "id": "ftbmaterials:aluminum_plate"
+    }
+  ],
+  "mode": "ltxi:plate_pressing"
+}

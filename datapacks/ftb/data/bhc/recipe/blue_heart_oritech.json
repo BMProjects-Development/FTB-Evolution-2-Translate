@@ -1,0 +1,14 @@
+{
+  "type": "oritech:particle_collision",
+  "itemInputs": [
+    "bhc:yellow_heart_melted",
+    "bhc:green_heart_melted"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "bhc:blue_heart"
+    }
+  ],
+  "time": 10000
+}

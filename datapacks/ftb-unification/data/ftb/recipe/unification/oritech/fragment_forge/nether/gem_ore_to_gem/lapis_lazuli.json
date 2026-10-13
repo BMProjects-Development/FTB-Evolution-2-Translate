@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:lapis_lazuli_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "minecraft:lapis_lazuli"
+    }
+  ],
+  "time": 40
+}

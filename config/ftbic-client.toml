@@ -1,0 +1,9 @@
+[sounds]
+	#Operating loop volume, in addition to the Blocks volume slider. Zero disables machine loops.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	machine_volume = 0.35
+	#Maximum nearby machine loops playing at once. The nearest active machines take priority.
+	# Default: 8
+	# Range: 1 ~ 32
+	max_machine_sounds = 8

@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:gold_plate"
+  }
+}

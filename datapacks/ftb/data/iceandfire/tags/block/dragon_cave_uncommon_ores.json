@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:lapis_ore",
+    "minecraft:redstone_ore",
+    "minecraft:gold_ore",
+    "ftbmaterials:silver_stone_ore"
+  ]
+}

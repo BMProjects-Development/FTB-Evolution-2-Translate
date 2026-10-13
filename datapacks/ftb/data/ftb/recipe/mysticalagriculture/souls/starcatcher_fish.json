@@ -1,0 +1,8 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": "#starcatcher:starcaught_fishable_fish",
+  "result": {
+    "type": "mysticalagriculture:fish",
+    "souls": 0.5
+  }
+}

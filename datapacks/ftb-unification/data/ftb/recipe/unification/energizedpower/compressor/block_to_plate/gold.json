@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "minecraft:gold_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ftbmaterials:gold_plate"
+  }
+}

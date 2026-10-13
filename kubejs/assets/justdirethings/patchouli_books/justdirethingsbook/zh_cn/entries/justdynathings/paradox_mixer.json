@@ -1,0 +1,13 @@
+{
+  "name": "悖论，简化生活！",
+  "sortnum": 12,
+  "category": "justdirethings:justdynathings",
+  "icon": "justdynathings:abstract_paradox",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Paradox Mixer",
+      "text": "一个不稳定方块，可以批量执行投入流体配方。$(br)需要至少一台激活的稳定器。$(br)$(br)$(italic)*Patchouli 的渲染器不支持自定义渲染*$()"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "ftbmaterials:zinc_raw_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:zinc_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:zinc_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ores/dark_gem",
+  "output_items": [
+    {
+      "item": {
+        "id": "evilcraft:dark_gem",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "evilcraft:dark_gem_crushed"
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 20
+}

@@ -1,0 +1,15 @@
+{
+  "type": "oritech:atomic_forge",
+  "itemInputs": [
+    "ftbmaterials:iron_shard",
+    "oritech:fluxite",
+    "oritech:fluxite"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:iron_dust"
+    }
+  ],
+  "time": 20
+}

@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "minecraft:ancient_debris",
+  "variants": [],
+  "name_color": "#6B4A3A",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 2048,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.ancient_debris",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:ancient_debris",
+      "count": 4
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

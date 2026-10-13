@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_black"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_cyan"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_gray"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_green"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_light_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_light_gray"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_lime"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_magenta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_orange"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_pink"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_purple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_red"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_white"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_yellow"
+        }
+      ]
+    }
+  ]
+}

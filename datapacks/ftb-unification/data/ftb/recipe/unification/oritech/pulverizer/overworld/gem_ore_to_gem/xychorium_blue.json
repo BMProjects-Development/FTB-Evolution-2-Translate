@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/xychorium_blue"
+  ],
+  "itemResults": [
+    {
+      "id": "xycraft_world:xychorium_gem_blue"
+    }
+  ],
+  "time": 100
+}

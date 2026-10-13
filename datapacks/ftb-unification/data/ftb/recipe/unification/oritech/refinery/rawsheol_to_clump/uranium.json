@@ -1,0 +1,23 @@
+{
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 250,
+    "ingredient": "oritech:still_sheol_fire"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 100,
+      "id": "minecraft:lava"
+    }
+  ],
+  "itemInputs": [
+    "#c:raw_materials/uranium"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:uranium_clump"
+    }
+  ],
+  "time": 80
+}

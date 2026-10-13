@@ -1,0 +1,20 @@
+{
+  "type": "ftbic:separating",
+  "inputs": [
+    {
+      "ingredient": "#c:dusts/nickel"
+    }
+  ],
+  "input_fluids": [
+    {
+      "ingredient": "minecraft:lava",
+      "amount": 250
+    }
+  ],
+  "output_fluids": [
+    {
+      "id": "hephaestus:molten_cobalt",
+      "amount": 10
+    }
+  ]
+}

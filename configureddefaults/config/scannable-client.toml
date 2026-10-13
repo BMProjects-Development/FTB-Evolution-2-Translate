@@ -1,0 +1,17 @@
+#The colors for blocks used when rendering their result bounding box
+#by block name. Each entry must be a key-value pair separated by a `=`,
+#with the key being the tag name and the value being the hexadecimal
+#RGB value of the color.
+blockColors = []
+#The colors for blocks used when rendering their result bounding box
+#by block tag. See `blockColors` for format entries have to be in.
+blockTagColors = ["c:ores/nickel=0x6699d8", "c:ores/mithril=0x7f3fb2", "c:ores/tin=0x4c7f99", "c:ores/iron=0x664c33", "c:ores/copper=0x9f5224", "c:ores/emerald=0xd93a", "c:ores/platinum=0xd1b1a1", "c:ores/lead=0x4c3e5c", "c:ores/redstone=0x993333", "c:ores/quartz=0xfffcf5", "c:ores/silver=0x999999", "c:ores/lapis=0x4a80ff", "c:ores/diamond=0x5cdbd5", "c:ores/coal=0x4c4c4c", "c:ores/gold=0xfaee4d"]
+#The colors for fluids used when rendering their result bounding box
+#by fluid name. See `blockColors` for format entries have to be in.
+fluidColors = []
+#The colors for fluids used when rendering their result bounding box
+#by fluid tag. See `blockColors` for format entries have to be in.
+fluidTagColors = ["minecraft:lava=0x9f5224", "minecraft:water=0x4040ff"]
+#Hide the highlight of a scanned block once it has been broken or replaced, without needing to
+#rescan (updates live as you mine). Purely visual.
+hideBrokenBlocks = true

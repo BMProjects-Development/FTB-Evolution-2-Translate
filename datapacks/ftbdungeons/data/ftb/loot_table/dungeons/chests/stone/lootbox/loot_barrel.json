@@ -1,0 +1,654 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.035
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08421053
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "ironfurnaces:augment_speed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "ironfurnaces:augment_fuel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ironfurnaces:augment_blasting"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enderio:fluid_tank",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:pressurized_fluid_tank",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritech:portable_tank",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ltxi:portable_tank",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbic:rubber",
+          "weight": 56,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbic:latex_ball",
+          "weight": 28,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.110526318
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:cocoa_beans"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "rootsclassic:old_root",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.206315788
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.28
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01052632
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "power_armor:armor_module_jetpack"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 30
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ftbic:electronic_circuit",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbic:advanced_circuit",
+          "weight": 26
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:basic_processor",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:improved_processor",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:construction_core",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:destruction_core",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:logic_processor",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:calculation_processor",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:engineering_processor",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ltxi:circuit_board",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio_evolution:capacitor_grainy",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:basic_capacitor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2438787168
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0171929823
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "laserio:card_item"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "laserio:card_fluid"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "laserio:card_energy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "laserio:card_redstone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.014
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.36842105
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "powah:solar_panel_starter",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.5,
+                "n": 2,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powah:solar_panel_basic",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.5,
+                "n": 2,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "powah:solar_panel_hardened",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.5,
+                "n": 2,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/candles",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 9,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/ferricore_armor",
+          "weight": 3,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/ferricore_tools",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/golden_armor",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/golden_tools",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/inferium_armor",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/inferium_tools",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/iron_armor",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/iron_tools",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/overworld_logs",
+          "weight": 10,
+          "functions": [
+            {
+              "count": {
+                "n": 16,
+                "p": 0.3,
+                "type": "minecraft:binomial"
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/overworld_mob_heads",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/overworld_saplings",
+          "weight": 10,
+          "functions": [
+            {
+              "count": {
+                "n": 6,
+                "p": 0.35,
+                "type": "minecraft:binomial"
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/prudentium_armor",
+          "weight": 3,
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "chance": 0.7,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39,
+                "min": 25,
+                "type": "minecraft:uniform"
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/prudentium_tools",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:dungeons/chests/shared/sets/stone_tools",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 23
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.056
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 184211
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 137544
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 24,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 63158
+        },
+        {
+          "type": "minecraft:item",
+          "name": "belts:belt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 63158
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 58430
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 7,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 42080
+        },
+        {
+          "type": "minecraft:item",
+          "name": "laserio:logic_chip_raw",
+          "weight": 32300
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbic:energy_crystal",
+          "weight": 21053
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 9,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 17729
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp_block",
+          "weight": 17389
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 18,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "weight": 16842
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "name": "utilitarian:angel_block",
+          "weight": 7368
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 269966
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ]
+    }
+  ]
+}

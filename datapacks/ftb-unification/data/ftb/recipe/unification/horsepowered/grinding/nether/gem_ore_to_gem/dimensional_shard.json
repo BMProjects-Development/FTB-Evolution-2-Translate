@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:dimensional_shard_nether_ore",
+  "result": {
+    "count": 3,
+    "id": "ftbmaterials:dimensional_shard_gem"
+  },
+  "secondary": {
+    "id": "ftbmaterials:dimensional_shard_gem",
+    "count": 2
+  },
+  "secondaryChance": 38,
+  "time": 16
+}

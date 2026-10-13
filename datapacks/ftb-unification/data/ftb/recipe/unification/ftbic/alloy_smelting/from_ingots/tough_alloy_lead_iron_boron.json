@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/lead"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/boron"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "colossal_reactors:tough_alloy_ingot",
+        "count": 3
+      }
+    }
+  ]
+}

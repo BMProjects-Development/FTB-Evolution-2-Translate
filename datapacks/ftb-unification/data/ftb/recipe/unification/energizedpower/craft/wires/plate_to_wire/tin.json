@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "ftbmaterials:tin_plate"
+  ],
+  "result": {
+    "id": "ftbmaterials:tin_wire",
+    "count": 2
+  }
+}

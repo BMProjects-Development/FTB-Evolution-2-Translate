@@ -1,0 +1,15 @@
+{
+  "type": "neovitae:hellfire_forge",
+  "drain": 200.0,
+  "minDrain": 1024.0,
+  "inputs": [
+    "occultism:afrit_essence",
+    "neovitae:tabula_spiritus",
+    "ftbarmory:aeternium_block",
+    "occultism:iesnium_ingot"
+  ],
+  "output": {
+    "count": 2,
+    "id": "ftb:bound_essence"
+  }
+}

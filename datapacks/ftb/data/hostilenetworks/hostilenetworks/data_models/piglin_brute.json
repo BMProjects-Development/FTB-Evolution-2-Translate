@@ -1,0 +1,24 @@
+{
+  "entity": "minecraft:piglin_brute",
+  "variants": [],
+  "name_color": "#C89A3A",
+  "display": {
+    "scale": 1.0
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.piglin_brute",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:golden_axe",
+      "count": 1
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 16
+    }
+  ]
+}

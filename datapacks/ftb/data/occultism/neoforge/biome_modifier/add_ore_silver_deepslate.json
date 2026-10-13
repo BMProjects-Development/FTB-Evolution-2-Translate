@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#ftb:no_ore_gen",
+  "features": "occultism:ore_silver_deepslate",
+  "step": "underground_ores"
+}

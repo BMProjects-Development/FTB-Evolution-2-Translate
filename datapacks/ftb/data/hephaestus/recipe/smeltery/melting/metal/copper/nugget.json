@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:nuggets/copper",
+  "result": {
+    "amount": 10,
+    "id": "hephaestus:molten_copper"
+  },
+  "temperature": 900,
+  "time": 33
+}

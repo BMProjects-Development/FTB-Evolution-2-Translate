@@ -1,0 +1,19 @@
+{
+  "type": "stellaris:fuel_refinery",
+  "energyContainer": 50,
+  "ingredient": {
+    "fluid": "oritech:still_oil",
+    "id": "oritech:still_oil",
+    "amount": 10
+  },
+  "fuel": {
+    "fluid": "stellaris:fuel",
+    "id": "stellaris:fuel",
+    "amount": 5
+  },
+  "diesel": {
+    "fluid": "stellaris:diesel",
+    "id": "stellaris:diesel",
+    "amount": 5
+  }
+}

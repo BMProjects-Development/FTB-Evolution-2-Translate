@@ -1,0 +1,392 @@
+{
+  id: "2232FF3665BD8A7F",
+  order_index: 27,
+  icon: {
+    id: "mysticalagriculture:supremium_chestplate",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "789B5C06220FA879",
+      item: {
+        id: "justdirethings:eclipsealloy_helmet",
+        count: 1,
+      },
+    },
+    {
+      id: "19CE292B9FAFA869",
+      item: {
+        id: "justdirethings:eclipsealloy_chestplate",
+        count: 1,
+      },
+    },
+    {
+      id: "411A19FB5464E285",
+      item: {
+        id: "justdirethings:eclipsealloy_leggings",
+        count: 1,
+      },
+    },
+    {
+      id: "3248F35BC7323826",
+      item: {
+        id: "justdirethings:eclipsealloy_boots",
+        count: 1,
+      },
+    },
+    {
+      id: "426F03D04E0E8D24",
+      item: {
+        id: "justdirethings:eclipsealloy_sword",
+        count: 1,
+      },
+    },
+    {
+      id: "017BA5E3D9DD0AF2",
+      item: {
+        id: "justdirethings:eclipsealloy_pickaxe",
+        count: 1,
+      },
+    },
+    {
+      id: "2262331656722798",
+      item: {
+        id: "justdirethings:eclipsealloy_axe",
+        count: 1,
+      },
+    },
+    {
+      id: "2ED29050EE74EE1F",
+      item: {
+        id: "justdirethings:eclipsealloy_shovel",
+        count: 1,
+      },
+    },
+    {
+      id: "0AFFD5FF68B2F481",
+      item: {
+        id: "justdirethings:eclipsealloy_hoe",
+        count: 1,
+      },
+    },
+    {
+      id: "516D5D7A6AABDD6B",
+      item: {
+        id: "justdirethings:eclipsealloy_paxel",
+        count: 1,
+      },
+    },
+    {
+      id: "7F1533B13F0EE2F3",
+      item: {
+        id: "oritech:promethium_pickaxe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "2FCE02A8E60EF594",
+      item: {
+        id: "oritech:promethium_axe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5D6015EA375E4CCE",
+      item: {
+        id: "power_armor:power_armor_helmet",
+        count: 1,
+      },
+    },
+    {
+      id: "084437FAAC593E89",
+      item: {
+        id: "power_armor:power_armor_chestplate",
+        count: 1,
+      },
+    },
+    {
+      id: "69849AB0FDD45985",
+      item: {
+        id: "power_armor:power_armor_leggings",
+        count: 1,
+      },
+    },
+    {
+      id: "15E24806148D88E6",
+      item: {
+        id: "power_armor:power_armor_boots",
+        count: 1,
+      },
+    },
+    {
+      id: "599BF34263A11F80",
+      item: {
+        id: "mysticalagriculture:supremium_helmet",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "012AAE9BBF0125E2",
+      item: {
+        id: "mysticalagriculture:supremium_chestplate",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1A90DB65DF64EED5",
+      item: {
+        id: "mysticalagriculture:supremium_leggings",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "69437358434BDFB8",
+      item: {
+        id: "mysticalagriculture:supremium_boots",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "057FC29A77AF6B50",
+      item: {
+        id: "mysticalagriculture:supremium_sword",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "29A68C09C5966B99",
+      item: {
+        id: "mysticalagriculture:supremium_pickaxe",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1F49ABFA0BFD438B",
+      item: {
+        id: "mysticalagriculture:supremium_axe",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6BA7E7052CA2ACAA",
+      item: {
+        id: "mysticalagriculture:supremium_shovel",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "57462A388DC8DC4D",
+      item: {
+        id: "mysticalagriculture:supremium_hoe",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "080B07606356E65F",
+      item: {
+        id: "mysticalagriculture:supremium_sickle",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6FF8828C269A71B5",
+      item: {
+        id: "mysticalagriculture:supremium_spear",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "5C8B9FA8259CD33A",
+      item: {
+        id: "mysticalagradditions:supremium_paxel",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "5C11EDB5AFA53540",
+      item: {
+        id: "thunderrelics:royal_helmet",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "51556DA9EB009662",
+      item: {
+        id: "thunderrelics:royal_chestplate",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "02F694A0262217AC",
+      item: {
+        id: "thunderrelics:royal_leggings",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "7DEAD86CFF7FCD7F",
+      item: {
+        id: "thunderrelics:royal_boots",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "69467667D8D816F5",
+      item: {
+        id: "thunderrelics:royal_glaive",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "665D92E25D055923",
+      item: {
+        id: "ftbarmory:aeternium_helmet",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "7582A6A795A7B1CB",
+      item: {
+        id: "ftbarmory:aeternium_chestplate",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "6D2CEE7D8EBE6021",
+      item: {
+        id: "ftbarmory:aeternium_leggings",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "4BB70D5587E0634B",
+      item: {
+        id: "ftbarmory:aeternium_boots",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "1AE0B78B9BBDA80D",
+      item: {
+        id: "justdirethings:bow_eclipsealloy",
+        count: 1,
+      },
+    },
+    {
+      id: "6E01ED6D63E720A2",
+      item: {
+        id: "mysticalagriculture:supremium_bow",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "11A0D9ABEDA75D66",
+      item: {
+        id: "ltxi:daybreak",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "77EF71B9D6733B93",
+      item: {
+        id: "ltxi:wonderland_head",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "74DB17AB786F80A7",
+      item: {
+        id: "ltxi:wonderland_body",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "282DCBD16D6449EF",
+      item: {
+        id: "ltxi:wonderland_legs",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "194FFBDC682D4065",
+      item: {
+        id: "ltxi:wonderland_feet",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "18ED8571B3D0F015",
+      item: {
+        id: "ltxi:nova",
+        count: 1,
+      },
+    },
+    {
+      id: "6166B60784D7A644",
+      item: {
+        id: "iceandfire:dragonsteel_fire_sword",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0A30A4C475EFB30C",
+      item: {
+        id: "iceandfire:dragonsteel_ice_sword",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0740D2FE00CFB8EE",
+      item: {
+        id: "iceandfire:dragonsteel_lightning_sword",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+  ],
+  loot_crate: {
+    string_id: "random_armory_3",
+    color: 16755200,
+    item_name: "ftbquests.loot_crate.random_armory_3",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

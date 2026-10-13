@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "irons_jewelry:insanium_gemstone",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:fire_dragonsteel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:ice_dragonsteel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:lightning_dragonsteel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:adamantite",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:aeternium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:aurichalcum",
+      "required": false
+    }
+  ]
+}

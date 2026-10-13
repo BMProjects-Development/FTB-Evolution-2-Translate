@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:lapis_lazuli_end_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

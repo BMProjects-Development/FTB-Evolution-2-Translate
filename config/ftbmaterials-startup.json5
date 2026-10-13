@@ -1,0 +1,134 @@
+{
+  blacklists: {
+    /*
+     * List of recipe ID's which will never be automatically tweaked by fallback rules
+     * Recipes for which explicit rules exist will not be excluded by this blacklist
+     * These can be wildcarded, e.g. 'somemod:*' blacklists all recipes in the 'somemod' namespace
+     * Default: []
+     */
+    recipe_id_blacklist: [
+      "enderio:sag_milling/clay",
+      "enderio:sag_milling/sand",
+      "occultism:crushing/charcoal_dust_from_item",
+      "occultism:crushing/coal_dust_from_item",
+      "occultism:crushing/obsidian_dust",
+      "occultism:crystallize/apatite_from_dust",
+      "occultism:crystallize/apatite_from_ore",
+      "occultism:crystallize/cinnabar_from_dust",
+      "occultism:crystallize/cinnabar_from_ore",
+      "occultism:crystallize/diamond_from_dust",
+      "occultism:crystallize/diamond_from_ore",
+      "occultism:crystallize/emerald_from_dust",
+      "occultism:crystallize/emerald_from_ore",
+      "occultism:crystallize/fluorite_from_dust",
+      "occultism:crystallize/fluorite_from_ore",
+      "occultism:crystallize/lapis_from_dust",
+      "occultism:crystallize/lapis_from_ore",
+      "occultism:crystallize/quartz_from_dust",
+      "occultism:crystallize/quartz_from_ore",
+      "occultism:crystallize/ruby_from_dust",
+      "occultism:crystallize/ruby_from_ore",
+      "occultism:crystallize/sapphire_from_dust",
+      "occultism:crystallize/sapphire_from_ore",
+      "occultism:crystallize/sulfur_from_dust",
+      "occultism:crystallize/sulfur_from_ore",
+      "occultism:miners/basic/antimony",
+      "occultism:miners/basic/bauxite",
+      "occultism:miners/basic/monazite",
+      "occultism:miners/basic/salt",
+      "occultism:miners/basic/tungsten",
+    ],
+    /*
+     * List of recipe type ID's which will never be automatically tweaked by fallback rules
+     * Recipe types for which explicit rules exist will not be excluded by this blacklist
+     * These can be wildcarded, e.g. 'somemod:*' blacklists all recipe types in the 'somemod' namespace
+     * Default: []
+     */
+    recipe_type_blacklist: [
+      "cucumber:shaped_tag",
+      "occultism:spirit_trade",
+    ],
+    /*
+     * List of block IDs which should never be automatically added to the unification DB
+     * These can be wildcarded, e.g. 'somemod:*' blacklists all id's in the 'somemod' namespace
+     * Default: []
+     */
+    unification_blacklist_blocks: [
+    ],
+    /*
+     * List of item tag IDs which should never be automatically added to the unification DB
+     * These can be wildcarded, e.g. 'somemod:*' blacklists all id's in the 'somemod' namespace
+     * Default: []
+     */
+    unification_blacklist_item_tags: [
+      "c:chunks/adamantite",
+      "c:chunks/aeternium",
+      "c:chunks/aurichalcum",
+      "c:clumps/adamantite",
+      "c:clumps/aeternium",
+      "c:clumps/aurichalcum",
+      "c:clusters/adamantite",
+      "c:clusters/aeternium",
+      "c:clusters/aurichalcum",
+      "c:crystals/adamantite",
+      "c:crystals/aeternium",
+      "c:crystals/aurichalcum",
+      "c:dirty_dusts/adamantite",
+      "c:dirty_dusts/aeternium",
+      "c:dirty_dusts/aurichalcum",
+      "c:ores/adamantite",
+      "c:ores/aeternium",
+      "c:ores/aurichalcum",
+      "c:raw_materials/adamantite",
+      "c:raw_materials/aeternium",
+      "c:raw_materials/aurichalcum",
+      "c:shards/adamantite",
+      "c:shards/aeternium",
+      "c:shards/aurichalcum",
+      "c:storage_blocks/raw_adamantite",
+      "c:storage_blocks/raw_aeternium",
+      "c:storage_blocks/raw_aurichalcum",
+    ],
+    /*
+     * List of item IDs which should never be automatically added to the unification DB
+     * These can be wildcarded, e.g. 'somemod:*' blacklists all id's in the 'somemod' namespace
+     * Default: []
+     */
+    unification_blacklist_items: [
+      "oritech:biosteel_ingot",
+      "stellaris:moon_stone_iron_ore",
+      "stellaris:moon_titanium_ore",
+    ],
+  },
+  overrides: {
+    /*
+     * Map of <mod-id> -> map of <item> -> <replacement_item>
+     * Overrides applied to recipe types of the given mod when doing item lookup in the unification DB
+     */
+    item_overrides: {
+    },
+    /*
+     * Map of <mod-id> -> map of <tag> -> <replacement_tag>
+     * Overrides applied to recipe types of the given mod when doing item tag lookup in the unification DB
+     */
+    tag_overrides: {
+    },
+  },
+  tweaks: {
+    /*
+     * If true, tweaks loot tables so that loot generated in chests as well as modded materials dropped from broken blocks are replaced by their FTB Materials counterparts. Vanilla loot is not affected.
+     * Default: true
+     */
+    tweak_loot_tables: true,
+    /*
+     * If true, tweaks recipes during the recipe manager load phase so that all relevant modded inputs & outputs use their FTB Materials counterparts instead. Vanilla materials are not affected.
+     * Default: true
+     */
+    tweak_recipes: true,
+    /*
+     * If true, tweaks worldgen so that any modded generated ores are replaced by their FTB Materials counterparts. Vanilla ores are not affected.
+     * Default: true
+     */
+    tweak_worldgen: true,
+  },
+}

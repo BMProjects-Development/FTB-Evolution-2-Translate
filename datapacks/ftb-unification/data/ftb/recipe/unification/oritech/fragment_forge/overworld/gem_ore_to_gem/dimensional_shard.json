@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/dimensional_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:dimensional_shard_gem"
+    }
+  ],
+  "time": 40
+}

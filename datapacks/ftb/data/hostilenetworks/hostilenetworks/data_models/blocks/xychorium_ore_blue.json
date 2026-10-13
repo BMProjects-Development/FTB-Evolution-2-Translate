@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "xycraft_world:xychorium_ore_stone_blue",
+  "variants": [
+    "xycraft_world:xychorium_ore_deepslate_blue",
+    "xycraft_world:xychorium_ore_kivi_blue"
+  ],
+  "name_color": "#2E6EC8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 2048,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.xychorium_ore_blue",
+  "fabricator_drops": [
+    {
+      "id": "xycraft_world:xychorium_gem_blue",
+      "count": 3
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

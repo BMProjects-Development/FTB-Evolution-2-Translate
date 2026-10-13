@@ -1,0 +1,16 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:raw_materials/aluminum"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:aluminum_dust"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:aluminum_tiny_dust"
+    }
+  ],
+  "time": 100
+}

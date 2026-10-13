@@ -1,0 +1,42 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:raw_materials/platinum",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    }
+  ],
+  "itemResults": [
+    {
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:oritech/fluxite",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "count": 1,
+      "id": "productivebees:spawn_egg_configurable_bee"
+    }
+  ],
+  "time": 210,
+  "neoforge:conditions": [
+    {
+      "modid": "oritech",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:oritech/fluxite"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:raw_materials/platinum"
+    }
+  ]
+}

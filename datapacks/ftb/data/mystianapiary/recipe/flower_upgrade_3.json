@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:nether_stars",
+    "#minecraft:flowers",
+    "#c:dusts/redstone"
+  ],
+  "result": {
+    "id": "mystianapiary:flower_upgrade_3",
+    "count": 1
+  }
+}

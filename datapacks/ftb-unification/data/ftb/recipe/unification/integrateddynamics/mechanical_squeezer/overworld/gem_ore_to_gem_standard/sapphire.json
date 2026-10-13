@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/sapphire",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:sapphire_gem",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:sapphire_gem",
+        "count": 1
+      },
+      "chance": 0.25
+    }
+  ],
+  "duration": 20
+}

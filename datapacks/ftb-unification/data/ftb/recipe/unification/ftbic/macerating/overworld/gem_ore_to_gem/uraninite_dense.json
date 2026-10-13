@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/uraninite_dense"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 10,
+        "id": "powah:uraninite"
+      }
+    }
+  ]
+}

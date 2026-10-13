@@ -1,0 +1,26 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "ftbmaterials:redstone_nether_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 2
+      },
+      "chance": 1.0
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 2
+      },
+      "chance": 0.495
+    }
+  ]
+}

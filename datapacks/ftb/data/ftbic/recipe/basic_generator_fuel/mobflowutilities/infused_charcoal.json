@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mobflowutilities"
+    }
+  ],
+  "type": "ftbic:basic_generator_fuel",
+  "ingredient": "mobflowutilities:infused_charcoal",
+  "ticks": 12800
+}

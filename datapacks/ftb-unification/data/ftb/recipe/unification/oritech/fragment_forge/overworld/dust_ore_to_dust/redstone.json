@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/redstone"
+  ],
+  "itemResults": [
+    {
+      "count": 12,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "time": 40
+}

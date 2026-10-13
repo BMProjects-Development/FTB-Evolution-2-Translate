@@ -1,0 +1,190 @@
+{
+  "id": "ftb:sanguine_merchant",
+  "title": {
+    "translate": "ftb.shopkeeper.sanguine_merchant",
+    "color": "dark_red"
+  },
+  "model": {
+    "villager_data": {
+      "type": "swamp",
+      "profession": "cleric",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.sanguine_merchant",
+        "color": "dark_red"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:sanguine_merchant_wares",
+      "shop_unlock": [
+        {
+          "name": "rune_blank",
+          "item": {
+            "id": "neovitae:rune_blank",
+            "count": 8
+          },
+          "cost": 30
+        },
+        {
+          "name": "tabula_rasa",
+          "item": {
+            "id": "neovitae:tabula_rasa",
+            "count": 4
+          },
+          "cost": 10
+        },
+        {
+          "name": "throwing_dagger",
+          "item": {
+            "id": "neovitae:throwing_dagger",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "simple_catalyst",
+          "item": {
+            "id": "neovitae:simple_catalyst",
+            "count": 2
+          },
+          "cost": 15
+        },
+        {
+          "name": "dark_gem",
+          "item": {
+            "id": "evilcraft:dark_gem",
+            "count": 8
+          },
+          "cost": 12
+        },
+        {
+          "name": "hardened_blood_shard",
+          "item": {
+            "id": "evilcraft:hardened_blood_shard",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "blood_waxed_coal",
+          "item": {
+            "id": "evilcraft:blood_waxed_coal",
+            "count": 8
+          },
+          "cost": 12
+        },
+        {
+          "name": "basic_cutting_fluid",
+          "item": {
+            "id": "neovitae:basic_cutting_fluid",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "alchemy_flask",
+          "item": {
+            "id": "neovitae:alchemy_flask",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "reagent_water",
+          "item": {
+            "id": "neovitae:reagent_water",
+            "count": 1
+          },
+          "cost": 35
+        },
+        {
+          "name": "reagent_lava",
+          "item": {
+            "id": "neovitae:reagent_lava",
+            "count": 1
+          },
+          "cost": 35
+        },
+        {
+          "name": "reagent_fast_miner",
+          "item": {
+            "id": "neovitae:reagent_fast_miner",
+            "count": 1
+          },
+          "cost": 35
+        },
+        {
+          "name": "reagent_air",
+          "item": {
+            "id": "neovitae:reagent_air",
+            "count": 1
+          },
+          "cost": 35
+        },
+        {
+          "name": "dark_power_gem",
+          "item": {
+            "id": "evilcraft:dark_power_gem",
+            "count": 4
+          },
+          "cost": 30
+        },
+        {
+          "name": "dark_blood_brick",
+          "item": {
+            "id": "evilcraft:dark_blood_brick",
+            "count": 16
+          },
+          "cost": 60
+        },
+        {
+          "name": "undead_sapling",
+          "item": {
+            "id": "evilcraft:undead_sapling",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "vengeance_essence",
+          "item": {
+            "id": "evilcraft:vengeance_essence",
+            "count": 2
+          },
+          "cost": 80
+        },
+        {
+          "name": "spiritus_gem_petty",
+          "item": {
+            "id": "neovitae:spiritus_gem_petty",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "simple_key",
+          "item": {
+            "id": "neovitae:simple_key",
+            "count": 1
+          },
+          "cost": 60
+        },
+        {
+          "name": "blood_pearl_of_teleportation",
+          "item": {
+            "id": "evilcraft:blood_pearl_of_teleportation",
+            "count": 1
+          },
+          "cost": 150,
+          "max_claims": 1
+        }
+      ]
+    }
+  ]
+}

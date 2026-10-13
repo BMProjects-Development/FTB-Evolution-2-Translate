@@ -1,0 +1,26 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftbarmory:aurichalcum_ingot",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:aeternium_capacitor",
+      "count": 1
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:refined_t4_fluid_source",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:aurichalcum_capacitor"
+    }
+  ],
+  "ticks": 18000,
+  "energy_per_tick": 1000000
+}

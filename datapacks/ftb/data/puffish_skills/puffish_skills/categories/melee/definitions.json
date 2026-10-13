@@ -1,0 +1,1850 @@
+﻿{
+	"aegis_cap": {
+		"title": { "translate": "skill.ftb.melee.aegis_cap.title" },
+		"description": { "translate": "skill.ftb.melee.aegis_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_beam_royal_3.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_recovery", "value": 0.02, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:day_damage", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:max_health", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"axes_hub": {
+		"title": { "translate": "skill.ftb.melee.axes_hub.title" },
+		"description": { "translate": "skill.ftb.melee.axes_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justdirethings:celestigem_axe" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"bastion_cap": {
+		"title": { "translate": "skill.ftb.melee.bastion_cap.title" },
+		"description": { "translate": "skill.ftb.melee.bastion_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/oritech_ultimatearmor.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_stun", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_mastery", "value": 2.5, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:knockback_resistance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"berserker_cap": {
+		"title": { "translate": "skill.ftb.melee.berserker_cap.title" },
+		"description": { "translate": "skill.ftb.melee.berserker_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_phoenix_fire_2.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_frenzy", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_desperation", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:bloodlust", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"brawler_cap": {
+		"title": { "translate": "skill.ftb.melee.brawler_cap.title" },
+		"description": { "translate": "skill.ftb.melee.brawler_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_fury.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:unarmed_kill_heal", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:faster_strikes", "value": 0.02, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:unarmed_ramp", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"melee_root": {
+		"title": { "translate": "skill.ftb.melee.melee_root.title" },
+		"description": { "translate": "skill.ftb.melee.melee_root.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/gear_locked.png", "available": "ftbevolution:textures/skills/frames/available/gear_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/gear_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/combat_roll_arrow.png" } },
+		"size": 2.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "combat_roll:count", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"dragoon_cap": {
+		"title": { "translate": "skill.ftb.melee.dragoon_cap.title" },
+		"description": { "translate": "skill.ftb.melee.dragoon_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:aurichalcum_spear" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_radius", "value": 2.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_damage", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:dragoon", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:phalanx", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_cooldown", "value": 0.2, "operation": "addition" } }
+		]
+	},
+
+	"harvester_cap": {
+		"title": { "translate": "skill.ftb.melee.harvester_cap.title" },
+		"description": { "translate": "skill.ftb.melee.harvester_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:aurichalcum_scythe" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:reaping_arc", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:soul_harvest", "value": 1.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:soul_tithe", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"impaler_cap": {
+		"title": { "translate": "skill.ftb.melee.impaler_cap.title" },
+		"description": { "translate": "skill.ftb.melee.impaler_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:aeternium_spear" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:skewer", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:pin", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_reach", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"juggernaut_cap": {
+		"title": { "translate": "skill.ftb.melee.juggernaut_cap.title" },
+		"description": { "translate": "skill.ftb.melee.juggernaut_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/oritech_betterarmor.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:unarmed_resistance", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:combo_punch", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:knockback_resistance", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"ninja_cap": {
+		"title": { "translate": "skill.ftb.melee.ninja_cap.title" },
+		"description": { "translate": "skill.ftb.melee.ninja_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/oritech_cloak.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:backstab", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:stealth", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ninja", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"reaper_cap": {
+		"title": { "translate": "skill.ftb.melee.reaper_cap.title" },
+		"description": { "translate": "skill.ftb.melee.reaper_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:aeternium_scythe" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:reap_rhythm", "value": 1.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:deaths_toll", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:withering_edge", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"scythes_hub": {
+		"title": { "translate": "skill.ftb.melee.scythes_hub.title" },
+		"description": { "translate": "skill.ftb.melee.scythes_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:adamantite_scythe" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:scythe_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:scythe_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"shield_hub": {
+		"title": { "translate": "skill.ftb.melee.shield_hub.title" },
+		"description": { "translate": "skill.ftb.melee.shield_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "animusnv:sentient_shield" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:armor", "value": 2.5, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:knockback_resistance", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"spears_hub": {
+		"title": { "translate": "skill.ftb.melee.spears_hub.title" },
+		"description": { "translate": "skill.ftb.melee.spears_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_spear" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"swords_hub": {
+		"title": { "translate": "skill.ftb.melee.swords_hub.title" },
+		"description": { "translate": "skill.ftb.melee.swords_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "justdirethings:celestigem_sword" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sword_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_chance", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:sword_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"swordsman_cap": {
+		"title": { "translate": "skill.ftb.melee.swordsman_cap.title" },
+		"description": { "translate": "skill.ftb.melee.swordsman_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apotheosis_sword_full.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:sword_block", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:echo_strikes", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shakedown", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:attack_damage", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"unarmed_hub": {
+		"title": { "translate": "skill.ftb.melee.unarmed_hub.title" },
+		"description": { "translate": "skill.ftb.melee.unarmed_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/artifacts_power_glove.png" } },
+		"size": 1.5,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"wargod_cap": {
+		"title": { "translate": "skill.ftb.melee.wargod_cap.title" },
+		"description": { "translate": "skill.ftb.melee.wargod_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_face_red_3.png" } },
+		"size": 2.0,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:dual_wield", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:death_blow", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:attack_damage", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"armor_+1": {
+		"title": { "translate": "skill.ftb.melee.armor_+1.title" },
+		"description": { "translate": "skill.ftb.melee.armor_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "minecraft:textures/gui/sprites/hud/armor_full.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:armor", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"armor_pierce_+0.5": {
+		"title": { "translate": "skill.ftb.melee.armor_pierce_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.armor_pierce_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_sword" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:armor_pierce", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"armor_pierce_+1": {
+		"title": { "translate": "skill.ftb.melee.armor_pierce_+1.title" },
+		"description": { "translate": "skill.ftb.melee.armor_pierce_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_sword" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:armor_pierce", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"armor_pierce_+2.5": {
+		"title": { "translate": "skill.ftb.melee.armor_pierce_+2.5.title" },
+		"description": { "translate": "skill.ftb.melee.armor_pierce_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "weakness" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:armor_pierce", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"armor_shred_+2%": {
+		"title": { "translate": "skill.ftb.melee.armor_shred_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.armor_shred_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_sundering.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:armor_shred", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"armor_shred_+5%": {
+		"title": { "translate": "skill.ftb.melee.armor_shred_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.armor_shred_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_sundering.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:armor_shred", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"armor_shred_+10%": {
+		"title": { "translate": "skill.ftb.melee.armor_shred_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.armor_shred_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_sundering.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:armor_shred", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"armor_toughness_+0.5": {
+		"title": { "translate": "skill.ftb.melee.armor_toughness_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.armor_toughness_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:turtle_helmet" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:armor_toughness", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"armor_toughness_+1": {
+		"title": { "translate": "skill.ftb.melee.armor_toughness_+1.title" },
+		"description": { "translate": "skill.ftb.melee.armor_toughness_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_chestplate" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:armor_toughness", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"armor_toughness_+2.5": {
+		"title": { "translate": "skill.ftb.melee.armor_toughness_+2.5.title" },
+		"description": { "translate": "skill.ftb.melee.armor_toughness_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_chestplate" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:armor_toughness", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"attack_speed_+2%": {
+		"title": { "translate": "skill.ftb.melee.attack_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.attack_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "haste" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:attack_speed", "value": 0.02, "operation": "multiply_base" } }
+		]
+	},
+
+	"attack_speed_+5%": {
+		"title": { "translate": "skill.ftb.melee.attack_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.attack_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "haste" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:attack_speed", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"attack_speed_+10%": {
+		"title": { "translate": "skill.ftb.melee.attack_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.attack_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "haste" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:attack_speed", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"axe_damage_+2%": {
+		"title": { "translate": "skill.ftb.melee.axe_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:diamond_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"axe_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.axe_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"axe_damage_+10%": {
+		"title": { "translate": "skill.ftb.melee.axe_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:diamond_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"axe_desperation_+5%": {
+		"title": { "translate": "skill.ftb.melee.axe_desperation_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_desperation_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "regeneration" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_desperation", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"axe_durability_+1": {
+		"title": { "translate": "skill.ftb.melee.axe_durability_+1.title" },
+		"description": { "translate": "skill.ftb.melee.axe_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"axe_frenzy_+10%": {
+		"title": { "translate": "skill.ftb.melee.axe_frenzy_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_frenzy_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "strength" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_frenzy", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"axe_speed_+2%": {
+		"title": { "translate": "skill.ftb.melee.axe_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"axe_speed_+5%": {
+		"title": { "translate": "skill.ftb.melee.axe_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"axe_speed_+10%": {
+		"title": { "translate": "skill.ftb.melee.axe_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.axe_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"backstab_+10%": {
+		"title": { "translate": "skill.ftb.melee.backstab_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.backstab_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "pantryforblockheads:knife" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:backstab", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"blademaster_+1": {
+		"title": { "translate": "skill.ftb.melee.blademaster_+1.title" },
+		"description": { "translate": "skill.ftb.melee.blademaster_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_bleeding.png" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:blademaster", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"bloodlust_+1": {
+		"title": { "translate": "skill.ftb.melee.bloodlust_+1.title" },
+		"description": { "translate": "skill.ftb.melee.bloodlust_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:redstone" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:bloodlust", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"cheat_death_+1": {
+		"title": { "translate": "skill.ftb.melee.cheat_death_+1.title" },
+		"description": { "translate": "skill.ftb.melee.cheat_death_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:totem_of_undying" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:cheat_death", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"combo_punch_+10%": {
+		"title": { "translate": "skill.ftb.melee.combo_punch_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.combo_punch_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_etherium_placeholder.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:combo_punch", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"crit_chance_+2%": {
+		"title": { "translate": "skill.ftb.melee.crit_chance_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.crit_chance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_detonation.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_chance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"crit_chance_+5%": {
+		"title": { "translate": "skill.ftb.melee.crit_chance_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.crit_chance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_detonation.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_chance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"crit_chance_+10%": {
+		"title": { "translate": "skill.ftb.melee.crit_chance_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.crit_chance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_detonation.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_chance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"crit_damage_+2%": {
+		"title": { "translate": "skill.ftb.melee.crit_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.crit_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:diamond_sword" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"crit_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.crit_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.crit_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:diamond_sword" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"crit_damage_+10%": {
+		"title": { "translate": "skill.ftb.melee.crit_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.crit_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:diamond_sword" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:crit_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"current_hp_damage_+2%": {
+		"title": { "translate": "skill.ftb.melee.current_hp_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.current_hp_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wither_skeleton_skull" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:current_hp_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"current_hp_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.current_hp_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.current_hp_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "instant_damage" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:current_hp_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"current_hp_damage_+10%": {
+		"title": { "translate": "skill.ftb.melee.current_hp_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.current_hp_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "instant_damage" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:current_hp_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"damage_reflection_+2%": {
+		"title": { "translate": "skill.ftb.melee.damage_reflection_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.damage_reflection_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:shield" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:damage_reflection", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"damage_reflection_+5%": {
+		"title": { "translate": "skill.ftb.melee.damage_reflection_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.damage_reflection_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_reflect.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:damage_reflection", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"damage_reflection_+10%": {
+		"title": { "translate": "skill.ftb.melee.damage_reflection_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.damage_reflection_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:shield" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:damage_reflection", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"day_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.day_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.day_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_effect_power.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:day_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"death_blow_+25%": {
+		"title": { "translate": "skill.ftb.melee.death_blow_+25%.title" },
+		"description": { "translate": "skill.ftb.melee.death_blow_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wither_skeleton_skull" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:death_blow", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"deaths_toll_+2%": {
+		"title": { "translate": "skill.ftb.melee.deaths_toll_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.deaths_toll_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wither_skeleton_skull" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:deaths_toll", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"dragoon_+5%": {
+		"title": { "translate": "skill.ftb.melee.dragoon_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.dragoon_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:phantom_membrane" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:dragoon", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_cooldown", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"dual_wield_+10%": {
+		"title": { "translate": "skill.ftb.melee.dual_wield_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.dual_wield_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_axe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:dual_wield", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"echo_strikes_+5%": {
+		"title": { "translate": "skill.ftb.melee.echo_strikes_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.echo_strikes_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_sword_blue_2.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:echo_strikes", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"entity_interaction_range_+1": {
+		"title": { "translate": "skill.ftb.melee.entity_interaction_range_+1.title" },
+		"description": { "translate": "skill.ftb.melee.entity_interaction_range_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/oritech_weaponreach.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:entity_interaction_range", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"entity_interaction_range_+2%": {
+		"title": { "translate": "skill.ftb.melee.entity_interaction_range_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.entity_interaction_range_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spyglass" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:entity_interaction_range", "value": 0.02, "operation": "multiply_base" } }
+		]
+	},
+
+	"entity_interaction_range_+5%": {
+		"title": { "translate": "skill.ftb.melee.entity_interaction_range_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.entity_interaction_range_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spyglass" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:entity_interaction_range", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"entity_interaction_range_+10%": {
+		"title": { "translate": "skill.ftb.melee.entity_interaction_range_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.entity_interaction_range_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spyglass" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:entity_interaction_range", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"experience_gained_+2%": {
+		"title": { "translate": "skill.ftb.melee.experience_gained_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.experience_gained_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"experience_gained_+5%": {
+		"title": { "translate": "skill.ftb.melee.experience_gained_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.experience_gained_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"experience_gained_+10%": {
+		"title": { "translate": "skill.ftb.melee.experience_gained_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.experience_gained_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:experience_gained", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"faster_strikes_+2%": {
+		"title": { "translate": "skill.ftb.melee.faster_strikes_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.faster_strikes_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/curios_empty_hands_slot.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:faster_strikes", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"fire_damage_+0.5": {
+		"title": { "translate": "skill.ftb.melee.fire_damage_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.fire_damage_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:blaze_powder" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:fire_damage", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"fire_damage_+1": {
+		"title": { "translate": "skill.ftb.melee.fire_damage_+1.title" },
+		"description": { "translate": "skill.ftb.melee.fire_damage_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:blaze_powder" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:fire_damage", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"fire_damage_+2.5": {
+		"title": { "translate": "skill.ftb.melee.fire_damage_+2.5.title" },
+		"description": { "translate": "skill.ftb.melee.fire_damage_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:blaze_powder" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:fire_damage", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"ground_slam_+100%": {
+		"title": { "translate": "skill.ftb.melee.ground_slam_+100%.title" },
+		"description": { "translate": "skill.ftb.melee.ground_slam_+100%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/neovitae_grounded.png" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ground_slam", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"healing_+2%": {
+		"title": { "translate": "skill.ftb.melee.healing_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.healing_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "instant_health" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:healing", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"healing_+5%": {
+		"title": { "translate": "skill.ftb.melee.healing_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.healing_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "instant_health" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:healing", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"healing_+10%": {
+		"title": { "translate": "skill.ftb.melee.healing_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.healing_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_heal.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:healing", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"knockback_resistance_+2%": {
+		"title": { "translate": "skill.ftb.melee.knockback_resistance_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.knockback_resistance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:knockback_resistance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"knockback_resistance_+5%": {
+		"title": { "translate": "skill.ftb.melee.knockback_resistance_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.knockback_resistance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:knockback_resistance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"knockback_resistance_+10%": {
+		"title": { "translate": "skill.ftb.melee.knockback_resistance_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.knockback_resistance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_boots" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:knockback_resistance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"lancer_+1": {
+		"title": { "translate": "skill.ftb.melee.lancer_+1.title" },
+		"description": { "translate": "skill.ftb.melee.lancer_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:aurichalcum_spear" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"lancer_radius_+1": {
+		"title": { "translate": "skill.ftb.melee.lancer_radius_+1.title" },
+		"description": { "translate": "skill.ftb.melee.lancer_radius_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:mace" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_radius", "value": 1.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_damage", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"lancer_radius_+2": {
+		"title": { "translate": "skill.ftb.melee.lancer_radius_+2.title" },
+		"description": { "translate": "skill.ftb.melee.lancer_radius_+2.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:mace" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_radius", "value": 2.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_damage", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"life_steal_+2%": {
+		"title": { "translate": "skill.ftb.melee.life_steal_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.life_steal_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:vampiric_glove" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:life_steal", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"life_steal_+5%": {
+		"title": { "translate": "skill.ftb.melee.life_steal_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.life_steal_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:vampiric_glove" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:life_steal", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"life_steal_+10%": {
+		"title": { "translate": "skill.ftb.melee.life_steal_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.life_steal_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:vampiric_glove" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:life_steal", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"lightning_strikes_+1": {
+		"title": { "translate": "skill.ftb.melee.lightning_strikes_+1.title" },
+		"description": { "translate": "skill.ftb.melee.lightning_strikes_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_lightning_eerie_2.png" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lightning_strikes", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"lights_shield_+1": {
+		"title": { "translate": "skill.ftb.melee.lights_shield_+1.title" },
+		"description": { "translate": "skill.ftb.melee.lights_shield_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_heart_royal_3.png" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lights_shield", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"luck_+0.5": {
+		"title": { "translate": "skill.ftb.melee.luck_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.luck_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "luck" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:luck", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"luck_+1": {
+		"title": { "translate": "skill.ftb.melee.luck_+1.title" },
+		"description": { "translate": "skill.ftb.melee.luck_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "luck" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:luck", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"max_health_+1": {
+		"title": { "translate": "skill.ftb.melee.max_health_+1.title" },
+		"description": { "translate": "skill.ftb.melee.max_health_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "health_boost" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:max_health", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"max_health_+2%": {
+		"title": { "translate": "skill.ftb.melee.max_health_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.max_health_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "health_boost" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:max_health", "value": 0.02, "operation": "multiply_base" } }
+		]
+	},
+
+	"max_health_+2.5": {
+		"title": { "translate": "skill.ftb.melee.max_health_+2.5.title" },
+		"description": { "translate": "skill.ftb.melee.max_health_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "health_boost" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:max_health", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"max_health_+5%": {
+		"title": { "translate": "skill.ftb.melee.max_health_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.max_health_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "health_boost" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:max_health", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"max_health_+10%": {
+		"title": { "translate": "skill.ftb.melee.max_health_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.max_health_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "health_boost" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:max_health", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"melee_damage_+2%": {
+		"title": { "translate": "skill.ftb.melee.melee_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.melee_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "strength" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"melee_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.melee_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.melee_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:leather_helmet" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"melee_damage_+10%": {
+		"title": { "translate": "skill.ftb.melee.melee_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.melee_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "strength" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"melee_resistance_+2%": {
+		"title": { "translate": "skill.ftb.melee.melee_resistance_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.melee_resistance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "resistance" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_resistance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"melee_resistance_+5%": {
+		"title": { "translate": "skill.ftb.melee.melee_resistance_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.melee_resistance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:leather" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_resistance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"melee_resistance_+10%": {
+		"title": { "translate": "skill.ftb.melee.melee_resistance_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.melee_resistance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_chestplate" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_resistance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"natural_regeneration_+2%": {
+		"title": { "translate": "skill.ftb.melee.natural_regeneration_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.natural_regeneration_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:glistering_melon_slice" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:natural_regeneration", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"natural_regeneration_+5%": {
+		"title": { "translate": "skill.ftb.melee.natural_regeneration_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.natural_regeneration_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:glistering_melon_slice" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:natural_regeneration", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"natural_regeneration_+10%": {
+		"title": { "translate": "skill.ftb.melee.natural_regeneration_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.natural_regeneration_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "regeneration" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:natural_regeneration", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"night_damage_+10%": {
+		"title": { "translate": "skill.ftb.melee.night_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.night_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "night_vision" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:night_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ninja_+5": {
+		"title": { "translate": "skill.ftb.melee.ninja_+5.title" },
+		"description": { "translate": "skill.ftb.melee.ninja_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "artifacts:scarf_of_invisibility" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ninja", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"overheal_+2%": {
+		"title": { "translate": "skill.ftb.melee.overheal_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.overheal_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_apple" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:overheal", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"overheal_+5%": {
+		"title": { "translate": "skill.ftb.melee.overheal_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.overheal_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_apple" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:overheal", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"overheal_+10%": {
+		"title": { "translate": "skill.ftb.melee.overheal_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.overheal_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_apple" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:overheal", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"overheal_+25%": {
+		"title": { "translate": "skill.ftb.melee.overheal_+25%.title" },
+		"description": { "translate": "skill.ftb.melee.overheal_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_apple" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:overheal", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"phalanx_+5%": {
+		"title": { "translate": "skill.ftb.melee.phalanx_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.phalanx_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:shield" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:phalanx", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"phalanx_+10%": {
+		"title": { "translate": "skill.ftb.melee.phalanx_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.phalanx_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:shield" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:phalanx", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"piercing_strike_+1": {
+		"title": { "translate": "skill.ftb.melee.piercing_strike_+1.title" },
+		"description": { "translate": "skill.ftb.melee.piercing_strike_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_talent.png" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:piercing_strike", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"pin_+5%": {
+		"title": { "translate": "skill.ftb.melee.pin_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.pin_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:cobweb" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:pin", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"pin_+10%": {
+		"title": { "translate": "skill.ftb.melee.pin_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.pin_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:cobweb" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:pin", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"prot_pierce_+0.5": {
+		"title": { "translate": "skill.ftb.melee.prot_pierce_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.prot_pierce_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "weakness" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:prot_pierce", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"prot_pierce_+1": {
+		"title": { "translate": "skill.ftb.melee.prot_pierce_+1.title" },
+		"description": { "translate": "skill.ftb.melee.prot_pierce_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "weakness" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:prot_pierce", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"prot_pierce_+2.5": {
+		"title": { "translate": "skill.ftb.melee.prot_pierce_+2.5.title" },
+		"description": { "translate": "skill.ftb.melee.prot_pierce_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "weakness" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:prot_pierce", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"prot_shred_+2%": {
+		"title": { "translate": "skill.ftb.melee.prot_shred_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.prot_shred_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_sundering.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:prot_shred", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"prot_shred_+5%": {
+		"title": { "translate": "skill.ftb.melee.prot_shred_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.prot_shred_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:shears" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:prot_shred", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"prot_shred_+10%": {
+		"title": { "translate": "skill.ftb.melee.prot_shred_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.prot_shred_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_attributes_sundering.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:prot_shred", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ranged_resistance_+2%": {
+		"title": { "translate": "skill.ftb.melee.ranged_resistance_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.ranged_resistance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:leather_chestplate" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_resistance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"ranged_resistance_+5%": {
+		"title": { "translate": "skill.ftb.melee.ranged_resistance_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.ranged_resistance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "absorption" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_resistance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"ranged_resistance_+10%": {
+		"title": { "translate": "skill.ftb.melee.ranged_resistance_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.ranged_resistance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:leather_chestplate" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_resistance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"reaping_arc_+10%": {
+		"title": { "translate": "skill.ftb.melee.reaping_arc_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.reaping_arc_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_hoe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:reaping_arc", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"reaping_arc_+25%": {
+		"title": { "translate": "skill.ftb.melee.reaping_arc_+25%.title" },
+		"description": { "translate": "skill.ftb.melee.reaping_arc_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:netherite_hoe" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:reaping_arc", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"repair_cost_-2%": {
+		"title": { "translate": "skill.ftb.melee.repair_cost_-2%.title" },
+		"description": { "translate": "skill.ftb.melee.repair_cost_-2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:grindstone" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:repair_cost", "value": -0.02, "operation": "addition" } }
+		]
+	},
+
+	"repair_cost_-5%": {
+		"title": { "translate": "skill.ftb.melee.repair_cost_-5%.title" },
+		"description": { "translate": "skill.ftb.melee.repair_cost_-5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:grindstone" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:repair_cost", "value": -0.05, "operation": "addition" } }
+		]
+	},
+
+	"repair_cost_-10%": {
+		"title": { "translate": "skill.ftb.melee.repair_cost_-10%.title" },
+		"description": { "translate": "skill.ftb.melee.repair_cost_-10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:repair_cost", "value": -0.1, "operation": "addition" } }
+		]
+	},
+
+	"resistance_+2%": {
+		"title": { "translate": "skill.ftb.melee.resistance_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.resistance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "resistance" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:resistance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"resistance_+5%": {
+		"title": { "translate": "skill.ftb.melee.resistance_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.resistance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "resistance" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:resistance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"resistance_+10%": {
+		"title": { "translate": "skill.ftb.melee.resistance_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.resistance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "resistance" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:resistance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"riposte_+1": {
+		"title": { "translate": "skill.ftb.melee.riposte_+1.title" },
+		"description": { "translate": "skill.ftb.melee.riposte_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:golden_sword" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:riposte", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"scythe_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.scythe_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.scythe_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "ftbarmory:adamantite_scythe" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:scythe_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"scythe_durability_+1": {
+		"title": { "translate": "skill.ftb.melee.scythe_durability_+1.title" },
+		"description": { "translate": "skill.ftb.melee.scythe_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:scythe_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"shadow_step_+1": {
+		"title": { "translate": "skill.ftb.melee.shadow_step_+1.title" },
+		"description": { "translate": "skill.ftb.melee.shadow_step_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:ender_pearl" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shadow_step", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"shakedown_+5%": {
+		"title": { "translate": "skill.ftb.melee.shakedown_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.shakedown_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:emerald" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shakedown", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"shield_durability_+1": {
+		"title": { "translate": "skill.ftb.melee.shield_durability_+1.title" },
+		"description": { "translate": "skill.ftb.melee.shield_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"shield_mastery_+1": {
+		"title": { "translate": "skill.ftb.melee.shield_mastery_+1.title" },
+		"description": { "translate": "skill.ftb.melee.shield_mastery_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_shield_royal_3.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_mastery", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"shield_mastery_+2.5": {
+		"title": { "translate": "skill.ftb.melee.shield_mastery_+2.5.title" },
+		"description": { "translate": "skill.ftb.melee.shield_mastery_+2.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_shield_royal_3.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_mastery", "value": 2.5, "operation": "addition" } }
+		]
+	},
+
+	"shield_recovery_+2%": {
+		"title": { "translate": "skill.ftb.melee.shield_recovery_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.shield_recovery_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_shield_orange_3.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_recovery", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"shield_stun_+10%": {
+		"title": { "translate": "skill.ftb.melee.shield_stun_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.shield_stun_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "slowness" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:shield_stun", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"skewer_+5%": {
+		"title": { "translate": "skill.ftb.melee.skewer_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.skewer_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:pointed_dripstone" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:skewer", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"soul_harvest_+0.5": {
+		"title": { "translate": "skill.ftb.melee.soul_harvest_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.soul_harvest_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:soul_lantern" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:soul_harvest", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"soul_tithe_+5%": {
+		"title": { "translate": "skill.ftb.melee.soul_tithe_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.soul_tithe_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:experience_bottle" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:soul_tithe", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"spear_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.spear_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.spear_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_spear" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"spear_distance_+5%": {
+		"title": { "translate": "skill.ftb.melee.spear_distance_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.spear_distance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:diamond_spear" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_distance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"spear_durability_+1": {
+		"title": { "translate": "skill.ftb.melee.spear_durability_+1.title" },
+		"description": { "translate": "skill.ftb.melee.spear_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"spear_reach_+0.5": {
+		"title": { "translate": "skill.ftb.melee.spear_reach_+0.5.title" },
+		"description": { "translate": "skill.ftb.melee.spear_reach_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:end_rod" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_reach", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"stealth_+10%": {
+		"title": { "translate": "skill.ftb.melee.stealth_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.stealth_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "invisibility" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:stealth", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"sword_block_+25%": {
+		"title": { "translate": "skill.ftb.melee.sword_block_+25%.title" },
+		"description": { "translate": "skill.ftb.melee.sword_block_+25%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:shield" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:sword_block", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"sword_damage_+2%": {
+		"title": { "translate": "skill.ftb.melee.sword_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.sword_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "strength" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sword_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"sword_damage_+5%": {
+		"title": { "translate": "skill.ftb.melee.sword_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.sword_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:iron_sword" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sword_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"sword_damage_+10%": {
+		"title": { "translate": "skill.ftb.melee.sword_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.sword_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "strength" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sword_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"sword_durability_+1": {
+		"title": { "translate": "skill.ftb.melee.sword_durability_+1.title" },
+		"description": { "translate": "skill.ftb.melee.sword_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:sword_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"unarmed_damage_+1": {
+		"title": { "translate": "skill.ftb.melee.unarmed_damage_+1.title" },
+		"description": { "translate": "skill.ftb.melee.unarmed_damage_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/apothic_compats_showy_gloves.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "animusnv:unarmed_damage", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"unarmed_kill_heal_+2%": {
+		"title": { "translate": "skill.ftb.melee.unarmed_kill_heal_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.unarmed_kill_heal_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "evilcraft:condensed_blood" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:unarmed_kill_heal", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"unarmed_ramp_+2%": {
+		"title": { "translate": "skill.ftb.melee.unarmed_ramp_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.unarmed_ramp_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_fury.png" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:unarmed_ramp", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"unarmed_resistance_+2%": {
+		"title": { "translate": "skill.ftb.melee.unarmed_resistance_+2%.title" },
+		"description": { "translate": "skill.ftb.melee.unarmed_resistance_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "effect", "data": { "effect": "resistance" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:unarmed_resistance", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"withering_edge_+5%": {
+		"title": { "translate": "skill.ftb.melee.withering_edge_+5%.title" },
+		"description": { "translate": "skill.ftb.melee.withering_edge_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wither_rose" } },
+		"size": 0.75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:withering_edge", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"withering_edge_+10%": {
+		"title": { "translate": "skill.ftb.melee.withering_edge_+10%.title" },
+		"description": { "translate": "skill.ftb.melee.withering_edge_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wither_rose" } },
+		"size": 1.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:withering_edge", "value": 0.1, "operation": "addition" } }
+		]
+	}
+}

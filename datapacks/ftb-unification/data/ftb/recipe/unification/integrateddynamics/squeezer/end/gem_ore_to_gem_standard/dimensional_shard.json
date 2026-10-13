@@ -1,0 +1,19 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "ftbmaterials:dimensional_shard_end_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:dimensional_shard_gem",
+        "count": 4
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:dimensional_shard_gem",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ]
+}

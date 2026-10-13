@@ -1,0 +1,2077 @@
+{
+  id: "3245BD68AFC769AB",
+  group: "4780068BA76609B8",
+  order_index: 13,
+  icon: {
+    id: "stellaris:rocket",
+    count: 1,
+  },
+  filename: "stellaris",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "6EB0B9691B5A733B",
+  quests: [
+    {
+      icon: {
+        id: "ftbmaterials:titanium_ingot",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      can_repeat: false,
+      id: "6EB0B9691B5A733B",
+      tasks: [
+        {
+          id: "260FC9160DFCC9C9",
+          type: "item",
+          item: {
+            id: "ftbmaterials:titanium_ingot",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "7B5B7C58DFE7E061",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "0DBA6DEADFCDE051",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:tablet",
+        count: 1,
+      },
+      x: 1.5,
+      y: -1.5,
+      dependencies: [
+        "6EB0B9691B5A733B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4FE1E26A7C5491C4",
+      tasks: [
+        {
+          id: "4AA908C483880471",
+          type: "item",
+          item: {
+            id: "stellaris:tablet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52D7DEEEDDF38072",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "30F82E45339A6D33",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:titanium_pickaxe",
+        count: 1,
+      },
+      x: 1.5,
+      y: 1.5,
+      dependencies: [
+        "6EB0B9691B5A733B",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "7E33FAE9B28F310C",
+      tasks: [
+        {
+          id: "2BDB317BBDF61981",
+          type: "item",
+          item: {
+            id: "stellaris:titanium_pickaxe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17F63493F0CC2C16",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:cable_t1",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      dependencies: [
+        "6EB0B9691B5A733B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "108F8B84B41B78DD",
+      tasks: [
+        {
+          id: "4BD5B01BE676D029",
+          type: "item",
+          item: {
+            id: "stellaris:cable_t1",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "3CB067EF6E2E159B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5577B7F1C71BB1AF",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:coal_generator",
+        count: 1,
+      },
+      x: 4.5,
+      y: -1.0,
+      dependencies: [
+        "108F8B84B41B78DD",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5AFF8C443EA3B023",
+      tasks: [
+        {
+          id: "01B0EEE089FEB553",
+          type: "item",
+          item: {
+            id: "stellaris:coal_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47A70D8883C494F5",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7E5BEE8DAA200B8E",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:solar_panel",
+        count: 1,
+      },
+      x: 4.5,
+      y: 1.0,
+      dependencies: [
+        "108F8B84B41B78DD",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6D3E46EA2429C2B6",
+      tasks: [
+        {
+          id: "6F9FE85C95F0E0B9",
+          type: "item",
+          item: {
+            id: "stellaris:solar_panel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F94221B9D1E0F9F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "48EC78650ECA0320",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:power_bank_t1",
+        count: 1,
+      },
+      x: 6.5,
+      y: 0.0,
+      dependencies: [
+        "5AFF8C443EA3B023",
+        "6D3E46EA2429C2B6",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      can_repeat: false,
+      id: "115BB85719D018FA",
+      tasks: [
+        {
+          id: "26263BBA40A1EF68",
+          type: "item",
+          item: {
+            id: "stellaris:power_bank_t1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D251BD59EAECA92",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0A8850F0416AD81D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:electric_light",
+        count: 1,
+      },
+      x: 6.5,
+      y: 1.5,
+      dependencies: [
+        "115BB85719D018FA",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "726DF52FC142855E",
+      tasks: [
+        {
+          id: "3653DC7DF2912490",
+          type: "item",
+          item: {
+            id: "stellaris:electric_light",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "52F6E985536D0AA1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:blender",
+        count: 1,
+      },
+      x: 8.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "115BB85719D018FA",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "1FD2A6DDDD6FC1DC",
+      tasks: [
+        {
+          id: "2E227BD546F253AF",
+          type: "item",
+          item: {
+            id: "stellaris:blender",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "191D97C744BBAE47",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "69E695DE574BB8EE",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbmaterials:silicon_gem",
+        count: 1,
+      },
+      x: 10.5,
+      y: 0.0,
+      dependencies: [
+        "1FD2A6DDDD6FC1DC",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5464B241C8AF9F7A",
+      tasks: [
+        {
+          id: "78FB32F00EC6FA59",
+          type: "item",
+          item: {
+            id: "ftbmaterials:silicon_gem",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "51E81BE1BF1CB02F",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "71A8B3AD3C6F6D76",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:engineering_station",
+        count: 1,
+      },
+      x: 12.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "5464B241C8AF9F7A",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "3AE1DC8405E8B7BE",
+      tasks: [
+        {
+          id: "2EAB6A9555090458",
+          type: "item",
+          item: {
+            id: "stellaris:engineering_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21882E0C59881DB4",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "1C1538E5C7D4E7B6",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:oil_finder",
+        count: 1,
+      },
+      x: 10.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "5464B241C8AF9F7A",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "6B965F82617C0CBB",
+      tasks: [
+        {
+          id: "42DF39C2860CBD02",
+          type: "item",
+          item: {
+            id: "stellaris:oil_finder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4364C1EB9B9AACD8",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7AF8BE528CA2DDF0",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:pumpjack",
+        count: 1,
+      },
+      x: 12.5,
+      y: -4.0,
+      dependencies: [
+        "6B965F82617C0CBB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "74FDEE7DD7AD56DA",
+      tasks: [
+        {
+          id: "0C4A99E1032B1790",
+          type: "item",
+          item: {
+            id: "stellaris:pumpjack",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60162BDF0C393D1C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4F6747A4C80DBC48",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:fluid_tank_t1",
+        count: 1,
+      },
+      x: 12.5,
+      y: -2.0,
+      dependencies: [
+        "6B965F82617C0CBB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "427907D696C3BAF6",
+      tasks: [
+        {
+          id: "23006E667B5D0604",
+          type: "item",
+          item: {
+            id: "stellaris:fluid_tank_t1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "306363A560957C0D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "23F425094A026293",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:fuel_refinery",
+        count: 1,
+      },
+      x: 14.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "74FDEE7DD7AD56DA",
+        "427907D696C3BAF6",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "21619170E62020C5",
+      tasks: [
+        {
+          id: "335A12AAE8222D3E",
+          type: "item",
+          item: {
+            id: "stellaris:fuel_refinery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BD29879DBDBBAB9",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "70BD85D8AC4BFAE9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:diesel_generator",
+        count: 1,
+      },
+      x: 16.5,
+      y: -4.0,
+      dependencies: [
+        "21619170E62020C5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "36F9ED9391019396",
+      tasks: [
+        {
+          id: "79B38ADCFFEF62DC",
+          type: "item",
+          item: {
+            id: "stellaris:diesel_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63303A8F9FCB7AC0",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "29E2D89F2136CA38",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:fluid_cell",
+        count: 1,
+      },
+      x: 16.5,
+      y: -2.0,
+      dependencies: [
+        "21619170E62020C5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "239E5D0B9EB0DC98",
+      tasks: [
+        {
+          id: "17DD13BF5A1DC3A3",
+          type: "item",
+          item: {
+            id: "stellaris:fluid_cell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5438A53EFEF01B6F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5F2AF321669EC376",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:rover",
+        count: 1,
+      },
+      x: 18.5,
+      y: -4.0,
+      dependencies: [
+        "36F9ED9391019396",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "4972AB9FD8CE627E",
+      tasks: [
+        {
+          id: "2126AD154592BEE2",
+          type: "item",
+          item: {
+            id: "stellaris:rover",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "776E6DE431C03E65",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:pipe_t1",
+        count: 1,
+      },
+      x: 10.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "5464B241C8AF9F7A",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "009F038271462E29",
+      tasks: [
+        {
+          id: "3E8A4EEB3BECE3C8",
+          type: "item",
+          item: {
+            id: "stellaris:pipe_t1",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "0E8E0EB4E056E441",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "13DEEC5DF10B9D31",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:water_pump",
+        count: 1,
+      },
+      x: 10.5,
+      y: 4.5,
+      dependencies: [
+        "009F038271462E29",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "11DCEA26B9BA0EC2",
+      tasks: [
+        {
+          id: "39C48AC616890D0A",
+          type: "item",
+          item: {
+            id: "stellaris:water_pump",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B66A54B71018EEC",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "066A46C540ACAC31",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:electrolyzer",
+        count: 1,
+      },
+      x: 10.5,
+      y: 6.5,
+      dependencies: [
+        "11DCEA26B9BA0EC2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0E87E42788050B42",
+      tasks: [
+        {
+          id: "72F12D578D664E5B",
+          type: "item",
+          item: {
+            id: "stellaris:electrolyzer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B23E54801C5B70D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0D957E2183C27157",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:oxygen_distributor",
+        count: 1,
+      },
+      x: 12.5,
+      y: 6.5,
+      shape: "hexagon",
+      dependencies: [
+        "0E87E42788050B42",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "5D751D7FE140340D",
+      tasks: [
+        {
+          id: "3A6DCD8E3CCF41B5",
+          type: "item",
+          item: {
+            id: "stellaris:oxygen_distributor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5CFA57DD36970D22",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0A5905DFB516F326",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:oxygen_propagator",
+        count: 1,
+      },
+      x: 14.5,
+      y: 7.0,
+      dependencies: [
+        "5D751D7FE140340D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "72FC7BAA5713948A",
+      tasks: [
+        {
+          id: "009EB6FA6638BD1B",
+          type: "item",
+          item: {
+            id: "stellaris:oxygen_propagator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F8DD8DA6095F03D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "157EE58038F36EC9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_farm",
+        count: 1,
+      },
+      x: 14.5,
+      y: 6.0,
+      dependencies: [
+        "5D751D7FE140340D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "381894100844F900",
+      tasks: [
+        {
+          id: "31B38DE4A49AA180",
+          type: "item",
+          item: {
+            id: "stellaris:space_farm",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "77B8F0EF3B746ED5",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "60F2231CB4AAAE0D",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:vacuumator",
+        count: 1,
+      },
+      x: 12.5,
+      y: 8.5,
+      dependencies: [
+        "5D751D7FE140340D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "099D3C63BA8A85D9",
+      tasks: [
+        {
+          id: "1C3CC579CE317FA5",
+          type: "item",
+          item: {
+            id: "stellaris:vacuumator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "193F8BE80DFFD1A9",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4D2A7826AFC88ECF",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:big_lime_can",
+        count: 1,
+      },
+      x: 14.5,
+      y: 8.5,
+      dependencies: [
+        "099D3C63BA8A85D9",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2245CFED83908481",
+      tasks: [
+        {
+          id: "240601914FC4D949",
+          type: "item",
+          icon: {
+            id: "stellaris:lime_can",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(stellaris:can)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65883016D50CCFA7",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "73E55B668F5A45CA",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_suit_chestplate",
+        count: 1,
+      },
+      x: 12.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "3AE1DC8405E8B7BE",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "0D72E2956CD421AB",
+      tasks: [
+        {
+          id: "17A3A63BD605A990",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "4EC2ADBC8EB60403",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "173F66F1D6BDC375",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "2590512FFD72C37C",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "658EB373D0008DD6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "310F28A2783B5B15",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_suit_oxygen_module_tier_1",
+        count: 1,
+      },
+      x: 14.5,
+      y: 2.0,
+      dependencies: [
+        "0D72E2956CD421AB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "751C9ACFF61D9B4A",
+      tasks: [
+        {
+          id: "118C0EB3ED306FEF",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_oxygen_module_tier_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74BE6378216F5837",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "24BE0C49128D3AFB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_suit_jet_module_tier_1",
+        count: 1,
+      },
+      x: 14.5,
+      y: 3.0,
+      dependencies: [
+        "0D72E2956CD421AB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4A227306FB8A083A",
+      tasks: [
+        {
+          id: "24F7F9B89E2A33D1",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_jet_module_tier_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E56EBC15D49D50E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6E0CF335C01763AE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_suit_damage_protection_module_tier_1",
+        count: 1,
+      },
+      x: 16.5,
+      y: 2.0,
+      dependencies: [
+        "751C9ACFF61D9B4A",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "353A4A8D9B1F1535",
+      tasks: [
+        {
+          id: "56E78CDF5B70A567",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_damage_protection_module_tier_1",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BC7D38604C89E5C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:rocket_engine",
+        count: 1,
+      },
+      x: 14.5,
+      y: 0.0,
+      dependencies: [
+        "3AE1DC8405E8B7BE",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "48793376ABF73D9D",
+      tasks: [
+        {
+          id: "553A893475A69062",
+          type: "item",
+          item: {
+            id: "stellaris:rocket_nose_cone",
+            count: 1,
+          },
+        },
+        {
+          id: "6D31E393A13E03B4",
+          type: "item",
+          item: {
+            id: "stellaris:rocket_fin",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "22C3CD698D011553",
+          type: "item",
+          item: {
+            id: "stellaris:rocket_engine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3BAF2B400442FE00",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "37320A9C95AA47FD",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:rocket",
+        count: 1,
+      },
+      x: 16.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "48793376ABF73D9D",
+        "239E5D0B9EB0DC98",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "7157F03A8C8B2F48",
+      tasks: [
+        {
+          id: "53ACC644D6D1EE2F",
+          type: "item",
+          item: {
+            id: "stellaris:rocket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "763A8BAF2C70D00C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "331F013A7C3F861A",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:rocket_launch_pad",
+        count: 1,
+      },
+      x: 19.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "7157F03A8C8B2F48",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "2224FF79816EE5A1",
+      tasks: [
+        {
+          id: "13A3F226E0D24588",
+          type: "item",
+          item: {
+            id: "stellaris:rocket_launch_pad",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D970C932B21AB94",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "61876F3F936E52D7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:launch_pad_towers",
+        count: 1,
+      },
+      x: 19.0,
+      y: -2.0,
+      dependencies: [
+        "2224FF79816EE5A1",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2AB8372D4923EB79",
+      tasks: [
+        {
+          id: "5C5AA3922A4B5DE3",
+          type: "item",
+          item: {
+            id: "stellaris:launch_pad_towers",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F4186481916C26B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:antenna",
+        count: 1,
+      },
+      x: 19.5,
+      y: 1.5,
+      dependencies: [
+        "2224FF79816EE5A1",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "29B8507F3604F167",
+      tasks: [
+        {
+          id: "13221821B9EA1BB7",
+          type: "item",
+          item: {
+            id: "stellaris:antenna",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FE6893C11B190CF",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "10A49E9813C17942",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:cargo_unloader",
+        count: 1,
+      },
+      x: 18.5,
+      y: 1.5,
+      dependencies: [
+        "2224FF79816EE5A1",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "050D217525CEB718",
+      tasks: [
+        {
+          id: "1D87A5C3D48DAB93",
+          type: "item",
+          item: {
+            id: "stellaris:cargo_unloader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6444F3E3E6D1CD2A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1B2A774FB787A722",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:moon_sand",
+        count: 1,
+      },
+      x: 21.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "2224FF79816EE5A1",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "26652F9A9F60025A",
+      tasks: [
+        {
+          id: "4FB1C3F9980BC8A9",
+          type: "dimension",
+          dimension: "stellaris:moon",
+        },
+      ],
+      rewards: [
+        {
+          id: "1F1447B9A4654C4F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6114062BCCF55D5F",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:desh_ingot",
+        count: 1,
+      },
+      x: 23.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "26652F9A9F60025A",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "00498F1DCBF49DEB",
+      tasks: [
+        {
+          id: "79820D2EA2C6BFC4",
+          type: "item",
+          item: {
+            id: "stellaris:desh_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "294E16D3B3C5B2D3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "658A2BD48B1CA7AF",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:blue_plasma",
+        count: 1,
+      },
+      x: 23.5,
+      y: 0.0,
+      dependencies: [
+        "26652F9A9F60025A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3BD96A538ABED8BB",
+      tasks: [
+        {
+          id: "3D7B0692C1A7CC07",
+          type: "item",
+          item: {
+            id: "stellaris:blue_liquid_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "6C1914A8A33CD09E",
+          type: "item",
+          item: {
+            id: "stellaris:blue_plasma",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "7B620092E46BCB56",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "214E5F1950856A25",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:parasite",
+        count: 1,
+      },
+      x: 23.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "26652F9A9F60025A",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "60992E5D06C1A1C7",
+      tasks: [
+        {
+          id: "1DF53E539C0FB918",
+          type: "kill",
+          icon: {
+            id: "stellaris:parasite",
+            count: 1,
+          },
+          entity: "stellaris:lunar_parasite",
+          value: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "0668AFC3B4AF8122",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0805E5E8EF38BB0B",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:gravity_manipulator",
+        count: 1,
+      },
+      x: 25.5,
+      y: -4.0,
+      dependencies: [
+        "00498F1DCBF49DEB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "7246368D781AF664",
+      tasks: [
+        {
+          id: "01003811A10C3803",
+          type: "item",
+          item: {
+            id: "stellaris:gravity_manipulator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E66BA83BFC34622",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "314C643B217F7300",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_suit_oxygen_module_tier_2",
+        count: 1,
+      },
+      x: 25.5,
+      y: -2.0,
+      dependencies: [
+        "00498F1DCBF49DEB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "09982FE8CD1BAB6F",
+      tasks: [
+        {
+          id: "30F3BC40678172A2",
+          type: "item",
+          item: {
+            id: "stellaris:space_suit_oxygen_module_tier_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C43B9655C885F07",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1AE3A7676993DB32",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:star_light_panel",
+        count: 1,
+      },
+      x: 25.5,
+      y: 0.0,
+      dependencies: [
+        "00498F1DCBF49DEB",
+        "3BD96A538ABED8BB",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1FB6C3DDFB1760C3",
+      tasks: [
+        {
+          id: "04021B95A971A089",
+          type: "item",
+          item: {
+            id: "stellaris:star_light_panel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "48EA383B97ECB480",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "392C8C011FE6EEF3",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:pathogen_storage_cell",
+        count: 1,
+      },
+      x: 25.5,
+      y: 2.0,
+      dependencies: [
+        "60992E5D06C1A1C7",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "39A64273C8627542",
+      tasks: [
+        {
+          id: "436DACF39D8AEF95",
+          type: "item",
+          item: {
+            id: "stellaris:pathogen_storage_cell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69074EDFD3F2C3AC",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1BE2FDD3749FF95B",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:laboratory",
+        count: 1,
+      },
+      x: 27.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "39A64273C8627542",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "7908A372EC4E1475",
+      tasks: [
+        {
+          id: "3F045A0BFB951349",
+          type: "item",
+          item: {
+            id: "stellaris:laboratory",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "09B1B1C9F601672F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0CA288BE7F3A412B",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:vaccine",
+        count: 1,
+      },
+      x: 29.5,
+      y: 1.5,
+      dependencies: [
+        "7908A372EC4E1475",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "103D7E501EA6144B",
+      tasks: [
+        {
+          id: "0A30B154D3086ED9",
+          type: "item",
+          item: {
+            id: "stellaris:vaccine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50407F5F4E999401",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2D14A2710DD070FF",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:sd_card",
+        count: 1,
+      },
+      x: 29.5,
+      y: 2.5,
+      dependencies: [
+        "7908A372EC4E1475",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "6DA7B8D6730BA6E5",
+      tasks: [
+        {
+          id: "1A9955EE462530FB",
+          type: "item",
+          item: {
+            id: "stellaris:sd_card",
+            count: 1,
+          },
+          count: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "4F901E5F52495E10",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:star_crawler_boss_trophy",
+        count: 1,
+      },
+      x: 31.5,
+      y: 1.0,
+      dependencies: [
+        "103D7E501EA6144B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "494E845D8A649A95",
+      tasks: [
+        {
+          id: "0A295B1A95E90E0C",
+          type: "kill",
+          icon: {
+            id: "stellaris:star_crawler_boss_trophy",
+            count: 1,
+          },
+          entity: "stellaris:star_crawler_boss",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "3596F3F4AFB1ECD5",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "359E19B2627124EF",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:heart_of_luna_trophy",
+        count: 1,
+      },
+      x: 31.5,
+      y: 2.0,
+      dependencies: [
+        "103D7E501EA6144B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4F33BBD62C89D3D1",
+      tasks: [
+        {
+          id: "0EA52DE6A7B02E38",
+          type: "kill",
+          icon: {
+            id: "stellaris:heart_of_luna_trophy",
+            count: 1,
+          },
+          entity: "stellaris:heart_of_luna",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "1BA9103C0DA5407A",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "3BBA87908F196CDA",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:space_station_blueprint",
+        count: 1,
+      },
+      x: 27.5,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "7246368D781AF664",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "41979A3605EC64E2",
+      tasks: [
+        {
+          id: "63F4AD561574303B",
+          type: "item",
+          item: {
+            id: "stellaris:space_station_blueprint",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6981BE8DFEF649EE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "65656D29B28A528D",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "stellaris:earth_globe",
+        count: 1,
+      },
+      x: 29.5,
+      y: -4.0,
+      dependencies: [
+        "41979A3605EC64E2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "66D1271DB83E2207",
+      tasks: [
+        {
+          id: "089E197AF341E15B",
+          type: "dimension",
+          dimension: "stellaris:earth_orbit",
+        },
+      ],
+      rewards: [
+        {
+          id: "035BAED864B5F7DA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "54C78FEDE64BE9ED",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -5.5,
+      width: 4.9,
+      height: 4.4,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/stellaris_logo.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "6EB0B9691B5A733B",
+      },
+      id: "71F6B827C544E69E",
+    },
+    {
+      x: 6.25,
+      y: -5.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 16.0,
+      image: "stellaris:item/desh_ingot",
+      id: "0549F099D648847F",
+    },
+    {
+      x: 5.5,
+      y: 5.5,
+      width: 2.6,
+      height: 2.6,
+      rotation: -8.0,
+      image: "ftbmaterials:item/silicon_gem",
+      id: "1D5F3093CE520035",
+    },
+    {
+      x: 14.5,
+      y: -7.0,
+      width: 3.6,
+      height: 3.6,
+      rotation: 22.0,
+      image: "stellaris:block/moon_stone",
+      id: "14A9BDB759D1BC42",
+    },
+    {
+      x: 17.0,
+      y: 6.5,
+      width: 2.6,
+      height: 2.6,
+      rotation: -12.0,
+      image: "stellaris:item/sd_card",
+      id: "533EB3627E71E55D",
+    },
+    {
+      x: 27.5,
+      y: 4.5,
+      width: 2.8,
+      height: 2.8,
+      rotation: 10.0,
+      image: "stellaris:item/lunar_parasite_tooth",
+      id: "7C2D095D44328769",
+    },
+    {
+      x: 23.0,
+      y: -6.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: -14.0,
+      image: "stellaris:item/rocket",
+      id: "3A3A4658BC47DF7C",
+    },
+  ],
+}

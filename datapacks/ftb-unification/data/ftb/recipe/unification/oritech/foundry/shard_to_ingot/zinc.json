@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:zinc_shard",
+    "ftbmaterials:zinc_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:zinc_ingot"
+    }
+  ],
+  "time": 80
+}

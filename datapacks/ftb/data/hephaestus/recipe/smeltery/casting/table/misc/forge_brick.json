@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:ingot_cast",
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 36,
+    "id": "hephaestus:molten_seared_stone"
+  },
+  "result": {
+    "id": "hephaestus:forge_brick"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "ftb:evolution/finders_keepers",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.helping_hands.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.helping_hands.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

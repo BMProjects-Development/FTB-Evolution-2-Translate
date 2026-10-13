@@ -1,0 +1,9 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ftb:oil_residue",
+  "output_fluid": {
+    "id": "oritech:still_oil",
+    "amount": 125
+  },
+  "duration": 15
+}

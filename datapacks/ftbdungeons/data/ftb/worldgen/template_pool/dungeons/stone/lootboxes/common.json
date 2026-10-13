@@ -1,0 +1,15 @@
+{
+  "name": "ftb:dungeons/stone/lootboxes/common",
+  "fallback": "ftb:dungeons/stone/lootboxes/common",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/lootbox/common/124",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "#c:ores/uraninite_dense",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "result": {
+      "id": "powah:uraninite"
+    }
+  }
+}

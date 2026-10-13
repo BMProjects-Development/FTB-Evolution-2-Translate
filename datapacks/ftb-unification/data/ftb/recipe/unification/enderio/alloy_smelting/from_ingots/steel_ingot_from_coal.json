@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "ftbic:industrial_grade_metal"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ftbic:steel_ingot"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "thaumaturge:arcane_workbench_shaped": [
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/1",
+      "action": {
+        "field": "1",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/2",
+      "action": {
+        "field": "2",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/3",
+      "action": {
+        "field": "3",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/4",
+      "action": {
+        "field": "4",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/5",
+      "action": {
+        "field": "5",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/6",
+      "action": {
+        "field": "6",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/A",
+      "action": {
+        "field": "A",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/B",
+      "action": {
+        "field": "B",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/C",
+      "action": {
+        "field": "C",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/D",
+      "action": {
+        "field": "D",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/E",
+      "action": {
+        "field": "E",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/F",
+      "action": {
+        "field": "F",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/G",
+      "action": {
+        "field": "G",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/H",
+      "action": {
+        "field": "H",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/I",
+      "action": {
+        "field": "I",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/J",
+      "action": {
+        "field": "J",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/L",
+      "action": {
+        "field": "L",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/M",
+      "action": {
+        "field": "M",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/N",
+      "action": {
+        "field": "N",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/P",
+      "action": {
+        "field": "P",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/Q",
+      "action": {
+        "field": "Q",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/R",
+      "action": {
+        "field": "R",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/S",
+      "action": {
+        "field": "S",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/T",
+      "action": {
+        "field": "T",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/V",
+      "action": {
+        "field": "V",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "key/W",
+      "action": {
+        "field": "W",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "thaumaturge:infusion": [
+    {
+      "path": "catalyst",
+      "action": {
+        "field": "catalyst",
+        "output_value": "<item_or_tag_map>"
+      }
+    },
+    {
+      "path": "components",
+      "action": {
+        "field": "components",
+        "output_value": "<item_or_tag_map>"
+      }
+    },
+    {
+      "path": "result/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

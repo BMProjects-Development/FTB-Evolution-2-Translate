@@ -1,0 +1,19 @@
+{
+  "advancements.apotheosis.progression.frontier.criteria.skyline": "Obtain the FTB Skyline",
+  "advancements.apotheosis.progression.ascent.criteria.previous_tier": "Unlock the Frontier World Tier",
+  "advancements.apotheosis.progression.summit.criteria.previous_tier": "Unlock the Ascent World Tier",
+  "advancements.apotheosis.progression.pinnacle.criteria.previous_tier": "Unlock the Summit World Tier",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_helm": "Equip an Uncommon Helmet with at least 2 Armor Toughness",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_chest": "Equip an Uncommon Chestplate with at least 2 Armor Toughness",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_legs": "Equip Uncommon Leggings with at least 2 Armor Toughness",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_feet": "Equip Uncommon Boots with at least 2 Armor Toughness",
+  "advancements.apotheosis.progression.summit.criteria.rare_helm": "Equip a Rare Helmet with at least 3 Armor Toughness",
+  "advancements.apotheosis.progression.summit.criteria.rare_chest": "Equip a Rare Chestplate with at least 3 Armor Toughness",
+  "advancements.apotheosis.progression.summit.criteria.rare_legs": "Equip Rare Leggings with at least 3 Armor Toughness",
+  "advancements.apotheosis.progression.summit.criteria.rare_feet": "Equip Rare Boots with at least 3 Armor Toughness",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_helm": "Equip an Epic Helmet with at least 4 Armor Toughness",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_chest": "Equip an Epic Chestplate with at least 4 Armor Toughness",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_legs": "Equip Epic Leggings with at least 4 Armor Toughness",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_feet": "Equip Epic Boots with at least 4 Armor Toughness",
+  "misc.apotheosis.aurichalcum": "aurichalcum"
+}

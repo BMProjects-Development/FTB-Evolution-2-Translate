@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"witchery:belladonna_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"neovitae:ara_vitae"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbevolutioncompanion:ftb_skyline"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

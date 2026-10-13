@@ -1,0 +1,51 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "ltxi:fabricating",
+  "energy_required": 20000000,
+  "group": "1/armor.1",
+  "item_inputs": [
+    {
+      "count": 2,
+      "ingredient": "ltxi:t3_circuit"
+    },
+    {
+      "count": 32,
+      "ingredient": "#c:plates/titanium"
+    },
+    {
+      "count": 16,
+      "ingredient": "#c:plates/slatesteel"
+    },
+    {
+      "count": 24,
+      "ingredient": "ltxi:fluoropolymer_sheet"
+    },
+    {
+      "count": 8,
+      "ingredient": "ltxi:silicone_rubber"
+    },
+    {
+      "count": 2,
+      "ingredient": "ltxi:medium_voltaic_cell"
+    },
+    {
+      "count": 2,
+      "ingredient": "ltxi:optical_tech_part"
+    }
+  ],
+  "result": {
+    "components": {
+      "ltxi:upgrades": {
+        "ltxi:armor_defense": 1,
+        "ltxi:armor_passive_shield": 1,
+        "ltxi:default/wonderland_head": 1
+      }
+    },
+    "count": 1,
+    "id": "ltxi:wonderland_head"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:redstone_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 16,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,270 @@
+{
+  "id": "ftb:jewler",
+  "title": {
+    "translate": "ftb.shopkeeper.jewler",
+    "color": "light_purple"
+  },
+  "model": {
+    "villager_data": {
+      "type": "taiga",
+      "profession": "librarian",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.jewler",
+        "color": "light_purple"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:jewler_wares",
+      "shop_unlock": [
+        {
+          "name": "book",
+          "item": {
+            "id": "minecraft:book",
+            "count": 16
+          },
+          "cost": 10
+        },
+        {
+          "name": "lapis_lazuli",
+          "item": {
+            "id": "minecraft:lapis_lazuli",
+            "count": 16
+          },
+          "cost": 10
+        },
+        {
+          "name": "scrap_tome",
+          "item": {
+            "id": "apothic_enchanting:scrap_tome",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "extraction_tome",
+          "item": {
+            "id": "apothic_enchanting:extraction_tome",
+            "count": 1
+          },
+          "cost": 120
+        },
+        {
+          "name": "recipe_rhinestone_amulet",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:rhinestone_amulet"
+            }
+          },
+          "cost": 80
+        },
+        {
+          "name": "recipe_sharpshooter_loop",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop"
+            }
+          },
+          "cost": 20
+        },
+        {
+          "name": "recipe_tearstone_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:tearstone_ring"
+            }
+          },
+          "cost": 120
+        },
+        {
+          "name": "recipe_superior_gemset_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:superior_gemset_ring"
+            }
+          },
+          "cost": 120
+        },
+        {
+          "name": "recipe_stalwart_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:stalwart_ring"
+            }
+          },
+          "cost": 25
+        },
+        {
+          "name": "recipe_improved_gemset_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:improved_gemset_ring"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "recipe_piglin_signet_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:piglin_signet_ring"
+            }
+          },
+          "cost": 20
+        },
+        {
+          "name": "recipe_haggler_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:haggler_ring"
+            }
+          },
+          "cost": 20
+        },
+        {
+          "name": "recipe_duality_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:duality_ring"
+            }
+          },
+          "cost": 120
+        },
+        {
+          "name": "recipe_duality_necklace",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:duality_necklace"
+            }
+          },
+          "cost": 120
+        },
+        {
+          "name": "recipe_barbed_band",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:barbed_band"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "recipe_bane_ring",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:bane_ring"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "recipe_amulet_of_protection",
+          "item": {
+            "id": "irons_jewelry:recipe",
+            "count": 1,
+            "components": {
+              "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection"
+            }
+          },
+          "cost": 40
+        },
+        {
+          "name": "enchanted_book_mystical_enlightenment",
+          "item": {
+            "id": "minecraft:enchanted_book",
+            "count": 1,
+            "components": {
+              "minecraft:stored_enchantments": {
+                "mysticalagriculture:mystical_enlightenment": 1
+              }
+            }
+          },
+          "cost": 150,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "gem_dust",
+          "item": {
+            "id": "apotheosis:gem_dust",
+            "count": 4
+          },
+          "cost": 40
+        },
+        {
+          "name": "gem_case",
+          "item": {
+            "id": "apotheosis:gem_case",
+            "count": 1
+          },
+          "cost": 60
+        },
+        {
+          "name": "sigil_of_socketing",
+          "item": {
+            "id": "apotheosis:sigil_of_socketing",
+            "count": 1
+          },
+          "cost": 150,
+          "max_claims": 2
+        },
+        {
+          "name": "sigil_of_withdrawal",
+          "item": {
+            "id": "apotheosis:sigil_of_withdrawal",
+            "count": 1
+          },
+          "cost": 120,
+          "max_claims": 2
+        },
+        {
+          "name": "sigil_of_unnaming",
+          "item": {
+            "id": "apotheosis:sigil_of_unnaming",
+            "count": 1
+          },
+          "cost": 120,
+          "max_claims": 2
+        },
+        {
+          "name": "experience_bottle",
+          "item": {
+            "id": "minecraft:experience_bottle",
+            "count": 8
+          },
+          "cost": 40
+        }
+      ]
+    }
+  ]
+}

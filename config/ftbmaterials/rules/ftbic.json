@@ -1,0 +1,71 @@
+{
+  "ftbic:canning": [
+    {
+      "path": "inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "outputs/item/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ftbic:compressing": [
+    {
+      "path": "inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "outputs/item/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ],
+  "ftbic:separating": [
+    {
+      "path": "inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "inputs/ingredient",
+      "action": {
+        "field": "ingredient",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "outputs/item/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

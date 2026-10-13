@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "enderio:grains_of_infinity",
+    "I": "#c:ingots/iron",
+    "N": "#c:nuggets/iron"
+  },
+  "pattern": [
+    "NIN",
+    "IGI",
+    "NIN"
+  ],
+  "result": {
+    "id": "ftbmaterials:iron_gear"
+  }
+}

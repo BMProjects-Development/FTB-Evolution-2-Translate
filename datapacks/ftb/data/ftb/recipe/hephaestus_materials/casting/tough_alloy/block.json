@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "colossal_reactors:molten_tough_alloy"
+  },
+  "result": {
+    "id": "colossal_reactors:tough_alloy_block"
+  }
+}

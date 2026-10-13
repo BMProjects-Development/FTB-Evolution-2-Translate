@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:enchantable/durability"
+  ],
+  "remove": [
+    "mysticalagriculture:infusion_crystal"
+  ]
+}

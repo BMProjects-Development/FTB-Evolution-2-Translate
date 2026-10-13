@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snout_armor_trim_smithing_template",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_brick",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_banner_pattern",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_pigstep",
+          "weight": 7
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "occultism:entities/possessed_hoglin"
+}

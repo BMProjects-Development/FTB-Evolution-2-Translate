@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/chromium"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:chromium_dust"
+    }
+  ],
+  "time": 100
+}

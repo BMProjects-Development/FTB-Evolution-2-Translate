@@ -1,0 +1,43 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:quantum_alloy_lattice",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:composite_hull_plating",
+      "count": 4
+    },
+    {
+      "ingredient": "ftbarmory:adamantite_block",
+      "count": 4
+    },
+    {
+      "ingredient": "hephaestus:cobalt_block",
+      "count": 4
+    },
+    {
+      "ingredient": "ftbic:advanced_alloy",
+      "count": 16
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:unstable_portal_fluid_source",
+      "amount": 8000
+    },
+    {
+      "id": "justdirethings:polymorphic_fluid_source",
+      "amount": 8000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:tectonic_ingot",
+      "count": 2
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 300000
+}

@@ -1,0 +1,138 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level^3.432 + 500, 10000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_jump": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.jump"
+								}
+							}
+						]
+					},
+					"is_sprint": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.sprint_one_cm"
+								}
+							}
+						]
+					},
+					"is_swim": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.swim_one_cm"
+								}
+							}
+						]
+					},
+					"is_climb": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.climb_one_cm"
+								}
+							}
+						]
+					},
+					"is_fish": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.fish_caught"
+								}
+							}
+						]
+					},
+					"is_starcatcher_fish": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:starcatcher.starcaught_fish"
+								}
+							}
+						]
+					},
+					"is_lucky_zone_win": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:ftb.lucky_zone_minigames_won"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_jump",
+						"expression": "1"
+					},
+					{
+						"condition": "is_sprint",
+						"expression": "0.5"
+					},
+					{
+						"condition": "is_climb",
+						"expression": "0.5"
+					},
+					{
+						"condition": "is_swim",
+						"expression": "0.1"
+					},
+					{
+						"condition": "is_fish",
+						"expression": "5"
+					},
+					{
+						"condition": "is_starcatcher_fish",
+						"expression": "10"
+					},
+					{
+						"condition": "is_lucky_zone_win",
+						"expression": "10"
+					}
+				]
+			}
+		}
+	]
+}

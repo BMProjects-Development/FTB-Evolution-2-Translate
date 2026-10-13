@@ -1,0 +1,735 @@
+[
+  {
+    "name": "iron",
+    "color": "#D8AF93",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:iron_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iron",
+    "raw_tag": "c:raw_materials/iron",
+    "ingot_tag": "c:ingots/iron",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "gold",
+    "color": "#FCEE4B",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:gold_ingot",
+    "smelt_xp": 1.0,
+    "ore_tag": "c:ores/gold",
+    "raw_tag": "c:raw_materials/gold",
+    "ingot_tag": "c:ingots/gold",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "copper",
+    "color": "#E77C56",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:copper_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/copper",
+    "raw_tag": "c:raw_materials/copper",
+    "ingot_tag": "c:ingots/copper",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "netherite_scrap",
+    "color": "#755045",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:netherite_scrap",
+    "smelt_xp": 2.0,
+    "display_name": "Ancient Debris",
+    "id_overrides": {
+      "gravel": "gravel_netherite_scrap",
+      "fragment": "fragment_netherite_scrap"
+    },
+    "dust_yield_from_ore": 3,
+    "extra_ore_items": [
+      "minecraft:ancient_debris"
+    ],
+    "extra_raw_items": [
+      "minecraft:netherite_scrap"
+    ],
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "demonite",
+    "color": "#8CBFB5",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_xp": 0.0,
+    "raw_tag": "c:raw_materials/hellforged",
+    "alias_tags": {
+      "gravel": [
+        "hellforged"
+      ],
+      "fragment": [
+        "hellforged"
+      ]
+    },
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "hellforged",
+    "color": "#99D6CB",
+    "stages": [
+      "dust"
+    ],
+    "smelt_to": "neovitae:ingot_hellforged",
+    "smelt_xp": 1.0,
+    "ingot_tag": "c:ingots/hellforged",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "xycraft_world:xychorium_gem_blue",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/xychorium",
+    "ingot_tag": "c:gems/xychorium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "dark_gem",
+    "color": "#482150",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "evilcraft:dark_gem",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/dark_gem",
+    "ingot_tag": "c:gems/dark_gem",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "nickel",
+    "color": "#7C7E5C",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:nickel_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/nickel",
+    "raw_tag": "c:raw_materials/nickel",
+    "ingot_tag": "c:ingots/nickel",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:nickel_stone_ore",
+    "gen_raw": "ftbmaterials:nickel_raw_ore"
+  },
+  {
+    "name": "tin",
+    "color": "#BAC8DA",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:tin_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/tin",
+    "raw_tag": "c:raw_materials/tin",
+    "ingot_tag": "c:ingots/tin",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:tin_stone_ore",
+    "gen_raw": "ftbmaterials:tin_raw_ore"
+  },
+  {
+    "name": "diamond",
+    "color": "#1ED0D6",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:diamond",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/diamond",
+    "ingot_tag": "c:gems/diamond",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "sunstone",
+    "color": "#06030B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "arsmagicalegacy:sunstone",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/sunstone",
+    "ingot_tag": "c:gems/sunstone",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "niobium",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "ltxi:niobium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/niobium",
+    "raw_tag": "c:raw_materials/niobium",
+    "ingot_tag": "c:ingots/niobium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "lead",
+    "color": "#4B4752",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:lead_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/lead",
+    "raw_tag": "c:raw_materials/lead",
+    "ingot_tag": "c:ingots/lead",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:lead_stone_ore",
+    "gen_raw": "ftbmaterials:lead_raw_ore"
+  },
+  {
+    "name": "chromium",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:chromium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/chromium",
+    "raw_tag": "c:raw_materials/chromium",
+    "ingot_tag": "c:ingots/chromium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": "ftbmaterials:chromium_raw_ore"
+  },
+  {
+    "name": "inferium",
+    "color": "#748E00",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "mysticalagriculture:inferium_essence",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/inferium",
+    "ingot_tag": "c:ingots/inferium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "aluminum",
+    "color": "#6595B8",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:aluminum_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/aluminum",
+    "raw_tag": "c:raw_materials/aluminum",
+    "ingot_tag": "c:ingots/aluminum",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:aluminum_stone_ore",
+    "gen_raw": "ftbmaterials:aluminum_raw_ore"
+  },
+  {
+    "name": "silver",
+    "color": "#9DB8CB",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:silver_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/silver",
+    "raw_tag": "c:raw_materials/silver",
+    "ingot_tag": "c:ingots/silver",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:silver_stone_ore",
+    "gen_raw": "ftbmaterials:silver_raw_ore"
+  },
+  {
+    "name": "emerald",
+    "color": "#007B18",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:emerald",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/emerald",
+    "ingot_tag": "c:gems/emerald",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "moonstone",
+    "color": "#95AABB",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "arsmagicalegacy:moonstone",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/moonstone",
+    "ingot_tag": "c:gems/moonstone",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "topaz",
+    "color": "#5295C2",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "arsmagicalegacy:topaz",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/topaz",
+    "ingot_tag": "c:gems/topaz",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "coal",
+    "color": "#393C36",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:coal",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/coal",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "prosperity",
+    "color": "#597777",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "mysticalagriculture:prosperity_shard",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/prosperity",
+    "ingot_tag": "c:ingots/prosperity",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uranium",
+    "color": "#3C874A",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:uranium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/uranium",
+    "raw_tag": "c:raw_materials/uranium",
+    "ingot_tag": "c:ingots/uranium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:uranium_stone_ore",
+    "gen_raw": "ftbmaterials:uranium_raw_ore"
+  },
+  {
+    "name": "chimerite",
+    "color": "#ABB47B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "arsmagicalegacy:chimerite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/chimerite",
+    "ingot_tag": "c:gems/chimerite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "lapis",
+    "color": "#446FDC",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:lapis_lazuli",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/lapis",
+    "ingot_tag": "c:gems/lapis",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uraninite",
+    "color": "#008350",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/uraninite",
+    "raw_tag": "c:raw_materials/uraninite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "iridium",
+    "color": "#859489",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:iridium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iridium",
+    "raw_tag": "c:raw_materials/iridium",
+    "ingot_tag": "c:ingots/iridium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:iridium_stone_ore",
+    "gen_raw": "ftbmaterials:iridium_raw_ore"
+  },
+  {
+    "name": "titanium",
+    "color": "#947BAB",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "ftbmaterials:titanium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/titanium",
+    "raw_tag": "c:raw_materials/titanium",
+    "ingot_tag": "c:ingots/titanium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:titanium_stone_ore",
+    "gen_raw": "ftbmaterials:titanium_raw_ore"
+  },
+  {
+    "name": "boron",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "colossal_reactors:boron_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/boron",
+    "raw_tag": "c:raw_materials/boron",
+    "ingot_tag": "c:ingots/boron",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "quartz",
+    "color": "#AC716A",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:quartz",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/quartz",
+    "ingot_tag": "c:gems/quartz",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "soulium",
+    "color": "#593322",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "mysticalagriculture:soulium_dust",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/soulium",
+    "ingot_tag": "c:ingots/soulium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "iesnium",
+    "color": "#A2CBCC",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "occultism:iesnium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iesnium",
+    "raw_tag": "c:raw_materials/iesnium",
+    "ingot_tag": "c:ingots/iesnium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "platinum",
+    "color": "#98A2B2",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "ftbmaterials:platinum_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/platinum",
+    "raw_tag": "c:raw_materials/platinum",
+    "ingot_tag": "c:ingots/platinum",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": "ftbmaterials:platinum_raw_ore"
+  },
+  {
+    "name": "celestine",
+    "color": "#2F2F37",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "nodeworks:celestine_shard",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/celestine",
+    "ingot_tag": "c:gems/celestine",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "sulfur",
+    "color": "#B2A339",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/sulfur",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:sulfur_stone_ore",
+    "gen_raw": ""
+  },
+  {
+    "name": "dimensional_shard",
+    "color": "#B3CBD1",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "ftbmaterials:dimensional_shard_gem",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/dimensional_shard",
+    "ingot_tag": "c:gems/dimensional_shard",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:dimensional_shard_stone_ore",
+    "gen_raw": ""
+  },
+  {
+    "name": "novite",
+    "color": "#6E5BD6",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "stellaris:novite_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/novite",
+    "raw_tag": "c:raw_materials/novite",
+    "ingot_tag": "c:ingots/novite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "vinteum",
+    "color": "#3A6FD8",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "arsmagicalegacy:vinteum_dust",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/vinteum",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "cinnabar",
+    "color": "#B8323A",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:cinnabar_gem",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/cinnabar",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:cinnabar_stone_ore",
+    "gen_raw": ""
+  },
+  {
+    "name": "fluorite",
+    "color": "#9A6FD1",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:fluorite_gem",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/fluorite",
+    "ingot_tag": "c:gems/fluorite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "sapphire",
+    "color": "#2E53C8",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "ftbmaterials:sapphire_gem",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/sapphire",
+    "ingot_tag": "c:gems/sapphire",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "ftbmaterials:sapphire_stone_ore",
+    "gen_raw": ""
+  },
+  {
+    "name": "redstone",
+    "color": "#C81E1E",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "minecraft:redstone",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/redstone",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  }
+]

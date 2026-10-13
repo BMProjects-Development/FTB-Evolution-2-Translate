@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/tin"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:tin_dust"
+    }
+  ],
+  "time": 100
+}

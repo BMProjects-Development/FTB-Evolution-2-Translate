@@ -1,0 +1,8 @@
+{
+  "type": "powah:energizing",
+  "energy": 2700000,
+  "ingredients": [
+    "#c:storage_blocks/diamond"
+  ],
+  "result": { "id": "powah:niotic_crystal_block", "count": 1 }
+}

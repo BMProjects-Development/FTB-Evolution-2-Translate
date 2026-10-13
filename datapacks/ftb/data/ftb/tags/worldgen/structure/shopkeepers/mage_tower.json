@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "terralith:mage_tower",
+      "required": false
+    },
+    {
+      "id": "terralith:mage_tower_spring",
+      "required": false
+    },
+    {
+      "id": "terralith:mage_tower_summer",
+      "required": false
+    },
+    {
+      "id": "terralith:mage_tower_autumn",
+      "required": false
+    },
+    {
+      "id": "terralith:mage_tower_winter",
+      "required": false
+    },
+    {
+      "id": "terralith:mage_complex",
+      "required": false
+    }
+  ]
+}

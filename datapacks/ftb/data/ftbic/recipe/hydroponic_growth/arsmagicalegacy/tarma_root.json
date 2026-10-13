@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "arsmagicalegacy:tarma_root"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "arsmagicalegacy:tarma_root"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "arsmagicalegacy:tarma_root"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "id": "arsmagicalegacy:tarma_root"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "minecraft:stone",
+      "speed": 1.0
+    },
+    {
+      "ingredient": "minecraft:deepslate",
+      "speed": 1.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "IEI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass",
+    "E": "minecraft:end_crystal"
+  },
+  "result": {
+    "id": "laserbridges:laser_source_block",
+    "count": 2
+  }
+}

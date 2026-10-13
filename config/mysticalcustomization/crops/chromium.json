@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "tag": "c:ingots/chromium"
+  },
+  "name": "Chromium",
+  "color": "#D1D1D3",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

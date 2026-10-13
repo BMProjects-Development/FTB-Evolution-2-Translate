@@ -1,0 +1,18 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ender_pearls"
+    }
+  ],
+  "result": {
+    "id": "enderio:pulsating_alloy_ingot",
+    "count": 2
+  },
+  "ticks": 480
+}

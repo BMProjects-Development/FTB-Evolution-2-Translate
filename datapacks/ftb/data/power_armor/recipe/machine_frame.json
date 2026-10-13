@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "P": "#c:ingots/iron",
+    "R": "#c:dusts/redstone",
+    "S": "#c:storage_blocks/iron"
+  },
+  "pattern": [
+    "PRP",
+    "RSR",
+    "PRP"
+  ],
+  "result": {
+    "id": "power_armor:machine_frame"
+  }
+}

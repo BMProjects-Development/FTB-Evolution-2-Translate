@@ -1,0 +1,48 @@
+{
+  command_feedback_filtering: {
+    /*
+     * A list of operator who's command usage feedback will be hidden from other operators. This is a list of UUIDs. If this list is empty, the feature is disabled.
+     * Default: []
+     */
+    blacklisted_ops: [
+      "4ecf6284-b1e8-45bb-b2b3-151c95c3b10f",
+      "cc828980-f19c-454d-9505-e8f24402e369",
+      "adb151e1-ccae-4fd6-8a57-513bdb6a0bd4",
+      "28aff13f-51c9-4f63-a5ae-8644db7fc53f",
+      "bb5029b7-9381-4d99-aaa9-106da41aa659",
+      "a2d74ce4-3e79-4f7e-a2c8-04efd45109d4",
+      "537fe67e-1bd3-4b9a-8132-6fad0dcf82a6",
+    ],
+    /*
+     * A list of command feedback keys that will be hidden from operators. This is a list of translation keys which are checked based on their prefix. This means that an entry like commands.give.success would match commands.give.success.single
+     * Default: []
+     */
+    hidden_command_feedback_keys: [
+      "commands.give.success",
+      "commands.gamemode.success",
+      "commands.teleport.success",
+      "commands.spectate.success",
+      "commands.effect.",
+      "commands.enchant.success",
+      "commands.experience.",
+      "commands.clear.success",
+      "commands.kill.success",
+      "commands.damage.success",
+      "commands.summon.success",
+      "commands.setblock.success",
+      "commands.fill.success",
+      "commands.clone.success",
+      "commands.place.",
+      "commands.item.",
+      "commands.data.",
+      "commands.attribute.",
+      "commands.advancement.",
+      "commands.recipe.",
+      "commands.ride.",
+      "commands.time.",
+      "commands.weather.",
+      "commands.tick.",
+      "commands.reload.success",
+    ],
+  },
+}

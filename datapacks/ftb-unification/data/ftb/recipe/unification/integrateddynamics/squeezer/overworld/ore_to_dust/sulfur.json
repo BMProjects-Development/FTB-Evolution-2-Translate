@@ -1,0 +1,24 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "#c:ore_source/overworld/sulfur",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:sulfur_dust",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:sulfur_dust"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:sulfur_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

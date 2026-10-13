@@ -1,0 +1,13 @@
+{
+  "detect": "average",
+  "max": 1000.0,
+  "min": 1000.0,
+  "mob_effect": "nutritional:malnourished",
+  "nutrients": [
+    "nutritional:fruit",
+    "nutritional:grain",
+    "nutritional:protein",
+    "nutritional:vegetable",
+    "nutritional:dairy"
+  ]
+}

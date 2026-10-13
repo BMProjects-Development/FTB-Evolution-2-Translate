@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/gold"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:gold_dust"
+    }
+  ],
+  "time": 100
+}

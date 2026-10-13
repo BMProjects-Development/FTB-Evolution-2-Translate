@@ -1,0 +1,26 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "minecraft:basalt",
+  "result": {
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ],
+    "result": {
+      "id": "minecraft:blackstone"
+    }
+  },
+  "secondaryResult": {
+    "percentages": [
+      0.05
+    ],
+    "percentagesAdvanced": [
+      0.1
+    ],
+    "result": {
+      "id": "ftbmaterials:zinc_dust"
+    }
+  }
+}

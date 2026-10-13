@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/copper"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:copper_dust"
+    }
+  ],
+  "time": 100
+}

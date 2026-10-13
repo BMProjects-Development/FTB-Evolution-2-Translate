@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/other/desh",
+  "result": {
+    "count": 2,
+    "id": "ftbmaterials:desh_dust"
+  },
+  "secondary": {
+    "count": 2,
+    "id": "ftbmaterials:desh_dust"
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

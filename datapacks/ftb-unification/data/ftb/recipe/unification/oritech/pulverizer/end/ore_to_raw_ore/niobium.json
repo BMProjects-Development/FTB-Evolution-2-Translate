@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ltxi:niobium_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "ltxi:raw_niobium"
+    }
+  ],
+  "time": 100
+}

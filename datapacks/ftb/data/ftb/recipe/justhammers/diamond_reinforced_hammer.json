@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "justhammers:reinforced_core",
+  "cast_consumed": true,
+  "cooling_time": 300,
+  "fluid": {
+    "amount": 2430,
+    "id": "hephaestus:molten_diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "justhammers:diamond_reinforced_hammer"
+  }
+}

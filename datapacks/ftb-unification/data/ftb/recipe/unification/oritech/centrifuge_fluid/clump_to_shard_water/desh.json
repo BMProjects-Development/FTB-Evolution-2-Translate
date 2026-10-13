@@ -1,0 +1,17 @@
+{
+  "type": "oritech:centrifuge_fluid",
+  "fluidInput": {
+    "amount": 1000,
+    "ingredient": "minecraft:water"
+  },
+  "itemInputs": [
+    "#c:clumps/desh"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:desh_shard"
+    }
+  ],
+  "time": 150
+}

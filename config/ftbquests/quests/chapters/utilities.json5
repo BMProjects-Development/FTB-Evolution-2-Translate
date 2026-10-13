@@ -1,0 +1,1042 @@
+{
+  id: "119038144C4D62C8",
+  group: "28224E273DBAA255",
+  order_index: 5,
+  icon: {
+    id: "drones:pocket_drone",
+    count: 1,
+  },
+  filename: "utilities",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "54FE9DA77DED738D",
+  quests: [
+    {
+      icon: {
+        id: "drones:pocket_drone",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "54FE9DA77DED738D",
+      tasks: [
+        {
+          id: "573C74227090C44E",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1E3FAA29BED95993",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironfurnaces:iron_furnace",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.5,
+      id: "3FA19D4AC45FB458",
+      tasks: [
+        {
+          id: "4C98C92CB0D205F2",
+          type: "item",
+          item: {
+            id: "ironfurnaces:iron_furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A75FE2007ECA11C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "769D5D46FB1E7AB7",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironfurnaces:item_heater",
+        count: 1,
+      },
+      x: 3.75,
+      y: -1.0,
+      shape: "diamond",
+      dependencies: [
+        "3FA19D4AC45FB458",
+      ],
+      size: 1.0,
+      id: "2C1F53BD5651CE4B",
+      tasks: [
+        {
+          id: "7D9F3698BDEE5E03",
+          type: "item",
+          item: {
+            id: "ironfurnaces:heater",
+            count: 1,
+          },
+        },
+        {
+          id: "3B2803E82BE732B4",
+          type: "item",
+          item: {
+            id: "ironfurnaces:item_heater",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56028B2931216588",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "102576E5F0ABBF47",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironfurnaces:augment_speed",
+        count: 1,
+      },
+      x: 4.25,
+      y: -0.5,
+      shape: "diamond",
+      dependencies: [
+        "3FA19D4AC45FB458",
+      ],
+      size: 1.0,
+      id: "5E261FCD7A5628D4",
+      tasks: [
+        {
+          id: "1A516AF0E3CD29D9",
+          type: "item",
+          item: {
+            id: "ironfurnaces:augment_speed",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38F975968A2797A0",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7B8D2BA2F6646ACC",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironfurnaces:augment_factory",
+        count: 1,
+      },
+      x: 4.25,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "3FA19D4AC45FB458",
+      ],
+      size: 1.0,
+      id: "5A811E99C409699F",
+      tasks: [
+        {
+          id: "29E356928C8FD1D6",
+          type: "item",
+          item: {
+            id: "ironfurnaces:augment_factory",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6244EFCE30B2E39A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "302DC3713A9D4718",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironfurnaces:augment_generator",
+        count: 1,
+      },
+      x: 3.75,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "3FA19D4AC45FB458",
+      ],
+      size: 1.0,
+      id: "766ED9C3C575F83D",
+      tasks: [
+        {
+          id: "6188573310752267",
+          type: "item",
+          item: {
+            id: "ironfurnaces:augment_generator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "546A9E5CB30610AB",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "27B9E345D4EE1906",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ironfurnaces:million_furnace",
+        count: 1,
+      },
+      x: 4.75,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "3FA19D4AC45FB458",
+      ],
+      size: 1.0,
+      id: "78E9F521E6662D31",
+      tasks: [
+        {
+          id: "30303A064EC0741E",
+          type: "item",
+          item: {
+            id: "ironfurnaces:million_furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "243D84B766E1F210",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "3120D500C2970259",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:snad",
+        count: 1,
+      },
+      x: -2.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.5,
+      id: "63911AFF147BA1FD",
+      tasks: [
+        {
+          id: "208125042EBA52C9",
+          type: "item",
+          item: {
+            id: "utilitarian:snad",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C243DC40081EE99",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "35E62291CBB5C823",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:no_soliciting_banner",
+        count: 1,
+      },
+      x: -4.0,
+      y: -1.0,
+      dependencies: [
+        "63911AFF147BA1FD",
+      ],
+      size: 1.0,
+      id: "21252D2D8461718A",
+      tasks: [
+        {
+          id: "4933FF413D767CB4",
+          type: "item",
+          item: {
+            id: "utilitarian:no_soliciting_banner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25CEB84C1F87E284",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2A309D342D9C0999",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:angel_block",
+        count: 1,
+      },
+      x: -5.0,
+      y: -0.5,
+      dependencies: [
+        "63911AFF147BA1FD",
+      ],
+      size: 1.0,
+      id: "4EA93D8996CBCC6F",
+      tasks: [
+        {
+          id: "6847AE30D00076D3",
+          type: "item",
+          item: {
+            id: "utilitarian:angel_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DD73CC58B418E56",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5B6FB6042AA730CA",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:fluid_hopper",
+        count: 1,
+      },
+      x: -4.0,
+      y: 1.0,
+      dependencies: [
+        "63911AFF147BA1FD",
+      ],
+      size: 1.0,
+      id: "66BB02961DF43CB7",
+      tasks: [
+        {
+          id: "520B982E652D7F2F",
+          type: "item",
+          item: {
+            id: "utilitarian:fluid_hopper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71871D7ECB507E6B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "10B3B193823438F6",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:drit",
+        count: 1,
+      },
+      x: -5.0,
+      y: 0.5,
+      dependencies: [
+        "63911AFF147BA1FD",
+      ],
+      size: 1.0,
+      id: "76429142123E3A8D",
+      tasks: [
+        {
+          id: "3D5BA6A3BB85ECBE",
+          type: "item",
+          item: {
+            id: "utilitarian:drit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "258D1910898608BB",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "276529C4BB8C1B98",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "utilitarian:cursed_grrass",
+        count: 1,
+      },
+      x: -6.0,
+      y: 0.5,
+      dependencies: [
+        "76429142123E3A8D",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5CAF581D02976AD3",
+      tasks: [
+        {
+          id: "631F582312A96065",
+          type: "observation",
+          icon: {
+            id: "utilitarian:cursed_grrass",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "utilitarian:cursed_grrass",
+        },
+      ],
+      rewards: [
+        {
+          id: "5037419E560AD3B4",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neosync:shell_constructor",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.5,
+      id: "41392AB326D113C1",
+      tasks: [
+        {
+          id: "499A8B40B07B8C2E",
+          type: "item",
+          item: {
+            id: "neosync:sync_core",
+            count: 1,
+          },
+        },
+        {
+          id: "45476492AD90EBB2",
+          type: "item",
+          item: {
+            id: "neosync:shell_constructor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AEAEEFF16A06476",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "71CBC6A6F31E3EA8",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neosync:treadmill",
+        count: 1,
+      },
+      x: 0.5,
+      y: 4.0,
+      dependencies: [
+        "41392AB326D113C1",
+      ],
+      size: 1.0,
+      id: "5FA54ADB7A454E2D",
+      tasks: [
+        {
+          id: "3D7F1E0AE9854752",
+          type: "item",
+          item: {
+            id: "neosync:treadmill",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64EBE7B5BDC6D443",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "79035D906F6BAC7B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neosync:shell_storage",
+        count: 1,
+      },
+      x: -0.5,
+      y: 4.0,
+      dependencies: [
+        "41392AB326D113C1",
+      ],
+      size: 1.0,
+      id: "4ED6DB305986636C",
+      tasks: [
+        {
+          id: "55380853BCBD4AB5",
+          type: "item",
+          item: {
+            id: "neosync:shell_storage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6FB3380019D3F23C",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3DC6087C9A173471",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neosync:zero_point_shell_storage",
+        count: 1,
+      },
+      x: -0.5,
+      y: 5.0,
+      dependencies: [
+        "4ED6DB305986636C",
+      ],
+      size: 1.0,
+      id: "4EB87209B1EB584E",
+      tasks: [
+        {
+          id: "268CA5AB7E59E1E4",
+          type: "item",
+          item: {
+            id: "neosync:zero_point_shell_constructor",
+            count: 1,
+          },
+        },
+        {
+          id: "7461A7E9D9761D85",
+          type: "item",
+          item: {
+            id: "neosync:zero_point_shell_storage",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7110F393D40EA9FD",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "42F5FDE33B1DC5E5",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "drones:controller",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.5,
+      id: "26EADD4D46542B01",
+      tasks: [
+        {
+          id: "4694AC7DB7C881CA",
+          type: "item",
+          item: {
+            id: "drones:controller",
+            count: 1,
+          },
+        },
+        {
+          id: "795A9B0218818E36",
+          type: "item",
+          item: {
+            id: "drones:frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D2F9AC6BDA9594F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2DF16B75D2561103",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "drones:wood_rotor",
+        count: 1,
+      },
+      x: -0.5,
+      y: -4.0,
+      dependencies: [
+        "26EADD4D46542B01",
+      ],
+      size: 1.0,
+      id: "1A829C51143D3EDA",
+      tasks: [
+        {
+          id: "55998C61066905BC",
+          type: "item",
+          item: {
+            id: "drones:wood_rotor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CB912962F4F7AFA",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "767B8AA17B46CDBA",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "drones:ion_thruster",
+        count: 1,
+      },
+      x: -0.5,
+      y: -5.0,
+      dependencies: [
+        "1A829C51143D3EDA",
+      ],
+      size: 1.0,
+      id: "509D7878283EC7AF",
+      tasks: [
+        {
+          id: "57F41C5406B1F908",
+          type: "item",
+          item: {
+            id: "drones:ion_thruster",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "297E98F21FCA2FB5",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "7E994390EB7C486D",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "drones:drill",
+        count: 1,
+      },
+      x: 0.5,
+      y: -4.0,
+      dependencies: [
+        "26EADD4D46542B01",
+      ],
+      size: 1.0,
+      id: "28035DF778F7D517",
+      tasks: [
+        {
+          id: "470B508D0FFA6769",
+          type: "item",
+          item: {
+            id: "drones:drill",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B87A5813AF7A69E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "37A5F4EAB2CF2FD3",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "elevatorid:elevator_white",
+        count: 1,
+      },
+      x: 1.5,
+      y: -1.5,
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.0,
+      id: "77F457502E8EC957",
+      tasks: [
+        {
+          id: "27AF0228A67846F4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3D36F078C33ABF29",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7961FAEBBF56C3B5",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "crafting_on_a_stick:crafting_table",
+        count: 1,
+      },
+      x: -1.5,
+      y: 1.5,
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.0,
+      id: "2202B2620A3F90D7",
+      tasks: [
+        {
+          id: "3583C42F09BAD32B",
+          type: "item",
+          item: {
+            id: "crafting_on_a_stick:crafting_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BC51CE488F2A088",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "630AD16FB88402C6",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "fertilization:compressed_bonemeal",
+        count: 1,
+      },
+      x: 1.5,
+      y: 1.5,
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.0,
+      id: "348DD697A85D7D46",
+      tasks: [
+        {
+          id: "4871324537914551",
+          type: "item",
+          item: {
+            id: "fertilization:compressed_bonemeal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "75FBA447AE238B37",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2EDBF589E00B8241",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      x: -1.5,
+      y: -1.5,
+      dependencies: [
+        "54FE9DA77DED738D",
+      ],
+      size: 1.0,
+      id: "0B239918FC4D92ED",
+      tasks: [
+        {
+          id: "06CBDACA2745DD73",
+          type: "item",
+          item: {
+            id: "shrink:shrinking_device",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "558BCA3DA9798791",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.7,
+      height: 2.7,
+      rotation: 45.0,
+      image: "utilitarian:block/angel_block",
+      id: "70AE55117CD3CDEB",
+    },
+    {
+      x: 0.0,
+      y: -7.0,
+      width: 8.75,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/utilities_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "54FE9DA77DED738D",
+      },
+      id: "3F11854BD72FD399",
+    },
+    {
+      x: -5.5,
+      y: -6.5,
+      width: 1.6,
+      height: 1.6,
+      rotation: -15.0,
+      image: "drones:item/pocket_drone",
+      id: "1323F996F17CD70E",
+    },
+    {
+      x: 5.5,
+      y: -6.5,
+      width: 1.6,
+      height: 1.6,
+      rotation: 15.0,
+      image: "ironfurnaces:block/netherite_furnace_front_on",
+      id: "48B8125371535AED",
+    },
+    {
+      x: 3.5,
+      y: -3.5,
+      width: 2.2,
+      height: 2.2,
+      rotation: 45.0,
+      image: "drones:block/ion_pulse",
+      id: "4AAAAB90F3DB2211",
+    },
+    {
+      x: -3.5,
+      y: -3.5,
+      width: 2.2,
+      height: 2.2,
+      rotation: -12.0,
+      image: "utilitarian:item/trowel",
+      id: "6D4A12F362BC0CF4",
+    },
+    {
+      x: -3.5,
+      y: 3.5,
+      width: 2.2,
+      height: 2.2,
+      rotation: 12.0,
+      image: "neosync:item/sync_core",
+      id: "71EFF430B0DEA178",
+    },
+    {
+      x: 3.5,
+      y: 3.5,
+      width: 2.2,
+      height: 2.2,
+      rotation: -12.0,
+      image: "fertilization:item/compressed_bonemeal",
+      id: "5CD6F66F4DA5DA7E",
+    },
+  ],
+}

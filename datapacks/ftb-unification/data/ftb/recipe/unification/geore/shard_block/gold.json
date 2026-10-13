@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:gold_shard"
+  },
+  "result": {
+    "id": "geore:gold_block"
+  }
+}

@@ -1,0 +1,511 @@
+{
+  id: "165710BC12C6202A",
+  order_index: 25,
+  icon: {
+    id: "minecraft:spawner",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "4F220BB55CE713AD",
+      item: {
+        id: "enderio:soul_vial",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "7E17093EC843A315",
+      item: {
+        id: "mobflowutilities:fan",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "50382C445BB6B8FC",
+      item: {
+        id: "mobflowutilities:flow_pad_fast",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "164854EFF0EAED86",
+      item: {
+        id: "utilitarian:no_soliciting_banner",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1B767FBB9A584E97",
+      item: {
+        id: "kindredspirits:quokka_snack",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "3B03E87A2915E1AB",
+      item: {
+        id: "kindredspirits:golden_bone",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "786B434B98CF7C1C",
+      item: {
+        id: "mobflowutilities:collector",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "20598803B6F3965A",
+      item: {
+        id: "mobflowutilities:flow_pad_faster",
+        count: 1,
+      },
+      count: 12,
+      weight: 5.0,
+    },
+    {
+      id: "2CB34A3E7EDD2DBD",
+      item: {
+        id: "mobflowutilities:fan_distance_increase_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6781F1289E2ABCF9",
+      item: {
+        id: "mobflowutilities:fan_height_increase_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3706B6ECBEF0F8AB",
+      item: {
+        id: "mobflowutilities:fan_width_increase_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "4DBC27D70A4AA242",
+      item: {
+        id: "mobflowutilities:speed_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "091E1B7ECEC5BAFB",
+      item: {
+        id: "mobflowutilities:radius_increase_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "076462A32BA9FD6F",
+      item: {
+        id: "pylons:mob_filter",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "46620F1675573AB4",
+      item: {
+        id: "pylons:player_filter",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "53285E51C236716F",
+      item: {
+        id: "pylons:lifeless_filter",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "658C607FAD91B764",
+      item: {
+        id: "pylons:block_filter",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "767D542FA234EE96",
+      item: {
+        id: "apotheosis:ignore_light_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "79B184DAD9726554",
+      item: {
+        id: "apotheosis:ignore_players_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "30FCDCDEA2F5F409",
+      item: {
+        id: "apotheosis:redstone_control_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "62DA1B6F04B7A9C4",
+      item: {
+        id: "apotheosis:silent_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "668CA53C97A6E37E",
+      item: {
+        id: "apotheosis:spawn_range_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "14264D8933CED6BC",
+      item: {
+        id: "apotheosis:initial_health_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "13B5247826D72151",
+      item: {
+        id: "apotheosis:youthful_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "791E6E566F87955C",
+      item: {
+        id: "apotheosis:burning_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "2E4311FF3C578273",
+      item: {
+        id: "apotheosis:echoing_spawner_rune",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "578D7013DFB6AA11",
+      item: {
+        id: "kindredspirits:gremlin_spawn_egg",
+        count: 1,
+      },
+      weight: 1.6667,
+    },
+    {
+      id: "5D428BCC8DE09E4A",
+      item: {
+        id: "kindredspirits:mini_player_spawn_egg",
+        count: 1,
+      },
+      weight: 1.6667,
+    },
+    {
+      id: "02818A1CE5CB37F3",
+      item: {
+        id: "kindredspirits:quokka_spawn_egg",
+        count: 1,
+      },
+      weight: 1.6667,
+    },
+    {
+      id: "2F1F1C2E1DA8BEE6",
+      item: {
+        id: "mobflowutilities:looting_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2D5A7622CD8E42B7",
+      item: {
+        id: "mobflowutilities:sharpness_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "38565E15C4EDE4CC",
+      item: {
+        id: "mobflowutilities:smite_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4C91E2AFDE9A3CB8",
+      item: {
+        id: "mobflowutilities:bane_of_arthropods_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1F4149F51F208A63",
+      item: {
+        id: "mobflowutilities:fire_aspect_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6736CF640C440D5A",
+      item: {
+        id: "mobflowutilities:flow_pad_fastest",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "616573763E122DE9",
+      item: {
+        id: "mobflowutilities:mob_catcher",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3DF73360C9603400",
+      item: {
+        id: "apotheosis:no_ai_spawner_rune",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7EE09306D98A746D",
+      item: {
+        id: "apotheosis:ignore_conditions_spawner_rune",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2ED880AE629A6E30",
+      item: {
+        id: "apotheosis:infused_spawner_rune",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "26972F72F5F7B5C4",
+      item: {
+        id: "easy_villagers:trader",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0DD353A3F02B818D",
+      item: {
+        id: "easy_villagers:breeder",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5B02815FE7AFB003",
+      item: {
+        id: "easy_villagers:converter",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "37EA223B965FF581",
+      item: {
+        id: "easy_villagers:farmer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "403F3E9AAD60D0BE",
+      item: {
+        id: "easy_villagers:incubator",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "582EEC78C84904B4",
+      item: {
+        id: "easy_piglins:barterer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0AD5983A79AD9039",
+      item: {
+        id: "kindredspirits:direwolf_spawn_egg",
+        count: 1,
+      },
+      weight: 1.5,
+    },
+    {
+      id: "7161DE805BEB2427",
+      item: {
+        id: "kindredspirits:nightfox_spawn_egg",
+        count: 1,
+      },
+      weight: 1.5,
+    },
+    {
+      id: "6532564286A6A1EA",
+      item: {
+        id: "kindredspirits:kindred_charm",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6773126218600DD1",
+      item: {
+        id: "pylons:expulsion_pylon",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "611B64375AE5BBFB",
+      item: {
+        id: "pylons:interdiction_pylon",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "650052DBDA1EED44",
+      item: {
+        id: "pylons:harvester_pylon",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0E6602AF00000C2B",
+      item: {
+        id: "easy_villagers:iron_farm",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "411D10959F10D18B",
+      item: {
+        id: "easy_villagers:auto_trader",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6A5FD79068AC3EA3",
+      item: {
+        id: "apotheosis:frontier_spawner_upgrade_rune",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5145B6AAF036C8A6",
+      item: {
+        id: "apotheosis:ascent_spawner_upgrade_rune",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0793BDB41FEA91DB",
+      item: {
+        id: "apotheosis:summit_spawner_upgrade_rune",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "219EA0770EE82B48",
+      item: {
+        id: "apotheosis:pinnacle_spawner_upgrade_rune",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "42FC434B32DBD536",
+      item: {
+        id: "minecraft:spawner",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0369F74814E307E5",
+      item: {
+        id: "kindredspirits:baby_dragon_spawn_egg",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "4C5E637F137983C2",
+      item: {
+        id: "kindredspirits:trex_spawn_egg",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+  ],
+  loot_crate: {
+    string_id: "random_mob_farm",
+    color: 11141290,
+    item_name: "ftbquests.loot_crate.random_mob_farm",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

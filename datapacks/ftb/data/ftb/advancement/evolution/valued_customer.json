@@ -1,0 +1,23 @@
+{
+  "parent": "ftb:evolution/open_for_business",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.valued_customer.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.valued_customer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:prismarine"
+    },
+    "items": "hephaestus_tools:hammer_head",
+    "strict": false
+  },
+  "result": {
+    "amount": 720,
+    "id": "ftb:molten_prismarine"
+  },
+  "temperature": 800,
+  "time": 120
+}

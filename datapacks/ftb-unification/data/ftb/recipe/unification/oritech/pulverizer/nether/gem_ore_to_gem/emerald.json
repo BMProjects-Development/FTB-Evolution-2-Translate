@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:emerald_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:emerald",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

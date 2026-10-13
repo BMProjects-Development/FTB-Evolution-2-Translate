@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/tin"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:tin_raw_ore"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:tin_raw_ore"
+      }
+    }
+  ]
+}

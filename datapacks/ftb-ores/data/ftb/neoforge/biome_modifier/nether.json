@@ -1,0 +1,28 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "ftb:nether/mysticalagradditions/nether_inferium_ore",
+    "ftb:nether/mysticalagradditions/nether_prosperity_ore",
+    "ftb:nether/arsmagicalegacy/sunstone_ore",
+    "ftb:nether/occultism/ore_iesnium",
+    "ftb:nether/ftb/ore_aluminum",
+    "ftb:nether/ftb/ore_cinnabar",
+    "ftb:nether/ftb/ore_iridium",
+    "ftb:nether/ftb/ore_lead",
+    "ftb:nether/ftb/ore_nickel",
+    "ftb:nether/ftb/ore_platinum",
+    "ftb:nether/ftb/ore_silver",
+    "ftb:nether/ftb/ore_tin",
+    "ftb:nether/ftb/ore_titanium",
+    "ftb:nether/ftb/ore_uranium",
+    "ftb:nether/minecraft/ore_iron",
+    "ftb:nether/minecraft/ore_gold",
+    "ftb:nether/minecraft/ore_copper",
+    "ftb:nether/minecraft/ore_diamond",
+    "ftb:nether/minecraft/ore_emerald",
+    "ftb:nether/minecraft/ore_lapis",
+    "ftb:nether/minecraft/ore_redstone"
+  ],
+  "step": "underground_ores"
+}

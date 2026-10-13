@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "colossal_reactors:turbine_redstone_port",
+    "#c:ingots/copper"
+  ],
+  "result": {
+    "id": "colossal_reactors:turbine_power_port",
+    "count": 1
+  }
+}

@@ -1,0 +1,375 @@
+{
+  id: "3E3BC8B780787010",
+  order_index: 17,
+  icon: {
+    id: "minecraft:zombie_head",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "2ADA132D1A904153",
+      item: {
+        id: "minecraft:zombie_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "32EAA45B89856FE3",
+      item: {
+        id: "minecraft:husk_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "561A54E212EB225A",
+      item: {
+        id: "minecraft:drowned_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "1AE4957C1B01D29E",
+      item: {
+        id: "minecraft:skeleton_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "3F469396D0BBA7EB",
+      item: {
+        id: "minecraft:stray_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "3EE48CD5AD9AD6A7",
+      item: {
+        id: "minecraft:bogged_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "5779A02758DD44FE",
+      item: {
+        id: "minecraft:parched_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "09422ECED88F9A5D",
+      item: {
+        id: "minecraft:spider_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "1DA009A1E39C02DD",
+      item: {
+        id: "minecraft:cave_spider_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "051AD7518C701BEE",
+      item: {
+        id: "minecraft:creeper_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "77610125B5C4868D",
+      item: {
+        id: "minecraft:slime_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "644C60959D91BD10",
+      item: {
+        id: "minecraft:silverfish_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "3F91913B29412EB8",
+      item: {
+        id: "minecraft:witch_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "63C4155E1D8C4219",
+      item: {
+        id: "minecraft:phantom_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "1D393109728FDCAD",
+      item: {
+        id: "minecraft:pillager_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "162955A2AC201907",
+      item: {
+        id: "minecraft:zombie_villager_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "43C9BE59F4F61F09",
+      item: {
+        id: "minecraft:zombified_piglin_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "6BD41F8CA39D9D9C",
+      item: {
+        id: "minecraft:magma_cube_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "383642B84EE2C7E0",
+      item: {
+        id: "minecraft:hoglin_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "76FB4D420AD072EF",
+      item: {
+        id: "minecraft:zoglin_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "7C48BDBA91118310",
+      item: {
+        id: "minecraft:strider_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "21E39FBA49830479",
+      item: {
+        id: "minecraft:piglin_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "59DE054098EF7215",
+      item: {
+        id: "minecraft:endermite_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "6A7B7C169A88A1F3",
+      item: {
+        id: "minecraft:camel_husk_spawn_egg",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "65E7DB6D996075D7",
+      item: {
+        id: "minecraft:zombie_head",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "3596783468CA7D2C",
+      item: {
+        id: "minecraft:skeleton_skull",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "64A19C9448D5CAA1",
+      item: {
+        id: "minecraft:creeper_head",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "333316EE418B19F1",
+      item: {
+        id: "minecraft:piglin_head",
+        count: 1,
+      },
+      weight: 6.0,
+    },
+    {
+      id: "2763DDF6ABB6C92F",
+      item: {
+        id: "minecraft:enderman_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "11FFB78487BE4603",
+      item: {
+        id: "minecraft:blaze_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "5AE5DFB6EBC8F5D8",
+      item: {
+        id: "minecraft:ghast_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "551AB8FCB762E99B",
+      item: {
+        id: "minecraft:guardian_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "7AF043A54D833A66",
+      item: {
+        id: "minecraft:breeze_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "64C66610A6134BBE",
+      item: {
+        id: "minecraft:vindicator_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "0C91EA1C2CB4CD20",
+      item: {
+        id: "minecraft:vex_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "7146F2C9034B50F5",
+      item: {
+        id: "minecraft:creaking_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "40AD697483FDF142",
+      item: {
+        id: "minecraft:zombie_nautilus_spawn_egg",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "7B407F7E232BE9CE",
+      item: {
+        id: "enderio:enderman_head",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "46CA58491484FB0C",
+      item: {
+        id: "minecraft:evoker_spawn_egg",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1ACD7BEAA0A48B4F",
+      item: {
+        id: "minecraft:ravager_spawn_egg",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5974A4EA94703751",
+      item: {
+        id: "minecraft:wither_skeleton_spawn_egg",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "276A4901CDC178EB",
+      item: {
+        id: "minecraft:piglin_brute_spawn_egg",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "52C75A71A5A78FAC",
+      item: {
+        id: "minecraft:shulker_spawn_egg",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "43D699A2110E5BE5",
+      item: {
+        id: "minecraft:wither_skeleton_skull",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+  ],
+  loot_crate: {
+    string_id: "random_monster",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.random_monster",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

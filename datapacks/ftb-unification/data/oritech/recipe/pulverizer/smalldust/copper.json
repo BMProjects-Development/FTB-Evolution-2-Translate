@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "minecraft:copper_nugget"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:copper_tiny_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "nodeworks:celestine_ore",
+  "variants": [],
+  "name_color": "#8AC8F0",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.celestine_ore",
+  "fabricator_drops": [
+    {
+      "id": "nodeworks:celestine_shard",
+      "count": 8
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

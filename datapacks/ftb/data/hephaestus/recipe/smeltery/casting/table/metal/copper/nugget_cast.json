@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:nugget_cast",
+  "cooling_time": 33,
+  "fluid": {
+    "amount": 10,
+    "id": "hephaestus:molten_copper"
+  },
+  "result": {
+    "id": "minecraft:copper_nugget"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hephaestus_tools:prometheum",
+  "ingredient": {
+    "tag": "c:ingots/prometheum"
+  },
+  "color": 7582120,
+  "head_stats": {
+    "durability": 2000,
+    "mining_speed": 12.0,
+    "attack_damage": 5.0,
+    "attack_speed": 1.0,
+    "tier": 5,
+    "enchantability": 15
+  },
+  "handle_stats": {
+    "durability_mult": 0.15,
+    "speed_mult": 0.1,
+    "damage_mult": 0.15,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 400
+  }
+}

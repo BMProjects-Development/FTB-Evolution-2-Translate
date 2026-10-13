@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mes:mega_ship_basic",
+    "mes:mega_ship_deepslate",
+    "mes:mega_ship_deepslate_2",
+    "mes:mega_ship_deepslate_3",
+    "mes:mega_ship_crashed",
+    "mes:mega_ship_crashed_2",
+    "mes:mega_ship_crashed_deepslate"
+  ]
+}

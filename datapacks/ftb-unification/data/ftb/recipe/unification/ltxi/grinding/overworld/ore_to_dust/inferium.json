@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/inferium"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 3,
+      "id": "mysticalagriculture:inferium_essence"
+    },
+    {
+      "count": {
+        "chance": 0.5,
+        "max": 2,
+        "min": 2
+      },
+      "id": "mysticalagriculture:inferium_essence",
+      "required": false
+    }
+  ]
+}

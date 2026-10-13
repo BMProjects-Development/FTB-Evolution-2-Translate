@@ -1,0 +1,31 @@
+{
+  "entity": "minecraft:pillager",
+  "variants": [
+    "minecraft:illusioner",
+    "minecraft:vex"
+  ],
+  "name_color": "#5A5A5A",
+  "display": {
+    "scale": 1.0
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.pillager",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:crossbow",
+      "count": 1
+    },
+    {
+      "id": "minecraft:arrow",
+      "count": 32
+    },
+    {
+      "id": "minecraft:emerald",
+      "count": 4
+    }
+  ]
+}

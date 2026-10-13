@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "thaumaturge:ingot_thaumium",
+    "M": "refinedstorage:machine_casing",
+    "P": "refinedtypes:65536k_essentia_storage_part",
+    "R": "#c:dusts/redstone"
+  },
+  "pattern": [
+    "EPE",
+    "EME",
+    "ERE"
+  ],
+  "result": {
+    "id": "refinedtypes:65536k_essentia_storage_block"
+  }
+}

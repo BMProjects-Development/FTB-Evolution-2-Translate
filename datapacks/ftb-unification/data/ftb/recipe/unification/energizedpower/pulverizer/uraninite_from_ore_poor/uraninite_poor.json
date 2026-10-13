@@ -1,0 +1,14 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "#c:ores/uraninite_poor",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "result": {
+      "id": "powah:uraninite"
+    }
+  }
+}

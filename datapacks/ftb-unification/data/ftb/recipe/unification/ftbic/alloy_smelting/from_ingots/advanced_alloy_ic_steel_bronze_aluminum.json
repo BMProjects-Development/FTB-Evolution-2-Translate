@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/steel"
+    },
+    {
+      "count": 2,
+      "ingredient": "#c:ingots/bronze"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/aluminum"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbic:advanced_alloy",
+        "count": 1
+      }
+    }
+  ]
+}

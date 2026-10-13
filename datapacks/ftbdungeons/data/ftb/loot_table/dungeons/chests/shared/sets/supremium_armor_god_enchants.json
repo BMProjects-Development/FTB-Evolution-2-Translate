@@ -1,0 +1,422 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:blast_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:depth_strider": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:depth_strider": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fire_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:depth_strider": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:projectile_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:depth_strider": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:blast_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:projectile_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:blast_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:respiration": {
+                  "n": 17,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:respiration": {
+                  "n": 17,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:projectile_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:respiration": {
+                  "n": 17,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:respiration": {
+                  "n": 17,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:blast_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:projectile_protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:protection": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "n": 18,
+                  "p": 0.5,
+                  "type": "minecraft:binomial"
+                }
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

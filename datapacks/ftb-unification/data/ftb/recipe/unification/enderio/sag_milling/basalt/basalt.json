@@ -1,0 +1,20 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "minecraft:basalt",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:blackstone"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:zinc_dust"
+      }
+    }
+  ]
+}

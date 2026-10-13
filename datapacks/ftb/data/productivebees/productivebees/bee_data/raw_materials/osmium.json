@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "c:storage_blocks/osmium",
+  "primaryColor": "#4c9db6",
+  "secondaryColor": "#804f40",
+  "useGlowLayer": true
+}

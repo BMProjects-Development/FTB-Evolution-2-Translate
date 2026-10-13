@@ -1,0 +1,302 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "100 + 3600 * (1 - 1 / exp((level / 15)^2))"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					},
+					"is_projectile": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#minecraft:is_projectile"
+								}
+							}
+						]
+					},
+					"is_bullet": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#irons_artifice:bullet"
+								}
+							}
+						]
+					},
+					"is_target_dummy": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Tags:[\"target_dummy.entity\"]}"
+								}
+							}
+						]
+					},
+					"is_ltx": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#ltxi:weapons"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_bullet & !is_target_dummy",
+						"expression": "damage * 0.4"
+					},
+					{
+						"condition": "is_ltx & !is_target_dummy",
+						"expression": "damage * 0.4"
+					},
+					{
+						"condition": "is_projectile & !is_bullet & !is_target_dummy",
+						"expression": "damage * 0.25"
+					}
+				],
+				"anti_farming_per_entity": {
+					"limit_per_entity": 375,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_projectile": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#minecraft:is_projectile"
+								}
+							}
+						]
+					},
+					"is_bullet": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#irons_artifice:bullet"
+								}
+							}
+						]
+					},
+					"is_ltx": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#ltxi:weapons"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_bullet",
+						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+					},
+					{
+						"condition": "is_ltx",
+						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+					},
+					{
+						"condition": "is_projectile & !is_bullet",
+						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+					}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					},
+					"is_beam": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#nautec:atlantean_rifle"
+								}
+							}
+						]
+					},
+					"is_target_dummy": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Tags:[\"target_dummy.entity\"]}"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_beam & !is_target_dummy",
+						"expression": "damage * 0.4"
+					}
+				],
+				"anti_farming_per_entity": {
+					"limit_per_entity": 375,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_beam": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#nautec:atlantean_rifle"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_beam",
+						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+					}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		}
+	]
+}

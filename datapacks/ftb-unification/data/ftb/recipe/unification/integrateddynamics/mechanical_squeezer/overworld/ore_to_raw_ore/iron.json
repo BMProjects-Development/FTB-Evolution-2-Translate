@@ -1,0 +1,31 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/iron",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:raw_iron",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:raw_iron"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "minecraft:raw_iron"
+      },
+      "chance": 0.33
+    },
+    {
+      "item": {
+        "id": "minecraft:raw_iron"
+      },
+      "chance": 0.15
+    }
+  ],
+  "duration": 40
+}

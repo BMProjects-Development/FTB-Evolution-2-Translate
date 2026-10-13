@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:redstone_alloy",
+  "ingredient": {
+    "tag": "c:ingots/redstone_alloy"
+  },
+  "color": 13059386,
+  "head_stats": {
+    "durability": 200,
+    "mining_speed": 8.0,
+    "attack_damage": 1.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 16,
+    "trait": "featherweight"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.02,
+    "damage_mult": -0.05,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 40
+  }
+}

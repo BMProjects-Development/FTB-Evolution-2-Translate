@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/novite"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:novite_shard"
+    }
+  ],
+  "time": 100
+}

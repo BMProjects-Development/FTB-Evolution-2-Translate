@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbic:enderium_ingot"
+  },
+  "result": {
+    "id": "ftbic:enderium_plate"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/other/novite",
+  "result": {
+    "id": "stellaris:raw_novite"
+  },
+  "secondary": {
+    "id": "stellaris:raw_novite"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

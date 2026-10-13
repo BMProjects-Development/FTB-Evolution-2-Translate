@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:rift_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1857881697,
+    "spacing": 104,
+    "separation": 42
+  }
+}

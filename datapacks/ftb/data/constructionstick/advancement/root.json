@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:rods/wooden"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/stone",
+    "description": {
+      "translate": "advancement.constructionstick.root.desc"
+    },
+    "icon": {
+      "id": "constructionstick:wooden_stick"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.constructionstick.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "stick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

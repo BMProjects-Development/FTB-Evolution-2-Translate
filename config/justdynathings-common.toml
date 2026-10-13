@@ -1,0 +1,329 @@
+#Misc
+[entry_misc]
+	#Hello player, DevDyna is here !
+	#If you're wondering that this ConfigKeys part
+	#is used as joke , you are right...
+	#Anyway , can I be of help to you ?
+	answer = false
+	#Include any fuel item to Generator JEI category
+	include_any_jei_fuels = true
+	#Define the pool of strings that will show as tooltip below Void Crystal
+	void_crystal_tooltips = ["Unstable Stability", "This is time", "Fragment of reality", "The paradox must grow", "Is the time a lie?", "There is a paradox on your timeline", "Time to collapse", "Time is relative", "Its time to collapse", "You collapse me round", "Press T to collapse", "Paradox mentioned", "Never gone collapse up", "Better with Time"]
+	#Disable Fuel JEI categories when Just Tiered Generators is installed
+	disable_jei_fuels = true
+
+#Blocks
+[entry_blocks]
+	#Phase_box
+	#Require any wrench to change Phase Box state intend of nothing
+	phase_box_require_wrench = false
+	#Ferricore_clock
+	#Require any wrench to change Ferricore Clock face state intend of nothing
+	ferricore_clock_require_wrench = false
+	#Stabilizer
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	stabilizer_max_energy_storage = 10000
+	#FE/t
+	# Default: 1000
+	# Range: > 1
+	stabilizer_energy_every_tick = 1000
+	#MB Capacity
+	# Default: 1000
+	# Range: > 1
+	stabilizer_max_fluid_storage = 1000
+	#MB/t
+	# Default: 10
+	# Range: > 1
+	stabilizer_fluid_every_tick = 10
+	#Enable/Disable sound
+	stabilizer_emit_sound = true
+	#Ticker
+	#tickerFE Capacity
+	# Default: 10000
+	# Range: > 1
+	ticker_max_energy_storage = 10000
+	#tickerFE/t
+	# Default: 10
+	# Range: > 1
+	ticker_energy_every_tick = 10
+	#tickerMB Capacity
+	# Default: 1000
+	# Range: > 1
+	ticker_max_fluid_storage = 1000
+	#tickerMB/t
+	# Default: 1
+	# Range: > 1
+	ticker_fluid_every_tick = 1
+	#Blackhole
+	#Keep stored stuff when redstone disable it
+	blackhole_keep_content = true
+	#FE Capacity
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_max_energy_storage = 2147483647
+	#FE/t
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_energy_every_tick = 2147483647
+	#MB Capacity
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_max_fluid_storage = 2147483647
+	#MB/t
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_fluid_every_tick = 2147483647
+	#tickermax tick limit
+	# Default: 2048
+	# Range: > 1
+	ticker_max_tick_limit = 2048
+
+#Goo
+[entry_goo]
+	#Creative_goo
+	#Enable/Disable sound on goo state change
+	creative_goo_sound_on_change_state = true
+	#Tier of goo
+	# Default: 2147483647
+	# Range: > 1
+	creative_goo_tier = 2147483647
+	#Counter Reducer of goo
+	# Default: 2147483647
+	# Range: > 1
+	creative_goo_counter_reducer = 2147483647
+	#Enable/Disable sound on goo recipe execution
+	creative_goo_sound_on_execution_recipe = true
+	#Generic FE Goo powered
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	generic_energy_goo_max_energy_storage = 10000
+	#FE/t
+	# Default: 100
+	# Range: > 1
+	generic_energy_goo_energy_every_tick = 100
+	#Enable/Disable tier change capacity
+	generic_energy_goo_tier_multiply_energy_capacity = true
+	#Enable/Disable tier change fe cost
+	generic_energy_goo_tier_multiply_energy_cost = true
+	#Enable/Disable sound on goo recipe execution
+	generic_energy_goo_sound_on_execution_recipe = true
+	#Enable/Disable sound on goo recipe execution randomly
+	generic_energy_goo_extra_sound_on_execution = true
+	#Charged_primogel_goo
+	#Tier of goo
+	# Default: 1
+	# Range: > 1
+	charged_primogel_goo_tier = 1
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_primogel_goo_counter_reducer = 15
+	#Charged_blazebloom_goo
+	#Tier of goo
+	# Default: 2
+	# Range: > 1
+	charged_blazebloom_goo_tier = 2
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_blazebloom_goo_counter_reducer = 15
+	#Charged_voidshimmer_goo
+	#Tier of goo
+	# Default: 3
+	# Range: > 1
+	charged_voidshimmer_goo_tier = 3
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_voidshimmer_goo_counter_reducer = 15
+	#Charged_shadowpulse_goo
+	#Tier of goo
+	# Default: 4
+	# Range: > 1
+	charged_shadowpulse_goo_tier = 4
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_shadowpulse_goo_counter_reducer = 15
+
+#Solar_panel
+[entry_solar_panels]
+	#Ferricore_solar_panel
+	#FE Capacity
+	# Default: 100000
+	# Range: > 1
+	ferricore_solar_panel_max_energy_storage = 100000
+	#FE/t
+	# Default: 240
+	# Range: > 1
+	ferricore_solar_panel_energy_every_tick = 240
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	ferricore_solar_panel_reduce_production_at_y_level = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	ferricore_solar_panel_reduce_production_when_placed_alone = false
+	#Enable/Disable condition to see the sky
+	ferricore_solar_panel_require_to_see_sky = true
+	#Enable/Disable condition of daytime only
+	ferricore_solar_panel_require_dayTime = true
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	ferricore_solar_panel_biomeTag_list = true
+	#Blazegold_solar_panel
+	#FE Capacity
+	# Default: 100000
+	# Range: > 1
+	blazegold_solar_panel_max_energy_storage = 100000
+	#FE/t
+	# Default: 960
+	# Range: > 1
+	blazegold_solar_panel_energy_every_tick = 960
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	blazegold_solar_panel_reduce_production_at_y_level = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	blazegold_solar_panel_reduce_production_when_placed_alone = false
+	#Enable/Disable condition to see the sky
+	blazegold_solar_panel_require_to_see_sky = false
+	#Enable/Disable condition of daytime only
+	blazegold_solar_panel_require_dayTime = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	blazegold_solar_panel_biomeTag_list = true
+	#Celestigem_solar_panel
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	celestigem_solar_panel_max_energy_storage = 1000000
+	#FE/t
+	# Default: 3840
+	# Range: > 1
+	celestigem_solar_panel_energy_every_tick = 3840
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	celestigem_solar_panel_reduce_production_at_y_level = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	celestigem_solar_panel_reduce_production_when_placed_alone = true
+	#Enable/Disable condition to see the sky
+	celestigem_solar_panel_require_to_see_sky = true
+	#Enable/Disable condition of daytime only
+	celestigem_solar_panel_require_dayTime = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	celestigem_solar_panel_biomeTag_list = false
+	#Eclipse_alloy_solar_panel
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	eclipse_alloy_solar_panel_max_energy_storage = 1000000
+	#FE/t
+	# Default: 11520
+	# Range: > 1
+	eclipse_alloy_solar_panel_energy_every_tick = 11520
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	eclipse_alloy_solar_panel_reduce_production_at_y_level = true
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	eclipse_alloy_solar_panel_reduce_production_when_placed_alone = true
+	#Enable/Disable condition to see the sky
+	eclipse_alloy_solar_panel_require_to_see_sky = false
+	#Enable/Disable condition of daytime only
+	eclipse_alloy_solar_panel_require_dayTime = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	eclipse_alloy_solar_panel_biomeTag_list = false
+
+#Anvil
+[entry_anvils]
+	#Enable/Disable the entire sound event of all anvils on item repair
+	anvil_emit_sound = true
+	#Ferricore_anvil
+	#Enable/Disable sound event on item repair
+	ferricore_anvil_emit_sound = true
+	#Enable/Disable no tick delay between item durability application
+	ferricore_anvil_ignore_delay = false
+	#Blazegold_anvil
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	blazegold_anvil_max_fluid_storage = 10000
+	#Enable/Disable no tick delay between item durability application
+	blazegold_anvil_ignore_delay = false
+	#Enable/Disable sound event on item repair
+	blazegold_anvil_emit_sound = true
+	#Celestigem_anvil
+	#Enable/Disable no tick delay between item durability application
+	celestigem_anvil_ignore_delay = false
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	celestigem_anvil_max_energy_storage = 10000
+	#FE/t
+	# Default: 100
+	# Range: > 1
+	celestigem_anvil_energy_every_tick = 100
+	#Enable/Disable sound event on item repair
+	celestigem_anvil_emit_sound = true
+	#Eclipse_alloy_anvil
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	eclipse_alloy_anvil_max_fluid_storage = 10000
+	#Enable/Disable sound event on item repair
+	eclipse_alloy_anvil_emit_sound = true
+	#Enable/Disable no tick delay between item durability application
+	eclipse_alloy_anvil_ignore_delay = false
+
+#Wands
+[entry_wands]
+	#Picker Wand support Fake Players
+	picker_wand_allow_fakeplayer = false
+	#Swapper Wand support Fake Players
+	swapper_wand_allow_fakeplayer = false
+	#Advanced Time Wand support Fake Players
+	advanced_time_wand_allow_fakeplayer = true
+	#MB Capacity
+	# Default: 800000
+	# Range: > 1
+	advanced_time_wand_max_fluid_storage = 800000
+	#FE Capacity
+	# Default: 10000000
+	# Range: > 1
+	advanced_time_wand_max_energy_storage = 10000000
+	#Mode NORMAL [1|2|4|8]
+	advanced_time_wand_mode_normal = 1
+	#Mode X2 [1|2|4|8]
+	advanced_time_wand_mode_x2 = 2
+	#Mode X4 [1|2|4|8]
+	advanced_time_wand_mode_x4 = 4
+	#Mode MAX [1|2|4|8]
+	advanced_time_wand_mode_max = 8
+	#Max speed applicable with Advanced Time Wand
+	# It can disable other wand-modes when below 256
+	# This value should be a power of two
+	advanced_time_wand_max_multiplier = 256
+	#Light Wands can be used to apply Glowing effect
+	light_wand_glowing = true
+	#Light Wands can place Light Blocks
+	light_wand_placing = true
+	#Enable/Disable sound event
+	light_wand_sound = true
+	#Light wands can modify light level
+	light_wand_light_level_change = true
+	#Light Wands support Fake Players
+	light_wand_allow_fakeplayer = true
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	light_wand_max_energy_storage = 10000
+	#FE/t
+	# Default: 100
+	# Range: > 1
+	light_wand_energy_every_tick = 100
+	#Glowing duration 
+	# 20 -> 1 second
+	# Default: 200
+	# Range: > 1
+	light_wand_glowing_duration = 200
+	#Glowing duration 
+	# 20 -> 1 second
+	# Default: 800
+	# Range: > 1
+	advanced_light_wand_glowing_duration = 800
+	#Light Wand Blocks emit particles
+	light_wand_block_particles = true

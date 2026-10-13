@@ -1,0 +1,34 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:ore_source/other/desh",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "stellaris:raw_desh"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "stellaris:raw_desh"
+      }
+    },
+    {
+      "chance": 0.33,
+      "item": {
+        "count": 1,
+        "id": "stellaris:raw_desh"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

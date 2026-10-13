@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 10000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "enderio:pulsating_powder"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio:pulsating_alloy_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:vivid_alloy_ingot"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_evolution:crystalline_alloy_ingot"
+  }
+}

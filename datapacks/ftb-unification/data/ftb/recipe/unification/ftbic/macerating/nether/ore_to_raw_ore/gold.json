@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:gold_nether_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:raw_gold"
+      }
+    },
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 2,
+        "id": "minecraft:raw_gold"
+      }
+    }
+  ]
+}

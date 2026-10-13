@@ -1,0 +1,6 @@
+{
+  "fluids": {
+    "nautec:experience_algae": "justdirethings:xp_fluid_source",
+    "nautec:experience_algae_flowing": "justdirethings:xp_fluid_flowing"
+  }
+}

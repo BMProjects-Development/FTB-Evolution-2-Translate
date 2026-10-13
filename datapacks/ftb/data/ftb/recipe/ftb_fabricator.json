@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "#ftb:basic_circuits",
+    "F": "justdirethings:ferricore_ingot",
+    "I": "ftbic:iv_cable",
+    "L": "laserio:laser_connector",
+    "V": "enderio:void_chassis"
+  },
+  "pattern": [
+    "FCF",
+    "ILI",
+    "FVF"
+  ],
+  "result": {
+    "id": "ftbevolutioncompanion:ftb_fabricator"
+  }
+}

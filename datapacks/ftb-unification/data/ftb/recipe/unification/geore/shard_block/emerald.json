@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:emerald_shard"
+  },
+  "result": {
+    "id": "geore:emerald_block"
+  }
+}

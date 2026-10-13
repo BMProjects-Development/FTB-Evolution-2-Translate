@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:ender_pearl"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:gems/diamond"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbic:enderium_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

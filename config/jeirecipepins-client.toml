@@ -1,0 +1,29 @@
+[display]
+	#Draw pinned recipes over the world while no screen is open.
+	show_in_world = true
+	#Size of pinned recipes over the world, relative to their size inside a screen.
+	# Default: 1.0
+	# Range: 0.25 ~ 2.0
+	in_world_scale = 1.0
+	#Pixels kept free above the first pinned recipe.
+	# Default: 24
+	# Range: 0 ~ 200
+	top_gap = 24
+	#Pixels kept free to the left of pinned recipes.
+	# Default: 4
+	# Range: 0 ~ 200
+	left_gap = 4
+
+[pins]
+	#How many recipes can be pinned at once. Pinning one more unpins the oldest.
+	# Default: 3
+	# Range: 1 ~ 10
+	max_pins = 3
+	#Keep a separate set of pins for every world and server instead of one shared set.
+	per_world = true
+
+[highlight]
+	#Tint the slots of an open container that hold an input of a pinned recipe.
+	container_slots = true
+	#Tint the inputs of a pinned recipe that are neither in your inventory nor in the open container.
+	missing_inputs = true

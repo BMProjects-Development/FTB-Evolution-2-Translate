@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/bronze"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:bronze_dust"
+    }
+  ],
+  "time": 100
+}

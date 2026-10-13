@@ -1,0 +1,13 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "minecraft:blaze_rod",
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 4
+      }
+    }
+  ],
+  "duration": 40
+}

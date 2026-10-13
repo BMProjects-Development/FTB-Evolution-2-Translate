@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "DCD",
+    "LBL"
+  ],
+  "key": {
+    "E": "#c:ingots/electrum",
+    "D": "minecraft:diamond",
+    "L": "minecraft:lapis_lazuli",
+    "C": "minecraft:clock",
+    "B": "justdirethings:xp_fluid_bucket"
+  },
+  "result": {
+    "id": "tiab:time_in_a_bottle"
+  }
+}

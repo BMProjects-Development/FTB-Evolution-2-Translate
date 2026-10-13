@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/xychorium_red",
+  "output_items": [
+    {
+      "item": {
+        "id": "xycraft_world:xychorium_gem_red",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "xycraft_world:xychorium_gem_red",
+        "count": 1
+      },
+      "chance": 0.25
+    }
+  ],
+  "duration": 20
+}

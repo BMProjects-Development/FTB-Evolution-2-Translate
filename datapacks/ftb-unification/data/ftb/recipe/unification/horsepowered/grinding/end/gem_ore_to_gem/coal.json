@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:coal_end_ore",
+  "result": {
+    "count": 4,
+    "id": "minecraft:coal"
+  },
+  "secondary": {
+    "id": "minecraft:coal",
+    "count": 2
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

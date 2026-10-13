@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:topaz_shard"
+  },
+  "result": {
+    "id": "geore:topaz_block"
+  }
+}

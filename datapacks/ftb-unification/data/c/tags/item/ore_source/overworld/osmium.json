@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:osmium_deepslate_ore",
+    "ftbmaterials:osmium_stone_ore"
+  ]
+}

@@ -1,0 +1,52 @@
+#Machine Upgrades
+[upgrades]
+	#Max Speed Increaser Upgrade Types usable foreach machine
+	# Default: 4
+	# Range: 0 ~ 16
+	max_speed_upgrades = 4
+	#Max Energy Efficiency Upgrade Types usable foreach machine
+	# Default: 16
+	# Range: 0 ~ 16
+	max_energy_upgrades = 16
+	#Max Secondary Output Increaser Upgrade Types usable foreach machine
+	# Default: 4
+	# Range: 0 ~ 16
+	max_luck_upgrades = 4
+	#Max Fluid Efficiency Upgrade Types usable foreach machine
+	# Default: 4
+	# Range: 0 ~ 16
+	max_fluid_upgrades = 4
+	#Minimal tick delay based on upgrade installed
+	# Default: 1
+	# Range: > 1
+	min_tick_rate = 1
+	#Minimal Energy cost based on upgrade installed
+	# Default: 5
+	# Range: > 1
+	min_fe_cost = 5
+	#Minimal Fluid cost based on upgrade installed
+	# Default: 1
+	# Range: > 1
+	min_mb_cost = 1
+	#Maximal Secondary Chance based on upgrade installed
+	# Default: 100
+	# Range: > 1
+	max_luck = 100
+
+#Gameplay Additions
+[events]
+	#Player can right-click on crops to collect intend of breaking
+	#If detected Farmers Delight it will turn off by default
+	harvestable_action = true
+	#Max number of harvestable blocks foreach interaction
+	# Default: 2048
+	# Range: > 1
+	tree_cutting_limit = 2048
+	#End Portal Frame can be interacted to remove Eye of Ender
+	ender_eye_return = true
+	#Patina will drop when scrapped any oxidized copper block
+	patina_drop = true
+	#Redstone Acid can be used to increase a stage of oxidation at the copper block clicked
+	redstone_acid_oxide = true
+	#Honey Solution can be used to wax copper blocks clicked
+	honey_solution_wax = true

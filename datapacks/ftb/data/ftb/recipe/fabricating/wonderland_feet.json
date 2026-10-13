@@ -1,0 +1,45 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ltxi:t3_circuit",
+      "count": 2
+    },
+    {
+      "ingredient": "#c:plates/titanium",
+      "count": 32
+    },
+    {
+      "ingredient": "#c:plates/slatesteel",
+      "count": 16
+    },
+    {
+      "ingredient": "ltxi:fluoropolymer_sheet",
+      "count": 24
+    },
+    {
+      "ingredient": "ltxi:silicone_rubber",
+      "count": 4
+    },
+    {
+      "ingredient": "ltxi:medium_voltaic_cell",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "components": {
+        "ltxi:upgrades": {
+          "ltxi:armor_defense": 1,
+          "ltxi:armor_passive_shield": 1,
+          "ltxi:default/wonderland_feet": 1
+        }
+      },
+      "count": 1,
+      "id": "ltxi:wonderland_feet"
+    }
+  ],
+  "ticks": 2000,
+  "energy_per_tick": 25000,
+  "stage": "skyline3_unlocked"
+}

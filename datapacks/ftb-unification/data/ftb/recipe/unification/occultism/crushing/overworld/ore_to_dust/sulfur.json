@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/sulfur",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "ftbmaterials:sulfur_dust"
+  }
+}

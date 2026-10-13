@@ -1,0 +1,17 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "sfm:xp_shard",
+      "count": 1
+    }
+  ],
+  "fluid_results": [
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 250
+    }
+  ],
+  "ticks": 40,
+  "energy_per_tick": 500
+}

@@ -1,0 +1,12 @@
+{
+  "heartEntries": {
+    "red": {},
+    "green": {
+      "dragon": 1.0
+    },
+    "blue": {},
+    "yellow": {
+      "boss": 1.0
+    }
+  }
+}

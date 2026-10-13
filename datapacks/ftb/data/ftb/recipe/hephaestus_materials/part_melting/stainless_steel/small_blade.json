@@ -1,0 +1,21 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:stainless_steel"
+    },
+    "items": "hephaestus_tools:small_blade",
+    "strict": false
+  },
+  "result": {
+    "amount": 180,
+    "id": "colossal_reactors:molten_stainless_steel"
+  },
+  "temperature": 1000,
+  "time": 120
+}

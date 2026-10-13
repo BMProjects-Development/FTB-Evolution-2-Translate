@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "appflux:redstone_crystal"
+  },
+  "name": "Redstone Crystal",
+  "color": "#5C0404",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  }
+}

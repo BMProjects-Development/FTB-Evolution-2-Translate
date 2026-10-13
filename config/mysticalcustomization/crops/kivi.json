@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "xycraft_world:kivi"
+  },
+  "name": "Kivi",
+  "color": "#4A4A4A",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_rock"
+  }
+}

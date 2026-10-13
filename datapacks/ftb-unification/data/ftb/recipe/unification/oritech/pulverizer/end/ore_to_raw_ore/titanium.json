@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:titanium_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "ftbmaterials:titanium_raw_ore"
+    }
+  ],
+  "time": 100
+}

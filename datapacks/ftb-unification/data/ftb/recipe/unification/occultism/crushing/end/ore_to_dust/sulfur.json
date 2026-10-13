@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "ftbmaterials:sulfur_end_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 8,
+    "id": "ftbmaterials:sulfur_dust"
+  }
+}

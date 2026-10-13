@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:lead_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ftbmaterials:lead_plate"
+  }
+}

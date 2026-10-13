@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "minecraft:redstone_ore",
+  "variants": [
+    "minecraft:deepslate_redstone_ore",
+    "ftbmaterials:redstone_nether_ore",
+    "ftbmaterials:redstone_end_ore"
+  ],
+  "name_color": "#FF3B30",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.redstone_ore",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:redstone",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

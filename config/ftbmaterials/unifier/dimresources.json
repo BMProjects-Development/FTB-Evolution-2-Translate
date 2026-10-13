@@ -1,0 +1,7 @@
+{
+  "items": {
+    "dimresources:deepslate_dimensional_ore": "ftbmaterials:dimensional_shard_deepslate_ore",
+    "dimresources:dimensional_ore": "ftbmaterials:dimensional_shard_stone_ore",
+    "dimresources:dimensional_shard": "ftbmaterials:dimensional_shard_gem"
+  }
+}

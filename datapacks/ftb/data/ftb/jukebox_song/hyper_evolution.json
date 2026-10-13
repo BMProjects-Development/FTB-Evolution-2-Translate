@@ -1,0 +1,10 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "translate": "jukebox_song.ftb.hyper_evolution"
+  },
+  "length_in_seconds": 176.0,
+  "sound_event": {
+    "sound_id": "ftb:hyper_evolution"
+  }
+}

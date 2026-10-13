@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:extruding",
+  "inputs": [
+    {
+      "count": 4,
+      "ingredient": "#c:plates/titanium"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:titanium_gear"
+      }
+    }
+  ]
+}

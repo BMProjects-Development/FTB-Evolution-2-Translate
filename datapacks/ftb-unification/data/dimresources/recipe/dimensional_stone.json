@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:stones",
+    "B": "ftbmaterials:dimensional_shard_gem"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "id": "dimresources:dimensional_stone"
+  }
+}

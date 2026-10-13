@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/steel"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:steel_dust"
+    }
+  ],
+  "time": 100
+}

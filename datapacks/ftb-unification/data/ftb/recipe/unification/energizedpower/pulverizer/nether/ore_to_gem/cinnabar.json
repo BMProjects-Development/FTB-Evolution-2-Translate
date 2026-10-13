@@ -1,0 +1,23 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "ftbmaterials:cinnabar_nether_ore",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "result": {
+      "id": "ftbmaterials:cinnabar_gem"
+    }
+  }
+}

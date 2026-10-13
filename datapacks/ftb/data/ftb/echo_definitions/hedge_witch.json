@@ -1,0 +1,253 @@
+{
+  "id": "ftb:hedge_witch",
+  "title": {
+    "translate": "ftb.shopkeeper.hedge_witch",
+    "color": "dark_green"
+  },
+  "model": {
+    "villager_data": {
+      "type": "swamp",
+      "profession": "farmer",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.hedge_witch",
+        "color": "dark_green"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:hedge_witch_wares",
+      "shop_unlock": [
+        {
+          "name": "old_root",
+          "item": {
+            "id": "rootsclassic:old_root",
+            "count": 4
+          },
+          "cost": 10
+        },
+        {
+          "name": "verdant_sprig",
+          "item": {
+            "id": "rootsclassic:verdant_sprig",
+            "count": 4
+          },
+          "cost": 10
+        },
+        {
+          "name": "infernal_bulb",
+          "item": {
+            "id": "rootsclassic:infernal_bulb",
+            "count": 2
+          },
+          "cost": 15
+        },
+        {
+          "name": "blackcurrant",
+          "item": {
+            "id": "rootsclassic:blackcurrant",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "redcurrant",
+          "item": {
+            "id": "rootsclassic:redcurrant",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "whitecurrant",
+          "item": {
+            "id": "rootsclassic:whitecurrant",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "elderberry",
+          "item": {
+            "id": "rootsclassic:elderberry",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "nightshade",
+          "item": {
+            "id": "rootsclassic:nightshade",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "bark_knife",
+          "item": {
+            "id": "rootsclassic:bark_knife",
+            "count": 1
+          },
+          "cost": 8
+        },
+        {
+          "name": "pestle",
+          "item": {
+            "id": "rootsclassic:pestle",
+            "count": 1
+          },
+          "cost": 8
+        },
+        {
+          "name": "mortar",
+          "item": {
+            "id": "rootsclassic:mortar",
+            "count": 1
+          },
+          "cost": 8
+        },
+        {
+          "name": "mundane_standing_stone",
+          "item": {
+            "id": "rootsclassic:mundane_standing_stone",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "belladonna_seeds",
+          "item": {
+            "id": "witchery:belladonna_seeds",
+            "count": 2
+          },
+          "cost": 8
+        },
+        {
+          "name": "mandrake_seeds",
+          "item": {
+            "id": "witchery:mandrake_seeds",
+            "count": 2
+          },
+          "cost": 8
+        },
+        {
+          "name": "wormwood_seeds",
+          "item": {
+            "id": "witchery:wormwood_seeds",
+            "count": 2
+          },
+          "cost": 8
+        },
+        {
+          "name": "snowbell_seeds",
+          "item": {
+            "id": "witchery:snowbell_seeds",
+            "count": 2
+          },
+          "cost": 8
+        },
+        {
+          "name": "wolfsbane_seeds",
+          "item": {
+            "id": "witchery:wolfsbane_seeds",
+            "count": 2
+          },
+          "cost": 8
+        },
+        {
+          "name": "water_artichoke_seeds",
+          "item": {
+            "id": "witchery:water_artichoke_seeds",
+            "count": 2
+          },
+          "cost": 8
+        },
+        {
+          "name": "jar",
+          "item": {
+            "id": "witchery:jar",
+            "count": 4
+          },
+          "cost": 6
+        },
+        {
+          "name": "taglock",
+          "item": {
+            "id": "witchery:taglock",
+            "count": 2
+          },
+          "cost": 15
+        },
+        {
+          "name": "poppet",
+          "item": {
+            "id": "witchery:poppet",
+            "count": 2
+          },
+          "cost": 15
+        },
+        {
+          "name": "bone_needle",
+          "item": {
+            "id": "witchery:bone_needle",
+            "count": 1
+          },
+          "cost": 2
+        },
+        {
+          "name": "ritual_chalk",
+          "item": {
+            "id": "witchery:ritual_chalk",
+            "count": 4
+          },
+          "cost": 25
+        },
+        {
+          "name": "spell_powder",
+          "item": {
+            "id": "rootsclassic:spell_powder",
+            "count": 1
+          },
+          "cost": 5
+        },
+        {
+          "name": "growth_powder",
+          "item": {
+            "id": "rootsclassic:growth_powder",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "healing_poultice",
+          "item": {
+            "id": "rootsclassic:healing_poultice",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "golden_ritual_chalk",
+          "item": {
+            "id": "witchery:golden_ritual_chalk",
+            "count": 2
+          },
+          "cost": 60
+        },
+        {
+          "name": "mutandis",
+          "item": {
+            "id": "witchery:mutandis",
+            "count": 4
+          },
+          "cost": 30
+        }
+      ]
+    }
+  ]
+}

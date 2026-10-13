@@ -1,0 +1,378 @@
+{
+  "replace": false,
+  "values": [
+    "functionalstorage:armory_cabinet",
+    "justdynathings:charged_blazebloom_goo",
+    "justdynathings:charged_primogel_goo",
+    "justdynathings:charged_shadowpulse_goo",
+    "justdynathings:charged_voidshimmer_goo",
+    "energizedpower:coal_engine",
+    "ironfurnaces:augment_generator",
+    "justdynathings:ferricore_solar_panel",
+    "justdynathings:blazegold_solar_panel",
+    "justdynathings:celestigem_solar_panel",
+    "justdynathings:eclipse_alloy_solar_panel",
+    "mobflowutilities:empty_gene_vial",
+    "mobflowutilities:gene_sample_vial",
+    "mobflowutilities:life_catalyst",
+    "ftbarmory:adamantite_chunk",
+    "ftbarmory:adamantite_clump",
+    "ftbarmory:adamantite_cluster",
+    "ftbarmory:adamantite_crystal",
+    "ftbarmory:adamantite_shard",
+    "ftbarmory:adamantite_dirty_dust",
+    "ftbarmory:aeternium_chunk",
+    "ftbarmory:aeternium_clump",
+    "ftbarmory:aeternium_cluster",
+    "ftbarmory:aeternium_crystal",
+    "ftbarmory:aeternium_shard",
+    "ftbarmory:aeternium_dirty_dust",
+    "ftbarmory:aurichalcum_chunk",
+    "ftbarmory:aurichalcum_clump",
+    "ftbarmory:aurichalcum_cluster",
+    "ftbarmory:aurichalcum_crystal",
+    "ftbarmory:aurichalcum_shard",
+    "ftbarmory:aurichalcum_dirty_dust",
+    "geore:osmium_block",
+    "geore:osmium_cluster",
+    "geore:budding_osmium",
+    "geore:osmium_tinted_glass",
+    "geore:osmium_shard",
+    "geore:osmium_spyglass",
+    "geore:tungsten_block",
+    "geore:tungsten_cluster",
+    "geore:budding_tungsten",
+    "geore:tungsten_tinted_glass",
+    "geore:tungsten_shard",
+    "geore:tungsten_spyglass",
+    "geore:monazite_block",
+    "geore:monazite_cluster",
+    "geore:budding_monazite",
+    "geore:monazite_tinted_glass",
+    "geore:monazite_shard",
+    "geore:monazite_spyglass",
+    "ftbmaterials:quartz_end_ore",
+    "hephaestus:molten_osmium_bucket",
+    "hephaestus:molten_lumium_bucket",
+    "hephaestus:molten_signalum_bucket",
+    "mysticalagriculture:lumium_essence",
+    "mysticalagriculture:lumium_seeds",
+    "mysticalagriculture:signalum_essence",
+    "mysticalagriculture:signalum_seeds",
+    "ftbarmory:adamantite_dust",
+    "ftbarmory:adamantite_small_dust",
+    "ftbarmory:adamantite_tiny_dust",
+    "ftbarmory:adamantite_plate",
+    "ftbarmory:adamantite_gear",
+    "ftbarmory:adamantite_wire",
+    "ftbarmory:aeternium_raw_ore",
+    "ftbarmory:aeternium_dust",
+    "ftbarmory:aeternium_small_dust",
+    "ftbarmory:aeternium_tiny_dust",
+    "ftbarmory:aeternium_plate",
+    "ftbarmory:aeternium_gear",
+    "ftbarmory:aeternium_wire",
+    "ftbarmory:aurichalcum_raw_ore",
+    "ftbarmory:aurichalcum_dust",
+    "ftbarmory:aurichalcum_small_dust",
+    "ftbarmory:aurichalcum_tiny_dust",
+    "ftbarmory:aurichalcum_plate",
+    "ftbarmory:aurichalcum_gear",
+    "ftbarmory:aurichalcum_wire",
+    "chisel:coal_coke_array",
+    "chisel:coal_coke_braid",
+    "chisel:coal_coke_chaotic_bricks",
+    "chisel:coal_coke_chaotic_medium",
+    "chisel:coal_coke_chaotic_small",
+    "chisel:coal_coke_circular",
+    "chisel:coal_coke_cracked",
+    "chisel:coal_coke_cracked_bricks",
+    "chisel:coal_coke_cuts",
+    "chisel:coal_coke_dent",
+    "chisel:coal_coke_encased_bricks",
+    "chisel:coal_coke_french_1",
+    "chisel:coal_coke_french_2",
+    "chisel:coal_coke_jellybean",
+    "chisel:coal_coke_layers",
+    "chisel:coal_coke_mosaic",
+    "chisel:coal_coke_ornate",
+    "chisel:coal_coke_panel",
+    "chisel:coal_coke_pillar",
+    "chisel:coal_coke_prism",
+    "chisel:coal_coke_raw",
+    "chisel:coal_coke_road",
+    "chisel:coal_coke_slanted",
+    "chisel:coal_coke_small_bricks",
+    "chisel:coal_coke_soft_bricks",
+    "chisel:coal_coke_solid_bricks",
+    "chisel:coal_coke_tiles_large",
+    "chisel:coal_coke_tiles_medium",
+    "chisel:coal_coke_tiles_small",
+    "chisel:coal_coke_triple_bricks",
+    "chisel:coal_coke_twisted",
+    "chisel:coal_coke_weaver",
+    "chisel:coal_coke_zag",
+    {
+      "id": "enderio_evolution:capacitor_unobtainium",
+      "required": false
+    },
+    {
+      "id": "enderio_evolution:capacitor_vibranium",
+      "required": false
+    },
+    {
+      "id": "geore:allthemodium_block",
+      "required": false
+    },
+    {
+      "id": "geore:allthemodium_cluster",
+      "required": false
+    },
+    {
+      "id": "geore:allthemodium_shard",
+      "required": false
+    },
+    {
+      "id": "geore:allthemodium_spyglass",
+      "required": false
+    },
+    {
+      "id": "geore:allthemodium_tinted_glass",
+      "required": false
+    },
+    {
+      "id": "geore:budding_allthemodium",
+      "required": false
+    },
+    {
+      "id": "geore:budding_unobtainium",
+      "required": false
+    },
+    {
+      "id": "geore:budding_vibranium",
+      "required": false
+    },
+    {
+      "id": "geore:large_allthemodium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:large_unobtainium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:large_vibranium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:medium_allthemodium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:medium_unobtainium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:medium_vibranium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:small_allthemodium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:small_unobtainium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:small_vibranium_bud",
+      "required": false
+    },
+    {
+      "id": "geore:unobtainium_block",
+      "required": false
+    },
+    {
+      "id": "geore:unobtainium_cluster",
+      "required": false
+    },
+    {
+      "id": "geore:unobtainium_shard",
+      "required": false
+    },
+    {
+      "id": "geore:unobtainium_spyglass",
+      "required": false
+    },
+    {
+      "id": "geore:unobtainium_tinted_glass",
+      "required": false
+    },
+    {
+      "id": "geore:vibranium_block",
+      "required": false
+    },
+    {
+      "id": "geore:vibranium_cluster",
+      "required": false
+    },
+    {
+      "id": "geore:vibranium_shard",
+      "required": false
+    },
+    {
+      "id": "geore:vibranium_spyglass",
+      "required": false
+    },
+    {
+      "id": "geore:vibranium_tinted_glass",
+      "required": false
+    },
+    {
+      "id": "productivebees:honeycomb_allthemodium",
+      "required": false
+    },
+    "hostilenetworks:loot_fabricator",
+    "hostilenetworks:fab_directive",
+    {
+      "id": "xycraft_machines:gauntlet",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:gauntlet_improved",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:gauntlet_perfected",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_silk_touch",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:pipe_energy",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:pipe_fluid",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_fortune",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_efficiency",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_tunneler",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_auto_smelt",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_environmental",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_mining_mk3",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_mining_mk2",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_mining_mk1",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_tree_focus",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_vein_logic",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_area_survey",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_prospector",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_snipe",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_archon_affinity",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_bastille",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_protection",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_movement_speed",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_totem_consumer",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_step_assist",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_looting",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:module_hunter",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:cheese",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:noodles",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:hushpuppies",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:pasta",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:cake_base",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:kilogram_cake",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:ice_cream",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:proto",
+      "required": false
+    }
+  ]
+}

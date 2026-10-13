@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "arsmagicalegacy:wakebloom"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "arsmagicalegacy:wakebloom"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "arsmagicalegacy:wakebloom"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "id": "arsmagicalegacy:wakebloom"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "minecraft:clay",
+      "speed": 1.0
+    },
+    {
+      "ingredient": "minecraft:mud",
+      "speed": 1.0
+    }
+  ]
+}

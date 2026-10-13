@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:copper_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:crude_steel_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:gravel"
+    }
+  ],
+  "result": {
+    "id": "enderio_evolution:construction_alloy_ingot",
+    "count": 1
+  },
+  "ticks": 1000
+}

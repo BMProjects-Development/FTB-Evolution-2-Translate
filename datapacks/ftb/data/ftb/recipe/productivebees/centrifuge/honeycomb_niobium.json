@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "ftb:niobium"
+    }
+  ],
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "neoforge:ingredient_type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "ftb:niobium"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "chance": 0.4,
+      "item": "ltxi:raw_niobium"
+    },
+    {
+      "item": "productivebees:wax"
+    }
+  ]
+}

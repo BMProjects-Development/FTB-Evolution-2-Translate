@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "gem": "apotheosis:core/slipstream",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "attribute": "minecraft:movement_speed",
+      "gem_class": {
+        "key": "curios",
+        "types": [
+          "apothic_compats:back",
+          "apothic_compats:belt",
+          "apothic_compats:body",
+          "apothic_compats:bracelet",
+          "apothic_compats:charm",
+          "apothic_compats:curio",
+          "apothic_compats:feet",
+          "apothic_compats:hands",
+          "apothic_compats:head",
+          "apothic_compats:necklace",
+          "apothic_compats:ring",
+          "apothic_compats:brooch",
+          "apothic_compats:rune",
+          "apothic_compats:an_focus"
+        ]
+      },
+      "operation": "add_multiplied_base",
+      "values": {
+        "cracked": 0.025,
+        "chipped": 0.0375,
+        "flawed": 0.05,
+        "normal": 0.0625,
+        "flawless": 0.075,
+        "perfect": 0.0875
+      }
+    }
+  ]
+}

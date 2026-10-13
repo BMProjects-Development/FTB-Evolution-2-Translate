@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:ingot_cast",
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 90,
+    "id": "ftb:molten_vivid_alloy"
+  },
+  "result": {
+    "id": "enderio_evolution:vivid_alloy_ingot"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ORO",
+    "RGR",
+    "ODO"
+  ],
+  "key": {
+    "O": "#c:obsidians",
+    "R": "#ftb:basic_circuits",
+    "G": "#c:glass_panes",
+    "D": "#c:dusts/redstone"
+  },
+  "result": {
+    "id": "hostilenetworks:deep_learner"
+  }
+}

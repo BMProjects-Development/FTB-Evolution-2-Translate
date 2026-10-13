@@ -1,0 +1,828 @@
+{
+	"anima_cap": {
+		"title": { "translate": "skill.ftb.magic.anima_cap.title" },
+		"description": { "translate": "skill.ftb.magic.anima_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "anima:god_soul" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_reaping", "value": 0.2, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_soul_thrift", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_worker_endurance", "value": 0.2, "operation": "addition" } }
+		]
+	},
+
+	"archmagus_cap": {
+		"title": { "translate": "skill.ftb.magic.archmagus_cap.title" },
+		"description": { "translate": "skill.ftb.magic.archmagus_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:celestial_prism" } },
+		"size": 2.5,
+		"cost": 1,
+		"required_spent_points": 75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_damage", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_cost_reduction", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_cost_reduction", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"ars_cap": {
+		"title": { "translate": "skill.ftb.magic.ars_cap.title" },
+		"description": { "translate": "skill.ftb.magic.ars_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:mage_helmet" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:max_mana", "value": 0.1, "operation": "multiply_base" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_cost_reduction", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_spell_power", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"blood_hub": {
+		"title": { "translate": "skill.ftb.magic.blood_hub.title" },
+		"description": { "translate": "skill.ftb.magic.blood_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:weak_blood_shard" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:bonus_self_sacrifice", "value": 5, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_blood_efficiency", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_resistance", "value": 0.03, "operation": "addition" } }
+		]
+	},
+
+	"coven_cap": {
+		"title": { "translate": "skill.ftb.magic.coven_cap.title" },
+		"description": { "translate": "skill.ftb.magic.coven_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:witches_hat" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_altar_efficiency", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_brew_potency", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_symbol_mastery", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"evil_cap": {
+		"title": { "translate": "skill.ftb.magic.evil_cap.title" },
+		"description": { "translate": "skill.ftb.magic.evil_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "evilcraft:blood_infuser" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_blood_efficiency", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_blood_harvest", "value": 0.2, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_spirit_binding", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"hedge_hub": {
+		"title": { "translate": "skill.ftb.magic.hedge_hub.title" },
+		"description": { "translate": "skill.ftb.magic.hedge_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:mandrake_root" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witch_power", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_cost_reduction", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"magic_root": {
+		"title": { "translate": "skill.ftb.magic.magic_root.title" },
+		"description": { "translate": "skill.ftb.magic.magic_root.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/gear_locked.png", "available": "ftbevolution:textures/skills/frames/available/gear_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/gear_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:spell_book" } },
+		"size": 2.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"night_cap": {
+		"title": { "translate": "skill.ftb.magic.night_cap.title" },
+		"description": { "translate": "skill.ftb.magic.night_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:death_hood" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_ability_cooldown", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_necromancy", "value": 0.2, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "witchery:vampire_sun_resistance", "value": 80, "operation": "addition" } }
+		]
+	},
+
+	"occult_cap": {
+		"title": { "translate": "skill.ftb.magic.occult_cap.title" },
+		"description": { "translate": "skill.ftb.magic.occult_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:golden_sacrificial_bowl" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_ritual_haste", "value": 0.2, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_spirit_diligence", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:tamed_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"occult_hub": {
+		"title": { "translate": "skill.ftb.magic.occult_hub.title" },
+		"description": { "translate": "skill.ftb.magic.occult_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:dictionary_of_spirits" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:tamed_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_ritual_haste", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_soul_thrift", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"roots_cap": {
+		"title": { "translate": "skill.ftb.magic.roots_cap.title" },
+		"description": { "translate": "skill.ftb.magic.roots_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "rootsclassic:crystal_staff" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_potency", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_staff_save", "value": 0.15, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_cost_reduction", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"sorcery_hub": {
+		"title": { "translate": "skill.ftb.magic.sorcery_hub.title" },
+		"description": { "translate": "skill.ftb.magic.sorcery_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:occulus" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:mana_regeneration", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"thaum_cap": {
+		"title": { "translate": "skill.ftb.magic.thaum_cap.title" },
+		"description": { "translate": "skill.ftb.magic.thaum_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:enchanted_book" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:enchanting_arcana", "value": 10, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:mana_regeneration", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"veil_master_cap": {
+		"title": { "translate": "skill.ftb.magic.veil_master_cap.title" },
+		"description": { "translate": "skill.ftb.magic.veil_master_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:trinity_gem" } },
+		"size": 2.5,
+		"cost": 1,
+		"required_spent_points": 75,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_resistance", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:tamed_damage", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vitae_ritual_efficiency", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_altar_efficiency", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"vitae_cap": {
+		"title": { "translate": "skill.ftb.magic.vitae_cap.title" },
+		"description": { "translate": "skill.ftb.magic.vitae_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:blood_orb_archmage" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:bonus_self_sacrifice", "value": 20, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vitae_ritual_efficiency", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:blood_shield", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"anima_reaping_+10%": {
+		"title": { "translate": "skill.ftb.magic.anima_reaping_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.anima_reaping_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "anima:saronite_sword" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_reaping", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"anima_soul_thrift_+5%": {
+		"title": { "translate": "skill.ftb.magic.anima_soul_thrift_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.anima_soul_thrift_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "anima:soul_gem" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_soul_thrift", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"anima_spell_haste_+5%": {
+		"title": { "translate": "skill.ftb.magic.anima_spell_haste_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.anima_spell_haste_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "anima:spell_book" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_spell_haste", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"anima_worker_endurance_+10%": {
+		"title": { "translate": "skill.ftb.magic.anima_worker_endurance_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.anima_worker_endurance_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "anima:soul_forge" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:anima_worker_endurance", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ars_cost_reduction_+5%": {
+		"title": { "translate": "skill.ftb.magic.ars_cost_reduction_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.ars_cost_reduction_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:spell_parchment" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_cost_reduction", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"ars_spell_power_+15%": {
+		"title": { "translate": "skill.ftb.magic.ars_spell_power_+15%.title" },
+		"description": { "translate": "skill.ftb.magic.ars_spell_power_+15%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:infinity_orb" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_spell_power", "value": 0.15, "operation": "addition" } }
+		]
+	},
+
+	"ars_xp_gain_+10%": {
+		"title": { "translate": "skill.ftb.magic.ars_xp_gain_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.ars_xp_gain_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:inscription_table" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_xp_gain", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"arsmagicalegacy_burnout_regeneration_+10%": {
+		"title": { "translate": "skill.ftb.magic.arsmagicalegacy_burnout_regeneration_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.arsmagicalegacy_burnout_regeneration_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:wakebloom" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:burnout_regeneration", "value": 0.1, "operation": "multiply_base" } }
+		]
+	},
+
+	"arsmagicalegacy_mana_regeneration_+5%": {
+		"title": { "translate": "skill.ftb.magic.arsmagicalegacy_mana_regeneration_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.arsmagicalegacy_mana_regeneration_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:cerublossom" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:mana_regeneration", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"arsmagicalegacy_max_mana_+5%": {
+		"title": { "translate": "skill.ftb.magic.arsmagicalegacy_max_mana_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.arsmagicalegacy_max_mana_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:mana_martini" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:max_mana", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"blood_shield_+0.5": {
+		"title": { "translate": "skill.ftb.magic.blood_shield_+0.5.title" },
+		"description": { "translate": "skill.ftb.magic.blood_shield_+0.5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "animusnv:sentient_shield" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:blood_shield", "value": 0.5, "operation": "addition" } }
+		]
+	},
+
+	"blood_siphon_+1": {
+		"title": { "translate": "skill.ftb.magic.blood_siphon_+1.title" },
+		"description": { "translate": "skill.ftb.magic.blood_siphon_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "animusnv:sigil_leach" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:blood_siphon", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"bonus_sacrifice_+10": {
+		"title": { "translate": "skill.ftb.magic.bonus_sacrifice_+10.title" },
+		"description": { "translate": "skill.ftb.magic.bonus_sacrifice_+10.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:rune_sacrifice" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:bonus_sacrifice", "value": 10, "operation": "addition" } }
+		]
+	},
+
+	"bonus_self_sacrifice_+10": {
+		"title": { "translate": "skill.ftb.magic.bonus_self_sacrifice_+10.title" },
+		"description": { "translate": "skill.ftb.magic.bonus_self_sacrifice_+10.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:rune_sacrifice_self" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:bonus_self_sacrifice", "value": 10, "operation": "addition" } }
+		]
+	},
+
+	"bonus_spiritus_+10": {
+		"title": { "translate": "skill.ftb.magic.bonus_spiritus_+10.title" },
+		"description": { "translate": "skill.ftb.magic.bonus_spiritus_+10.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:raw_spiritus" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:bonus_spiritus", "value": 10, "operation": "addition" } }
+		]
+	},
+
+	"enchanting_arcana_+5": {
+		"title": { "translate": "skill.ftb.magic.enchanting_arcana_+5.title" },
+		"description": { "translate": "skill.ftb.magic.enchanting_arcana_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "apothic_enchanting:sightshelf" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:enchanting_arcana", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"enchanting_arcana_+10": {
+		"title": { "translate": "skill.ftb.magic.enchanting_arcana_+10.title" },
+		"description": { "translate": "skill.ftb.magic.enchanting_arcana_+10.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "apothic_enchanting:apothic_enchanting_table" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:enchanting_arcana", "value": 10, "operation": "addition" } }
+		]
+	},
+
+	"enchanting_discount_+5%": {
+		"title": { "translate": "skill.ftb.magic.enchanting_discount_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.enchanting_discount_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "apothic_enchanting:scrap_tome" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:enchanting_discount", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"evilcraft_blood_efficiency_+5%": {
+		"title": { "translate": "skill.ftb.magic.evilcraft_blood_efficiency_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.evilcraft_blood_efficiency_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "evilcraft:hardened_blood" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_blood_efficiency", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"evilcraft_blood_harvest_+10%": {
+		"title": { "translate": "skill.ftb.magic.evilcraft_blood_harvest_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.evilcraft_blood_harvest_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "evilcraft:blood_extractor" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_blood_harvest", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"evilcraft_broom_speed_+10%": {
+		"title": { "translate": "skill.ftb.magic.evilcraft_broom_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.evilcraft_broom_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "evilcraft:broom" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_broom_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"evilcraft_spirit_binding_+2": {
+		"title": { "translate": "skill.ftb.magic.evilcraft_spirit_binding_+2.title" },
+		"description": { "translate": "skill.ftb.magic.evilcraft_spirit_binding_+2.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "evilcraft:vengeance_focus" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:evilcraft_spirit_binding", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"magic_damage_+2%": {
+		"title": { "translate": "skill.ftb.magic.magic_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.magic.magic_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:vinteum_dust" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"magic_damage_+3%": {
+		"title": { "translate": "skill.ftb.magic.magic_damage_+3%.title" },
+		"description": { "translate": "skill.ftb.magic.magic_damage_+3%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:purified_vinteum_dust" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_damage", "value": 0.03, "operation": "addition" } }
+		]
+	},
+
+	"magic_resistance_+3%": {
+		"title": { "translate": "skill.ftb.magic.magic_resistance_+3%.title" },
+		"description": { "translate": "skill.ftb.magic.magic_resistance_+3%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "arsmagicalegacy:mage_chestplate" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:magic_resistance", "value": 0.03, "operation": "addition" } }
+		]
+	},
+
+	"occult_familiar_bond_+1": {
+		"title": { "translate": "skill.ftb.magic.occult_familiar_bond_+1.title" },
+		"description": { "translate": "skill.ftb.magic.occult_familiar_bond_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:familiar_ring" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_familiar_bond", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"occult_ritual_haste_+10%": {
+		"title": { "translate": "skill.ftb.magic.occult_ritual_haste_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.occult_ritual_haste_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:chalk_white" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_ritual_haste", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"occult_spirit_bounty_+5%": {
+		"title": { "translate": "skill.ftb.magic.occult_spirit_bounty_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.occult_spirit_bounty_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:iron_dust" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_spirit_bounty", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"occult_spirit_diligence_+5%": {
+		"title": { "translate": "skill.ftb.magic.occult_spirit_diligence_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.occult_spirit_diligence_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:book_of_binding_foliot" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:occult_spirit_diligence", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"roots_cost_reduction_+5%": {
+		"title": { "translate": "skill.ftb.magic.roots_cost_reduction_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.roots_cost_reduction_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "rootsclassic:spell_powder" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_cost_reduction", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"roots_potency_+1": {
+		"title": { "translate": "skill.ftb.magic.roots_potency_+1.title" },
+		"description": { "translate": "skill.ftb.magic.roots_potency_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "rootsclassic:verdant_sprig" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_potency", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"roots_ritual_speed_+10%": {
+		"title": { "translate": "skill.ftb.magic.roots_ritual_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.roots_ritual_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "rootsclassic:attuned_standing_stone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_ritual_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"roots_staff_save_+5%": {
+		"title": { "translate": "skill.ftb.magic.roots_staff_save_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.roots_staff_save_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "rootsclassic:oak_bark" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:roots_staff_save", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"sigil_cost_reduction_+5": {
+		"title": { "translate": "skill.ftb.magic.sigil_cost_reduction_+5.title" },
+		"description": { "translate": "skill.ftb.magic.sigil_cost_reduction_+5.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:sigil_divination" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "neovitae:sigil_cost_reduction", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"tamed_damage_+5%": {
+		"title": { "translate": "skill.ftb.magic.tamed_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.tamed_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:afrit_essence" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:tamed_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"tamed_resistance_+5%": {
+		"title": { "translate": "skill.ftb.magic.tamed_resistance_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.tamed_resistance_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "occultism:spirit_attuned_crystal" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:tamed_resistance", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"thaum_focus_power_+5%": {
+		"title": { "translate": "skill.ftb.magic.thaum_focus_power_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.thaum_focus_power_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:blaze_rod" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ars_spell_power", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"thaum_infusion_stability_+1": {
+		"title": { "translate": "skill.ftb.magic.thaum_infusion_stability_+1.title" },
+		"description": { "translate": "skill.ftb.magic.thaum_infusion_stability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:enchanting_table" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:enchanting_arcana", "value": 5, "operation": "addition" } }
+		]
+	},
+
+	"thaum_warp_ward_+5%": {
+		"title": { "translate": "skill.ftb.magic.thaum_warp_ward_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.thaum_warp_ward_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:ender_eye" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "arsmagicalegacy:mana_regeneration", "value": 0.05, "operation": "multiply_base" } }
+		]
+	},
+
+	"vampire_bat_form_duration_+600": {
+		"title": { "translate": "skill.ftb.magic.vampire_bat_form_duration_+600.title" },
+		"description": { "translate": "skill.ftb.magic.vampire_bat_form_duration_+600.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:batwing_pendant" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "witchery:vampire_bat_form_duration", "value": 600, "operation": "addition" } }
+		]
+	},
+
+	"vampire_drink_speed_+2": {
+		"title": { "translate": "skill.ftb.magic.vampire_drink_speed_+2.title" },
+		"description": { "translate": "skill.ftb.magic.vampire_drink_speed_+2.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:chalice" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "witchery:vampire_drink_speed", "value": 2, "operation": "addition" } }
+		]
+	},
+
+	"vampire_sun_resistance_+40": {
+		"title": { "translate": "skill.ftb.magic.vampire_sun_resistance_+40.title" },
+		"description": { "translate": "skill.ftb.magic.vampire_sun_resistance_+40.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:coffin" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "witchery:vampire_sun_resistance", "value": 40, "operation": "addition" } }
+		]
+	},
+
+	"vis_discount_+2%": {
+		"title": { "translate": "skill.ftb.magic.vis_discount_+2%.title" },
+		"description": { "translate": "skill.ftb.magic.vis_discount_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:glowstone_dust" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:enchanting_discount", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"vitae_ritual_efficiency_+5%": {
+		"title": { "translate": "skill.ftb.magic.vitae_ritual_efficiency_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.vitae_ritual_efficiency_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:master_ritual_stone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vitae_ritual_efficiency", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"vitae_sentient_growth_+10%": {
+		"title": { "translate": "skill.ftb.magic.vitae_sentient_growth_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.vitae_sentient_growth_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "neovitae:sentient_helmet" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vitae_sentient_growth", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"witch_power_+1": {
+		"title": { "translate": "skill.ftb.magic.witch_power_+1.title" },
+		"description": { "translate": "skill.ftb.magic.witch_power_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:coven_contract" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witch_power", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"witchery_ability_cooldown_+5%": {
+		"title": { "translate": "skill.ftb.magic.witchery_ability_cooldown_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_ability_cooldown_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:clock" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_ability_cooldown", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"witchery_altar_efficiency_+5%": {
+		"title": { "translate": "skill.ftb.magic.witchery_altar_efficiency_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_altar_efficiency_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:golden_ritual_chalk" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_altar_efficiency", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"witchery_brew_bottling_+5%": {
+		"title": { "translate": "skill.ftb.magic.witchery_brew_bottling_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_brew_bottling_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:cauldron" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_brew_bottling", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"witchery_infusion_efficiency_+5%": {
+		"title": { "translate": "skill.ftb.magic.witchery_infusion_efficiency_+5%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_infusion_efficiency_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:focused_will" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_infusion_efficiency", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"witchery_infusion_gain_+10%": {
+		"title": { "translate": "skill.ftb.magic.witchery_infusion_gain_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_infusion_gain_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:whiff_of_magic" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_infusion_gain", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"witchery_lich_souls_+1": {
+		"title": { "translate": "skill.ftb.magic.witchery_lich_souls_+1.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_lich_souls_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery_forbidden_magic:phylactery" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_lich_souls", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"witchery_necromancy_+10%": {
+		"title": { "translate": "skill.ftb.magic.witchery_necromancy_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_necromancy_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:necromantic_stone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_necromancy", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"witchery_poppet_durability_+10%": {
+		"title": { "translate": "skill.ftb.magic.witchery_poppet_durability_+10%.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_poppet_durability_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:poppet" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_poppet_durability", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"witchery_symbol_mastery_+1": {
+		"title": { "translate": "skill.ftb.magic.witchery_symbol_mastery_+1.title" },
+		"description": { "translate": "skill.ftb.magic.witchery_symbol_mastery_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "witchery:ent_twig" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:witchery_symbol_mastery", "value": 1, "operation": "addition" } }
+		]
+	}
+}

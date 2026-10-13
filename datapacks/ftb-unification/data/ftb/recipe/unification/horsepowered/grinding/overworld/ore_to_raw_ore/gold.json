@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/gold",
+  "result": {
+    "id": "minecraft:raw_gold"
+  },
+  "secondary": {
+    "id": "minecraft:raw_gold"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

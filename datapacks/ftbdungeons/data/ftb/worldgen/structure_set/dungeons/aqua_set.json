@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:dungeons/aqua_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 38,
+    "separation": 29,
+    "salt": 1257630861
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:energized_gold",
+  "ingredient": {
+    "tag": "c:ingots/energized_gold"
+  },
+  "color": 14935699,
+  "head_stats": {
+    "durability": 150,
+    "mining_speed": 11.0,
+    "attack_damage": 1.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 24,
+    "trait": "shock"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.08,
+    "damage_mult": -0.05,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 30
+  }
+}

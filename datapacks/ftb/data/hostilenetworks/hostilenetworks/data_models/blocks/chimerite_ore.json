@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "arsmagicalegacy:chimerite_ore",
+  "variants": [
+    "arsmagicalegacy:deepslate_chimerite_ore"
+  ],
+  "name_color": "#8C5AC8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.chimerite_ore",
+  "fabricator_drops": [
+    {
+      "id": "arsmagicalegacy:chimerite",
+      "count": 12
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

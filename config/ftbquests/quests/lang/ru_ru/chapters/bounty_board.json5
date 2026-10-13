@@ -1,0 +1,151 @@
+{
+  "quest.1CA8D89EE7C50CFD.title": "&fKill 10 &dShulkers",
+  "task.58687506041183E7.title": "&eKill&r: &cSlimes",
+  "quest.34C8824842867F5D.quest_desc": [
+    "The &dEnder Dragon&r doesn't stay dead. Place four &aEnd Crystals&r around the edge of the exit portal to summon it again.",
+  ],
+  "quest.3D687BF735E54AE8.quest_desc": [
+    "&cBlazes&r spawn around their spawners in &cNether Fortresses&r. Snowballs hurt them, and a Fire Resistance potion takes most of the danger out of the fight.",
+  ],
+  "quest.24445EC4DA6492F1.title": "&dHero Of The Village",
+  "task.61C0F35123FBB85E.title": "&fKill: 1x &dWarden",
+  "quest.0D35D0D33922A201.title": "&fDefeat 10 &dGateways To Eternity",
+  "quest.782CCA40CEBC135A.quest_desc": [
+    "Create a spawner with minimal delays that has redstone control, no AI, ignores spawn conditions, and ignores players.",
+  ],
+  "task.4087591E474FC477.title": "&fKill 10 &dEndermen",
+  "quest.59C71582F19E8554.quest_desc": [
+    "The easiest bounty on the board. Only regular &cZombies&r count, so husks, drowned and zombie villagers won't add to it.",
+  ],
+  "quest.7D23D1C9DE75721F.title": "&fKill 20 &cSkeletons",
+  "task.4335140E412572D8.title": "&fDefeat 10 &dGateways To Eternity",
+  "quest.1237537100194BED.quest_desc": [
+    "As a minor deity of decay, &6nether stars&r dropped by a defeated &dWither&r are an increasingly common demand of worthiness.",
+    "",
+    "Summoned by placing 3 wither skeleton skulls on top of a \"T\" of 4 soul sand.",
+    "",
+    "{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}",
+  ],
+  "task.268F689AFA620C03.title": "&eKill&r: &cSkeletons",
+  "quest.5C2C0986D6014ADD.title": "&6The Wandering Trader",
+  "quest.20D7DA6055C540FA.quest_desc": [
+    "This quest chapter contains repeatable quests that you can complete for some extra cash you can spend at the shops.",
+  ],
+  "quest.232E1BBB91DEF799.quest_subtitle": "You survived 100 Days in FTB Evolution 2",
+  "quest.5918EA666DF20DA4.quest_subtitle": "Just beat the pack already... What's taking you so long?",
+  "task.7B71A001741520D3.title": "&eKill&r: &cWither Skeletons",
+  "quest.708DD6CD3AE7F0FE.quest_desc": [
+    "Decayed guardians of the nether fortresses",
+  ],
+  "quest.782CCA40CEBC135A.title": "The Ultimate Spawner",
+  "quest.1CA8D89EE7C50CFD.quest_desc": [
+    "Sheltered sentries of the end cities.",
+  ],
+  "quest.3D687BF735E54AE8.title": "&fKill 10 &cBlazes",
+  "quest.49540656967A58DC.title": "Play for 1 Hour",
+  "quest.49540656967A58DC.quest_desc": [
+    "Every minute you spend in this world counts toward the playtime bounties, even the minutes you spend standing still.",
+  ],
+  "quest.77F964631F38EA2E.title": "&fKill 20 &cCreepers",
+  "quest.54E74795E1F9F9F2.title": "Play for &c25 Hours",
+  "task.491E250D69066BBC.title": "&fKill: 1x &dWither",
+  "task.3F437642D1B08EBF.title": "&eKill&r: &cSpiders",
+  "quest.5918EA666DF20DA4.title": "Play for &z1000 Hours",
+  "task.5B97CEFB80FF361B.title": "&fKill 10 &dShulkers",
+  "quest.67078BCAD52BC4B4.quest_desc": [
+    "Big slimes split when they die, and every piece you kill counts. Look in swamps and deep underground in slime chunks.",
+  ],
+  "quest.29E78B39C74FBC4E.title": "Kill One Of Every Hostile Mob",
+  "quest.05B051603AC63B5A.title": "Ultimate Enchanting",
+  "quest.6E5CEEE43F0DECA7.quest_desc": [
+    "Loot 100 &eLootr&r barrels while exploring.",
+  ],
+  "quest.3E0191A718C8CFF9.quest_subtitle": "Survive 24 Hours Without Dying",
+  "quest.0D35D0D33922A201.quest_desc": [
+    "A &aGate Pearl&r opens a gateway that sends waves of mobs at you, and JEI shows how to craft each one.",
+    "",
+    "A gateway fails if a mob can't spawn, a mob walks too far away or the wave timer runs out, so open it on flat, open ground.",
+  ],
+  "quest.1F70A066744E64EA.quest_desc": [
+    "Fifty hours. Good time to check what the &aFTB Skyline&r wants from you.",
+  ],
+  "quest.3E0191A718C8CFF9.quest_desc": [
+    "The clock counts time since your last death, and only while you're logged in. Die once and it starts over from zero.",
+  ],
+  "quest.54E74795E1F9F9F2.quest_desc": [
+    "Twenty-five hours. If your base still runs on starter generators, this is your sign to upgrade.",
+  ],
+  "quest.43B65AF71961292F.quest_desc": [
+    "A hundred hours in one world. Take a break, the pack isn't going anywhere.",
+  ],
+  "task.4BEC99EFB3F7A310.title": "&bSurvival Of The Fittest",
+  "quest.1237537100194BED.title": "&fKill The &dWither",
+  "task.6347BBAD2ED20F25.title": "&eKill&r: &cZombies",
+  "quest.6DC738A434C5B02F.title": "&fKill 10 &dEndermen",
+  "quest.43B65AF71961292F.title": "Play for &6100 Hours",
+  "quest.232E1BBB91DEF799.title": "Play for &z100 Days",
+  "quest.6964408274A7ACF7.quest_desc": [
+    "Ten hours in. By now you should have power running and a base worth coming home to.",
+  ],
+  "task.79684EDD87FFB47C.title": "&eKill&r: &cCreepers",
+  "quest.3E0191A718C8CFF9.title": "&bSurvival Of The Fittest",
+  "quest.59C71582F19E8554.title": "&fKill 20 &cZombies",
+  "quest.43B65AF71961292F.quest_subtitle": "Time to touch some grass",
+  "quest.644DADBCF755057C.quest_desc": [
+    "Acquire a Sigil of Supremacy from wave 100 of the Endless Gateway of Apothic Invaders",
+  ],
+  "quest.2EE5352D8E5F715F.quest_desc": [
+    "Only regular spiders count; cave spiders are a different mob. In daylight they leave you alone unless you hit them first.",
+  ],
+  "quest.6DC738A434C5B02F.quest_desc": [
+    "Look at one to make it angry, then duck under a ceiling two blocks high. An &dEnderman&r is too tall to follow you in.",
+  ],
+  "quest.24445EC4DA6492F1.quest_subtitle": "Defend A Village From A Raid",
+  "quest.29E78B39C74FBC4E.quest_desc": [
+    "This is the vanilla Monsters Hunted advancement. It wants 41 different mobs, including the &dEnder Dragon&r, the &5Wither&r and an &cElder Guardian&r, so it takes a while.",
+    "",
+    "Only vanilla mobs are on the list. The Advancements screen shows your progress.",
+  ],
+  "quest.1F70A066744E64EA.title": "Play for &d50 Hours",
+  "quest.24445EC4DA6492F1.quest_desc": [
+    "You'll need &cBad Omen&r to trigger a raid. Raid captains drop &cOminous Bottles&r; drink one near a village, then hold the line.",
+  ],
+  "quest.232E1BBB91DEF799.quest_desc": [
+    "That's 2,400 hours of playtime. Nobody's expected to finish this one.",
+  ],
+  "quest.7A8669713BE28E8F.title": "&fKill The &dWarden",
+  "quest.7BCC2E37198682F8.quest_desc": [
+    "Acquire an item with level X enchantment",
+  ],
+  "quest.20D7DA6055C540FA.title": "The &6Bounty Board",
+  "quest.05B051603AC63B5A.quest_desc": [
+    "Enchant an item with max stats and Quantic Stability",
+  ],
+  "task.05BA59C2F9E1F43B.title": "&fKill 10 &cBlazes",
+  "quest.5C2C0986D6014ADD.quest_desc": [
+    "Every day, all of the &aWandering Traders&r gather for a meeting. They discuss which players may need their services and when they’re available to help. Their trades include various helpful items, such as &aspecial grass&r to rapidly spawn creatures or &2borrowed technology&r to jump-start advanced storage.",
+    "",
+    "They mean well, though they often are not savvy on where they appear and can't tell when a player doesn’t need their help anymore.",
+    "",
+    "You can use the command",
+    "&b/events toggle ftb:wandering_trader",
+    "to let them know if they’re needed or not.",
+  ],
+  "quest.2EE5352D8E5F715F.title": "&fKill 20 &cSpiders",
+  "quest.708DD6CD3AE7F0FE.title": "&fKill 10 &cWither Skeletons",
+  "quest.34C8824842867F5D.title": "&fKill The &dEnder Dragon",
+  "quest.5918EA666DF20DA4.quest_desc": [
+    "A thousand hours is about six weeks of nonstop play. If you get this one, we'd like to hear how.",
+  ],
+  "quest.6964408274A7ACF7.title": "Play for &a10 Hours",
+  "quest.77F964631F38EA2E.quest_desc": [
+    "A &cCreeper&r that blows itself up doesn't count. Kill it before it finishes hissing.",
+  ],
+  "quest.7A8669713BE28E8F.quest_desc": [
+    "Keepers of the &3Ancient Cities'&r silence. Call attention to yourself at your own peril.",
+  ],
+  "quest.67078BCAD52BC4B4.title": "&fKill 20 &cSlimes",
+  "quest.7D23D1C9DE75721F.quest_desc": [
+    "A shield blocks their arrows. Strays and bogged are separate mobs and don't count here.",
+  ],
+}

@@ -1,0 +1,403 @@
+{
+  id: "4513372531917522",
+  group: "28224E273DBAA255",
+  order_index: 4,
+  icon: {
+    id: "productivefarming:farm_controller",
+    count: 1,
+  },
+  filename: "productive_farming",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "33F929B0D52A951D",
+  quests: [
+    {
+      icon: {
+        id: "minecraft:wheat_seeds",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      min_width: 300,
+      id: "33F929B0D52A951D",
+      tasks: [
+        {
+          id: "67929E562DA0E143",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6C29213662EEBD40",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:composter",
+        count: 1,
+      },
+      x: 1.5,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "33F929B0D52A951D",
+      ],
+      size: 1.5,
+      id: "77D71E4CCF457B99",
+      tasks: [
+        {
+          id: "21E69C57D6281436",
+          type: "item",
+          item: {
+            id: "minecraft:composter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1BCDCEDB052EB9E6",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "50F24ADA5F7BA977",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivefarming:luffa",
+        count: 1,
+      },
+      x: 3.5,
+      y: -4.0,
+      dependencies: [
+        "77D71E4CCF457B99",
+      ],
+      size: 1.0,
+      id: "1451C80A726C94AC",
+      tasks: [
+        {
+          id: "727BED51FB427F7B",
+          type: "item",
+          item: {
+            id: "productivefarming:dried_luffa",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "290F542EE27E5F67",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "334CC9F254CFA46C",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivefarming:dahlia",
+        count: 1,
+      },
+      x: 2.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "33F929B0D52A951D",
+      ],
+      size: 1.5,
+      id: "72E34549F2F844F4",
+      tasks: [
+        {
+          id: "398E3AC168B45A1E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivefarming:alium)item(productivefarming:amaryllis)item(productivefarming:anemone)item(productivefarming:azure_bluet)item(productivefarming:balloon_flower)item(productivefarming:black_bearded_iris)item(productivefarming:blue_jade_vine)item(productivefarming:blue_orchid)item(productivefarming:butterfly_pea)item(productivefarming:cape_leadwort)item(productivefarming:cattail)item(productivefarming:chrysanthemum)item(productivefarming:cornflower)item(productivefarming:dahlia)item(productivefarming:dandelion)item(productivefarming:great_lobelia)item(productivefarming:hellebore)item(productivefarming:himalayan_poppy)item(productivefarming:hydrangea)item(productivefarming:lilac)item(productivefarming:lily_of_the_valley)item(productivefarming:morning_glory)item(productivefarming:motherwort)item(productivefarming:oxeye_daisy)item(productivefarming:peony)item(productivefarming:poppy)item(productivefarming:rose_bush)item(productivefarming:sea_holly)item(productivefarming:skullcap)item(productivefarming:stinging_nettle)item(productivefarming:torchflower)item(productivefarming:tulip)item(productivefarming:valerian_root)item(productivefarming:wither_rose)item(productivefarming:zinnia))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C3150F430D50875",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "13DACA81260F9078",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:beehive",
+        count: 1,
+      },
+      x: 4.0,
+      y: -2.0,
+      dependencies: [
+        "72E34549F2F844F4",
+      ],
+      size: 1.0,
+      id: "39B6E59D53A410C2",
+      tasks: [
+        {
+          id: "28B21F355B6BF114",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "26ACB3A5C1CD4759",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivefarming:farm_controller",
+        count: 1,
+      },
+      x: 2.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "33F929B0D52A951D",
+      ],
+      size: 1.5,
+      id: "1CF009233E5F3180",
+      tasks: [
+        {
+          id: "1AF98AC0FCA0F2F5",
+          type: "item",
+          item: {
+            id: "productivefarming:farm_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C716BF7C8611711",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4632017BF8EC78A8",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivefarming:nutrient_water_bucket",
+        count: 1,
+      },
+      x: 4.0,
+      y: 2.0,
+      dependencies: [
+        "1CF009233E5F3180",
+      ],
+      size: 1.0,
+      id: "3A6F87DEB3A4AD72",
+      tasks: [
+        {
+          id: "3861F43614810C04",
+          type: "item",
+          item: {
+            id: "productivefarming:nutrient_water_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A580C1DC89A683E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "169255C9A1028867",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivefarming:feeding_trough",
+        count: 1,
+      },
+      x: 1.5,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "33F929B0D52A951D",
+      ],
+      size: 1.5,
+      id: "742BC34CA43A9BDC",
+      tasks: [
+        {
+          id: "132CAF21F7BE9517",
+          type: "item",
+          item: {
+            id: "productivefarming:feeding_trough",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F9FC79DE24A08A8",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2F17237655016A81",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivefarming:watering_trough",
+        count: 1,
+      },
+      x: 3.5,
+      y: 4.0,
+      dependencies: [
+        "742BC34CA43A9BDC",
+      ],
+      size: 1.0,
+      id: "1125AF119766A86F",
+      tasks: [
+        {
+          id: "7FD1A948E246CB75",
+          type: "item",
+          item: {
+            id: "productivefarming:watering_trough",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23FDCD200690C16B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "458361CE6D4BCCF1",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "197CF94F783E59DF",
+      x: 6.0,
+      y: 2.0,
+      id: "2C2A7FFF4064E99B",
+    },
+  ],
+  images: [
+    {
+      x: -5.0,
+      y: -1.5,
+      width: 7.4,
+      height: 0.69,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/productive_farming_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "33F929B0D52A951D",
+      },
+      id: "27FAEF804A4B699E",
+    },
+    {
+      x: -7.1,
+      y: 0.4,
+      width: 1.75,
+      height: 1.75,
+      rotation: -14.0,
+      image: "minecraft:block/red_mushroom",
+      id: "18BBA0F4B50EA6FF",
+    },
+    {
+      x: -5.0,
+      y: 0.7,
+      width: 2.15,
+      height: 2.15,
+      rotation: 0.0,
+      image: "productivefarming:item/crops/luffa",
+      id: "49F3310B5700E2B5",
+    },
+    {
+      x: -2.9,
+      y: 0.4,
+      width: 1.75,
+      height: 1.75,
+      rotation: 14.0,
+      image: "productivefarming:item/materials/dried_luffa",
+      id: "1EE366C55B4CAB0D",
+    },
+    {
+      x: 2.0,
+      y: 2.0,
+      width: 2.2,
+      height: 2.2,
+      rotation: 0.0,
+      image: "productivefarming:block/farm_controller_front_off",
+      id: "29DB56443196A0AD",
+    },
+    {
+      x: 5.75,
+      y: -4.25,
+      width: 2.45,
+      height: 2.45,
+      rotation: 12.0,
+      image: "minecraft:block/brown_mushroom",
+      id: "383C18F62113AC96",
+    },
+  ],
+}

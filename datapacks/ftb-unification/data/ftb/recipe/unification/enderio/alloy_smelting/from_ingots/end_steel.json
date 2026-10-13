@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 10000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/grains_of_pizeallity"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio:end_steel_ingot"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ender_pearls"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "ae2:ender_dust"
+    }
+  ]
+}

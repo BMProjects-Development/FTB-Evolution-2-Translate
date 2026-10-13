@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/moonstone"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "arsmagicalegacy:moonstone"
+    }
+  ],
+  "time": 40
+}

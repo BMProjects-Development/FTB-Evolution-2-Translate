@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": "geore:ancient_debris_shard"
+  },
+  "result": {
+    "id": "geore:ancient_debris_block"
+  }
+}

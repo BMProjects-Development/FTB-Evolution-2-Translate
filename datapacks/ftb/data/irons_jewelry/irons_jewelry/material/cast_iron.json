@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.cast_iron",
+  "ingredient": "nautec:cast_iron_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/cast_iron",
+  "quality": 1.0,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:knockback_resistance",
+      "operation": "add_value",
+      "amount": 0.05
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:resistance"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:slowness"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:knockback",
+        "strength": {
+          "base": 1.0,
+          "scalar": 0.5
+        }
+      },
+      "targetSelf": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Power Generation Changes"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Every generator FTB Evolution 2 rebalanced",
+        "color": "dark_gray"
+      }
+    ]
+  },
+  "default_language": "en_us"
+}

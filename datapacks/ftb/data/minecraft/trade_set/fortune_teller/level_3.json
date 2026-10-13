@@ -1,0 +1,5 @@
+{
+  "amount": 2.0,
+  "random_sequence": "minecraft:trade_set/fortune_teller/level_3",
+  "trades": "#witchery:fortune_teller/level_3"
+}

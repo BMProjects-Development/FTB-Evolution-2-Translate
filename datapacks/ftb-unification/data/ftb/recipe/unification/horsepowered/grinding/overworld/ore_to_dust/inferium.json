@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/inferium",
+  "result": {
+    "count": 2,
+    "id": "mysticalagriculture:inferium_essence"
+  },
+  "secondary": {
+    "count": 2,
+    "id": "mysticalagriculture:inferium_essence"
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

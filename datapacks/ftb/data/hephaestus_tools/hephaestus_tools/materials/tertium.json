@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:tertium",
+  "ingredient": {
+    "tag": "c:gems/tertium"
+  },
+  "color": 10237184,
+  "head_stats": {
+    "durability": 500,
+    "mining_speed": 7.0,
+    "attack_damage": 2.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 14,
+    "trait": "cultivated"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.0,
+    "damage_mult": 0.0,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 100
+  }
+}

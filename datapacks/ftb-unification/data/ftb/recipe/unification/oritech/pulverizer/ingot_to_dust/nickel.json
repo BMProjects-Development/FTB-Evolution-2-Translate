@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/nickel"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:nickel_dust"
+    }
+  ],
+  "time": 100
+}

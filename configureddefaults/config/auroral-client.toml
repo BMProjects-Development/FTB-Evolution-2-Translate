@@ -1,0 +1,16 @@
+#Auroral Client Configuration
+[aurora_visuals]
+	#Show the aurora borealis sky effect. Does not affect aurora sounds or gameplay.
+	show_aurora_effect = true
+	#Show particle effects during aurora events
+	show_aurora_particles = true
+	#Visual intensity of the aurora effect (0.0 to 2.0)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	aurora_intensity = 1.0
+	#Play aurora music and start/end sounds. Independent of the sky effect.
+	play_aurora_ambient_sound = true
+
+[footprints]
+	#Show snow footprints when walking on snow
+	show_footprints = true

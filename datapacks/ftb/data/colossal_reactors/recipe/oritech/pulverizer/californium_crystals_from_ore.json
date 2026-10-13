@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oritech"
+    }
+  ],
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ores/californium"
+  ],
+  "itemResults": [
+    {
+      "count": 8,
+      "id": "colossal_reactors:californium_crystals"
+    }
+  ],
+  "time": 120
+}

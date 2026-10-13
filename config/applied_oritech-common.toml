@@ -1,0 +1,23 @@
+[power]
+	#AE/t drawn from the ME network by an ME Dock, whether or not anything is attached.
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	dockIdleDraw = 1.0
+	#AE/t drawn from the ME network by each installed upgrade module.
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	upgradeIdleDraw = 2.0
+	#Oritech RF taken from the machine's own buffer for each stack moved in or out.
+	#Set to 0 to make transfers cost nothing on the Oritech side.
+	# Default: 20
+	# Range: 0 ~ 9223372036854775807
+	rfPerTransfer = 20
+
+[behaviour]
+	#Default state of an ME Pattern Provider Upgrade's output sweep.
+	#Oritech machines never push their results anywhere, so with this off an
+	#autocrafting job will never complete unless you move results back to the
+	#network yourself (an interface upgrade, an export bus, or Oritech's own
+	#inventory proxy). Each upgrade can be toggled individually by
+	#sneak-right-clicking it with an empty hand; this only sets the initial value.
+	autoReturnOutputs = true

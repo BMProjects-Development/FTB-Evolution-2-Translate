@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbic:tin_stone_ore",
+  "variants": [
+    "ftbic:tin_deepslate_ore",
+    "ftbmaterials:tin_stone_ore",
+    "ftbmaterials:tin_deepslate_ore",
+    "ftbmaterials:tin_nether_ore",
+    "ftbmaterials:tin_end_ore"
+  ],
+  "name_color": "#C8C8D2",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.tin_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:tin_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

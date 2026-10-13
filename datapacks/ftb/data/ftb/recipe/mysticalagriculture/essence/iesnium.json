@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:iesnium_essence"
+  },
+  "result": {
+    "id": "occultism:raw_iesnium",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:iridium_nether_ore",
+  "result": {
+    "id": "ftbmaterials:iridium_raw_ore",
+    "count": 2
+  },
+  "secondary": {
+    "id": "ftbmaterials:iridium_raw_ore",
+    "count": 2
+  },
+  "secondaryChance": 100,
+  "time": 16
+}

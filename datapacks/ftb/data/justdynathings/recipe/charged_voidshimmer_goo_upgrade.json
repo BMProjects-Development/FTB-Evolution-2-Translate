@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "goo_upgrade",
+  "key": {
+    "B": "minecraft:sculk",
+    "G": "justdynathings:charged_voidshimmer_goo",
+    "N": "minecraft:echo_shard",
+    "R": "minecraft:sculk_shrieker"
+  },
+  "pattern": [
+    "BRB",
+    "NGN",
+    "BRB"
+  ],
+  "result": {
+    "id": "justdynathings:charged_shadowpulse_goo"
+  }
+}

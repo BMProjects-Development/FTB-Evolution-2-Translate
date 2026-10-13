@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "mysticalagriculture:item/essence_dust",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 7996160
+      }
+    ]
+  }
+}

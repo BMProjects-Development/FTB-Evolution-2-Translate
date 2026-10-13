@@ -1,0 +1,12 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "xycraft_world:xychorium_ore_kivi_red",
+  "output_items": [
+    {
+      "item": {
+        "id": "xycraft_world:xychorium_gem_red",
+        "count": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "stellaris:lunar_crawler_spike_cluster",
+      "count": 64
+    },
+    {
+      "ingredient": "stellaris:desh_block",
+      "count": 48
+    },
+    {
+      "ingredient": "stellaris:moon_stone",
+      "count": 64
+    },
+    {
+      "ingredient": "stellaris:novite_ingot",
+      "count": 12
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 8
+    },
+    {
+      "ingredient": "minecraft:heavy_core",
+      "count": 3
+    }
+  ],
+  "fluids": [
+    {
+      "id": "stellaris:fuel",
+      "amount": 16000
+    },
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "stellaris:star_crawler_boss_trophy"
+    }
+  ],
+  "ticks": 36000,
+  "energy_per_tick": 1000000
+}

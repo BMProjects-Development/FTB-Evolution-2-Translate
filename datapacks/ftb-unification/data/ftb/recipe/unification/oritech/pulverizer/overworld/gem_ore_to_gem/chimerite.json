@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/chimerite"
+  ],
+  "itemResults": [
+    {
+      "id": "arsmagicalegacy:chimerite"
+    }
+  ],
+  "time": 100
+}

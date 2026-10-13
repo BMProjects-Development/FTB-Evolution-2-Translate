@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "EOE",
+    "MCM"
+  ],
+  "key": {
+    "G": "#c:glass_panes",
+    "E": "minecraft:ender_pearl",
+    "O": "ftbic:machine_block",
+    "M": "#c:plates/steel",
+    "C": "#ftb:basic_circuits"
+  },
+  "result": {
+    "id": "hostilenetworks:sim_chamber"
+  }
+}

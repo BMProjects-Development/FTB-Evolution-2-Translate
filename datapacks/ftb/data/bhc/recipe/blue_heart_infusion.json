@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:victus"
+    },
+    {
+      "amount": 25,
+      "aspect": "thaumaturge:praecantatio"
+    }
+  ],
+  "catalyst": "#c:hearts",
+  "components": [
+    "bhc:red_heart",
+    "bhc:yellow_heart",
+    "bhc:green_heart"
+  ],
+  "instability": 5,
+  "result": {
+    "id": "bhc:blue_heart"
+  }
+}

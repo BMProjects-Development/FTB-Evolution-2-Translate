@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "ftb:molten_vibrant_alloy"
+  },
+  "result": {
+    "id": "enderio:vibrant_alloy_block"
+  }
+}

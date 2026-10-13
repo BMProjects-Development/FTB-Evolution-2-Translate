@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/emerald",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "minecraft:emerald"
+  }
+}

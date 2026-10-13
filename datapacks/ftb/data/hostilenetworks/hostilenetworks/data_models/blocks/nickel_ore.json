@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbic:nickel_stone_ore",
+  "variants": [
+    "ftbic:nickel_deepslate_ore",
+    "ftbmaterials:nickel_stone_ore",
+    "ftbmaterials:nickel_deepslate_ore",
+    "ftbmaterials:nickel_nether_ore",
+    "ftbmaterials:nickel_end_ore",
+    "oritech:nickel_ore",
+    "oritech:deepslate_nickel_ore"
+  ],
+  "name_color": "#B0A080",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.nickel_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:nickel_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

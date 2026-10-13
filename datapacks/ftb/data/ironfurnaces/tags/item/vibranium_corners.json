@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "allthemodium:vibranium_block",
+      "required": false
+    },
+    {
+      "id": "alltheores:vibranium_block",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E  ",
+    " E ",
+    "  E"
+  ],
+  "key": {
+    "E": "mysticalagriculture:xychorium_essence"
+  },
+  "result": {
+    "id": "xycraft_world:xychorium_gem_red",
+    "count": 2
+  }
+}

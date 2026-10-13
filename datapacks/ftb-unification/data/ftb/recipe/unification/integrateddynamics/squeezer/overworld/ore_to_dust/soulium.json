@@ -1,0 +1,24 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "#c:ore_source/overworld/soulium",
+  "output_items": [
+    {
+      "item": {
+        "id": "mysticalagriculture:soulium_dust",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "mysticalagriculture:soulium_dust"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "mysticalagriculture:soulium_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

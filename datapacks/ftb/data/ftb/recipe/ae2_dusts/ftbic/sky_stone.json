@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ae2:sky_stone_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ae2:sky_dust"
+      }
+    }
+  ]
+}

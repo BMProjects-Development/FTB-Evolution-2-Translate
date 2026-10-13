@@ -1,0 +1,13 @@
+{
+  "type": "powah:energizing",
+  "energy": 20000000,
+  "ingredients": [
+    "powah:niotic_crystal_block",
+    "ftbic:energy_crystal",
+    "enderio_evolution:capacitor_crystalline"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ftb:charge_cell"
+  }
+}

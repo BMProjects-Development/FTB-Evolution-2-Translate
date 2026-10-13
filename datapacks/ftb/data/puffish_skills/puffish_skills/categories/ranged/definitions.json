@@ -1,0 +1,670 @@
+{
+	"arbalest_cap": {
+		"title": { "translate": "skill.ftb.ranged.arbalest_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.arbalest_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/mysticalagriculture_awakened_supremium_crossbow_firework.png" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:power_shot", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vital_shot", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"bow_hub": {
+		"title": { "translate": "skill.ftb.ranged.bow_hub.title" },
+		"description": { "translate": "skill.ftb.ranged.bow_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "bhc:vigor_bow" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:bow_projectile_speed", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:bow_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"crossbow_hub": {
+		"title": { "translate": "skill.ftb.ranged.crossbow_hub.title" },
+		"description": { "translate": "skill.ftb.ranged.crossbow_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "mysticalagriculture:awakened_supremium_crossbow" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:crossbow_projectile_speed", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:crossbow_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"dead_eye_cap": {
+		"title": { "translate": "skill.ftb.ranged.dead_eye_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.dead_eye_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:tricorne" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_dead_eye", "value": 0.75, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_piercing", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"desperado_cap": {
+		"title": { "translate": "skill.ftb.ranged.desperado_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.desperado_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:blunderbuss" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_ramping", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_extra_bullet", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ranged_root": {
+		"title": { "translate": "skill.ftb.ranged.ranged_root.title" },
+		"description": { "translate": "skill.ftb.ranged.ranged_root.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/gear_locked.png", "available": "ftbevolution:textures/skills/frames/available/gear_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/gear_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/animusnv_hellforged_bow_pulling_0.png" } },
+		"size": 2.25,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gunslinger_hub": {
+		"title": { "translate": "skill.ftb.ranged.gunslinger_hub.title" },
+		"description": { "translate": "skill.ftb.ranged.gunslinger_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:blackpowder_revolver" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_fire_rate", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_reload_speed", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_air_accuracy", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"hunter_cap": {
+		"title": { "translate": "skill.ftb.ranged.hunter_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.hunter_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/occultism_wild_hunt.png" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:arrow_save", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:multishot", "value": 1.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_velocity", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"marksman_hub": {
+		"title": { "translate": "skill.ftb.ranged.marksman_hub.title" },
+		"description": { "translate": "skill.ftb.ranged.marksman_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:musket" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_accuracy", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_recoil_control", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"mechanist_cap": {
+		"title": { "translate": "skill.ftb.ranged.mechanist_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.mechanist_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "enderio:iron_gear" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:rain_of_arrows", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:impale", "value": 1.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ballista", "value": 0.25, "operation": "addition" } }
+		]
+	},
+
+	"quickdraw_cap": {
+		"title": { "translate": "skill.ftb.ranged.quickdraw_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.quickdraw_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:flintlock" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_quickdraw", "value": 0.4, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_fire_rate", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"sharpshooter_cap": {
+		"title": { "translate": "skill.ftb.ranged.sharpshooter_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.sharpshooter_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:flintlock" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ramping_shots", "value": 3.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:first_strike", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"tracker_cap": {
+		"title": { "translate": "skill.ftb.ranged.tracker_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.tracker_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:clockwork_rifle" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_ricochet", "value": 1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_seeking", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"arrow_damage_+2%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"arrow_damage_+5%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spectral_arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"arrow_damage_+10%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"arrow_save_+5%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_save_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_save_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:arrow_save", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"arrow_velocity_+2%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_velocity_+2%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_velocity_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spectral_arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_velocity", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"arrow_velocity_+5%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_velocity_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_velocity_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:spectral_arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_velocity", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"arrow_velocity_+10%": {
+		"title": { "translate": "skill.ftb.ranged.arrow_velocity_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.arrow_velocity_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:blaze_rod" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:arrow_velocity", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ballista_+5%": {
+		"title": { "translate": "skill.ftb.ranged.ballista_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.ballista_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/neovitae_flight.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ballista", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"bow_durability_+1": {
+		"title": { "translate": "skill.ftb.ranged.bow_durability_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.bow_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:string" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:bow_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"crossbow_durability_+1": {
+		"title": { "translate": "skill.ftb.ranged.crossbow_durability_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.crossbow_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:crossbow_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"draw_speed_+2%": {
+		"title": { "translate": "skill.ftb.ranged.draw_speed_+2%.title" },
+		"description": { "translate": "skill.ftb.ranged.draw_speed_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:bow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:draw_speed", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"draw_speed_+5%": {
+		"title": { "translate": "skill.ftb.ranged.draw_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.draw_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:tripwire_hook" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:draw_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"draw_speed_+10%": {
+		"title": { "translate": "skill.ftb.ranged.draw_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.draw_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:bow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:draw_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"first_strike_+5%": {
+		"title": { "translate": "skill.ftb.ranged.first_strike_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.first_strike_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:target" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:first_strike", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"first_strike_+10%": {
+		"title": { "translate": "skill.ftb.ranged.first_strike_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.first_strike_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:target" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:first_strike", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_accuracy_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_accuracy_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_accuracy_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:scope_attachment_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_accuracy", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_accuracy_+10%": {
+		"title": { "translate": "skill.ftb.ranged.gun_accuracy_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_accuracy_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:scope_attachment_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_accuracy", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_air_accuracy_+10%": {
+		"title": { "translate": "skill.ftb.ranged.gun_air_accuracy_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_air_accuracy_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:wind_chamber_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_air_accuracy", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_ammo_save_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_ammo_save_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_ammo_save_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:enchanted_bullet_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_ammo_save", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_bullet_speed_+10%": {
+		"title": { "translate": "skill.ftb.ranged.gun_bullet_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_bullet_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:blackpowder" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_bullet_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_damage_+2%": {
+		"title": { "translate": "skill.ftb.ranged.gun_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:overcharged_powder_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"gun_damage_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:blackpowder_charge_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_extra_bullet_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_extra_bullet_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_extra_bullet_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:scattershot_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_extra_bullet", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_fire_rate_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_fire_rate_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_fire_rate_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:hair_trigger_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_fire_rate", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_knockback_+0.1": {
+		"title": { "translate": "skill.ftb.ranged.gun_knockback_+0.1.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_knockback_+0.1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:lead_core_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_knockback", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_piercing_+1": {
+		"title": { "translate": "skill.ftb.ranged.gun_piercing_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_piercing_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:steel_core_modifier" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_piercing", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"gun_quickdraw_+40%": {
+		"title": { "translate": "skill.ftb.ranged.gun_quickdraw_+40%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_quickdraw_+40%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:cowboy_hat" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_quickdraw", "value": 0.4, "operation": "addition" } }
+		]
+	},
+
+	"gun_ramping_+1": {
+		"title": { "translate": "skill.ftb.ranged.gun_ramping_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_ramping_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:mechanical_accelerator_modifier" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_ramping", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"gun_recoil_control_+10%": {
+		"title": { "translate": "skill.ftb.ranged.gun_recoil_control_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_recoil_control_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:gas_vent_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_recoil_control", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_reload_speed_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_reload_speed_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_reload_speed_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:gun_oil_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_reload_speed", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_reload_speed_+10%": {
+		"title": { "translate": "skill.ftb.ranged.gun_reload_speed_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_reload_speed_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:gun_oil_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_reload_speed", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"gun_ricochet_+1": {
+		"title": { "translate": "skill.ftb.ranged.gun_ricochet_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_ricochet_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:trick_bullet_modifier" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_ricochet", "value": 1, "operation": "addition" } }
+		]
+	},
+
+	"gun_seeking_+5%": {
+		"title": { "translate": "skill.ftb.ranged.gun_seeking_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_seeking_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:seeking_powder_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_seeking", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"gun_seeking_+10%": {
+		"title": { "translate": "skill.ftb.ranged.gun_seeking_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.gun_seeking_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "irons_artifice:seeking_powder_modifier" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:gun_seeking", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"homing_arrows_+1": {
+		"title": { "translate": "skill.ftb.ranged.homing_arrows_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.homing_arrows_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:ender_eye" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:homing_arrows", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"impale_+1": {
+		"title": { "translate": "skill.ftb.ranged.impale_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.impale_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:pointed_dripstone" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:impale", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"marked_for_death_+1": {
+		"title": { "translate": "skill.ftb.ranged.marked_for_death_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.marked_for_death_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:target" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:marked_for_death", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"multishot_+1": {
+		"title": { "translate": "skill.ftb.ranged.multishot_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.multishot_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/cog_locked.png", "available": "ftbevolution:textures/skills/frames/available/cog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/cog_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "ftbevolution:textures/skills/assets/arsmagicalegacy_ice_sky_2.png" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:multishot", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"power_shot_+10%": {
+		"title": { "translate": "skill.ftb.ranged.power_shot_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.power_shot_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:firework_rocket" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:power_shot", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"projectile_damage_+10%": {
+		"title": { "translate": "skill.ftb.ranged.projectile_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.projectile_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:crossbow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "apothic_attributes:projectile_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"ramping_shots_+1": {
+		"title": { "translate": "skill.ftb.ranged.ramping_shots_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.ramping_shots_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "texture", "data": { "texture": "minecraft:textures/item/tipped_arrow_head.png" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ramping_shots", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"ranged_damage_+2%": {
+		"title": { "translate": "skill.ftb.ranged.ranged_damage_+2%.title" },
+		"description": { "translate": "skill.ftb.ranged.ranged_damage_+2%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:crossbow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_damage", "value": 0.02, "operation": "addition" } }
+		]
+	},
+
+	"ranged_damage_+5%": {
+		"title": { "translate": "skill.ftb.ranged.ranged_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.ranged_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:bow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"ranged_damage_+10%": {
+		"title": { "translate": "skill.ftb.ranged.ranged_damage_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.ranged_damage_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:crossbow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:ranged_damage", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"vital_shot_+10%": {
+		"title": { "translate": "skill.ftb.ranged.vital_shot_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.vital_shot_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:arrow" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vital_shot", "value": 0.1, "operation": "addition" } }
+		]
+	}
+}

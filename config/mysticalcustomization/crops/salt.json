@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "tag": "c:dusts/salt"
+  },
+  "name": "Salt",
+  "color": "#FA9F98",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

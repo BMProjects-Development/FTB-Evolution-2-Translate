@@ -1,0 +1,10 @@
+{
+  "create_version": "26.1.1",
+  "log": {
+    "verbose": true
+  },
+  "server": {
+    "force_default_world_preset": true
+  },
+  "modify_version": "26.1.1"
+}

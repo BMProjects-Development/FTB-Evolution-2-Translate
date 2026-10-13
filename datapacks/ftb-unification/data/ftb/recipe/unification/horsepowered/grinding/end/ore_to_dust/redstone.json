@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:redstone_end_ore",
+  "result": {
+    "count": 4,
+    "id": "minecraft:redstone"
+  },
+  "secondary": {
+    "count": 4,
+    "id": "minecraft:redstone"
+  },
+  "secondaryChance": 100,
+  "time": 16
+}

@@ -1,0 +1,34 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:storage_blocks/raw_plutonium",
+  "outputs": [
+    {
+      "item": {
+        "count": 12,
+        "id": "ftbmaterials:plutonium_dust"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:plutonium_dust"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:plutonium_dust"
+      }
+    },
+    {
+      "chance": 0.2,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:uranium_dust"
+      }
+    }
+  ]
+}

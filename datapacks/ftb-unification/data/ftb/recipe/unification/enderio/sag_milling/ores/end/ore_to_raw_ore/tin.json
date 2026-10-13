@@ -1,0 +1,34 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "ftbmaterials:tin_end_ore",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:tin_raw_ore"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:tin_raw_ore"
+      }
+    },
+    {
+      "chance": 0.33,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:tin_raw_ore"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:end_stone"
+      }
+    }
+  ]
+}

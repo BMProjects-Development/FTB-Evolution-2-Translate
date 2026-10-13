@@ -1,0 +1,12 @@
+[
+  "tiny_fuel/charcoal",
+  "tiny_fuel/coal",
+  "tiny_fuel/tiny_charcoal",
+  "tiny_fuel/tiny_coal",
+  "utility/copper_block_from_blasting",
+  "utility/copper_block_from_smelting",
+  "utility/gold_block_from_blasting",
+  "utility/gold_block_from_smelting",
+  "utility/iron_block_from_blasting",
+  "utility/iron_block_from_smelting"
+]

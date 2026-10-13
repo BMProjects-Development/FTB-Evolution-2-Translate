@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "arsmagicalegacy:air_guardian",
+    "arsmagicalegacy:arcane_guardian",
+    "arsmagicalegacy:earth_guardian",
+    "arsmagicalegacy:ender_guardian",
+    "arsmagicalegacy:fire_guardian",
+    "arsmagicalegacy:ice_guardian",
+    "arsmagicalegacy:life_guardian",
+    "arsmagicalegacy:lightning_guardian",
+    "arsmagicalegacy:nature_guardian",
+    "arsmagicalegacy:water_guardian",
+    "witchery:death",
+    "witchery:gulg",
+    "witchery:horned_huntsman",
+    "witchery:leonard",
+    "witchery:mog"
+  ]
+}

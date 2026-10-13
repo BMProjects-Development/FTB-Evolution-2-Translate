@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "attack": 1.0,
+  "beeTexture": "productivebees:textures/entity/bee/eclipsealloy/bee",
+  "flowerBlock": "justdirethings:eclipsealloy_block",
+  "particleColor": "#6d9195",
+  "primaryColor": "#2c3141",
+  "renderer": "thicc",
+  "secondaryColor": "#475e61",
+  "selfbreed": false,
+  "size": 0.9,
+  "tertiaryColor": "#65888c",
+  "useGlowLayer": true
+}

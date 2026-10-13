@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "ftbmaterials:steel_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "iceandfire:dragon_ice"
+    },
+    {
+      "count": 1,
+      "ingredient": "ftbmaterials:cinnabar_gem"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "iceandfire:dragonsteel_ice_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

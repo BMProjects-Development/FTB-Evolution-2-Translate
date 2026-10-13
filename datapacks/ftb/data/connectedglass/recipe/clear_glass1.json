@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": "minecraft:glass"
+  },
+  "result": {
+    "id": "connectedglass:clear_glass",
+    "count": 4
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "ftb:dungeons/stone/temples",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/small/2",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/small/66",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/small/67",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/small/68",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/medium/70",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/medium/102",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/medium/104",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/medium/105",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/large/35",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/large/103",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/large/106",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/temple/large/107",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/barrels_and_waterlogging_fix"
+      }
+    }
+  ]
+}

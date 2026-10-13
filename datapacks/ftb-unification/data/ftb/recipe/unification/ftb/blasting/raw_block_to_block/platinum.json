@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "ftbmaterials:platinum_raw_block",
+  "result": {
+    "id": "ftbmaterials:platinum_block"
+  },
+  "experience": 9.0,
+  "cookingtime": 900
+}

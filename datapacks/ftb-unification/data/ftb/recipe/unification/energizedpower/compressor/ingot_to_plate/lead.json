@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:lead_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:lead_plate"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:charger",
+  "energy": 4096,
+  "ingredient": "minecraft:compass",
+  "result": {
+    "id": "ae2:meteorite_compass"
+  }
+}

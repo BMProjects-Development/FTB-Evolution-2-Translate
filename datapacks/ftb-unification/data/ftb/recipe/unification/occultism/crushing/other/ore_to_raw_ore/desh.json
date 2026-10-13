@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "#c:ore_source/other/desh",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "stellaris:raw_desh"
+  }
+}

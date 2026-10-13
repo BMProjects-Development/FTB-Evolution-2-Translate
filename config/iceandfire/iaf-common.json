@@ -1,0 +1,183 @@
+{
+  "dragon": {
+    "maxHealth": 2500.0,
+    "eggBornTime": 7200,
+    "maxPathingNodes": 5000,
+    "villagersFear": true,
+    "animalsFear": true,
+    "generate.skeletons": true,
+    "generate.skeletonChance": 0.0013333333333333335,
+    "generate.denGoldAmount": 0.15,
+    "generate.oreRatio": 0.022222222222222223,
+    "griefing": true,
+    "softBlockGriefing": false,
+    "tamedGriefing": false,
+    "flapNoiseDistance": 4,
+    "fluteDistance": 8,
+    "attackDamage": 17,
+    "attackDamageFire": 7.0,
+    "attackDamageIce": 7.5,
+    "attackDamageLightning": 7.5,
+    "maxFlight": 256,
+    "goldSearchLength": 30,
+    "canHealFromBiting": true,
+    "canDespawn": true,
+    "sleep": true,
+    "digWhenStuck": true,
+    "breakBlockCooldown": 5,
+    "targetSearchLength": 96,
+    "wanderFromHomeDistance": 40,
+    "hungerTickRate": 3000,
+    "blockBreakingDropChance": 0.8,
+    "explosiveBreath": false,
+    "chunkLoadSummonCrystal": true,
+    "dragonFlightSpeedMod": 1.0,
+    "maxTamedDragonAge": 128,
+    "maxBreathTimeMul": 2.0,
+    "neutralToPlayer": false,
+    "enableBrushDragonScales": true,
+    "maxBrushScalesDropPerTime": 2,
+    "brushTimesMul": 1.0,
+    "loot.skull": true,
+    "loot.heart": true,
+    "loot.blood": true
+  },
+  "hippogryphs": {
+    "spawn": true,
+    "spawnWeight": 2,
+    "fightSpeedMod": 1.0
+  },
+  "pixie": {
+    "size": 5,
+    "maxPixiesPerVillage": 2,
+    "stealItems": false
+  },
+  "cyclops": {
+    "spawnWanderingChance": 0.0011111111111111111,
+    "sheepSearchLength": 17,
+    "maxHealth": 250.0,
+    "attackDamage": 15.0,
+    "biteDamage": 40.0,
+    "griefing": true
+  },
+  "siren": {
+    "maxHealth": 50.0,
+    "maxSingTime": 6000,
+    "timeBetweenSongs": 2000
+  },
+  "gorgon": {
+    "maxHealth": 120.0
+  },
+  "deathworm": {
+    "spawnChance": 0.01333333333333333,
+    "targetSearchLength": 32,
+    "maxHealth": 20.0,
+    "attackDamage": 3.0,
+    "attackMonsters": false
+  },
+  "cockatrice": {
+    "spawn": true,
+    "spawnWeight": 4,
+    "chickenSearchLength": 28,
+    "eggChance": 0.01333333333333333,
+    "maxHealth": 40.0,
+    "chickensLayRottenEggs": false
+  },
+  "bird": {
+    "spawnChance": 0.0125,
+    "targetSearchLength": 42,
+    "featherDropChance": 0.04,
+    "featherAttackDamage": 2.0,
+    "flockLength": 40,
+    "flightHeight": 96,
+    "attackAnimals": false
+  },
+  "troll": {
+    "spawn": true,
+    "spawnWeight": 60,
+    "dropWeapon": false,
+    "maxHealth": 50.0,
+    "attackDamage": 10.0
+  },
+  "amphithere": {
+    "spawn": true,
+    "spawnWeight": 50,
+    "villagerSearchLength": 48.0,
+    "tameTime": 400,
+    "flightSpeed": 1.75,
+    "maxHealth": 50.0,
+    "attackDamage": 7.0
+  },
+  "seaSerpent": {
+    "spawnChance": 0.003,
+    "griefing": false,
+    "baseHealth": 20.0,
+    "attackDamage": 4.0
+  },
+  "lich": {
+    "spawn": true,
+    "spawnWeight": 4,
+    "spawnChance": 0.02333333333333333
+  },
+  "hydra": {
+    "maxHealth": 550.0
+  },
+  "hippocampus": {
+    "spawnChance": 0.015,
+    "swimSpeedMod": 1.0
+  },
+  "ghost": {
+    "maxHealth": 30.0,
+    "attackDamage": 3.0,
+    "fromPlayerDeaths": false,
+    "alwaysSpawnFromChest": false
+  },
+  "tools": {
+    "dragonFireAbility": true,
+    "dragonIceAbility": true,
+    "dragonLightningAbility": true,
+    "dragonsteelFireDuration": 15,
+    "dragonBloodFireDuration": 5,
+    "dragonsteelFrozenDuration": 300,
+    "dragonBloodFrozenDuration": 100,
+    "phantasmalBladeAbility": true,
+    "dragonLightningSearchRange": 10.0,
+    "dragonLightningDamageReduction": 0.5,
+    "dragonLightningMaxSearchCount": 10
+  },
+  "armors": {
+    "dragonSteelBaseDamage": 14.0,
+    "dragonSteelBaseDurability": 8000,
+    "dragonsteelArmorToughness": 6.0,
+    "dragonsteelHelmetArmor": 7,
+    "dragonsteelHelmetDurability": 1760,
+    "dragonsteelChestplateArmor": 12,
+    "dragonsteelChestplateDurability": 2560,
+    "dragonsteelLeggingsArmor": 9,
+    "dragonsteelLeggingsDurability": 2400,
+    "dragonsteelBootsArmor": 6,
+    "dragonsteelBootsDurability": 2080,
+    "dragonsteelArmorEnchantability": 30,
+    "dragonsteelArmorKnockbackResistance": 0.1
+  },
+  "worldgen": {
+    "dangerousDistanceLimit": 2000.0,
+    "generateFireDragonCaveChance": 0.40,
+    "generateFireDragonRoostChance": 0.18,
+    "generateIceDragonCaveChance": 0.30,
+    "generateIceDragonRoostChance": 0.18,
+    "generateLightningDragonCaveChance": 0.40,
+    "generateLightningDragonRoostChance": 0.18,
+    "generateCyclopsCaveChance": 0.15,
+    "generateGorgonTempleChance": 0.25,
+    "generateGraveYardChance": 0.15,
+    "generateHydraCaveChance": 0.15,
+    "generateMausoleumChance": 0.15,
+    "generatePixieVillageChance": 0.12,
+    "generateSirenIslandChance": 0.25
+  },
+  "misc": {
+    "enableDragonSeeker": true,
+    "dreadQueenMaxHealth": 1000.0
+  }
+}

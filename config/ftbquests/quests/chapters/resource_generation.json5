@@ -1,0 +1,5421 @@
+{
+  id: "7ECA39E2497C35D1",
+  group: "28224E273DBAA255",
+  order_index: 1,
+  icon: {
+    id: "minecraft:diamond",
+    count: 1,
+  },
+  filename: "resource_generation",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "234A09F196E91BDD",
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "productivebees:item/all_bees",
+        },
+      },
+      x: -4.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.5,
+      min_width: 350,
+      id: "586E18023A595A6C",
+      tasks: [
+        {
+          id: "5F0E8C8838FDE088",
+          type: "item",
+          item: {
+            id: "minecraft:honeycomb",
+            count: 1,
+          },
+        },
+        {
+          id: "0E02B40DB8B0729E",
+          type: "item",
+          item: {
+            id: "minecraft:honey_bottle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6288CCD87A44F2B0",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:extractor",
+        count: 1,
+      },
+      x: -1.0,
+      y: 2.0,
+      shape: "square",
+      size: 1.0,
+      min_width: 300,
+      id: "0EBA58B7FD2AF36D",
+      tasks: [
+        {
+          id: "38007E92AC56412F",
+          type: "item",
+          item: {
+            id: "xycraft_machines:extractor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62E23944D82FDD35",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7A3BE2FE723D8413",
+          type: "item",
+          item: {
+            id: "ftbmaterials:aluminum_ingot",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:spawner",
+        count: 1,
+      },
+      x: -0.5,
+      y: 3.0,
+      shape: "square",
+      size: 1.0,
+      min_width: 300,
+      id: "67F07FBB50AB431F",
+      tasks: [
+        {
+          id: "5410BBDECEB70EFF",
+          type: "item",
+          item: {
+            id: "apotheosis:spawner_chain",
+            count: 1,
+          },
+        },
+        {
+          id: "4CF7A1B1D11A8C1A",
+          type: "item",
+          item: {
+            id: "minecraft:spawner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "53173C99935E832F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "01DE499A0D0673F4",
+          type: "item",
+          item: {
+            id: "minecraft:clock",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "justdirethings:item/eclipsealloy_pickaxe_active",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "gear",
+      size: 2.0,
+      id: "234A09F196E91BDD",
+      tasks: [
+        {
+          id: "2307FBB6846EF266",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "08F1F864692FF70F",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:advanced_oak_beehive",
+        count: 1,
+      },
+      x: -6.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "586E18023A595A6C",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "230E34A0E4A4C014",
+      tasks: [
+        {
+          id: "4C1919EBB6897E10",
+          type: "item",
+          icon: {
+            id: "productivebees:advanced_oak_beehive",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)",
+            },
+          },
+        },
+        {
+          id: "1E4BBCF77E4AE460",
+          type: "item",
+          icon: {
+            id: "productivebees:expansion_box_oak",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:expansion_boxes)",
+            },
+          },
+        },
+        {
+          id: "4DFBD4027255F019",
+          type: "item",
+          item: {
+            id: "productivebees:feeder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B74D4F4C4F08224",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5F3C1E4F2917D050",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "geore:diamond_shard",
+        count: 1,
+      },
+      x: 0.0,
+      y: -3.5,
+      shape: "hexagon",
+      size: 1.5,
+      id: "34C57701B6B07948",
+      tasks: [
+        {
+          id: "62ED0EC3C8534504",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(geore:geore_shards)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3884F58ECDB87EE9",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "089AF2CAA7FC5B4B",
+          type: "item",
+          item: {
+            id: "ae2:fluix_pickaxe",
+            count: 1,
+            components: {
+              "minecraft:custom_name": "\"An Unnecessary Tool\"",
+            },
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:honey_treat",
+        count: 1,
+      },
+      x: -7.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "230E34A0E4A4C014",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "5FB291FDE43A727F",
+      tasks: [
+        {
+          id: "0DD4B5DEEF4C9301",
+          type: "item",
+          item: {
+            id: "productivebees:honey_treat",
+            count: 1,
+          },
+        },
+        {
+          id: "0657D2B7110B89A9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivebees:bee_cage)item(productivebees:sturdy_bee_cage))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F517A7D77E6F284",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "66800BA8AF5E0965",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_base",
+        count: 1,
+      },
+      x: -7.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "5FB291FDE43A727F",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "34C9EDD591FC72AC",
+      tasks: [
+        {
+          id: "478CC8EDE82E87EE",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_base",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57ECEBDDE6746291",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "41BBFD7AB5DE1335",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:bottler",
+        count: 1,
+      },
+      x: -6.0,
+      y: 1.5,
+      dependencies: [
+        "230E34A0E4A4C014",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "77914AB759F51A62",
+      tasks: [
+        {
+          id: "433562063A6C9055",
+          type: "item",
+          item: {
+            id: "productivebees:bottler",
+            count: 1,
+          },
+        },
+        {
+          id: "7FF1BA8529B79913",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivebees:centrifuge)item(productivebees:powered_centrifuge))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CB97E2D8F4887BE",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "29DEDACE145D5112",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_productivity",
+        count: 1,
+      },
+      x: -7.5,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "34C9EDD591FC72AC",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "39214B204D3BEB2A",
+      tasks: [
+        {
+          id: "2CD411A0671ED331",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F500AF1D66269C8",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4B96D57AFF1E43AD",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+        {
+          id: "17570EEE25C563F1",
+          type: "gamestage",
+          team_reward: false,
+          auto: "enabled",
+          stage: "ftb:village_apiarist_alpha",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:gene",
+        count: 1,
+        components: {
+          "productivebees:gene_group": {
+            attribute: "productivity",
+            value: "productivity.normal",
+            purity: 100,
+          },
+        },
+      },
+      x: -10.0,
+      y: -0.5,
+      shape: "square",
+      dependencies: [
+        "2D2EC0BCFF1DA68C",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "51729919E9A33049",
+      tasks: [
+        {
+          id: "458F834A817CF71F",
+          type: "item",
+          item: {
+            id: "productivebees:gene_indexer",
+            count: 1,
+          },
+        },
+        {
+          id: "6F9280A0D9A3E628",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "productivelib:upgrade_gene_sampler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "02969AF4B9285A78",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "544B5C735797F4F9",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_time",
+        count: 1,
+      },
+      x: -6.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "34C9EDD591FC72AC",
+      ],
+      size: 1.0,
+      id: "197CF94F783E59DF",
+      tasks: [
+        {
+          id: "7D06AE5173DA5088",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_time",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5D43372BDC33DDCE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3581805CD27064D3",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_child",
+        count: 1,
+      },
+      x: -8.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "34C9EDD591FC72AC",
+      ],
+      size: 1.0,
+      id: "09BC75B655BDC624",
+      tasks: [
+        {
+          id: "607B5C846C728B33",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_child",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28F44468E559278F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0A02B2480C64F315",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_simulator",
+        count: 1,
+      },
+      x: -6.5,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "34C9EDD591FC72AC",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "0A1FDABEAAA0723B",
+      tasks: [
+        {
+          id: "6DB3F1454C9DA897",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_simulator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FE6836F3AB387C2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5FBCF82BDD4CA04E",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:oak_wood_nest",
+        count: 1,
+      },
+      x: -11.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "72D582D05DC9C7A2",
+      tasks: [
+        {
+          id: "606A9B3076DF2C9F",
+          type: "item",
+          item: {
+            id: "productivebees:oak_wood_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08C5A1AF44399568",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4898F62F9642E0B4",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:spruce_wood_nest",
+        count: 1,
+      },
+      x: -11.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "2F74CE4932170B99",
+      tasks: [
+        {
+          id: "59A67DDE3A3F4820",
+          type: "item",
+          item: {
+            id: "productivebees:spruce_wood_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "018DD3283D0F1FC1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "10D1B5CFA995975B",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:acacia_wood_nest",
+        count: 1,
+      },
+      x: -11.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "4C466A8B9C76C637",
+      tasks: [
+        {
+          id: "0FB6B81D9E1E258E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivebees:acacia_wood_nest)item(productivebees:cherry_wood_nest)item(productivebees:dark_oak_wood_nest))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CA054AE1178516D",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "09149B39D4537560",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:stone_nest",
+        count: 1,
+      },
+      x: -13.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "30053CAD8FABA638",
+      tasks: [
+        {
+          id: "38A7AEC6190D5FAD",
+          type: "item",
+          item: {
+            id: "productivebees:stone_nest",
+            count: 1,
+          },
+        },
+        {
+          id: "540E6246A1E907DF",
+          type: "item",
+          item: {
+            id: "productivebees:coarse_dirt_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C8C4CB5B9F2E94D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0C38BA7FEBE413D9",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:gravel_nest",
+        count: 1,
+      },
+      x: -12.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "792BD1143635482C",
+      tasks: [
+        {
+          id: "07B10440B53D6EF9",
+          type: "item",
+          item: {
+            id: "productivebees:gravel_nest",
+            count: 1,
+          },
+        },
+        {
+          id: "46ECC43E185AC144",
+          type: "item",
+          item: {
+            id: "productivebees:sand_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "440D5776FB96A2C6",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "47C0FCE866F14FE2",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:snow_nest",
+        count: 1,
+      },
+      x: -14.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "579FD80042103DEF",
+      tasks: [
+        {
+          id: "7328E97289424C1C",
+          type: "item",
+          item: {
+            id: "productivebees:snow_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F1F57E7F3578EAA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "610AD3CEFC8E1842",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:sugar_cane_nest",
+        count: 1,
+      },
+      x: -13.5,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "272C00767FDBD64F",
+      tasks: [
+        {
+          id: "4A3A23C248D6ABDC",
+          type: "item",
+          item: {
+            id: "productivebees:sugar_cane_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "524ABE910A1FB65C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "24978BB939C07B81",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:slimy_nest",
+        count: 1,
+      },
+      x: -12.5,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "39FB54DD235A1E10",
+      tasks: [
+        {
+          id: "1A3ECC65179E6C25",
+          type: "item",
+          item: {
+            id: "productivebees:slimy_nest",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A3F2AA31838730A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3783CD934D600AFE",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "productivebees:item/iron_bee",
+        },
+      },
+      x: -9.0,
+      y: 0.5,
+      shape: "square",
+      hide_dependent_lines: true,
+      dependencies: [
+        "5FB291FDE43A727F",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "16C668B00B581A9C",
+      tasks: [
+        {
+          id: "2C1245371800E1E7",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "198E21F6CEB6445F",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "productivebees:block/nest/wood/oak",
+        },
+      },
+      x: -13.0,
+      y: 0.0,
+      shape: "square",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "51729919E9A33049",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      min_width: 250,
+      id: "0241EAE68EA53595",
+      tasks: [
+        {
+          id: "473509F84E9C3147",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "03E779F76725220C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:soul_sand_nest",
+        count: 1,
+      },
+      x: -14.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      min_width: 350,
+      id: "51B5EE931AC1B86E",
+      tasks: [
+        {
+          id: "3B199396B2DF554D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivebees:glowstone_nest)item(productivebees:soul_sand_nest)item(productivebees:nether_quartz_nest)item(productivebees:nether_gold_nest)item(productivebees:nether_brick_nest))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03EF2F4C3193DCE5",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2608075C9C665A10",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:end_stone_nest",
+        count: 1,
+      },
+      x: -14.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "0241EAE68EA53595",
+      ],
+      size: 1.0,
+      id: "5F6C674205F3D666",
+      tasks: [
+        {
+          id: "5A7D16167EA18581",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(productivebees:end_stone_nest)item(productivebees:obsidian_nest))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "276ED17BD69ABE39",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0CAE92602F340569",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:breeding_chamber",
+        count: 1,
+      },
+      x: -8.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "09BC75B655BDC624",
+      ],
+      size: 1.0,
+      id: "63E02402233F6865",
+      tasks: [
+        {
+          id: "6B46E331FC91B681",
+          type: "item",
+          item: {
+            id: "productivebees:breeding_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1079A352810A32F6",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5410B0500A9D10BD",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:catcher",
+        count: 1,
+      },
+      x: -5.5,
+      y: 2.5,
+      dependencies: [
+        "77914AB759F51A62",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "7FC24DE55428724A",
+      tasks: [
+        {
+          id: "783A0CC1E0EADCFA",
+          type: "item",
+          item: {
+            id: "productivebees:catcher",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A64BA6C3CCBA1E2",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "020220B1B22723C6",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:incubator",
+        count: 1,
+      },
+      x: -6.5,
+      y: 2.5,
+      dependencies: [
+        "77914AB759F51A62",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 250,
+      id: "147C1793BE9C2766",
+      tasks: [
+        {
+          id: "17D577DABAA5131F",
+          type: "item",
+          item: {
+            id: "productivebees:incubator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1537F7A900F2057F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "00B1BC2137116DBE",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_productivity_2",
+        count: 1,
+      },
+      x: -7.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "39214B204D3BEB2A",
+      ],
+      size: 1.25,
+      id: "385293121273C7FB",
+      tasks: [
+        {
+          id: "0B267700DF629AFA",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7752EAF1A54DDADE",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "317C2560A0DD8600",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+        {
+          id: "75755C44370E018A",
+          type: "gamestage",
+          team_reward: false,
+          auto: "enabled",
+          stage: "ftb:village_apiarist_beta",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_productivity_3",
+        count: 1,
+      },
+      x: -7.5,
+      y: -6.25,
+      shape: "hexagon",
+      dependencies: [
+        "385293121273C7FB",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "73F82078E2BC4DA5",
+      tasks: [
+        {
+          id: "4CAB3F10CF86E100",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21C9DDE7C1B1F054",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "4F134DC61E8AFF94",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+        {
+          id: "342FAFB8D9849614",
+          type: "gamestage",
+          team_reward: false,
+          auto: "enabled",
+          stage: "ftb:village_apiarist_gamma",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_productivity_4",
+        count: 1,
+      },
+      x: -7.5,
+      y: -8.0,
+      shape: "hexagon",
+      dependencies: [
+        "73F82078E2BC4DA5",
+      ],
+      size: 2.0,
+      id: "2315DBE189D330DA",
+      tasks: [
+        {
+          id: "617CED3F5618FCA4",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_productivity_4",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72ABB7027DE3C048",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "6D9212E9A98A236D",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:bee_cage",
+        count: 1,
+      },
+      x: -9.0,
+      y: -0.5,
+      shape: "square",
+      hide_dependent_lines: true,
+      dependencies: [
+        "5FB291FDE43A727F",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "46D4262D31E94814",
+      tasks: [
+        {
+          id: "6F72448CD3FD5163",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6DE2A60D4625FEDA",
+          type: "item",
+          item: {
+            id: "productivebees:sturdy_bee_cage",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "6DD3186D8BED9713",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      x: -16.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "51B5EE931AC1B86E",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "562421EC1575F837",
+      tasks: [
+        {
+          id: "1CA0B3946CD94FC2",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/iron",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "0C39C1EB3E6C6CC5",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "53FC644A257423ED",
+          type: "item",
+          item: {
+            id: "minecraft:iron_block",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gold_ingot",
+        count: 1,
+      },
+      x: -16.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "51B5EE931AC1B86E",
+      ],
+      size: 1.0,
+      id: "388EAAF7CFA6535F",
+      tasks: [
+        {
+          id: "09AA94D2D46F8EFB",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/gold",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "59A873FE3A3E01E1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "526557AC7BD61FBB",
+          type: "item",
+          item: {
+            id: "minecraft:gold_block",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:redstone",
+        count: 1,
+      },
+      x: -16.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "51B5EE931AC1B86E",
+      ],
+      size: 1.0,
+      id: "1A4F6C1AC9BD2F42",
+      tasks: [
+        {
+          id: "14563A049C3B21B4",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:dusts/redstone",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "64081CFB683D9E32",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3CA826A3EAED2772",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:lapis_lazuli",
+        count: 1,
+      },
+      x: -17.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "1A4F6C1AC9BD2F42",
+      ],
+      size: 1.0,
+      id: "207CED1C925F85C4",
+      tasks: [
+        {
+          id: "541B900E4DE03544",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:gems/lapis",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "3B09A895F655C823",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "583C197C7F2E4416",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_block",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      x: -18.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "207CED1C925F85C4",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "290D1B111FD24B32",
+      tasks: [
+        {
+          id: "1BFBB768243BD4A8",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:gems/diamond",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "551F8D61B2DF811D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "35E99DAD06BAF4CD",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:emerald",
+        count: 1,
+      },
+      x: -18.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "290D1B111FD24B32",
+      ],
+      size: 1.0,
+      id: "1ED979557DB19A2D",
+      tasks: [
+        {
+          id: "67FCFEF069F873CF",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:gems/emerald",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "5EFE9E5C324215A7",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "642DAA6416A1CF02",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:netherite_ingot",
+        count: 1,
+      },
+      x: -18.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "290D1B111FD24B32",
+      ],
+      size: 1.0,
+      id: "10B7437F3E412D26",
+      tasks: [
+        {
+          id: "28688B9DE314945E",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:raw_materials/netherite",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "1457ABABFD9458FB",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "19C7669B89049B32",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:torch",
+        count: 1,
+      },
+      x: -13.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "46D4262D31E94814",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "3738420663297397",
+      tasks: [
+        {
+          id: "15BBF144202BD8E2",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:skeletal",
+            },
+          },
+          match_components: "strict",
+        },
+        {
+          id: "2359BDBEA497C3BB",
+          type: "item",
+          item: {
+            id: "productivebees:configurable_honeycomb",
+            count: 1,
+            components: {
+              "productivebees:bee_type": "productivebees:zombie",
+            },
+          },
+          match_components: "strict",
+        },
+      ],
+      rewards: [
+        {
+          id: "1B61CA93BF40A74A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0E5E8E5EC84D250B",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "occultism:spawn_egg/possessed_bee",
+        count: 1,
+      },
+      x: -10.0,
+      y: 0.5,
+      shape: "square",
+      dependencies: [
+        "46D4262D31E94814",
+      ],
+      size: 1.0,
+      min_width: 400,
+      id: "2D2EC0BCFF1DA68C",
+      tasks: [
+        {
+          id: "0ADB488118F04CF5",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "280E4E7232D6E2AC",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivelib:upgrade_block",
+        count: 1,
+      },
+      x: -8.5,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "34C9EDD591FC72AC",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "2436337445AD0E07",
+      tasks: [
+        {
+          id: "0A727691468205AB",
+          type: "item",
+          item: {
+            id: "productivelib:upgrade_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "126FFCF3A85820A1",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "61B139C2F3E394F8",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:heated_centrifuge",
+        count: 1,
+      },
+      x: -6.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "197CF94F783E59DF",
+      ],
+      size: 1.0,
+      id: "645887524E6E08C2",
+      tasks: [
+        {
+          id: "563E9529408823C5",
+          type: "item",
+          item: {
+            id: "productivebees:heated_centrifuge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40D4583C7A0B3664",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "153BC72CED4D7661",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "geore:iron_shard",
+        count: 1,
+      },
+      x: -1.0,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "34C57701B6B07948",
+      ],
+      hide_until_deps_complete: false,
+      size: 1.0,
+      optional: true,
+      id: "40D416328C50C9F4",
+      tasks: [
+        {
+          id: "5CF6E53B06825D6C",
+          type: "item",
+          icon: {
+            id: "geore:coal_shard",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(geore:coal_shard)item(geore:copper_shard)item(geore:iron_shard)item(geore:gold_shard)item(geore:redstone_shard)item(geore:lapis_shard))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7843796CE423097E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "geore:diamond_shard",
+        count: 1,
+      },
+      x: 0.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "34C57701B6B07948",
+      ],
+      hide_until_deps_complete: false,
+      size: 1.0,
+      optional: true,
+      id: "2BCDA4C64936EBE2",
+      tasks: [
+        {
+          id: "76E4EFD2BC3FA68E",
+          type: "item",
+          icon: {
+            id: "geore:diamond_shard",
+            count: 1,
+          },
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(geore:diamond_shard)item(geore:emerald_shard)item(geore:quartz_shard))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6863B00FEDA2ECA6",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "geore:ancient_debris_shard",
+        count: 1,
+      },
+      x: 1.0,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "34C57701B6B07948",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1DBAC590575ABA64",
+      tasks: [
+        {
+          id: "650C8DFB185755AE",
+          type: "item",
+          item: {
+            id: "geore:ancient_debris_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B1897F4DA42CD39",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:inferium_essence",
+        count: 1,
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "diamond",
+      size: 1.0,
+      min_width: 300,
+      id: "085B40A50A0D4244",
+      tasks: [
+        {
+          id: "4A6A2D0CEDD78E56",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_essence",
+            count: 1,
+          },
+        },
+        {
+          id: "6E93269828FE3DAA",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "63E0E939273EC98B",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mysticalagriculture:inferium_farmland",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "620D57C29FD7231C",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "081E56980C415CB5",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:prosperity_shard",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "085B40A50A0D4244",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "7695C03E7A574D93",
+      tasks: [
+        {
+          id: "45F602898CDEBE09",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prosperity_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "7FC78B94320D5598",
+          type: "item",
+          item: {
+            id: "matc:inferium_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21BA78FE52CBB8CB",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "23DBCAFF685D1E3A",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:infusion_altar",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "gear",
+      dependencies: [
+        "7695C03E7A574D93",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "5CE002C1C1142CD1",
+      tasks: [
+        {
+          id: "53637BA145353D92",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:infusion_altar",
+            count: 1,
+          },
+        },
+        {
+          id: "7CF1520068FFA233",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:infusion_pedestal",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "3F4AAB283819FCA2",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prosperity_seed_base",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64FAADD444000C55",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6E1F6CB9A93259FC",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:prudentium_essence",
+        count: 1,
+      },
+      x: 9.5,
+      y: 0.0,
+      shape: "none",
+      hide_dependency_lines: false,
+      dependencies: [
+        "5CE002C1C1142CD1",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      id: "5574D291E6E69013",
+      tasks: [
+        {
+          id: "1158A3D8B0F03115",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prudentium_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "746D84C7AA1DA2CC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1C283EC170DD6390",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:tertium_essence",
+        count: 1,
+      },
+      x: 11.0,
+      y: 0.0,
+      shape: "none",
+      hide_dependency_lines: false,
+      dependencies: [
+        "5574D291E6E69013",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      id: "68A9B5BD25E86D75",
+      tasks: [
+        {
+          id: "3EBE28A402834CAA",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:tertium_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2925A72CEBA4D994",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6D347F6E010B624F",
+          type: "loot",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:imperium_essence",
+        count: 1,
+      },
+      x: 12.5,
+      y: 0.0,
+      shape: "none",
+      hide_dependency_lines: false,
+      dependencies: [
+        "68A9B5BD25E86D75",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      id: "2E56DB4CBFE2F37C",
+      tasks: [
+        {
+          id: "37E671247063A2B7",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:imperium_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B4DCCAB6E05C500",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "18699F5B95CD2A69",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:supremium_essence",
+        count: 1,
+      },
+      x: 14.0,
+      y: 0.0,
+      shape: "none",
+      hide_dependency_lines: false,
+      dependencies: [
+        "2E56DB4CBFE2F37C",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      id: "2AE9ADF578ABEA11",
+      tasks: [
+        {
+          id: "133397395DCABDA6",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:supremium_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B8C82BD67678C72",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "015F536E098BF4CD",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:fire_seeds",
+        count: 1,
+      },
+      x: 7.5,
+      y: 1.0,
+      shape: "square",
+      dependencies: [
+        "5CE002C1C1142CD1",
+      ],
+      size: 1.0,
+      id: "5E04779BC1EB52E9",
+      tasks: [
+        {
+          id: "4F1777D10DAD6649",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:elementalseed)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B4274D349D35248",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:dirt_seeds",
+        count: 1,
+      },
+      x: 8.0,
+      y: -1.0,
+      shape: "square",
+      dependencies: [
+        "5CE002C1C1142CD1",
+      ],
+      size: 1.0,
+      id: "3490E1E29396D066",
+      tasks: [
+        {
+          id: "10797452061EB3E6",
+          type: "item",
+          icon: {
+            id: "mysticalagriculture:stone_seeds",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t1seeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C0A6AA142E04EE8",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:dye_seeds",
+        count: 1,
+      },
+      x: 9.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "5574D291E6E69013",
+      ],
+      size: 1.0,
+      id: "736EF0026F658DA7",
+      tasks: [
+        {
+          id: "5F91F645D55E49BB",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t2seeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E8A753CE1E6E78C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:soulium_dagger",
+        count: 1,
+      },
+      x: 11.0,
+      y: 3.0,
+      shape: "gear",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "5CE002C1C1142CD1",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "33AC3264C0AE8FF1",
+      tasks: [
+        {
+          id: "3D8C5DDC4A06A263",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:soulium_dagger",
+            count: 1,
+          },
+        },
+        {
+          id: "2B8F1A99187CA6E9",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:soul_extractor",
+            count: 1,
+          },
+        },
+        {
+          id: "68C7FF6DA76B8F5E",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:soul_jar",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38AEF446CEB4F1F3",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:cow_seeds",
+        count: 1,
+      },
+      x: 9.5,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "5574D291E6E69013",
+        "33AC3264C0AE8FF1",
+      ],
+      size: 1.0,
+      id: "0D92EFDB73114B0C",
+      tasks: [
+        {
+          id: "2566CE0AC0925C71",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t2mobseeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D6921842BC74529",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:zombie_seeds",
+        count: 1,
+      },
+      x: 11.0,
+      y: 1.5,
+      shape: "hexagon",
+      hide_dependency_lines: false,
+      dependencies: [
+        "68A9B5BD25E86D75",
+        "33AC3264C0AE8FF1",
+      ],
+      size: 1.0,
+      id: "45F8CB4497591B10",
+      tasks: [
+        {
+          id: "5AF37B4A61876A3E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t3mobseeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5726BD2AF2BB5EE5",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:iron_seeds",
+        count: 1,
+      },
+      x: 11.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "68A9B5BD25E86D75",
+      ],
+      size: 1.0,
+      id: "7AEC335123E441BA",
+      tasks: [
+        {
+          id: "62AEAB0BA2360576",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t3seeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D29EA86126F306F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:ghast_seeds",
+        count: 1,
+      },
+      x: 12.5,
+      y: 1.5,
+      shape: "hexagon",
+      hide_dependency_lines: false,
+      dependencies: [
+        "2E56DB4CBFE2F37C",
+        "33AC3264C0AE8FF1",
+      ],
+      size: 1.0,
+      id: "7C4F7E36320797C5",
+      tasks: [
+        {
+          id: "3D6DD528D310D8B9",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t4mobseeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "670A226EAA7AD82C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:gold_seeds",
+        count: 1,
+      },
+      x: 12.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "2E56DB4CBFE2F37C",
+      ],
+      size: 1.0,
+      id: "580DDEAC95562B05",
+      tasks: [
+        {
+          id: "75EC422F0D5A29CE",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t4seeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "369E6459021248CD",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:wither_skeleton_seeds",
+        count: 1,
+      },
+      x: 14.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "2AE9ADF578ABEA11",
+      ],
+      size: 1.0,
+      id: "384287F30638679E",
+      tasks: [
+        {
+          id: "19FB3879C5AE09BA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t5mobseeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05E7443D62821445",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:diamond_seeds",
+        count: 1,
+      },
+      x: 14.0,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "2AE9ADF578ABEA11",
+      ],
+      size: 1.0,
+      id: "60EBD67EDCE669DD",
+      tasks: [
+        {
+          id: "683638FC21EA1713",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:t5seeds)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0E95ACB179ECC0A6",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:awakening_altar",
+        count: 1,
+      },
+      x: 16.0,
+      y: 2.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2AE9ADF578ABEA11",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "0D79C07499BF6E95",
+      tasks: [
+        {
+          id: "5F637ED116F4A25A",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakening_altar",
+            count: 1,
+          },
+        },
+        {
+          id: "2417CB2CA23E6C41",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:awakening_pedestal",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "70E31C813AE7293D",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:essence_vessel",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "0169D020B0C475F3",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1C58A5DD379AD996",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagradditions:insanium_essence",
+        count: 1,
+      },
+      x: 15.5,
+      y: -1.5,
+      shape: "none",
+      dependencies: [
+        "2AE9ADF578ABEA11",
+      ],
+      size: 1.0,
+      id: "7123022757E50A70",
+      tasks: [
+        {
+          id: "747C16269536F795",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:insanium_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "309674F383370AB5",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "0C90A2936192DE29",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:nether_star_seeds",
+        count: 1,
+      },
+      x: 15.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "7123022757E50A70",
+      ],
+      size: 1.0,
+      id: "458B3C345767E296",
+      tasks: [
+        {
+          id: "1070B2ACFFEC2FAC",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:nether_star_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "38BD818DD68652BA",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:nether_star_crux",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65EAAC4774F5553C",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:dragon_egg_seeds",
+        count: 1,
+      },
+      x: 16.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "7123022757E50A70",
+      ],
+      size: 1.0,
+      id: "4FD329857906DB24",
+      tasks: [
+        {
+          id: "7E4F1388CA5E02AB",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:dragon_egg_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "3888ACBCC0CBC3B2",
+          type: "item",
+          item: {
+            id: "mysticalagradditions:dragon_egg_crux",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12E84724F45570A0",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:master_infusion_crystal",
+        count: 1,
+      },
+      x: 15.5,
+      y: 0.0,
+      shape: "gear",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "7123022757E50A70",
+      ],
+      size: 1.0,
+      id: "2AF9753B396F7625",
+      tasks: [
+        {
+          id: "30289F73EC6EA099",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:master_infusion_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22685F2A31FF85F1",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "32C1E5E32BEEBCF6",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:inferium_chestplate",
+        count: 1,
+      },
+      x: 4.5,
+      y: -1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7695C03E7A574D93",
+      ],
+      size: 1.0,
+      id: "603BAFEF92DA275E",
+      tasks: [
+        {
+          id: "0C41CFCD491848EC",
+          type: "item",
+          icon: {
+            id: "mysticalagriculture:inferium_chestplate",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_helmet)item(mysticalagriculture:inferium_chestplate)item(mysticalagriculture:inferium_leggings)item(mysticalagriculture:inferium_boots))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "771722B75927F39F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "77620E51DC8C1A87",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagradditions:inferium_paxel",
+        count: 1,
+      },
+      x: 5.5,
+      y: -1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7695C03E7A574D93",
+      ],
+      size: 1.0,
+      id: "13448A305B57016A",
+      tasks: [
+        {
+          id: "48BB22683A4C50AD",
+          type: "item",
+          icon: {
+            id: "mysticalagradditions:inferium_paxel",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_sword)item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:inferium_shovel)item(mysticalagriculture:inferium_axe)item(mysticalagriculture:inferium_hoe)item(mysticalagriculture:inferium_bow)item(mysticalagriculture:inferium_crossbow)item(mysticalagriculture:inferium_shears)item(mysticalagriculture:inferium_fishing_rod)item(mysticalagriculture:inferium_sickle)item(mysticalagriculture:inferium_scythe)item(mysticalagradditions:inferium_paxel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5B46C379A8B1242A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6998D9965F6E0B75",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:inferium_upgrade",
+        count: 1,
+      },
+      x: 5.5,
+      y: 1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7695C03E7A574D93",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      id: "208A53545D649C8D",
+      tasks: [
+        {
+          id: "5C75D4F581C6F389",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22AF27B049BD54C6",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "10D245799305669C",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:inferium_growth_accelerator",
+        count: 1,
+      },
+      x: 5.0,
+      y: 2.0,
+      shape: "square",
+      dependencies: [
+        "7695C03E7A574D93",
+      ],
+      hide_until_deps_complete: true,
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "0C259021A652EFCE",
+      tasks: [
+        {
+          id: "27FFF0492348277F",
+          type: "item",
+          icon: {
+            id: "mysticalagriculture:inferium_growth_accelerator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_growth_accelerator)item(mysticalagriculture:prudentium_growth_accelerator)item(mysticalagriculture:tertium_growth_accelerator)item(mysticalagriculture:imperium_growth_accelerator)item(mysticalagriculture:supremium_growth_accelerator)item(mysticalagriculture:awakened_supremium_growth_accelerator))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1B1AD21D496C9B79",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "078F74C7FBA74BE6",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:cognizant_dust",
+        count: 1,
+      },
+      x: 15.0,
+      y: 2.5,
+      shape: "diamond",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2AE9ADF578ABEA11",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "2EBDE5767588B43C",
+      tasks: [
+        {
+          id: "063D96ED00F53D1E",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:cognizant_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E39F2F91401AD86",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "6DE35B11D87136A6",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:awakened_supremium_essence",
+        count: 1,
+      },
+      x: 15.5,
+      y: 1.5,
+      shape: "none",
+      hide_dependency_lines: false,
+      dependencies: [
+        "2EBDE5767588B43C",
+        "2AE9ADF578ABEA11",
+        "0D79C07499BF6E95",
+      ],
+      size: 1.0,
+      id: "7C9CABB75B422A4A",
+      tasks: [
+        {
+          id: "358E3C7E8613B428",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mysticalagriculture:awakened_supremium_block",
+            count: 1,
+          },
+        },
+        {
+          id: "17986591F29BE0F6",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mysticalagriculture:awakened_supremium_essence",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00BFC8F093DF3D97",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "5E44CE200FA95D2A",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:inferium_watering_can",
+        count: 1,
+      },
+      x: 4.5,
+      y: 1.0,
+      shape: "rsquare",
+      hide_dependent_lines: true,
+      dependencies: [
+        "7695C03E7A574D93",
+      ],
+      size: 1.0,
+      id: "1CFEC4265CAAA0D8",
+      tasks: [
+        {
+          id: "2FEB155F2DCE33B4",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:inferium_watering_can",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7730A4373688951E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7FF33278EDCDCA25",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:prudentium_farmland",
+        count: 1,
+      },
+      x: 7.0,
+      y: -1.0,
+      shape: "square",
+      dependencies: [
+        "5CE002C1C1142CD1",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "42E45B47360C59F3",
+      tasks: [
+        {
+          id: "2CA99A333EDFB6FC",
+          type: "item",
+          icon: {
+            id: "mysticalagriculture:inferium_farmland",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_farmland)item(mysticalagriculture:prudentium_farmland)item(mysticalagriculture:tertium_farmland)item(mysticalagriculture:imperium_farmland)item(mysticalagriculture:supremium_farmland)item(mysticalagradditions:insanium_farmland))",
+            },
+          },
+          consume_items: false,
+        },
+      ],
+      rewards: [
+        {
+          id: "00D0022C9CE31C9F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "436720FFC3C783BA",
+          type: "random",
+          team_reward: false,
+          exclude_from_claim_all: true,
+          table_id: 8417916111800609440,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalautomation:farmer",
+        count: 1,
+      },
+      x: 5.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6EDDB490A109A1E5",
+      tasks: [
+        {
+          id: "15836F76885F1A71",
+          type: "item",
+          item: {
+            id: "mysticalautomation:farmer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2200735272B7DE59",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "76E21D99E5D9A7F1",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalautomation:awakening_altarnator",
+        count: 1,
+      },
+      x: 8.0,
+      y: -3.5,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4506DB8F74B9C6A7",
+      tasks: [
+        {
+          id: "51D4130CCF63D29A",
+          type: "item",
+          item: {
+            id: "mysticalautomation:infusion_altarnator",
+            count: 1,
+          },
+        },
+        {
+          id: "53D30642E8775AD3",
+          type: "item",
+          item: {
+            id: "mysticalautomation:awakening_altarnator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "187BC9DBA979711A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "19CB3A48434D878D",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:prosperity_shard",
+        count: 1,
+      },
+      x: 3.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "308D28C1370CED08",
+      ],
+      size: 1.5,
+      min_width: 300,
+      can_repeat: false,
+      id: "5C2FD440426A2BD7",
+      tasks: [
+        {
+          id: "43272807858DA298",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:prosperity_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2295036AF46666C3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "10E924493EE68A2E",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbmaterials:dimensional_shard_gem",
+        count: 1,
+      },
+      x: 3.5,
+      y: 4.5,
+      shape: "diamond",
+      size: 1.5,
+      id: "1D4A7C29E5B30F16",
+      tasks: [
+        {
+          id: "4D8F1B36C29E7A50",
+          type: "item",
+          item: {
+            id: "ftbmaterials:dimensional_shard_gem",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C7D2F91B4E8A605",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "0F5B8C34D7A2E916",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dimresources:planet_locator",
+        count: 1,
+      },
+      x: 5.0,
+      y: 4.0,
+      dependencies: [
+        "1D4A7C29E5B30F16",
+      ],
+      size: 1.0,
+      id: "3F8B2D61C4A97E05",
+      tasks: [
+        {
+          id: "7B3E9D25A4C1F806",
+          type: "item",
+          item: {
+            id: "minecraft:spyglass",
+            count: 1,
+          },
+        },
+        {
+          id: "1F6A4C82E9B3D570",
+          type: "item",
+          icon: {
+            id: "dimresources:planet_locator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "and(item(dimresources:planet_locator)or(component({'dimresources:planet':'dimresources:asteroid'})component({'dimresources:planet':'dimresources:cindrath'})component({'dimresources:planet':'dimresources:crystalore'})component({'dimresources:planet':'dimresources:fractoria'})component({'dimresources:planet':'dimresources:inferno'})component({'dimresources:planet':'dimresources:submerged'})))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D1E4A78B3C9F250",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2A9F6E03C8D4B715",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dimresources:dimensional_stone",
+        count: 1,
+      },
+      x: 5.0,
+      y: 5.0,
+      dependencies: [
+        "1D4A7C29E5B30F16",
+      ],
+      size: 1.0,
+      id: "0B7E3C58D19A46F2",
+      tasks: [
+        {
+          id: "6C4B8D21A5E9F370",
+          type: "item",
+          item: {
+            id: "dimresources:dimensional_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C6F9B24E7A3D580",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5A3D7E81C4B9F260",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      x: 6.0,
+      y: 5.0,
+      dependencies: [
+        "0B7E3C58D19A46F2",
+      ],
+      size: 1.0,
+      id: "6A2F8E14C7B5D093",
+      tasks: [
+        {
+          id: "0A9E5C73B2D6F148",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3B5F1D82C6A4E970",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      x: 5.0,
+      y: 6.0,
+      dependencies: [
+        "0B7E3C58D19A46F2",
+      ],
+      size: 1.0,
+      id: "2E9C4B70A1D6F385",
+      tasks: [
+        {
+          id: "3D6B9E52C1A8F470",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2D7A3F65B1C8E409",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "geore:budding_diamond",
+        count: 1,
+      },
+      x: -1.0,
+      y: -4.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "34C57701B6B07948",
+        "6A59069E389CBA24",
+      ],
+      size: 1.0,
+      id: "74EEBED9D360FB82",
+      tasks: [
+        {
+          id: "2C094D5DB8C21CE4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(geore:budding_coal)item(geore:budding_copper)item(geore:budding_iron)item(geore:budding_gold)item(geore:budding_redstone)item(geore:budding_lapis)item(geore:budding_diamond)item(geore:budding_emerald)item(geore:budding_quartz))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C04D25F0EE0498A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "378E9D3FA3F33DF6",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:extractor",
+        count: 1,
+      },
+      x: 1.0,
+      y: -4.5,
+      dependencies: [
+        "34C57701B6B07948",
+      ],
+      size: 1.0,
+      id: "358D66AB9176F05F",
+      tasks: [
+        {
+          id: "7BDA947BA827FC73",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(geore:geore_shards)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69526B03C24DBE1A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "78C3AE8773B78A8A",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mobflowutilities:dark_dirt",
+        count: 1,
+      },
+      x: 0.5,
+      y: 3.0,
+      shape: "square",
+      size: 1.0,
+      id: "4B38B74EA8E13AAE",
+      tasks: [
+        {
+          id: "7C46D89828174047",
+          type: "item",
+          item: {
+            id: "mobflowutilities:gloom_spore",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D2135F9B9EE62BE",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "36790D8BAFC59FB3",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mobflowutilities:damage_pad",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "4B38B74EA8E13AAE",
+      ],
+      size: 1.0,
+      id: "6451DEA471C5FF6F",
+      tasks: [
+        {
+          id: "513E36FCD653C9C1",
+          type: "item",
+          item: {
+            id: "mobflowutilities:controller",
+            count: 1,
+          },
+        },
+        {
+          id: "3E1B3A17BB9C7F39",
+          type: "item",
+          item: {
+            id: "mobflowutilities:damage_pad",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F0BB4ACA81CE79B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1AAA2FD371A201E0",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mobflowutilities:collector",
+        count: 1,
+      },
+      x: 0.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "4B38B74EA8E13AAE",
+      ],
+      size: 1.0,
+      id: "142D8B60C2D3B81D",
+      tasks: [
+        {
+          id: "43093DC77F2A471E",
+          type: "item",
+          item: {
+            id: "mobflowutilities:collector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A2147340BE5F3AD",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6165BF0FE66D527A",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mobflowutilities:genesis_chamber",
+        count: 1,
+      },
+      x: 1.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "4B38B74EA8E13AAE",
+      ],
+      size: 1.0,
+      id: "65337DD4E5CABB58",
+      tasks: [
+        {
+          id: "232D8BBF133E3687",
+          type: "item",
+          item: {
+            id: "mobflowutilities:genesis_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7953B3E1B5E27129",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "249621F6B0E8B8C6",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "easy_villagers:villager",
+        count: 1,
+      },
+      x: -4.0,
+      y: -4.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "1E340EC285631E9A",
+      tasks: [
+        {
+          id: "77BE5F013BA68559",
+          type: "item",
+          item: {
+            id: "easy_villagers:villager",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "380BA90FC4CC861B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4239BCE4041A5F64",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "easy_villagers:trader",
+        count: 1,
+      },
+      x: -5.0,
+      y: -5.0,
+      dependencies: [
+        "1E340EC285631E9A",
+      ],
+      size: 1.0,
+      id: "611514BAC644DA7A",
+      tasks: [
+        {
+          id: "63DE5F553E57C8FA",
+          type: "item",
+          item: {
+            id: "easy_villagers:trader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D56032BDC95F4D8",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6DD2E0237A8A83B6",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "easy_villagers:breeder",
+        count: 1,
+      },
+      x: -4.0,
+      y: -5.5,
+      dependencies: [
+        "1E340EC285631E9A",
+      ],
+      size: 1.0,
+      id: "34AD046C45AE20CA",
+      tasks: [
+        {
+          id: "143227867B3ED579",
+          type: "item",
+          item: {
+            id: "easy_villagers:breeder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "730E078E487B762B",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "37A2F30775EF1519",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "easy_villagers:iron_farm",
+        count: 1,
+      },
+      x: -3.0,
+      y: -5.0,
+      dependencies: [
+        "1E340EC285631E9A",
+      ],
+      size: 1.0,
+      id: "47893FC4BA520CE7",
+      tasks: [
+        {
+          id: "3F39DDD69C601C35",
+          type: "item",
+          item: {
+            id: "easy_villagers:iron_farm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "707AF08CC7286C8D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3E584A0506F49A2C",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:gene",
+        count: 1,
+      },
+      x: -10.5,
+      y: -2.5,
+      dependencies: [
+        "46D4262D31E94814",
+      ],
+      size: 1.0,
+      id: "7885F26DBF1E2E8F",
+      tasks: [
+        {
+          id: "7690362E5BE31026",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "789DDDCEFFA7C87A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:lead",
+        count: 1,
+      },
+      x: -7.5,
+      y: 1.5,
+      dependencies: [
+        "5FB291FDE43A727F",
+      ],
+      size: 1.0,
+      id: "12663AA928D0E094",
+      tasks: [
+        {
+          id: "78723CA2377CD560",
+          type: "item",
+          item: {
+            id: "minecraft:lead",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54FC48DC8D7F6866",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3E5045A1E3E5D5E9",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "productivebees:bee_cage",
+        count: 1,
+      },
+      x: -10.5,
+      y: -4.5,
+      shape: "hexagon",
+      dependencies: [
+        "7885F26DBF1E2E8F",
+      ],
+      size: 1.5,
+      id: "37733B382007E7FA",
+      tasks: [
+        {
+          id: "32A08A415A949AF2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7BA83BAF9C408420",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:machine_frame",
+        count: 1,
+      },
+      x: 3.5,
+      y: -4.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "085B40A50A0D4244",
+      ],
+      size: 1.5,
+      id: "10AE11528D94EB0E",
+      tasks: [
+        {
+          id: "11E1BD324D1BC551",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:machine_frame",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36EE29D7FE5ABE28",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "70A412BBE5D377E0",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:harvester",
+        count: 1,
+      },
+      x: 5.0,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "34F054E75A7CAD47",
+      tasks: [
+        {
+          id: "6161CDFFF0573754",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mysticalagriculture:harvester",
+            count: 1,
+          },
+        },
+        {
+          id: "213581FFF3177E56",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mysticalautomation:fertilizer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "415E52008CE29772",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "34FAA419CBAE8BB1",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:seed_reprocessor",
+        count: 1,
+      },
+      x: 6.0,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "702D49883F3011DE",
+      tasks: [
+        {
+          id: "5053191C628CA5ED",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:seed_reprocessor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1986A110AEC8ADBD",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "1A9A21A202607B5D",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:furnace",
+        count: 1,
+      },
+      x: 5.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "5133D15ADD337371",
+      tasks: [
+        {
+          id: "20E48D73BA4688DF",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57DC361BA81879AA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "705462CB9D70BE27",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:ore_infuser",
+        count: 1,
+      },
+      x: 6.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "30AB20CB8C626A7C",
+      tasks: [
+        {
+          id: "308DC78DDACE0341",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:ore_infuser",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "318A016FED44C67D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3D876E499F7AB713",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:soulium_spawner",
+        count: 1,
+      },
+      x: 7.0,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "6AB0C61A12C417F2",
+      tasks: [
+        {
+          id: "4C304FD0B22A57A0",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:soulium_spawner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "304B49BAFEEB908E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7B720A819950A6CB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:enchanter",
+        count: 1,
+      },
+      x: 6.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "7CB0AFF443CB39DA",
+      tasks: [
+        {
+          id: "453BD48D8F16A7A8",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:enchanter",
+            count: 1,
+          },
+        },
+        {
+          id: "46D63027DF51DAEB",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "mysticalautomation:enchanternator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "535315ED13562711",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4F646FA72B16E915",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:tinkering_table",
+        count: 1,
+      },
+      x: 8.0,
+      y: -4.5,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "5010FC8F326DE471",
+      tasks: [
+        {
+          id: "3829388749486473",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:tinkering_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4063CEE3DA287D2E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4E423807764DB8B4",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "jamd:portal_block",
+        count: 1,
+      },
+      x: -4.0,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "2905D04F590BAC36",
+      ],
+      size: 1.25,
+      id: "283BBAFACC4EABB0",
+      tasks: [
+        {
+          id: "44105D001E71D89E",
+          type: "item",
+          item: {
+            id: "jamd:portal_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60151B14CDF7BBDA",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "42B2BFFB969B7C4A",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:fortune": 3,
+                "minecraft:unbreaking": 3,
+              },
+            },
+          },
+        },
+        {
+          id: "34BFE103B5C25D31",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:wither_skeleton_skull",
+        count: 1,
+      },
+      x: -5.5,
+      y: 4.5,
+      dependencies: [
+        "2905D04F590BAC36",
+      ],
+      size: 1.0,
+      id: "1003322F319665FF",
+      tasks: [
+        {
+          id: "46894689BE342010",
+          type: "kill",
+          entity: "minecraft:wither",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5EAF94FD67E3153B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5CC1C2E4CE38E674",
+          type: "gamestage",
+          team_reward: false,
+          auto: "enabled",
+          stage: "skyline2_unlocked",
+        },
+        {
+          id: "3401586D617BD9B4",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "jamd:nether_portal",
+        count: 1,
+      },
+      x: -5.5,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "1003322F319665FF",
+      ],
+      size: 1.25,
+      id: "6EA5D8059A27679E",
+      tasks: [
+        {
+          id: "2D2242BC80B2CFF4",
+          type: "item",
+          item: {
+            id: "jamd:nether_portal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22F8E0E0838AEF67",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "7CC24290856299C4",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "apothic_enchanting:miners_fervor": 3,
+                "minecraft:mending": 1,
+              },
+            },
+          },
+        },
+        {
+          id: "456310DAC84C6209",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:dragon_head",
+        count: 1,
+      },
+      x: -7.0,
+      y: 4.5,
+      dependencies: [
+        "1003322F319665FF",
+      ],
+      size: 1.0,
+      id: "1C742A1E7C1F1059",
+      tasks: [
+        {
+          id: "0212DBD6313C830E",
+          type: "advancement",
+          advancement: "minecraft:end/kill_dragon",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "14B1E9DADDB4F250",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "24E6CBE2C8A8C7B4",
+          type: "gamestage",
+          team_reward: false,
+          auto: "enabled",
+          stage: "skyline3_unlocked",
+        },
+        {
+          id: "1D9B3C079A1AE059",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "jamd:end_portal",
+        count: 1,
+      },
+      x: -7.0,
+      y: 6.0,
+      shape: "hexagon",
+      dependencies: [
+        "1C742A1E7C1F1059",
+      ],
+      size: 1.25,
+      id: "3C4D8CB7120C8219",
+      tasks: [
+        {
+          id: "48F3EDB30C7513FF",
+          type: "item",
+          item: {
+            id: "jamd:end_portal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "23FDEC58B90112AB",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "30A2292C251E1AE5",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "apothic_enchanting:boon_of_the_earth": 3,
+                "minecraft:unbreaking": 8,
+              },
+            },
+          },
+        },
+        {
+          id: "32C05AF74B02F80E",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalautomation:infuser",
+        count: 1,
+      },
+      x: 7.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "2AF9753B396F7625",
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "1A314C332514AF39",
+      tasks: [
+        {
+          id: "25A17BC29EDC7491",
+          type: "item",
+          item: {
+            id: "mysticalautomation:infuser",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3FCB42277B90479C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "29415ECD7424832A",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalautomation:crafter",
+        count: 1,
+      },
+      x: 7.0,
+      y: -4.0,
+      shape: "hexagon",
+      dependencies: [
+        "10AE11528D94EB0E",
+      ],
+      size: 1.0,
+      id: "66477F0AB0AC2CDB",
+      tasks: [
+        {
+          id: "5613E3EF21D4079A",
+          type: "item",
+          item: {
+            id: "mysticalautomation:crafter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3F0D21C3C2452060",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "21D07F95F25AA38C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "dimresources:laser",
+        count: 1,
+      },
+      x: 6.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "3F8B2D61C4A97E05",
+      ],
+      size: 1.0,
+      id: "5C1E9A47B2D8F630",
+      tasks: [
+        {
+          id: "5E2B8F49A7C3D160",
+          type: "item",
+          item: {
+            id: "dimresources:laser",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7E4C1D59A2B8F360",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4B8A3E67D1C5F920",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mystianapiary:upgrade_block",
+        count: 1,
+      },
+      x: -5.0,
+      y: -7.0,
+      shape: "hexagon",
+      dependencies: [
+        "0A1FDABEAAA0723B",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "3F89BB2A4D278D16",
+      tasks: [
+        {
+          id: "4AD42868F942B038",
+          type: "item",
+          item: {
+            id: "mystianapiary:upgrade_block",
+            count: 1,
+          },
+        },
+        {
+          id: "2B0AFC7F5B4D1FBF",
+          type: "item",
+          item: {
+            id: "mystianapiary:input_block",
+            count: 1,
+          },
+        },
+        {
+          id: "7EF49FB86B1C5A30",
+          type: "item",
+          item: {
+            id: "mystianapiary:flower_block",
+            count: 1,
+          },
+        },
+        {
+          id: "441FA0977B9D4407",
+          type: "item",
+          item: {
+            id: "mystianapiary:output_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "460F2AEAACC8252C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2E8303CBEC3DC1FC",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mystianapiary:input_block_t1",
+        count: 1,
+      },
+      x: -3.0,
+      y: -7.0,
+      shape: "hexagon",
+      dependencies: [
+        "3F89BB2A4D278D16",
+      ],
+      size: 1.0,
+      id: "729B37ED4E838E59",
+      tasks: [
+        {
+          id: "636E5A09D2D8BB32",
+          type: "item",
+          icon: {
+            id: "mystianapiary:input_block_t1",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(mystianapiary:input_block_t1)item(mystianapiary:flower_block_t1)item(mystianapiary:output_block_t1)item(mystianapiary:input_upgrade_1)item(mystianapiary:flower_upgrade_1)item(mystianapiary:output_upgrade_1))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57F72DB27E8E690E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7DDAA67349353535",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mystianapiary:upgrade_centrifuge",
+        count: 1,
+      },
+      x: -5.0,
+      y: -9.0,
+      shape: "hexagon",
+      dependencies: [
+        "3F89BB2A4D278D16",
+        "2315DBE189D330DA",
+      ],
+      size: 1.25,
+      id: "12FF1650CEA4083D",
+      tasks: [
+        {
+          id: "63E6B464503B2761",
+          type: "item",
+          item: {
+            id: "mystianapiary:upgrade_centrifuge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "129DC6BDA1A1C0CF",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "2A98494B36832691",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mystianapiary:upgrade_centrifuge_t3",
+        count: 1,
+      },
+      x: -3.0,
+      y: -9.0,
+      shape: "hexagon",
+      dependencies: [
+        "12FF1650CEA4083D",
+      ],
+      size: 1.5,
+      id: "20ED9BF15D0E7F54",
+      tasks: [
+        {
+          id: "59A4D21767E45479",
+          type: "item",
+          item: {
+            id: "mystianapiary:upgrade_centrifuge_t3",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13014F075D75880B",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "4D8A336FFCA0F405",
+          type: "random",
+          exclude_from_claim_all: true,
+          table_id: 1862978040036675512,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mystianapiary:me_storage_interface",
+        count: 1,
+      },
+      x: -1.0,
+      y: -7.0,
+      shape: "hexagon",
+      dependencies: [
+        "729B37ED4E838E59",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1FA3F7A9AF119411",
+      tasks: [
+        {
+          id: "635D3FE74E3965DA",
+          type: "item",
+          item: {
+            id: "mystianapiary:me_storage_interface",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27CBD7ED6E3AFAA8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:petri_dish",
+        count: 1,
+      },
+      x: 10.5,
+      y: 5.0,
+      shape: "diamond",
+      size: 1.5,
+      optional: true,
+      id: "780FEFE9F073543B",
+      tasks: [
+        {
+          id: "5EB9FF2D60A322CA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0E1C08548764564C",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "72AB47828922F73A",
+      x: 1.0,
+      y: 2.0,
+      shape: "square",
+      id: "254F7F65A31E6A46",
+    },
+    {
+      linked_quest: "6A59069E389CBA24",
+      x: 0.0,
+      y: -5.0,
+      id: "749FE81822166FEB",
+    },
+    {
+      linked_quest: "07ACFFA6F8A00E9C",
+      x: 0.0,
+      y: 2.0,
+      shape: "square",
+      id: "5D8CFC07999F5DCD",
+    },
+    {
+      linked_quest: "2905D04F590BAC36",
+      x: -4.0,
+      y: 4.5,
+      shape: "hexagon",
+      id: "6E59383E84F931EE",
+    },
+    {
+      linked_quest: "06CC49037F4B3008",
+      x: 12.5,
+      y: 5.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "1489A4BFB8B853CA",
+    },
+    {
+      linked_quest: "269CCC2DAFB7A9B2",
+      x: 14.5,
+      y: 5.0,
+      shape: "octagon",
+      size: 1.5,
+      id: "706BEBA3701A70AC",
+    },
+    {
+      linked_quest: "6C51CE5E6702F34F",
+      x: 16.5,
+      y: 5.0,
+      shape: "diamond",
+      id: "480FE3E526BE5059",
+    },
+    {
+      linked_quest: "718C50DBF9A20D01",
+      x: 12.5,
+      y: 7.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "334A668D3A9CBA40",
+    },
+  ],
+  images: [
+    {
+      x: -4.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 45.0,
+      image: "productivebees:block/incubator/top",
+      id: "206D4501D0DFEF1A",
+    },
+    {
+      x: -4.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      color: 16777045,
+      id: "4F154EE4617BACAC",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "sophisticatedstorage:block/diamond_barrel_bottom",
+      order: 1,
+      id: "4497242F68E7A2BF",
+    },
+    {
+      x: 1.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 15.0,
+      image: "minecraft:item/diamond",
+      id: "3A62C37BB8AC002C",
+    },
+    {
+      x: -1.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: -15.0,
+      image: "minecraft:item/emerald",
+      id: "08E97C09B302D0A9",
+    },
+    {
+      x: -4.0,
+      y: -2.0,
+      width: 1.45,
+      height: 1.45,
+      rotation: 0.0,
+      image: "productivebees:item/iron_bee",
+      id: "05C496AE2106534C",
+    },
+    {
+      x: -13.0,
+      y: 5.0,
+      width: 8.891752577319586,
+      height: 5.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/productivebees/beesimage1.png",
+      id: "5F6E7285DB13DF0F",
+    },
+    {
+      x: -17.0,
+      y: -5.5,
+      width: 5.37,
+      height: 5.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/productivebees/beeimage2.png",
+      id: "32E1469DCA11AD83",
+    },
+    {
+      x: -13.0,
+      y: 0.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "xycraft_world:block/connected/glass_viewer_silicon/glass_viewer_silicon",
+      color: 43520,
+      alpha: 200,
+      id: "266888528538D619",
+    },
+    {
+      x: 15.5,
+      y: 1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagriculture:block/awakened_supremium_gemstone_block",
+      order: -1,
+      id: "334C1AA7EAE022C6",
+    },
+    {
+      x: 3.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagriculture:block/inferium_gemstone_block",
+      id: "686D151965F98271",
+    },
+    {
+      x: 14.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagriculture:block/supremium_gemstone_block",
+      id: "573537A7A0B59B1B",
+    },
+    {
+      x: 12.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagriculture:block/imperium_gemstone_block",
+      id: "730E36189FF92682",
+    },
+    {
+      x: 11.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagriculture:block/tertium_gemstone_block",
+      id: "407A803645F6B1D3",
+    },
+    {
+      x: 9.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagriculture:block/prudentium_gemstone_block",
+      id: "4E91A7A3ED866ADE",
+    },
+    {
+      x: 9.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      id: "33CB8BFB49C67C29",
+    },
+    {
+      x: 11.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      id: "7177AF5668CEA025",
+    },
+    {
+      x: 12.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      id: "0A188B6006068C67",
+    },
+    {
+      x: 11.0,
+      y: 0.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 125,
+      id: "43524E15911FD8F5",
+    },
+    {
+      x: 12.5,
+      y: 0.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 150,
+      id: "2719B39600B2F463",
+    },
+    {
+      x: 15.5,
+      y: -1.5,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      id: "0BF1B46A115C452C",
+    },
+    {
+      x: 9.5,
+      y: 0.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      id: "4C2AAB501C50798C",
+    },
+    {
+      x: 3.5,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      id: "1206C7629FC3B5CD",
+    },
+    {
+      x: 15.5,
+      y: 1.5,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 200,
+      id: "1A8687413A9E7DB7",
+    },
+    {
+      x: 15.5,
+      y: 1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      id: "3C1A8777688410AF",
+    },
+    {
+      x: 15.5,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "mysticalagradditions:block/insanium_gemstone_block",
+      id: "05459258E6DB28A7",
+    },
+    {
+      x: 14.0,
+      y: 0.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 175,
+      id: "7E0876E46E322D19",
+    },
+    {
+      x: 15.5,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      order: 1,
+      id: "28C324D7C3D9320A",
+    },
+    {
+      x: 14.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer/glass_viewer",
+      alpha: 100,
+      order: 1,
+      id: "2144AB74429131DA",
+    },
+    {
+      x: 7.918,
+      y: 5.0,
+      width: 1.835,
+      height: 3.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/resource_generation/dimres_laser_tower.png",
+      id: "10C69D409068BA3F",
+    },
+    {
+      x: 15.1,
+      y: 7.6,
+      width: 2.6,
+      height: 2.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/resource_generation/industrial_bio_reactor.png",
+      id: "20C49909C23B8B89",
+    },
+    {
+      x: 18.8,
+      y: 2.0,
+      width: 3.6,
+      height: 2.942,
+      rotation: 0.0,
+      image: "ftb:textures/quests/resource_generation/ma_awakening_altar.png",
+      id: "3F918FC69AAA0A12",
+    },
+  ],
+}

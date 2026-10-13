@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:gold_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 4,
+      "id": "minecraft:raw_gold"
+    }
+  ],
+  "time": 100
+}

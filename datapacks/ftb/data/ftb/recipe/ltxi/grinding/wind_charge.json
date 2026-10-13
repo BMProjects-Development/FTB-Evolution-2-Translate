@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:rods/breeze"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 4,
+      "id": "minecraft:wind_charge"
+    }
+  ]
+}

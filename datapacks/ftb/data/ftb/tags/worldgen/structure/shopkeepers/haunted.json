@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "explorify:mausoleum",
+      "required": false
+    },
+    {
+      "id": "explorify:black_spiral",
+      "required": false
+    },
+    {
+      "id": "ati_structures:haunted_ruin",
+      "required": false
+    },
+    {
+      "id": "ati_structures:wither_cavern",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple",
+      "required": false
+    },
+    {
+      "id": "ati_structures:rotting_temple_underground",
+      "required": false
+    }
+  ]
+}

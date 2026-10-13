@@ -1,0 +1,24 @@
+{
+  "entity": "minecraft:ravager",
+  "variants": [],
+  "name_color": "#4A4A4A",
+  "display": {
+    "scale": 0.6
+  },
+  "sim_cost": 768,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.ravager",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:saddle",
+      "count": 1
+    },
+    {
+      "id": "minecraft:leather",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:vitae_essence"
+  },
+  "result": {
+    "id": "ftb:blood_vial",
+    "count": 4
+  }
+}

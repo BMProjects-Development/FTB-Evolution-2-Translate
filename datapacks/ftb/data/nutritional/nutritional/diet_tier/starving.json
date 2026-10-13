@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "average": {
+      "max": 15.0
+    }
+  },
+  "display": {
+    "color": "#7b1f1f",
+    "icon": "minecraft:bone",
+    "name": "tier.nutritional.starving"
+  },
+  "messages": {
+    "enter": "tier.nutritional.starving.enter",
+    "exit": "tier.nutritional.starving.exit"
+  },
+  "priority": 10
+}

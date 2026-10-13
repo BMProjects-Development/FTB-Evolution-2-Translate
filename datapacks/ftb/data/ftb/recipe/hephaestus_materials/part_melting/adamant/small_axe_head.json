@@ -1,0 +1,21 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:adamant"
+    },
+    "items": "hephaestus_tools:small_axe_head",
+    "strict": false
+  },
+  "result": {
+    "amount": 180,
+    "id": "ftb:molten_adamant"
+  },
+  "temperature": 1000,
+  "time": 120
+}

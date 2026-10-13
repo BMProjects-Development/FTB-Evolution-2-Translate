@@ -1,0 +1,14 @@
+{
+  "fallback": "ftb:dungeons/nether/treasure_chests",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/nether/chests/treasure",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

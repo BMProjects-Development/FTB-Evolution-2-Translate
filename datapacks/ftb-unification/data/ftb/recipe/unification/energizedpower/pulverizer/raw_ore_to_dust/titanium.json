@@ -1,0 +1,18 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "ftbmaterials:titanium_raw_ore",
+  "result": {
+    "percentages": [
+      1.0,
+      0.5
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      0.5
+    ],
+    "result": {
+      "id": "ftbmaterials:titanium_dust"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# Show property tooltips on the wand
+# Default: true
+show_wand_tooltips = true
+# The radius in chunks around the player that should be highlighted
+# Default: 6
+# Default: 6
+# Range: > 0
+highlight_chunk_radius = 6
+# Decides when Jade should be displayed
+# Default: WAND
+# ALWAYS: Only show Jade while holding a wand
+# WAND: Only show Jade while holding a wand
+# NEVER: Only show Jade while holding a wand
+jade_mode = "WAND"

@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "minecraft:iron_ore",
+  "variants": [
+    "minecraft:deepslate_iron_ore",
+    "ftbmaterials:iron_nether_ore",
+    "ftbmaterials:iron_end_ore",
+    "stellaris:moon_stone_iron_ore"
+  ],
+  "name_color": "#D8D8D8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.iron_ore",
+  "fabricator_drops": [
+    {
+      "id": "minecraft:raw_iron",
+      "count": 12
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

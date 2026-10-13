@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:emerald_end_ore",
+  "result": {
+    "count": 4,
+    "id": "minecraft:emerald"
+  },
+  "secondary": {
+    "id": "minecraft:emerald",
+    "count": 2
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

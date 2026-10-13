@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ati_structures:manor",
+      "required": false
+    },
+    {
+      "id": "ati_structures:marble_chateau",
+      "required": false
+    }
+  ]
+}

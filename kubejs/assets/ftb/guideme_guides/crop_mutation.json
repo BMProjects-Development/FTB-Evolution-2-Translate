@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Crop Mutation"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Every Mystical Agriculture seed cross in FTB Evolution 2",
+        "color": "dark_gray"
+      }
+    ]
+  },
+  "default_language": "en_us"
+}

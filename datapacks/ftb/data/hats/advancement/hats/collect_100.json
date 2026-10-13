@@ -1,0 +1,23 @@
+{
+  "parent": "hats:hats/collect_10",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "Head Hunter"
+    },
+    "description": {
+      "text": "A century of trophies. 100 hats unlocked."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlock_via_code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

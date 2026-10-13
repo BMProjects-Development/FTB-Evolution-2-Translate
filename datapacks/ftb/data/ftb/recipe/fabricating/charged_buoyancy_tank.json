@@ -1,0 +1,35 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "nautec:buoyancy_tank",
+      "count": 1
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 1
+    },
+    {
+      "ingredient": "minecraft:phantom_membrane",
+      "count": 8
+    }
+  ],
+  "results": [
+    {
+      "id": "nautec:buoyancy_tank",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.ftb.charged_buoyancy_tank"
+        },
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": {
+          "ftb_flight_core": true
+        }
+      }
+    }
+  ],
+  "ticks": 1000,
+  "energy_per_tick": 20000,
+  "stage": "skyline3_unlocked"
+}

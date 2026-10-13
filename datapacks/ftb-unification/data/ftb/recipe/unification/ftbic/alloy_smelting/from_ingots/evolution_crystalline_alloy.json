@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "enderio:pulsating_powder"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio:pulsating_alloy_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:vivid_alloy_ingot"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio_evolution:crystalline_alloy_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

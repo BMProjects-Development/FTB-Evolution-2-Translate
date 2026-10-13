@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "ftbmaterials:iridium_raw_block",
+  "result": {
+    "id": "ftbmaterials:iridium_block"
+  },
+  "experience": 9.0,
+  "cookingtime": 1800
+}

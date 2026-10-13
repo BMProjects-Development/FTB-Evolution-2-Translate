@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "ae2:silicon",
+    "cakesticklib:silicon_gem",
+    "enderio:silicon",
+    "energizedpower:silicon",
+    "ftbic:silicon_gem",
+    "oritech:silicon",
+    "refinedstorage:silicon"
+  ]
+}

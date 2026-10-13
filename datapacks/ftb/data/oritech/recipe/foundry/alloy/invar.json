@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:ingots/iron",
+    "#c:ingots/nickel"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:invar_ingot"
+    }
+  ],
+  "time": 80
+}

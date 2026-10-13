@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "synergy" }
+  ],
+  "type": "synergy:foundry",
+  "fluid": {
+    "amount": 90,
+    "id": "colossal_reactors:molten_stainless_steel"
+  },
+  "input": {
+    "tag": "c:ingots/stainless_steel"
+  },
+  "ticks": 100
+}

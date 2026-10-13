@@ -1,0 +1,198 @@
+{
+  id: "73CA5D656483D081",
+  order_index: 28,
+  icon: {
+    id: "minecraft:nether_star",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "4FA9393E98A87DC1",
+      item: {
+        id: "minecraft:netherite_scrap",
+        count: 1,
+      },
+      count: 2,
+      weight: 10.0,
+    },
+    {
+      id: "2C80CB6336D1209F",
+      item: {
+        id: "minecraft:totem_of_undying",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "5E996C8CE04E63F9",
+      item: {
+        id: "minecraft:enchanted_golden_apple",
+        count: 1,
+      },
+      count: 2,
+      weight: 10.0,
+    },
+    {
+      id: "19F668B23E0296E1",
+      item: {
+        id: "minecraft:shulker_shell",
+        count: 1,
+      },
+      count: 4,
+      weight: 10.0,
+    },
+    {
+      id: "236347409F9D0A7C",
+      item: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "33EC7F479B6C6520",
+      item: {
+        id: "minecraft:echo_shard",
+        count: 1,
+      },
+      count: 4,
+      weight: 10.0,
+    },
+    {
+      id: "6EBDAE33DB1ABC7B",
+      item: {
+        id: "minecraft:budding_amethyst",
+        count: 1,
+      },
+      weight: 10.0,
+    },
+    {
+      id: "55F316CD961CFB80",
+      item: {
+        id: "minecraft:dragon_breath",
+        count: 1,
+      },
+      count: 8,
+      weight: 10.0,
+    },
+    {
+      id: "71125A4C426F001C",
+      item: {
+        id: "minecraft:netherite_ingot",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0DDAF6A7954E6DAE",
+      item: {
+        id: "minecraft:heavy_core",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "35FD7F8667C43B74",
+      item: {
+        id: "minecraft:trident",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "1D76F1BDB9120D0F",
+      item: {
+        id: "minecraft:dragon_head",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "19FE2541B3DA9DA1",
+      item: {
+        id: "minecraft:wither_skeleton_skull",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "6EAABABECC9CE529",
+      item: {
+        id: "minecraft:ancient_debris",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "1BEDEFD5D2502CC4",
+      item: {
+        id: "ae2:mysterious_cube",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "64757EEA7CFA0BAC",
+      item: {
+        id: "apotheosis:sigil_of_rebirth",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3D6D642A80A7AE4D",
+      item: {
+        id: "reliquary:fortune_coin",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0E59088554CEEED9",
+      item: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "558B2355A7CA7832",
+      item: {
+        id: "minecraft:elytra",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "36C059708FE29A7E",
+      item: {
+        id: "minecraft:beacon",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "47CF5ABDF841F5C4",
+      item: {
+        id: "tiab:time_in_a_bottle",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "high_roller",
+    color: 16755200,
+    item_name: "ftbquests.loot_crate.high_roller",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

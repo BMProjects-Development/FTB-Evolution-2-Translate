@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/enderium",
+    "#c:ingots/enderium"
+  ],
+  "result": {
+    "id": "ftbic:enderium_plate"
+  }
+}

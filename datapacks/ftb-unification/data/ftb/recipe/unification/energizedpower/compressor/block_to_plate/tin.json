@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:tin_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ftbmaterials:tin_plate"
+  }
+}

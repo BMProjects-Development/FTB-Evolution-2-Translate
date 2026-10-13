@@ -1,0 +1,31 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/other/desh",
+  "output_items": [
+    {
+      "item": {
+        "id": "stellaris:raw_desh",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "stellaris:raw_desh"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "stellaris:raw_desh"
+      },
+      "chance": 0.33
+    },
+    {
+      "item": {
+        "id": "stellaris:raw_desh"
+      },
+      "chance": 0.15
+    }
+  ],
+  "duration": 40
+}

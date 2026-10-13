@@ -1,0 +1,5392 @@
+{
+  id: "5C4FD4C5AEAF49F5",
+  group: "4780068BA76609B8",
+  order_index: 10,
+  icon: {
+    id: "nautec:prismarine_crystal",
+    count: 1,
+  },
+  filename: "nautec",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "77FFEC3A2289F5C2",
+  quests: [
+    {
+      icon: {
+        id: "nautec:aquarine_copper_ingot",
+        count: 1,
+      },
+      x: 8.5,
+      y: -5.0,
+      shape: "circle",
+      dependencies: [
+        "4AEFD35B32DD2489",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2C61275C9E6B6CF8",
+      tasks: [
+        {
+          id: "6814A2BC786A6D2D",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_copper_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "54760E7FBC051C6C",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "29610AE0EED8F1E7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:current_conduit",
+        count: 1,
+      },
+      x: 6.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "2C61275C9E6B6CF8",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "1F00BCA0042DB923",
+      tasks: [
+        {
+          id: "6C50AFB6E9FB123D",
+          type: "item",
+          item: {
+            id: "nautec:current_conduit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F28D015A2AA0B9D",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "4E385994EBAC94AF",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:eddy_upgrade",
+        count: 1,
+      },
+      x: 4.5,
+      y: -5.0,
+      shape: "circle",
+      dependencies: [
+        "1F00BCA0042DB923",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6DBCA290A9EAB706",
+      tasks: [
+        {
+          id: "194F9545ADBA52CE",
+          type: "item",
+          item: {
+            id: "nautec:eddy_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57DE8C051D4B7EF2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6DF216C33F8F3201",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:filter",
+        count: 1,
+      },
+      x: 6.5,
+      y: -7.0,
+      shape: "circle",
+      dependencies: [
+        "1F00BCA0042DB923",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4C10A4FE30CFFDDA",
+      tasks: [
+        {
+          id: "11DC6F3FCB57D5D8",
+          type: "item",
+          item: {
+            id: "nautec:filter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33176469AA6EF630",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "607507EBC5B864D7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:focusing_lens",
+        count: 1,
+      },
+      x: 12.5,
+      y: 5.0,
+      shape: "diamond",
+      dependencies: [
+        "7E24BA960EFA7931",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "40653ACDABFB5BE1",
+      tasks: [
+        {
+          id: "0C0C7408892F902B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7EA45151BECAF3AC",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:algal_lipid",
+        count: 1,
+      },
+      x: 24.5,
+      y: 7.0,
+      shape: "circle",
+      dependencies: [
+        "60D72BA4EEBEF0EF",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "691F8412128B2F33",
+      tasks: [
+        {
+          id: "49559928602EA478",
+          type: "item",
+          item: {
+            id: "nautec:algal_lipid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "733EF1AD65C66DFE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0D53CA2355820374",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:combustion_dynamo",
+        count: 1,
+      },
+      x: 26.5,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "691F8412128B2F33",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "062E3FE8A6A3A450",
+      tasks: [
+        {
+          id: "52689567BCE92BD2",
+          type: "item",
+          item: {
+            id: "nautec:combustion_dynamo",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DB910B7835A4D41",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4A98CC2E5D9DC9F8",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "74712ECA0ED90475",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:aquatic_catalyst",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "3D2B05F88D95FA3C",
+        "2913824ED3340F93",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "77FFEC3A2289F5C2",
+      tasks: [
+        {
+          id: "0DF6494494F9FB31",
+          type: "item",
+          item: {
+            id: "nautec:aquatic_catalyst",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "320C91824B47B25A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5CE2EC2C065AAE8A",
+          type: "item",
+          item: {
+            id: "minecraft:prismarine_shard",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "7521E69513B31CD3",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_laser_relay",
+        count: 1,
+      },
+      x: 2.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "77FFEC3A2289F5C2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0F4B9E3D2B15A9C8",
+      tasks: [
+        {
+          id: "5FA7ABAC13FA0384",
+          type: "item",
+          item: {
+            id: "nautec:prismarine_laser_relay",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "369D38EF51766FE2",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5CEE7844FFE4E1EB",
+          type: "item",
+          item: {
+            id: "nautec:prismarine_laser_relay",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "06422F4A98F37CFC",
+          type: "xp",
+          team_reward: false,
+          xp: 13,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:aquarine_steel_ingot",
+        count: 1,
+      },
+      x: 4.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "0F4B9E3D2B15A9C8",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3F86B2A1DD7D5AD3",
+      tasks: [
+        {
+          id: "3A0CE806B6DA65F1",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CB0039C6C8EA0F4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "528496B2B2255E29",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "5AC0605C8FFC8C35",
+          type: "xp",
+          team_reward: false,
+          xp: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:aquarine_steel_compound",
+        count: 1,
+      },
+      x: 4.5,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "3F86B2A1DD7D5AD3",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "63A943F3BF9B9561",
+      tasks: [
+        {
+          id: "55E76BF26C538E0D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "19B31F4C69A312FA",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_compound",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "6965B9CFBDE60642",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:laser_crafting_matrix",
+        count: 1,
+      },
+      x: 2.75,
+      y: -3.25,
+      shape: "hexagon",
+      dependencies: [
+        "3F86B2A1DD7D5AD3",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "6C763F4FE19B7F3D",
+      tasks: [
+        {
+          id: "357250D2271C3E62",
+          type: "item",
+          item: {
+            id: "nautec:laser_crafting_matrix",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62589466D191E167",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "10BE5523776BAC03",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_compound",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "4DDD1CEBB298FECA",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:laser_junction",
+        count: 1,
+      },
+      x: 6.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "3F86B2A1DD7D5AD3",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "2CDD35D21A370805",
+      tasks: [
+        {
+          id: "5AEBF73EA0F6E47A",
+          type: "item",
+          item: {
+            id: "nautec:laser_junction",
+            count: 1,
+          },
+        },
+        {
+          id: "3793EB0F7CE89C6F",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "084B81B0088B2323",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6927446D42C23211",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+        {
+          id: "3CB3E0762AA376CF",
+          type: "xp",
+          team_reward: false,
+          xp: 19,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prism_monocle",
+        count: 1,
+      },
+      x: 6.5,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "2CDD35D21A370805",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "55D7BD0D53341399",
+      tasks: [
+        {
+          id: "74930D21A7402D60",
+          type: "item",
+          item: {
+            id: "nautec:prism_monocle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3810208B363715B7",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5F47B80CF043D242",
+          type: "xp",
+          team_reward: false,
+          xp: 22,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_crystal",
+        count: 1,
+      },
+      x: 8.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "2CDD35D21A370805",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "4AEFD35B32DD2489",
+      tasks: [
+        {
+          id: "358B0BE83224C4E8",
+          type: "observation",
+          icon: {
+            id: "nautec:prismarine_crystal",
+            count: 1,
+          },
+          optional_task: true,
+          timer: 0,
+          observation_type: "block",
+          to_observe: "nautec:prismarine_crystal",
+        },
+        {
+          id: "53CA5CD95643AAB1",
+          type: "observation",
+          icon: {
+            id: "nautec:prismarine_crystal",
+            count: 1,
+          },
+          optional_task: true,
+          timer: 0,
+          observation_type: "block",
+          to_observe: "nautec:prismarine_crystal_part",
+        },
+      ],
+      rewards: [
+        {
+          id: "082341EDC6A18EB5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7EF5FD188C1546DA",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:eye_of_the_sea",
+        count: 1,
+      },
+      x: -2.5,
+      y: -2.5,
+      shape: "diamond",
+      size: 2.0,
+      optional: true,
+      can_repeat: false,
+      id: "3D2B05F88D95FA3C",
+      tasks: [
+        {
+          id: "6030E2690B4CAF85",
+          type: "item",
+          item: {
+            id: "nautec:eye_of_the_sea",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7887B7D52933ED23",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:laser_channeling_coil",
+        count: 1,
+      },
+      x: 10.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "4AEFD35B32DD2489",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5EB9CF37E089845E",
+      tasks: [
+        {
+          id: "1B100C078A619A7E",
+          type: "item",
+          item: {
+            id: "nautec:laser_channeling_coil",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "442B80719FA148C7",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "229290E490700279",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_crystal_shard",
+        count: 1,
+      },
+      x: 10.5,
+      y: -4.0,
+      shape: "circle",
+      dependencies: [
+        "4AEFD35B32DD2489",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1485B05D33FAFFE5",
+      tasks: [
+        {
+          id: "4DBBBB23E729425E",
+          type: "item",
+          item: {
+            id: "nautec:prismarine_crystal_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4544451DD8F422FC",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5B2607AB33DC7A3E",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:budding_prismarine",
+        count: 1,
+      },
+      x: 10.5,
+      y: -6.0,
+      shape: "circle",
+      dependencies: [
+        "1485B05D33FAFFE5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "33EB7286E6E1DE70",
+      tasks: [
+        {
+          id: "49D9A3F2D6D7F91A",
+          type: "item",
+          item: {
+            id: "nautec:budding_prismarine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "10AC96B692A347AD",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "70448458032C5076",
+          type: "xp",
+          team_reward: false,
+          xp: 28,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:focusing_lens",
+        count: 1,
+      },
+      x: 12.5,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "5EB9CF37E089845E",
+        "1485B05D33FAFFE5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "589A5835042DC2C1",
+      tasks: [
+        {
+          id: "219532D41B8A830B",
+          type: "item",
+          item: {
+            id: "nautec:focusing_lens",
+            count: 1,
+          },
+        },
+        {
+          id: "30FD11155B5521A1",
+          type: "item",
+          item: {
+            id: "nautec:prismatic_mirror",
+            count: 1,
+          },
+        },
+        {
+          id: "4C2AA7B622788B8D",
+          type: "item",
+          item: {
+            id: "nautec:beam_splitter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60E6FE8850BF09BA",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "61756A0B6576CA8D",
+          type: "xp",
+          team_reward: false,
+          xp: 28,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:long_distance_laser",
+        count: 1,
+      },
+      x: 12.5,
+      y: -5.0,
+      shape: "circle",
+      dependencies: [
+        "1485B05D33FAFFE5",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "480870A483F8E2C9",
+      tasks: [
+        {
+          id: "34875EAF10132065",
+          type: "item",
+          item: {
+            id: "nautec:long_distance_laser",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3EDE56BB767D6E97",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:charger",
+        count: 1,
+      },
+      x: 12.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "5EB9CF37E089845E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2DD115082017F9E3",
+      tasks: [
+        {
+          id: "1EA981725738F501",
+          type: "item",
+          item: {
+            id: "nautec:charger",
+            count: 1,
+          },
+        },
+        {
+          id: "5B9622E342254171",
+          type: "item",
+          item: {
+            id: "nautec:prismatic_battery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DDBDBB90E5FB190",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5FAFED0809C3BACA",
+          type: "xp",
+          team_reward: false,
+          xp: 28,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:wave_jet",
+        count: 1,
+      },
+      x: 14.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "2DD115082017F9E3",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "30A058E82CF6766A",
+      tasks: [
+        {
+          id: "404D29E1D491DC33",
+          type: "item",
+          item: {
+            id: "nautec:wave_jet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37A6DE6353945EC8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "57EA4BD68A24DD2D",
+          type: "xp",
+          team_reward: false,
+          xp: 31,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:resonance_chamber",
+        count: 1,
+      },
+      x: 14.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "589A5835042DC2C1",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "0E2C04911CA2D653",
+      tasks: [
+        {
+          id: "124FB855BA4B8618",
+          type: "item",
+          item: {
+            id: "nautec:resonance_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B1CBF3CC20FAA99",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6BD93E7FD08217E7",
+          type: "xp",
+          team_reward: false,
+          xp: 31,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:resonant_shard",
+        count: 1,
+      },
+      x: 16.5,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "0E2C04911CA2D653",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1D7AAD2487528786",
+      tasks: [
+        {
+          id: "6CF10E2DE0281A46",
+          type: "item",
+          item: {
+            id: "nautec:resonant_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "103744A60920D5E7",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "493436BDA703754E",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:pressure_forge",
+        count: 1,
+      },
+      x: 18.5,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "1D7AAD2487528786",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "5D8D7695A3B44155",
+      tasks: [
+        {
+          id: "1B09EE93D46E2D28",
+          type: "item",
+          item: {
+            id: "nautec:pressure_forge",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BA103A71257CBC6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7DF88E0DA52389F7",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:flawless_prismarine_crystal",
+        count: 1,
+      },
+      x: 22.5,
+      y: -3.0,
+      shape: "octagon",
+      dependencies: [
+        "5D8D7695A3B44155",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "684644505C6D47D4",
+      tasks: [
+        {
+          id: "6BA0581627E952D6",
+          type: "item",
+          item: {
+            id: "nautec:flawless_prismarine_crystal",
+            count: 1,
+          },
+        },
+        {
+          id: "5AC0DC07FD069D15",
+          type: "item",
+          item: {
+            id: "nautec:deep_steel_plating",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "377F4E359BCA013F",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "3D0F560A0F640483",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:gateway",
+        count: 1,
+      },
+      x: 22.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "684644505C6D47D4",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "5060BFECF1EE9856",
+      tasks: [
+        {
+          id: "3705E14F9E9A3BD2",
+          type: "item",
+          item: {
+            id: "nautec:gateway",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "260EEED625325EF7",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7D78EE1E6E0D4F9D",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:cyan_dye",
+        count: 1,
+      },
+      x: 22.0,
+      y: -6.5,
+      shape: "diamond",
+      dependencies: [
+        "5060BFECF1EE9856",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "3B7FCE8FEC7A4C26",
+      tasks: [
+        {
+          id: "3FD62D295DEAEBFD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4038458E5585E9BF",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:gateway",
+        count: 1,
+      },
+      x: 17.0,
+      y: -4.5,
+      shape: "circle",
+      dependencies: [
+        "1D7AAD2487528786",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3ABC3462415EC6A6",
+      tasks: [
+        {
+          id: "74F87726661A6E3B",
+          type: "observation",
+          icon: {
+            id: "nautec:gateway",
+            count: 1,
+          },
+          optional_task: true,
+          timer: 0,
+          observation_type: "block",
+          to_observe: "nautec:gateway_ring_part",
+        },
+        {
+          id: "524EEFBF846BE1E7",
+          type: "observation",
+          icon: {
+            id: "nautec:gateway",
+            count: 1,
+          },
+          optional_task: true,
+          timer: 0,
+          observation_type: "block",
+          to_observe: "nautec:gateway",
+        },
+      ],
+      rewards: [
+        {
+          id: "31CE4275F9756BB6",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "2853EF5554AC8177",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismatic_battery",
+        count: 1,
+      },
+      x: 23.0,
+      y: -6.5,
+      shape: "diamond",
+      dependencies: [
+        "5060BFECF1EE9856",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "48C6A0778FE5BC1E",
+      tasks: [
+        {
+          id: "0C164F4E3AAE99C6",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "602A7A5D01DA2CB5",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:flight_module",
+        count: 1,
+      },
+      x: 34.5,
+      y: -5.0,
+      shape: "diamond",
+      dependencies: [
+        "07DB72267839D8D7",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "6F33FC5D591FE07E",
+      tasks: [
+        {
+          id: "450C435B8E652F34",
+          type: "item",
+          item: {
+            id: "nautec:flight_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A8D0948C064489E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "20E5343051ED7A77",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:neptunes_trident",
+        count: 1,
+      },
+      x: 24.5,
+      y: -4.0,
+      shape: "circle",
+      dependencies: [
+        "684644505C6D47D4",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "6B127FD56FB8487B",
+      tasks: [
+        {
+          id: "24B5447BF2700CBD",
+          type: "item",
+          item: {
+            id: "nautec:neptunes_trident",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A3C628B4E77815B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:atlantean_rifle",
+        count: 1,
+      },
+      x: 24.5,
+      y: -2.0,
+      shape: "circle",
+      dependencies: [
+        "684644505C6D47D4",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "65E1AE8CEB6387FD",
+      tasks: [
+        {
+          id: "2546C0A609719D0A",
+          type: "item",
+          item: {
+            id: "nautec:atlantean_rifle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E34D399CD75BFE9",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:submarine",
+        count: 1,
+      },
+      x: 28.5,
+      y: -5.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "2DD115082017F9E3",
+        "29CB4422765935BC",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "0F1BF451F6A84E98",
+      tasks: [
+        {
+          id: "3666C616C87F7D66",
+          type: "item",
+          item: {
+            id: "nautec:submarine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FEBC9EBDFD802CD",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0851FC86901E6917",
+          type: "xp",
+          team_reward: false,
+          xp: 41,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:spyglass",
+        count: 1,
+      },
+      x: 28.5,
+      y: -7.0,
+      shape: "diamond",
+      dependencies: [
+        "0F1BF451F6A84E98",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "4FB344B1F965D434",
+      tasks: [
+        {
+          id: "7BE02BF2C1DB445C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "465CC668E2EC87B2",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:deep_steel_plating",
+        count: 1,
+      },
+      x: 25.0,
+      y: -3.0,
+      shape: "circle",
+      hide_dependency_lines: true,
+      dependencies: [
+        "0F1BF451F6A84E98",
+        "684644505C6D47D4",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3C8951D418D9B9DE",
+      tasks: [
+        {
+          id: "0AC7A3669DF39ECA",
+          type: "item",
+          item: {
+            id: "nautec:deep_steel_plating",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "533060BF815C04D8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6A67C87092A1604A",
+          type: "xp",
+          team_reward: false,
+          xp: 43,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:submarine_dock",
+        count: 1,
+      },
+      x: 28.5,
+      y: -3.0,
+      shape: "circle",
+      dependencies: [
+        "0F1BF451F6A84E98",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6A774B62B05E366B",
+      tasks: [
+        {
+          id: "6EB35662AF2A176F",
+          type: "item",
+          item: {
+            id: "nautec:submarine_dock",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1CE49B75885910AD",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "778B350C7B091587",
+          type: "xp",
+          team_reward: false,
+          xp: 34,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:sonar_module",
+        count: 1,
+      },
+      x: 30.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "0F1BF451F6A84E98",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "5F23221A22811049",
+      tasks: [
+        {
+          id: "5D3091719F963A22",
+          type: "item",
+          item: {
+            id: "nautec:sonar_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AF715997FE4FB91",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "00FD5490D0FD3A86",
+          type: "xp",
+          team_reward: false,
+          xp: 34,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:shield_module",
+        count: 1,
+      },
+      x: 32.0,
+      y: -6.0,
+      shape: "diamond",
+      dependencies: [
+        "5F23221A22811049",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5A93784A7A8E2997",
+      tasks: [
+        {
+          id: "26B6DD791CF4F7C8",
+          type: "item",
+          item: {
+            id: "nautec:armor_module",
+            count: 1,
+          },
+        },
+        {
+          id: "5452E83F53853477",
+          type: "item",
+          item: {
+            id: "nautec:shield_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "696CE2205FC038A8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1BBA78383D04F47E",
+          type: "xp",
+          team_reward: false,
+          xp: 37,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:booster_module",
+        count: 1,
+      },
+      x: 33.0,
+      y: -5.0,
+      shape: "diamond",
+      dependencies: [
+        "5F23221A22811049",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "07DB72267839D8D7",
+      tasks: [
+        {
+          id: "07FF4E1CB3C6B5D5",
+          type: "item",
+          item: {
+            id: "nautec:booster_module",
+            count: 1,
+          },
+        },
+        {
+          id: "54C10B19FFB03D9C",
+          type: "item",
+          item: {
+            id: "nautec:stealth_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "069BCDD6E566647A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "494D7AD83C0FCE2B",
+          type: "xp",
+          team_reward: false,
+          xp: 37,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:solar_module",
+        count: 1,
+      },
+      x: 32.5,
+      y: -5.5,
+      shape: "diamond",
+      dependencies: [
+        "5F23221A22811049",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2392DE947119DD60",
+      tasks: [
+        {
+          id: "4753A827DB619B81",
+          type: "item",
+          item: {
+            id: "nautec:solar_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73EABE74E709D970",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4129CD897F1DF2AB",
+          type: "xp",
+          team_reward: false,
+          xp: 37,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:impulse_laser_module",
+        count: 1,
+      },
+      x: 32.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "5F23221A22811049",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "38D9F4CF31A86E71",
+      tasks: [
+        {
+          id: "36E9069EC1EDAF7D",
+          type: "item",
+          item: {
+            id: "nautec:impulse_laser_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22187EC1EBFDB7D1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4434849383350874",
+          type: "xp",
+          team_reward: false,
+          xp: 37,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:teleport_module",
+        count: 1,
+      },
+      x: 32.0,
+      y: -4.0,
+      shape: "diamond",
+      dependencies: [
+        "5F23221A22811049",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "63177C0A3FA7720F",
+      tasks: [
+        {
+          id: "4D9B3243D1640E49",
+          type: "item",
+          item: {
+            id: "nautec:teleport_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7CE8583FE1237DBC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2AC1B620DB2F12FC",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:diving_helmet",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "77FFEC3A2289F5C2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "67073110A3FA00CB",
+      tasks: [
+        {
+          id: "57DB035E6BFB7330",
+          type: "item",
+          item: {
+            id: "nautec:diving_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "2863F2213507F2A8",
+          type: "item",
+          item: {
+            id: "nautec:diving_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "6C8E884A56E0A2D7",
+          type: "item",
+          item: {
+            id: "nautec:diving_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "03A915B83D58D724",
+          type: "item",
+          item: {
+            id: "nautec:diving_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11CA74CAD02FD2B0",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1EBA825D5E1AC7C6",
+          type: "item",
+          item: {
+            id: "nautec:air_bottle",
+            count: 2,
+          },
+          count: 8,
+        },
+        {
+          id: "26848B89AAFF8770",
+          type: "xp",
+          team_reward: false,
+          xp: 13,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:cast_iron_ingot",
+        count: 1,
+      },
+      x: 2.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "77FFEC3A2289F5C2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "237CBF1B089BC523",
+      tasks: [
+        {
+          id: "12136A2CA37F07BE",
+          type: "item",
+          item: {
+            id: "nautec:cast_iron_ingot",
+            count: 1,
+          },
+        },
+        {
+          id: "2F86566CC844CB62",
+          type: "item",
+          item: {
+            id: "nautec:cast_iron_rod",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22FBD7F4A6AB65C3",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1C09CC40634AC5A1",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "128808D7EF7CC886",
+          type: "xp",
+          team_reward: false,
+          xp: 13,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:rusty_crate",
+        count: 1,
+      },
+      x: 4.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "237CBF1B089BC523",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "49C42EC7FAC6095B",
+      tasks: [
+        {
+          id: "55CE656F51A15ED6",
+          type: "item",
+          item: {
+            id: "nautec:rusty_crate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "390EFF3264786667",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "624590F6B784BF0E",
+          type: "xp",
+          team_reward: false,
+          xp: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:etching_acid_bucket",
+        count: 1,
+      },
+      x: 6.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "49C42EC7FAC6095B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4EAA319397136532",
+      tasks: [
+        {
+          id: "51FB8B48C0898415",
+          type: "item",
+          item: {
+            id: "nautec:etching_acid_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "5C67A532CA22F10A",
+          type: "item",
+          item: {
+            id: "nautec:gear",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78A3E93756DD2742",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1353D8E740EB8B44",
+          type: "item",
+          item: {
+            id: "nautec:rusty_crate",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "22A123286FDE5239",
+          type: "xp",
+          team_reward: false,
+          xp: 19,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:deep_sea_drain",
+        count: 1,
+      },
+      x: 8.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "2CDD35D21A370805",
+        "4EAA319397136532",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "4144063FFB1CD735",
+      tasks: [
+        {
+          id: "61F741AE4D94E7F6",
+          type: "item",
+          item: {
+            id: "nautec:deep_sea_drain",
+            count: 1,
+          },
+        },
+        {
+          id: "7CC711A899E1D0F7",
+          type: "item",
+          item: {
+            id: "nautec:deep_sea_drain_wall",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "613C3E2B629A11EF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7E101233B84762A7",
+          type: "item",
+          item: {
+            id: "nautec:valve",
+            count: 1,
+          },
+        },
+        {
+          id: "7DDA41009D43AA1F",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_ingot",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "5AEBD5E41F127B59",
+          type: "xp",
+          team_reward: false,
+          xp: 22,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:saltwater_bucket",
+        count: 1,
+      },
+      x: 10.5,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "4144063FFB1CD735",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "675D7B6F6826316D",
+      tasks: [
+        {
+          id: "6E7FC459A1199414",
+          type: "item",
+          item: {
+            id: "nautec:saltwater_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CA16408C3CE7567",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "595A1A02EEBD16B4",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:mixer",
+        count: 1,
+      },
+      x: 12.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "675D7B6F6826316D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "7E24BA960EFA7931",
+      tasks: [
+        {
+          id: "55618ADE30ACE087",
+          type: "item",
+          item: {
+            id: "nautec:mixer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73822E31642F45D8",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6B77810AD95A5AB8",
+          type: "xp",
+          team_reward: false,
+          xp: 28,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:eas_vial",
+        count: 1,
+      },
+      x: 14.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "7E24BA960EFA7931",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5274AC4F7E7C6369",
+      tasks: [
+        {
+          id: "7C263AED385C0280",
+          type: "item",
+          item: {
+            id: "nautec:eas_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "0BE9428DF95C8409",
+          type: "item",
+          item: {
+            id: "nautec:eas_vial",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55B669BE12B7888D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3F3AD99896CE9571",
+          type: "xp",
+          team_reward: false,
+          xp: 31,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:aquarine_steel_pickaxe",
+        count: 1,
+      },
+      x: 14.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "5274AC4F7E7C6369",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "027581A4ED726B8B",
+      tasks: [
+        {
+          id: "78164B12711A7FA7",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_pickaxe",
+            count: 1,
+          },
+        },
+        {
+          id: "332DCEA33B73715A",
+          type: "item",
+          item: {
+            id: "nautec:aquarine_steel_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05A7806F7F372967",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2B83421535406CBA",
+          type: "xp",
+          team_reward: false,
+          xp: 34,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_sand",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "67073110A3FA00CB",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "3CEA250892D82970",
+      tasks: [
+        {
+          id: "31A9405B5EA7B882",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5683E9191FDF8B14",
+          type: "item",
+          item: {
+            id: "minecraft:prismarine_shard",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "79B8F2C5130C41DD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_frond",
+        count: 1,
+      },
+      x: 4.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "3CEA250892D82970",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "615324CE00859A3E",
+      tasks: [
+        {
+          id: "02638662E678CD90",
+          type: "item",
+          item: {
+            id: "nautec:prismarine_frond",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "643A7C7E5606FC12",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "647820B58BA25F15",
+          type: "xp",
+          team_reward: false,
+          xp: 19,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:luminescent_algae",
+        count: 1,
+      },
+      x: 2.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "3CEA250892D82970",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "12FC9636258A86B5",
+      tasks: [
+        {
+          id: "5326AA6714717FC3",
+          type: "item",
+          item: {
+            id: "nautec:luminescent_algae",
+            count: 1,
+          },
+        },
+        {
+          id: "6789C6A1136889B9",
+          type: "item",
+          item: {
+            id: "nautec:glow_polyp",
+            count: 1,
+          },
+        },
+        {
+          id: "734AEE2088E30107",
+          type: "item",
+          item: {
+            id: "nautec:deep_kelp",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3645C81E04F8F51B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "422D19D76C108A93",
+          type: "xp",
+          team_reward: false,
+          xp: 19,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:vent_tubeworm",
+        count: 1,
+      },
+      x: -2.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "3CEA250892D82970",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "57A356FE9F206C33",
+      tasks: [
+        {
+          id: "087B828972E76C4F",
+          type: "item",
+          item: {
+            id: "nautec:vent_tubeworm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FE32AB93405CE4F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7E26F15060214B3A",
+          type: "xp",
+          team_reward: false,
+          xp: 19,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:abyssal_coral",
+        count: 1,
+      },
+      x: -4.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "3CEA250892D82970",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2FD63A10FF3E5F24",
+      tasks: [
+        {
+          id: "7A6D966C28782444",
+          type: "item",
+          item: {
+            id: "nautec:abyssal_coral",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "13AAD499C1D7F9B9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "00467AC19864A592",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:silt_skipper_bucket",
+        count: 1,
+      },
+      x: 4.0,
+      y: 7.5,
+      shape: "circle",
+      dependencies: [
+        "615324CE00859A3E",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "66E132073DA81E4A",
+      tasks: [
+        {
+          id: "0B994DDBAABA811F",
+          type: "item",
+          item: {
+            id: "nautec:silt_skipper_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0A79382254FBB8F4",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:luminous_membrane",
+        count: 1,
+      },
+      x: 2.0,
+      y: 7.5,
+      shape: "circle",
+      dependencies: [
+        "12FC9636258A86B5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0C52C98FB27EA46F",
+      tasks: [
+        {
+          id: "6D4DD71639163352",
+          type: "item",
+          item: {
+            id: "nautec:luminous_membrane",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5229C493727D7C66",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1B422A4255268F9E",
+          type: "xp",
+          team_reward: false,
+          xp: 22,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:chitin_plate",
+        count: 1,
+      },
+      x: -2.0,
+      y: 7.5,
+      shape: "circle",
+      dependencies: [
+        "57A356FE9F206C33",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5E3EDE7F8AF2489A",
+      tasks: [
+        {
+          id: "73C18ADE06712BC1",
+          type: "item",
+          item: {
+            id: "nautec:chitin_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2749FFE5AAA2500B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5C0AE35CBA1DE8BD",
+          type: "xp",
+          team_reward: false,
+          xp: 22,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:abyssal_organ",
+        count: 1,
+      },
+      x: -4.0,
+      y: 7.5,
+      shape: "circle",
+      dependencies: [
+        "2FD63A10FF3E5F24",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2E063BB63F0D37CC",
+      tasks: [
+        {
+          id: "23C4CEB4590CDFBF",
+          type: "kill",
+          entity: "nautec:abyssal_maw",
+          value: 3,
+        },
+      ],
+      rewards: [
+        {
+          id: "4A3B6A91631FA346",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "36C597C44A791DBB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:fishing_rod",
+        count: 1,
+      },
+      x: 0.0,
+      y: 5.5,
+      shape: "diamond",
+      dependencies: [
+        "3CEA250892D82970",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "71F0F2A1ED30A94A",
+      tasks: [
+        {
+          id: "350F4A092381C79B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2DA4AB2617A8798E",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:nautec_fishing_rod",
+        count: 1,
+      },
+      x: 0.0,
+      y: 7.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0F2A1ED30A94A",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "604986E04D0A51CD",
+      tasks: [
+        {
+          id: "36BFAB794C1740F4",
+          type: "item",
+          item: {
+            id: "nautec:nautec_fishing_rod",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "19E8503BA6F546C9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "500199FD5F41E48E",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nautilus_shell",
+        count: 1,
+      },
+      x: 1.0,
+      y: 9.0,
+      shape: "diamond",
+      dependencies: [
+        "604986E04D0A51CD",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "327AC224CD74178C",
+      tasks: [
+        {
+          id: "296F53A9B893616C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0AE227D720DEEB90",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:silt_skipper",
+        count: 1,
+      },
+      x: -1.0,
+      y: 9.0,
+      shape: "diamond",
+      dependencies: [
+        "604986E04D0A51CD",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "148338A58609D18D",
+      tasks: [
+        {
+          id: "1B98D41FDC2E5C7D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "74C9338E9E300512",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:fishing_station",
+        count: 1,
+      },
+      x: 0.0,
+      y: 9.5,
+      shape: "circle",
+      dependencies: [
+        "604986E04D0A51CD",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "65C5C6A7BE9AC4E6",
+      tasks: [
+        {
+          id: "2874E5E90F78815F",
+          type: "item",
+          item: {
+            id: "nautec:fishing_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18C5F90B0E411ADF",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "21929C05E2CB62D7",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:petri_dish",
+        count: 1,
+      },
+      x: 16.5,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "5274AC4F7E7C6369",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "07ACFFA6F8A00E9C",
+      tasks: [
+        {
+          id: "217341573ED05C9C",
+          type: "item",
+          item: {
+            id: "nautec:petri_dish",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04EB69E52525D36B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "78FE1A92CB423001",
+          type: "xp",
+          team_reward: false,
+          xp: 34,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:grafting_tool",
+        count: 1,
+      },
+      x: 18.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "07ACFFA6F8A00E9C",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6C9E2A1AD6F50E3F",
+      tasks: [
+        {
+          id: "62E9E2D2AAF079C6",
+          type: "item",
+          item: {
+            id: "nautec:grafting_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "715C279ADD69A524",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "31573CD031500711",
+          type: "xp",
+          team_reward: false,
+          xp: 37,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:podzol",
+        count: 1,
+      },
+      x: 18.0,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "6C9E2A1AD6F50E3F",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "747774F0F1C5F3E3",
+      tasks: [
+        {
+          id: "4F2C0B61A7634EA7",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "02880906186ED48B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:kelp",
+        count: 1,
+      },
+      x: 19.0,
+      y: 4.0,
+      shape: "diamond",
+      dependencies: [
+        "6C9E2A1AD6F50E3F",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "62D4AD580B20C416",
+      tasks: [
+        {
+          id: "79BBB59F2FD756F8",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "68646EED74AAF02C",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:bacterial_analyzer",
+        count: 1,
+      },
+      x: 22.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "6C9E2A1AD6F50E3F",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0131C83A87A25AF4",
+      tasks: [
+        {
+          id: "4EC92990E93BF87F",
+          type: "item",
+          item: {
+            id: "nautec:bacterial_analyzer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0D93DBC2558B52A3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3DABDC145373C9A5",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:incubator",
+        count: 1,
+      },
+      x: 24.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "0131C83A87A25AF4",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "47C148C5CD8432DE",
+      tasks: [
+        {
+          id: "7238AF065B9B0228",
+          type: "item",
+          item: {
+            id: "nautec:incubator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5779A30FB88D1D19",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "50176F165D34385A",
+          type: "xp",
+          team_reward: false,
+          xp: 43,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:bacterial_containment_shield",
+        count: 1,
+      },
+      x: 18.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "6C9E2A1AD6F50E3F",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "24C3B87362113EA7",
+      tasks: [
+        {
+          id: "10C9A3C5BA0B1C33",
+          type: "item",
+          item: {
+            id: "nautec:bacterial_containment_shield",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "31F9B42745533CBA",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7361DD703B675623",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:mutator",
+        count: 1,
+      },
+      x: 22.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "24C3B87362113EA7",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "60D72BA4EEBEF0EF",
+      tasks: [
+        {
+          id: "7D325FCFD8E41A81",
+          type: "item",
+          item: {
+            id: "nautec:mutator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "489AF6F36837178C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "430C5DA884D28C86",
+          type: "xp",
+          team_reward: false,
+          xp: 43,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:fermented_spider_eye",
+        count: 1,
+      },
+      x: 22.5,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "60D72BA4EEBEF0EF",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "5085FC6585F588B9",
+      tasks: [
+        {
+          id: "1248ABD7B9203F15",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0DE3266B62C95C00",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:stone",
+        count: 1,
+      },
+      x: 24.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "60D72BA4EEBEF0EF",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "79556AE1437DA3EC",
+      tasks: [
+        {
+          id: "10D39D02D2B6FDD2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2823ED5D51298084",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:coal",
+        count: 1,
+      },
+      x: 26.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "79556AE1437DA3EC",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "46E756E1EDEF8DE0",
+      tasks: [
+        {
+          id: "5C9AC0099F683CB0",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1D43C10797498D02",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:copper_ingot",
+        count: 1,
+      },
+      x: 28.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "46E756E1EDEF8DE0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2C30458D324A4AD9",
+      tasks: [
+        {
+          id: "14D161928088EB9D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5BBA558BE4AAB9AC",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:redstone",
+        count: 1,
+      },
+      x: 28.5,
+      y: 7.0,
+      shape: "circle",
+      dependencies: [
+        "2C30458D324A4AD9",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2EAF6EB6688A64EB",
+      tasks: [
+        {
+          id: "2DC0C972539279F1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7C6B0C5C60297C14",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ingot",
+        count: 1,
+      },
+      x: 30.5,
+      y: 5.0,
+      shape: "octagon",
+      dependencies: [
+        "2C30458D324A4AD9",
+        "06CC49037F4B3008",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "269CCC2DAFB7A9B2",
+      tasks: [
+        {
+          id: "54F29756F929C887",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5AE260E16148A246",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:raw_iron",
+        count: 1,
+      },
+      x: 30.5,
+      y: 7.0,
+      shape: "diamond",
+      dependencies: [
+        "269CCC2DAFB7A9B2",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "6C51CE5E6702F34F",
+      tasks: [
+        {
+          id: "1E649949BFF4510A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "770B48A3DEC10976",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:gold_ingot",
+        count: 1,
+      },
+      x: 32.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "269CCC2DAFB7A9B2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "51EC17DA8C101A1E",
+      tasks: [
+        {
+          id: "2A38B24EADD0D7FC",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6B77598C6D6A3AFD",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:diamond",
+        count: 1,
+      },
+      x: 34.5,
+      y: 5.0,
+      shape: "circle",
+      dependencies: [
+        "51EC17DA8C101A1E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "25F78E2C1065E392",
+      tasks: [
+        {
+          id: "57E908F40C219B1A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7AFDA1238FF98F4A",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:emerald",
+        count: 1,
+      },
+      x: 36.5,
+      y: 5.0,
+      shape: "octagon",
+      dependencies: [
+        "25F78E2C1065E392",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "6F403759246877FB",
+      tasks: [
+        {
+          id: "75DED41F603EA3A2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5FDB3E172ADDC5A2",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:bio_reactor",
+        count: 1,
+      },
+      x: 26.5,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "47C148C5CD8432DE",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "06CC49037F4B3008",
+      tasks: [
+        {
+          id: "03DC31C923AB6CF9",
+          type: "item",
+          item: {
+            id: "nautec:bio_reactor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DF1C54C8F70BE7F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "60E7F2E70E8EEB5C",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:hopper",
+        count: 1,
+      },
+      x: 28.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "06CC49037F4B3008",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2EBE22F7172BE14E",
+      tasks: [
+        {
+          id: "7B3AB2DCFC601FD7",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "236D89B5C46F5BD1",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_ore",
+        count: 1,
+      },
+      x: 30.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "2EBE22F7172BE14E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1BF0D5CBD80A80FC",
+      tasks: [
+        {
+          id: "1B102379E3BDADE3",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "73099FD983C8225B",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:bacterial_fuel_cell",
+        count: 1,
+      },
+      x: 30.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "1BF0D5CBD80A80FC",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "3C58133AB9909BC3",
+      tasks: [
+        {
+          id: "582698C5B67B0451",
+          type: "item",
+          item: {
+            id: "nautec:bacterial_fuel_cell",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74FE59E5D764E5FE",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1AB2A17BA6988663",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:chest",
+        count: 1,
+      },
+      x: 32.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "1BF0D5CBD80A80FC",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5080678667FF621A",
+      tasks: [
+        {
+          id: "0337ECF4A872B69E",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "16B80CE2E9AF6BD4",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:clock",
+        count: 1,
+      },
+      x: 34.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "5080678667FF621A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "29685DB8EA94F30A",
+      tasks: [
+        {
+          id: "48FA27DCF4C951BE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "167A8F73D170340F",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:energy_converter",
+        count: 1,
+      },
+      x: 36.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "29685DB8EA94F30A",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3DD6FFA5C8120682",
+      tasks: [
+        {
+          id: "052B1EFAF5540A0A",
+          type: "item",
+          item: {
+            id: "nautec:energy_converter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CEE9966ECA14602",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "436C8B0B35D5487A",
+          type: "item",
+          item: {
+            id: "nautec:laser_channeling_coil",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "419D4EFDEEB693FB",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:energy_conversion_upgrade",
+        count: 1,
+      },
+      x: 39.0,
+      y: 5.5,
+      shape: "circle",
+      dependencies: [
+        "3DD6FFA5C8120682",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "39B9122F5229D65D",
+      tasks: [
+        {
+          id: "2737FEB354115C8C",
+          type: "item",
+          item: {
+            id: "nautec:energy_conversion_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D351F0958B5FB33",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "59ED59AA315246A4",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:reactor_speed_upgrade",
+        count: 1,
+      },
+      x: 35.0,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "3DD6FFA5C8120682",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0DC9E401CA949038",
+      tasks: [
+        {
+          id: "6A0FF73029DFC0C2",
+          type: "item",
+          item: {
+            id: "nautec:reactor_speed_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "041484323BF67AC4",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "286640EDE1FC0FDB",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:reactor_yield_upgrade",
+        count: 1,
+      },
+      x: 36.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "3DD6FFA5C8120682",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2D0A433D8257F15E",
+      tasks: [
+        {
+          id: "2DDECFF559E960A1",
+          type: "item",
+          item: {
+            id: "nautec:reactor_yield_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F62746CE1A9DAC1",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2F3EAE9D33247651",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:reactor_efficiency_upgrade",
+        count: 1,
+      },
+      x: 38.0,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "3DD6FFA5C8120682",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4702ABE2F7F6FD31",
+      tasks: [
+        {
+          id: "4FD1DD3C4418DBED",
+          type: "item",
+          item: {
+            id: "nautec:reactor_efficiency_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3133EA672269F1CE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "677E869B9DFA7A80",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:comparator",
+        count: 1,
+      },
+      x: 36.5,
+      y: -1.0,
+      shape: "diamond",
+      dependencies: [
+        "0DC9E401CA949038",
+        "2D0A433D8257F15E",
+        "4702ABE2F7F6FD31",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2FB6F345301719AB",
+      tasks: [
+        {
+          id: "0E7080F8C4AD0861",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "136E208192F83D8D",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:industrial_bio_reactor",
+        count: 1,
+      },
+      x: 39.0,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "3DD6FFA5C8120682",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "718C50DBF9A20D01",
+      tasks: [
+        {
+          id: "1902C3E659E70767",
+          type: "item",
+          item: {
+            id: "nautec:industrial_bio_reactor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "646C4AEF41BBCB99",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "541330B6D952A824",
+          type: "item",
+          item: {
+            id: "nautec:bacterial_containment_shield",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+        {
+          id: "06C5692F58DBA7BE",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:aquarine_steel_block",
+        count: 1,
+      },
+      x: 41.0,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "718C50DBF9A20D01",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "404A544FCA60A839",
+      tasks: [
+        {
+          id: "74723EAD9940A6AF",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "28F7B8109620B0B7",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "pipez:item_pipe",
+        count: 1,
+      },
+      x: 43.0,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "404A544FCA60A839",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3EAD190846D5F280",
+      tasks: [
+        {
+          id: "197F9B2A9664B4B5",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "01403155F4E0D1A1",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:iron_block",
+        count: 1,
+      },
+      x: 45.0,
+      y: 3.0,
+      shape: "octagon",
+      dependencies: [
+        "3EAD190846D5F280",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "2112D4B209CCCE84",
+      tasks: [
+        {
+          id: "211D6A581F02BA68",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ingot",
+            count: 1,
+          },
+          count: 50000,
+          consume_items: true,
+        },
+      ],
+      rewards: [
+        {
+          id: "4A2B058BDEF76C79",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "238B2050A9DBE30E",
+          type: "item",
+          item: {
+            id: "nautec:reactor_yield_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "5AB15406DB6B5A83",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:eldritch_heart",
+        count: 1,
+      },
+      x: 8.5,
+      y: 4.5,
+      shape: "hexagon",
+      size: 1.5,
+      can_repeat: false,
+      id: "29CB4422765935BC",
+      tasks: [
+        {
+          id: "423F23826454419F",
+          type: "item",
+          item: {
+            id: "nautec:eldritch_heart",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "752F039809B803A5",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "4B103A0E33EA5436",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:augmentation_station",
+        count: 1,
+      },
+      x: 8.5,
+      y: 6.5,
+      shape: "hexagon",
+      dependencies: [
+        "29CB4422765935BC",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "101942B6906F4BA0",
+      tasks: [
+        {
+          id: "28C1C9A722DB9F2C",
+          type: "item",
+          item: {
+            id: "nautec:augmentation_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A4F81020025F700",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "18B8226810F42FA1",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:guardian_eye",
+        count: 1,
+      },
+      x: 9.5,
+      y: 7.5,
+      shape: "diamond",
+      dependencies: [
+        "101942B6906F4BA0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6351729D4F3ED437",
+      tasks: [
+        {
+          id: "55979BB0026822CB",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "431B74CAD0856B05",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:abyssal_maw_spawn_egg",
+        count: 1,
+      },
+      x: 9.0,
+      y: 8.0,
+      shape: "diamond",
+      dependencies: [
+        "101942B6906F4BA0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3EE21DDC41B24798",
+      tasks: [
+        {
+          id: "47497DC6F8F210A5",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6226CFBE98FB6EBC",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:hydro_drill_arm",
+        count: 1,
+      },
+      x: 8.0,
+      y: 8.0,
+      shape: "diamond",
+      dependencies: [
+        "101942B6906F4BA0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0027241295FBA78B",
+      tasks: [
+        {
+          id: "77E941045E95B08C",
+          type: "item",
+          item: {
+            id: "nautec:hydro_drill_arm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60869F640846A0BF",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3C3D052EEC52A150",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:buoyancy_tank",
+        count: 1,
+      },
+      x: 7.5,
+      y: 7.5,
+      shape: "diamond",
+      dependencies: [
+        "101942B6906F4BA0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "66A97821D6355722",
+      tasks: [
+        {
+          id: "142B738856C2FD28",
+          type: "item",
+          item: {
+            id: "nautec:buoyancy_tank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B8BF6FF43CD195E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "13A0E387559ACDED",
+          type: "xp",
+          team_reward: false,
+          xp: 16,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:tidal_rotor",
+        count: 1,
+      },
+      x: 2.5,
+      y: 3.0,
+      shape: "circle",
+      dependencies: [
+        "237CBF1B089BC523",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5085CFD8AB65A4B3",
+      tasks: [
+        {
+          id: "13B2021338A38038",
+          type: "item",
+          item: {
+            id: "nautec:tidal_rotor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "234413E2D59B2D7A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4E9197A7AB2FDDB1",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:thermal_vent_tap",
+        count: 1,
+      },
+      x: 10.5,
+      y: 4.0,
+      shape: "circle",
+      dependencies: [
+        "675D7B6F6826316D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "10D8036AAEA3BB29",
+      tasks: [
+        {
+          id: "21B74108219874A8",
+          type: "item",
+          item: {
+            id: "nautec:thermal_vent_tap",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30F135EE4DF9E0A9",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "02B5816CFC239885",
+          type: "item",
+          item: {
+            id: "nautec:hydrothermal_vent",
+            count: 1,
+          },
+        },
+        {
+          id: "6B26464EA1362D29",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:gear",
+        count: 1,
+      },
+      x: 12.5,
+      y: 1.0,
+      shape: "diamond",
+      dependencies: [
+        "7E24BA960EFA7931",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "4A981D058CC1752B",
+      tasks: [
+        {
+          id: "3CB14C0D14EF28BD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "634D58056C21C0BD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:resonance_pylon",
+        count: 1,
+      },
+      x: 16.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "1D7AAD2487528786",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "31895972F81D14AE",
+      tasks: [
+        {
+          id: "2FEDAF7AFC1282E4",
+          type: "item",
+          item: {
+            id: "nautec:resonance_pylon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "513AA8E66F667F39",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "418628AE08D92622",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:resonance_charm",
+        count: 1,
+      },
+      x: 14.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "31895972F81D14AE",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "54EABC84BD158EC6",
+      tasks: [
+        {
+          id: "13735568F7622C18",
+          type: "item",
+          item: {
+            id: "nautec:resonance_charm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "49EA91DFC86AD2C4",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "650ACBD12E19F187",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismatic_emitter",
+        count: 1,
+      },
+      x: 16.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "31895972F81D14AE",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2271043535B4D61D",
+      tasks: [
+        {
+          id: "103728216C1997AD",
+          type: "item",
+          item: {
+            id: "nautec:prismatic_emitter",
+            count: 1,
+          },
+        },
+        {
+          id: "442D45417806A1FC",
+          type: "item",
+          item: {
+            id: "nautec:tuning_fork",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "69169E91E98D87DC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1A51852026C47954",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:abyssal_pylon",
+        count: 1,
+      },
+      x: 18.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "31895972F81D14AE",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6A82B052670383C2",
+      tasks: [
+        {
+          id: "7C85954809E1F816",
+          type: "item",
+          item: {
+            id: "nautec:abyssal_pylon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50AE90D353646DF0",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "19C0C7EB795064F9",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:uplink_array",
+        count: 1,
+      },
+      x: 18.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "31895972F81D14AE",
+        "684644505C6D47D4",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3BA1F3D850C3C624",
+      tasks: [
+        {
+          id: "415D1C65F29B7147",
+          type: "item",
+          item: {
+            id: "nautec:uplink_array",
+            count: 1,
+          },
+        },
+        {
+          id: "26A1E75C34567C6F",
+          type: "item",
+          item: {
+            id: "nautec:downlink_array",
+            count: 1,
+          },
+        },
+        {
+          id: "6A8E4D60CDFCD2B4",
+          type: "item",
+          item: {
+            id: "nautec:prism_satellite",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70F1D0D37A203BA3",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "41B55F9675D2A201",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:resonance_node",
+        count: 1,
+      },
+      x: 20.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "3BA1F3D850C3C624",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "160787EC65DDE421",
+      tasks: [
+        {
+          id: "5A02273EF2B24053",
+          type: "item",
+          item: {
+            id: "nautec:resonance_node",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2743E74513A8C96F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5409197E01834CF0",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:spawner_confinement_matrix",
+        count: 1,
+      },
+      x: 16.0,
+      y: -4.5,
+      shape: "circle",
+      dependencies: [
+        "1D7AAD2487528786",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "732885E121BD83A4",
+      tasks: [
+        {
+          id: "3F26789F9367C4C2",
+          type: "item",
+          item: {
+            id: "nautec:spawner_confinement_matrix",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AC998CBE5B73E75",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "298E765D78E2719F",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:confined_spawner",
+        count: 1,
+      },
+      x: 13.0,
+      y: -7.0,
+      shape: "circle",
+      dependencies: [
+        "732885E121BD83A4",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0EEFEF7693B5FC78",
+      tasks: [
+        {
+          id: "34119E09022E8430",
+          type: "observation",
+          icon: {
+            id: "nautec:confined_spawner",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "nautec:confined_spawner",
+        },
+      ],
+      rewards: [
+        {
+          id: "667AC72D39CA21D8",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4EB12332BF06B73E",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:dormant_crystal_seed",
+        count: 1,
+      },
+      x: 22.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "684644505C6D47D4",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "16B9BE43A2E632A0",
+      tasks: [
+        {
+          id: "1D502D5FDED6D15F",
+          type: "item",
+          item: {
+            id: "nautec:dormant_crystal_seed",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "71B4418C2E135819",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "29F85C81875FA6BD",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_crystal_seed",
+        count: 1,
+      },
+      x: 22.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "16B9BE43A2E632A0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "674023982F732B18",
+      tasks: [
+        {
+          id: "3267EFEED2F5F77A",
+          type: "item",
+          item: {
+            id: "nautec:prismarine_crystal_seed",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "747380A61D84D108",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6E1B27F3095134D4",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:crystal_cradle",
+        count: 1,
+      },
+      x: 24.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "674023982F732B18",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "6BE0A49FD008FB92",
+      tasks: [
+        {
+          id: "3397B77BEB559A24",
+          type: "item",
+          item: {
+            id: "nautec:crystal_cradle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7BA0711D57EDF531",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1FA198A741EBC4CE",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:prismarine_crystal",
+        count: 1,
+      },
+      x: 26.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "6BE0A49FD008FB92",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2AC4B42D14073C81",
+      tasks: [
+        {
+          id: "57EC893BAF9CEF29",
+          type: "item",
+          item: {
+            id: "nautec:prismarine_crystal",
+            count: 1,
+            components: {
+              "nautec:cultivated": true,
+            },
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "305647D2EE395877",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4E2406FC651DDCA6",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:fusion_casing",
+        count: 1,
+      },
+      x: 28.5,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "2AC4B42D14073C81",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1FA84DC387722607",
+      tasks: [
+        {
+          id: "41217B9A31036A3A",
+          type: "item",
+          item: {
+            id: "nautec:fusion_casing",
+            count: 1,
+          },
+        },
+        {
+          id: "247B929CA53D3819",
+          type: "item",
+          item: {
+            id: "nautec:aquamarine_structural_glass",
+            count: 1,
+          },
+        },
+        {
+          id: "3C50915837E859B1",
+          type: "item",
+          item: {
+            id: "nautec:fusion_collector",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "5BC27BAF08587D45",
+          type: "item",
+          item: {
+            id: "nautec:laser_injector",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30EBD461E6836485",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "40C69D02B1980D0E",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:fusion_controller",
+        count: 1,
+      },
+      x: 28.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "1FA84DC387722607",
+      ],
+      size: 2.0,
+      can_repeat: false,
+      id: "53F8764099C14F93",
+      tasks: [
+        {
+          id: "2ADB7994151973B0",
+          type: "item",
+          item: {
+            id: "nautec:fusion_controller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A9396632DCD08FB",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "67CDABBA830DFFEE",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:reactor_fusion_upgrade",
+        count: 1,
+      },
+      x: 40.0,
+      y: 1.0,
+      shape: "circle",
+      dependencies: [
+        "4702ABE2F7F6FD31",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3C08268FC890E1A6",
+      tasks: [
+        {
+          id: "3FFD2A208CECAB83",
+          type: "item",
+          item: {
+            id: "nautec:reactor_fusion_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DE045026D73F6BF",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5EA5D12B84609AC4",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:bubble_anchor",
+        count: 1,
+      },
+      x: -2.0,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "67073110A3FA00CB",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "2448724FFFA1E08D",
+      tasks: [
+        {
+          id: "6E8AF18FE4699750",
+          type: "item",
+          item: {
+            id: "nautec:bubble_anchor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "045D4F6F64AAE607",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7C611F9586DDA36A",
+          type: "item",
+          item: {
+            id: "minecraft:dried_kelp_block",
+            count: 4,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:nautechnical_distributor",
+        count: 1,
+      },
+      x: 8.5,
+      y: -1.0,
+      shape: "circle",
+      dependencies: [
+        "2CDD35D21A370805",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "39723418051CB84F",
+      tasks: [
+        {
+          id: "066CB8C623483DC9",
+          type: "item",
+          item: {
+            id: "nautec:nautechnical_distributor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4895B4B13D807198",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "00F5B0658713E698",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:configuration_card",
+        count: 1,
+      },
+      x: 10.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "39723418051CB84F",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "6CC5E95BCA30A555",
+      tasks: [
+        {
+          id: "4E141BB9AEB806CC",
+          type: "item",
+          item: {
+            id: "nautec:configuration_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18516FDD5AF9DA0F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "763798F9CCB67860",
+          type: "item",
+          item: {
+            id: "nautec:aquatic_chip",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:grafting_station",
+        count: 1,
+      },
+      x: 18.5,
+      y: 7.0,
+      shape: "circle",
+      dependencies: [
+        "24C3B87362113EA7",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3110B6A87C933A2D",
+      tasks: [
+        {
+          id: "6963F6BD8002116D",
+          type: "item",
+          item: {
+            id: "nautec:grafting_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B47ADF7C7ACA676",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2D5616A9ECF74368",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:advanced_bacterial_analyzer",
+        count: 1,
+      },
+      x: 18.5,
+      y: 9.0,
+      shape: "circle",
+      dependencies: [
+        "3110B6A87C933A2D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "36E74E70F0ACCAD5",
+      tasks: [
+        {
+          id: "1CB9FF11C782C60F",
+          type: "item",
+          item: {
+            id: "nautec:advanced_bacterial_analyzer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "055ED99DCAC89EEF",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "34747AAB6C67929E",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:colony_replicator",
+        count: 1,
+      },
+      x: 18.5,
+      y: 11.0,
+      shape: "hexagon",
+      dependencies: [
+        "36E74E70F0ACCAD5",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "6843F1AA23F6FFB4",
+      tasks: [
+        {
+          id: "37687A0E333AF71A",
+          type: "item",
+          item: {
+            id: "nautec:colony_replicator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "44BBDADD201BC654",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1361C806AC45ED10",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:pressure_synthesizer",
+        count: 1,
+      },
+      x: 24.5,
+      y: -6.0,
+      shape: "circle",
+      dependencies: [
+        "684644505C6D47D4",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3787C51DB72BF43D",
+      tasks: [
+        {
+          id: "6350AA0A2586A56D",
+          type: "item",
+          item: {
+            id: "nautec:pressure_synthesizer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00ADA74F7F6DB48E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4826A30F6AD41EB0",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:atlantean_pressure_synthesizer",
+        count: 1,
+      },
+      x: 26.5,
+      y: -6.0,
+      shape: "circle",
+      dependencies: [
+        "3787C51DB72BF43D",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "217D267D6A62F48D",
+      tasks: [
+        {
+          id: "3458C98595DCDC18",
+          type: "item",
+          item: {
+            id: "nautec:atlantean_pressure_synthesizer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "168BF9FC45BE2C85",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5CEA16B07F1F7334",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "2913824ED3340F93",
+      x: -2.5,
+      y: 0.0,
+      id: "5C12ED80FCA5778A",
+    },
+  ],
+  images: [
+    {
+      x: 25.5,
+      y: 8.0,
+      width: 3.45,
+      height: 3.45,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_bio_reactor.png",
+      id: "17838F2397AEEC40",
+    },
+    {
+      x: 5.0,
+      y: 3.25,
+      width: 3.27,
+      height: 2.45,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_deep_sea_drain.png",
+      id: "73B0E03C7AE56BDC",
+    },
+    {
+      x: 14.0,
+      y: 8.5,
+      width: 5.44,
+      height: 5.24,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_augmentation_station.png",
+      id: "7213C86610747EAB",
+    },
+    {
+      x: 15.25,
+      y: -8.25,
+      width: 3.0,
+      height: 5.4,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_prismarine_crystal_ancient.png",
+      id: "5DDC17BE853CEB12",
+    },
+    {
+      x: 25.72,
+      y: -8.54,
+      width: 2.82,
+      height: 3.15,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_gateway.png",
+      id: "0B3F140B5DEC69BF",
+    },
+    {
+      x: 18.23,
+      y: -5.77,
+      width: 0.68,
+      height: 2.94,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_pressure_forge.png",
+      id: "6AB581B2BFBA1A19",
+    },
+    {
+      x: 0.0,
+      y: -5.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 45.0,
+      image: "nautec:block/aquarine_steel_block",
+      id: "536FE1915DB626E1",
+    },
+    {
+      x: 0.0,
+      y: -5.0,
+      width: 7.2,
+      height: 1.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/nautec_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "77FFEC3A2289F5C2",
+      },
+      id: "588BDFEC3CE40C0F",
+    },
+    {
+      x: -5.5,
+      y: -0.5,
+      width: 2.6,
+      height: 2.6,
+      rotation: -10.0,
+      image: "nautec:block/aquatic_catalyst",
+      id: "743F5A34D7063DFD",
+    },
+    {
+      x: 3.25,
+      y: -7.25,
+      width: 2.6,
+      height: 2.6,
+      rotation: 10.0,
+      image: "nautec:block/deep_kelp",
+      id: "68FD88833532B7EE",
+    },
+    {
+      x: 32.75,
+      y: -1.5,
+      width: 2.12,
+      height: 2.9,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_fusion_plant.png",
+      id: "21AA498900F0523A",
+    },
+    {
+      x: 21.5,
+      y: -9.0,
+      width: 2.67,
+      height: 2.95,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/nautec_satellite_arrays.png",
+      id: "1344BD9D53C60C53",
+    },
+  ],
+}

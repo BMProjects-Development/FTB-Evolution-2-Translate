@@ -1,0 +1,22 @@
+{
+  "parent": "hats:hats/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:armor_stand"
+    },
+    "title": {
+      "text": "New Wardrobe"
+    },
+    "description": {
+      "text": "The first of many. Unlock your first hat."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "unlock_via_code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

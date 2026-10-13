@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "witchery:iron_witches_oven",
+    "witchery:copper_witches_oven",
+    "witchery:exposed_copper_witches_oven",
+    "witchery:weathered_copper_witches_oven",
+    "witchery:oxidized_copper_witches_oven",
+    "witchery:waxed_copper_witches_oven",
+    "witchery:waxed_exposed_copper_witches_oven",
+    "witchery:waxed_weathered_copper_witches_oven",
+    "witchery:waxed_oxidized_copper_witches_oven"
+  ]
+}

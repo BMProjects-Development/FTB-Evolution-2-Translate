@@ -1,0 +1,7 @@
+#Auroral Startup Configuration
+#These settings are loaded early and require a game restart to change.
+[items]
+	#Maximum stack size for snowballs (vanilla default is 16)
+	# Default: 64
+	# Range: 16 ~ 64
+	snowball_max_stack_size = 64

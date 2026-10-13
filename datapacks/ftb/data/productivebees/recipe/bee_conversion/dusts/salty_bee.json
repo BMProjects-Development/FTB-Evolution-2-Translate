@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:dusts/salty"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "nautec"
+    }
+  ],
+  "type": "productivebees:bee_conversion",
+  "item": "#c:dusts/salt",
+  "result": "productivebees:dusts/salty",
+  "source": "minecraft:bee"
+}

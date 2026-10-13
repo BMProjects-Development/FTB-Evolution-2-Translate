@@ -1,0 +1,358 @@
+{
+  id: "1E2D6248E209E76E",
+  order_index: 6,
+  icon: {
+    id: "refinedstorage:improved_processor",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "7816C673A8F25423",
+      item: {
+        id: "refinedstorage:quartz_enriched_iron",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "49A03F1635AEB8A0",
+      item: {
+        id: "refinedstorage:quartz_enriched_copper",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "569D4849139D50B9",
+      item: {
+        id: "refinedstorage:processor_binding",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "2818BB8B9AD3428C",
+      item: {
+        id: "refinedstorage:cable",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "48A940215C19DDAE",
+      item: {
+        id: "ftbmaterials:silicon_gem",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "0FE4F3B7A6D7A6CB",
+      item: {
+        id: "refinedstorage:basic_processor",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "54039BE695982143",
+      item: {
+        id: "refinedstorage:improved_processor",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "6F7A1F001A761284",
+      item: {
+        id: "refinedstorage:construction_core",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "0FCA43E83F0A398A",
+      item: {
+        id: "refinedstorage:destruction_core",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "2E2B6D74E4122BC9",
+      item: {
+        id: "refinedstorage:upgrade",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "3883EE3DFBF6D6F1",
+      item: {
+        id: "refinedstorage:importer",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5C625B207D0D0A04",
+      item: {
+        id: "refinedstorage:exporter",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "10C366EE8AC63824",
+      item: {
+        id: "refinedstorage:external_storage",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6420A505D827DFE9",
+      item: {
+        id: "refinedstorage:1k_storage_part",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "1E203EAB30529B42",
+      item: {
+        id: "refinedstorage:64b_fluid_storage_part",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3781A951D1F57D24",
+      item: {
+        id: "refinedstorage:constructor",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0C534424C86D540D",
+      item: {
+        id: "refinedstorage:destructor",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "79281BB165FDBF7F",
+      item: {
+        id: "refinedstorage:detector",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7E5C6283B90A3815",
+      item: {
+        id: "refinedstorage:speed_upgrade",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "77F3E25CBFE58190",
+      item: {
+        id: "refinedstorage:interface",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6EEB0BFD2DA58F92",
+      item: {
+        id: "refinedstorage:4k_storage_part",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6405F972887D88AB",
+      item: {
+        id: "refinedstorage:256b_fluid_storage_part",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "64B23C7B96EA144C",
+      item: {
+        id: "extrastorage:iron_crafter",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "170CB4468A2BAA32",
+      item: {
+        id: "refinedstorage:stack_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7EB393ABE9CD72D0",
+      item: {
+        id: "refinedstorage:network_receiver",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "12C7DBA282E73E0F",
+      item: {
+        id: "refinedstorage:network_transmitter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0EB4F8E7517F6F85",
+      item: {
+        id: "refinedstorage:network_card",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "64F484CFAF3B18D9",
+      item: {
+        id: "refinedstorage:range_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "55D333FC4F583B39",
+      item: {
+        id: "refinedstorage:silk_touch_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "68DD83EDB69725F7",
+      item: {
+        id: "refinedstorage:fortune_1_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7D409AE305B6EA8F",
+      item: {
+        id: "refinedstorage:autocrafting_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "04EA3B128ECFBC4F",
+      item: {
+        id: "refinedstorage:autocrafter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1F1960AC6A7B57F9",
+      item: {
+        id: "refinedstorage:16k_storage_part",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4754C9B3FE97F97F",
+      item: {
+        id: "refinedstorage:1024b_fluid_storage_part",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "31F7C1D91FCD4D3E",
+      item: {
+        id: "extrastorage:gold_crafter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "28D11099F25EDEE9",
+      item: {
+        id: "extrastorage:advanced_importer",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6CFA8D607A50D775",
+      item: {
+        id: "extrastorage:advanced_exporter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0C4CF98007380015",
+      item: {
+        id: "refinedstorage:wireless_grid",
+        count: 1,
+      },
+    },
+    {
+      id: "478139CE5CD34B66",
+      item: {
+        id: "refinedstorage:wireless_transmitter",
+        count: 1,
+      },
+    },
+    {
+      id: "5FD1B0555007E2AA",
+      item: {
+        id: "refinedstorage:fortune_3_upgrade",
+        count: 1,
+      },
+    },
+    {
+      id: "0CEAC501B31BB24F",
+      item: {
+        id: "extrastorage:diamond_crafter",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "box_of_rs2_goodies",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.box_of_rs2_goodies",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

@@ -1,0 +1,363 @@
+{
+  id: "7D4F4BCAA73DD644",
+  order_index: 3,
+  icon: {
+    id: "waystones:warp_stone",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "5F50808D558D37CB",
+      item: {
+        id: "waystones:warp_scroll",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "23618EBC04A4AE38",
+      item: {
+        id: "waystones:return_scroll",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "5DBB80F47F288A39",
+      item: {
+        id: "waystones:blank_scroll",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "1ABAAE852F40EAA8",
+      item: {
+        id: "minecraft:ender_pearl",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "021A1D4DD0551898",
+      item: {
+        id: "waystones:bound_scroll",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "5B64E2541F64F121",
+      item: {
+        id: "waystones:warp_stone",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "398E7DC2D3581C13",
+      item: {
+        id: "waystones:warp_plate",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "18D207AF79A8B61D",
+      item: {
+        id: "waystones:andesite_waystone",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "582C0869C8259728",
+      item: {
+        id: "waystones:sandstone_waystone",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "679DE5F4AE21CECB",
+      item: {
+        id: "waystones:deepslate_waystone",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "417B322820F7F06E",
+      item: {
+        id: "waystones:attuned_shard",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "1AF7545C81014B12",
+      item: {
+        id: "minecraft:ender_eye",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "19F2765B43374B6E",
+      item: {
+        id: "minecraft:spyglass",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "20B7942097859039",
+      item: {
+        id: "naturescompass:naturescompass",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "182DB15F56987FD0",
+      item: {
+        id: "simpleteleporters:ender_shard",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "0394C7ABEF934203",
+      item: {
+        id: "comforts:sleeping_bag_red",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "72CD666708E54266",
+      item: {
+        id: "comforts:hammock_green",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "42AC10CDDB6A7120",
+      item: {
+        id: "sophisticatedbackpacks:backpack",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "2DFE9C65286F03BE",
+      item: {
+        id: "scannable:blank_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7AA46285C802FCE9",
+      item: {
+        id: "waystones:portal_scroll",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "30DF87F803093BDD",
+      item: {
+        id: "explorerscompass:explorerscompass",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3113F45C756DD837",
+      item: {
+        id: "minecraft:recovery_compass",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0B9060DFB5F43ECE",
+      item: {
+        id: "paraglider:paraglider",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4D5BEDDCFF82C574",
+      item: {
+        id: "paraglider:deku_leaf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "06C1E2CB1F4FE50A",
+      item: {
+        id: "enderio:travel_anchor",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6815734E0F5DDF59",
+      item: {
+        id: "enderio:glider",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3771F84F273F265B",
+      item: {
+        id: "simpleteleporters:teleporter",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1DD7561E88AB37D1",
+      item: {
+        id: "scannable:scanner",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "05E7EED51865DA64",
+      item: {
+        id: "scannable:common_ores_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4D9357003F745494",
+      item: {
+        id: "scannable:chest_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "60A1B8D83FA4D680",
+      item: {
+        id: "scannable:entity_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2D02D44A7623742E",
+      item: {
+        id: "scannable:lootr_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "36A9B310AF593CEF",
+      item: {
+        id: "mining_helmet:mining_helmet",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1D94AC0C90DFD855",
+      item: {
+        id: "waystones:copper_sharestone",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0012C1349AD0E419",
+      item: {
+        id: "waystones:twinbound_feather",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "01651E8CF558A2CA",
+      item: {
+        id: "scannable:rare_ores_module",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "54709C66C30115C3",
+      item: {
+        id: "scannable:range_module",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "18A02749F3A890D0",
+      item: {
+        id: "enderio:staff_of_levity",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6F702CF21D708007",
+      item: {
+        id: "easy_villagers:villager",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "42A72BA2F4DF1F07",
+      item: {
+        id: "enderio:staff_of_travelling",
+        count: 1,
+      },
+    },
+    {
+      id: "15DF577429E584CE",
+      item: {
+        id: "minecraft:totem_of_undying",
+        count: 1,
+      },
+    },
+    {
+      id: "53F2C5015595A0D0",
+      item: {
+        id: "nautec:wave_jet",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "adventurer_bundle",
+    color: 5592575,
+    item_name: "ftbquests.reward_table.adventure_bundle",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

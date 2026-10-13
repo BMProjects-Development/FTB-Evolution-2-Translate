@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "nautec:atlantic_gold_nugget",
+  "result": {
+    "amount": 10,
+    "id": "ftb:molten_atlantic_gold"
+  },
+  "temperature": 1200,
+  "time": 33
+}

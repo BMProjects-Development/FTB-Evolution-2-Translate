@@ -1,0 +1,134 @@
+{
+  "id": "ftb:broker_early",
+  "title": {
+    "translate": "ftb.shopkeeper.broker_early",
+    "color": "gold"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "librarian",
+      "level": 2
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.broker_early",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:broker_early",
+      "shop_unlock": [
+        {
+          "name": "seared_bricks",
+          "item": {
+            "id": "hephaestus:seared_bricks",
+            "count": 16
+          },
+          "cost": 8
+        },
+        {
+          "name": "iron_ingot",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "coal",
+          "item": {
+            "id": "minecraft:coal",
+            "count": 16
+          },
+          "cost": 4
+        },
+        {
+          "name": "interdiction_torch",
+          "item": {
+            "id": "reliquary:interdiction_torch",
+            "count": 1
+          },
+          "cost": 32
+        },
+        {
+          "name": "thin_garden_light",
+          "item": {
+            "id": "mcwlights:thin_garden_light",
+            "count": 16
+          },
+          "cost": 8
+        },
+        {
+          "name": "maki_sushi",
+          "item": {
+            "id": "pantryforblockheads:maki_sushi",
+            "count": 2
+          },
+          "cost": 1
+        },
+        {
+          "name": "dried_ghast",
+          "item": {
+            "id": "minecraft:dried_ghast",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "backpack",
+          "item": {
+            "id": "sophisticatedbackpacks:backpack",
+            "count": 1
+          },
+          "cost": 30,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "warp_stone",
+          "item": {
+            "id": "waystones:warp_stone",
+            "count": 1
+          },
+          "cost": 50,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "leather",
+          "item": {
+            "id": "minecraft:leather",
+            "count": 1
+          },
+          "cost": 4
+        },
+        {
+          "name": "sleeping_bag_red",
+          "item": {
+            "id": "comforts:sleeping_bag_red",
+            "count": 1
+          },
+          "cost": 10
+        },
+        {
+          "name": "crate_first_ones_on_the_house",
+          "item": {
+            "id": "ftbquests:lootcrate",
+            "count": 1,
+            "components": {
+              "ftbquests:loot_crate": "first_ones_on_the_house"
+            }
+          },
+          "cost": 1,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        }
+      ]
+    }
+  ]
+}

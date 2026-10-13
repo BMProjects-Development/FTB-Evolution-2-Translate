@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "justdirethings"
+    }
+  ],
+  "type": "ftbic:basic_generator_fuel",
+  "ingredient": "justdirethings:coalblock_t4",
+  "ticks": 1296000
+}

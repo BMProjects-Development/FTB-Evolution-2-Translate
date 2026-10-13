@@ -1,0 +1,35 @@
+#General settings
+[General]
+	#Show the Armor Stand configuration GUI on shift right click
+	enableConfigGui = true
+	#Allow Armor Stand to be renamed using name tags
+	enableNameTags = true
+	#Allow scrolling to increase / decrease an angle value in the posing screen
+	allowScrolling = true
+	#Allow the spawned Armor Stand to have settings set based on its name
+	nameBasedFeatures = false
+
+#Restrict settings
+[Restrict]
+	#Restrict the ability to toggle invisibility to server operators
+	restrictInvisibleToOP = false
+	#Restrict the ability to toggle the base plate to server operators
+	restrictBasePlateToOP = false
+	#Restrict the ability to toggle gravity to server operators
+	restrictGravityToOP = false
+	#Restrict the ability to toggle arms to server operators
+	restrictShowArmsToOP = false
+	#Restrict the ability to toggle small size to server operators
+	restrictSmallToOP = false
+	#Restrict the ability to toggle name visibility to server operators
+	restrictNameVisibleToOP = false
+	#Restrict the ability to rotate the Armor Stand to server operators
+	restrictRotationToOP = false
+	#Restrict the align options for Armor Stand to server operators
+	restrictAlignToOP = false
+	#Restrict the ability to position the Armor Stand to server operators
+	restrictPositionToOp = false
+	#Restrict the ability to resize the Armor Stand to server operators
+	restrictResizeToOP = false
+	#List of players allowed to bypass enabled restrictions. Entries can be either a username to bypass all restrictions (e.g. "shynieke") or a specific restriction using the format "username,feature" (e.g. "shynieke,resize").
+	restrictWhitelist = []

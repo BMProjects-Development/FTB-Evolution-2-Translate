@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "tag": "c:ingots/iesnium"
+  },
+  "name": "Iesnium",
+  "color": "#52A0AE",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

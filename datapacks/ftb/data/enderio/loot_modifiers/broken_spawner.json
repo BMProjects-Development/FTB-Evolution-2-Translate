@@ -1,0 +1,13 @@
+{
+  "type": "enderio:broken_spawner",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:spawner"
+    },
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/spawner"
+    }
+  ]
+}

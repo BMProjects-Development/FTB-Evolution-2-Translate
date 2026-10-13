@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#ftb:no_ore_gen",
+  "features": [
+    "evilcraft:ore_dark",
+    "evilcraft:ore_dark_lower"
+  ],
+  "step": "underground_ores"
+}

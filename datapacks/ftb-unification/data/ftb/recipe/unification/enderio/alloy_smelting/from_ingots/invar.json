@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 2,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/nickel"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "id": "ftbmaterials:invar_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "terralith:witch_hut",
+      "required": false
+    },
+    {
+      "id": "explorify:mangrove_hut",
+      "required": false
+    },
+    {
+      "id": "mvs:small_swamp_house",
+      "required": false
+    },
+    {
+      "id": "explorify:dark_forest_settlement",
+      "required": false
+    }
+  ]
+}

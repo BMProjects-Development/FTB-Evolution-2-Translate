@@ -1,0 +1,347 @@
+#Applied Energistics 2 meteorite worldgen.
+[meteorites]
+	#Average distance in chunks between meteorites. AE2's own default is 32.
+	# Default: 48
+	# Range: 1 ~ 4096
+	spacing = 16
+	#Minimum distance in chunks between meteorites. Must be less than spacing.
+	# Default: 12
+	# Range: 0 ~ 4095
+	separation = 6
+	#Place meteorites in a low Y band near bedrock instead of on the world surface heightmap.
+	#Without this, Nether meteorites bury themselves in the ceiling because the world-surface
+	#heightmap returns the roof rather than the walkable floor.
+	relocate_in_nether = true
+	#Lowest Y the core of a Nether meteorite may be placed at.
+	# Default: 8
+	# Range: -64 ~ 320
+	nether_min_y = 8
+	#Highest Y the core of a Nether meteorite may be placed at.
+	#The Nether lava sea sits at Y 31, so staying below that keeps meteorites buried under it.
+	# Default: 24
+	# Range: -64 ~ 320
+	nether_max_y = 24
+	#Skip crater excavation and decay for meteorites in dimensions with a ceiling.
+	#AE2 clears every non-bedrock block from the impact site up to the dimension height limit,
+	#which in the Nether would carve a shaft through the lava sea and the ceiling.
+	suppress_crater_in_ceiling_dimensions = true
+
+#Skill node mechanics. Magnitudes come from the ftb: attributes granted by the skill tree;
+#these settings control conditions, timings, and stack caps.
+[skills]
+	#Health fraction the player must be below for the axe frenzy damage bonus.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	axe_frenzy_threshold = 0.5
+	#Health fraction the player must be below for axe desperation lifesteal.
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	axe_lifesteal_threshold = 0.4
+	#Target health fraction below which death blow bonus damage applies.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	death_blow_threshold = 0.25
+	#Health fraction below which Light's Shield triggers while blocking.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	lights_shield_threshold = 0.25
+	#Cooldown in ticks after cheat death triggers.
+	# Default: 2400
+	# Range: 0 ~ 1728000
+	cheat_death_cooldown = 2400
+	#Duration in ticks of the resistance granted when cheat death triggers.
+	# Default: 60
+	# Range: 0 ~ 12000
+	cheat_death_invuln_ticks = 60
+	#Cooldown in ticks between lightning strike procs.
+	# Default: 100
+	# Range: 0 ~ 1728000
+	lightning_cooldown = 100
+	#Maximum fan half-angle in degrees for multishot volleys. Vanilla multishot uses 10.
+	# Default: 3.0
+	# Range: 0.0 ~ 45.0
+	multishot_spread = 8.0
+	#Arrange multishot volleys in an X instead of the vanilla horizontal fan.
+	multishot_x_pattern = true
+	#Height of mid-air extra jumps as a multiple of a normal jump.
+	# Default: 2.0
+	# Range: 0.5 ~ 8.0
+	extra_jump_height = 2.0
+	#Cooldown in ticks between shield stun procs, to stop stun locking.
+	# Default: 100
+	# Range: 0 ~ 1728000
+	shield_stun_cooldown = 100
+	#Cooldown in ticks between shadow step teleports.
+	# Default: 200
+	# Range: 0 ~ 1728000
+	shadow_step_cooldown = 200
+	#Maximum distance in blocks a shadow step can reach a target.
+	# Default: 10.0
+	# Range: 1.0 ~ 64.0
+	shadow_step_range = 10.0
+	#Internal cooldown in ticks for Light's Shield.
+	# Default: 600
+	# Range: 0 ~ 1728000
+	lights_shield_cooldown = 600
+	#Cooldown in ticks for the ninja stealth activation.
+	# Default: 1200
+	# Range: 0 ~ 1728000
+	ninja_cooldown = 1200
+	#Bonus damage fraction per ramping shots stack.
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	archer_ramp_per_stack = 0.1
+	#Ticks without an arrow hit before ramping shots stacks reset.
+	# Default: 200
+	# Range: 1 ~ 72000
+	archer_ramp_timeout = 200
+	#Maximum faster strikes attack speed stacks.
+	# Default: 5
+	# Range: 1 ~ 100
+	faster_strikes_max_stacks = 5
+	#Ticks without an unarmed hit before faster strikes stacks reset.
+	# Default: 200
+	# Range: 1 ~ 72000
+	faster_strikes_timeout = 200
+	#Maximum unarmed ramp damage stacks.
+	# Default: 10
+	# Range: 1 ~ 100
+	unarmed_ramp_max_stacks = 10
+	#Duration in ticks of the stun applied by shield bash.
+	# Default: 30
+	# Range: 1 ~ 12000
+	stun_duration_ticks = 30
+	#Interval in ticks between shield recovery heals.
+	# Default: 100
+	# Range: 1 ~ 72000
+	shield_heal_interval_ticks = 100
+	#Radius in blocks of the ground slam shockwave.
+	# Default: 4.0
+	# Range: 0.5 ~ 32.0
+	ground_slam_radius = 4.0
+	#Minimum fall distance in blocks to trigger ground slam.
+	# Default: 4.0
+	# Range: 0.0 ~ 256.0
+	ground_slam_min_fall = 4.0
+	#Duration in ticks of the resistance granted by Light's Shield.
+	# Default: 100
+	# Range: 1 ~ 12000
+	lights_shield_resistance_ticks = 100
+	#Amplifier of the resistance granted by Light's Shield (3 = Resistance IV).
+	# Default: 3
+	# Range: 0 ~ 4
+	lights_shield_resistance_amplifier = 3
+	#Fraction of max health dealt per bleed tick per stack.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	bleed_fraction = 0.01
+	#Ticks between bleed damage ticks.
+	# Default: 40
+	# Range: 1 ~ 12000
+	bleed_interval_ticks = 40
+	#Duration in ticks of the bleed effect when applied or refreshed.
+	# Default: 120
+	# Range: 1 ~ 72000
+	bleed_duration_ticks = 120
+	#Maximum bleed stacks on a single target.
+	# Default: 3
+	# Range: 1 ~ 100
+	bleed_max_stacks = 3
+	#Every Nth crossbow shot is a power shot.
+	# Default: 3
+	# Range: 2 ~ 100
+	power_shot_interval = 3
+	#Fraction of the target's max health dealt as bonus damage when vital shot procs.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	vital_shot_fraction = 0.1
+	#Duration in ticks of the marked for death debuff.
+	# Default: 200
+	# Range: 1 ~ 72000
+	marked_duration_ticks = 200
+	#Bonus damage fraction taken by targets marked for death.
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	marked_damage_bonus = 0.25
+	#Arrows summoned per rain of arrows proc.
+	# Default: 8
+	# Range: 1 ~ 64
+	rain_of_arrows_count = 8
+	#Radius in blocks of the rain of arrows circle.
+	# Default: 2.0
+	# Range: 0.5 ~ 16.0
+	rain_of_arrows_radius = 2.0
+	#Height in blocks above the target the rain of arrows spawns at.
+	# Default: 8.0
+	# Range: 2.0 ~ 32.0
+	rain_of_arrows_height = 8.0
+	#Every Nth sword hit ignores the target's armor.
+	# Default: 3
+	# Range: 2 ~ 100
+	piercing_strike_interval = 3
+	#Ticks after raising a sword block during which a blocked melee hit counts as a parry.
+	# Default: 10
+	# Range: 1 ~ 200
+	riposte_parry_window = 10
+	#Damage multiplier of the sword attack following a riposte parry.
+	# Default: 2.5
+	# Range: 1.0 ~ 20.0
+	riposte_damage_mult = 2.5
+	#Ticks after a riposte parry during which the bonus damage attack can land.
+	# Default: 60
+	# Range: 1 ~ 12000
+	riposte_buff_window = 60
+	#Cooldown in ticks between riposte parries.
+	# Default: 100
+	# Range: 0 ~ 1728000
+	riposte_cooldown = 100
+	#Highest Roots Classic staff potency after the Magic tree bonus is added.
+	# Default: 5
+	# Range: 0 ~ 10
+	roots_potency_cap = 5
+	#Highest potency for Lilac casts; Roots Classic throws at potency 5 or more.
+	# Default: 4
+	# Range: 0 ~ 4
+	roots_lilac_potency_cap = 4
+	#Highest witch power after the Magic tree bonus; Witchery curse rites stop working above 13.
+	# Default: 13
+	# Range: 0 ~ 13
+	witch_power_cap = 13
+	#Rituals and machines whose owner is offline pay the base cost instead of the last known skill discount.
+	ritual_owner_offline_full_cost = true
+	#Damage dealt by a Storm Caller strike to each entity in range. Strikes do not set fires.
+	# Default: 5.0
+	# Range: 0.0 ~ 1024.0
+	lightning_damage = 5.0
+	#Duration in ticks of the Pinned effect applied by Pinning Strike.
+	# Default: 40
+	# Range: 1 ~ 12000
+	pin_duration_ticks = 40
+	#Height in blocks the Lancer leap reaches at its peak.
+	# Default: 30.0
+	# Range: 1.0 ~ 128.0
+	lancer_leap_height = 30.0
+	#Horizontal speed in blocks per tick added along the look direction when the Lancer leap starts.
+	# Default: 0.3
+	# Range: 0.0 ~ 4.0
+	lancer_forward_speed = 0.3
+	#Multiplier applied to the Lancer landing damage after every other bonus.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	lancer_damage_scale = 1.0
+	#Fraction of the Lancer landing damage dealt at the edge of the smash radius.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	lancer_edge_damage = 0.5
+	#Cooldown in ticks between Lancer leaps.
+	# Default: 600
+	# Range: 0 ~ 1728000
+	lancer_cooldown = 600
+	#Ticks after a Lancer leap before its fall protection expires. 0 keeps it until the next fall.
+	# Default: 0
+	# Range: 0 ~ 72000
+	lancer_protection_ticks = 0
+	#Radius in blocks of the Reaping Arc.
+	# Default: 3.0
+	# Range: 0.5 ~ 16.0
+	scythe_arc_radius = 3.0
+	#Width in degrees of the Reaping Arc in front of the player.
+	# Default: 120.0
+	# Range: 1.0 ~ 360.0
+	scythe_arc_angle = 120.0
+	#Duration in ticks of the Wither applied by Withering Edge.
+	# Default: 100
+	# Range: 1 ~ 72000
+	withering_duration_ticks = 100
+	#Maximum Wither level Withering Edge can stack up to.
+	# Default: 3
+	# Range: 1 ~ 10
+	withering_max_stacks = 3
+	#Radius in blocks of the Death's Toll soul burst.
+	# Default: 4.0
+	# Range: 0.5 ~ 16.0
+	deaths_toll_radius = 4.0
+	#Cooldown in ticks between Death's Toll bursts.
+	# Default: 100
+	# Range: 0 ~ 1728000
+	deaths_toll_cooldown = 100
+
+#Odd Berry Bush, the Roots Classic berry source that replaces berries dropping from leaves.
+#A bush placed by a player is tended and spreads; right clicking it toggles that off again.
+[odd_berry_bush]
+	#Allow tended bushes to spread onto nearby blocks in the
+	#ftbevolutioncompanion:odd_berry_bush_spreadable tag.
+	spread = true
+	#A tended bush attempts to spread on 1 in this many random ticks. Higher is slower.
+	# Default: 25
+	# Range: 1 ~ 4096
+	spread_chance = 25
+	#Bushes allowed in the 9x3x9 area around a bush before it stops spreading.
+	# Default: 5
+	# Range: 1 ~ 256
+	max_nearby = 5
+	#A bush advances one growth stage on 1 in this many random ticks, in light level 9 or brighter.
+	#Higher is slower. Bone meal always advances a stage.
+	# Default: 12
+	# Range: 1 ~ 4096
+	growth_chance = 12
+
+#World spawn handling.
+[spawn]
+	#Put players with no bed or respawn anchor exactly on the world spawn point, on first join and on every respawn.
+	#Vanilla searches the surface heightmap near the spawn point instead, which puts players on top of the
+	#spawn pyramid rather than inside it.
+	enforce_world_spawn = true
+	#Generate the ftb:pyramid biome inside the box below during overworld worldgen, so the spawn pyramid
+	#has no mob spawns or weather without a fillbiome pass. The box must match where the pack places the pyramid.
+	pyramid_biome = true
+	# Default: -62
+	# Range: -30000000 ~ 30000000
+	pyramid_min_x = -62
+	# Default: 73
+	# Range: -30000000 ~ 30000000
+	pyramid_max_x = 73
+	# Default: 220
+	# Range: -64 ~ 319
+	pyramid_min_y = 220
+	# Default: 319
+	# Range: -64 ~ 319
+	pyramid_max_y = 319
+	# Default: -65
+	# Range: -30000000 ~ 30000000
+	pyramid_min_z = -65
+	# Default: 70
+	# Range: -30000000 ~ 30000000
+	pyramid_max_z = 70
+	#World spawn point, the spot inside the pyramid players start at. Set on overworld load so it is
+	#correct on the very first join, before the structure finishes placing.
+	# Default: 0
+	# Range: -30000000 ~ 30000000
+	spawn_x = 0
+	# Default: 266
+	# Range: -64 ~ 2031
+	spawn_y = 266
+	# Default: 47
+	# Range: -30000000 ~ 30000000
+	spawn_z = 47
+
+#Challenge boards: the leaderboard screens in the spawn pyramid.
+[challenge]
+	#Filename of the FTB Quests chapter the boards rank teams on (config/ftbquests/quests/chapters/<name>.json5).
+	chapter = "pyramid_challenge"
+	#How often the server re-ranks the teams and pushes the result to every client.
+	# Default: 60
+	# Range: 5 ~ 3600
+	refresh_seconds = 60
+	#How many ranks the leaderboard tracks. A board set to a rank above this never shows a team.
+	# Default: 8
+	# Range: 1 ~ 64
+	board_size = 10
+	#Minutes between leaderboard announcements in chat. An announcement names each team whose rank changed
+	#since the last one. 0 announces as soon as a leaderboard refresh finds a change; -1 turns announcements off.
+	# Default: 60
+	# Range: -1 ~ 10080
+	announce_interval_minutes = 60
+	#Only announce when at least one rank changed since the last announcement.
+	#When false, every interval posts the whole leaderboard, marking the ranks that moved.
+	announce_only_on_change = true

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "powah:capacitor_hardened",
+    "i": "powah:dielectric_paste",
+    "g": "powah:steel_energized",
+    "p": "powah:thermoelectric_plate",
+    "d": "powah:dielectric_casing",
+    "t": "minecraft:magma_block"
+  },
+  "pattern": [
+    "igi",
+    "cdc",
+    "ptp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:thermo_generator_hardened"
+  }
+}

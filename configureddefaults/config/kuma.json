@@ -1,0 +1,8 @@
+{
+  "craftingtweaks:refill_last_stack": {
+    "modifiers": ["CONTROL"]
+  },
+  "trashslot:delete_all": {
+    "modifiers": ["CONTROL"]
+  }
+}

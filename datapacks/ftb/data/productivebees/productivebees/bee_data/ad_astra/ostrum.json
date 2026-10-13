@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "c:storage_blocks/ostrum",
+  "particleColor": "#564151",
+  "primaryColor": "#966062",
+  "secondaryColor": "#2c1f2d",
+  "useGlowLayer": true
+}

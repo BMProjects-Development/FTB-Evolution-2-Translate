@@ -1,0 +1,107 @@
+{
+  "id": "ftb:broker_late",
+  "title": {
+    "translate": "ftb.shopkeeper.broker_late",
+    "color": "gold"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "librarian",
+      "level": 5
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.broker_late",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:broker_late_wares",
+      "shop_unlock": [
+        {
+          "name": "netherite_scrap",
+          "item": {
+            "id": "minecraft:netherite_scrap",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "shulker_shell",
+          "item": {
+            "id": "minecraft:shulker_shell",
+            "count": 2
+          },
+          "cost": 60
+        },
+        {
+          "name": "wither_skeleton_skull",
+          "item": {
+            "id": "minecraft:wither_skeleton_skull",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "nether_star",
+          "item": {
+            "id": "minecraft:nether_star",
+            "count": 1
+          },
+          "cost": 400,
+          "max_claims": 2
+        },
+        {
+          "name": "heavy_core",
+          "item": {
+            "id": "minecraft:heavy_core",
+            "count": 1
+          },
+          "cost": 300,
+          "max_claims": 1
+        },
+        {
+          "name": "elytra",
+          "item": {
+            "id": "minecraft:elytra",
+            "count": 1
+          },
+          "cost": 600,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "supremium_essence",
+          "item": {
+            "id": "mysticalagriculture:supremium_essence",
+            "count": 1
+          },
+          "cost": 100,
+          "max_claims": 8
+        },
+        {
+          "name": "dragon_breath",
+          "item": {
+            "id": "minecraft:dragon_breath",
+            "count": 4
+          },
+          "cost": 60
+        },
+        {
+          "name": "totem_of_undying",
+          "item": {
+            "id": "minecraft:totem_of_undying",
+            "count": 1
+          },
+          "cost": 200,
+          "max_claims": 2
+        }
+      ]
+    }
+  ]
+}

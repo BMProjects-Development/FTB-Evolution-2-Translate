@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:glass",
+    "connectedglass:clear_glass"
+  ],
+  "result": {
+    "id": "hephaestus:clear_glass"
+  }
+}

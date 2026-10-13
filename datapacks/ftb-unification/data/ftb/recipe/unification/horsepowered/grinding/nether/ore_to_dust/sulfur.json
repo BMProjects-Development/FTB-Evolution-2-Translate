@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:sulfur_nether_ore",
+  "result": {
+    "count": 3,
+    "id": "ftbmaterials:sulfur_dust"
+  },
+  "secondary": {
+    "count": 3,
+    "id": "ftbmaterials:sulfur_dust"
+  },
+  "secondaryChance": 75,
+  "time": 16
+}

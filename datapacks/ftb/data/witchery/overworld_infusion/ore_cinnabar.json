@@ -1,0 +1,5 @@
+{
+  "fromBlock": "ftbmaterials:cinnabar_stone_ore",
+  "item": "ftbmaterials:cinnabar_gem",
+  "toBlock": "minecraft:stone"
+}

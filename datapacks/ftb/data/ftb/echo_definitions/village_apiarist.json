@@ -1,0 +1,223 @@
+{
+  "id": "ftb:village_apiarist",
+  "title": {
+    "translate": "ftb.shopkeeper.village_apiarist",
+    "color": "gold"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "farmer",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_apiarist",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_apiarist_wares",
+      "shop_unlock": [
+        {
+          "name": "honeycomb",
+          "item": {
+            "id": "minecraft:honeycomb",
+            "count": 8
+          },
+          "cost": 8
+        },
+        {
+          "name": "honey",
+          "item": {
+            "id": "minecraft:honey_bottle",
+            "count": 4
+          },
+          "cost": 12
+        },
+        {
+          "name": "bee_spawn_egg",
+          "item": {
+            "id": "minecraft:bee_spawn_egg",
+            "count": 1
+          },
+          "cost": 20,
+          "max_claims": 3
+        },
+        {
+          "name": "honey_treat",
+          "item": {
+            "id": "productivebees:honey_treat",
+            "count": 4
+          },
+          "cost": 15
+        },
+        {
+          "name": "bee_cage",
+          "item": {
+            "id": "productivebees:bee_cage",
+            "count": 4
+          },
+          "cost": 8
+        },
+        {
+          "name": "sturdy_bee_cage",
+          "item": {
+            "id": "productivebees:sturdy_bee_cage",
+            "count": 2
+          },
+          "cost": 30
+        },
+        {
+          "name": "feeder",
+          "item": {
+            "id": "productivebees:feeder",
+            "count": 1
+          },
+          "cost": 15
+        },
+        {
+          "name": "catcher",
+          "item": {
+            "id": "productivebees:catcher",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "upgrade_base",
+          "item": {
+            "id": "productivelib:upgrade_base",
+            "count": 2
+          },
+          "cost": 20
+        },
+        {
+          "name": "upgrade_time",
+          "item": {
+            "id": "productivelib:upgrade_time",
+            "count": 1
+          },
+          "cost": 50
+        },
+        {
+          "name": "upgrade_block",
+          "item": {
+            "id": "productivelib:upgrade_block",
+            "count": 1
+          },
+          "cost": 50
+        },
+        {
+          "name": "snow_nest",
+          "item": {
+            "id": "productivebees:snow_nest",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "sand_nest",
+          "item": {
+            "id": "productivebees:sand_nest",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "gravel_nest",
+          "item": {
+            "id": "productivebees:gravel_nest",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "stone_nest",
+          "item": {
+            "id": "productivebees:stone_nest",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "oak_wood_nest",
+          "item": {
+            "id": "productivebees:oak_wood_nest",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        }
+      ]
+    },
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_apiarist.alpha",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_apiarist_alpha",
+      "shop_unlock": [
+        {
+          "name": "upgrade_productivity_alpha",
+          "item": {
+            "id": "productivelib:upgrade_productivity",
+            "count": 1
+          },
+          "cost": 38
+        }
+      ]
+    },
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_apiarist.beta",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_apiarist_beta",
+      "shop_unlock": [
+        {
+          "name": "upgrade_productivity_beta",
+          "item": {
+            "id": "productivelib:upgrade_productivity_2",
+            "count": 1
+          },
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_apiarist.gamma",
+        "color": "gold"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_apiarist_gamma",
+      "shop_unlock": [
+        {
+          "name": "upgrade_productivity_gamma",
+          "item": {
+            "id": "productivelib:upgrade_productivity_3",
+            "count": 1
+          },
+          "cost": 150
+        }
+      ]
+    }
+  ]
+}

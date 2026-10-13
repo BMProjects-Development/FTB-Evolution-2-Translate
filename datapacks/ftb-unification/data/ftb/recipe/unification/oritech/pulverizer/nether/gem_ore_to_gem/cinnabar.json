@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:cinnabar_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:cinnabar_gem",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "has_crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "witchery:block/rowan_planks",
+    "description": {
+      "translate": "advancements.witchery.root.description"
+    },
+    "icon": {
+      "id": "witchery:gypsum"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.witchery.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

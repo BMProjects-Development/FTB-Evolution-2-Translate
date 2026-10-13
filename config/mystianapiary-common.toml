@@ -1,0 +1,41 @@
+[apiary]
+	#Log bee produce resolution to the console for troubleshooting.
+	debugBeeProduce = false
+	#Base speed multiplier for the apiary. 1 = no change, 2 = half the base process time, 4 = quarter, etc.
+	# Default: 2.0
+	# Range: 1.0 ~ 1024.0
+	apiaryBaseSpeedMultiplier = 1.25
+	#Soft cap: maximum slot completions processed per tick to smooth bursts. Set 0 to disable.
+	# Default: 12
+	# Range: 0 ~ 108
+	maxCompletionsPerTick = 12
+	#Randomized bees: keep the same selected flower for this many completions before rerolling.
+	# Default: 40
+	# Range: 1 ~ 6000
+	randomizedRerollIntervalCompletions = 40
+	#Allow an optional second Storage box at the top-center of the multiblock (replacing the log directly above the Honeycomb Block).
+	allowSecondOutput = true
+	#Simulate the PB behavior gene: diurnal bees pause at night, nocturnal bees pause during the day. Off preserves the current always-on balance.
+	respectBehaviorGene = false
+	#Simulate the PB weather-tolerance gene: bees without rain/any tolerance pause in bad weather. Off preserves the current always-on balance.
+	respectWeatherGene = false
+	#Approximate the PB endurance gene as a small cycle-time multiplier (weak slower, medium/strong faster). Off preserves the current balance.
+	respectEnduranceGene = false
+
+	[apiary.centrifuge]
+		#Output multiplier for centrifuge produce (items and fluids) at this centrifuge upgrade tier. Combs without a centrifuge product are never multiplied.
+		# Default: 1
+		# Range: 1 ~ 64
+		centrifugeMultiplierBase = 1
+		#Output multiplier for centrifuge produce (items and fluids) at this centrifuge upgrade tier. Combs without a centrifuge product are never multiplied.
+		# Default: 2
+		# Range: 1 ~ 64
+		centrifugeMultiplierTier1 = 2
+		#Output multiplier for centrifuge produce (items and fluids) at this centrifuge upgrade tier. Combs without a centrifuge product are never multiplied.
+		# Default: 4
+		# Range: 1 ~ 64
+		centrifugeMultiplierTier2 = 3
+		#Output multiplier for centrifuge produce (items and fluids) at this centrifuge upgrade tier. Combs without a centrifuge product are never multiplied.
+		# Default: 8
+		# Range: 1 ~ 64
+		centrifugeMultiplierTier3 = 4

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "irons_jewelry:blazegold",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:hallowed_gold",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.atlantic_gold",
+  "ingredient": "nautec:atlantic_gold_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/atlantic_gold",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:luck",
+      "operation": "add_value",
+      "amount": 0.5
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:dolphins_grace"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:glowing"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:heal",
+        "amount": {
+          "base": 2.0,
+          "scalar": 1.0
+        }
+      },
+      "targetSelf": true
+    }
+  }
+}

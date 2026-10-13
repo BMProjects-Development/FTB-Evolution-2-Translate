@@ -1,0 +1,114 @@
+{
+  "type": "dimresources:laser",
+  "rf_per_tick": 2600,
+  "duration": 400,
+  "laser_level": 8,
+  "planet": "dimresources:asteroid",
+  "outputs": [
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:iridium_raw_ore"
+      },
+      "weight": 80
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "colossal_reactors:boron_raw"
+      },
+      "weight": 80
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:titanium_raw_ore"
+      },
+      "weight": 70
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:tin_raw_ore"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:lead_raw_ore"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:nickel_raw_ore"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:uranium_raw_ore"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:aluminum_raw_ore"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:coal"
+      },
+      "weight": 60
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:raw_copper"
+      },
+      "weight": 50
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:raw_gold"
+      },
+      "weight": 40
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:redstone"
+      },
+      "weight": 40
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "minecraft:raw_iron"
+      },
+      "weight": 30
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:silver_raw_ore"
+      },
+      "weight": 20
+    },
+    {
+      "stack": {
+        "count": 1,
+        "id": "ftbmaterials:platinum_raw_ore"
+      },
+      "weight": 20
+    }
+  ]
+}

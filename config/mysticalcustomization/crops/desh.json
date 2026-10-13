@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "tag": "c:ingots/desh"
+  },
+  "name": "Desh",
+  "color": "#E9BA5D",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

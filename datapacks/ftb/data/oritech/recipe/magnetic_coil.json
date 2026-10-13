@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": "#c:ingots/nickel",
+    "f": "#c:ingots/iron",
+    "b": "#c:storage_blocks/iron"
+  },
+  "pattern": [
+    "iii",
+    "fbf",
+    "iii"
+  ],
+  "result": {
+    "count": 4,
+    "id": "oritech:magnetic_coil"
+  }
+}

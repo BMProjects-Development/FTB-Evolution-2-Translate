@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "enderio:conduit_binder",
+    "C": {
+      "neoforge:ingredient_type": "enderio:conduit",
+      "conduit_type": "enderio_evolution:gold_crude_energy_conduit"
+    },
+    "I": "enderio_evolution:energetic_silver_ingot"
+  },
+  "pattern": [
+    "BBB",
+    "ICI",
+    "BBB"
+  ],
+  "result": {
+    "components": {
+      "enderio:conduit": "enderio_evolution:energetic_silver_energy_conduit"
+    },
+    "count": 4,
+    "id": "enderio:conduit"
+  }
+}

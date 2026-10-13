@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/other/novite",
+  "result": {
+    "count": 2,
+    "id": "ftbmaterials:novite_dust"
+  },
+  "secondary": {
+    "count": 2,
+    "id": "ftbmaterials:novite_dust"
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

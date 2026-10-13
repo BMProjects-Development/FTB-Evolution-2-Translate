@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:nickel_shard",
+    "ftbmaterials:nickel_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:nickel_ingot"
+    }
+  ],
+  "time": 80
+}

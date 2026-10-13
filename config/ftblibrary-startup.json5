@@ -1,0 +1,33 @@
+// Startup configuration for FTB Library. Testing only!
+{
+  /*
+   * This is section1
+   * Hey
+   */
+  section1: {
+    /*
+     * hello world!
+     * Default: "hello"
+     */
+    test1: "hello",
+    // Default: "world"
+    test2: "world",
+    // Default: true
+    test3: true,
+  },
+  section2: {
+    // Default: false
+    test4: false,
+    // Default: 1 | Range: 0 ~ 10
+    test5: 1,
+    // I'm nested!
+    section3: {
+      // Default: ["a", "b", "c"]
+      test6: [
+        "a",
+        "b",
+        "c",
+      ],
+    },
+  },
+}

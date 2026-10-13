@@ -1,0 +1,26 @@
+{
+  "type": "advanced_ae:react",
+  "input_energy": 5000000,
+  "input_fluid": {
+    "amount": 4000,
+    "ingredient": "integrateddynamics:menril_resin"
+  },
+  "input_items": [
+    {
+      "amount": 1,
+      "ingredient": "refinedstorage:64k_storage_part"
+    },
+    {
+      "amount": 1,
+      "ingredient": "modularrouters:modular_router"
+    },
+    {
+      "amount": 1,
+      "ingredient": "computercraft:computer_advanced"
+    }
+  ],
+  "itemOutput": {
+    "count": 2,
+    "id": "ftb:storage_matrix"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/niobium"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ltxi:niobium_dust"
+      }
+    }
+  ]
+}

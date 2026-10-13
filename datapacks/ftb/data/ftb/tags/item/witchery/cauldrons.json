@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "witchery:cauldron",
+    "witchery:copper_cauldron",
+    "witchery:exposed_copper_cauldron",
+    "witchery:weathered_copper_cauldron",
+    "witchery:oxidized_copper_cauldron",
+    "witchery:waxed_copper_cauldron",
+    "witchery:waxed_exposed_copper_cauldron",
+    "witchery:waxed_weathered_copper_cauldron",
+    "witchery:waxed_oxidized_copper_cauldron"
+  ]
+}

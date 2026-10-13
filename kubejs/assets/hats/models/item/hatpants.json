@@ -1,0 +1,80 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "hats:item/hats/hatpants",
+		"particle": "hats:item/hats/hatpants"
+	},
+	"elements": [
+		{
+			"name": "leg1",
+			"from": [8.5, 8, 5.5],
+			"to": [12.5, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [10, 12, 11, 16], "texture": "#0"},
+				"east": {"uv": [9, 12, 10, 16], "texture": "#0"},
+				"south": {"uv": [12, 12, 13, 16], "texture": "#0"},
+				"west": {"uv": [11, 12, 12, 16], "texture": "#0"},
+				"up": {"uv": [11, 12, 10, 10], "texture": "#0"},
+				"down": {"uv": [12, 10, 11, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [3.5, 0, 3.5],
+			"to": [12.5, 8, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [2.25, 12, 4.5, 16], "texture": "#0"},
+				"east": {"uv": [0, 12, 2.25, 16], "texture": "#0"},
+				"south": {"uv": [6.75, 12, 9, 16], "texture": "#0"},
+				"west": {"uv": [4.5, 12, 6.75, 16], "texture": "#0"},
+				"up": {"uv": [4.5, 12, 2.25, 7.5], "texture": "#0"},
+				"down": {"uv": [6.75, 7.5, 4.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leg2",
+			"from": [3.5, 8, 5.5],
+			"to": [7.5, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2, 8]},
+			"faces": {
+				"north": {"uv": [10, 12, 11, 16], "texture": "#0"},
+				"east": {"uv": [9, 12, 10, 16], "texture": "#0"},
+				"south": {"uv": [12, 12, 13, 16], "texture": "#0"},
+				"west": {"uv": [11, 12, 12, 16], "texture": "#0"},
+				"up": {"uv": [11, 12, 10, 10], "texture": "#0"},
+				"down": {"uv": [12, 10, 11, 12], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, 22, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "leg1",
+					"origin": [8, -2, 8],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "bottom",
+					"origin": [8, -2, 8],
+					"color": 0,
+					"children": [1]
+				},
+				{
+					"name": "leg2",
+					"origin": [8, -2, 8],
+					"color": 0,
+					"children": [2]
+				}
+			]
+		}
+	]
+}

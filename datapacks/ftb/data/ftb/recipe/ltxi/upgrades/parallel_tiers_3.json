@@ -1,0 +1,48 @@
+{
+  "type": "ltxi:fabricating",
+  "energy_required": 25000000,
+  "group": "machine/parallel_tiers",
+  "item_inputs": [
+    {
+      "ingredient": {
+        "neoforge:ingredient_type": "neoforge:components",
+        "components": {
+          "ltxi:upgrade": {
+            "rank": 2,
+            "upgrade": "ltxi:parallel_tiers"
+          }
+        },
+        "items": "ltxi:upgrade_module"
+      }
+    },
+    {
+      "ingredient": "ltxi:t4_circuit"
+    },
+    {
+      "count": 8,
+      "ingredient": "#c:plates/tungsten_slatesteel"
+    },
+    {
+      "count": 6,
+      "ingredient": "ltxi:fluoropolymer_sheet"
+    },
+    {
+      "count": 2,
+      "ingredient": "ltxi:laser_tech_part"
+    },
+    {
+      "count": 3,
+      "ingredient": "ltxi:large_voltaic_cell"
+    }
+  ],
+  "result": {
+    "components": {
+      "ltxi:upgrade": {
+        "rank": 3,
+        "upgrade": "ltxi:parallel_tiers"
+      }
+    },
+    "count": 1,
+    "id": "ltxi:upgrade_module"
+  }
+}

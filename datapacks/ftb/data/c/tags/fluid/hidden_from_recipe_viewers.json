@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "hephaestus:molten_osmium",
+    "hephaestus:molten_lumium",
+    "hephaestus:flowing_molten_lumium",
+    "hephaestus:molten_signalum",
+    "hephaestus:flowing_molten_signalum"
+  ]
+}

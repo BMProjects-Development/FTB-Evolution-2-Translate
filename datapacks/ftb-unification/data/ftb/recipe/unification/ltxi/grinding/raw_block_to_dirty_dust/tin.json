@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:storage_blocks/raw_tin"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 9,
+      "id": "ftbmaterials:tin_dirty_dust"
+    },
+    {
+      "count": {
+        "chance": 0.75,
+        "max": 2,
+        "min": 2
+      },
+      "id": "ftbmaterials:tin_dirty_dust",
+      "required": false
+    }
+  ]
+}

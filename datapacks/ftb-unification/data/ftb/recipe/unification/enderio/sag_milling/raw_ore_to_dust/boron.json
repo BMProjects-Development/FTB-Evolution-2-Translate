@@ -1,0 +1,20 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:raw_materials/boron",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "colossal_reactors:boron_dust"
+      }
+    },
+    {
+      "chance": 0.8,
+      "item": {
+        "count": 1,
+        "id": "colossal_reactors:boron_dust"
+      }
+    }
+  ]
+}

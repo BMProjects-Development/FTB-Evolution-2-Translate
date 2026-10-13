@@ -1,0 +1,166 @@
+#Per-mod integration modules with individual per-machine integration toggles.
+#Disabled integrations stop encoding patterns and stop pattern providers from pushing to those machines; already-encoded patterns stay in the world and resume working when the integration is re-enabled.
+[modules]
+
+	#Apothic Enchanting integration.
+	[modules.apothic_enchanting]
+		#Master override for Apothic Enchanting integration.
+		#When disabled, every Apothic Enchanting module below is disabled regardless of its own toggle.
+		allow_apothic_enchanting_module = true
+
+		#Infusion Module:
+		[modules.apothic_enchanting.infusion]
+			#The Enchanting Table of the Raven runs infusion recipes pushed by a pattern provider, setting its eterna, quanta, and arcana to whatever the recipe needs and putting the player's own values back afterwards.
+			enabled = true
+			#Experience points one Bottle o' Enchanting pays towards an automated infusion, which decides how many bottles a pattern asks for.
+			#A thrown bottle is worth 3 to 11 points, so the default pays ten times what one is worth by hand and keeps the bottle count of a craft small. Lower values make automated infusion more expensive.
+			# Default: 70
+			# Range: 1 ~ 1000
+			experiencePerBottle = 50
+			#Pays an automated infusion with a fluid from the #c:experience tag whenever one is loaded, falling back to Bottles o' Enchanting when the tag is empty.
+			#When disabled, patterns always ask for bottles. Either payment is accepted by the table, so patterns already encoded keep working.
+			preferExperienceFluid = true
+			#Millibuckets of experience fluid one experience point costs, which decides how much fluid a pattern asks for.
+			# Default: 20
+			# Range: 1 ~ 1000
+			millibucketsPerExperience = 100
+
+	#Mystical Agriculture integration.
+	[modules.mysticalagriculture]
+		#Master override for Mystical Agriculture integration.
+		#When disabled, every Mystical Agriculture module below is disabled regardless of its own toggle.
+		allow_mysticalagriculture_module = true
+		#Infusion Altar Module: An Infusion Altar with a pattern provider against it takes a whole craft at once, with the centre item going into the altar and one ingredient onto each of its Infusion Pedestals.
+		#The altar starts itself but does NOT automatically return the finished product.
+		infusion = true
+		#Awakening Altar Module: An Awakening Altar with a pattern provider against it takes a whole craft at once, with the centre item going into the altar, one ingredient onto each of its four Awakening Pedestals, and each recipe's essences into the four Essence Vessels.
+		#The altar starts itself but does NOT automatically return the finished product.
+		awakening = true
+
+		#Infused Awakening Matrix:
+		[modules.mysticalagriculture.infusedAwakeningMatrix]
+			#The Infused Awakening Matrix runs infusion and awakening recipes inside a single block.
+			#Its four essence tanks stand in for the Essence Vessels an awakening recipe would otherwise need.
+			enabled = true
+			#Treats the Matrix as a requester, allowing it to auto-pull, auto-craft, and auto-request a set of recipe ingredients from the ME network when a craft it owes is left without materials.
+			#When disabled, a Matrix left short of materials stalls until you restock it by hand.
+			autoRequest = true
+			#Ticks the Matrix spends on a craft, whichever recipe it is running. 20 ticks is one second.
+			#Both altars normally take 100 ticks.
+			# Default: 20
+			# Range: 1 ~ 24000
+			craftTicks = 20
+			#Capacity of the Infusion Matrix's essence tanks, per essence, in item quantity. A tank takes one essence at a time and is free for any other the moment it empties.
+			#A regular Essence Vessel holds 40, which is exactly one craft of the priciest awakening recipe.
+			# Default: 40
+			# Range: 40 ~ 512
+			essenceTankCapacity = 40
+			#Energy the Matrix draws from its ME network while crafting, in AE per tick. Progress stops whenever the network cannot supply this much power.
+			#Infusion and awakening have no energy cost of their own, so this is the whole running cost of the machine.
+			# Default: 500
+			# Range: 0 ~ 1000000
+			meNetworkDrain = 50000
+			#Energy the Matrix draws from its ME network while idle, in AE per tick. This standing cost is read once when the Matrix joins a network, so changing it needs a world reload.
+			# Default: 10
+			# Range: 0 ~ 1000000
+			idleMeNetworkDrain = 1000
+			#Channels the Matrix takes up on its ME network. Any value above 8 has to pass through dense cables.
+			#This is read once when the Matrix joins a network, so changing it needs a world reload. Set to 0 for a Matrix that takes up no channels at all.
+			# Default: 15
+			# Range: 0 ~ 128
+			meNetworkChannels = 15
+
+#Pattern behaviour outside any one integration.
+[patterns]
+	#Lets a NEP pattern be crafted back into a plain AE2 Processing Pattern carrying the same ingredients and result, one pattern per crafting grid.
+	#This is the escape hatch for a pack that moves a recipe onto a machine NEP does not drive, so an encoded NEP pattern can never leave a player with no way to automate the craft.
+	#Patterns that keep an ingredient instead of consuming it, such as Deploying and Filling, are refused: a Processing Pattern has no way to say an ingredient comes back, and converting one would consume the tool on every craft.
+	processingPatternConversion = true
+
+#Machine Hub behaviour.
+[machineHub]
+	#The Machine Hub presents the inventories it is linked to as one inventory, so a pattern provider against the Hub can load a multiblock whose item and fluid hatches are separate blocks.
+	#When disabled, a placed Hub keeps its links but stops offering storage, so pattern providers ignore it entirely.
+	enabled = false
+	#Maximum distance, in blocks, that a linked inventory may sit from the Machine Hub. This is also how far the Hub's scan may reach.
+	#Links beyond this range are refused when syncing the Hub Linker, guarding against distant links that would force-load far chunks on every push.
+	# Default: 16
+	# Range: 1 ~ 64
+	linkRange = 16
+	#How many inventories one Machine Hub may be linked to, and how many a scan may propose. The screen shows twelve rows at a time and scrolls past that.
+	# Default: 24
+	# Range: 1 ~ 64
+	maximumLinks = 24
+	#How many blocks the Machine Hub's scan may walk through before it stops, which is what bounds the cost of pressing the button.
+	#The scan spreads from the blocks touching the Hub through anything that looks like part of the same machine, so it never walks off into the terrain and rarely gets near this ceiling. Raise it for a machine larger than the budget can cover.
+	# Default: 128
+	# Range: 4 ~ 1024
+	scanBudget = 16
+	#How many plain blocks in a row the Machine Hub's scan may step through between one machine part and the next.
+	#The scan travels freely through blocks carrying a block entity, which is every hatch, port and controller. Everything else is casing, and casing is only crossed for this many blocks at a time, and only when it belongs to a mod that already owns a machine part nearby. Raise it for a multiblock with thick walls between its hatches; set it to zero to have the scan follow machine parts alone.
+	# Default: 3
+	# Range: 0 ~ 8
+	casingDepth = 3
+	#Blocks the Machine Hub's scan always treats as machine parts, written as block ids (modid:block) or mod id regex (modid:*).
+	#Whatever stands against a whitelisted block is trusted the way blocks touching the Hub are, and a whitelisted casing is crossed without counting against casingDepth.
+	#The block tag nep:machine_hub/parts does the same thing in a datapack.
+	scanWhitelist = []
+	#Blocks the Machine Hub's scan never walks through and never proposes, written as block ids (modid:block) or mod id regex (modid:*). The blacklist wins over the whitelist.
+	#The block tag nep:machine_hub/blocked does the same thing in a datapack, and ships with common player storage (chests, barrels, shulker boxes) and general terrain and building blocks (dirt, stone, sand, wood, wool, concrete) already in it.
+	scanBlacklist = []
+	#Blocks a Machine Hub refuses to link at all, even from a Hub Linker plan, written as block ids (modid:block) or a mod id regex (modid:*).
+	#The scan can still go through them to whatever lies beyond. The block tag nep:machine_hub/unlinkable does the same thing in a datapack.
+	linkBlacklist = []
+	#Channels the Machine Hub takes up on its ME network before its links are counted. Each linked inventory adds meNetworkChannelsPerLink on top, and anything above 8 has to pass through dense cables.
+	#This is read once when the Hub joins a network, so changing it needs a world reload. Set both this and meNetworkChannelsPerLink to 0 for a Hub that takes up no channels at all.
+	# Default: 11
+	# Range: 0 ~ 128
+	meNetworkChannels = 11
+	#Channels each inventory linked to the Machine Hub adds to what the Hub takes up, standing in for a bus each hatch would otherwise need.
+	#A Hub can take up to the channel limit at most depending on your AE2 config. Set to 0 to have links cost nothing.
+	# Default: 1
+	# Range: 0 ~ 128
+	meNetworkChannelsPerLink = 1
+
+#Pattern Provider behaviour.
+[provider]
+	#Ticks an Import Card keeps collecting a result the network has stopped waiting for. This is what returns items already sent to a machine when a job is cancelled partway through.
+	#The clock restarts every time the card collects something, so a run of results still in flight all come back. This grace period only runs once a job ends.
+	#Set to 0 to give a cancelled job a single collection attempt and nothing more.
+	# Default: 200
+	# Range: 0 ~ 24000
+	importCardGrace = 200
+
+#Mod Debug configuration.
+[debug]
+	#Log diagnostics to the server log at INFO level (e.g. every pattern-provider push to a machine and why it was accepted or rejected).
+	verbose_logging = false
+
+#Machine behaviour outside any one integration.
+[machines]
+	#Lets a recipe be started by hand from a machine's own screen, by pressing the recipe-viewer transfer button on a recipe that machine runs.
+	#The ingredients come out of your own inventory, all at once or not at all, and the result waits in the machine's output buffer instead of going back to the ME network.
+	#When disabled, a machine only ever crafts what a pattern provider pushes to it.
+	manualCrafting = true
+
+#Pattern Decoder behaviour.
+[patternDecoder]
+	#Makes NEP patterns depend on a Pattern Decoder. While enabled, a Pattern Encoding Terminal only encodes a NEP pattern for a mod switched on under mods when its network holds a powered Pattern Decoder carrying that mod's Encoding Module; anything else encodes as a plain Processing Pattern.
+	#When disabled, NEP patterns encode as usual and the Pattern Decoder does nothing. Patterns that were already encoded keep working either way.
+	requireDecoder = true
+	#Channels a Pattern Decoder takes up on its ME network. A Decoder without its channel does not count towards encoding.
+	#This is read once when the Decoder joins a network, so changing it needs a world reload. Set to 0 for a Decoder that takes up no channel at all.
+	# Default: 1
+	# Range: 0 ~ 128
+	meNetworkChannels = 4
+	#Energy a Pattern Decoder draws from its ME network, in AE per tick. This standing cost is read once when the Decoder joins a network, so changing it needs a world reload.
+	# Default: 5
+	# Range: 0 ~ 1000000
+	idleMeNetworkDrain = 100
+
+	#Which integrations need their Encoding Module in a Pattern Decoder while requireDecoder is enabled. A mod switched off here encodes its NEP patterns as usual.
+	[patternDecoder.mods]
+		#Whether apothic_enchanting patterns need their Encoding Module.
+		apothic_enchanting = true
+		#Whether mysticalagriculture patterns need their Encoding Module.
+		mysticalagriculture = true

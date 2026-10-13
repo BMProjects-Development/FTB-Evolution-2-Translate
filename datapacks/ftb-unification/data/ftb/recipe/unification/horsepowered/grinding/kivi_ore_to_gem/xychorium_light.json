@@ -1,0 +1,9 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "xycraft_world:xychorium_ore_kivi_light",
+  "result": {
+    "id": "xycraft_world:xychorium_gem_light",
+    "count": 2
+  },
+  "time": 16
+}

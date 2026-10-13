@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:redstone_nether_ore",
+  "result": {
+    "count": 3,
+    "id": "minecraft:redstone"
+  },
+  "secondary": {
+    "count": 3,
+    "id": "minecraft:redstone"
+  },
+  "secondaryChance": 75,
+  "time": 16
+}

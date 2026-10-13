@@ -1,0 +1,10 @@
+#Render item stacks moving along observed AE2 transfer paths.
+renderTransferItems = true
+#Movement speed of rendered transfer items in blocks per second.
+# Default: 6.0
+# Range: 0.1 ~ 100.0
+itemMovementSpeed = 6.0
+#Maximum number of recent item transfers retained by the client renderer.
+# Default: 128
+# Range: 1 ~ 4096
+maxTransfers = 128

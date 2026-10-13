@@ -1,0 +1,7 @@
+{
+  "values": {
+    "utilitarian:snad": { "growth_modifier": 1.0 },
+    "utilitarian:red_snad": { "growth_modifier": 1.0 },
+    "utilitarian:soul_snad": { "growth_modifier": 1.0 }
+  }
+}

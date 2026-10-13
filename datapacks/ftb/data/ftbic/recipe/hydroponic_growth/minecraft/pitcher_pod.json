@@ -1,0 +1,44 @@
+{
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "minecraft:pitcher_pod"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:pitcher_plant"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:pitcher_pod"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "id": "minecraft:pitcher_pod"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "minecraft:dirt",
+      "speed": 1.0
+    },
+    {
+      "ingredient": "minecraft:moss_block",
+      "speed": 1.25
+    }
+  ]
+}

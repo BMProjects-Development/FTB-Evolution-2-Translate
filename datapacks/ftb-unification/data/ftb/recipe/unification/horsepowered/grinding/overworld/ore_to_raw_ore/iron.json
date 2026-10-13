@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/iron",
+  "result": {
+    "id": "minecraft:raw_iron"
+  },
+  "secondary": {
+    "id": "minecraft:raw_iron"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

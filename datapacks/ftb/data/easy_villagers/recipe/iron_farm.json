@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GLG",
+    "ISI"
+  ],
+  "key": {
+    "G": "#c:glass_panes/colorless",
+    "I": "#c:ingots/iron",
+    "S": "compressium:iron_1",
+    "L": "minecraft:lava_bucket"
+  },
+  "result": {
+    "id": "easy_villagers:iron_farm"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "minecraft:diamond",
+  "result": {
+    "id": "ftbmaterials:diamond_dust"
+  },
+  "time": 16
+}

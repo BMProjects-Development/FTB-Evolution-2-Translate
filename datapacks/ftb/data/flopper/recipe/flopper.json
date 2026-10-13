@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "I I",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "I": "#c:ingots/iron",
+    "B": "minecraft:bucket"
+  },
+  "result": {
+    "count": 1,
+    "id": "flopper:flopper"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "items": {
+    "neovitae:sulfur": "ftbmaterials:sulfur_dust"
+  },
+  "fluids": {
+    "neovitae:liquified_experience_flowing": "justdirethings:xp_fluid_flowing",
+    "neovitae:liquified_experience_source": "justdirethings:xp_fluid_source"
+  }
+}

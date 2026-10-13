@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/silver"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:glowstone_dust"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio_evolution:energetic_silver_ingot",
+        "count": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftbic:advanced_circuit",
+    "energizedpower:advanced_circuit",
+    "ltxi:t2_circuit"
+  ]
+}

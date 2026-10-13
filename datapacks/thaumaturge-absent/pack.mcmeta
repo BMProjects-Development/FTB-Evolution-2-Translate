@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Stand-in data for worlds that had Thaumaturge. Delete this folder when Thaumaturge returns.",
+    "min_format": [
+      101,
+      0
+    ],
+    "max_format": [
+      101,
+      2147483647
+    ]
+  }
+}

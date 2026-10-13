@@ -1,0 +1,14 @@
+{
+  "fallback": "ftb:dungeons/aqua/lootboxes/legendary",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/aqua/lootbox/legendary/128",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

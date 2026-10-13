@@ -1,0 +1,17 @@
+{
+  "type": "xycraft:extractor",
+  "adjacent": [
+    {
+      "context_matters:rule_type": "context_matters:water"
+    }
+  ],
+  "output": {
+    "type": "xycraft:item",
+    "id": "geore:lead_shard"
+  },
+  "target": {
+    "block": "geore:budding_lead",
+    "context_matters:rule_type": "context_matters:block"
+  },
+  "ticks": 1200
+}

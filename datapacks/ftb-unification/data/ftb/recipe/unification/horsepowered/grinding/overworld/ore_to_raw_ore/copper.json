@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/copper",
+  "result": {
+    "id": "minecraft:raw_copper"
+  },
+  "secondary": {
+    "id": "minecraft:raw_copper"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

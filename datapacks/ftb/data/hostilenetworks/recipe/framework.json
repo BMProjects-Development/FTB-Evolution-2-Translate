@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "DSD",
+    "CIC"
+  ],
+  "key": {
+    "C": "#c:silicon",
+    "R": "#ftb:basic_circuits",
+    "D": "#c:dusts/redstone",
+    "S": "minecraft:smooth_stone",
+    "I": "#c:ingots/gold"
+  },
+  "result": {
+    "id": "hostilenetworks:blank_data_model"
+  }
+}

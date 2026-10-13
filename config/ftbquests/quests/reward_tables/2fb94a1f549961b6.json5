@@ -1,0 +1,671 @@
+{
+  id: "2FB94A1F549961B6",
+  order_index: 24,
+  icon: {
+    id: "minecraft:netherite_chestplate",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "3916EC91EB12482E",
+      item: {
+        id: "mysticalagriculture:tertium_helmet",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "17DFE6C8AF440D62",
+      item: {
+        id: "mysticalagriculture:tertium_chestplate",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3112089614943199",
+      item: {
+        id: "mysticalagriculture:tertium_leggings",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5712A4ED26760CE2",
+      item: {
+        id: "mysticalagriculture:tertium_boots",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1B585F35172B94CC",
+      item: {
+        id: "mysticalagriculture:tertium_sword",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "30377D647529D6F1",
+      item: {
+        id: "mysticalagriculture:tertium_pickaxe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1CA837EC1EF3CBFD",
+      item: {
+        id: "mysticalagriculture:tertium_axe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3C07F273D27FA04D",
+      item: {
+        id: "mysticalagriculture:tertium_shovel",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "168114CCB71CE97C",
+      item: {
+        id: "mysticalagriculture:tertium_hoe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "789C80F8DE71FF5D",
+      item: {
+        id: "mysticalagriculture:tertium_sickle",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "558541919A97B832",
+      item: {
+        id: "mysticalagriculture:tertium_spear",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "6B1FD275A667A94F",
+      item: {
+        id: "mysticalagradditions:tertium_paxel",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "7E2FA91311B68638",
+      item: {
+        id: "minecraft:netherite_helmet",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "1E31BF01D65230BE",
+      item: {
+        id: "minecraft:netherite_chestplate",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "37C1E0ECAAE06921",
+      item: {
+        id: "minecraft:netherite_leggings",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "4B10D21BE487D55E",
+      item: {
+        id: "minecraft:netherite_boots",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "14B50BE84F090075",
+      item: {
+        id: "minecraft:netherite_sword",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "3778DDAEA76E7897",
+      item: {
+        id: "minecraft:diamond_pickaxe",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "71FF2711B4E5959F",
+      item: {
+        id: "minecraft:netherite_axe",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "0D6A35D67333A6E4",
+      item: {
+        id: "minecraft:netherite_shovel",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "79ACD9B798F0C188",
+      item: {
+        id: "minecraft:netherite_hoe",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "054AE7071A00F3E4",
+      item: {
+        id: "minecraft:netherite_spear",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "7DB5F9DB1EDC5872",
+      item: {
+        id: "ftbic:carbon_helmet",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "57838114C0902B9C",
+      item: {
+        id: "ftbic:carbon_chestplate",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "61F3CE809F7144F8",
+      item: {
+        id: "ftbic:carbon_leggings",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "40B9C05078B7B9AA",
+      item: {
+        id: "ftbic:carbon_boots",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "20674926F1B9649D",
+      item: {
+        id: "ltxi:epsilon_sword",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3BF2412B12415BA2",
+      item: {
+        id: "ltxi:epsilon_drill",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5DEA61F9874B5C85",
+      item: {
+        id: "ltxi:epsilon_axe",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "087A374BD22B27FB",
+      item: {
+        id: "ltxi:epsilon_shovel",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "04BD44B2941BA501",
+      item: {
+        id: "ltxi:epsilon_hoe",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "33FE5BBE1CABB478",
+      item: {
+        id: "auroral:shimmerweave_goggles",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3104D9CAB311F257",
+      item: {
+        id: "auroral:shimmerweave_tunic",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5EB9DF1A6056B70C",
+      item: {
+        id: "auroral:shimmerweave_leggings",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "7212521CFA9EF303",
+      item: {
+        id: "auroral:shimmerweave_skates",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3EEC3AABAB460FDB",
+      item: {
+        id: "auroral:shimmersteel_sword",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1C82275668485228",
+      item: {
+        id: "auroral:shimmersteel_pickaxe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5132A8F0869E592D",
+      item: {
+        id: "auroral:shimmersteel_axe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3661F98CF22B1D85",
+      item: {
+        id: "auroral:shimmersteel_shovel",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5CA19837112E515D",
+      item: {
+        id: "auroral:shimmersteel_hoe",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "2D876AA7F13808A6",
+      item: {
+        id: "justdirethings:celestigem_helmet",
+        count: 1,
+      },
+    },
+    {
+      id: "51BDE9812B412FA8",
+      item: {
+        id: "justdirethings:celestigem_chestplate",
+        count: 1,
+      },
+    },
+    {
+      id: "63295362888FA2F5",
+      item: {
+        id: "justdirethings:celestigem_leggings",
+        count: 1,
+      },
+    },
+    {
+      id: "079B41F79DBE2513",
+      item: {
+        id: "justdirethings:celestigem_boots",
+        count: 1,
+      },
+    },
+    {
+      id: "39D523EF070EB22B",
+      item: {
+        id: "justdirethings:celestigem_sword",
+        count: 1,
+      },
+    },
+    {
+      id: "5F3AFC695688F251",
+      item: {
+        id: "justdirethings:celestigem_pickaxe",
+        count: 1,
+      },
+    },
+    {
+      id: "4B9D9B4986CDF83D",
+      item: {
+        id: "justdirethings:celestigem_axe",
+        count: 1,
+      },
+    },
+    {
+      id: "318C16F5F4D2571E",
+      item: {
+        id: "justdirethings:celestigem_shovel",
+        count: 1,
+      },
+    },
+    {
+      id: "067FB5A5CE8A9FB5",
+      item: {
+        id: "justdirethings:celestigem_hoe",
+        count: 1,
+      },
+    },
+    {
+      id: "422FA8890D1D133F",
+      item: {
+        id: "justdirethings:celestigem_paxel",
+        count: 1,
+      },
+    },
+    {
+      id: "14AD84F13CD0376E",
+      item: {
+        id: "auroral:shimmersteel_bow",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "2F4CC976683893F2",
+      item: {
+        id: "mysticalagriculture:tertium_bow",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "2892576BF1B95237",
+      item: {
+        id: "power_armor:power_armor_helmet",
+        count: 1,
+      },
+    },
+    {
+      id: "48264B67A96E13A4",
+      item: {
+        id: "power_armor:power_armor_chestplate",
+        count: 1,
+      },
+    },
+    {
+      id: "554C9A2842E4F4F9",
+      item: {
+        id: "power_armor:power_armor_leggings",
+        count: 1,
+      },
+    },
+    {
+      id: "64286DCF98B1BAAB",
+      item: {
+        id: "power_armor:power_armor_boots",
+        count: 1,
+      },
+    },
+    {
+      id: "37D9D9081F6B2C8E",
+      item: {
+        id: "ftbarmory:adamantite_helmet",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "69AF7E64998F8F77",
+      item: {
+        id: "ftbarmory:adamantite_chestplate",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "6C7B2476F1106F8E",
+      item: {
+        id: "ftbarmory:adamantite_leggings",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "5B48A878DD7F8594",
+      item: {
+        id: "ftbarmory:adamantite_boots",
+        count: 1,
+      },
+      weight: 12.0,
+    },
+    {
+      id: "5819AADCC46DC0AE",
+      item: {
+        id: "mysticalagriculture:imperium_helmet",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "7B229AD242B23602",
+      item: {
+        id: "mysticalagriculture:imperium_chestplate",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "437D456D78D189EF",
+      item: {
+        id: "mysticalagriculture:imperium_leggings",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "04D2725F29826EE5",
+      item: {
+        id: "mysticalagriculture:imperium_boots",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "30F7B0C011A743C8",
+      item: {
+        id: "mysticalagriculture:imperium_sword",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "50CE6E5584882A44",
+      item: {
+        id: "mysticalagriculture:imperium_pickaxe",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "52625C96FEE2585E",
+      item: {
+        id: "mysticalagriculture:imperium_axe",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1DFFF6061EDD24C6",
+      item: {
+        id: "mysticalagriculture:imperium_shovel",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "3DCB7A997BDF029E",
+      item: {
+        id: "mysticalagriculture:imperium_hoe",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "0D186CFC413FD352",
+      item: {
+        id: "mysticalagriculture:imperium_sickle",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1059DD09D3A0A59A",
+      item: {
+        id: "mysticalagriculture:imperium_spear",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "0AEDC2B1B1238C52",
+      item: {
+        id: "mysticalagradditions:imperium_paxel",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "78140C56B71A0D40",
+      item: {
+        id: "ftbarmory:aeternium_helmet",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "375BAB965E8CB086",
+      item: {
+        id: "ftbarmory:aeternium_chestplate",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "1F1E622B2FAC8156",
+      item: {
+        id: "ftbarmory:aeternium_leggings",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6C23DAC2216CFFFE",
+      item: {
+        id: "ftbarmory:aeternium_boots",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "525D7637A5E9A62C",
+      item: {
+        id: "ltxi:aurora",
+        count: 1,
+      },
+    },
+    {
+      id: "295FCAD9421A427F",
+      item: {
+        id: "ltxi:hanabi",
+        count: 1,
+      },
+    },
+    {
+      id: "4F2CCA46CEABA5A0",
+      item: {
+        id: "ltxi:stargazer",
+        count: 1,
+      },
+    },
+    {
+      id: "1BDA9E0776BD6854",
+      item: {
+        id: "arsmagicalegacy:battlemage_helmet",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2B811ABF64C5D102",
+      item: {
+        id: "arsmagicalegacy:battlemage_chestplate",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5FD166C24546216C",
+      item: {
+        id: "arsmagicalegacy:battlemage_leggings",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "42FF63D0C725EA72",
+      item: {
+        id: "arsmagicalegacy:battlemage_boots",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+  ],
+  loot_crate: {
+    string_id: "random_armory_2",
+    color: 11141290,
+    item_name: "ftbquests.loot_crate.random_armory_2",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

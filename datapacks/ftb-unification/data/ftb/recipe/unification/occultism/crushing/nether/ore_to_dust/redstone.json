@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "ftbmaterials:redstone_nether_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 6,
+    "id": "minecraft:redstone"
+  }
+}

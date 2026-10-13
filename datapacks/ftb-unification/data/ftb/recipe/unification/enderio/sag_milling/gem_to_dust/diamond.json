@@ -1,0 +1,14 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": "minecraft:diamond",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:diamond_dust"
+      }
+    }
+  ]
+}

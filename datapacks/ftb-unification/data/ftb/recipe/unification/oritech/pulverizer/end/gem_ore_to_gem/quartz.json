@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:quartz_end_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:quartz",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

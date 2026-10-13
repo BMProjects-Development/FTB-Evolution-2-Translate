@@ -1,0 +1,15 @@
+["General Settings"]
+	#Minimum scale multiplier (Default: 0.9)
+	# Default: 0.9
+	# Range: 0.1 ~ 16.0
+	minScale = 0.9
+	#Maximum scale multiplier (Default: 1.1)
+	# Default: 1.1
+	# Range: 0.1 ~ 16.0
+	maxScale = 1.1
+	#Should the player size also be randomized?
+	affectPlayer = false
+	#Should max health scale with size?
+	shouldScaleHealth = false
+	#Should attack damage scale with size?
+	shouldScaleDamage = false

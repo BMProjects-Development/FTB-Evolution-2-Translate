@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/niobium"
+  ],
+  "itemResults": [
+    {
+      "id": "ltxi:niobium_ore_solution"
+    }
+  ],
+  "time": 100
+}

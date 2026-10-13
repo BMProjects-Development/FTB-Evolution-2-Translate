@@ -1,0 +1,696 @@
+{
+  id: "59E282709FE3D0C7",
+  order_index: 16,
+  icon: {
+    id: "witchery:poppet",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "500ECCED5E71A3DB",
+      item: {
+        id: "witchery:belladonna_seeds",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "7E00654E39253257",
+      item: {
+        id: "witchery:mandrake_seeds",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "30FD1CD4AC7E2D5D",
+      item: {
+        id: "witchery:wormwood_seeds",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "233A7B6F330178BB",
+      item: {
+        id: "witchery:snowbell_seeds",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "5FDB2B976DAAD033",
+      item: {
+        id: "witchery:wolfsbane_seeds",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "79C092CD006B7810",
+      item: {
+        id: "witchery:water_artichoke_seeds",
+        count: 1,
+      },
+      count: 2,
+      weight: 8.0,
+    },
+    {
+      id: "0AE73210839DA439",
+      item: {
+        id: "occultism:datura_seeds",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "33A0425E7A6BFE06",
+      item: {
+        id: "occultism:otherstone",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "3827A3404BE29509",
+      item: {
+        id: "rootsclassic:blackcurrant",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "4F7073D082F7DF17",
+      item: {
+        id: "rootsclassic:redcurrant",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "75AFEBDC43FC1685",
+      item: {
+        id: "rootsclassic:whitecurrant",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "1DDAE50C083C75AA",
+      item: {
+        id: "rootsclassic:elderberry",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "1B1DC6D81F768BE4",
+      item: {
+        id: "rootsclassic:nightshade",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "2DA3CFDEE3B81F41",
+      item: {
+        id: "witchery:jar",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "148179B361899E28",
+      item: {
+        id: "witchery:taglock",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "09CB8F6744A24A92",
+      item: {
+        id: "witchery:poppet",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "175D8AC675A1B4AA",
+      item: {
+        id: "witchery:bone_needle",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "1E56F6C5B068881C",
+      item: {
+        id: "witchery:wispy_cotton",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "3F0EB4D8872BCA4B",
+      item: {
+        id: "witchery:redstone_soup",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "2B04B889576C783C",
+      item: {
+        id: "witchery:rowan_sapling",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "47EC4E32A85B577E",
+      item: {
+        id: "witchery:alder_sapling",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "11EFD01D9C5F46C9",
+      item: {
+        id: "witchery:hawthorn_sapling",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "4CE27F13886D46EF",
+      item: {
+        id: "rootsclassic:old_root",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "3A0767C6C6DD9FED",
+      item: {
+        id: "rootsclassic:bark_knife",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5C094AE22085BD48",
+      item: {
+        id: "rootsclassic:pestle",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6553265A0E0B2211",
+      item: {
+        id: "rootsclassic:mortar",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "49DF5FEF71F0F20D",
+      item: {
+        id: "rootsclassic:midnight_bloom",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0DED335BCED393E9",
+      item: {
+        id: "rootsclassic:flare_orchid",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6B28721526233070",
+      item: {
+        id: "rootsclassic:radiant_daisy",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "47DA5236DC0EC9D5",
+      item: {
+        id: "occultism:book_of_binding_empty",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6AB9AB321D320F8F",
+      item: {
+        id: "occultism:chalk_white_impure",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "12539ABEADB83039",
+      item: {
+        id: "occultism:large_candle_white",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "31DB0133AB545ACA",
+      item: {
+        id: "occultism:spirit_attuned_gem",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "611B7992314E1AEA",
+      item: {
+        id: "evilcraft:blood_waxed_coal",
+        count: 1,
+      },
+      count: 8,
+      weight: 5.0,
+    },
+    {
+      id: "4A82A7F3B9DA04D0",
+      item: {
+        id: "evilcraft:bucket_blood",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6D2252BFE7481D9F",
+      item: {
+        id: "neovitae:tabula_rasa",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "5D2CC61C9AFB9539",
+      item: {
+        id: "neovitae:throwing_dagger",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "6A76069926FACC0F",
+      item: {
+        id: "witchery:ritual_chalk",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "55F5520BFE5671C0",
+      item: {
+        id: "witchery:mutandis",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "206ACC3BB759A480",
+      item: {
+        id: "witchery:spectral_dust",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "4D69FCA7671655C5",
+      item: {
+        id: "witchery:koboldite_dust",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "683D4407765E52D7",
+      item: {
+        id: "rootsclassic:infernal_bulb",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "7CDA08C046347BB4",
+      item: {
+        id: "rootsclassic:spell_powder",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "0231F0792D2969D6",
+      item: {
+        id: "rootsclassic:growth_powder",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "4E56BEB85B4B3467",
+      item: {
+        id: "rootsclassic:healing_poultice",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "4F65DB6309579E52",
+      item: {
+        id: "occultism:otherworld_sapling_natural",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "39470BE83C54160E",
+      item: {
+        id: "occultism:divination_rod",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5B8321B5EEF7DAD4",
+      item: {
+        id: "evilcraft:hardened_blood_shard",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "0819FAF641A1E22F",
+      item: {
+        id: "evilcraft:undead_sapling",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5F0F2A55E6ED55B3",
+      item: {
+        id: "neovitae:rune_blank",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "096D701850499732",
+      item: {
+        id: "neovitae:simple_catalyst",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "2B3B5213E9B1E694",
+      item: {
+        id: "neovitae:mundane_lengthening_catalyst",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "3BE8B09DAEA71A10",
+      item: {
+        id: "neovitae:mundane_power_catalyst",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "5F4BAD80CE4178D6",
+      item: {
+        id: "neovitae:weak_tau",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "757ECACB4D99E688",
+      item: {
+        id: "neovitae:basic_cutting_fluid",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6BC64623466BFEC0",
+      item: {
+        id: "neovitae:alchemy_flask",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0FC1CC13CA73A40D",
+      item: {
+        id: "witchery:brew_of_revealing",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4B5F835A4E662BFC",
+      item: {
+        id: "witchery:brew_of_webs",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2C5956798FAE1DBD",
+      item: {
+        id: "witchery:brew_of_frost",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "594F55BC72741D8C",
+      item: {
+        id: "witchery:brew_of_ink",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "383D700FAEDBF15B",
+      item: {
+        id: "rootsclassic:dragons_eye",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6D5B713E050FE49B",
+      item: {
+        id: "evilcraft:dark_power_gem",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "1AA5788825C5A1E1",
+      item: {
+        id: "neovitae:reagent_water",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7016A494CCC5DF5E",
+      item: {
+        id: "neovitae:reagent_lava",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0115FC9A3DBF18B8",
+      item: {
+        id: "neovitae:reagent_air",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6AAB954A744AF64D",
+      item: {
+        id: "neovitae:reagent_fast_miner",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0058448B82E23267",
+      item: {
+        id: "neovitae:average_lengthening_catalyst",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0CE99CF62629334C",
+      item: {
+        id: "neovitae:average_power_catalyst",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "385B0649229CABC6",
+      item: {
+        id: "neovitae:strengthened_catalyst",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5AB604187AEDA032",
+      item: {
+        id: "neovitae:cycling_catalyst",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "36B4FCF7087D5112",
+      item: {
+        id: "neovitae:combinational_catalyst",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "09AD9D2716DB91DE",
+      item: {
+        id: "neovitae:raw_spiritus_catalyst",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2C74C3BAAD18AF76",
+      item: {
+        id: "evilcraft:vengeance_essence",
+        count: 1,
+      },
+      count: 2,
+    },
+    {
+      id: "37B2919B1861AE63",
+      item: {
+        id: "evilcraft:blood_pearl_of_teleportation",
+        count: 1,
+      },
+    },
+    {
+      id: "080AE83461CEEB82",
+      item: {
+        id: "neovitae:spiritus_gem_petty",
+        count: 1,
+      },
+    },
+    {
+      id: "40D6E43AEC3E461C",
+      item: {
+        id: "neovitae:tau_oil",
+        count: 1,
+      },
+      count: 2,
+    },
+    {
+      id: "7FC3B115742B0566",
+      item: {
+        id: "neovitae:spiritus_invictus_catalyst",
+        count: 1,
+      },
+    },
+    {
+      id: "5BE6D4CDDB2AD795",
+      item: {
+        id: "neovitae:spiritus_nihilum_catalyst",
+        count: 1,
+      },
+    },
+    {
+      id: "362FDD2D681D3464",
+      item: {
+        id: "neovitae:spiritus_ruina_catalyst",
+        count: 1,
+      },
+    },
+    {
+      id: "42FE942462DA0429",
+      item: {
+        id: "neovitae:spiritus_vindicta_catalyst",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_occult",
+    color: 5635925,
+    item_name: "ftbquests.loot_crate.random_occult",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

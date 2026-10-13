@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "minecraft:stick",
+  "cast_consumed": true,
+  "cooling_time": 160,
+  "fluid": {
+    "amount": 270,
+    "id": "hephaestus:molten_diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "justhammers:diamond_hammer"
+  }
+}

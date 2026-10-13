@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:energetic_silver",
+  "ingredient": {
+    "tag": "c:ingots/energetic_silver"
+  },
+  "color": 9153218,
+  "head_stats": {
+    "durability": 450,
+    "mining_speed": 9.0,
+    "attack_damage": 2.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 22,
+    "trait": "smite"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.04,
+    "damage_mult": 0.0,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 90
+  }
+}

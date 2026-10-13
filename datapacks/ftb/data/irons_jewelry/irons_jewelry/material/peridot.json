@@ -1,0 +1,32 @@
+{
+  "descriptionId": "material.irons_jewelry.peridot",
+  "ingredient": "#c:gems/peridot",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/peridot",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:block_break_speed",
+      "amount": 0.1,
+      "operation": "add_multiplied_base"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:haste"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:poison"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:knockback",
+        "strength": {
+          "base": -2.0,
+          "scalar": -1.0
+        }
+      }
+    }
+  }
+}

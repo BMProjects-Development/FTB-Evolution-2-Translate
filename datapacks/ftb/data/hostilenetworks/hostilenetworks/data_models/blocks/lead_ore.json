@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbic:lead_stone_ore",
+  "variants": [
+    "ftbic:lead_deepslate_ore",
+    "ftbmaterials:lead_stone_ore",
+    "ftbmaterials:lead_deepslate_ore",
+    "ftbmaterials:lead_nether_ore",
+    "ftbmaterials:lead_end_ore"
+  ],
+  "name_color": "#4A5568",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 256,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.lead_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:lead_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

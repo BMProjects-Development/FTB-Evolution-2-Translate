@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/uranium"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:uranium_shard"
+    }
+  ],
+  "time": 100
+}

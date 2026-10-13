@@ -1,0 +1,1894 @@
+{
+  id: "408F609CBEFDE09A",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 6,
+  icon: {
+    id: "iceandfire:dragonegg_red",
+    count: 1,
+  },
+  filename: "ice_and_fire",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "199022E0BC1A489E",
+  quests: [
+    {
+      icon: {
+        id: "iceandfire:bestiary",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      min_width: 300,
+      id: "199022E0BC1A489E",
+      tasks: [
+        {
+          id: "50F5260DAC12A2C4",
+          type: "item",
+          item: {
+            id: "iceandfire:bestiary",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7F2F7862C81C15D5",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "569AE266FFCF2C56",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonbone",
+        count: 1,
+      },
+      x: 2.5,
+      y: -3.5,
+      shape: "hexagon",
+      dependencies: [
+        "199022E0BC1A489E",
+      ],
+      size: 1.5,
+      id: "193816470731136F",
+      tasks: [
+        {
+          id: "56CDA4231D09673D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(iceandfire:scales/dragon)",
+            },
+          },
+        },
+        {
+          id: "4188E359B536FDD2",
+          type: "item",
+          item: {
+            id: "iceandfire:dragonbone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63A463406616DF31",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6C8BFC1359E13166",
+          type: "item",
+          item: {
+            id: "iceandfire:dragonbone",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "2FA25EF6B4AC2C68",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:armor_red_chestplate",
+        count: 1,
+      },
+      x: 4.0,
+      y: -3.5,
+      dependencies: [
+        "193816470731136F",
+      ],
+      size: 1.0,
+      id: "68F97A93A23A89C3",
+      tasks: [
+        {
+          id: "24661216C039A688",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:armor_red_chestplate)item(iceandfire:armor_green_chestplate)item(iceandfire:armor_bronze_chestplate)item(iceandfire:armor_gray_chestplate)item(iceandfire:armor_blue_chestplate)item(iceandfire:armor_white_chestplate)item(iceandfire:armor_sapphire_chestplate)item(iceandfire:armor_silver_chestplate)item(iceandfire:armor_electric_chestplate)item(iceandfire:armor_amethyst_chestplate)item(iceandfire:armor_copper_chestplate)item(iceandfire:armor_black_chestplate))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D88E0503D4019B3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "20EA88C43C42F2F3",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:witherbone",
+        count: 1,
+      },
+      x: 2.5,
+      y: -5.0,
+      dependencies: [
+        "193816470731136F",
+      ],
+      size: 1.0,
+      id: "2F9ED8F13B212606",
+      tasks: [
+        {
+          id: "71FA60DCEBAB3B3E",
+          type: "item",
+          item: {
+            id: "iceandfire:witherbone",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "63203AC2444D1CC5",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "46D24246F2CE2C4A",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonbone_sword",
+        count: 1,
+      },
+      x: 3.0,
+      y: -6.5,
+      dependencies: [
+        "2F9ED8F13B212606",
+      ],
+      size: 1.0,
+      id: "78871F87322B3441",
+      tasks: [
+        {
+          id: "67C29D0F495C864B",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonbone_sword)item(iceandfire:dragonbone_pickaxe)item(iceandfire:dragonbone_axe)item(iceandfire:dragonbone_shovel)item(iceandfire:dragonbone_hoe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "143C1AC8767CA4C1",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4FEC1278827EE56D",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonbone_sword_fire",
+        count: 1,
+      },
+      x: 4.5,
+      y: -6.5,
+      dependencies: [
+        "78871F87322B3441",
+      ],
+      size: 1.0,
+      id: "607D6416DFF2633D",
+      tasks: [
+        {
+          id: "2168DB0283CCD4AF",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonbone_sword_fire)item(iceandfire:dragonbone_sword_ice)item(iceandfire:dragonbone_sword_lightning))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15C429E4609CB6D2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "19AA959702B739BA",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonbone_bow",
+        count: 1,
+      },
+      x: 2.0,
+      y: -6.5,
+      dependencies: [
+        "2F9ED8F13B212606",
+      ],
+      size: 1.0,
+      id: "7298DEADC14C0ECB",
+      tasks: [
+        {
+          id: "791A93194C9905B7",
+          type: "item",
+          item: {
+            id: "iceandfire:dragonbone_bow",
+            count: 1,
+          },
+        },
+        {
+          id: "63C7574F5EC166C0",
+          type: "item",
+          item: {
+            id: "iceandfire:dragonbone_arrow",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "752BEA0CD6E0D591",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1FEC4AB75EDA3809",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonforge_fire_brick",
+        count: 1,
+      },
+      x: 4.0,
+      y: -5.0,
+      dependencies: [
+        "193816470731136F",
+      ],
+      size: 1.0,
+      id: "16D85C047B6EC329",
+      tasks: [
+        {
+          id: "2742F4B89D60D68E",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_brick)item(iceandfire:dragonforge_ice_brick)item(iceandfire:dragonforge_lightning_brick))",
+            },
+          },
+          count: 17,
+        },
+      ],
+      rewards: [
+        {
+          id: "43A192D2628B825C",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "66761FDA12A79596",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonforge_fire_core_disabled",
+        count: 1,
+      },
+      x: 5.5,
+      y: -5.0,
+      dependencies: [
+        "16D85C047B6EC329",
+      ],
+      size: 1.0,
+      id: "2A8D69C741D33C49",
+      tasks: [
+        {
+          id: "25B0EFE0B3192DFC",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_core_disabled)item(iceandfire:dragonforge_ice_core_disabled)item(iceandfire:dragonforge_lightning_core_disabled))",
+            },
+          },
+        },
+        {
+          id: "7FB13EF06038583C",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonforge_fire_input)item(iceandfire:dragonforge_ice_input)item(iceandfire:dragonforge_lightning_input))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F0F1AAED8D3FC3E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3D9C291E40C902B5",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_bone_block",
+        count: 1,
+      },
+      x: 7.0,
+      y: -5.0,
+      dependencies: [
+        "2A8D69C741D33C49",
+      ],
+      size: 1.0,
+      id: "7B8CB30F669E60EC",
+      tasks: [
+        {
+          id: "1EA9910D34A75814",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_bone_block",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "6BE8406747991A0D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1396AC56F4B3AD30",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:chain",
+        count: 1,
+      },
+      x: 8.5,
+      y: -5.0,
+      dependencies: [
+        "7B8CB30F669E60EC",
+      ],
+      size: 1.0,
+      id: "421C1C23DAD7CFBF",
+      tasks: [
+        {
+          id: "286127C5BD8B2C90",
+          type: "item",
+          item: {
+            id: "iceandfire:chain",
+            count: 1,
+          },
+        },
+        {
+          id: "28B80FB2B93842FD",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_bone_wall",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70776ECEBE6E107D",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "77D30639210F021E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonsteel_fire_ingot",
+        count: 1,
+      },
+      x: 10.5,
+      y: -5.0,
+      shape: "hexagon",
+      dependencies: [
+        "421C1C23DAD7CFBF",
+      ],
+      size: 1.5,
+      id: "43FF2B6CBA021F30",
+      tasks: [
+        {
+          id: "294D4AB9D12DED49",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(iceandfire:dragon_steels)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "77E19BB36D0CB954",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "262F7C4AFD016E09",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonsteel_ice_sword",
+        count: 1,
+      },
+      x: 12.5,
+      y: -5.0,
+      dependencies: [
+        "43FF2B6CBA021F30",
+      ],
+      size: 1.0,
+      id: "5CB0CACC6679613C",
+      tasks: [
+        {
+          id: "492DCC85FC641D92",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_sword)item(iceandfire:dragonsteel_fire_axe)item(iceandfire:dragonsteel_ice_sword)item(iceandfire:dragonsteel_ice_axe)item(iceandfire:dragonsteel_lightning_sword)item(iceandfire:dragonsteel_lightning_axe))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "504A2C0B40042F4D",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "4487D6DE892F8A38",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonsteel_fire_chestplate",
+        count: 1,
+      },
+      x: 12.0,
+      y: -6.0,
+      dependencies: [
+        "43FF2B6CBA021F30",
+      ],
+      size: 1.0,
+      id: "74BC8197519FD53C",
+      tasks: [
+        {
+          id: "1818416AF26AB403",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonsteel_fire_chestplate)item(iceandfire:dragonsteel_ice_chestplate)item(iceandfire:dragonsteel_lightning_chestplate))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60955122243BA396",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "6D3E670ED09D9D9C",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonarmor_dragon_steel_fire_body",
+        count: 1,
+      },
+      x: 12.0,
+      y: -4.0,
+      dependencies: [
+        "43FF2B6CBA021F30",
+      ],
+      size: 1.0,
+      id: "2D6E3B320DCEA94C",
+      tasks: [
+        {
+          id: "5A07CBC8CAADEAD4",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonarmor_dragon_steel_fire_head)item(iceandfire:dragonarmor_dragon_steel_fire_neck)item(iceandfire:dragonarmor_dragon_steel_fire_body)item(iceandfire:dragonarmor_dragon_steel_fire_tail)item(iceandfire:dragonarmor_dragon_steel_ice_head)item(iceandfire:dragonarmor_dragon_steel_ice_neck)item(iceandfire:dragonarmor_dragon_steel_ice_body)item(iceandfire:dragonarmor_dragon_steel_ice_tail)item(iceandfire:dragonarmor_dragon_steel_lightning_head)item(iceandfire:dragonarmor_dragon_steel_lightning_neck)item(iceandfire:dragonarmor_dragon_steel_lightning_body)item(iceandfire:dragonarmor_dragon_steel_lightning_tail))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "633E2FFE10D67369",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "26C6B823383403FF",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonegg_red",
+        count: 1,
+      },
+      x: 3.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "199022E0BC1A489E",
+      ],
+      size: 1.5,
+      id: "3BC9C46AD0D3E05E",
+      tasks: [
+        {
+          id: "34EAE68FB9C3D3FB",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_red)item(iceandfire:dragonegg_green)item(iceandfire:dragonegg_bronze)item(iceandfire:dragonegg_gray)item(iceandfire:dragonegg_blue)item(iceandfire:dragonegg_white)item(iceandfire:dragonegg_sapphire)item(iceandfire:dragonegg_silver)item(iceandfire:dragonegg_electric)item(iceandfire:dragonegg_amethyst)item(iceandfire:dragonegg_copper)item(iceandfire:dragonegg_black))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C4539054768E9F9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1450D1B285A02813",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonegg_red",
+        count: 1,
+      },
+      x: 5.0,
+      y: -1.5,
+      dependencies: [
+        "3BC9C46AD0D3E05E",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "606BCC9928F72DB4",
+      tasks: [
+        {
+          id: "4245160F4EED1CDD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_red)item(iceandfire:dragonegg_green)item(iceandfire:dragonegg_bronze)item(iceandfire:dragonegg_gray))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "227EC5846FB6214F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonegg_blue",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      dependencies: [
+        "3BC9C46AD0D3E05E",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "74E84C98BFE95FDC",
+      tasks: [
+        {
+          id: "22A76FF0060CCC9A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_blue)item(iceandfire:dragonegg_white)item(iceandfire:dragonegg_sapphire)item(iceandfire:dragonegg_silver))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A87E4AE15481457",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonegg_electric",
+        count: 1,
+      },
+      x: 5.0,
+      y: 1.5,
+      dependencies: [
+        "3BC9C46AD0D3E05E",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6DF54549C3A1524E",
+      tasks: [
+        {
+          id: "4291599847A334E8",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_electric)item(iceandfire:dragonegg_amethyst)item(iceandfire:dragonegg_copper)item(iceandfire:dragonegg_black))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "766A8365A2C0DBB5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_meal",
+        count: 1,
+      },
+      x: 7.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "606BCC9928F72DB4",
+        "74E84C98BFE95FDC",
+        "6DF54549C3A1524E",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.5,
+      id: "23AF36E017614FD2",
+      tasks: [
+        {
+          id: "39E9024DCD30496C",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_meal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1853EC31DA53C7AD",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "53CB098992595531",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_stick",
+        count: 1,
+      },
+      x: 8.0,
+      y: -1.5,
+      dependencies: [
+        "23AF36E017614FD2",
+      ],
+      size: 1.0,
+      id: "28BA1DC94EFADB96",
+      tasks: [
+        {
+          id: "362C66A25D9BC1B8",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_stick",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B9E792AE7A3A5E6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "706285A69E6DBFF8",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_horn",
+        count: 1,
+      },
+      x: 9.0,
+      y: -2.5,
+      dependencies: [
+        "28BA1DC94EFADB96",
+      ],
+      size: 1.0,
+      id: "542B48C91528377D",
+      tasks: [
+        {
+          id: "734E905AA5B51726",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_horn",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B540AA5D1D9474B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5D1C5AE496B60779",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:summoning_crystal_fire",
+        count: 1,
+      },
+      x: 9.5,
+      y: -1.5,
+      dependencies: [
+        "28BA1DC94EFADB96",
+      ],
+      size: 1.0,
+      id: "20ED696F76AE2271",
+      tasks: [
+        {
+          id: "1749F873BB9B1692",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:summoning_crystal_fire)item(iceandfire:summoning_crystal_ice)item(iceandfire:summoning_crystal_lightning))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "777042F9A0A3C414",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4BCA4F00FB86859C",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:saddle",
+        count: 1,
+      },
+      x: 9.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "23AF36E017614FD2",
+      ],
+      size: 1.5,
+      id: "4166A19810245A35",
+      tasks: [
+        {
+          id: "544C27877C652C55",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "32688C87BB6074F2",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragonarmor_iron_head",
+        count: 1,
+      },
+      x: 11.0,
+      y: -1.5,
+      dependencies: [
+        "4166A19810245A35",
+      ],
+      size: 1.0,
+      id: "3BACBE2AA1E0DB47",
+      tasks: [
+        {
+          id: "6CF0F483D75B678A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(iceandfire:dragon_armors)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A4A4213D23B6510",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1060016A9B2BDD28",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:dragon_flute",
+        count: 1,
+      },
+      x: 11.0,
+      y: 1.5,
+      dependencies: [
+        "4166A19810245A35",
+      ],
+      size: 1.0,
+      id: "1E7EAA3C72E9575D",
+      tasks: [
+        {
+          id: "502EEF1A4C0922C1",
+          type: "item",
+          item: {
+            id: "iceandfire:dragon_flute",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "74288F45095F41D1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "339F26D293B7EE0A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:brush",
+        count: 1,
+      },
+      x: 8.0,
+      y: 1.5,
+      dependencies: [
+        "23AF36E017614FD2",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "59D1CB72B49F8A64",
+      tasks: [
+        {
+          id: "49C64A7167D439E9",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7D2094ABF439BFA5",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:fire_stew",
+        count: 1,
+      },
+      x: 11.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "4166A19810245A35",
+      ],
+      size: 1.5,
+      id: "50FBC8CB0EC453E1",
+      tasks: [
+        {
+          id: "544B68CBF25BAEC1",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:fire_stew)item(iceandfire:frost_stew)item(iceandfire:lightning_stew))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73BF5846E65A3BDC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3E0A7DFAD4D16658",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:lectern",
+        count: 1,
+      },
+      x: 2.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "199022E0BC1A489E",
+      ],
+      size: 1.5,
+      id: "40E7F09D3A6B013E",
+      tasks: [
+        {
+          id: "1A19615EED5DBF66",
+          type: "item",
+          item: {
+            id: "iceandfire:lectern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "383B15B9F7EC5E52",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4CD7D11DB5A29646",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:hippogryph_talon",
+        count: 1,
+      },
+      x: 2.5,
+      y: 5.5,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "219138696B238587",
+      tasks: [
+        {
+          id: "41694B451EB8EF5D",
+          type: "advancement",
+          icon: {
+            id: "iceandfire:hippogryph_talon",
+            count: 1,
+          },
+          advancement: "iceandfire:iceandfire/tame_hippogryph",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "4125F41615922950",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "491CB51DD4D299B7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:amphithere_feather",
+        count: 1,
+      },
+      x: 5.5,
+      y: 5.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "7B1C963DF16730CC",
+      tasks: [
+        {
+          id: "2CD04B5475FDB41C",
+          type: "advancement",
+          icon: {
+            id: "iceandfire:amphithere_feather",
+            count: 1,
+          },
+          advancement: "iceandfire:iceandfire/tame_amphithere",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "54281F8041D5927E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "67D8C03A6EE8DAA6",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:hippocampus_fin",
+        count: 1,
+      },
+      x: 8.0,
+      y: 3.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "3A7D120D05FE0839",
+      tasks: [
+        {
+          id: "5AA1487454ADA13C",
+          type: "advancement",
+          icon: {
+            id: "iceandfire:hippocampus_fin",
+            count: 1,
+          },
+          advancement: "iceandfire:iceandfire/tame_hippocampus",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "467D12C127E7E38E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2EFE34D2705E5E06",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:tide_blue_chestplate",
+        count: 1,
+      },
+      x: 9.5,
+      y: 3.5,
+      dependencies: [
+        "3A7D120D05FE0839",
+      ],
+      size: 1.0,
+      id: "1EF208E4A6356FB2",
+      tasks: [
+        {
+          id: "6CFEF7AF3748B929",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_chestplate)item(iceandfire:tide_bronze_chestplate)item(iceandfire:tide_deepblue_chestplate)item(iceandfire:tide_green_chestplate)item(iceandfire:tide_purple_chestplate)item(iceandfire:tide_red_chestplate)item(iceandfire:tide_teal_chestplate))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F03003E73A5C5A2",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "1400CFA6BFBE7370",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:tide_trident",
+        count: 1,
+      },
+      x: 11.0,
+      y: 3.5,
+      dependencies: [
+        "1EF208E4A6356FB2",
+      ],
+      size: 1.0,
+      id: "21419B5F4A9B8F52",
+      tasks: [
+        {
+          id: "2AD028B3619058AD",
+          type: "item",
+          item: {
+            id: "iceandfire:tide_trident",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A3AC6DDC615BA79",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "572535A8F12531AC",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:pixie_jar_0",
+        count: 1,
+      },
+      x: 4.5,
+      y: 3.5,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "1E9094CDA403E860",
+      tasks: [
+        {
+          id: "1FF7100948FDC0BA",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:pixie_jar_0)item(iceandfire:pixie_jar_1)item(iceandfire:pixie_jar_2)item(iceandfire:pixie_jar_3)item(iceandfire:pixie_jar_4))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D5C389D3247B6AE",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1D312C17B9BF1CA7",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:pixie_wand",
+        count: 1,
+      },
+      x: 6.0,
+      y: 3.5,
+      dependencies: [
+        "1E9094CDA403E860",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "46068E2E32224447",
+      tasks: [
+        {
+          id: "7E026FE5D8D58866",
+          type: "item",
+          item: {
+            id: "iceandfire:pixie_wand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1C3F9584CE692B68",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:cockatrice_eye",
+        count: 1,
+      },
+      x: 8.0,
+      y: 5.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "3C7FAE85D409147E",
+      tasks: [
+        {
+          id: "3EFFA8F128E60783",
+          type: "advancement",
+          icon: {
+            id: "iceandfire:cockatrice_eye",
+            count: 1,
+          },
+          advancement: "iceandfire:iceandfire/tame_cockatrice",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "1CE37483BBAEFB2B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1423D5D0F0F3793C",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:deathworm_red_chestplate",
+        count: 1,
+      },
+      x: 9.5,
+      y: 5.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "2904099C745CCF6F",
+      tasks: [
+        {
+          id: "160B4DB3DD6D2545",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:deathworm_red_chestplate)item(iceandfire:deathworm_white_chestplate)item(iceandfire:deathworm_yellow_chestplate))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50D5C9F267706C1E",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5D781DF4CC9FFB5D",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:deathworm_egg",
+        count: 1,
+      },
+      x: 11.0,
+      y: 5.0,
+      dependencies: [
+        "2904099C745CCF6F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3145BAAC2B937721",
+      tasks: [
+        {
+          id: "1693A3303F1251B5",
+          type: "item",
+          item: {
+            id: "iceandfire:deathworm_egg",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14564440F8AA4EED",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:forest_troll_leather_chestplate",
+        count: 1,
+      },
+      x: 4.0,
+      y: 5.0,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "416EBE0C6067825E",
+      tasks: [
+        {
+          id: "3ACB0049F0E9DBD5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(iceandfire:forest_troll_leather_chestplate)item(iceandfire:frost_troll_leather_chestplate)item(iceandfire:mountain_troll_leather_chestplate))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6CC12047F737258B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "49CA4C4CEEC85563",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:hydra_arrow",
+        count: 1,
+      },
+      x: 8.0,
+      y: 6.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "3C2D0FF5070F4CA0",
+      tasks: [
+        {
+          id: "72A227AE7AFD3DF3",
+          type: "item",
+          item: {
+            id: "iceandfire:hydra_arrow",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "38C6FE82F48CD246",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3969F394BC910714",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:silver_sword",
+        count: 1,
+      },
+      x: 9.5,
+      y: 6.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      id: "61BBA4CF0F6E67CA",
+      tasks: [
+        {
+          id: "62D84183806E1831",
+          type: "item",
+          item: {
+            id: "iceandfire:silver_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "477EF12C6820B57A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6BD2A53F7612B925",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:ghost_sword",
+        count: 1,
+      },
+      x: 11.0,
+      y: 6.5,
+      dependencies: [
+        "61BBA4CF0F6E67CA",
+      ],
+      size: 1.0,
+      id: "581254729749E4EF",
+      tasks: [
+        {
+          id: "6CE487BC6798C872",
+          type: "item",
+          item: {
+            id: "iceandfire:ghost_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "380606CC3BD9C128",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7AB899D002A999E4",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "iceandfire:sheep_helmet",
+        count: 1,
+      },
+      x: 1.0,
+      y: 5.0,
+      hide_dependency_lines: true,
+      dependencies: [
+        "40E7F09D3A6B013E",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5F04C8F8D8DC7A89",
+      tasks: [
+        {
+          id: "594B2EFD56FDF639",
+          type: "item",
+          item: {
+            id: "iceandfire:sheep_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "7CDC5D328B6C5EDA",
+          type: "item",
+          item: {
+            id: "iceandfire:sheep_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "19CB8DABA4472254",
+          type: "item",
+          item: {
+            id: "iceandfire:sheep_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "6C279A705791E0F3",
+          type: "item",
+          item: {
+            id: "iceandfire:sheep_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "434ECE115C738078",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "250945907CE6EA9D",
+      x: 2.0,
+      y: -1.0,
+      id: "28A32DECA5CAE2A3",
+    },
+    {
+      linked_quest: "7465320331494BD7",
+      x: 2.0,
+      y: 1.0,
+      id: "468283EBA334CD68",
+    },
+    {
+      linked_quest: "73127D9218A217CB",
+      x: 4.0,
+      y: 6.5,
+      id: "797E51DC1049255A",
+    },
+    {
+      linked_quest: "15C698B306B3B577",
+      x: 12.5,
+      y: 6.5,
+      id: "693CE0D47E8A0330",
+    },
+  ],
+  images: [
+    {
+      x: -3.5,
+      y: 0.0,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_logo.png",
+      click_action: {
+        type: "open_quest",
+        data: "199022E0BC1A489E",
+      },
+      id: "52BC55E7EFE26AA7",
+    },
+    {
+      x: 8.0,
+      y: -7.0,
+      width: 4.6,
+      height: 1.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_dragon_fire.png",
+      id: "492FF31729DB4287",
+    },
+    {
+      x: 13.0,
+      y: -1.5,
+      width: 1.1,
+      height: 1.2,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_hatch_fire.png",
+      id: "4A4BBB0CA83B49F3",
+    },
+    {
+      x: 13.0,
+      y: 0.15000000000000013,
+      width: 1.2,
+      height: 1.15,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_hatch_ice.png",
+      id: "43B8DCD65F0E479B",
+    },
+    {
+      x: 13.0,
+      y: 1.5,
+      width: 0.9,
+      height: 1.45,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_hatch_lightning.png",
+      id: "53EFB7DF2F35E2ED",
+    },
+    {
+      x: 16.5,
+      y: 0.5,
+      width: 4.3,
+      height: 1.75,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_dragon_ice.png",
+      id: "7A1B5CCF56E062B7",
+    },
+    {
+      x: 1.0,
+      y: 7.5,
+      width: 4.3,
+      height: 1.65,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_dragon_lightning.png",
+      id: "5366A0EF699A1F5D",
+    },
+    {
+      x: 0.0,
+      y: -3.5,
+      width: 2.1,
+      height: 1.1,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_hippogryphs.png",
+      id: "4CBBC806462A44A6",
+    },
+    {
+      x: 6.5,
+      y: -3.0,
+      width: 1.6,
+      height: 1.1,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_amphithere.png",
+      id: "61290F7653550F56",
+    },
+    {
+      x: 13.5,
+      y: 4.5,
+      width: 1.6,
+      height: 1.1,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_serpent.png",
+      id: "76E0F0FBA333F38D",
+    },
+    {
+      x: 7.5,
+      y: 8.0,
+      width: 2.8,
+      height: 0.95,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_deathworms.png",
+      id: "4F814CB8C68A51FB",
+    },
+    {
+      x: -1.0,
+      y: 3.5,
+      width: 1.5,
+      height: 1.2,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/iceandfire_trolls.png",
+      id: "30675417FD95AE7A",
+    },
+  ],
+}

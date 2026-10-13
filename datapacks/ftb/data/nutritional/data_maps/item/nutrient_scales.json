@@ -1,0 +1,13 @@
+{
+  "values": {
+    "ftb:coffee": {
+      "scales": {
+        "nutritional:dairy": 0.2,
+        "nutritional:fruit": 0.2,
+        "nutritional:grain": 0.2,
+        "nutritional:protein": 0.2,
+        "nutritional:vegetable": 0.2
+      }
+    }
+  }
+}

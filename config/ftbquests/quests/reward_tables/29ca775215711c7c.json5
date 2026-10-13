@@ -1,0 +1,58 @@
+{
+  id: "29CA775215711C7C",
+  order_index: 32,
+  icon: {
+    id: "kindredspirits:kindred_charm",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "7F52086DF47F98F7",
+      item: {
+        id: "kindredspirits:nightfox_spawn_egg",
+        count: 1,
+        components: {
+          "minecraft:entity_data": {
+            id: "kindredspirits:nightfox",
+            Tags: [
+              "ftb_starter_spirit",
+            ],
+          },
+        },
+      },
+    },
+    {
+      id: "799074FC81261062",
+      item: {
+        id: "kindredspirits:direwolf_spawn_egg",
+        count: 1,
+        components: {
+          "minecraft:entity_data": {
+            id: "kindredspirits:direwolf",
+            Tags: [
+              "ftb_starter_spirit",
+            ],
+          },
+        },
+      },
+    },
+    {
+      id: "3792EB98E6E21230",
+      item: {
+        id: "kindredspirits:quokka_spawn_egg",
+        count: 1,
+        components: {
+          "minecraft:entity_data": {
+            id: "kindredspirits:quokka",
+            Tags: [
+              "ftb_starter_spirit",
+            ],
+          },
+        },
+      },
+    },
+  ],
+}

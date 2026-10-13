@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:fluid_freezer",
+  "ingredient": {
+    "amount": 1000,
+    "id": "ftb:bio_resin"
+  },
+  "result": {
+    "id": "xycraft_machines:resin_block"
+  }
+}

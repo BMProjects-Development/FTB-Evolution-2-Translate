@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "enderio_evolution:energetic_silver_ingot",
+    "minecraft:ender_pearl"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "enderio_evolution:vivid_alloy_ingot"
+    }
+  ],
+  "time": 80
+}

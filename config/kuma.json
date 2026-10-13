@@ -1,0 +1,14 @@
+{
+  "inventoryessentials:sort_inventory": {
+    "modifiers": []
+  },
+  "trashslot:delete": {
+    "modifiers": []
+  },
+  "trashslot:delete_all": {
+    "modifiers": []
+  },
+  "pantryforblockheads:your_key": {
+    "modifiers": []
+  }
+}

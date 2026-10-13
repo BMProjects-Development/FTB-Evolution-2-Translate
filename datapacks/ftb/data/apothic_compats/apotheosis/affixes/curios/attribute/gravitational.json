@@ -1,0 +1,67 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:gravity",
+  "categories": [
+    "apothic_compats:back",
+    "apothic_compats:belt",
+    "apothic_compats:body",
+    "apothic_compats:bracelet",
+    "apothic_compats:charm",
+    "apothic_compats:curio",
+    "apothic_compats:feet",
+    "apothic_compats:hands",
+    "apothic_compats:head",
+    "apothic_compats:necklace",
+    "apothic_compats:ring",
+    "apothic_compats:brooch",
+    "apothic_compats:rune",
+    "apothic_compats:an_focus"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 25
+    }
+  },
+  "operation": "add_multiplied_total",
+  "values": {
+    "apotheosis:common": {
+      "min": -0.02,
+      "max": -0.04,
+      "step": -0.01
+    },
+    "apotheosis:uncommon": {
+      "min": -0.03,
+      "max": -0.05,
+      "step": -0.01
+    },
+    "apotheosis:rare": {
+      "min": -0.04,
+      "max": -0.06,
+      "step": -0.01
+    },
+    "apotheosis:epic": {
+      "min": -0.05,
+      "max": -0.07,
+      "step": -0.01
+    },
+    "apotheosis:mythic": {
+      "min": -0.06,
+      "max": -0.08,
+      "step": -0.01
+    },
+    "ftbarmory:exalted": {
+      "min": -0.07,
+      "max": -0.09,
+      "step": -0.01
+    }
+  }
+}

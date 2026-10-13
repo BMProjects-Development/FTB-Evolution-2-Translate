@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": [
+    "minecraft:basalt_deltas",
+    "minecraft:crimson_forest",
+    "minecraft:nether_wastes",
+    "minecraft:soul_sand_valley",
+    "minecraft:warped_forest"
+  ],
+  "features": [
+    "minecraft:ore_gold_deltas",
+    "minecraft:ore_gold_nether"
+  ],
+  "steps": ["underground_ores"]
+}

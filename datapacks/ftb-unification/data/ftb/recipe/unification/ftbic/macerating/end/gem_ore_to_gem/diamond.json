@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:diamond_end_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 4,
+        "id": "minecraft:diamond"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 2,
+        "id": "minecraft:diamond"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+#Gloom Spore - Configure conversion settings for Gloom Spores
+[gloom_spore]
+	#Conversion area size (blocks)
+	#Area is square, centered on clicked block
+	#Converts a 5x5 area (default)
+	# Default: 5
+	# Range: 3 ~ 15
+	conversion_area = 5
+
+#Dark Dirt - Configure spawning and behavior settings for Dark Dirt blocks
+[dark_dirt]
+	#Number of mobs to spawn per 16x16 area
+	#Higher numbers increase mob density but may impact performance
+	# Default: 12
+	# Range: 1 ~ 50
+	mobs_per_area = 12
+	#Mob spawning check interval (ticks)
+	#How often Dark Dirt checks for spawning opportunities
+	#20 ticks = 1 second
+	# Default: 20
+	# Range: 5 ~ 200
+	check_interval = 20
+	#Enable Dark Dirt particle effects
+	#If true, Dark Dirt shows gray particle effects
+	particles_enabled = true
+
+#Glimmer Sprout - Configure conversion settings for Glimmer Sprouts
+[glimmer_sprout]
+	#Conversion area size (blocks)
+	#Area is square, centered on clicked block
+	#Converts a 5x5 area (default)
+	# Default: 5
+	# Range: 3 ~ 15
+	conversion_area = 5
+
+#Glimmer Grass - Configure spawning and behavior settings for Glimmer Grass blocks
+[glimmer_grass]
+	#Number of mobs to spawn per 16x16 area
+	#Higher numbers increase mob density but may impact performance
+	# Default: 12
+	# Range: 1 ~ 50
+	mobs_per_area = 12
+	#Mob spawning check interval (ticks)
+	#How often Glimmer Grass checks for spawning opportunities
+	#20 ticks = 1 second
+	# Default: 20
+	# Range: 5 ~ 200
+	check_interval = 20
+	#Enable Glimmer Grass particle effects
+	#If true, Glimmer Grass shows purple particle effects
+	particles_enabled = true
+
+#Genesis Chamber - Configure spawning behavior for Genesis Chamber blocks
+[genesis_chamber]
+	#Maximum number of mobs allowed in Genesis Chamber spawn zone
+	#Genesis Chamber stops spawning when this limit is reached
+	#Higher numbers allow more mobs but may impact performance
+	# Default: 12
+	# Range: 1 ~ 100
+	spawn_cap = 12
+	#Enable Genesis Chamber particle effects
+	#If true, Genesis Chamber shows spawner particle effects
+	particles_enabled = true
+
+#Genesis Infuser - Configure infusion processing for Genesis Infuser blocks
+[genesis_infuser]
+	#Base processing time per infused item (ticks)
+	#Reduced by Speed Modules, lower values = faster processing
+	#20 ticks = 1 second
+	# Default: 200
+	# Range: 20 ~ 1200
+	process_ticks = 200
+	#Liquid XP consumed per infused item (mB)
+	#1000 mB = 1 bucket of Liquid XP
+	#Higher values increase the XP cost per item
+	# Default: 125
+	# Range: 1 ~ 1000
+	xp_cost = 125
+
+#Damage Pad - Configure controller linking settings for Damage Pads
+[damage_pad]
+	#Maximum number of Damage Pads a single Controller can have linked
+	#Higher numbers allow larger setups but may impact performance
+	# Default: 25
+	# Range: 5 ~ 250
+	max_connected_pads = 25
+	#Maximum distance (blocks) a Damage Pad can be from a Controller to be linked
+	#Higher numbers allow more spread out setups
+	# Default: 8
+	# Range: 1 ~ 64
+	connection_radius = 8

@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "mysticalagriculture:prosperity_ore",
+  "variants": [
+    "mysticalagriculture:deepslate_prosperity_ore",
+    "mysticalagradditions:nether_prosperity_ore",
+    "mysticalagradditions:end_prosperity_ore"
+  ],
+  "name_color": "#C8A84B",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.prosperity_ore",
+  "fabricator_drops": [
+    {
+      "id": "mysticalagriculture:prosperity_shard",
+      "count": 6
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

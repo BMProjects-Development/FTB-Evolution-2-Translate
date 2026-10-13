@@ -1,0 +1,1072 @@
+{
+  id: "14AA72CD7A5DA862",
+  group: "4780068BA76609B8",
+  order_index: 12,
+  icon: {
+    id: "powah:reactor_nitro",
+    count: 1,
+  },
+  filename: "powah",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "659B9311FB49C425",
+  quests: [
+    {
+      icon: {
+        id: "powah:energizing_orb",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "659B9311FB49C425",
+      tasks: [
+        {
+          id: "770C5D462834CED2",
+          type: "item",
+          item: {
+            id: "powah:capacitor_basic",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3ECAAC76B76F5AB0",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "6BB0DD7DFB43FF4F",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:dielectric_casing",
+        count: 1,
+      },
+      x: 0.0,
+      y: -3.0,
+      shape: "hexagon",
+      dependencies: [
+        "659B9311FB49C425",
+      ],
+      size: 1.5,
+      id: "3D5E93A70A19DBEC",
+      tasks: [
+        {
+          id: "696EE7F87A29653B",
+          type: "item",
+          item: {
+            id: "powah:dielectric_casing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29DA432937574B18",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "32CE3657EE7F9F91",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:furnator_starter",
+        count: 1,
+      },
+      x: 0.0,
+      y: -4.5,
+      dependencies: [
+        "3D5E93A70A19DBEC",
+      ],
+      size: 1.0,
+      id: "5A173AB935AC82E4",
+      tasks: [
+        {
+          id: "57B0EC0DEAAB280A",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:furnator_starter)item(powah:furnator_basic)item(powah:furnator_hardened)item(powah:furnator_blazing)item(powah:furnator_niotic)item(powah:furnator_spirited)item(powah:furnator_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A51EDA1B8EB8A1C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "490AB14172FB327D",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:magmator_starter",
+        count: 1,
+      },
+      x: 1.0,
+      y: -4.0,
+      dependencies: [
+        "3D5E93A70A19DBEC",
+      ],
+      size: 1.0,
+      id: "79BDC2AAA41B606C",
+      tasks: [
+        {
+          id: "3A5A512C7164CE80",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:magmator_starter)item(powah:magmator_basic)item(powah:magmator_hardened)item(powah:magmator_blazing)item(powah:magmator_niotic)item(powah:magmator_spirited)item(powah:magmator_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66EF2DB63E49F58C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7C4A70A742127488",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:solar_panel_starter",
+        count: 1,
+      },
+      x: -1.0,
+      y: -4.0,
+      dependencies: [
+        "3D5E93A70A19DBEC",
+      ],
+      size: 1.0,
+      id: "2F3881EC8494FD41",
+      tasks: [
+        {
+          id: "7CAAE738E0F25FC5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:solar_panel_starter)item(powah:solar_panel_basic)item(powah:solar_panel_hardened)item(powah:solar_panel_blazing)item(powah:solar_panel_niotic)item(powah:solar_panel_spirited)item(powah:solar_panel_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "265B7E86EC8ECC5F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4AF72D298F911079",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:steel_energized",
+        count: 1,
+      },
+      x: 2.5,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "659B9311FB49C425",
+      ],
+      size: 1.5,
+      id: "6E685D9B4F2E4835",
+      tasks: [
+        {
+          id: "166A7821F720F088",
+          type: "item",
+          item: {
+            id: "powah:steel_energized",
+            count: 1,
+          },
+        },
+        {
+          id: "4433425F7588C6E0",
+          type: "item",
+          item: {
+            id: "powah:capacitor_hardened",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6C3C092A17AC5A8D",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "14F4B9867FFCB9FA",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:crystal_blazing",
+        count: 1,
+      },
+      x: 4.5,
+      y: -2.0,
+      dependencies: [
+        "6E685D9B4F2E4835",
+      ],
+      size: 1.0,
+      id: "507466052C8963E2",
+      tasks: [
+        {
+          id: "7EB3093ED3322CE7",
+          type: "item",
+          item: {
+            id: "powah:crystal_blazing",
+            count: 1,
+          },
+        },
+        {
+          id: "45E19999C57653D5",
+          type: "item",
+          item: {
+            id: "powah:capacitor_blazing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E85CBAF5E8FFD7F",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "12B8FD6A8FA9AD20",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:crystal_niotic",
+        count: 1,
+      },
+      x: 6.5,
+      y: -2.0,
+      dependencies: [
+        "507466052C8963E2",
+      ],
+      size: 1.0,
+      id: "5CB388F2A9A65BD6",
+      tasks: [
+        {
+          id: "753A8A5BEA2D405D",
+          type: "item",
+          item: {
+            id: "powah:crystal_niotic",
+            count: 1,
+          },
+        },
+        {
+          id: "78450CB3C3FC9E2E",
+          type: "item",
+          item: {
+            id: "powah:capacitor_niotic",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4097732DC6C6E7E9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "34EB5AE40F648499",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:crystal_spirited",
+        count: 1,
+      },
+      x: 8.5,
+      y: -2.0,
+      dependencies: [
+        "5CB388F2A9A65BD6",
+      ],
+      size: 1.0,
+      id: "4511A1FF62CE1D31",
+      tasks: [
+        {
+          id: "250D80CE86316808",
+          type: "item",
+          item: {
+            id: "powah:crystal_spirited",
+            count: 1,
+          },
+        },
+        {
+          id: "786C7A7AE2FE7642",
+          type: "item",
+          item: {
+            id: "powah:capacitor_spirited",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4FBA044012C8E7B3",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2AC19D2832913706",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:crystal_nitro",
+        count: 1,
+      },
+      x: 10.5,
+      y: -2.0,
+      dependencies: [
+        "4511A1FF62CE1D31",
+      ],
+      size: 1.0,
+      id: "3B9F459FC8D63ED1",
+      tasks: [
+        {
+          id: "6442B2BE77BE0F83",
+          type: "item",
+          item: {
+            id: "powah:crystal_nitro",
+            count: 1,
+          },
+        },
+        {
+          id: "774F2DE70C573B0B",
+          type: "item",
+          item: {
+            id: "powah:capacitor_nitro",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5031AFB73C1254F2",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3D13352004AC5920",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:energizing_rod_blazing",
+        count: 1,
+      },
+      x: 4.5,
+      y: -4.0,
+      dependencies: [
+        "6E685D9B4F2E4835",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "43504ED5CA8F70A6",
+      tasks: [
+        {
+          id: "50E5F6B7D0E194CF",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:energizing_rod_hardened)item(powah:energizing_rod_blazing)item(powah:energizing_rod_niotic)item(powah:energizing_rod_spirited)item(powah:energizing_rod_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DF82E90750522EF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:charged_snowball",
+        count: 1,
+      },
+      x: -1.5,
+      y: 1.5,
+      dependencies: [
+        "659B9311FB49C425",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "32FD0431069FEC7F",
+      tasks: [
+        {
+          id: "67BB18C6FAC4A003",
+          type: "item",
+          item: {
+            id: "powah:charged_snowball",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "258DD630C05A7BDC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:uraninite",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "659B9311FB49C425",
+      ],
+      size: 1.5,
+      id: "2CB16626FAB64712",
+      tasks: [
+        {
+          id: "59A8A6EA7C3178F7",
+          type: "item",
+          item: {
+            id: "powah:uraninite",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "271256505CFDB8D4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "74CF0F2A445768FD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:reactor_hardened",
+        count: 1,
+      },
+      x: 4.5,
+      y: 0.0,
+      dependencies: [
+        "2CB16626FAB64712",
+        "6E685D9B4F2E4835",
+        "4BCFBAC4CF524BF2",
+      ],
+      size: 1.0,
+      id: "64DC0D2E2E556BC1",
+      tasks: [
+        {
+          id: "305AB0572C7609B5",
+          type: "item",
+          item: {
+            id: "powah:reactor_hardened",
+            count: 1,
+          },
+          count: 36,
+        },
+      ],
+      rewards: [
+        {
+          id: "3C8F384F973FBD55",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5BC383A9FCBE3119",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:reactor_blazing",
+        count: 1,
+      },
+      x: 6.5,
+      y: 0.0,
+      dependencies: [
+        "64DC0D2E2E556BC1",
+        "507466052C8963E2",
+      ],
+      size: 1.0,
+      id: "6D4094356ADE50C1",
+      tasks: [
+        {
+          id: "74070D31DBDEA04C",
+          type: "item",
+          item: {
+            id: "powah:reactor_blazing",
+            count: 1,
+          },
+          count: 36,
+        },
+      ],
+      rewards: [
+        {
+          id: "4D9D3A98EEB6ED9F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4C52015B7DB8F934",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:reactor_niotic",
+        count: 1,
+      },
+      x: 8.5,
+      y: 0.0,
+      dependencies: [
+        "6D4094356ADE50C1",
+        "5CB388F2A9A65BD6",
+      ],
+      size: 1.0,
+      id: "3CAB1D7E7E1232A4",
+      tasks: [
+        {
+          id: "14C888912CD5CA13",
+          type: "item",
+          item: {
+            id: "powah:reactor_niotic",
+            count: 1,
+          },
+          count: 36,
+        },
+      ],
+      rewards: [
+        {
+          id: "193D90AE41329144",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "69DD4FA804B46D7B",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:reactor_spirited",
+        count: 1,
+      },
+      x: 10.5,
+      y: 0.0,
+      dependencies: [
+        "3CAB1D7E7E1232A4",
+        "4511A1FF62CE1D31",
+      ],
+      size: 1.0,
+      id: "2ECA0F51EB4FEAF8",
+      tasks: [
+        {
+          id: "42E34730070B60A9",
+          type: "item",
+          item: {
+            id: "powah:reactor_spirited",
+            count: 1,
+          },
+          count: 36,
+        },
+      ],
+      rewards: [
+        {
+          id: "477E558A1DC7F48F",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "39F59BADCB5DE2EE",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:reactor_nitro",
+        count: 1,
+      },
+      x: 12.5,
+      y: 0.0,
+      dependencies: [
+        "2ECA0F51EB4FEAF8",
+        "3B9F459FC8D63ED1",
+      ],
+      size: 1.5,
+      id: "4C85D0D1C8143B30",
+      tasks: [
+        {
+          id: "7155D60EEC530953",
+          type: "item",
+          item: {
+            id: "powah:reactor_nitro",
+            count: 1,
+          },
+          count: 36,
+        },
+      ],
+      rewards: [
+        {
+          id: "3CF4FF6D1853F762",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "11C56BBC26DB6120",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:dry_ice",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "659B9311FB49C425",
+      ],
+      size: 1.5,
+      id: "4BCFBAC4CF524BF2",
+      tasks: [
+        {
+          id: "2A7E20FE685249D5",
+          type: "item",
+          item: {
+            id: "powah:dry_ice",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "32B9D1410BEFB860",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5E19D845B93E0D14",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:thermo_generator_hardened",
+        count: 1,
+      },
+      x: 4.5,
+      y: 2.0,
+      dependencies: [
+        "4BCFBAC4CF524BF2",
+      ],
+      size: 1.0,
+      id: "11F7C5E1968C6302",
+      tasks: [
+        {
+          id: "5716EAED77C9E773",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:thermo_generator_hardened)item(powah:thermo_generator_blazing)item(powah:thermo_generator_niotic)item(powah:thermo_generator_spirited)item(powah:thermo_generator_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4463FC4D4A4A107F",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "17538B0639E0943E",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:blazing_crystal_block",
+        count: 1,
+      },
+      x: 6.5,
+      y: 2.0,
+      dependencies: [
+        "11F7C5E1968C6302",
+      ],
+      size: 1.0,
+      id: "32AB4B67D179B660",
+      tasks: [
+        {
+          id: "29808F1ED5014C0B",
+          type: "item",
+          item: {
+            id: "powah:blazing_crystal_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1113E1C2F34429B3",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "262BB1327D75469B",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:wrench",
+        count: 1,
+      },
+      x: 0.0,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "659B9311FB49C425",
+      ],
+      size: 1.5,
+      id: "1E67AF1C79BF7DAE",
+      tasks: [
+        {
+          id: "4DAD4934C168D432",
+          type: "item",
+          item: {
+            id: "powah:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2945FD1C9E7AD025",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1C412384B1699501",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:energy_hopper_starter",
+        count: 1,
+      },
+      x: 0.5,
+      y: 4.5,
+      dependencies: [
+        "1E67AF1C79BF7DAE",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "62DE7CEA9938DAE3",
+      tasks: [
+        {
+          id: "191F5DB927BE118D",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:energy_hopper_starter)item(powah:energy_hopper_basic)item(powah:energy_hopper_hardened)item(powah:energy_hopper_blazing)item(powah:energy_hopper_niotic)item(powah:energy_hopper_spirited)item(powah:energy_hopper_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "237963ED829D36E8",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:energy_discharger_starter",
+        count: 1,
+      },
+      x: -0.5,
+      y: 4.5,
+      dependencies: [
+        "1E67AF1C79BF7DAE",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1F9BB436BA7661B2",
+      tasks: [
+        {
+          id: "55B90D46974B9F90",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:energy_discharger_starter)item(powah:energy_discharger_basic)item(powah:energy_discharger_hardened)item(powah:energy_discharger_blazing)item(powah:energy_discharger_niotic)item(powah:energy_discharger_spirited)item(powah:energy_discharger_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F2013D45A84676A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "7C0EFB4A52F2EC61",
+      x: -6.0,
+      y: 2.75,
+      shape: "square",
+      id: "66F8FC1CBF1E3C70",
+    },
+    {
+      linked_quest: "4F092D86017F37E9",
+      x: -4.5,
+      y: 2.75,
+      shape: "square",
+      id: "18B0B116E8EFE498",
+    },
+    {
+      linked_quest: "1706D0B9391ED8E1",
+      x: -3.0,
+      y: 2.75,
+      shape: "square",
+      id: "172BF7895376AFD6",
+    },
+    {
+      linked_quest: "6A4A2A2EFD552316",
+      x: -6.0,
+      y: 4.25,
+      shape: "square",
+      id: "31AFFF1C17CBFC26",
+    },
+    {
+      linked_quest: "1CFBFD1CE648772F",
+      x: -4.5,
+      y: 4.25,
+      shape: "square",
+      id: "43AB33BB2A0B94DC",
+    },
+    {
+      linked_quest: "70A9E1AC900A77B4",
+      x: -3.0,
+      y: 4.25,
+      shape: "square",
+      id: "7D868DB010158979",
+    },
+    {
+      linked_quest: "339B63DF5067A4F4",
+      x: 4.5,
+      y: 4.0,
+      shape: "square",
+      id: "761762AE7CF11746",
+    },
+  ],
+  images: [
+    {
+      x: -4.5,
+      y: 0.0,
+      width: 5.0,
+      height: 1.25,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/powah_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "659B9311FB49C425",
+      },
+      id: "72E8E4A17756AADE",
+    },
+    {
+      x: -4.5,
+      y: 1.7,
+      width: 3.0,
+      height: 0.42,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/logistics_title.png",
+      id: "5672E67BA95D415A",
+    },
+    {
+      x: -4.5,
+      y: -2.5,
+      width: 5.87,
+      height: 2.85,
+      rotation: 0.0,
+      image: "ftb:textures/quests/powah/powah_energizing.png",
+      id: "31800CC502E4BB09",
+    },
+    {
+      x: 13.0,
+      y: -4.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 12.0,
+      image: "powah:item/crystal_nitro",
+      id: "16270A71E487A2DC",
+    },
+    {
+      x: 5.5,
+      y: -6.0,
+      width: 1.95,
+      height: 1.95,
+      rotation: -10.0,
+      image: "powah:item/crystal_blazing",
+      id: "33A1CC5165CFCF20",
+    },
+    {
+      x: 4.5,
+      y: 4.0,
+      width: 1.8,
+      height: 1.8,
+      rotation: 45.0,
+      image: "powah:block/dry_ice",
+      id: "4A4FBC3EB8492977",
+    },
+  ],
+}

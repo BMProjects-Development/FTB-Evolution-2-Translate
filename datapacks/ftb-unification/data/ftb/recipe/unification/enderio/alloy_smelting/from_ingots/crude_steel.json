@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 10000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:iron_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "minecraft:clay_ball"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:cobblestones"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_evolution:crude_steel_ingot"
+  }
+}

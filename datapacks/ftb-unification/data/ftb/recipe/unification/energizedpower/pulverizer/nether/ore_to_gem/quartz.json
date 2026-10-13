@@ -1,0 +1,23 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "minecraft:nether_quartz_ore",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "result": {
+      "id": "minecraft:quartz"
+    }
+  }
+}

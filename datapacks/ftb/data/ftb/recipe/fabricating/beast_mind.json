@@ -1,0 +1,39 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:stellar_chart",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:causal_anchor",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:cognition_array",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_block",
+      "count": 4
+    }
+  ],
+  "fluids": [
+    {
+      "id": "advanced_ae:quantum_infusion_source",
+      "amount": 8000
+    },
+    {
+      "id": "justdirethings:time_fluid_source",
+      "amount": 8000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:beast_mind"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 5000000,
+  "stage": "ftb_beast_phase3"
+}

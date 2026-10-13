@@ -1,0 +1,31 @@
+{
+  "create_version": "26.1.1",
+  "biomes": {
+    "amber_land": true,
+    "blossoming_spires": true,
+    "chorus_forest": true,
+    "crystal_mountains": true,
+    "dragon_graveyards": true,
+    "dry_shrubland": true,
+    "dust_wastelands": true,
+    "foggy_mushroomland": true,
+    "glowing_grasslands": true,
+    "ice_starfield": true,
+    "lantern_woods": true,
+    "megalake": true,
+    "shadow_forest": true,
+    "sulphur_springs": true,
+    "umbrella_jungle": true,
+    "umbra_valley": true,
+    "megalake_grove": true,
+    "neon_oasis": true,
+    "painted_mountains": true,
+    "empty_end_cave": true,
+    "empty_smaragdant_cave": true,
+    "lush_smaragdant_cave": true,
+    "empty_aurora_cave": true,
+    "lush_aurora_cave": true,
+    "jade_cave": true
+  },
+  "modify_version": "26.1.1"
+}

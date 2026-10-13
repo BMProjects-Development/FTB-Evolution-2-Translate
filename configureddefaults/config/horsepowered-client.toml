@@ -1,0 +1,8 @@
+#Client settings
+[client]
+	#If the amount text on how many items is in a stack in a grindstone should render
+	renderItemAmount = true
+	#Must look at the block to show the amount in it
+	mustLookAtBlock = true
+	#If true will show the area needed when placing a HP block
+	showObstructedPlace = true

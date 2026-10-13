@@ -1,0 +1,12 @@
+#CSV binding overrides for Config Opener.
+#Mods register defaults via CsvRuleRegistry.register(modId, path, ruleString).
+#Each entry: {len}{SEP}{rulePath};{modId}:{type}:{configPath};{colDef};...
+csv_manager = []
+#Color binding overrides.
+#Mods register defaults via ColorRuleRegistry.register(...).
+#Each entry: {storage};{order};{modId}:{type}:{primaryPath};{extra...}
+color_manager = []
+#When true, the Mods button on the title screen and pause menu opens the ACM mod browser
+#instead of NeoForge Mod List.
+#/another_config_manager config always opens the browser regardless of this flag.
+replace_mods_button = false

@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:coal_nether_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "minecraft:coal",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

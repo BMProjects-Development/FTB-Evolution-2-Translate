@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:garnet",
+  "ingredient": {
+    "tag": "c:gems/garnet"
+  },
+  "color": 9705238,
+  "head_stats": {
+    "durability": 600,
+    "mining_speed": 7.0,
+    "attack_damage": 2.5,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 14,
+    "trait": "jagged"
+  },
+  "handle_stats": {
+    "durability_mult": 0.05,
+    "speed_mult": 0.0,
+    "damage_mult": 0.03,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 120
+  }
+}

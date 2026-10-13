@@ -1,0 +1,75 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "entity": "arsmagicalegacy:fire_guardian",
+  "variants": [
+    "arsmagicalegacy:air_guardian",
+    "arsmagicalegacy:arcane_guardian",
+    "arsmagicalegacy:earth_guardian",
+    "arsmagicalegacy:ender_guardian",
+    "arsmagicalegacy:ice_guardian",
+    "arsmagicalegacy:life_guardian",
+    "arsmagicalegacy:lightning_guardian",
+    "arsmagicalegacy:nature_guardian",
+    "arsmagicalegacy:water_guardian"
+  ],
+  "name": {
+    "text": "Ars Magica Guardian"
+  },
+  "name_color": "#B04AE0",
+  "display": {
+    "scale": 0.4
+  },
+  "sim_cost": 2048,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.ars_magica_guardian",
+  "fabricator_drops": [
+    {
+      "id": "arsmagicalegacy:air_sled",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:arcane_spell_book",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:earth_armor",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:ender_boots",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:fire_antennae",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:winters_grasp",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:life_ward",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:lightning_charm",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:nature_scythe",
+      "count": 1
+    },
+    {
+      "id": "arsmagicalegacy:water_orbs",
+      "count": 1
+    }
+  ]
+}

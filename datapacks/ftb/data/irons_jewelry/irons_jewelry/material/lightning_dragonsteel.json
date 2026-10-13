@@ -1,0 +1,33 @@
+{
+  "descriptionId": "ftb.irons.material.lightning_dragonsteel",
+  "ingredient": "iceandfire:dragonsteel_lightning_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/lightning_dragonsteel",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:attack_speed",
+      "operation": "add_multiplied_base",
+      "amount": 0.06
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:speed"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:mining_fatigue"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "amount": {
+          "base": 3.0,
+          "scalar": 1.0
+        },
+        "damageType": "minecraft:lightning_bolt"
+      },
+      "targetSelf": false
+    }
+  }
+}

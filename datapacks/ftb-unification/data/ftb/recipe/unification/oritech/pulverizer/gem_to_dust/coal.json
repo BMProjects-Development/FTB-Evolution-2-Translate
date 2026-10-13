@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:gems/coal"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:coal_dust"
+    }
+  ],
+  "time": 100
+}

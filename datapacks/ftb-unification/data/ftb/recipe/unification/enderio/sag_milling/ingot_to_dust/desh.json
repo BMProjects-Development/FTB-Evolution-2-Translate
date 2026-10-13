@@ -1,0 +1,14 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": "#c:ingots/desh",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:desh_dust"
+      }
+    }
+  ]
+}

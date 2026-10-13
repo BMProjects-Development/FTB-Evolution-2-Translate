@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:storage_blocks/gold",
+    "minecraft:barrel",
+    "#c:dusts/redstone"
+  ],
+  "result": {
+    "id": "mystianapiary:output_upgrade_2",
+    "count": 1
+  }
+}

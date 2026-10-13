@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "productivefarming:farmer/level_3/black_truffle",
+    "productivefarming:farmer/level_3/chanterelle",
+    "productivefarming:farmer/level_3/laetiporus",
+    "productivefarming:farmer/level_3/lions_mane",
+    "productivefarming:farmer/level_3/morel",
+    "productivefarming:farmer/level_3/oyster_mushroom",
+    "productivefarming:farmer/level_3/porcini",
+    "productivefarming:farmer/level_3/portobello",
+    "productivefarming:farmer/level_3/shiitake",
+    "productivefarming:farmer/level_3/red_grape_seeds",
+    "productivefarming:farmer/level_3/green_grape_seeds",
+    "productivefarming:farmer/level_3/cantaloupe_seeds",
+    "productivefarming:farmer/level_3/honeydew_melon_seeds"
+  ]
+}

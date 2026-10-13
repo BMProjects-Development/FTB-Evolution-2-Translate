@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "ftbmaterials:emerald_nether_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "minecraft:emerald"
+  }
+}

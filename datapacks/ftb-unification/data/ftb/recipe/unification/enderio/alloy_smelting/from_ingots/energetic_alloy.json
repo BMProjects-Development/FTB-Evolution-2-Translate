@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4800,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/redstone"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/conductive_alloy"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "enderio:energetic_alloy_ingot"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/iron"
+  ],
+  "itemResults": [
+    {
+      "id": "oritech:iron_gem"
+    },
+    {
+      "count": 3,
+      "id": "ftbmaterials:nickel_tiny_dust"
+    }
+  ],
+  "time": 100
+}

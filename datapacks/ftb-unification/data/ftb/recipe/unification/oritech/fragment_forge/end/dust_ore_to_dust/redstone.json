@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "ftbmaterials:redstone_end_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 24,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "time": 40
+}

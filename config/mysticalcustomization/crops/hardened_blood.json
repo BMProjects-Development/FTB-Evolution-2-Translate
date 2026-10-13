@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "evilcraft:hardened_blood_shard"
+  },
+  "name": "Hardened Blood",
+  "color": "#BA3D34",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

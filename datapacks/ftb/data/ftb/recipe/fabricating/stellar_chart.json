@@ -1,0 +1,59 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:hunt_standard",
+      "count": 1
+    },
+    {
+      "ingredient": "ftb:cognition_array",
+      "count": 1
+    },
+    {
+      "ingredient": "stellaris:desh_block",
+      "count": 12
+    },
+    {
+      "ingredient": "stellaris:gravity_manipulator",
+      "count": 1
+    },
+    {
+      "ingredient": "stellaris:star_light_panel",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_block",
+      "count": 2
+    },
+    {
+      "ingredient": "stellaris:novite_ingot",
+      "count": 16
+    },
+    {
+      "ingredient": "stellaris:lunar_crawler_spike_cluster",
+      "count": 8
+    },
+    {
+      "ingredient": "ftb:ultradense_antimatter",
+      "count": 2
+    }
+  ],
+  "fluids": [
+    {
+      "id": "oritech:still_fuel",
+      "amount": 16000
+    },
+    {
+      "id": "mffs:fortron_fluid",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:stellar_chart"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 1000000,
+  "stage": "ftb_beast_phase2"
+}

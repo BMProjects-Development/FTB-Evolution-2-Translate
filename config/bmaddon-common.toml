@@ -1,0 +1,65 @@
+[blood_generator]
+	#Maximum Forge Energy stored by the Blood Generator.
+	# Default: 100000
+	# Range: > 1
+	energyCapacity = 100000
+	#Maximum Forge Energy accepted per insertion.
+	# Default: 2000
+	# Range: > 1
+	maxEnergyInput = 2000
+	#Maximum Essentia Vitae stored by the Blood Generator, in mB.
+	# Default: 16000
+	# Range: > 1
+	lifeTankCapacity = 16000
+	#Forge Energy consumed per generation operation.
+	# Default: 1000
+	# Range: > 1
+	energyPerOperation = 1000
+	#Essentia Vitae generated per operation, in mB.
+	# Default: 10
+	# Range: > 1
+	lifeEssencePerOperation = 10
+	#How often the generator runs. 1 = every tick, 20 = once per second.
+	# Default: 1
+	# Range: 1 ~ 1200
+	workIntervalTicks = 1
+	#If true, the Blood Generator will push Essentia Vitae into adjacent fluid handlers.
+	autoOutput = true
+	#Maximum Essentia Vitae pushed to adjacent fluid handlers per tick, in mB.
+	# Default: 100
+	# Range: > 1
+	maxFluidOutputPerTick = 100
+
+[blood_altar_assembler]
+	#Base craft time for Ara Vitae Assembler, in ticks.
+	# Default: 200
+	# Range: 1 ~ 72000
+	baseCraftTimeTicks = 200
+	#Minimum craft time after acceleration cards, in ticks.
+	# Default: 20
+	# Range: 1 ~ 72000
+	minCraftTimeTicks = 20
+	#Base AE energy consumed per active craft each tick.
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	aePerTickBase = 8.0
+	#Additional AE energy consumed per active craft each tick per acceleration card.
+	# Default: 12.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	aePerTickPerAccelerationCard = 12.0
+	#Multiplier for Essentia Vitae required by Ara Vitae recipes.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lifeEssenceMultiplier = 1.0
+	#How many crafts the Ara Vitae Assembler can run without parallel cards.
+	# Default: 1
+	# Range: 1 ~ 64
+	baseParallelCrafts = 1
+	#How many additional parallel crafts each Ara Vitae Parallel Card adds.
+	# Default: 2
+	# Range: 0 ~ 64
+	parallelCraftsPerCard = 1
+	#Hard cap for active crafts in one Ara Vitae Assembler.
+	# Default: 8
+	# Range: 1 ~ 64
+	maxParallelCrafts = 4

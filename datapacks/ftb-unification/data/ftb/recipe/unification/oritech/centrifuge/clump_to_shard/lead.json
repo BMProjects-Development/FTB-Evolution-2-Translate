@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/lead"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:lead_shard"
+    }
+  ],
+  "time": 100
+}

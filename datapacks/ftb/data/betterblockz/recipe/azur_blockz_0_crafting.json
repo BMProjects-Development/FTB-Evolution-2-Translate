@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "M": "minecraft:lapis_lazuli",
+    "S": "betterblockz:blockz_core_blockz_0"
+  },
+  "pattern": [
+    "SSS",
+    "SMS",
+    "SSS"
+  ],
+  "result": {
+    "count": 8,
+    "id": "betterblockz:azur_blockz_0"
+  }
+}

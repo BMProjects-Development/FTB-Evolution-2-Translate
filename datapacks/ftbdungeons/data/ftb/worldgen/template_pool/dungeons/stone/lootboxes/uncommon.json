@@ -1,0 +1,15 @@
+{
+  "name": "ftb:dungeons/stone/lootboxes/uncommon",
+  "fallback": "ftb:dungeons/stone/lootboxes/uncommon",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:dungeons/stone/lootbox/uncommon/125",
+        "projection": "rigid",
+        "processors": "ftb:dungeons/stone/waterlogging_fix"
+      }
+    }
+  ]
+}

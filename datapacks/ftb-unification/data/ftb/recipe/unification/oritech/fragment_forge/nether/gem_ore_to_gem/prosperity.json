@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "mysticalagradditions:nether_prosperity_ore"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "mysticalagriculture:prosperity_shard"
+    }
+  ],
+  "time": 40
+}

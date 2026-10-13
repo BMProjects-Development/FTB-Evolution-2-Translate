@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:silicon_gem",
+  "result": {
+    "id": "ftbmaterials:silicon_dust"
+  },
+  "time": 16
+}

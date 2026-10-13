@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:ingot_cast",
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 90,
+    "id": "ftb:molten_aquarine_steel"
+  },
+  "result": {
+    "id": "nautec:aquarine_steel_ingot"
+  }
+}

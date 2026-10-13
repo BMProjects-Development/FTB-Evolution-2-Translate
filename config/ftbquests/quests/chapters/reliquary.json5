@@ -1,0 +1,712 @@
+{
+  id: "318C3EBA9AF53316",
+  group: "4A2F4752A3C3721A",
+  order_index: 5,
+  icon: {
+    id: "reliquary:void_tear",
+    count: 1,
+  },
+  filename: "reliquary",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "71F0A28C67E53A01",
+  quests: [
+    {
+      icon: {
+        id: "reliquary:zombie_heart",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "71F0A28C67E53A01",
+      tasks: [
+        {
+          id: "342F6BD8B4703CE5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(reliquary:zombie_heart)item(reliquary:rib_bone)item(reliquary:chelicerae)item(reliquary:catalyzing_gland)item(reliquary:slime_pearl)item(reliquary:bat_wing)item(reliquary:nebulous_heart)item(reliquary:squid_beak)item(reliquary:molten_core)item(reliquary:withered_rib)item(reliquary:frozen_core)item(reliquary:guardian_spike)item(reliquary:infernal_claw)item(reliquary:witch_hat))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61A93C2130C2B2AC",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2162B4E71FF9B284",
+          type: "item",
+          item: {
+            id: "minecraft:ghast_tear",
+            count: 1,
+          },
+        },
+        {
+          id: "45670BDC518B1827",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:void_tear",
+        count: 1,
+      },
+      x: -5.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0A28C67E53A01",
+      ],
+      size: 1.5,
+      id: "2E430F83CE69DD48",
+      tasks: [
+        {
+          id: "2A64B9A0BEAF2170",
+          type: "item",
+          item: {
+            id: "reliquary:void_tear",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A7C0975FA852D6A",
+          type: "currency",
+          team_reward: false,
+          amount: 6,
+        },
+        {
+          id: "695890C0BD60A38A",
+          type: "item",
+          item: {
+            id: "minecraft:ghast_tear",
+            count: 1,
+          },
+        },
+        {
+          id: "1F11C3599C11DB89",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:infernal_tear",
+        count: 1,
+      },
+      x: -5.0,
+      y: 4.5,
+      shape: "circle",
+      dependencies: [
+        "2E430F83CE69DD48",
+      ],
+      size: 1.0,
+      id: "57784C221BB8C84C",
+      tasks: [
+        {
+          id: "5D3A82AE4290759D",
+          type: "item",
+          item: {
+            id: "reliquary:infernal_tear",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "660815C4DA73F168",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "29E530E18A214D91",
+          type: "item",
+          item: {
+            id: "minecraft:emerald",
+            count: 1,
+          },
+        },
+        {
+          id: "49A1C7620A4495E2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:infernal_chalice",
+        count: 1,
+      },
+      x: -5.0,
+      y: 6.5,
+      shape: "hexagon",
+      dependencies: [
+        "57784C221BB8C84C",
+      ],
+      size: 1.5,
+      id: "503E6943750FDCDD",
+      tasks: [
+        {
+          id: "5D59612CA3AE92CA",
+          type: "item",
+          item: {
+            id: "reliquary:infernal_chalice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6667538CDE2F1FF4",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "75670B6093ECE22E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:fortune_coin",
+        count: 1,
+      },
+      x: -3.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0A28C67E53A01",
+      ],
+      size: 1.5,
+      id: "6BD39D9678CDEF82",
+      tasks: [
+        {
+          id: "4DACA9CEBE57EA69",
+          type: "item",
+          item: {
+            id: "reliquary:fortune_coin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "208CD7AFD1D53C2C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "68EDACA8399BE638",
+          type: "item",
+          item: {
+            id: "minecraft:experience_bottle",
+            count: 4,
+          },
+        },
+        {
+          id: "403F0DE8C2E8638B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:hero_medallion",
+        count: 1,
+      },
+      x: -3.0,
+      y: 6.5,
+      shape: "hexagon",
+      dependencies: [
+        "6BD39D9678CDEF82",
+        "57784C221BB8C84C",
+      ],
+      size: 1.5,
+      id: "1A3041B4C0EA8796",
+      tasks: [
+        {
+          id: "33CE533D71D3B4CC",
+          type: "item",
+          item: {
+            id: "reliquary:hero_medallion",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57B68324E16F8A88",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "6BBC14BCF0DC856E",
+          type: "item",
+          item: {
+            id: "reliquary:pedestals/white_pedestal",
+            count: 2,
+          },
+        },
+        {
+          id: "1C3AF6105098E8DE",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:eye_of_the_storm",
+        count: 1,
+      },
+      x: -1.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0A28C67E53A01",
+      ],
+      size: 1.5,
+      id: "2631D88BB09AE9C8",
+      tasks: [
+        {
+          id: "33470A39E522CDF0",
+          type: "item",
+          item: {
+            id: "reliquary:eye_of_the_storm",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "764A1402C0879A58",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5234DDCB7AE43911",
+          type: "item",
+          item: {
+            id: "minecraft:wither_skeleton_skull",
+            count: 1,
+          },
+        },
+        {
+          id: "6962159422312EC6",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:alkahestry_tome",
+        count: 1,
+      },
+      x: -1.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "2631D88BB09AE9C8",
+      ],
+      size: 1.5,
+      id: "4906AA8E25E49F95",
+      tasks: [
+        {
+          id: "551F2C1A8920B98F",
+          type: "item",
+          item: {
+            id: "reliquary:alkahestry_tome",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "20DF82229CD8C9E2",
+          type: "currency",
+          team_reward: false,
+          amount: 9,
+        },
+        {
+          id: "77D40A8854941F83",
+          type: "item",
+          item: {
+            id: "minecraft:redstone",
+            count: 1,
+          },
+          count: 16,
+          random_bonus: 16,
+        },
+        {
+          id: "33B607DBD1B996CA",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:alkahestry_altar",
+        count: 1,
+      },
+      x: -1.0,
+      y: 6.5,
+      shape: "hexagon",
+      dependencies: [
+        "2631D88BB09AE9C8",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4D919D4079339210",
+      tasks: [
+        {
+          id: "76A35375FDC7A894",
+          type: "item",
+          item: {
+            id: "reliquary:alkahestry_altar",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5999EEB24E999681",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "57E472CBA9E664B7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:angelic_feather",
+        count: 1,
+      },
+      x: 1.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0A28C67E53A01",
+      ],
+      size: 1.5,
+      id: "77462803DD585713",
+      tasks: [
+        {
+          id: "7A1BE024F5589323",
+          type: "item",
+          item: {
+            id: "reliquary:angelic_feather",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E7FDC0381019670",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5A3444A90CF2ED88",
+          type: "item",
+          item: {
+            id: "minecraft:cooked_beef",
+            count: 8,
+          },
+        },
+        {
+          id: "2AB636BCF1425FE7",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:phoenix_down",
+        count: 1,
+      },
+      x: 1.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "77462803DD585713",
+      ],
+      size: 1.5,
+      id: "70E40C30466131CA",
+      tasks: [
+        {
+          id: "13C002B000C6F14C",
+          type: "item",
+          item: {
+            id: "reliquary:phoenix_down",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7636DD24CFC4500A",
+          type: "currency",
+          team_reward: false,
+          amount: 9,
+        },
+        {
+          id: "47E229A20B8FD7BD",
+          type: "item",
+          item: {
+            id: "minecraft:golden_apple",
+            count: 1,
+          },
+        },
+        {
+          id: "78753EFF67BB7CA2",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:mob_charm_belt",
+        count: 1,
+      },
+      x: 3.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0A28C67E53A01",
+      ],
+      size: 1.5,
+      id: "3EC7D38B078C2228",
+      tasks: [
+        {
+          id: "442B0113BDA75DA4",
+          type: "item",
+          item: {
+            id: "reliquary:mob_charm_belt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3E30E184A7576130",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "18375FF101D86323",
+          type: "item",
+          item: {
+            id: "reliquary:pedestals/white_pedestal",
+            count: 1,
+          },
+        },
+        {
+          id: "5F654F7BD6C67859",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:interdiction_torch",
+        count: 1,
+      },
+      x: 3.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "3EC7D38B078C2228",
+      ],
+      size: 1.5,
+      optional: true,
+      id: "786D4061D572DE1F",
+      tasks: [
+        {
+          id: "6112A0E88CFEEC75",
+          type: "item",
+          item: {
+            id: "reliquary:interdiction_torch",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25DD8DAAC1F36DE4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:handgun",
+        count: 1,
+      },
+      x: 5.0,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "71F0A28C67E53A01",
+      ],
+      size: 1.5,
+      id: "6B8E47B9CDF810B5",
+      tasks: [
+        {
+          id: "3A7ADE45DAFC2330",
+          type: "item",
+          item: {
+            id: "reliquary:handgun",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7730DFB3C8B50591",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "107D0E259411D632",
+          type: "item",
+          item: {
+            id: "reliquary:magazines/empty_magazine",
+            count: 1,
+          },
+        },
+        {
+          id: "175563F05FD247FE",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "reliquary:magazines/neutral_magazine",
+        count: 1,
+      },
+      x: 5.0,
+      y: 4.5,
+      shape: "circle",
+      dependencies: [
+        "6B8E47B9CDF810B5",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "462A91977D2113A8",
+      tasks: [
+        {
+          id: "7AF883296045AAB4",
+          type: "item",
+          item: {
+            id: "reliquary:magazines/neutral_magazine",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "711C9B3DD93F1367",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.25,
+      width: 5.0,
+      height: 1.39,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/reliquary_logo.png",
+      click_action: {
+        type: "open_quest",
+        data: "71F0A28C67E53A01",
+      },
+      id: "3D6745D199917E82",
+    },
+    {
+      x: -3.5,
+      y: -0.25,
+      width: 2.05,
+      height: 2.05,
+      rotation: -10.0,
+      image: "reliquary:item/witch_hat",
+      id: "2CBE455EF89B57C2",
+    },
+    {
+      x: 3.5,
+      y: -0.25,
+      width: 2.05,
+      height: 2.05,
+      rotation: 10.0,
+      image: "reliquary:item/nebulous_heart",
+      id: "6BB9BE57D4E1C0B3",
+    },
+    {
+      x: 4.0,
+      y: 7.25,
+      width: 2.6,
+      height: 2.6,
+      rotation: 12.0,
+      image: "reliquary:item/infernal_tear",
+      id: "2376303EEEA5265D",
+    },
+  ],
+}

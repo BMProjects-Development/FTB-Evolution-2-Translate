@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:nuggets/gold"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:gold_tiny_dust"
+    }
+  ],
+  "time": 100
+}

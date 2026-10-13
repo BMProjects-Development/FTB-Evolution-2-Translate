@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#oritech:recyclable/small_copper_dust"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:copper_tiny_dust"
+    }
+  ],
+  "time": 100
+}

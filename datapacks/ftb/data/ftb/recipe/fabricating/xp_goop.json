@@ -1,0 +1,23 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "#c:dusts/vinteum",
+      "count": 1
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 4000
+    }
+  ],
+  "results": [
+    {
+      "id": "sfm:xp_goop"
+    }
+  ],
+  "ticks": 400,
+  "energy_per_tick": 2500,
+  "stage": "wither_killed"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "colossal_reactors:turbine_casing",
+    "#c:ingots/iron"
+  ],
+  "result": {
+    "id": "colossal_reactors:turbine_resource_port",
+    "count": 1
+  }
+}

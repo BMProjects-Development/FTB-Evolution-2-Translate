@@ -1,0 +1,476 @@
+{
+  id: "6F0ACE308CAE2FE4",
+  order_index: 21,
+  icon: {
+    id: "constructionstick:iron_stick",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "23ABC9510396ED5F",
+      item: {
+        id: "utilitarian:angel_block",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "5EB82BE484063E5B",
+      item: {
+        id: "toolbelt:pouch",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "1C85751EDFB34BFE",
+      item: {
+        id: "constructionstick:copper_stick",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5E542C260BE909C9",
+      item: {
+        id: "constructionstick:iron_stick",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "62F7F9E83CAD5362",
+      item: {
+        id: "justhammers:stone_hammer",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3F96BDBD830DDAFC",
+      item: {
+        id: "justhammers:iron_hammer",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "084E037313FE5258",
+      item: {
+        id: "mininggadgets:upgrade_empty",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "63BBBBE545040843",
+      item: {
+        id: "crafting_on_a_stick:crafting_table",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "156864F15B5A0867",
+      item: {
+        id: "crafting_on_a_stick:stonecutter",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "64E9CE5120F4B80C",
+      item: {
+        id: "crafting_on_a_stick:smithing_table",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "72FE9F0534A8C4F8",
+      item: {
+        id: "crafting_on_a_stick:loom",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "54A16444355F299C",
+      item: {
+        id: "crafting_on_a_stick:grindstone",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6DC04D64ECA5FFDB",
+      item: {
+        id: "crafting_on_a_stick:cartography_table",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0453011D6D3E1471",
+      item: {
+        id: "crafting_on_a_stick:anvil",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0829EB74F8A75C88",
+      item: {
+        id: "utilitarian:trowel",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "20BC431698C08ABE",
+      item: {
+        id: "toolbelt:belt",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "2207668918EDF258",
+      item: {
+        id: "architectural_building_wand:redstone_building_wand",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "618375955789ABFA",
+      item: {
+        id: "buildinggadgets2:template",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "2D4EBD3C58CBEA8F",
+      item: {
+        id: "constructionstick:diamond_stick",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1B18B47FD2F48040",
+      item: {
+        id: "constructionstick:template_angel",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2C27CF62E4FFED36",
+      item: {
+        id: "constructionstick:template_battery",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "744F076E88842748",
+      item: {
+        id: "constructionstick:template_destruction",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "14B5F336170C8F65",
+      item: {
+        id: "constructionstick:template_replacement",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "60D63FF2370A4E84",
+      item: {
+        id: "buildinggadgets2:gadget_building",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4AD10A9CBFA03C7B",
+      item: {
+        id: "buildinggadgets2:gadget_exchanging",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6F895826A1A28252",
+      item: {
+        id: "mininggadgets:mininggadget_simple",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7BB5277D4E8E4C7A",
+      item: {
+        id: "mininggadgets:upgrade_size_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "753F69F3D0C61062",
+      item: {
+        id: "mininggadgets:upgrade_efficiency_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4A54278E5870E1B9",
+      item: {
+        id: "mininggadgets:upgrade_fortune_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "632DFD2D236D7F20",
+      item: {
+        id: "mininggadgets:upgrade_silk",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "07C860072DDF504D",
+      item: {
+        id: "mininggadgets:upgrade_magnet",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "29031F8B816BA8CB",
+      item: {
+        id: "mininggadgets:upgrade_void_junk",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0A170C559F8CBE0A",
+      item: {
+        id: "mininggadgets:upgrade_light_placer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7FB33DEB506899F9",
+      item: {
+        id: "mininggadgets:upgrade_range_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0851A048A755C897",
+      item: {
+        id: "mininggadgets:upgrade_battery_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7EA639DD6A448E90",
+      item: {
+        id: "justhammers:gold_hammer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "06375486E73D6817",
+      item: {
+        id: "justhammers:diamond_hammer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "439256022A3689AD",
+      item: {
+        id: "justhammers:iron_impact_hammer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "74F6EFF941BD61BB",
+      item: {
+        id: "magnumtorch:diamond_magnum_torch",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "18FB5869D381AB7B",
+      item: {
+        id: "buildinggadgets2:gadget_destruction",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0CA95867D29453EF",
+      item: {
+        id: "architectural_building_wand:arcane_building_wand",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4B931AEE7E67DF2F",
+      item: {
+        id: "constructionstick:template_unbreakable",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "5D7A700AB4B7A856",
+      item: {
+        id: "mininggadgets:upgrade_size_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "44C3D96468980437",
+      item: {
+        id: "mininggadgets:upgrade_efficiency_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0AC57B21774CB586",
+      item: {
+        id: "mininggadgets:upgrade_fortune_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "535FBB7FAB1DE300",
+      item: {
+        id: "mininggadgets:upgrade_range_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "18312AB90CDCD513",
+      item: {
+        id: "mininggadgets:upgrade_battery_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "22EBA87915C591B4",
+      item: {
+        id: "mininggadgets:upgrade_freezing",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "779FC5F9C9DA6662",
+      item: {
+        id: "magnumtorch:emerald_magnum_torch",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4AA07CBEACA48D64",
+      item: {
+        id: "magnumtorch:amethyst_magnum_torch",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2A18071ABD69FFEC",
+      item: {
+        id: "justhammers:diamond_impact_hammer",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "0CE88DE1FFFD1A67",
+      item: {
+        id: "constructionstick:netherite_stick",
+        count: 1,
+      },
+    },
+    {
+      id: "3F55BA1FCF949A16",
+      item: {
+        id: "buildinggadgets2:gadget_copy_paste",
+        count: 1,
+      },
+    },
+    {
+      id: "2A753ABACCAED60C",
+      item: {
+        id: "buildinggadgets2:gadget_cut_paste",
+        count: 1,
+      },
+    },
+    {
+      id: "2DBC3FA43C3A183A",
+      item: {
+        id: "mininggadgets:mininggadget",
+        count: 1,
+      },
+    },
+    {
+      id: "33F6E0FFCD33C557",
+      item: {
+        id: "mininggadgets:mininggadget_fancy",
+        count: 1,
+      },
+    },
+    {
+      id: "0F9843A234BEA503",
+      item: {
+        id: "justhammers:netherite_hammer",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_builder",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.random_builder",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

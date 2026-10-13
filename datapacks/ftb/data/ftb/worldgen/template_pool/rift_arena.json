@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:rift_arena",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging"
+      },
+      "weight": 1
+    }
+  ]
+}

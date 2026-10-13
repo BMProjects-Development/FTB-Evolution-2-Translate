@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:storage_blocks/raw_novite",
+  "result": {
+    "count": 12,
+    "id": "ftbmaterials:novite_dust"
+  },
+  "secondary": {
+    "count": 9,
+    "id": "ftbmaterials:novite_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

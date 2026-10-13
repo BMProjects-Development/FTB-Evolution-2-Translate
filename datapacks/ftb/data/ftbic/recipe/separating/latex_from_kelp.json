@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:separating",
+  "inputs": [
+    {
+      "count": 4,
+      "ingredient": "minecraft:kelp"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbic:latex_ball"
+      }
+    }
+  ]
+}

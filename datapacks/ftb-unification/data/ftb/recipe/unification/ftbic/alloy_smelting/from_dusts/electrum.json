@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/gold"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/silver"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:electrum_dust",
+        "count": 2
+      }
+    }
+  ]
+}

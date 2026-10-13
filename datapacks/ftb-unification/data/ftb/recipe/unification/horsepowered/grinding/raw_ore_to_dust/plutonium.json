@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/plutonium",
+  "result": {
+    "id": "ftbmaterials:plutonium_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:plutonium_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

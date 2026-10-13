@@ -1,0 +1,15 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "ftbmaterials:iridium_ingot",
+  "result": {
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ],
+    "result": {
+      "id": "ftbmaterials:iridium_dust"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/moonstone"
+  ],
+  "itemResults": [
+    {
+      "id": "arsmagicalegacy:moonstone"
+    }
+  ],
+  "time": 100
+}

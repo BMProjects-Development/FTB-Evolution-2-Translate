@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:cherry_planks"
+  ],
+  "result": {
+    "id": "decorativewoodenlattices:cherry_lattice_024",
+    "count": 1
+  }
+}

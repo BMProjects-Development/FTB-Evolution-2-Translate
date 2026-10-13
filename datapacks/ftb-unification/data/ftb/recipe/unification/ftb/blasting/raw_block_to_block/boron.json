@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "colossal_reactors:raw_boron_block",
+  "result": {
+    "id": "colossal_reactors:boron_block"
+  },
+  "experience": 9.0,
+  "cookingtime": 900
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftbic:electronic_circuit",
+    "ltxi:t1_circuit",
+    "energizedpower:basic_circuit"
+  ]
+}

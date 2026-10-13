@@ -1,0 +1,10 @@
+#BBL Core Startup Config
+["BBL Core"]
+	#Save the world will try to fix broken world where a block is causing crashes, default = false
+	"Try to Save the world" = false
+	#X coordinate of block to fix (default = 0)
+	x = 0
+	#Y coordinate of block to fix (default = 0)
+	y = 0
+	#Z coordinate of block to fix (default = 0)
+	z = 0

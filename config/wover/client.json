@@ -1,0 +1,15 @@
+{
+  "create_version": "26.1.1",
+  "internal": {
+    "did_present_welcome_screen": true
+  },
+  "general": {
+    "check_for_new_versions": false,
+    "prefere_modrinth": false,
+    "force_betterx_world_type": false
+  },
+  "loading": {
+    "disable_experimental_warning": true
+  },
+  "modify_version": "26.1.1"
+}

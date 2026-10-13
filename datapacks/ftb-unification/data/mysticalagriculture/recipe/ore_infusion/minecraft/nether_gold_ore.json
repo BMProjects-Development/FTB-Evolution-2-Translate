@@ -1,0 +1,23 @@
+{
+  "type": "mysticalagriculture:ore_infusion",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:gold"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient": "minecraft:netherrack",
+      "count": 1
+    },
+    {
+      "ingredient": "mysticalagriculture:gold_essence",
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "ftbmaterials:gold_nether_ore",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:energizer",
+  "energy": 16384,
+  "ingredient": "appflux:redstone_crystal",
+  "result": {
+    "id": "appflux:charged_redstone"
+  }
+}

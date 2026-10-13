@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "occultism:miner",
+  "ingredient": "#occultism:miners/iron",
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "id": "arsmagicalegacy:topaz_ore"
+    },
+    "weight": 52
+  }
+}

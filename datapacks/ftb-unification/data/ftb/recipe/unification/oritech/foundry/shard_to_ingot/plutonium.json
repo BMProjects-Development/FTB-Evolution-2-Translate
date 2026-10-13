@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:plutonium_shard",
+    "ftbmaterials:plutonium_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:plutonium_ingot"
+    }
+  ],
+  "time": 80
+}

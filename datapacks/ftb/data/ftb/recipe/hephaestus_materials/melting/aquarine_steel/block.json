@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "nautec:aquarine_steel_block",
+  "result": {
+    "amount": 810,
+    "id": "ftb:molten_aquarine_steel"
+  },
+  "temperature": 1200,
+  "time": 240
+}

@@ -1,0 +1,6 @@
+[display]
+	#Append the companion's level to its name plate.
+	show_level_in_name = true
+	#Look up real player skins for companions that wear one.
+	#Turn off to dress every Mini Player in a default skin instead.
+	resolve_companion_skins = true

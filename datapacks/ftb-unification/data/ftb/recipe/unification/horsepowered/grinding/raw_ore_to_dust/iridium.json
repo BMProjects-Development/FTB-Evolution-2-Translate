@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/iridium",
+  "result": {
+    "id": "ftbmaterials:iridium_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:iridium_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

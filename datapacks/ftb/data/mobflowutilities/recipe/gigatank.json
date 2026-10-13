@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "#c:nuggets/adamantite",
+    "S": "minecraft:bucket",
+    "X": "#c:glass_blocks"
+  },
+  "pattern": [
+    "GXG",
+    "XSX",
+    "GXG"
+  ],
+  "result": {
+    "id": "mobflowutilities:gigatank"
+  }
+}

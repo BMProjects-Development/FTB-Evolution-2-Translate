@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/vinteum",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "arsmagicalegacy:vinteum_dust"
+  }
+}

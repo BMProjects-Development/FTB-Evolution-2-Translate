@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/plutonium"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:plutonium_dust"
+    }
+  ],
+  "time": 100
+}

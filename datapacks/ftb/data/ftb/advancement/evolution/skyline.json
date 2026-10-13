@@ -1,0 +1,30 @@
+{
+  "parent": "ftb:evolution/fabricator",
+  "display": {
+    "icon": {
+      "id": "ftbevolutioncompanion:ftb_skyline"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.skyline.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.skyline.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "skyline": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftbevolutioncompanion:ftb_skyline"
+          }
+        ]
+      }
+    }
+  }
+}

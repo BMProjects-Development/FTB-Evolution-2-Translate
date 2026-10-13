@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PPP",
+    "PWP",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:yellow_concrete_powder",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "minecraft:yellow_concrete",
+    "count": 8
+  }
+}

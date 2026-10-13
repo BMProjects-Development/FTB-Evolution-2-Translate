@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/uraninite_dense"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 10,
+      "id": "powah:uraninite"
+    }
+  ]
+}

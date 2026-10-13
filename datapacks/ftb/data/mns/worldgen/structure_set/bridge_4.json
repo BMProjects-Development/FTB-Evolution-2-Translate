@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mns:bridge_4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 4474578,
+    "spacing": 90,
+    "separation": 70
+  }
+}

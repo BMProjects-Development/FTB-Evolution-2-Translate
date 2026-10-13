@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:ingots/gold",
+    "#c:ingots/silver"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:electrum_ingot"
+    }
+  ],
+  "time": 80
+}

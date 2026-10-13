@@ -1,0 +1,169 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "irons_jewelry:brass",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:bronze",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:copper",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:gold",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:iron",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:netherite",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:platinum",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:silver",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:arcane",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:mithril",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pyrium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:ancient_metal",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:awakened_draconium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:blazegold",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:cursium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:dark_steel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:draconium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:duratium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:eclipse_alloy",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:hallowed_gold",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:hellforged",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:ignitium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:lead",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:osmium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:prometheum",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:refined_glowstone",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:refined_obsidian",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:replica",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:soulstained",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:spectre",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:steel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:witherite",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:fire_dragonsteel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:ice_dragonsteel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:lightning_dragonsteel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:adamantite",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:aeternium",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:aurichalcum",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:aquarine_steel",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:atlantic_gold",
+      "required": false
+    },
+    {
+      "id": "irons_jewelry:cast_iron",
+      "required": false
+    }
+  ]
+}

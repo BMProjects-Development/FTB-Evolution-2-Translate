@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "ftbmaterials:steel_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "iceandfire:dragon_ice"
+    },
+    {
+      "count": 1,
+      "ingredient": "ftbmaterials:cinnabar_gem"
+    }
+  ],
+  "result": {
+    "id": "iceandfire:dragonsteel_ice_ingot",
+    "count": 1
+  },
+  "ticks": 2000
+}

@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "#c:ore_source/overworld/sulfur",
+  "result": {
+    "percentages": [
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "result": {
+      "id": "ftbmaterials:sulfur_dust"
+    }
+  }
+}

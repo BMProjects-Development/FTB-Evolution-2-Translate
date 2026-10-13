@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "dimresources:dimensional_ore",
+  "variants": [
+    "dimresources:deepslate_dimensional_ore",
+    "ftbmaterials:dimensional_shard_stone_ore",
+    "ftbmaterials:dimensional_shard_deepslate_ore",
+    "ftbmaterials:dimensional_shard_nether_ore",
+    "ftbmaterials:dimensional_shard_end_ore"
+  ],
+  "name_color": "#5BC0DE",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.dimensional_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:dimensional_shard_gem",
+      "count": 6
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

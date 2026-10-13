@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/novite",
+  "result": {
+    "id": "ftbmaterials:novite_dust"
+  },
+  "time": 16
+}

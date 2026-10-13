@@ -1,0 +1,21 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 3,
+      "ingredient": "#c:dusts/copper"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/tin"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:bronze_dust",
+        "count": 4
+      }
+    }
+  ]
+}

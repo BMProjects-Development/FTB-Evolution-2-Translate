@@ -1,0 +1,33 @@
+{
+  "descriptionId": "ftb.irons.material.spiritus_ruina",
+  "ingredient": "neovitae:spiritus_ruina_shard",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/spiritus_ruina",
+  "quality": 2.0,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:attack_damage",
+      "operation": "add_multiplied_base",
+      "amount": 0.04
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:strength"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:weakness"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "amount": {
+          "base": 2.0,
+          "scalar": 1.0
+        },
+        "damageType": "minecraft:magic"
+      },
+      "targetSelf": false
+    }
+  }
+}

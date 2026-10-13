@@ -1,0 +1,41 @@
+#Controls whether the weapon crosshair/reticle is a custom color. Otherwise, uses the minecraft style background aware transparent color. Defaults to false
+solid_color_weapon_crosshair = false
+#The color of the weapon crosshair if the solid color crosshair option is enabled. Use a hexadecimal color format prefixed with #.
+weapon_crosshair_color = "#ffffff"
+#Whether upgrade module icons are always shown instead of needing to hold down SHIFT. (Defaults to false)
+always_show_upgrade_icons = false
+#Inverts the scroll direction for switching between equipment modes. By default, scroll down cycles forward.
+invert_mode_switch_scroll = false
+
+[equipment_hud]
+	#HUD element positioning for equipment items (weapon ammo, tool speed, etc.)
+	#The horizontal alignment of equipment items' HUD overlay.
+	#Valid: left, center, right
+	horizontal_align = "left"
+	#The x offset from the horizontal alignment point.
+	# Default: 10
+	# Range: > -2147483648
+	x_offset = 10
+	#The vertical alignment of the equipment items' HUD overlay.
+	#Valid: top, center, bottom
+	vertical_align = "center"
+	#The y offset from the vertical alignment point.
+	# Default: 0
+	# Range: > -2147483648
+	y_offset = 0
+
+[shield_hud]
+	#The horizontal alignment of the shield health HUD overlay.
+	#Valid: left, center, right
+	horizontal_align = "center"
+	#The x offset from the horizontal alignment point.
+	# Default: -73
+	# Range: > -2147483648
+	x_offset = -73
+	#The vertical alignment of the shield health HUD overlay.
+	#Valid: top, center, bottom
+	vertical_align = "bottom"
+	#The y offset from the vertical alignment point.
+	# Default: 49
+	# Range: > -2147483648
+	y_offset = 49

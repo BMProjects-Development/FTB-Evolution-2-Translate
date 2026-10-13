@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "synergy" }
+  ],
+  "type": "synergy:alloy_smelter",
+  "energy": 500,
+  "left": { "count": 1, "tag": "c:ingots/iron" },
+  "right": { "count": 1, "tag": "c:ingots/lead" },
+  "output": { "count": 2, "id": "colossal_reactors:tough_alloy_ingot" },
+  "ticks": 120
+}

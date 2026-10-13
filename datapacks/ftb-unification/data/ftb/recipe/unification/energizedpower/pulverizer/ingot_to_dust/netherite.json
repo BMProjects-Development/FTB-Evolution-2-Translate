@@ -1,0 +1,15 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": "minecraft:netherite_ingot",
+  "result": {
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ],
+    "result": {
+      "id": "ftbmaterials:netherite_dust"
+    }
+  }
+}

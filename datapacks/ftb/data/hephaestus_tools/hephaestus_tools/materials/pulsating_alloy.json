@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:pulsating_alloy",
+  "ingredient": {
+    "tag": "c:ingots/pulsating_alloy"
+  },
+  "color": 6142607,
+  "head_stats": {
+    "durability": 350,
+    "mining_speed": 9.0,
+    "attack_damage": 1.5,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 20,
+    "trait": "lightweight"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.04,
+    "damage_mult": -0.03,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 70
+  }
+}

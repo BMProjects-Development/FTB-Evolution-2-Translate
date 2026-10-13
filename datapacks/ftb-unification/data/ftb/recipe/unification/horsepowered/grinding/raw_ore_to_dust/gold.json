@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/gold",
+  "result": {
+    "id": "ftbmaterials:gold_dust"
+  },
+  "secondary": {
+    "id": "ftbmaterials:gold_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

@@ -1,0 +1,88 @@
+#General settings
+[general]
+	#Enable instant shell construction (creative mode)
+	enableInstantShellConstruction = false
+	#Warn player instead of killing them when they don't have enough health
+	warnPlayerInsteadOfKilling = false
+
+#Damage settings
+[damage]
+	#Damage dealt when creating a shell (in half hearts)
+	# Default: 20.0
+	# Range: 0.0 ~ 40.0
+	fingerstickDamage = 20.0
+	#Damage dealt when creating a shell in hardcore mode
+	# Default: 40.0
+	# Range: 0.0 ~ 80.0
+	hardcoreFingerstickDamage = 40.0
+
+#Energy settings
+[energy]
+	#Energy capacity/requirement for shell constructor
+	# Default: 256000
+	# Range: 1000 ~ 9223372036854775807
+	shellConstructorCapacity = 256000
+	#Energy capacity of shell storage
+	# Default: 320
+	# Range: 0 ~ 9223372036854775807
+	shellStorageCapacity = 320
+	#Energy consumption per tick for shell storage
+	# Default: 16
+	# Range: 0 ~ 1000
+	shellStorageConsumption = 16
+	#How fast shells are built. The constructor needs shellConstructorCapacity divided by this many FE to finish a shell, so 2.0 builds twice as fast as 1.0
+	# Default: 2.5
+	# Range: 0.01 ~ 1000.0
+	shellConstructionSpeed = 2.5
+
+#Shell Storage settings
+[shellStorage]
+	#Whether shell storage accepts redstone power
+	acceptsRedstone = true
+	#Maximum time (in ticks) shell storage can run without power
+	# Default: 20
+	# Range: 0 ~ 6000
+	maxUnpoweredLifespan = 20
+
+#Energy production settings
+[energyProduction]
+	#Entity energy production map (format: 'entity_id:energy_per_tick')
+	energyMap = ["minecraft:chicken:2", "minecraft:pig:16", "minecraft:player:20", "minecraft:villager:25", "minecraft:wolf:22", "minecraft:creeper:80", "minecraft:enderman:160"]
+
+#Synchronization settings
+[sync]
+	#Shell priority order for automatic synchronization
+	#Valid values: WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY,
+	#LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, BLACK, NEAREST, NATURAL
+	syncPriority = ["NATURAL"]
+	#If enabled, all shells share the same origins
+	preserveOrigins = false
+	#If enabled, dying in an artificial body automatically syncs into another finished shell
+	autoSyncOnDeath = true
+
+#Tool settings
+[tools]
+	#Item ID to use as wrench
+	wrench = "minecraft:stick"
+
+#Miscellaneous settings
+[misc]
+	#Update translations automatically on game launch
+	updateTranslationsAutomatically = false
+
+#Easter egg settings
+[easterEggs]
+	#Enable Technoblade easter egg
+	enableTechnobladeEasterEgg = true
+	#Render Technoblade's cape
+	renderTechnobladeCape = false
+	#Allow Technoblade announcements
+	allowTechnobladeAnnouncements = true
+	#Allow Technoblade quotes
+	allowTechnobladeQuotes = true
+	#Delay between Technoblade quotes (in ticks)
+	# Default: 1800
+	# Range: 200 ~ 72000
+	technobladeQuoteDelay = 1800
+	#UUIDs of players to treat as Technoblade
+	technobladeUuids = []

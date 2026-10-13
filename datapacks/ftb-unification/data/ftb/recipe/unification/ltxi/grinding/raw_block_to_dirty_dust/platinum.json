@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:storage_blocks/raw_platinum"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 9,
+      "id": "ftbmaterials:platinum_dirty_dust"
+    },
+    {
+      "count": {
+        "chance": 0.75,
+        "max": 2,
+        "min": 2
+      },
+      "id": "ftbmaterials:platinum_dirty_dust",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "items": {
+    "oritech:biomass": "agritechevolved:biomass",
+    "oritech:biomass_block": "agritechevolved:compacted_biomass",
+    "oritech:copper_gem": "ftbmaterials:copper_shard",
+    "oritech:gold_gem": "ftbmaterials:gold_shard",
+    "oritech:iron_gem": "ftbmaterials:iron_shard",
+    "oritech:nickel_gem": "ftbmaterials:nickel_shard",
+    "oritech:platinum_gem": "ftbmaterials:platinum_shard",
+    "oritech:small_copper_dust": "ftbmaterials:copper_tiny_dust",
+    "oritech:small_gold_dust": "ftbmaterials:gold_tiny_dust",
+    "oritech:small_iron_dust": "ftbmaterials:iron_tiny_dust",
+    "oritech:small_nickel_dust": "ftbmaterials:nickel_tiny_dust",
+    "oritech:small_platinum_dust": "ftbmaterials:platinum_tiny_dust",
+    "oritech:uranium_gem": "ftbmaterials:uranium_shard"
+  }
+}

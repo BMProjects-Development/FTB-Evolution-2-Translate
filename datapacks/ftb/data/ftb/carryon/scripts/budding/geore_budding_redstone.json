@@ -1,0 +1,8 @@
+{
+  "object": {
+    "block": {
+      "name": "geore:budding_redstone"
+    }
+  },
+  "override_checks": true
+}

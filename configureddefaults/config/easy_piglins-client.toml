@@ -1,0 +1,5 @@
+[piglin]
+	#The volume of every piglin related sound in this mod
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	volume = 1.0

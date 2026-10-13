@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ltxi:titanium_ore",
+  "variants": [
+    "ltxi:deepslate_titanium_ore",
+    "ftbmaterials:titanium_stone_ore",
+    "ftbmaterials:titanium_deepslate_ore",
+    "ftbmaterials:titanium_nether_ore",
+    "ftbmaterials:titanium_end_ore",
+    "stellaris:titanium_ore",
+    "stellaris:deepslate_titanium_ore",
+    "stellaris:moon_titanium_ore"
+  ],
+  "name_color": "#9AA0A8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.titanium_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:titanium_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

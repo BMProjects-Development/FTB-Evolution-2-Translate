@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "iceandfire:sapphire_ore",
+  "variants": [
+    "ftbmaterials:sapphire_stone_ore",
+    "ftbmaterials:sapphire_deepslate_ore",
+    "ftbmaterials:sapphire_nether_ore",
+    "ftbmaterials:sapphire_end_ore"
+  ],
+  "name_color": "#2E6EC8",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.sapphire_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:sapphire_gem",
+      "count": 6
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+#Client settings
+[client]
+	#Defines the range in which the Rain Shield stops rendering rain [default: 80]
+	# Default: 80
+	# Range: > 1
+	rainShieldDistance = 80

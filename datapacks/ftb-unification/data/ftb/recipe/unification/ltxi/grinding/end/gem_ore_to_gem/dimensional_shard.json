@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "ftbmaterials:dimensional_shard_end_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 4,
+      "id": "ftbmaterials:dimensional_shard_gem"
+    },
+    {
+      "count": {
+        "chance": 0.5,
+        "max": 2,
+        "min": 2
+      },
+      "id": "ftbmaterials:dimensional_shard_gem",
+      "required": false
+    }
+  ]
+}

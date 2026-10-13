@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:ingots/boron"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "colossal_reactors:boron_dust"
+    }
+  ]
+}

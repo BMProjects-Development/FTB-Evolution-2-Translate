@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "minecraft:amethyst_block",
+  "result": {
+    "amount": 360,
+    "id": "hephaestus:molten_amethyst"
+  },
+  "temperature": 1000,
+  "time": 240
+}

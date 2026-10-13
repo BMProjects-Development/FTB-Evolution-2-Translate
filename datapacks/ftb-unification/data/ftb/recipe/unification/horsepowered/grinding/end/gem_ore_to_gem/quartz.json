@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:quartz_end_ore",
+  "result": {
+    "count": 4,
+    "id": "minecraft:quartz"
+  },
+  "secondary": {
+    "id": "minecraft:quartz",
+    "count": 2
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

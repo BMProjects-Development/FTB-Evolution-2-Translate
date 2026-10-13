@@ -1,0 +1,1665 @@
+{
+  id: "6A58A6F56CD199A3",
+  group: "4780068BA76609B8",
+  order_index: 6,
+  icon: {
+    id: "integrateddynamics:crystalized_menril_chunk",
+    count: 1,
+  },
+  filename: "integrated_dynamics",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "5B34FEF756C93961",
+  quests: [
+    {
+      icon: {
+        id: "integrateddynamics:menril_sapling",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "5B34FEF756C93961",
+      tasks: [
+        {
+          id: "75E71FC2F86BD97D",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "6092CE06CA1D3219",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_log",
+            count: 1,
+          },
+        },
+        {
+          id: "027E5506D63D2855",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_berries",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "021DD8BE19FE96B1",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "038DF2D59DCD7EEA",
+          type: "item",
+          item: {
+            id: "integrateddynamics:on_the_dynamics_of_integration",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:squeezer",
+        count: 1,
+      },
+      x: 1.5,
+      y: -1.5,
+      dependencies: [
+        "5B34FEF756C93961",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "1403ABF77D987200",
+      tasks: [
+        {
+          id: "2F727A7D05107837",
+          type: "item",
+          item: {
+            id: "integrateddynamics:squeezer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5487CD9603EE9723",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "642EF54669155934",
+          type: "item",
+          item: {
+            id: "integrateddynamics:menril_log",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:crystalized_menril_chunk",
+        count: 1,
+      },
+      x: 3.0,
+      y: 0.0,
+      dependencies: [
+        "1403ABF77D987200",
+        "14CA59973A2B33FF",
+      ],
+      size: 1.0,
+      id: "6712C96969CB1D58",
+      tasks: [
+        {
+          id: "1688C36710AE743F",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_block",
+            count: 1,
+          },
+        },
+        {
+          id: "7CDE656F7E89C6F3",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_chunk",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2363039DDC390457",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4E07DC2301F29CA1",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_menril_block",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:cable",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "6712C96969CB1D58",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "63A3450169DD4B17",
+      tasks: [
+        {
+          id: "3A4212290FDA9AE3",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+        },
+        {
+          id: "34D9B05A1D4382B9",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:facade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "199547CC12635FB4",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3B9BADFFB9EA742F",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:variable",
+        count: 1,
+      },
+      x: 11.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "3B6540C11FAF6C3D",
+        "629C6374800613C4",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      id: "6005C20FD96E6711",
+      tasks: [
+        {
+          id: "5F2E5FE39F37A88F",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "764D3069D5CDDE24",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "204BF9A010909458",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+          count: 24,
+          random_bonus: 24,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_connector_mono_directional",
+        count: 1,
+      },
+      x: 5.0,
+      y: 1.5,
+      dependencies: [
+        "63A3450169DD4B17",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "7E2399076FA8B7AC",
+      tasks: [
+        {
+          id: "54E6EE3666811402",
+          type: "item",
+          item: {
+            id: "integrateddynamics:part_connector_mono_directional",
+            count: 1,
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "3605A7A48438F92A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "24B45CB23BF524B2",
+          type: "item",
+          item: {
+            id: "integrateddynamics:cable",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:energy_battery",
+        count: 1,
+      },
+      x: 3.0,
+      y: 1.5,
+      dependencies: [
+        "6712C96969CB1D58",
+      ],
+      size: 1.0,
+      id: "5691235133373883",
+      tasks: [
+        {
+          id: "052C180AAECB9063",
+          type: "item",
+          item: {
+            id: "integrateddynamics:energy_battery",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59E49E5E2FD9F393",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6C825EE1342838D6",
+          type: "item",
+          item: {
+            id: "integrateddynamics:energy_battery",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:mechanical_squeezer",
+        count: 1,
+      },
+      x: 3.0,
+      y: 3.0,
+      shape: "hexagon",
+      dependencies: [
+        "5691235133373883",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.5,
+      min_width: 300,
+      id: "565B21FA569CF3CC",
+      tasks: [
+        {
+          id: "2894117C5886495B",
+          type: "item",
+          item: {
+            id: "integrateddynamics:mechanical_squeezer",
+            count: 1,
+          },
+        },
+        {
+          id: "2C53BF00636988F8",
+          type: "item",
+          item: {
+            id: "integrateddynamics:mechanical_drying_basin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "041350D7DE62DEFB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "25A8BD766166418A",
+          type: "item",
+          item: {
+            id: "minecraft:diamond_ore",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_interface_item",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "63A3450169DD4B17",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "629C6374800613C4",
+      tasks: [
+        {
+          id: "4DDC10B7CDEA5CB5",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid)item(integratedtunnels:part_interface_energy))",
+              "minecraft:custom_name": "\"Interfaces\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "293014F8D1BFA05C",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedterminals:part_terminal_storage",
+        count: 1,
+      },
+      x: 7.5,
+      y: -1.875,
+      shape: "hexagon",
+      dependencies: [
+        "629C6374800613C4",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "60B37EEA5AD64C3D",
+      tasks: [
+        {
+          id: "02A167CEDC441392",
+          type: "item",
+          item: {
+            id: "integratedterminals:part_terminal_storage",
+            count: 1,
+          },
+        },
+        {
+          id: "6D8F24FBF4FBCD9A",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integratedterminals:terminal_storage_portable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7DD0E8B51A08FE15",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:logic_programmer",
+        count: 1,
+      },
+      x: 12.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "6005C20FD96E6711",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "2DDC9D75FBFA1F3C",
+      tasks: [
+        {
+          id: "4D6F47FA4D28D5B4",
+          type: "item",
+          item: {
+            id: "integrateddynamics:logic_programmer",
+            count: 1,
+          },
+        },
+        {
+          id: "64A5B5A0B0B4DC17",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:portable_logic_programmer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "456E3C22D829200E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2D4FE038C476F088",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+          count: 12,
+          random_bonus: 12,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:materializer",
+        count: 1,
+      },
+      x: 13.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "69282BCC2FA04060",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1B2E6CA3642024B7",
+      tasks: [
+        {
+          id: "7D469722767FAB3A",
+          type: "item",
+          item: {
+            id: "integrateddynamics:materializer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5550B9671F27E770",
+          type: "currency",
+          team_reward: false,
+          amount: 7,
+        },
+        {
+          id: "50A4B100C9631116",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variable",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:variablestore",
+        count: 1,
+      },
+      x: 12.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "6005C20FD96E6711",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "69282BCC2FA04060",
+      tasks: [
+        {
+          id: "4C9343FCD35EF0C5",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variablestore",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E9FF145D075E86D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "04599B619B07A98C",
+          type: "item",
+          item: {
+            id: "integrateddynamics:variablestore",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:crystalized_chorus_chunk",
+        count: 1,
+      },
+      x: 3.0,
+      y: 4.5,
+      hide_dependency_lines: true,
+      dependencies: [
+        "14CA59973A2B33FF",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "327E27800EB44FCA",
+      tasks: [
+        {
+          id: "65A0DFBFF5016149",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_chorus_chunk",
+            count: 1,
+          },
+        },
+        {
+          id: "1300C062286EB4BE",
+          type: "item",
+          item: {
+            id: "integrateddynamics:crystalized_chorus_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "150F2B33DD4F5996",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2F8BC837B3A8FFAC",
+          type: "item",
+          item: {
+            id: "integrateddynamics:proto_chorus",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:logic_director",
+        count: 1,
+      },
+      x: 5.0,
+      y: 4.5,
+      dependencies: [
+        "327E27800EB44FCA",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4A7198127F58DA94",
+      tasks: [
+        {
+          id: "5765EA89F395979E",
+          type: "item",
+          item: {
+            id: "integrateddynamics:logic_director",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A3537E2C8CD3A5A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_connector_omni_directional",
+        count: 1,
+      },
+      x: 5.0,
+      y: 3.0,
+      shape: "gear",
+      dependencies: [
+        "7E2399076FA8B7AC",
+        "4A7198127F58DA94",
+      ],
+      size: 1.5,
+      optional: true,
+      min_width: 300,
+      id: "3D1796B4F460DBBF",
+      tasks: [
+        {
+          id: "136772014822A2CC",
+          type: "item",
+          item: {
+            id: "integrateddynamics:part_connector_omni_directional",
+            count: 1,
+          },
+          match_components: "fuzzy",
+        },
+      ],
+      rewards: [
+        {
+          id: "4AE7E317BEC8CCC0",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "11A7B3422283E7E9",
+          type: "item",
+          item: {
+            id: "integrateddynamics:logic_director",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 5.0,
+      y: 6.0,
+      shape: "hexagon",
+      hide_dependent_lines: true,
+      dependencies: [
+        "4A7198127F58DA94",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      optional: true,
+      id: "504D9310A12FBB21",
+      tasks: [
+        {
+          id: "461DC877898F48C2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2E6AA9AB1267596B",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 7.5,
+      y: 3.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      hide_dependent_lines: true,
+      dependencies: [
+        "629C6374800613C4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "729DF05C1D2AE6E7",
+      tasks: [
+        {
+          id: "3F5A6F2680A95A43",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4F216DE4B94D6156",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_player_simulator",
+        count: 1,
+      },
+      x: 5.0,
+      y: 7.0,
+      dependencies: [
+        "37D23D46198DA708",
+        "73B0702440A063EB",
+      ],
+      size: 1.0,
+      id: "2C0332B3354D8A9C",
+      tasks: [
+        {
+          id: "3FF59947C8F0778C",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_player_simulator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C7D4CE8A6B220DA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:armor_stand",
+        count: 1,
+      },
+      x: 1.5,
+      y: 0.0,
+      shape: "gear",
+      dependencies: [
+        "1403ABF77D987200",
+        "14CA59973A2B33FF",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5211DFF30B136433",
+      tasks: [
+        {
+          id: "5C075E638A72C1D0",
+          type: "item",
+          item: {
+            id: "minecraft:armor_stand",
+            count: 1,
+          },
+        },
+        {
+          id: "6F8D3FC25B247F48",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "utilitarian:redstone_clock",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C00695CB9FC62B1",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "46F8907F9F63232C",
+          type: "item",
+          item: {
+            id: "minecraft:hopper",
+            count: 1,
+          },
+        },
+        {
+          id: "63686A901FF19335",
+          type: "item",
+          item: {
+            id: "minecraft:armor_stand",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:enhancement_offset",
+        count: 1,
+      },
+      x: 8.5,
+      y: 1.0,
+      dependencies: [
+        "629C6374800613C4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3DEA6BCF3DD509D9",
+      tasks: [
+        {
+          id: "5DB35D5D13B0D45A",
+          type: "item",
+          item: {
+            id: "integrateddynamics:enhancement_offset",
+            count: 1,
+            components: {
+              "integrateddynamics:part_enhancement": 4,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "34605D404C522A7E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "143DA2FE3D01D8A9",
+          type: "item",
+          item: {
+            id: "integrateddynamics:enhancement_offset",
+            count: 1,
+            components: {
+              "integrateddynamics:part_enhancement": 4,
+            },
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_inventory_reader",
+        count: 1,
+      },
+      x: 7.0,
+      y: 2.0,
+      dependencies: [
+        "729DF05C1D2AE6E7",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "5E36696532C72B3A",
+      tasks: [
+        {
+          id: "4E4A10D8343AACDD",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_inventory_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "293ACFC48E14C678",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_fluid_reader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2787C5A2D890F17E",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_block_reader",
+        count: 1,
+      },
+      x: 6.5,
+      y: 3.0,
+      dependencies: [
+        "729DF05C1D2AE6E7",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 350,
+      id: "4EAB855FDFCD1955",
+      tasks: [
+        {
+          id: "0ACB4EB9B59FB57E",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_block_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "019FFE3C2B3F1C26",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_world_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "5BAA205F5951C473",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_extradimensional_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "6CA0D6F1F3842F3F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_audio_reader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05A4B2D076FD0B04",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_redstone_reader",
+        count: 1,
+      },
+      x: 8.0,
+      y: 2.0,
+      dependencies: [
+        "729DF05C1D2AE6E7",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "33CD8F19B27FA484",
+      tasks: [
+        {
+          id: "35E53A7211E937FB",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_redstone_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "1E046FEB3669065F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_network_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "020452C33949CFEB",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_machine_reader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F590A1D5A1389F3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_entity_reader",
+        count: 1,
+      },
+      x: 8.5,
+      y: 3.0,
+      dependencies: [
+        "729DF05C1D2AE6E7",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "789BE725F2F89196",
+      tasks: [
+        {
+          id: "78B1896D4C1F348D",
+          type: "item",
+          item: {
+            id: "integrateddynamics:part_entity_reader",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64F6A17D137033CF",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_effect_writer",
+        count: 1,
+      },
+      x: 8.0,
+      y: 4.0,
+      dependencies: [
+        "729DF05C1D2AE6E7",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "00E7719300B02F8F",
+      tasks: [
+        {
+          id: "11F354DBC1265B52",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_audio_writer",
+            count: 1,
+          },
+        },
+        {
+          id: "051D3A55E6D6190C",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integrateddynamics:part_effect_writer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "58E435991E947102",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_redstone_writer",
+        count: 1,
+      },
+      x: 7.0,
+      y: 4.0,
+      dependencies: [
+        "729DF05C1D2AE6E7",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3B829DC47FFE77D6",
+      tasks: [
+        {
+          id: "2B0806310FBA2DB4",
+          type: "item",
+          item: {
+            id: "integrateddynamics:part_redstone_writer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DB50B170C7FB063",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_importer_world_item",
+        count: 1,
+      },
+      x: 4.0,
+      y: 6.5,
+      dependencies: [
+        "504D9310A12FBB21",
+      ],
+      size: 1.0,
+      id: "73B0702440A063EB",
+      tasks: [
+        {
+          id: "6AA5E33EA2CA3A53",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_world_item",
+            count: 1,
+          },
+        },
+        {
+          id: "625914D31214BFD7",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_exporter_world_item",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5FB220E7608A8AD5",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_importer_world_fluid",
+        count: 1,
+      },
+      x: 4.0,
+      y: 5.5,
+      dependencies: [
+        "504D9310A12FBB21",
+      ],
+      size: 1.0,
+      id: "091ACA18018FFD3E",
+      tasks: [
+        {
+          id: "6B6FDA05423838E0",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integratedtunnels:part_importer_world_fluid",
+            count: 1,
+          },
+        },
+        {
+          id: "645D84451E54D582",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integratedtunnels:part_exporter_world_fluid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "462D4669E861139D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_importer_world_energy",
+        count: 1,
+      },
+      x: 6.0,
+      y: 5.5,
+      dependencies: [
+        "504D9310A12FBB21",
+      ],
+      size: 1.0,
+      id: "302C29E7007A61D9",
+      tasks: [
+        {
+          id: "708ACDB2263BC39B",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integratedtunnels:part_importer_world_energy",
+            count: 1,
+          },
+        },
+        {
+          id: "52748B3BD2AC76F6",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "integratedtunnels:part_exporter_world_energy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03A49613E6932486",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_importer_world_block",
+        count: 1,
+      },
+      x: 6.0,
+      y: 6.5,
+      dependencies: [
+        "504D9310A12FBB21",
+      ],
+      size: 1.0,
+      id: "37D23D46198DA708",
+      tasks: [
+        {
+          id: "465DDF26ABF57F20",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_importer_world_block",
+            count: 1,
+          },
+        },
+        {
+          id: "0213898CDF46184D",
+          type: "item",
+          item: {
+            id: "integratedtunnels:part_exporter_world_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0328637FBC128834",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 6.5,
+      y: 1.0,
+      dependencies: [
+        "629C6374800613C4",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 350,
+      id: "2331E407E82138AB",
+      tasks: [
+        {
+          id: "1C0BB83393437BDF",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5DD7A6439BB86F43",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:part_display_panel",
+        count: 1,
+      },
+      x: 12.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "6005C20FD96E6711",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0CEB6ADF1306381D",
+      tasks: [
+        {
+          id: "6CF459AF637D9B8C",
+          type: "item",
+          item: {
+            id: "integrateddynamics:part_display_panel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1151C487D440626C",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "519B22ACE8F9637D",
+          type: "item",
+          item: {
+            id: "integrateddynamics:part_display_panel",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:drying_basin",
+        count: 1,
+      },
+      x: 1.5,
+      y: 1.5,
+      dependencies: [
+        "5B34FEF756C93961",
+      ],
+      size: 1.0,
+      id: "14CA59973A2B33FF",
+      tasks: [
+        {
+          id: "46F10644E5D5E1E2",
+          type: "item",
+          item: {
+            id: "integrateddynamics:drying_basin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6BD0A4024020D25C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2956B53699B8B174",
+          type: "item",
+          item: {
+            id: "minecraft:rotten_flesh",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integrateddynamics:wrench",
+        count: 1,
+      },
+      x: 5.0,
+      y: -1.5,
+      shape: "pentagon",
+      dependencies: [
+        "63A3450169DD4B17",
+      ],
+      size: 1.0,
+      id: "727F2932543CADDA",
+      tasks: [
+        {
+          id: "0AA7E306E9BB3813",
+          type: "item",
+          item: {
+            id: "integrateddynamics:wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E976C64707B43CE",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "integratedtunnels:part_importer_item",
+        count: 1,
+      },
+      x: 9.5,
+      y: 0.0,
+      dependencies: [
+        "629C6374800613C4",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "3B6540C11FAF6C3D",
+      tasks: [
+        {
+          id: "0D41D1A509DD941A",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_fluid))",
+            },
+          },
+        },
+        {
+          id: "41C6DFE9A3B35FF8",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_fluid))",
+              "minecraft:custom_name": "\"Exporters\"",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "04BA711CB5857D46",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 13.0,
+      y: -1.0,
+      shape: "gear",
+      dependencies: [
+        "2DDC9D75FBFA1F3C",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "006014B382FCF6E6",
+      tasks: [
+        {
+          id: "31D3D8C34525AC97",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "14C94E345C7B6A39",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "jei:textures/gui/sprites/icons/info.png",
+        },
+      },
+      x: 9.5,
+      y: -1.5,
+      shape: "gear",
+      dependencies: [
+        "3B6540C11FAF6C3D",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 300,
+      id: "18AD721D008B8FFE",
+      tasks: [
+        {
+          id: "5D925435E36DF8E3",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3B09D6EC190A924F",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 1.5,
+      y: -4.0,
+      width: 7.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/integrated_dynamics_logo.png",
+      click_action: {
+        type: "open_quest",
+        data: "5B34FEF756C93961",
+      },
+      id: "702006D9762C390B",
+    },
+    {
+      x: 10.5,
+      y: 1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "integrateddynamics:item/variable",
+      id: "6137984296FAB6AE",
+    },
+    {
+      x: 14.0,
+      y: 0.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "integrateddynamics:item/variable",
+      id: "04265EB4FA27DBF3",
+    },
+    {
+      x: 10.5,
+      y: -1.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "integrateddynamics:item/variable",
+      id: "0B471CE1FC923406",
+    },
+  ],
+}

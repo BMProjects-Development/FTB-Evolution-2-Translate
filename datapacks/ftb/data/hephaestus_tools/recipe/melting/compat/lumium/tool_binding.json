@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:lumium"
+    },
+    "items": "hephaestus_tools:tool_binding",
+    "strict": false
+  },
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_lumium"
+  },
+  "temperature": 1000,
+  "time": 100
+}

@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "exdeorum" }
+  ],
+  "type": "exdeorum:crucible_heat_source",
+  "block_predicate": {
+    "block": "colossal_reactors:heating_coil_energy_on"
+  },
+  "heat_value": 50
+}

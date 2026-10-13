@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:sulfur_deepslate_ore",
+    "ftbmaterials:sulfur_stone_ore"
+  ]
+}

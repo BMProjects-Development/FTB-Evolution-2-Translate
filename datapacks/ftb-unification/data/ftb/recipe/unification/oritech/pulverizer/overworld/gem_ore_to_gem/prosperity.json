@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/prosperity"
+  ],
+  "itemResults": [
+    {
+      "id": "mysticalagriculture:prosperity_shard"
+    }
+  ],
+  "time": 100
+}

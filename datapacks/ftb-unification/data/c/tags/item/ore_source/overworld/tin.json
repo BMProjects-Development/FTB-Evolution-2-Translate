@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "energizedpower:deepslate_tin_ore",
+    "energizedpower:tin_ore",
+    "ftbic:tin_deepslate_ore",
+    "ftbic:tin_stone_ore",
+    "ftbmaterials:tin_deepslate_ore",
+    "ftbmaterials:tin_stone_ore"
+  ]
+}

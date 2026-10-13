@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/xychorium_red",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "xycraft_world:xychorium_gem_red"
+  }
+}

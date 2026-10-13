@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "mysticalagradditions:nether_inferium_ore",
+  "result": {
+    "count": 3,
+    "id": "mysticalagriculture:inferium_essence"
+  },
+  "secondary": {
+    "count": 3,
+    "id": "mysticalagriculture:inferium_essence"
+  },
+  "secondaryChance": 75,
+  "time": 16
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "ftbevolutioncompanion:ftb_skyline"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.root.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:block/cut_sandstone"
+  },
+  "criteria": {
+    "joined": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

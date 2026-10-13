@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:novite_shard",
+    "ftbmaterials:novite_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "stellaris:novite_ingot"
+    }
+  ],
+  "time": 80
+}

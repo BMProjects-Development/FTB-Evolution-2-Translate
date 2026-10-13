@@ -1,0 +1,15 @@
+{
+  "name": "The Power of Earth",
+  "sortnum": 11,
+  "category": "justdirethings:justdynathings",
+  "icon": "justdynathings:thermo_generator",
+  "flag": "!mod:justdynathings",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "title": "Thermo Generator",
+      "recipe": "justdynathings:thermo_generator",
+      "text": "A new generator that generate Forge Energy based on a heat source blocks and a fluid coolant"
+    }
+  ]
+}

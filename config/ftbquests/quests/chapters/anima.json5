@@ -1,0 +1,2332 @@
+{
+  id: "4FCD222740E6F1BC",
+  group: "4A2F4752A3C3721A",
+  order_index: 0,
+  icon: {
+    id: "anima:soulbone",
+    count: 1,
+  },
+  filename: "anima",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "78397E6469FC9213",
+  quests: [
+    {
+      icon: {
+        id: "anima:anima_codex",
+        count: 1,
+        components: {
+          "modonomicon:book_id": "anima:codex",
+        },
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      min_width: 300,
+      id: "78397E6469FC9213",
+      tasks: [
+        {
+          id: "4FC7B02161F74942",
+          type: "item",
+          item: {
+            id: "anima:anima_codex",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4630AB1FF67D22D5",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "6803BD0A7E65776A",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soulbone",
+        count: 1,
+      },
+      x: 2.0,
+      y: 0.0,
+      dependencies: [
+        "78397E6469FC9213",
+      ],
+      size: 1.0,
+      id: "16FCA08F989F3C8C",
+      tasks: [
+        {
+          id: "41C9F17B4F9AA531",
+          type: "item",
+          item: {
+            id: "anima:soulbone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E36F51FFD8B4619",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2C0536A16C08AEA9",
+          type: "item",
+          item: {
+            id: "anima:soulbone",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "553DBC452D85ED9F",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:crystal_shard",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      dependencies: [
+        "16FCA08F989F3C8C",
+      ],
+      size: 1.0,
+      id: "1E3E7B27B205D155",
+      tasks: [
+        {
+          id: "5F724D3C9C557693",
+          type: "item",
+          item: {
+            id: "anima:crystal_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "50FC6E92ED77A9FC",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "315F3BBE185777DF",
+          type: "item",
+          item: {
+            id: "anima:crystal_shard",
+            count: 1,
+          },
+          random_bonus: 5,
+        },
+        {
+          id: "77ECBDD73EBE34B6",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:yellow_crystal",
+        count: 1,
+      },
+      x: 4.0,
+      y: -2.0,
+      dependencies: [
+        "1E3E7B27B205D155",
+      ],
+      size: 1.0,
+      id: "2396B89E788E2AC4",
+      tasks: [
+        {
+          id: "1280996C8541E9A7",
+          type: "item",
+          item: {
+            id: "anima:yellow_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3864FD05C53B2F8B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3BABEA326E927920",
+          type: "item",
+          item: {
+            id: "anima:yellow_crystal",
+            count: 1,
+          },
+          random_bonus: 4,
+        },
+        {
+          id: "4A54BBB7450A0668",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:blow_mold",
+        count: 1,
+      },
+      x: 6.0,
+      y: 0.0,
+      dependencies: [
+        "1E3E7B27B205D155",
+      ],
+      size: 1.0,
+      id: "77016F4C944C984C",
+      tasks: [
+        {
+          id: "711C75BEB5A61574",
+          type: "item",
+          item: {
+            id: "anima:molten_crystal_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "63E1C7AE4E7C7958",
+          type: "item",
+          item: {
+            id: "anima:blow_mold",
+            count: 1,
+          },
+        },
+        {
+          id: "48ABFE9DDB0BAE4A",
+          type: "item",
+          item: {
+            id: "anima:bellows",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B5ACD589595DE92",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5CC509249ACFC734",
+          type: "item",
+          item: {
+            id: "anima:crystal_shard",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "7D8BACA7134F42E8",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:blue_gem",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      dependencies: [
+        "77016F4C944C984C",
+      ],
+      size: 1.0,
+      id: "6D4A7E25E55FA2F4",
+      tasks: [
+        {
+          id: "37CBC588D45C9C44",
+          type: "item",
+          item: {
+            id: "anima:blue_gem",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "27049483E9E1760E",
+          type: "item",
+          item: {
+            id: "anima:molten_crystal_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26EDB10C1A30E3D3",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "558079027EE6F1A1",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:yellow_gem",
+        count: 1,
+      },
+      x: 6.0,
+      y: -2.0,
+      dependencies: [
+        "2396B89E788E2AC4",
+        "77016F4C944C984C",
+      ],
+      size: 1.0,
+      id: "456D538288C1E710",
+      tasks: [
+        {
+          id: "18FE1AC3C05F5FD0",
+          type: "item",
+          item: {
+            id: "anima:molten_yellow_crystal_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "01DFBF1F556D25AC",
+          type: "fluid",
+          optional_task: true,
+          fluid: {
+            fluid: "anima:molten_yellow_crystal",
+            amount: 1000,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17C28068E92CE0CA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0911C91059CF09C3",
+          type: "item",
+          item: {
+            id: "anima:yellow_gem",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "34DB9504669B2F7F",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:funnel",
+        count: 1,
+      },
+      x: 6.0,
+      y: 2.0,
+      dependencies: [
+        "77016F4C944C984C",
+      ],
+      size: 1.0,
+      id: "28C03305E26EABB8",
+      tasks: [
+        {
+          id: "16A19264124B6DD4",
+          type: "item",
+          item: {
+            id: "anima:funnel",
+            count: 1,
+          },
+        },
+        {
+          id: "7600D7528AA7E6F3",
+          type: "item",
+          item: {
+            id: "anima:decanter",
+            count: 1,
+          },
+        },
+        {
+          id: "6162F7EC9080C509",
+          type: "item",
+          item: {
+            id: "anima:splitter",
+            count: 1,
+          },
+        },
+        {
+          id: "7EF6F84610483E1B",
+          type: "item",
+          item: {
+            id: "anima:gourd",
+            count: 1,
+          },
+        },
+        {
+          id: "6637342FB0A43E82",
+          type: "item",
+          item: {
+            id: "anima:spiral",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A1D16793CD402F7",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "268D95BDC9A296F7",
+          type: "item",
+          item: {
+            id: "anima:molten_crystal_bucket",
+            count: 1,
+          },
+        },
+        {
+          id: "33DA919238007491",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:bone_cage",
+        count: 1,
+      },
+      x: 8.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "28C03305E26EABB8",
+      ],
+      size: 1.5,
+      id: "337B905F5A2641FC",
+      tasks: [
+        {
+          id: "35587F1FBCE635BF",
+          type: "item",
+          item: {
+            id: "anima:bone_cage",
+            count: 1,
+          },
+        },
+        {
+          id: "68CEFA9FB40725AA",
+          type: "advancement",
+          advancement: "anima:progression/capture",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "1AD98F0D36083BB9",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "60512E2D216D712C",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:benign_soul",
+        count: 1,
+      },
+      x: 10.0,
+      y: 2.0,
+      dependencies: [
+        "337B905F5A2641FC",
+      ],
+      size: 1.0,
+      id: "77B1E32B1A1835F0",
+      tasks: [
+        {
+          id: "41C2763D8FE489E6",
+          type: "advancement",
+          advancement: "anima:progression/extraction",
+          criterion: "",
+        },
+        {
+          id: "615C67E788B5531B",
+          type: "item",
+          item: {
+            id: "anima:benign_soul",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73D66E078DA16020",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "6D2B3838A2C9575A",
+          type: "item",
+          item: {
+            id: "anima:benign_soul",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "2E426A69A48AE2CE",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:wise_soul",
+        count: 1,
+      },
+      x: 10.0,
+      y: 4.0,
+      dependencies: [
+        "77B1E32B1A1835F0",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "68F2A958D11A4BDF",
+      tasks: [
+        {
+          id: "5F8281BC5D92D6C8",
+          type: "item",
+          item: {
+            id: "anima:predator_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "2F018C15C69C28E4",
+          type: "item",
+          item: {
+            id: "anima:doomed_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "67D1CA119F73769A",
+          type: "item",
+          item: {
+            id: "anima:unhinged_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "1377B8174DFD8C38",
+          type: "item",
+          item: {
+            id: "anima:aquatic_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "2AB35B6D3A22FBF9",
+          type: "item",
+          item: {
+            id: "anima:ender_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "10EC5B0096FC6530",
+          type: "item",
+          item: {
+            id: "anima:infernal_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "5DFD120BA6982351",
+          type: "item",
+          item: {
+            id: "anima:wise_soul",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F344417F4392AA5",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soul_stone",
+        count: 1,
+      },
+      x: 12.0,
+      y: 2.0,
+      dependencies: [
+        "77B1E32B1A1835F0",
+      ],
+      size: 1.0,
+      id: "45F0B6AEF1FEE061",
+      tasks: [
+        {
+          id: "2AD8C81E8B57FDD8",
+          type: "item",
+          item: {
+            id: "anima:soul_stone",
+            count: 1,
+          },
+          count: 12,
+        },
+        {
+          id: "32624D3960AE93B4",
+          type: "advancement",
+          advancement: "anima:progression/well",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "48ADD4893B4864CC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "249014A3BC3F2BD5",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:circuit_stamper",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "6D4A7E25E55FA2F4",
+      ],
+      size: 1.5,
+      id: "3C1956BE24C1C90A",
+      tasks: [
+        {
+          id: "598481BFE268285B",
+          type: "item",
+          item: {
+            id: "anima:circuit_stamper",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DC2339BC9A2844B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "704FF3AE28BB356F",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soulbone_conduit",
+        count: 1,
+      },
+      x: 12.0,
+      y: 0.0,
+      dependencies: [
+        "3C1956BE24C1C90A",
+      ],
+      size: 1.0,
+      id: "3A9912660456ECB4",
+      tasks: [
+        {
+          id: "20B718A317887772",
+          type: "item",
+          item: {
+            id: "anima:soulbone_splinter",
+            count: 1,
+          },
+        },
+        {
+          id: "62822BED030E9C11",
+          type: "item",
+          item: {
+            id: "anima:soulbone_conduit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6971754B264E168B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "723AB4C2B75348C9",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "anima:soulbone",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "19546A1C7B5D37D8",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:control_circuit",
+        count: 1,
+      },
+      x: 14.0,
+      y: 0.0,
+      dependencies: [
+        "3A9912660456ECB4",
+      ],
+      size: 1.0,
+      id: "65DFAC0AEF26F533",
+      tasks: [
+        {
+          id: "7F09AC1233FA9659",
+          type: "item",
+          item: {
+            id: "anima:control_circuit",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "208207EE6E0C80E2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "08CB94F34C207C0E",
+          type: "item",
+          item: {
+            id: "anima:control_circuit",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "51FBCAFAC4046F5A",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:quantifier",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      dependencies: [
+        "65DFAC0AEF26F533",
+      ],
+      size: 1.0,
+      id: "373B87566F6879E4",
+      tasks: [
+        {
+          id: "6D80B60EB424ED17",
+          type: "item",
+          item: {
+            id: "anima:emitter",
+            count: 1,
+          },
+        },
+        {
+          id: "279E90AFC77033B3",
+          type: "item",
+          item: {
+            id: "anima:ponderance_lattice",
+            count: 1,
+          },
+        },
+        {
+          id: "191EBEC538C75730",
+          type: "item",
+          item: {
+            id: "anima:quantifier",
+            count: 1,
+          },
+        },
+        {
+          id: "7AB4F7D2B981BE5B",
+          type: "item",
+          item: {
+            id: "anima:soul_relay",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3ED70F5889D93D72",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3DAE3B2452D76A49",
+          type: "item",
+          item: {
+            id: "anima:emitter",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "69D56540BCBD4450",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soul_focus",
+        count: 1,
+      },
+      x: 14.0,
+      y: -2.0,
+      dependencies: [
+        "65DFAC0AEF26F533",
+      ],
+      size: 1.0,
+      id: "50EC812A64C866C4",
+      tasks: [
+        {
+          id: "5C684AFD7715027F",
+          type: "item",
+          item: {
+            id: "anima:soul_focus",
+            count: 1,
+          },
+        },
+        {
+          id: "4E98CE0AA3CB583D",
+          type: "advancement",
+          advancement: "anima:progression/cast",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "10FC22A1E51D06D6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "67589B34B72A295E",
+          type: "item",
+          item: {
+            id: "anima:benign_soul",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "6851A99C252370D1",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soul_gem",
+        count: 1,
+      },
+      x: 14.0,
+      y: -4.0,
+      dependencies: [
+        "50EC812A64C866C4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "75D6CEA6F7167770",
+      tasks: [
+        {
+          id: "6AD7A0FB10EB8A1E",
+          type: "item",
+          item: {
+            id: "anima:soul_gem",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "65467FDBA6929429",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soul_altar",
+        count: 1,
+      },
+      x: 16.0,
+      y: -2.0,
+      dependencies: [
+        "50EC812A64C866C4",
+      ],
+      size: 1.0,
+      id: "37BF2F11443D3895",
+      tasks: [
+        {
+          id: "3C69A1067DF75F5B",
+          type: "item",
+          item: {
+            id: "anima:soul_altar",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F47401AB4DA156A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "798B92E7C44F9FD8",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "4FFB63CE0D78EEFB",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:spell_book",
+        count: 1,
+      },
+      x: 16.0,
+      y: -4.0,
+      dependencies: [
+        "37BF2F11443D3895",
+      ],
+      size: 1.0,
+      id: "3D6BB0B2FDF36444",
+      tasks: [
+        {
+          id: "530E47E66F331E9A",
+          type: "advancement",
+          advancement: "anima:progression/learn",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "6EEC8CA71CD42D80",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "58E5882A88521FD6",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:infusion_table",
+        count: 1,
+      },
+      x: 18.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "373B87566F6879E4",
+      ],
+      size: 1.5,
+      id: "7CD1D40C6A6C8C6D",
+      tasks: [
+        {
+          id: "2B77BDAED36A64A3",
+          type: "item",
+          item: {
+            id: "anima:plinth",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "3CD371683C4C6297",
+          type: "item",
+          item: {
+            id: "anima:infusion_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "286D0FCDBC89B955",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5E9C1E5392C140AC",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "6639E580A74126F3",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:crystallized_soulbone",
+        count: 1,
+      },
+      x: 20.0,
+      y: 0.0,
+      dependencies: [
+        "7CD1D40C6A6C8C6D",
+      ],
+      size: 1.0,
+      id: "47A9BFB7EF1C8724",
+      tasks: [
+        {
+          id: "7BA46D45571E2C90",
+          type: "item",
+          item: {
+            id: "anima:crystallized_soulbone",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "63CB2ABFFEE399D6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "48C4EBF271A404BE",
+          type: "item",
+          item: {
+            id: "anima:crystallized_soulbone",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "57A66D25D44B9282",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:raw_saronite",
+        count: 1,
+      },
+      x: 22.0,
+      y: 0.0,
+      dependencies: [
+        "47A9BFB7EF1C8724",
+      ],
+      size: 1.0,
+      id: "7B11D59F8E2D62E9",
+      tasks: [
+        {
+          id: "3375ECCDE9B050EC",
+          type: "item",
+          item: {
+            id: "anima:raw_saronite",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "556FC72EAF95D418",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0B56A7848B60A9C9",
+          type: "item",
+          item: {
+            id: "anima:raw_saronite",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "16C7250619EF0FA7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soul_forge",
+        count: 1,
+      },
+      x: 24.0,
+      y: 0.0,
+      dependencies: [
+        "7B11D59F8E2D62E9",
+      ],
+      size: 1.0,
+      id: "663CDBB5BF71F88D",
+      tasks: [
+        {
+          id: "50BED522F29A3ECA",
+          type: "item",
+          item: {
+            id: "anima:soul_forge",
+            count: 1,
+          },
+        },
+        {
+          id: "4B5EDFFF2308DE42",
+          type: "item",
+          item: {
+            id: "anima:saronite_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C746EC21854734A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "02DC04561D993F6A",
+          type: "item",
+          item: {
+            id: "anima:saronite_ingot",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 3,
+        },
+        {
+          id: "1318025599104AC4",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:saronite_sword",
+        count: 1,
+      },
+      x: 26.0,
+      y: 0.0,
+      dependencies: [
+        "663CDBB5BF71F88D",
+      ],
+      size: 1.0,
+      id: "677D909854D44D88",
+      tasks: [
+        {
+          id: "5447FE5AF96FA56B",
+          type: "item",
+          item: {
+            id: "anima:saronite_sword",
+            count: 1,
+          },
+        },
+        {
+          id: "1E1BE3149657F57D",
+          type: "advancement",
+          advancement: "anima:progression/reap",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "7302B349F1859536",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "50DF30F0A628D8ED",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "16B64D4FA13ED38B",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:god_soul",
+        count: 1,
+      },
+      x: 28.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "677D909854D44D88",
+      ],
+      size: 1.5,
+      id: "39304DE6B081D6D4",
+      tasks: [
+        {
+          id: "5B1A7AC68679ED9D",
+          type: "item",
+          item: {
+            id: "anima:god_soul",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E9DA3CBA66EF1AC",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "268D7283283E285A",
+          type: "item",
+          item: {
+            id: "anima:god_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "7ECDA1326284D246",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:ring_of_power",
+        count: 1,
+      },
+      x: 30.5,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "39304DE6B081D6D4",
+      ],
+      size: 2.0,
+      id: "786B4144CD27D566",
+      tasks: [
+        {
+          id: "42F8355A655006A1",
+          type: "item",
+          item: {
+            id: "anima:ring_of_power",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1AF4410BA26BA9C9",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1DD2EB50AB02DC70",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "7E214CD9E9C71125",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:pantheon",
+        count: 1,
+      },
+      x: 29.5,
+      y: -1.5,
+      dependencies: [
+        "39304DE6B081D6D4",
+      ],
+      size: 1.0,
+      id: "21E67245D140A48B",
+      tasks: [
+        {
+          id: "61FE53EC9083AD14",
+          type: "item",
+          item: {
+            id: "anima:pantheon",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3AD5CC056E4B0DDA",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "13DE08FA8D3A87E8",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "775E1F599B1ABF60",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:deity_shrine",
+        count: 1,
+      },
+      x: 31.5,
+      y: -1.5,
+      dependencies: [
+        "21E67245D140A48B",
+      ],
+      size: 1.0,
+      id: "466547590C6E3ED5",
+      tasks: [
+        {
+          id: "13F04977714BD6D9",
+          type: "item",
+          item: {
+            id: "anima:deity_shrine",
+            count: 1,
+          },
+        },
+        {
+          id: "49AE5DED4258090C",
+          type: "item",
+          item: {
+            id: "anima:offering_plate",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "156E6E5025537F1A",
+          type: "advancement",
+          advancement: "anima:progression/devout",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "7843EDB0C662672D",
+          type: "currency",
+          team_reward: false,
+          amount: 40,
+        },
+        {
+          id: "5AE09BF15194E64C",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "78B3CEA95CABB545",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:priest_rod",
+        count: 1,
+      },
+      x: 33.0,
+      y: 0.0,
+      dependencies: [
+        "466547590C6E3ED5",
+      ],
+      size: 1.0,
+      id: "375892AEFA92CDE7",
+      tasks: [
+        {
+          id: "7005568157A4105E",
+          type: "item",
+          item: {
+            id: "anima:priest_rod",
+            count: 1,
+          },
+        },
+        {
+          id: "613B684B1355680B",
+          type: "advancement",
+          advancement: "anima:progression/priest",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "187DEE49043653AB",
+          type: "currency",
+          team_reward: false,
+          amount: 40,
+        },
+        {
+          id: "304B1C19EA6938D4",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:deity_fabricator",
+        count: 1,
+      },
+      x: 29.5,
+      y: 1.5,
+      dependencies: [
+        "39304DE6B081D6D4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "548BFB6396968E63",
+      tasks: [
+        {
+          id: "376073443C07C793",
+          type: "item",
+          item: {
+            id: "anima:deity_fabricator",
+            count: 1,
+          },
+        },
+        {
+          id: "1C79FA5566A0F5D8",
+          type: "advancement",
+          advancement: "anima:progression/create_deity",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "3FAA1A02E1B929F4",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5EEA79C53D51A759",
+          type: "item",
+          item: {
+            id: "anima:god_soul",
+            count: 1,
+          },
+        },
+        {
+          id: "75E2260777BD8A19",
+          type: "xp",
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:deity_hammer",
+        count: 1,
+      },
+      x: 31.5,
+      y: 1.5,
+      dependencies: [
+        "548BFB6396968E63",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5CD3D480A4BE3226",
+      tasks: [
+        {
+          id: "3119E27A336ADE31",
+          type: "item",
+          item: {
+            id: "anima:deity_hammer",
+            count: 1,
+          },
+        },
+        {
+          id: "1B48908646ED36AB",
+          type: "advancement",
+          advancement: "anima:progression/defeat_avatar",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "2277FA700308597E",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "57D60EFA5DDF47B8",
+          type: "item",
+          item: {
+            id: "anima:god_soul",
+            count: 1,
+          },
+          random_bonus: 4,
+        },
+        {
+          id: "338BC753BB54CC60",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "50E8B2FF0722985E",
+          type: "xp",
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:ceremonial_robe",
+        count: 1,
+      },
+      x: 20.0,
+      y: -2.0,
+      dependencies: [
+        "47A9BFB7EF1C8724",
+      ],
+      size: 1.0,
+      id: "61E2C9FEA985422F",
+      tasks: [
+        {
+          id: "5D62FF9164D598C3",
+          type: "item",
+          item: {
+            id: "anima:ceremonial_robe",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "176CBF03AC7D0B79",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6F5BE2C22358546C",
+          type: "item",
+          item: {
+            id: "anima:spirit_thread",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "46A1B74B9F91CA30",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:dark_altar",
+        count: 1,
+      },
+      x: 20.0,
+      y: -4.0,
+      dependencies: [
+        "61E2C9FEA985422F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "2228AFBC2F153AAE",
+      tasks: [
+        {
+          id: "2C6171F432BB5E26",
+          type: "item",
+          item: {
+            id: "anima:dark_altar",
+            count: 1,
+          },
+        },
+        {
+          id: "66EA4F1678481DB2",
+          type: "advancement",
+          icon: {
+            id: "anima:dark_altar",
+            count: 1,
+          },
+          advancement: "anima:progression/offering",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "472DE3F289A40238",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "02530206CF93980E",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "7BF6C7EA7682DDDE",
+          type: "xp",
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:soulbone_chestplate",
+        count: 1,
+      },
+      x: 22.0,
+      y: -2.0,
+      dependencies: [
+        "47A9BFB7EF1C8724",
+      ],
+      size: 1.0,
+      id: "438379200FFAFBBD",
+      tasks: [
+        {
+          id: "2AE8B7CF399EEEEE",
+          type: "item",
+          item: {
+            id: "anima:soulbone_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "37340ADBD31EE96E",
+          type: "item",
+          item: {
+            id: "anima:soulbone_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "7535D0017F0E69B8",
+          type: "item",
+          item: {
+            id: "anima:soulbone_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "54DA585F3F996ED9",
+          type: "item",
+          item: {
+            id: "anima:soulbone_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "311463ABC2CC791A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7E51AA2929733470",
+          type: "item",
+          item: {
+            id: "anima:crystallized_soulbone",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "43A747C5773B0557",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:saronite_chestplate",
+        count: 1,
+      },
+      x: 24.0,
+      y: -2.0,
+      dependencies: [
+        "438379200FFAFBBD",
+        "663CDBB5BF71F88D",
+      ],
+      size: 1.0,
+      id: "16EB9AC35AA09D8F",
+      tasks: [
+        {
+          id: "7BB9C20BA2BFC4B7",
+          type: "item",
+          item: {
+            id: "anima:saronite_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "35DA1CD1B6CE598D",
+          type: "item",
+          item: {
+            id: "anima:saronite_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "332E2C73CC5D6906",
+          type: "item",
+          item: {
+            id: "anima:saronite_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "48A6457714EBB96A",
+          type: "item",
+          item: {
+            id: "anima:saronite_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "485D93D227326C1A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "47DFD51897DFF099",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "2E7A4508C9CCD414",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:totem_of_harvesting",
+        count: 1,
+      },
+      x: 14.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "45F0B6AEF1FEE061",
+        "65DFAC0AEF26F533",
+      ],
+      size: 1.5,
+      id: "5A0473F1679DECB4",
+      tasks: [
+        {
+          id: "6CB8CCD7749F042B",
+          type: "item",
+          item: {
+            id: "anima:totem_of_harvesting",
+            count: 1,
+          },
+        },
+        {
+          id: "315050B1932BB73A",
+          type: "advancement",
+          advancement: "anima:progression/automation",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "590356BAF8468BB3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5B1F1052E2B69BBD",
+          type: "item",
+          item: {
+            id: "anima:benign_soul",
+            count: 1,
+          },
+          random_bonus: 3,
+        },
+        {
+          id: "2FCD683308ACA0BE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:totem_of_forestry",
+        count: 1,
+      },
+      x: 14.0,
+      y: 4.0,
+      dependencies: [
+        "5A0473F1679DECB4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "1843C0EE7E7D05F3",
+      tasks: [
+        {
+          id: "1F9AAEFD7F8569F7",
+          type: "item",
+          item: {
+            id: "anima:soul_placer",
+            count: 1,
+          },
+        },
+        {
+          id: "744A3D349F02CAA8",
+          type: "item",
+          item: {
+            id: "anima:soul_breaker",
+            count: 1,
+          },
+        },
+        {
+          id: "5986A689CBEDA758",
+          type: "item",
+          item: {
+            id: "anima:totem_of_gathering",
+            count: 1,
+          },
+        },
+        {
+          id: "5D18E3A84A3C6B05",
+          type: "item",
+          item: {
+            id: "anima:totem_of_shepherding",
+            count: 1,
+          },
+        },
+        {
+          id: "64D475ECAFB56817",
+          type: "item",
+          item: {
+            id: "anima:totem_of_breeding",
+            count: 1,
+          },
+        },
+        {
+          id: "37EB4B29418BF49A",
+          type: "item",
+          item: {
+            id: "anima:totem_of_forestry",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36C71F1DCFAEF7B0",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:corporeal_reconstructor",
+        count: 1,
+      },
+      x: 18.0,
+      y: -2.0,
+      dependencies: [
+        "7CD1D40C6A6C8C6D",
+      ],
+      size: 1.0,
+      id: "1EF4C37FCAEC99E8",
+      tasks: [
+        {
+          id: "7CB9C62894159BC3",
+          type: "item",
+          item: {
+            id: "anima:corporeal_reconstructor",
+            count: 1,
+          },
+        },
+        {
+          id: "298A435B907F9C50",
+          type: "advancement",
+          advancement: "anima:progression/reconstruction",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "33B4339E3F8CF049",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "00E4C81689D18788",
+          type: "item",
+          item: {
+            id: "anima:wise_soul",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "1FCC15714161A0CC",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:golem_part_assembler",
+        count: 1,
+      },
+      x: 16.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "373B87566F6879E4",
+      ],
+      size: 1.5,
+      id: "1873AA084EDB5E67",
+      tasks: [
+        {
+          id: "5AC0B563136E9C76",
+          type: "item",
+          item: {
+            id: "anima:golem_part_assembler",
+            count: 1,
+          },
+        },
+        {
+          id: "2D6E8538FFADD39B",
+          type: "item",
+          item: {
+            id: "anima:condensed_stone_plate",
+            count: 1,
+          },
+        },
+        {
+          id: "63CAC11FBF510894",
+          type: "item",
+          item: {
+            id: "anima:golem_armored_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "513D5352042EADA6",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "20C6264BC9DB6619",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "2FD0E33476BF90F5",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:golem_torso",
+        count: 1,
+      },
+      x: 18.0,
+      y: 2.0,
+      dependencies: [
+        "1873AA084EDB5E67",
+      ],
+      size: 1.0,
+      id: "546C442D551C6024",
+      tasks: [
+        {
+          id: "334492FF2E87C9A2",
+          type: "item",
+          item: {
+            id: "anima:golem_head",
+            count: 1,
+          },
+        },
+        {
+          id: "6C89ECB84565B948",
+          type: "item",
+          item: {
+            id: "anima:golem_torso",
+            count: 1,
+          },
+        },
+        {
+          id: "548DF30694354A4F",
+          type: "item",
+          item: {
+            id: "anima:golem_arm",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "490D0727CAEFE1F2",
+          type: "item",
+          item: {
+            id: "anima:golem_leg",
+            count: 1,
+          },
+          count: 2,
+        },
+      ],
+      rewards: [
+        {
+          id: "475AFDF9AD51AC4F",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "42DF0474E8E05756",
+          type: "item",
+          item: {
+            id: "anima:golem_armored_plate",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 3,
+        },
+        {
+          id: "5A2D97CBFE0C21C9",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "anima:golem_fabricator",
+        count: 1,
+      },
+      x: 20.0,
+      y: 2.0,
+      dependencies: [
+        "546C442D551C6024",
+      ],
+      size: 1.0,
+      id: "307221FA2971AFE5",
+      tasks: [
+        {
+          id: "1D86573359F08A6E",
+          type: "item",
+          item: {
+            id: "anima:golem_fabricator",
+            count: 1,
+          },
+        },
+        {
+          id: "14277E21C7722487",
+          type: "item",
+          item: {
+            id: "anima:soul_leash",
+            count: 1,
+          },
+        },
+        {
+          id: "34F6E09F9B8C9ED1",
+          type: "advancement",
+          advancement: "anima:progression/pilot_golem",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "3E9160CEA8D1601E",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+        {
+          id: "181D76DCBDD4A452",
+          type: "loot",
+          exclude_from_claim_all: true,
+          table_id: 7369411613336078664,
+        },
+        {
+          id: "4D10C67FC1CE0D49",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -3.5,
+      width: 4.0,
+      height: 4.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/anima_logo.png",
+      click_action: {
+        type: "open_quest",
+        data: "78397E6469FC9213",
+      },
+      id: "598974C0F30206FD",
+    },
+    {
+      x: 1.0,
+      y: 2.5,
+      width: 1.4,
+      height: 1.4,
+      rotation: -15.0,
+      image: "anima:item/soulbone",
+      id: "1B7305B2C0626FAF",
+    },
+    {
+      x: 9.0,
+      y: -2.5,
+      width: 1.4,
+      height: 1.4,
+      rotation: 20.0,
+      image: "anima:item/crystal_shard",
+      id: "3B16AAD16C3EA0D2",
+    },
+    {
+      x: 12.0,
+      y: 2.0,
+      width: 1.7,
+      height: 1.7,
+      rotation: 0.0,
+      image: "anima:block/soul_stone",
+      id: "22FC4CB382E7EFC2",
+    },
+    {
+      x: 18.0,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "anima:block/soul_stone",
+      id: "46CA6845053C3D2A",
+    },
+    {
+      x: 27.0,
+      y: -2.5,
+      width: 1.95,
+      height: 1.95,
+      rotation: 0.0,
+      image: "anima:textures/deity_icon/sun.png",
+      id: "67005F9F66D6A761",
+    },
+    {
+      x: 27.0,
+      y: 2.5,
+      width: 1.95,
+      height: 1.95,
+      rotation: 0.0,
+      image: "anima:textures/deity_icon/moon.png",
+      id: "139AFB0E73451353",
+    },
+    {
+      x: 19.0,
+      y: 4.5,
+      width: 2.6,
+      height: 2.6,
+      rotation: 0.0,
+      image: "anima:item/golem_head",
+      id: "4D20AD969B3F55A8",
+    },
+    {
+      x: 8.0,
+      y: 4.5,
+      width: 1.55,
+      height: 1.55,
+      rotation: -12.0,
+      image: "anima:item/benign_soul",
+      id: "7D53A52462ACFC43",
+    },
+    {
+      x: 12.0,
+      y: 4.5,
+      width: 1.55,
+      height: 1.55,
+      rotation: 12.0,
+      image: "anima:item/wise_soul",
+      id: "197146899F5E25E8",
+    },
+    {
+      x: 18.0,
+      y: -5.0,
+      width: 2.45,
+      height: 2.45,
+      rotation: -8.0,
+      image: "anima:item/spell_book",
+      id: "41A06B5C7E4F43C2",
+    },
+  ],
+}

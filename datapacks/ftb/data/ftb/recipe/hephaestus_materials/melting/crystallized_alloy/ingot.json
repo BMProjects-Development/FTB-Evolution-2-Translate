@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ingots/crystallized_alloy",
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_crystallized_alloy"
+  },
+  "temperature": 1000,
+  "time": 120
+}

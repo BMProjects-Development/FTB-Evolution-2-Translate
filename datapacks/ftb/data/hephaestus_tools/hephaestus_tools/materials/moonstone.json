@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:moonstone",
+  "ingredient": {
+    "tag": "c:gems/moonstone"
+  },
+  "color": 12306134,
+  "head_stats": {
+    "durability": 500,
+    "mining_speed": 9.0,
+    "attack_damage": 2.0,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 24,
+    "trait": "smite"
+  },
+  "handle_stats": {
+    "durability_mult": 0.0,
+    "speed_mult": 0.04,
+    "damage_mult": 0.0,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 100
+  }
+}

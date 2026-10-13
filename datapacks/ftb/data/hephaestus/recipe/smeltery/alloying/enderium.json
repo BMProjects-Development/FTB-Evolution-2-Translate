@@ -1,0 +1,22 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 270,
+      "id": "hephaestus:molten_lead"
+    },
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_diamond"
+    },
+    {
+      "amount": 180,
+      "id": "hephaestus:molten_ender"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "hephaestus:molten_enderium"
+  },
+  "temperature": 1450
+}

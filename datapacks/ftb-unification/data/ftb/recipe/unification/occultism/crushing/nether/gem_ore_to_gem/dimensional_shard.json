@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "ftbmaterials:dimensional_shard_nether_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "ftbmaterials:dimensional_shard_gem"
+  }
+}

@@ -1,0 +1,1418 @@
+{
+	"melee_root": {
+		"definition": "melee_root",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"unarmed_hub": {
+		"definition": "unarmed_hub",
+		"x": 0,
+		"y": -120,
+		"root": false
+	},
+	"swords_hub": {
+		"definition": "swords_hub",
+		"x": -120,
+		"y": -60,
+		"root": false
+	},
+	"scythes_hub": {
+		"definition": "scythes_hub",
+		"x": 120,
+		"y": -60,
+		"root": false
+	},
+	"axes_hub": {
+		"definition": "axes_hub",
+		"x": -120,
+		"y": 60,
+		"root": false
+	},
+	"spears_hub": {
+		"definition": "spears_hub",
+		"x": 120,
+		"y": 60,
+		"root": false
+	},
+	"shield_hub": {
+		"definition": "shield_hub",
+		"x": 0,
+		"y": 120,
+		"root": false
+	},
+	"unarmed_s_g3": {
+		"definition": "unarmed_damage_+1",
+		"x": -90,
+		"y": -300,
+		"root": false
+	},
+	"unarmed_s_g4": {
+		"definition": "armor_toughness_+0.5",
+		"x": 90,
+		"y": -300,
+		"root": false
+	},
+	"unarmed_s_g6": {
+		"definition": "unarmed_damage_+1",
+		"x": -90,
+		"y": -420,
+		"root": false
+	},
+	"unarmed_s_g8": {
+		"definition": "max_health_+1",
+		"x": 30,
+		"y": -540,
+		"root": false
+	},
+	"unarmed_s_g9": {
+		"definition": "unarmed_damage_+1",
+		"x": -90,
+		"y": -540,
+		"root": false
+	},
+	"swords_s_g3": {
+		"definition": "ranged_resistance_+2%",
+		"x": -270,
+		"y": -180,
+		"root": false
+	},
+	"swords_s_g9": {
+		"definition": "sword_damage_+5%",
+		"x": -330,
+		"y": -240,
+		"root": false
+	},
+	"swords_s_g10": {
+		"definition": "attack_speed_+2%",
+		"x": -210,
+		"y": -120,
+		"root": false
+	},
+	"axes_s_g2": {
+		"definition": "axe_damage_+5%",
+		"x": -240,
+		"y": 210,
+		"root": false
+	},
+	"axes_s_g3": {
+		"definition": "axe_speed_+5%",
+		"x": -210,
+		"y": 120,
+		"root": false
+	},
+	"axes_s_g6": {
+		"definition": "axe_damage_+5%",
+		"x": -300,
+		"y": 270,
+		"root": false
+	},
+	"axes_s_g7": {
+		"definition": "natural_regeneration_+5%",
+		"x": -270,
+		"y": 180,
+		"root": false
+	},
+	"axes_s_g10": {
+		"definition": "axe_damage_+5%",
+		"x": -360,
+		"y": 330,
+		"root": false
+	},
+	"shield_s_g2": {
+		"definition": "melee_resistance_+2%",
+		"x": 30,
+		"y": 660,
+		"root": false
+	},
+	"shield_s_g4": {
+		"definition": "melee_resistance_+2%",
+		"x": -30,
+		"y": 300,
+		"root": false
+	},
+	"brawler_g1": {
+		"definition": "unarmed_kill_heal_+2%",
+		"x": -60,
+		"y": -240,
+		"root": false
+	},
+	"brawler_g2": {
+		"definition": "faster_strikes_+2%",
+		"x": -60,
+		"y": -180,
+		"root": false
+	},
+	"brawler_g3": {
+		"definition": "unarmed_ramp_+2%",
+		"x": -30,
+		"y": -300,
+		"root": false
+	},
+	"brawler_g4": {
+		"definition": "entity_interaction_range_+1",
+		"x": -60,
+		"y": -360,
+		"root": false
+	},
+	"brawler_g5": {
+		"definition": "natural_regeneration_+10%",
+		"x": -30,
+		"y": -420,
+		"root": false
+	},
+	"brawler_g6": {
+		"definition": "unarmed_kill_heal_+2%",
+		"x": -60,
+		"y": -480,
+		"root": false
+	},
+	"brawler_g7": {
+		"definition": "faster_strikes_+2%",
+		"x": -30,
+		"y": -540,
+		"root": false
+	},
+	"brawler_g8": {
+		"definition": "unarmed_ramp_+2%",
+		"x": -60,
+		"y": -600,
+		"root": false
+	},
+	"brawler_g9": {
+		"definition": "entity_interaction_range_+1",
+		"x": -30,
+		"y": -660,
+		"root": false
+	},
+	"brawler_g10": {
+		"definition": "natural_regeneration_+10%",
+		"x": -60,
+		"y": -720,
+		"root": false
+	},
+	"brawler_g11": {
+		"definition": "unarmed_kill_heal_+2%",
+		"x": -30,
+		"y": -780,
+		"root": false
+	},
+	"brawler_g12": {
+		"definition": "faster_strikes_+2%",
+		"x": -60,
+		"y": -840,
+		"root": false
+	},
+	"brawler_cap": {
+		"definition": "brawler_cap",
+		"x": -60,
+		"y": -900,
+		"root": false
+	},
+	"juggernaut_g1": {
+		"definition": "unarmed_resistance_+2%",
+		"x": 60,
+		"y": -240,
+		"root": false
+	},
+	"juggernaut_g2": {
+		"definition": "combo_punch_+10%",
+		"x": 60,
+		"y": -180,
+		"root": false
+	},
+	"juggernaut_g3": {
+		"definition": "knockback_resistance_+10%",
+		"x": 30,
+		"y": -300,
+		"root": false
+	},
+	"juggernaut_g4": {
+		"definition": "melee_resistance_+5%",
+		"x": 60,
+		"y": -360,
+		"root": false
+	},
+	"juggernaut_g5": {
+		"definition": "ranged_resistance_+5%",
+		"x": 90,
+		"y": -420,
+		"root": false
+	},
+	"juggernaut_g6": {
+		"definition": "resistance_+5%",
+		"x": 60,
+		"y": -480,
+		"root": false
+	},
+	"juggernaut_g7": {
+		"definition": "unarmed_resistance_+2%",
+		"x": 90,
+		"y": -540,
+		"root": false
+	},
+	"juggernaut_g8": {
+		"definition": "combo_punch_+10%",
+		"x": 60,
+		"y": -600,
+		"root": false
+	},
+	"juggernaut_g9": {
+		"definition": "knockback_resistance_+10%",
+		"x": 90,
+		"y": -660,
+		"root": false
+	},
+	"juggernaut_g11": {
+		"definition": "ranged_resistance_+5%",
+		"x": 60,
+		"y": -720,
+		"root": false
+	},
+	"juggernaut_g13": {
+		"definition": "unarmed_resistance_+2%",
+		"x": 90,
+		"y": -780,
+		"root": false
+	},
+	"juggernaut_g14": {
+		"definition": "combo_punch_+10%",
+		"x": 60,
+		"y": -840,
+		"root": false
+	},
+	"juggernaut_cap": {
+		"definition": "juggernaut_cap",
+		"x": 60,
+		"y": -900,
+		"root": false
+	},
+	"swordsman_g1": {
+		"definition": "echo_strikes_+5%",
+		"x": -240,
+		"y": -270,
+		"root": false
+	},
+	"swordsman_g2": {
+		"definition": "shakedown_+5%",
+		"x": -120,
+		"y": -210,
+		"root": false
+	},
+	"swordsman_g3": {
+		"definition": "crit_chance_+2%",
+		"x": -180,
+		"y": -210,
+		"root": false
+	},
+	"swordsman_3": {
+		"definition": "blademaster_+1",
+		"x": -120,
+		"y": -150,
+		"root": false
+	},
+	"swordsman_g4": {
+		"definition": "crit_damage_+10%",
+		"x": -180,
+		"y": -270,
+		"root": false
+	},
+	"swordsman_g5": {
+		"definition": "prot_shred_+5%",
+		"x": -240,
+		"y": -330,
+		"root": false
+	},
+	"swordsman_g6": {
+		"definition": "echo_strikes_+5%",
+		"x": -300,
+		"y": -390,
+		"root": false
+	},
+	"swordsman_4": {
+		"definition": "sword_block_+25%",
+		"x": -300,
+		"y": -330,
+		"root": false
+	},
+	"swordsman_g7": {
+		"definition": "shakedown_+5%",
+		"x": -360,
+		"y": -390,
+		"root": false
+	},
+	"swordsman_g8": {
+		"definition": "crit_chance_+2%",
+		"x": -360,
+		"y": -450,
+		"root": false
+	},
+	"swordsman_g9": {
+		"definition": "crit_damage_+10%",
+		"x": -420,
+		"y": -450,
+		"root": false
+	},
+	"swordsman_5": {
+		"definition": "riposte_+1",
+		"x": -480,
+		"y": -510,
+		"root": false
+	},
+	"swordsman_g10": {
+		"definition": "prot_shred_+5%",
+		"x": -420,
+		"y": -510,
+		"root": false
+	},
+	"swordsman_g11": {
+		"definition": "echo_strikes_+5%",
+		"x": -480,
+		"y": -570,
+		"root": false
+	},
+	"swordsman_g12": {
+		"definition": "shakedown_+5%",
+		"x": -540,
+		"y": -570,
+		"root": false
+	},
+	"swordsman_6": {
+		"definition": "piercing_strike_+1",
+		"x": -600,
+		"y": -630,
+		"root": false
+	},
+	"swordsman_g13": {
+		"definition": "crit_chance_+5%",
+		"x": -540,
+		"y": -630,
+		"root": false
+	},
+	"swordsman_cap": {
+		"definition": "swordsman_cap",
+		"x": -660,
+		"y": -690,
+		"root": false
+	},
+	"ninja_g1": {
+		"definition": "backstab_+10%",
+		"x": -390,
+		"y": -180,
+		"root": false
+	},
+	"ninja_g2": {
+		"definition": "stealth_+10%",
+		"x": -270,
+		"y": -60,
+		"root": false
+	},
+	"ninja_g3": {
+		"definition": "night_damage_+10%",
+		"x": -270,
+		"y": -120,
+		"root": false
+	},
+	"ninja_g4": {
+		"definition": "life_steal_+5%",
+		"x": -330,
+		"y": -120,
+		"root": false
+	},
+	"ninja_g5": {
+		"definition": "luck_+1",
+		"x": -330,
+		"y": -180,
+		"root": false
+	},
+	"ninja_4": {
+		"definition": "shadow_step_+1",
+		"x": -210,
+		"y": -60,
+		"root": false
+	},
+	"ninja_g6": {
+		"definition": "prot_pierce_+1",
+		"x": -570,
+		"y": -360,
+		"root": false
+	},
+	"ninja_g7": {
+		"definition": "backstab_+10%",
+		"x": -450,
+		"y": -240,
+		"root": false
+	},
+	"ninja_g8": {
+		"definition": "stealth_+10%",
+		"x": -450,
+		"y": -300,
+		"root": false
+	},
+	"ninja_g9": {
+		"definition": "night_damage_+10%",
+		"x": -510,
+		"y": -300,
+		"root": false
+	},
+	"ninja_g10": {
+		"definition": "life_steal_+5%",
+		"x": -510,
+		"y": -360,
+		"root": false
+	},
+	"ninja_5": {
+		"definition": "ninja_+5",
+		"x": -390,
+		"y": -240,
+		"root": false
+	},
+	"ninja_g11": {
+		"definition": "luck_+1",
+		"x": -570,
+		"y": -420,
+		"root": false
+	},
+	"ninja_g12": {
+		"definition": "prot_pierce_+2.5",
+		"x": -630,
+		"y": -420,
+		"root": false
+	},
+	"ninja_g13": {
+		"definition": "backstab_+10%",
+		"x": -690,
+		"y": -540,
+		"root": false
+	},
+	"ninja_cap": {
+		"definition": "ninja_cap",
+		"x": -750,
+		"y": -600,
+		"root": false
+	},
+	"berserker_g1": {
+		"definition": "axe_frenzy_+10%",
+		"x": -450,
+		"y": 240,
+		"root": false
+	},
+	"berserker_g2": {
+		"definition": "axe_desperation_+5%",
+		"x": -270,
+		"y": 60,
+		"root": false
+	},
+	"berserker_g3": {
+		"definition": "bloodlust_+1",
+		"x": -270,
+		"y": 120,
+		"root": false
+	},
+	"berserker_g4": {
+		"definition": "armor_shred_+5%",
+		"x": -330,
+		"y": 120,
+		"root": false
+	},
+	"berserker_g5": {
+		"definition": "fire_damage_+1",
+		"x": -330,
+		"y": 180,
+		"root": false
+	},
+	"berserker_g6": {
+		"definition": "overheal_+25%",
+		"x": -390,
+		"y": 180,
+		"root": false
+	},
+	"berserker_g7": {
+		"definition": "prot_pierce_+2.5",
+		"x": -390,
+		"y": 240,
+		"root": false
+	},
+	"berserker_4": {
+		"definition": "cheat_death_+1",
+		"x": -210,
+		"y": 60,
+		"root": false
+	},
+	"berserker_g8": {
+		"definition": "axe_frenzy_+10%",
+		"x": -450,
+		"y": 360,
+		"root": false
+	},
+	"berserker_g9": {
+		"definition": "axe_desperation_+5%",
+		"x": -510,
+		"y": 300,
+		"root": false
+	},
+	"berserker_g10": {
+		"definition": "bloodlust_+1",
+		"x": -510,
+		"y": 360,
+		"root": false
+	},
+	"berserker_g11": {
+		"definition": "armor_shred_+5%",
+		"x": -570,
+		"y": 360,
+		"root": false
+	},
+	"berserker_g12": {
+		"definition": "current_hp_damage_+5%",
+		"x": -570,
+		"y": 420,
+		"root": false
+	},
+	"berserker_g13": {
+		"definition": "overheal_+25%",
+		"x": -630,
+		"y": 420,
+		"root": false
+	},
+	"berserker_g14": {
+		"definition": "prot_pierce_+2.5",
+		"x": -630,
+		"y": 480,
+		"root": false
+	},
+	"berserker_cap": {
+		"definition": "berserker_cap",
+		"x": -690,
+		"y": 540,
+		"root": false
+	},
+	"wargod_g1": {
+		"definition": "dual_wield_+10%",
+		"x": -180,
+		"y": 150,
+		"root": false
+	},
+	"wargod_g2": {
+		"definition": "death_blow_+25%",
+		"x": -120,
+		"y": 210,
+		"root": false
+	},
+	"wargod_g3": {
+		"definition": "armor_pierce_+2.5",
+		"x": -180,
+		"y": 210,
+		"root": false
+	},
+	"wargod_g4": {
+		"definition": "current_hp_damage_+2%",
+		"x": -180,
+		"y": 270,
+		"root": false
+	},
+	"wargod_g5": {
+		"definition": "life_steal_+5%",
+		"x": -240,
+		"y": 270,
+		"root": false
+	},
+	"wargod_g6": {
+		"definition": "prot_shred_+5%",
+		"x": -240,
+		"y": 330,
+		"root": false
+	},
+	"wargod_g7": {
+		"definition": "dual_wield_+10%",
+		"x": -300,
+		"y": 390,
+		"root": false
+	},
+	"wargod_1": {
+		"definition": "lightning_strikes_+1",
+		"x": -120,
+		"y": 150,
+		"root": false
+	},
+	"wargod_g8": {
+		"definition": "death_blow_+25%",
+		"x": -360,
+		"y": 390,
+		"root": false
+	},
+	"wargod_g9": {
+		"definition": "armor_pierce_+2.5",
+		"x": -360,
+		"y": 450,
+		"root": false
+	},
+	"wargod_g10": {
+		"definition": "current_hp_damage_+2%",
+		"x": -420,
+		"y": 450,
+		"root": false
+	},
+	"wargod_g11": {
+		"definition": "life_steal_+5%",
+		"x": -420,
+		"y": 510,
+		"root": false
+	},
+	"wargod_g13": {
+		"definition": "dual_wield_+10%",
+		"x": -480,
+		"y": 510,
+		"root": false
+	},
+	"wargod_cap": {
+		"definition": "wargod_cap",
+		"x": -540,
+		"y": 570,
+		"root": false
+	},
+	"bastion_g1": {
+		"definition": "shield_stun_+10%",
+		"x": -60,
+		"y": 240,
+		"root": false
+	},
+	"bastion_g2": {
+		"definition": "shield_mastery_+2.5",
+		"x": -60,
+		"y": 480,
+		"root": false
+	},
+	"bastion_g3": {
+		"definition": "knockback_resistance_+10%",
+		"x": -90,
+		"y": 300,
+		"root": false
+	},
+	"bastion_g4": {
+		"definition": "damage_reflection_+5%",
+		"x": -60,
+		"y": 360,
+		"root": false
+	},
+	"bastion_g5": {
+		"definition": "max_health_+2.5",
+		"x": -90,
+		"y": 420,
+		"root": false
+	},
+	"bastion_g6": {
+		"definition": "ranged_resistance_+5%",
+		"x": -60,
+		"y": 600,
+		"root": false
+	},
+	"bastion_g7": {
+		"definition": "repair_cost_-10%",
+		"x": -90,
+		"y": 540,
+		"root": false
+	},
+	"bastion_g8": {
+		"definition": "resistance_+5%",
+		"x": -90,
+		"y": 660,
+		"root": false
+	},
+	"bastion_2": {
+		"definition": "ground_slam_+100%",
+		"x": -60,
+		"y": 180,
+		"root": false
+	},
+	"bastion_g9": {
+		"definition": "shield_stun_+10%",
+		"x": -60,
+		"y": 720,
+		"root": false
+	},
+	"bastion_g10": {
+		"definition": "shield_mastery_+1",
+		"x": -60,
+		"y": 840,
+		"root": false
+	},
+	"bastion_cap": {
+		"definition": "bastion_cap",
+		"x": -60,
+		"y": 900,
+		"root": false
+	},
+	"aegis_g1": {
+		"definition": "shield_recovery_+2%",
+		"x": 60,
+		"y": 600,
+		"root": false
+	},
+	"aegis_g2": {
+		"definition": "day_damage_+5%",
+		"x": 60,
+		"y": 240,
+		"root": false
+	},
+	"aegis_g3": {
+		"definition": "experience_gained_+10%",
+		"x": 90,
+		"y": 300,
+		"root": false
+	},
+	"aegis_g4": {
+		"definition": "healing_+10%",
+		"x": 60,
+		"y": 360,
+		"root": false
+	},
+	"aegis_g5": {
+		"definition": "natural_regeneration_+10%",
+		"x": 90,
+		"y": 420,
+		"root": false
+	},
+	"aegis_g6": {
+		"definition": "shield_recovery_+2%",
+		"x": 60,
+		"y": 480,
+		"root": false
+	},
+	"aegis_2": {
+		"definition": "lights_shield_+1",
+		"x": 60,
+		"y": 180,
+		"root": false
+	},
+	"aegis_g7": {
+		"definition": "day_damage_+5%",
+		"x": 90,
+		"y": 540,
+		"root": false
+	},
+	"aegis_g8": {
+		"definition": "experience_gained_+10%",
+		"x": 90,
+		"y": 660,
+		"root": false
+	},
+	"aegis_g9": {
+		"definition": "healing_+10%",
+		"x": 60,
+		"y": 720,
+		"root": false
+	},
+	"aegis_g10": {
+		"definition": "natural_regeneration_+10%",
+		"x": 90,
+		"y": 780,
+		"root": false
+	},
+	"aegis_g11": {
+		"definition": "shield_recovery_+2%",
+		"x": 60,
+		"y": 840,
+		"root": false
+	},
+	"aegis_cap": {
+		"definition": "aegis_cap",
+		"x": 60,
+		"y": 900,
+		"root": false
+	},
+	"wargod_g12": {
+		"definition": "axe_damage_+5%",
+		"x": -420,
+		"y": 390,
+		"root": false
+	},
+	"wargod_g14": {
+		"definition": "axe_damage_+10%",
+		"x": -480,
+		"y": 450,
+		"root": false
+	},
+	"berserker_g19": {
+		"definition": "axe_speed_+10%",
+		"x": -570,
+		"y": 480,
+		"root": false
+	},
+	"berserker_g18": {
+		"definition": "crit_damage_+10%",
+		"x": -510,
+		"y": 420,
+		"root": false
+	},
+	"berserker_g17": {
+		"definition": "axe_speed_+5%",
+		"x": -450,
+		"y": 300,
+		"root": false
+	},
+	"berserker_g16": {
+		"definition": "natural_regeneration_+10%",
+		"x": -390,
+		"y": 300,
+		"root": false
+	},
+	"berserker_g15": {
+		"definition": "life_steal_+2%",
+		"x": -330,
+		"y": 240,
+		"root": false
+	},
+	"axes_s_g1": {
+		"definition": "max_health_+5%",
+		"x": -300,
+		"y": 330,
+		"root": false
+	},
+	"bastion_g11": {
+		"definition": "armor_toughness_+1",
+		"x": -30,
+		"y": 420,
+		"root": false
+	},
+	"bastion_g12": {
+		"definition": "knockback_resistance_+10%",
+		"x": -30,
+		"y": 540,
+		"root": false
+	},
+	"bastion_g13": {
+		"definition": "max_health_+5%",
+		"x": -30,
+		"y": 660,
+		"root": false
+	},
+	"bastion_g14": {
+		"definition": "damage_reflection_+5%",
+		"x": -30,
+		"y": 780,
+		"root": false
+	},
+	"bastion_g15": {
+		"definition": "max_health_+10%",
+		"x": -90,
+		"y": 780,
+		"root": false
+	},
+	"aegis_g12": {
+		"definition": "fire_damage_+1",
+		"x": 30,
+		"y": 300,
+		"root": false
+	},
+	"aegis_g13": {
+		"definition": "armor_+1",
+		"x": 30,
+		"y": 420,
+		"root": false
+	},
+	"aegis_g14": {
+		"definition": "shield_durability_+1",
+		"x": 30,
+		"y": 540,
+		"root": false
+	},
+	"juggernaut_g10": {
+		"definition": "unarmed_damage_+1",
+		"x": 30,
+		"y": -420,
+		"root": false
+	},
+	"juggernaut_g12": {
+		"definition": "unarmed_damage_+1",
+		"x": 30,
+		"y": -660,
+		"root": false
+	},
+	"juggernaut_g15": {
+		"definition": "unarmed_damage_+1",
+		"x": 30,
+		"y": -780,
+		"root": false
+	},
+	"brawler_g14": {
+		"definition": "attack_speed_+10%",
+		"x": -90,
+		"y": -780,
+		"root": false
+	},
+	"brawler_g13": {
+		"definition": "attack_speed_+10%",
+		"x": -90,
+		"y": -660,
+		"root": false
+	},
+	"aegis_g15": {
+		"definition": "fire_damage_+2.5",
+		"x": 30,
+		"y": 780,
+		"root": false
+	},
+	"swordsman_g17": {
+		"definition": "sword_durability_+1",
+		"x": -360,
+		"y": -330,
+		"root": false
+	},
+	"swordsman_g14": {
+		"definition": "armor_shred_+5%",
+		"x": -180,
+		"y": -150,
+		"root": false
+	},
+	"swordsman_g15": {
+		"definition": "attack_speed_+5%",
+		"x": -240,
+		"y": -210,
+		"root": false
+	},
+	"swordsman_g18": {
+		"definition": "attack_speed_+5%",
+		"x": -420,
+		"y": -390,
+		"root": false
+	},
+	"swordsman_g16": {
+		"definition": "sword_damage_+5%",
+		"x": -300,
+		"y": -270,
+		"root": false
+	},
+	"swordsman_g19": {
+		"definition": "sword_damage_+5%",
+		"x": -480,
+		"y": -450,
+		"root": false
+	},
+	"swordsman_g21": {
+		"definition": "sword_damage_+10%",
+		"x": -600,
+		"y": -570,
+		"root": false
+	},
+	"swordsman_g20": {
+		"definition": "attack_speed_+10%",
+		"x": -540,
+		"y": -510,
+		"root": false
+	},
+	"ninja_6": {
+		"definition": "ninja_+5",
+		"x": -630,
+		"y": -480,
+		"root": false
+	},
+	"ninja_g17": {
+		"definition": "stealth_+10%",
+		"x": -570,
+		"y": -480,
+		"root": false
+	},
+	"ninja_g19": {
+		"definition": "sword_damage_+10%",
+		"x": -690,
+		"y": -480,
+		"root": false
+	},
+	"ninja_g18": {
+		"definition": "attack_speed_+10%",
+		"x": -630,
+		"y": -540,
+		"root": false
+	},
+	"ninja_g16": {
+		"definition": "current_hp_damage_+2%",
+		"x": -510,
+		"y": -420,
+		"root": false
+	},
+	"ninja_g15": {
+		"definition": "ranged_resistance_+5%",
+		"x": -450,
+		"y": -360,
+		"root": false
+	},
+	"ninja_g14": {
+		"definition": "luck_+0.5",
+		"x": -390,
+		"y": -300,
+		"root": false
+	},
+	"scythes_s_g2": {
+		"definition": "scythe_damage_+5%",
+		"x": 180,
+		"y": -150,
+		"root": false
+	},
+	"scythes_s_g3": {
+		"definition": "crit_chance_+2%",
+		"x": 180,
+		"y": -270,
+		"root": false
+	},
+	"scythes_s_g4": {
+		"definition": "attack_speed_+2%",
+		"x": 210,
+		"y": -120,
+		"root": false
+	},
+	"scythes_s_g5": {
+		"definition": "scythe_damage_+5%",
+		"x": 300,
+		"y": -270,
+		"root": false
+	},
+	"scythes_s_g6": {
+		"definition": "armor_pierce_+1",
+		"x": 270,
+		"y": -180,
+		"root": false
+	},
+	"scythes_s_g7": {
+		"definition": "attack_speed_+2%",
+		"x": 330,
+		"y": -240,
+		"root": false
+	},
+	"scythes_s_g9": {
+		"definition": "scythe_durability_+1",
+		"x": 390,
+		"y": -300,
+		"root": false
+	},
+	"spears_s_g1": {
+		"definition": "attack_speed_+2%",
+		"x": 270,
+		"y": 120,
+		"root": false
+	},
+	"spears_s_g2": {
+		"definition": "spear_damage_+5%",
+		"x": 180,
+		"y": 150,
+		"root": false
+	},
+	"spears_s_g3": {
+		"definition": "armor_pierce_+1",
+		"x": 330,
+		"y": 180,
+		"root": false
+	},
+	"spears_s_g4": {
+		"definition": "crit_chance_+2%",
+		"x": 240,
+		"y": 210,
+		"root": false
+	},
+	"spears_s_g5": {
+		"definition": "spear_damage_+5%",
+		"x": 390,
+		"y": 180,
+		"root": false
+	},
+	"spears_s_g7": {
+		"definition": "attack_speed_+2%",
+		"x": 360,
+		"y": 330,
+		"root": false
+	},
+	"spears_s_g8": {
+		"definition": "spear_damage_+5%",
+		"x": 510,
+		"y": 360,
+		"root": false
+	},
+	"spears_s_g10": {
+		"definition": "armor_pierce_+1",
+		"x": 420,
+		"y": 390,
+		"root": false
+	},
+	"spears_s_g12": {
+		"definition": "crit_damage_+10%",
+		"x": 450,
+		"y": 360,
+		"root": false
+	},
+	"spears_s_g13": {
+		"definition": "spear_durability_+1",
+		"x": 300,
+		"y": 270,
+		"root": false
+	},
+	"reaper_1": {
+		"definition": "withering_edge_+10%",
+		"x": 120,
+		"y": -150,
+		"root": false
+	},
+	"reaper_g2": {
+		"definition": "deaths_toll_+2%",
+		"x": 120,
+		"y": -210,
+		"root": false
+	},
+	"reaper_g3": {
+		"definition": "crit_damage_+10%",
+		"x": 180,
+		"y": -210,
+		"root": false
+	},
+	"reaper_g4": {
+		"definition": "withering_edge_+5%",
+		"x": 240,
+		"y": -210,
+		"root": false
+	},
+	"reaper_g5": {
+		"definition": "deaths_toll_+2%",
+		"x": 240,
+		"y": -270,
+		"root": false
+	},
+	"reaper_g6": {
+		"definition": "crit_chance_+2%",
+		"x": 240,
+		"y": -330,
+		"root": false
+	},
+	"reaper_g7": {
+		"definition": "withering_edge_+5%",
+		"x": 300,
+		"y": -330,
+		"root": false
+	},
+	"reaper_g8": {
+		"definition": "deaths_toll_+2%",
+		"x": 300,
+		"y": -390,
+		"root": false
+	},
+	"reaper_g9": {
+		"definition": "crit_damage_+10%",
+		"x": 360,
+		"y": -390,
+		"root": false
+	},
+	"reaper_g10": {
+		"definition": "scythe_damage_+5%",
+		"x": 360,
+		"y": -330,
+		"root": false
+	},
+	"reaper_cap": {
+		"definition": "reaper_cap",
+		"x": 420,
+		"y": -450,
+		"root": false
+	},
+	"harvester_1": {
+		"definition": "reaping_arc_+25%",
+		"x": 210,
+		"y": -60,
+		"root": false
+	},
+	"harvester_g2": {
+		"definition": "life_steal_+2%",
+		"x": 270,
+		"y": -60,
+		"root": false
+	},
+	"harvester_g3": {
+		"definition": "soul_tithe_+5%",
+		"x": 270,
+		"y": -120,
+		"root": false
+	},
+	"harvester_g4": {
+		"definition": "crit_chance_+2%",
+		"x": 330,
+		"y": -120,
+		"root": false
+	},
+	"harvester_g5": {
+		"definition": "soul_tithe_+5%",
+		"x": 330,
+		"y": -180,
+		"root": false
+	},
+	"harvester_g1": {
+		"definition": "soul_tithe_+5%",
+		"x": 390,
+		"y": -180,
+		"root": false
+	},
+	"harvester_g6": {
+		"definition": "soul_harvest_+0.5",
+		"x": 390,
+		"y": -240,
+		"root": false
+	},
+	"harvester_g7": {
+		"definition": "reaping_arc_+10%",
+		"x": 450,
+		"y": -240,
+		"root": false
+	},
+	"harvester_g8": {
+		"definition": "soul_harvest_+0.5",
+		"x": 450,
+		"y": -300,
+		"root": false
+	},
+	"harvester_cap": {
+		"definition": "harvester_cap",
+		"x": 510,
+		"y": -360,
+		"root": false
+	},
+	"impaler_2": {
+		"definition": "pin_+10%",
+		"x": 210,
+		"y": 60,
+		"root": false
+	},
+	"impaler_g2": {
+		"definition": "spear_distance_+5%",
+		"x": 210,
+		"y": 120,
+		"root": false
+	},
+	"impaler_g3": {
+		"definition": "skewer_+5%",
+		"x": 270,
+		"y": 60,
+		"root": false
+	},
+	"impaler_g4": {
+		"definition": "skewer_+5%",
+		"x": 270,
+		"y": 180,
+		"root": false
+	},
+	"impaler_g5": {
+		"definition": "spear_distance_+5%",
+		"x": 330,
+		"y": 120,
+		"root": false
+	},
+	"impaler_1": {
+		"definition": "spear_reach_+0.5",
+		"x": 390,
+		"y": 240,
+		"root": false
+	},
+	"impaler_g6": {
+		"definition": "pin_+5%",
+		"x": 330,
+		"y": 240,
+		"root": false
+	},
+	"impaler_g7": {
+		"definition": "skewer_+5%",
+		"x": 390,
+		"y": 300,
+		"root": false
+	},
+	"impaler_g8": {
+		"definition": "spear_distance_+5%",
+		"x": 450,
+		"y": 240,
+		"root": false
+	},
+	"impaler_g9": {
+		"definition": "pin_+5%",
+		"x": 450,
+		"y": 300,
+		"root": false
+	},
+	"impaler_g10": {
+		"definition": "armor_pierce_+1",
+		"x": 510,
+		"y": 300,
+		"root": false
+	},
+	"impaler_cap": {
+		"definition": "impaler_cap",
+		"x": 570,
+		"y": 420,
+		"root": false
+	},
+	"dragoon_g1": {
+		"definition": "dragoon_+5%",
+		"x": 360,
+		"y": 390,
+		"root": false
+	},
+	"dragoon_g2": {
+		"definition": "crit_chance_+2%",
+		"x": 120,
+		"y": 210,
+		"root": false
+	},
+	"dragoon_g3": {
+		"definition": "dragoon_+5%",
+		"x": 180,
+		"y": 210,
+		"root": false
+	},
+	"dragoon_g4": {
+		"definition": "spear_damage_+5%",
+		"x": 180,
+		"y": 270,
+		"root": false
+	},
+	"dragoon_g5": {
+		"definition": "dragoon_+5%",
+		"x": 240,
+		"y": 270,
+		"root": false
+	},
+	"dragoon_1": {
+		"definition": "phalanx_+10%",
+		"x": 300,
+		"y": 330,
+		"root": false
+	},
+	"dragoon_g6": {
+		"definition": "crit_damage_+10%",
+		"x": 240,
+		"y": 330,
+		"root": false
+	},
+	"dragoon_g7": {
+		"definition": "phalanx_+5%",
+		"x": 300,
+		"y": 390,
+		"root": false
+	},
+	"dragoon_2": {
+		"definition": "lancer_+1",
+		"x": 120,
+		"y": 150,
+		"root": false
+	},
+	"shockwave_g1": {
+		"definition": "lancer_radius_+1",
+		"x": 360,
+		"y": 450,
+		"root": false
+	},
+	"shockwave_g2": {
+		"definition": "lancer_radius_+2",
+		"x": 420,
+		"y": 450,
+		"root": false
+	},
+	"dragoon_cap": {
+		"definition": "dragoon_cap",
+		"x": 480,
+		"y": 510,
+		"root": false
+	}
+}

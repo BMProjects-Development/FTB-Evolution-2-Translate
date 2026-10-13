@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:black_stained_glass_pane"
+  },
+  "result": {
+    "id": "glassential:black_glass_trapdoor",
+    "count": 3
+  }
+}

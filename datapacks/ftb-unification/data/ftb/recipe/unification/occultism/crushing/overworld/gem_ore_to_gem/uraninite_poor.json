@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/uraninite_poor",
+  "result": {
+    "type": "occultism:item",
+    "count": 3,
+    "id": "powah:uraninite"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/electrum"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:electrum_dust"
+    }
+  ],
+  "time": 100
+}

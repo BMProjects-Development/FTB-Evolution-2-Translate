@@ -1,0 +1,781 @@
+{
+  id: "78E0BA6772A9265E",
+  order_index: 31,
+  icon: {
+    id: "minecraft:brewing_stand",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "1883B0E54BD2DDA3",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:healing",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "4E04B559E5FB590F",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:regeneration",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "0FA6A24CC860DE60",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:swiftness",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "68AB7434D90C57B2",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:night_vision",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "4078BDFF2C1FF2BE",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:fire_resistance",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "469A90FDAC4A26BB",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:water_breathing",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "4C16D88A17DA7811",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:leaping",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "2661FB7AA37C9736",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:slow_falling",
+          },
+        },
+      },
+      weight: 10.0,
+    },
+    {
+      id: "5300D310F389D3B9",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strength",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "2976BD5B44A4D97C",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:invisibility",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3B7E097C40789884",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_regeneration",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "497E3567F41E9CBC",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_swiftness",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "3393408A7600186E",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_night_vision",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "22617C54042FAF7C",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_fire_resistance",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5F134365EDE23286",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_water_breathing",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "30B171148480D269",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strong_healing",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "0C9002C3F7307B49",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strong_regeneration",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7E422D9FD5A70250",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strong_strength",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "41E5D1F5B19ED330",
+      item: {
+        id: "minecraft:splash_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:healing",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "652B2B05CF109A06",
+      item: {
+        id: "minecraft:splash_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:regeneration",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "378F200F6FF37AF7",
+      item: {
+        id: "minecraft:splash_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:harming",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "37D278BC473771FC",
+      item: {
+        id: "minecraft:splash_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:poison",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "10AA8E44CF6465A4",
+      item: {
+        id: "minecraft:splash_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:slowness",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "4BE407D131F0F53A",
+      item: {
+        id: "minecraft:splash_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:weakness",
+          },
+        },
+      },
+      weight: 5.0,
+    },
+    {
+      id: "33B1F1ADD9B9CEEC",
+      item: {
+        id: "minecraft:nether_wart",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "35070EC8146E67B5",
+      item: {
+        id: "minecraft:blaze_powder",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "64B34BE379F3BA49",
+      item: {
+        id: "minecraft:glistering_melon_slice",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "4F68AF522FB0CD88",
+      item: {
+        id: "minecraft:magma_cream",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "280C31A1222AA697",
+      item: {
+        id: "minecraft:fermented_spider_eye",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "7C2DB44F58918485",
+      item: {
+        id: "minecraft:glowstone_dust",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "0051D6D9823BD998",
+      item: {
+        id: "minecraft:redstone",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "1411A16BA29F6257",
+      item: {
+        id: "minecraft:gunpowder",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "487AF24AF8723B87",
+      item: {
+        id: "neovitae:plant_oil",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "5612F356529E245D",
+      item: {
+        id: "neovitae:sulfur",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "7B55AA3C59FDCD50",
+      item: {
+        id: "neovitae:saltpeter",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "46F473BDCE174B83",
+      item: {
+        id: "neovitae:weak_tau",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "629FBAEC4F1C67D9",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:turtle_master",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4AAA303842EA6BCC",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_turtle_master",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "64213E452D906812",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strong_turtle_master",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5B5EEA0A1CBF5231",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:luck",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1C6F9CE4E3A267A8",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:long_strength",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0CC5C10E1F79DC1C",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strong_swiftness",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2C2357F47810DD45",
+      item: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:strong_leaping",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5D204E91066049FC",
+      item: {
+        id: "minecraft:lingering_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:healing",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "09AA76BE7CAC24C6",
+      item: {
+        id: "minecraft:lingering_potion",
+        count: 1,
+        components: {
+          "minecraft:potion_contents": {
+            potion: "minecraft:regeneration",
+          },
+        },
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6EFBE82574262220",
+      item: {
+        id: "minecraft:ghast_tear",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "6EC29E1F8E51E645",
+      item: {
+        id: "minecraft:rabbit_foot",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "261BC78DB0CA0ED2",
+      item: {
+        id: "minecraft:phantom_membrane",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "387102E0ED374B57",
+      item: {
+        id: "minecraft:brewing_stand",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7125412F68F535F4",
+      item: {
+        id: "neovitae:alchemy_flask",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "05BA99BDC2A140D8",
+      item: {
+        id: "neovitae:alchemy_flask_throwable",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5D267912ACE99366",
+      item: {
+        id: "neovitae:alchemy_flask_lingering",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "456D92661ABA6D63",
+      item: {
+        id: "neovitae:strong_tau",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "5796ABC0A3772CC9",
+      item: {
+        id: "neovitae:melee_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "65069D044F46B1A6",
+      item: {
+        id: "neovitae:fortune_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "77036260AA5BB46C",
+      item: {
+        id: "neovitae:looting_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6CAC2BFB385FFA2B",
+      item: {
+        id: "neovitae:silk_touch_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "53A2644C7BEF6291",
+      item: {
+        id: "neovitae:smelting_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4B083E17353EC914",
+      item: {
+        id: "neovitae:hidden_knowledge_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "67C8AA6EAA02EF3C",
+      item: {
+        id: "neovitae:holy_water_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "37E0662842A329A8",
+      item: {
+        id: "neovitae:quick_draw_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7DFD6F699F34782E",
+      item: {
+        id: "neovitae:bow_power_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4EB191FBB27C9367",
+      item: {
+        id: "neovitae:bow_velocity_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "70A0855B20E0B011",
+      item: {
+        id: "neovitae:weapon_repair_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "593FE709ABA190B0",
+      item: {
+        id: "neovitae:voiding_anointment",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "764FFD00CE42FA55",
+      item: {
+        id: "minecraft:dragon_breath",
+        count: 1,
+      },
+      count: 4,
+    },
+    {
+      id: "4825BCB557CF8636",
+      item: {
+        id: "auroral:cold_brewing_stand",
+        count: 1,
+      },
+    },
+    {
+      id: "1925AD6673D40AE8",
+      item: {
+        id: "witchery:brew_of_love",
+        count: 1,
+      },
+    },
+    {
+      id: "3AC2233EAD075D8C",
+      item: {
+        id: "witchery:brew_of_raising",
+        count: 1,
+      },
+    },
+    {
+      id: "45EAA4326D957AF9",
+      item: {
+        id: "witchery:brew_of_the_depths",
+        count: 1,
+      },
+    },
+    {
+      id: "7CD2FBFD51881486",
+      item: {
+        id: "neovitae:melee_anointment_3",
+        count: 1,
+      },
+    },
+    {
+      id: "63C3C04D17A77AF0",
+      item: {
+        id: "neovitae:fortune_anointment_3",
+        count: 1,
+      },
+    },
+    {
+      id: "716D4A98B7182937",
+      item: {
+        id: "neovitae:looting_anointment_3",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_potion",
+    color: 5635925,
+    item_name: "ftbquests.loot_crate.random_potion",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "pattern" : [ "III", "IGI" ],
+  "key" : {
+    "G" : "minecraft:glass",
+    "I" : "minecraft:iron_ingot"
+  },
+  "result" : {
+    "count" : 3,
+    "id" : "mcwdoors:garage_white_door"
+  }
+}

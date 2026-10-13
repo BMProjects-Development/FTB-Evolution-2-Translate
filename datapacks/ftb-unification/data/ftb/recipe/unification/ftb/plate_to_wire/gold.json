@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ftbmaterials:gold_plate",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:gold_wire"
+  }
+}

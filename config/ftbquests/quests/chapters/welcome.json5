@@ -1,0 +1,297 @@
+{
+  id: "31FB8F048EA7FAFE",
+  group: "",
+  order_index: 0,
+  icon: {
+    id: "ftbquests:book",
+    count: 1,
+  },
+  filename: "welcome",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "6FFB8100C9A1B5AF",
+  quests: [
+    {
+      icon: {
+        id: "ftbquests:book",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      id: "6FFB8100C9A1B5AF",
+      tasks: [
+        {
+          id: "60545860C0A81AB6",
+          type: "structure",
+          structure: "ftb:spawn_pyramid",
+        },
+      ],
+      rewards: [
+        {
+          id: "6BCB892D50A4C998",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "3B056CBFBF11C1A0",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "paraglider:paraglider",
+            count: 1,
+          },
+        },
+        {
+          id: "6CE1919A8D3C7E38",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/renders/structures/spawn_pyramid.png",
+        },
+      },
+      x: -1.0,
+      y: 2.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "5EFEE20886FA69C9",
+      tasks: [
+        {
+          id: "4519B485959E5761",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3950D1EC45DD602C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbevolutioncompanion:challenge_board",
+        count: 1,
+      },
+      x: -1.0,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "5EFEE20886FA69C9",
+      ],
+      size: 1.0,
+      id: "3AD1F60EDA4BCA7E",
+      tasks: [
+        {
+          id: "7EA1F13771D8FD03",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "587EA51F104246B4",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftbquests:textures/gui/shop.png",
+        },
+      },
+      x: -1.5,
+      y: 1.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "1B8C4F705A05CED9",
+      tasks: [
+        {
+          id: "4A0CF676542BD6D4",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "743654389D2F02DD",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:filled_map",
+        count: 1,
+      },
+      x: 1.0,
+      y: 2.0,
+      shape: "hexagon",
+      size: 1.25,
+      id: "487ADC716E648EC3",
+      tasks: [
+        {
+          id: "643938C07A32EBDD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "71AECCAE36D75607",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:lodestone",
+        count: 1,
+      },
+      x: 1.0,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "487ADC716E648EC3",
+      ],
+      size: 1.0,
+      id: "69927955906999B1",
+      tasks: [
+        {
+          id: "53729C1C913302A6",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "170F914D1B0CBD8F",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:player_head",
+        count: 1,
+      },
+      x: -2.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "12894F0E1F127011",
+      tasks: [
+        {
+          id: "64984066EC5ACC77",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "10BCB3FD8758B28B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:writable_book",
+        count: 1,
+      },
+      x: 1.5,
+      y: 1.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "4EB51007596CFD80",
+      tasks: [
+        {
+          id: "39F2B6D28342F6AD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "47BCA0A8C0C8BEF4",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftblibrary:textures/gui/missing_image.png",
+        },
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.0,
+      id: "7288363970514CAF",
+      tasks: [
+        {
+          id: "7F31A6D144C9F3CA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "547ED6F00C060CA2",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.5,
+      width: 11.2,
+      height: 2.4,
+      rotation: 0.0,
+      image: "ftbevolution:textures/quests/titles_and_logos/evolution2_header.png",
+      id: "65E037A40E583E11",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 12.0,
+      height: 12.0,
+      rotation: 90.0,
+      image: "ftbquests:textures/shapes/square/shape.png",
+      color: 0,
+      alpha: 150,
+      order: -5,
+      id: "3AC7A1C7D563C673",
+    },
+  ],
+}

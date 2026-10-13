@@ -1,0 +1,67 @@
+[serenity]
+	# Default: 3.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 3.0
+
+[mirage]
+	# Default: 4.5
+	# Range: 0.5 ~ 4096.0
+	base_damage = 4.5
+
+[aurora]
+	#Base damage PER PELLET. Aurora fires 7 pellets.
+	# Default: 9.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 9.0
+
+[hanabi]
+	# Default: 30.0
+	# Range: 0.5 ~ 4096.0
+	explosive_shell_base_damage = 30.0
+	# Default: 10.0
+	# Range: 0.5 ~ 4096.0
+	flame_shell_base_damage = 10.0
+	#Flame shells' damage multiplier to mobs that are weak to fire damage
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	flame_multiplier = 3.0
+	# Default: 4.0
+	# Range: 0.5 ~ 4096.0
+	cryo_shell_base_damage = 4.0
+	#Cryo shell damage multiplier to mobs that are weak to freeze damage
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cryo_multiplier = 8.0
+	# Default: 30.0
+	# Range: 0.5 ~ 4096.0
+	electric_shell_base_damage = 30.0
+	#Electric shell damage multiplier to mobs in rain, water, or who are weak to electricity
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	electric_multiplier = 3.0
+	# Default: 60.0
+	# Range: 0.5 ~ 4096.0
+	acid_shell_base_damage = 50.0
+	# Default: 4.0
+	# Range: 0.5 ~ 4096.0
+	gloom_gas_shell_base_damage = 4.0
+
+[stargazer]
+	# Default: 25.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 25.0
+
+[daybreak]
+	#Direct hit base damage
+	# Default: 100.0
+	# Range: 0.5 ~ 4096.0
+	base_impact_damage = 100.0
+	#Base splash/AOE/explosion damage
+	# Default: 40.0
+	# Range: 0.5 ~ 4096.0
+	base_splash_damage = 40.0
+
+[nova]
+	# Default: 75.0
+	# Range: 0.5 ~ 4096.0
+	base_damage = 75.0

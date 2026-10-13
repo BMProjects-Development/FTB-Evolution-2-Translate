@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "stellaris:raw_desh_block",
+  "output_items": [
+    {
+      "item": {
+        "count": 12,
+        "id": "ftbmaterials:desh_dust"
+      }
+    },
+    {
+      "item": {
+        "count": 3,
+        "id": "ftbmaterials:desh_dust"
+      },
+      "chance": 0.33
+    }
+  ],
+  "duration": 40
+}

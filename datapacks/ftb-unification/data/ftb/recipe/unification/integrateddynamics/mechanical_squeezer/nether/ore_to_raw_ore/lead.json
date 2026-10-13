@@ -1,0 +1,34 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "ftbmaterials:lead_nether_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:lead_raw_ore",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:lead_raw_ore",
+        "count": 2
+      },
+      "chance": 1.0
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:lead_raw_ore",
+        "count": 2
+      },
+      "chance": 0.495
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:lead_raw_ore",
+        "count": 2
+      },
+      "chance": 0.22499999999999998
+    }
+  ],
+  "duration": 40
+}

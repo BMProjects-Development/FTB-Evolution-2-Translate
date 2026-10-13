@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:raw_materials/boron",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "colossal_reactors:boron_dust"
+  }
+}

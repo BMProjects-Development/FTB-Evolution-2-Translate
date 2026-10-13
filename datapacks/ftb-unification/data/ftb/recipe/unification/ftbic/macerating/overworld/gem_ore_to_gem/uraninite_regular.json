@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "#c:ore_source/overworld/uraninite_regular"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 5,
+        "id": "powah:uraninite"
+      }
+    }
+  ]
+}

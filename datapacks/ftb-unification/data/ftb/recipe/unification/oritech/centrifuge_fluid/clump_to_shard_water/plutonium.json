@@ -1,0 +1,17 @@
+{
+  "type": "oritech:centrifuge_fluid",
+  "fluidInput": {
+    "amount": 1000,
+    "ingredient": "minecraft:water"
+  },
+  "itemInputs": [
+    "#c:clumps/plutonium"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:plutonium_shard"
+    }
+  ],
+  "time": 150
+}

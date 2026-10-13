@@ -1,0 +1,35 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:logic_lattice",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:storage_matrix",
+      "count": 4
+    },
+    {
+      "ingredient": "ae2:singularity",
+      "count": 2
+    },
+    {
+      "ingredient": "integrateddynamics:crystalized_menril_block",
+      "count": 4
+    }
+  ],
+  "fluids": [
+    {
+      "id": "integrateddynamics:menril_resin",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:cognition_array",
+      "count": 2
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 300000
+}

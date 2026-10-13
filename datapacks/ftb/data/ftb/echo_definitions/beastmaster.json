@@ -1,0 +1,298 @@
+{
+  "id": "ftb:beastmaster",
+  "title": {
+    "translate": "ftb.shopkeeper.beastmaster",
+    "color": "red"
+  },
+  "model": {
+    "villager_data": {
+      "type": "swamp",
+      "profession": "butcher",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.beastmaster",
+        "color": "red"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:beastmaster_wares",
+      "shop_unlock": [
+        {
+          "name": "lead",
+          "item": {
+            "id": "minecraft:lead",
+            "count": 2
+          },
+          "cost": 5
+        },
+        {
+          "name": "fan",
+          "item": {
+            "id": "mobflowutilities:fan",
+            "count": 2
+          },
+          "cost": 15
+        },
+        {
+          "name": "flow_pad_fast",
+          "item": {
+            "id": "mobflowutilities:flow_pad_fast",
+            "count": 2
+          },
+          "cost": 15
+        },
+        {
+          "name": "collector",
+          "item": {
+            "id": "mobflowutilities:collector",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "mob_catcher",
+          "item": {
+            "id": "mobflowutilities:mob_catcher",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "damage_pad",
+          "item": {
+            "id": "mobflowutilities:damage_pad",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "looting_module",
+          "item": {
+            "id": "mobflowutilities:looting_module",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "no_soliciting_banner",
+          "item": {
+            "id": "utilitarian:no_soliciting_banner",
+            "count": 1
+          },
+          "cost": 5
+        },
+        {
+          "name": "mob_filter",
+          "item": {
+            "id": "pylons:mob_filter",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "player_filter",
+          "item": {
+            "id": "pylons:player_filter",
+            "count": 1
+          },
+          "cost": 25
+        },
+        {
+          "name": "expulsion_pylon",
+          "item": {
+            "id": "pylons:expulsion_pylon",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "interdiction_pylon",
+          "item": {
+            "id": "pylons:interdiction_pylon",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "soul_vial",
+          "item": {
+            "id": "enderio:soul_vial",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "ignore_light_spawner_rune",
+          "item": {
+            "id": "apotheosis:ignore_light_spawner_rune",
+            "count": 1
+          },
+          "cost": 50
+        },
+        {
+          "name": "ignore_players_spawner_rune",
+          "item": {
+            "id": "apotheosis:ignore_players_spawner_rune",
+            "count": 1
+          },
+          "cost": 60
+        },
+        {
+          "name": "redstone_control_spawner_rune",
+          "item": {
+            "id": "apotheosis:redstone_control_spawner_rune",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "silent_spawner_rune",
+          "item": {
+            "id": "apotheosis:silent_spawner_rune",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "no_ai_spawner_rune",
+          "item": {
+            "id": "apotheosis:no_ai_spawner_rune",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "spawn_range_spawner_rune",
+          "item": {
+            "id": "apotheosis:spawn_range_spawner_rune",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "trader",
+          "item": {
+            "id": "easy_villagers:trader",
+            "count": 1
+          },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "breeder",
+          "item": {
+            "id": "easy_villagers:breeder",
+            "count": 1
+          },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "converter",
+          "item": {
+            "id": "easy_villagers:converter",
+            "count": 1
+          },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "barterer",
+          "item": {
+            "id": "easy_piglins:barterer",
+            "count": 1
+          },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "zombie_spawn_egg",
+          "item": {
+            "id": "minecraft:zombie_spawn_egg",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "skeleton",
+          "item": {
+            "id": "minecraft:skeleton_spawn_egg",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "creeper",
+          "item": {
+            "id": "minecraft:creeper_spawn_egg",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "spider",
+          "item": {
+            "id": "minecraft:spider_spawn_egg",
+            "count": 1
+          },
+          "cost": 40,
+          "max_claims": 2
+        },
+        {
+          "name": "spawner",
+          "item": {
+            "id": "minecraft:spawner",
+            "count": 1
+          },
+          "cost": 400,
+          "max_claims": 2
+        },
+        {
+          "name": "boss_summoner",
+          "item": {
+            "id": "apotheosis:boss_summoner",
+            "count": 1
+          },
+          "cost": 300,
+          "max_claims": 3
+        },
+        {
+          "name": "dragonegg_red",
+          "item": {
+            "id": "iceandfire:dragonegg_red",
+            "count": 1
+          },
+          "cost": 400,
+          "max_claims": 1
+        },
+        {
+          "name": "dragonegg_blue",
+          "item": {
+            "id": "iceandfire:dragonegg_blue",
+            "count": 1
+          },
+          "cost": 400,
+          "max_claims": 1
+        },
+        {
+          "name": "dragonegg_electric",
+          "item": {
+            "id": "iceandfire:dragonegg_electric",
+            "count": 1
+          },
+          "cost": 400,
+          "max_claims": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "oritech:centrifuge_fluid",
+  "fluidInput": {
+    "amount": 1000,
+    "ingredient": "minecraft:water"
+  },
+  "itemInputs": [
+    "#c:clumps/zinc"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:zinc_shard"
+    }
+  ],
+  "time": 150
+}

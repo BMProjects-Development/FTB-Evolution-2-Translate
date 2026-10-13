@@ -1,0 +1,121 @@
+{
+  "id": "ftb:wandering_merchant",
+  "title": {
+    "translate": "ftb.shopkeeper.wandering_merchant",
+    "color": "green"
+  },
+  "model": {
+    "villager_data": {
+      "type": "taiga",
+      "profession": "cartographer",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.wandering_merchant",
+        "color": "green"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "ftb:wandering_merchant",
+      "required_stage": "ftb:wandering_merchant",
+      "shop_unlock": [
+        {
+          "name": "iron_stick",
+          "item": {
+            "id": "constructionstick:iron_stick",
+            "count": 1
+          },
+          "cost": 2
+        },
+        {
+          "name": "sky_stone_block",
+          "item": {
+            "id": "ae2:sky_stone_block",
+            "count": 8
+          },
+          "cost": 6
+        },
+        {
+          "name": "mysterious_cube",
+          "item": {
+            "id": "ae2:mysterious_cube",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "diamond",
+          "item": {
+            "id": "minecraft:diamond",
+            "count": 1
+          },
+          "cost": 80
+        },
+        {
+          "name": "podzol",
+          "item": {
+            "id": "minecraft:podzol",
+            "count": 16
+          },
+          "cost": 4
+        },
+        {
+          "name": "mycelium",
+          "item": {
+            "id": "minecraft:mycelium",
+            "count": 8
+          },
+          "cost": 4
+        },
+        {
+          "name": "small_dripleaf",
+          "item": {
+            "id": "minecraft:small_dripleaf",
+            "count": 2
+          },
+          "cost": 3
+        },
+        {
+          "name": "big_dripleaf",
+          "item": {
+            "id": "minecraft:big_dripleaf",
+            "count": 2
+          },
+          "cost": 3
+        },
+        { "name": "head_artpoke", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "Artpoke_" } }, "cost": 10 },
+        { "name": "head_desht", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "desht" } }, "cost": 10 },
+        { "name": "head_dinnerbeef", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "DinnerBeef" } }, "cost": 10 },
+        { "name": "head_errormikey", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "ErrorMikey" } }, "cost": 10 },
+        { "name": "head_everlipse", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "Everlipse" } }, "cost": 10 },
+        { "name": "head_gaz492", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "Gaz492" } }, "cost": 10 },
+        { "name": "head_jake_evans", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "Jake_Evans" } }, "cost": 10 },
+        { "name": "head_officialyawsome", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "OfficialyAwsome" } }, "cost": 10 },
+        { "name": "head_pikminman13", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "pikminman13" } }, "cost": 10 },
+        { "name": "head_saereth", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "Saereth" } }, "cost": 10 },
+        { "name": "head_legendaryrylex", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "LegendaryRylex" } }, "cost": 10 },
+        { "name": "head_traverse_joe", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "Traverse_Joe" } }, "cost": 10 },
+        { "name": "head_slowpoke101", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "slowpoke101" } }, "cost": 10 },
+        { "name": "head_alfredgg", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "AlfredGG" } }, "cost": 10 },
+        { "name": "head_wunutwonder", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "WunutWonder" } }, "cost": 10 },
+        { "name": "head_theonlytazz", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "TheonlyTazz" } }, "cost": 10 },
+        { "name": "head_unrealdinnerbone", "item": { "id": "minecraft:player_head", "count": 1, "components": { "minecraft:profile": "UnRealDinnerbone" } }, "cost": 10 },
+        {
+          "name": "random_hat",
+          "command": {
+            "run": "givehat @s random",
+            "permission": "admins",
+            "description": [{ "text": "Unlock a random hat" }]
+          },
+          "cost": 10,
+          "description": [{ "text": "Unlock a random hat" }],
+          "icon": "artifacts:item/villager_hat"
+        }
+      ]
+    }
+  ]
+}

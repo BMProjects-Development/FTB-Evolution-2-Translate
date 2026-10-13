@@ -1,0 +1,55 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+      {
+      "ingredient": "minecraft:bow",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:red_heart_canister",
+      "count": 1
+    },
+     {
+      "ingredient": "ftbarmory:aeternium_wire",
+      "count": 3
+    },
+     {
+      "ingredient": "bhc:yellow_heart_canister",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:green_heart_canister",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:blue_heart_canister",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:soul_heart_crystal",
+      "count": 1
+    },
+    {
+      "ingredient": "#bhc:heart_amulets",
+      "count": 1
+    }
+  ],
+  "fluids": [
+    {
+      "id": "evilcraft:blood",
+      "amount": 16000
+    },
+    {
+      "id": "neovitae:essentia_vitae_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "bhc:vigor_bow"
+    }
+  ],
+  "ticks": 72000,
+  "energy_per_tick": 1000000,
+  "stage": "skyline2_unlocked"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "ftb:wayfarer",
+  "title": {
+    "translate": "ftb.shopkeeper.wayfarer",
+    "color": "yellow"
+  },
+  "model": {
+    "villager_data": {
+      "type": "savanna",
+      "profession": "cartographer",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.wayfarer",
+        "color": "yellow"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:wayfarer_wares",
+      "shop_unlock": [
+        {
+          "name": "waystone",
+          "item": {
+            "id": "waystones:andesite_waystone",
+            "count": 1
+          },
+          "cost": 20
+        },
+        {
+          "name": "warp_scroll",
+          "item": {
+            "id": "waystones:warp_scroll",
+            "count": 4
+          },
+          "cost": 20
+        },
+        {
+          "name": "return_scroll",
+          "item": {
+            "id": "waystones:return_scroll",
+            "count": 4
+          },
+          "cost": 15
+        },
+        {
+          "name": "bound_scroll",
+          "item": {
+            "id": "waystones:bound_scroll",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "warp_plate",
+          "item": {
+            "id": "waystones:warp_plate",
+            "count": 1
+          },
+          "cost": 40
+        },
+        {
+          "name": "portal_scroll",
+          "item": {
+            "id": "waystones:portal_scroll",
+            "count": 1
+          },
+          "cost": 120
+        },
+        {
+          "name": "compass",
+          "item": {
+            "id": "minecraft:compass",
+            "count": 1
+          },
+          "cost": 6
+        },
+        {
+          "name": "naturescompass",
+          "item": {
+            "id": "naturescompass:naturescompass",
+            "count": 1
+          },
+          "cost": 25,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "explorerscompass",
+          "item": {
+            "id": "explorerscompass:explorerscompass",
+            "count": 1
+          },
+          "cost": 60,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "paraglider",
+          "item": {
+            "id": "paraglider:paraglider",
+            "count": 1
+          },
+          "cost": 30,
+          "max_claims": 1,
+          "per_player_max_claims": true
+        },
+        {
+          "name": "ender_shard",
+          "item": {
+            "id": "simpleteleporters:ender_shard",
+            "count": 1
+          },
+          "cost": 12
+        },
+        {
+          "name": "mining_helmet",
+          "item": {
+            "id": "mining_helmet:mining_helmet",
+            "count": 1
+          },
+          "cost": 30
+        },
+        {
+          "name": "travel_anchor",
+          "item": {
+            "id": "enderio:travel_anchor",
+            "count": 1
+          },
+          "cost": 60
+        },
+        {
+          "name": "running_shoes",
+          "item": {
+            "id": "artifacts:running_shoes",
+            "count": 1
+          },
+          "cost": 250,
+          "max_claims": 1
+        },
+        {
+          "name": "aqua_dashers",
+          "item": {
+            "id": "artifacts:aqua_dashers",
+            "count": 1
+          },
+          "cost": 250,
+          "max_claims": 1
+        }
+      ]
+    }
+  ]
+}

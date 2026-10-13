@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "occultism:silver_ore",
+  "variants": [
+    "occultism:silver_ore_deepslate",
+    "ftbic:silver_stone_ore",
+    "ftbic:silver_deepslate_ore",
+    "ftbmaterials:silver_stone_ore",
+    "ftbmaterials:silver_deepslate_ore",
+    "ftbmaterials:silver_nether_ore",
+    "ftbmaterials:silver_end_ore",
+    "iceandfire:silver_ore",
+    "iceandfire:deepslate_silver_ore",
+    "ltxi:silver_ore",
+    "ltxi:deepslate_silver_ore"
+  ],
+  "name_color": "#D6DCE4",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 512,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.silver_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:silver_raw_ore",
+      "count": 16
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

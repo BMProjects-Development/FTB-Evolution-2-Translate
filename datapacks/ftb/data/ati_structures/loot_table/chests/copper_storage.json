@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper_block",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ore",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate_copper_ore",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_block",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cut_copper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cut_copper_stairs",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cut_copper_slab",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 4,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shroomlight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cut_red_sandstone"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 5,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 30,
+            "max": 30
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

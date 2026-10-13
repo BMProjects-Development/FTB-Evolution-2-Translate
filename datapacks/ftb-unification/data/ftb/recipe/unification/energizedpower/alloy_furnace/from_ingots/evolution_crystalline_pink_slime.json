@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 2,
+      "ingredient": "minecraft:slime_ball"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:crystalline_alloy_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dyes/pink"
+    }
+  ],
+  "result": {
+    "id": "enderio_evolution:crystalline_pink_slime_ingot",
+    "count": 1
+  },
+  "ticks": 1500
+}

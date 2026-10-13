@@ -1,0 +1,23 @@
+{
+  "parent": "ftb:evolution/finders_keepers",
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_petals"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.fairy_blessed.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.fairy_blessed.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

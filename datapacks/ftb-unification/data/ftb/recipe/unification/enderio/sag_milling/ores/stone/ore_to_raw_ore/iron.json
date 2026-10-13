@@ -1,0 +1,34 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "minecraft:iron_ore",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:raw_iron"
+      }
+    },
+    {
+      "chance": 0.7,
+      "item": {
+        "count": 1,
+        "id": "minecraft:raw_iron"
+      }
+    },
+    {
+      "chance": 0.33,
+      "item": {
+        "count": 1,
+        "id": "minecraft:raw_iron"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

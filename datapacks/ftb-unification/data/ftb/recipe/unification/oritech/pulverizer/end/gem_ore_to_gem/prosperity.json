@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "mysticalagradditions:end_prosperity_ore"
+  ],
+  "itemResults": [
+    {
+      "id": "mysticalagriculture:prosperity_shard",
+      "count": 2
+    }
+  ],
+  "time": 100
+}

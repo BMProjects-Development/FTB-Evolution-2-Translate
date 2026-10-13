@@ -1,0 +1,40 @@
+{
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "minecraft:glow_berries"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:glow_berries"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:glow_berries"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "id": "minecraft:glow_berries"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "minecraft:moss_block",
+      "speed": 1.0
+    }
+  ]
+}

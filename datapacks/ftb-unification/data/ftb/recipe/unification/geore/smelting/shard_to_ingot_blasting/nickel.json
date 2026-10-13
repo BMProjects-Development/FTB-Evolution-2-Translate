@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": "geore:nickel_shard",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:nickel_ingot"
+  }
+}

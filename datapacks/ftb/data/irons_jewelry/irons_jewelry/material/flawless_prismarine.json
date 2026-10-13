@@ -1,0 +1,33 @@
+{
+  "descriptionId": "ftb.irons.material.flawless_prismarine",
+  "ingredient": "nautec:flawless_prismarine_crystal",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/flawless_prismarine",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:submerged_mining_speed",
+      "operation": "add_value",
+      "amount": 0.25
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:conduit_power"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:mining_fatigue"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "amount": {
+          "base": 2.0,
+          "scalar": 1.0
+        },
+        "damageType": "minecraft:thorns"
+      },
+      "targetSelf": false
+    }
+  }
+}

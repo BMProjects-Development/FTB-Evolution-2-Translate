@@ -1,0 +1,85 @@
+{
+  "type": "colossal_reactors:heat_sinks",
+  "entries": [
+    {
+      "valid_blocks": ["minecraft:air"],
+      "must_source": false,
+      "fuel": 1.0,
+      "energy": 1.0,
+      "overheating": 0.75
+    },
+    {
+      "valid_liquids": ["#c:water"],
+      "must_source": false,
+      "fuel": 1.0,
+      "energy": 1.0,
+      "overheating": 1.0
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/diamond"],
+      "fuel": 1.5,
+      "energy": 1.3,
+      "overheating": 1.8
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/emerald"],
+      "fuel": 1.4,
+      "energy": 1.4,
+      "overheating": 1.8
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/netherite"],
+      "fuel": 1.5,
+      "energy": 1.75,
+      "overheating": 1.7
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/gold"],
+      "fuel": 1.25,
+      "energy": 1.25,
+      "overheating": 1.7
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/ruby"],
+      "fuel": 1.3,
+      "energy": 1.3,
+      "overheating": 1.75
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/sapphire"],
+      "fuel": 1.3,
+      "energy": 1.3,
+      "overheating": 1.75
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/peridot"],
+      "fuel": 1.4,
+      "energy": 1.4,
+      "overheating": 1.76
+    },
+    {
+      "valid_blocks": ["#c:storage_blocks/graphite", "#minecraft:ice"],
+      "fuel": 2.0,
+      "energy": -5.0,
+      "overheating": 2.5
+    },
+    {
+      "valid_liquids": ["#c:ender_molten"],
+      "fuel": 1.5,
+      "energy": 2.0,
+      "overheating": 3.0
+    },
+    {
+      "valid_liquids": ["#c:industrial_coolant"],
+      "fuel": 1.75,
+      "energy": 2.15,
+      "overheating": 3.20
+    },
+    {
+      "valid_liquids": ["#c:breezium"],
+      "fuel": 1.5,
+      "energy": 3.0,
+      "overheating": 5.0
+    }
+  ]
+}

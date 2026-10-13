@@ -1,0 +1,3048 @@
+{
+  id: "67DDE0406A5EE303",
+  group: "4A2F4752A3C3721A",
+  order_index: 3,
+  icon: {
+    id: "neovitae:ara_vitae",
+    count: 1,
+  },
+  filename: "neo_vitae",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "3EC0F38A5F8D01E2",
+  quests: [
+    {
+      icon: {
+        id: "neovitae:ara_vitae",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "3EC0F38A5F8D01E2",
+      tasks: [
+        {
+          id: "0732D826C59F8970",
+          type: "item",
+          item: {
+            id: "neovitae:ara_vitae",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2CD120996BBA8D10",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3B21BE1183979C5F",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "neovitae:guide_book",
+            count: 1,
+            components: {
+              "modonomicon:book_id": "neovitae:guide",
+            },
+          },
+        },
+        {
+          id: "3E92F59D50BC7CBA",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          exclude_from_claim_all: true,
+          command: "/neovitae anima-network @p add 100",
+          permission_level: 3,
+        },
+        {
+          id: "57B3C9DEF2686F2E",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:blood_orb_weak",
+        count: 1,
+      },
+      x: 1.5,
+      y: 0.5,
+      dependencies: [
+        "3EC0F38A5F8D01E2",
+      ],
+      size: 1.0,
+      icon_scale: 1.5,
+      min_width: 300,
+      id: "40B51E2F7CFBF442",
+      tasks: [
+        {
+          id: "5B1C901BF4EF9FB2",
+          type: "item",
+          item: {
+            id: "neovitae:blood_orb_weak",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6310A4C07FEB4EB4",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "75FBCD3141256064",
+          type: "item",
+          item: {
+            id: "minecraft:glass_bottle",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "0A567991C4B5C96F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:tabula_rasa",
+        count: 1,
+      },
+      x: 1.5,
+      y: -0.5,
+      shape: "hexagon",
+      dependencies: [
+        "3EC0F38A5F8D01E2",
+      ],
+      size: 1.0,
+      id: "714730CCF0AC9FD6",
+      tasks: [
+        {
+          id: "553A5E5210050F3F",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_rasa",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6DD427AD040BC791",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "58884DA12CDF1CD5",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_rasa",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "78D027D96F382DC3",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:throwing_dagger",
+        count: 1,
+      },
+      x: 4.0,
+      y: 3.5,
+      dependencies: [
+        "31BF04D4FDB8DC2F",
+      ],
+      size: 1.0,
+      id: "557EBAB98F32B85F",
+      tasks: [
+        {
+          id: "4BEBC7FAEED314EB",
+          type: "item",
+          item: {
+            id: "neovitae:throwing_dagger",
+            count: 1,
+          },
+        },
+        {
+          id: "5D42F6CC5ADFB3C2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:base_spiritus_soul_raw",
+            count: 1,
+            components: {
+              "neovitae:spiritus_amount": 1.0,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C11354F9AC29CF2",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5232DCDF06C72CF0",
+          type: "item",
+          item: {
+            id: "neovitae:throwing_dagger",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "7E0CE76F55FE974D",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:tabula_vitae",
+        count: 1,
+      },
+      x: 4.0,
+      y: 2.0,
+      shape: "rsquare",
+      dependencies: [
+        "3BB1A111D7035936",
+      ],
+      size: 1.5,
+      min_width: 300,
+      id: "31BF04D4FDB8DC2F",
+      tasks: [
+        {
+          id: "26DA1D9AB9FFABE7",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_vitae",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A6B3463EE21F7F3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "6151767D816C3443",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 250",
+          permission_level: 3,
+        },
+        {
+          id: "76FBF7783DF7C507",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:arcane_scribe_tool",
+        count: 1,
+      },
+      x: 2.0,
+      y: 2.0,
+      dependencies: [
+        "31BF04D4FDB8DC2F",
+      ],
+      size: 1.0,
+      id: "76CE17956D6DA7A1",
+      tasks: [
+        {
+          id: "0EF0C66C7D8E7C26",
+          type: "item",
+          item: {
+            id: "neovitae:arcane_scribe_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "40C98E17B6EA740F",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "1609879645C8CBE5",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:sigil_divination",
+        count: 1,
+      },
+      x: 2.5,
+      y: 3.5,
+      dependencies: [
+        "76CE17956D6DA7A1",
+      ],
+      size: 1.0,
+      id: "124509FFC6717603",
+      tasks: [
+        {
+          id: "00481FE0D064F46C",
+          type: "item",
+          item: {
+            id: "neovitae:sigil_divination",
+            count: 1,
+          },
+        },
+        {
+          id: "584C737A4580C755",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_seer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "334F31ECD23142B2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0A8AD5909FCEC91D",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_lazuli",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "2C4AA8FF8426409E",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:hellfire_forge",
+        count: 1,
+      },
+      x: 4.0,
+      y: 5.0,
+      shape: "square",
+      dependencies: [
+        "557EBAB98F32B85F",
+      ],
+      size: 1.25,
+      id: "2D254A8045093FED",
+      tasks: [
+        {
+          id: "252478E9708B35ED",
+          type: "item",
+          item: {
+            id: "neovitae:hellfire_forge",
+            count: 1,
+          },
+        },
+        {
+          id: "0C30115584CBD5BC",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gem_petty",
+            count: 1,
+            components: {
+              "neovitae:spiritus_amount": 64.0,
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "558B5734F18E636A",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5AFF902CE1F77C58",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gem_lesser",
+            count: 1,
+          },
+        },
+        {
+          id: "10EE51BDF2FF644F",
+          type: "item",
+          item: {
+            id: "neovitae:dungeon_stone",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "198330529CA18A3B",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:sentient_sword",
+        count: 1,
+      },
+      x: 5.5,
+      y: 6.5,
+      dependencies: [
+        "2D254A8045093FED",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4FB5C89723323FA1",
+      tasks: [
+        {
+          id: "79D1411B95F52EC2",
+          type: "item",
+          item: {
+            id: "neovitae:sentient_sword",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "252409F52B7796C4",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:rune_blank",
+        count: 1,
+      },
+      x: 2.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "714730CCF0AC9FD6",
+        "40B51E2F7CFBF442",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "53F28C95FE1BAF29",
+      tasks: [
+        {
+          id: "28C5A0E5D8B635D5",
+          type: "item",
+          item: {
+            id: "neovitae:rune_blank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5EF4C63292A67047",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "690A524ACEE4C4E9",
+          type: "item",
+          item: {
+            id: "neovitae:rune_blank",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "6C78B56DF897DBD0",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:blood_orb_apprentice",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "53F28C95FE1BAF29",
+      ],
+      size: 1.25,
+      id: "3BB1A111D7035936",
+      tasks: [
+        {
+          id: "46F6693BCFADD0A7",
+          type: "item",
+          item: {
+            id: "neovitae:blood_orb_apprentice",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F0812E390353517",
+          type: "currency",
+          team_reward: false,
+          amount: 7,
+        },
+        {
+          id: "1F7868ED205084EA",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "64C5DA9AA3A26E3E",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 500",
+          permission_level: 3,
+        },
+        {
+          id: "0E9992C8F71A17FE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:sigil_water",
+        count: 1,
+      },
+      x: 1.5,
+      y: 3.5,
+      dependencies: [
+        "76CE17956D6DA7A1",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      optional: true,
+      id: "1CE38D8CD1B5CA50",
+      tasks: [
+        {
+          id: "028CE8CD0EBF5BC5",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_water",
+            count: 1,
+          },
+        },
+        {
+          id: "5DCABD36530323D5",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_lava",
+            count: 1,
+          },
+        },
+        {
+          id: "0E19175AEE056ED7",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_void",
+            count: 1,
+          },
+        },
+        {
+          id: "133229CD53F282D9",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_green_grove",
+            count: 1,
+          },
+        },
+        {
+          id: "3BAE910C4D19F840",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_fast_miner",
+            count: 1,
+          },
+        },
+        {
+          id: "0885EF4BC94433E2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "neovitae:sigil_magnetism",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5802DBB49953F9DF",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7EE57C8D0D3A4ED1",
+          type: "item",
+          item: {
+            id: "neovitae:sigil_holding",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:alchemy_flask",
+        count: 1,
+      },
+      x: 4.0,
+      y: -1.5,
+      shape: "diamond",
+      dependencies: [
+        "3BB1A111D7035936",
+      ],
+      size: 1.0,
+      id: "530F5E2E4ADB1BA4",
+      tasks: [
+        {
+          id: "61CBA0D58DC0BCE9",
+          type: "item",
+          item: {
+            id: "neovitae:alchemy_flask",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2F94AB64271CCECB",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "167831CE5A6E414E",
+          type: "item",
+          item: {
+            id: "neovitae:simple_catalyst",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "25616B0E08BC1FC3",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:tipped_throwing_dagger",
+        count: 1,
+      },
+      x: 4.0,
+      y: -3.0,
+      shape: "diamond",
+      dependencies: [
+        "530F5E2E4ADB1BA4",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "165A563C9EFE232B",
+      tasks: [
+        {
+          id: "5022A6F551262C41",
+          type: "item",
+          item: {
+            id: "neovitae:tipped_throwing_dagger",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68A5007140790206",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:blood_orb_magician",
+        count: 1,
+      },
+      x: 7.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "1AB874D6EADDB75D",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "1FB8BF0898FD99D9",
+      tasks: [
+        {
+          id: "1C5720CEFD43B48B",
+          type: "item",
+          item: {
+            id: "neovitae:blood_orb_magician",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "73AD48159AF497A0",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7627BD7A658ADF19",
+          type: "item",
+          item: {
+            id: "neovitae:sands_of_vitae",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "53A32BDE506D3A8C",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 500",
+          permission_level: 3,
+        },
+        {
+          id: "2F8A168276D902E1",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:master_ritual_stone",
+        count: 1,
+      },
+      x: 8.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "1FB8BF0898FD99D9",
+      ],
+      size: 1.25,
+      icon_scale: 1.25,
+      min_width: 320,
+      id: "067E4D25501B94F3",
+      tasks: [
+        {
+          id: "0A5255E836716B5B",
+          type: "item",
+          item: {
+            id: "neovitae:master_ritual_stone",
+            count: 1,
+          },
+        },
+        {
+          id: "737AD54401471C6B",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_diviner",
+            count: 1,
+          },
+        },
+        {
+          id: "4AE1A512B33760F4",
+          type: "item",
+          item: {
+            id: "neovitae:activation_crystal_weak",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AB1621C9C8BA5DA",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "46FCD9AE11B7F020",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_stone",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "0913FBCDCF64BE9D",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_reader",
+            count: 1,
+          },
+        },
+        {
+          id: "26792079E721D123",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:sentient_plate",
+        count: 1,
+      },
+      x: 7.0,
+      y: -1.5,
+      dependencies: [
+        "1FB8BF0898FD99D9",
+      ],
+      size: 1.0,
+      id: "191E3A2225AD70FA",
+      tasks: [
+        {
+          id: "7F25F129A1CB8D90",
+          type: "item",
+          item: {
+            id: "neovitae:sentient_plate",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4CE36E5BD9776561",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5904E011019266A2",
+          type: "item",
+          item: {
+            id: "neovitae:upgrade_tome",
+            count: 1,
+          },
+        },
+        {
+          id: "4DD0F3D9255CAA74",
+          type: "item",
+          item: {
+            id: "neovitae:training_bracelet",
+            count: 1,
+          },
+        },
+        {
+          id: "04C229E996EE9DD8",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:upgrade_tome",
+        count: 1,
+      },
+      x: 7.0,
+      y: -3.0,
+      dependencies: [
+        "191E3A2225AD70FA",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6C79D3E7AD6D6766",
+      tasks: [
+        {
+          id: "61A6CAEA4BEAF23D",
+          type: "item",
+          item: {
+            id: "neovitae:upgrade_tome",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "659AA21E44BDB2F5",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "23A171E900F677E7",
+          type: "item",
+          item: {
+            id: "neovitae:experience_tome",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:simple_key",
+        count: 1,
+      },
+      x: 10.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "067E4D25501B94F3",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "143B171B2AE08145",
+      tasks: [
+        {
+          id: "700A09E7D5B4B39A",
+          type: "dimension",
+          dimension: "neovitae:dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "32C44DCD6D5AE8B4",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3609EB898E4090E2",
+          type: "item",
+          item: {
+            id: "neovitae:simple_key",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "7388AEA47B840E55",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:weak_tau",
+        count: 1,
+      },
+      x: 11.5,
+      y: 0.0,
+      dependencies: [
+        "143B171B2AE08145",
+      ],
+      size: 1.0,
+      id: "48784773302B05B5",
+      tasks: [
+        {
+          id: "49AA6FED87D51F69",
+          type: "item",
+          item: {
+            id: "neovitae:weak_tau",
+            count: 1,
+          },
+        },
+        {
+          id: "776E7B87A31D6892",
+          type: "item",
+          item: {
+            id: "neovitae:strong_tau",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29FBB2247F01D193",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4DB4F2E16B609BA8",
+          type: "item",
+          item: {
+            id: "minecraft:bone_meal",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "72CA336D98F529E0",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:athanor",
+        count: 1,
+      },
+      x: 13.0,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "48784773302B05B5",
+      ],
+      size: 1.5,
+      id: "263045D3780542C0",
+      tasks: [
+        {
+          id: "7C8D19D029B547C0",
+          type: "item",
+          item: {
+            id: "neovitae:athanor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "466D79DE4273E990",
+          type: "currency",
+          team_reward: false,
+          amount: 7,
+        },
+        {
+          id: "6B90332AAC87B70F",
+          type: "item",
+          item: {
+            id: "neovitae:resonator",
+            count: 1,
+          },
+        },
+        {
+          id: "307F633A4B8E7E54",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "02730D19730BE99F",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:weak_blood_shard",
+        count: 1,
+      },
+      x: 14.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "263045D3780542C0",
+      ],
+      size: 1.0,
+      id: "2E5484E8811384DA",
+      tasks: [
+        {
+          id: "4991137C0E1EDC74",
+          type: "item",
+          item: {
+            id: "neovitae:weak_blood_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "65F546A56D7A3418",
+          type: "item",
+          item: {
+            id: "neovitae:bloodstone",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "2CD6DB173145091D",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "503FE7137E5BBF09",
+          type: "item",
+          item: {
+            id: "neovitae:weak_blood_shard",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "03B78884C946407C",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_drain_anointment",
+            count: 1,
+          },
+        },
+        {
+          id: "07034F4E67990D53",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:blood_orb_master",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "2E5484E8811384DA",
+      ],
+      size: 1.25,
+      id: "5DE88B0427A5B039",
+      tasks: [
+        {
+          id: "025AFF08E5853F7F",
+          type: "item",
+          item: {
+            id: "neovitae:blood_orb_master",
+            count: 1,
+          },
+        },
+        {
+          id: "30BED0B4B186C3EA",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_diviner_tenebrae",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "447F3076AECE7D75",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "04760F2686051471",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "5E62E9CA6162C2E0",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 1000",
+          permission_level: 3,
+        },
+        {
+          id: "0DE51A06A07A07FA",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:vas_maleficum",
+        count: 1,
+      },
+      x: 18.0,
+      y: -2.0,
+      shape: "hexagon",
+      dependencies: [
+        "5DE88B0427A5B039",
+      ],
+      size: 1.25,
+      id: "2507A7FD69022F2C",
+      tasks: [
+        {
+          id: "2215FB3D02B3BEF1",
+          type: "item",
+          item: {
+            id: "neovitae:vas_maleficum",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "099692C62D4E7F0B",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "201C2A82BE53D5EC",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gauge",
+            count: 1,
+          },
+        },
+        {
+          id: "498E16032BB72D29",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:raw_crystal_shard",
+        count: 1,
+      },
+      x: 21.0,
+      y: -2.0,
+      dependencies: [
+        "7CB9F4716DEA240C",
+      ],
+      size: 1.0,
+      id: "297703FC2EBF8CD8",
+      tasks: [
+        {
+          id: "3ECF5455994504A1",
+          type: "item",
+          item: {
+            id: "neovitae:raw_crystal_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "12B34A49F3513E15",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3B9C7F35268B4064",
+          type: "item",
+          item: {
+            id: "neovitae:raw_spiritus_catalyst",
+            count: 1,
+          },
+        },
+        {
+          id: "3856226A2EBA16AB",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:spiritus_ruina_shard",
+        count: 1,
+      },
+      x: 21.0,
+      y: -3.5,
+      shape: "diamond",
+      dependencies: [
+        "297703FC2EBF8CD8",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      optional: true,
+      id: "0D0A1E61C2384E37",
+      tasks: [
+        {
+          id: "6067FD0305F803A9",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_ruina_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "0E3C057FC9ED2CDC",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_nihilum_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "3D4DCBC076D4CD27",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_vindicta_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "1FBF5F4F26188DD4",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_invictus_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A7BD8502B8BF513",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7A960BB63D99B060",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_reader",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:training_bracelet",
+        count: 1,
+      },
+      x: 18.0,
+      y: 0.5,
+      shape: "diamond",
+      dependencies: [
+        "5DE88B0427A5B039",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "229B331555E15B4A",
+      tasks: [
+        {
+          id: "2A007083FA537679",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4306E3A3A7EDD9F3",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:standard_key",
+        count: 1,
+      },
+      x: 18.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "5DE88B0427A5B039",
+      ],
+      size: 1.25,
+      min_width: 300,
+      id: "1E2F0E34FF11233F",
+      tasks: [
+        {
+          id: "7D86BD17DA6746A6",
+          type: "item",
+          item: {
+            id: "neovitae:standard_key",
+            count: 1,
+          },
+        },
+        {
+          id: "5DA431DC46E30AE6",
+          type: "dimension",
+          dimension: "neovitae:dungeon",
+        },
+      ],
+      rewards: [
+        {
+          id: "4DF185FE104BBC31",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "006D39F77D7D5D4A",
+          type: "item",
+          item: {
+            id: "neovitae:standard_key",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "417F1B05BD5EC2D7",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:mine_key",
+        count: 1,
+      },
+      x: 19.0,
+      y: 3.0,
+      shape: "gear",
+      dependencies: [
+        "5E12FC7FD8720FBA",
+      ],
+      size: 1.0,
+      id: "2C9A224C8B8436BB",
+      tasks: [
+        {
+          id: "207453BECC7C13A4",
+          type: "item",
+          item: {
+            id: "neovitae:mine_key",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "696CB89D077076DC",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1CA319CCECFFCF6C",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:mine_entrance_key",
+        count: 1,
+      },
+      x: 19.5,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "1E2F0E34FF11233F",
+      ],
+      size: 1.0,
+      id: "5E12FC7FD8720FBA",
+      tasks: [
+        {
+          id: "136FAC7BFD5E593F",
+          type: "item",
+          item: {
+            id: "neovitae:mine_entrance_key",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A8D9CF8AE802F85",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "3DEECEB73B7724E1",
+          type: "item",
+          item: {
+            id: "neovitae:hellforged_parts",
+            count: 1,
+          },
+        },
+        {
+          id: "6806176C0D85FF94",
+          type: "item",
+          item: {
+            id: "neovitae:upgrade_tome",
+            count: 1,
+          },
+          count: 2,
+        },
+        {
+          id: "70080350E5A55302",
+          type: "xp",
+          team_reward: false,
+          xp: 60,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:raw_demonite",
+        count: 1,
+      },
+      x: 21.0,
+      y: 2.0,
+      dependencies: [
+        "5E12FC7FD8720FBA",
+      ],
+      size: 1.0,
+      id: "24E04D4C7C3E7CA4",
+      tasks: [
+        {
+          id: "7677AB5B198ECADD",
+          type: "item",
+          item: {
+            id: "neovitae:raw_demonite",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "320C5DF3E14D961E",
+          type: "currency",
+          team_reward: false,
+          amount: 7,
+        },
+        {
+          id: "630A9ABDCB58C5AE",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:ingot_hellforged",
+        count: 1,
+      },
+      x: 22.5,
+      y: 2.0,
+      dependencies: [
+        "24E04D4C7C3E7CA4",
+      ],
+      size: 1.0,
+      id: "3BDF260175FFE44F",
+      tasks: [
+        {
+          id: "2546820C0E28525F",
+          type: "item",
+          item: {
+            id: "neovitae:ingot_hellforged",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BA342D50AE47053",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "0A19767D76E164A5",
+          type: "item",
+          item: {
+            id: "neovitae:ingot_hellforged",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "471C1B4985FDF089",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:blood_orb_archmage",
+        count: 1,
+      },
+      x: 24.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "3BDF260175FFE44F",
+      ],
+      size: 1.25,
+      min_width: 320,
+      id: "0A7737571F027A95",
+      tasks: [
+        {
+          id: "793717DB0447F626",
+          type: "item",
+          item: {
+            id: "neovitae:blood_orb_archmage",
+            count: 1,
+          },
+        },
+        {
+          id: "00CE88E6E4689A80",
+          type: "item",
+          item: {
+            id: "neovitae:hellforged_block",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "06B604190B5DA08B",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "262E665907740E95",
+          type: "item",
+          item: {
+            id: "neovitae:hellforged_parts",
+            count: 1,
+          },
+        },
+        {
+          id: "5F260183479B3F42",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 2500",
+          permission_level: 3,
+        },
+        {
+          id: "02715F9B806B1209",
+          type: "xp",
+          team_reward: false,
+          xp: 70,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:blood_orb_transcendent",
+        count: 1,
+      },
+      x: 24.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "0A7737571F027A95",
+      ],
+      size: 2.0,
+      min_width: 340,
+      id: "50941BEEA38BE2C9",
+      tasks: [
+        {
+          id: "2A223A2C98F9B16B",
+          type: "item",
+          item: {
+            id: "neovitae:blood_orb_transcendent",
+            count: 1,
+          },
+        },
+        {
+          id: "4988C4B4ED7D8BE4",
+          type: "item",
+          item: {
+            id: "neovitae:crystal_cluster",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+      rewards: [
+        {
+          id: "6078D72A92945D19",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "212BD596E1D71991",
+          type: "item",
+          item: {
+            id: "apotheosis:gem",
+            count: 1,
+            components: {
+              "apotheosis:gem": "apotheosis:the_nether/blood_lord",
+              "apotheosis:purity": "perfect",
+            },
+          },
+        },
+        {
+          id: "58FC98BAEDB8920C",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 10000",
+          permission_level: 3,
+        },
+        {
+          id: "4AC54028600F2169",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:hellforged_parts",
+        count: 1,
+      },
+      x: 20.0,
+      y: 3.0,
+      shape: "gear",
+      dependencies: [
+        "5E12FC7FD8720FBA",
+      ],
+      size: 1.0,
+      id: "6F13D27CE61DC87A",
+      tasks: [
+        {
+          id: "3BCB8518CD15DBEF",
+          type: "item",
+          item: {
+            id: "neovitae:hellforged_parts",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "268F279B78533168",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0FC21CA0D8CE0FD0",
+          type: "item",
+          item: {
+            id: "neovitae:rune_2_efficiency",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "0152BCDFF92DCD07",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:tau_oil",
+        count: 1,
+      },
+      x: 16.0,
+      y: -1.5,
+      dependencies: [
+        "5DE88B0427A5B039",
+      ],
+      size: 1.0,
+      id: "4F21AE8F87333085",
+      tasks: [
+        {
+          id: "04A160A8C7B622EC",
+          type: "item",
+          item: {
+            id: "neovitae:tau_oil",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0BCED41B44E86CA1",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5EA29791C4E742F2",
+          type: "item",
+          item: {
+            id: "neovitae:weak_tau",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "60D91EB5B1A3CCFE",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:raw_spiritus_catalyst",
+        count: 1,
+      },
+      x: 16.0,
+      y: -3.0,
+      dependencies: [
+        "4F21AE8F87333085",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0154D0F30F095E63",
+      tasks: [
+        {
+          id: "77B8ECF61DD325C3",
+          type: "item",
+          item: {
+            id: "neovitae:raw_spiritus_catalyst",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "513E91331D064A83",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4528A39DA8BBB13B",
+          type: "item",
+          item: {
+            id: "neovitae:cycling_catalyst",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:raw_spiritus_crystal",
+        count: 1,
+      },
+      x: 19.5,
+      y: -2.0,
+      dependencies: [
+        "2507A7FD69022F2C",
+      ],
+      size: 1.0,
+      id: "7CB9F4716DEA240C",
+      tasks: [
+        {
+          id: "5644E82EA0BF0CBC",
+          type: "item",
+          item: {
+            id: "neovitae:crystallarium_maleficum",
+            count: 1,
+          },
+        },
+        {
+          id: "777111B5BBB1355D",
+          type: "item",
+          item: {
+            id: "neovitae:raw_spiritus_crystal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42B33C3ED1034899",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "530C6222D661D4F5",
+          type: "item",
+          item: {
+            id: "neovitae:raw_spiritus_crystal",
+            count: 1,
+          },
+          count: 3,
+        },
+        {
+          id: "302C06064D5D6D0D",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:master_ritual_stone",
+        count: 1,
+      },
+      x: 22.5,
+      y: -2.0,
+      dependencies: [
+        "297703FC2EBF8CD8",
+      ],
+      size: 1.0,
+      id: "58503249A5084026",
+      tasks: [
+        {
+          id: "362D4C7320BDFCF8",
+          type: "advancement",
+          advancement: "neovitae:neovitae/crystallum_fractura",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "5CA8DECA847F6212",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "19F89A432E264466",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:routing_conduit",
+        count: 1,
+      },
+      x: 4.0,
+      y: 6.5,
+      dependencies: [
+        "2D254A8045093FED",
+      ],
+      size: 1.75,
+      optional: true,
+      id: "3F263702F010167A",
+      tasks: [
+        {
+          id: "7BC398DDC541539F",
+          type: "item",
+          item: {
+            id: "neovitae:routing_conduit",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "4DD0F56D05E4132D",
+          type: "item",
+          item: {
+            id: "neovitae:input_routing_node",
+            count: 1,
+          },
+        },
+        {
+          id: "59872593D0C3FBBC",
+          type: "item",
+          item: {
+            id: "neovitae:output_routing_node",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EAA781A0A67772F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1B916F843D600408",
+          type: "item",
+          item: {
+            id: "neovitae:master_routing_node",
+            count: 1,
+          },
+        },
+        {
+          id: "1EFD016D747FDE2B",
+          type: "item",
+          item: {
+            id: "neovitae:node_router",
+            count: 1,
+          },
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:node_router",
+        count: 1,
+      },
+      x: 4.5,
+      y: 7.5,
+      dependencies: [
+        "3F263702F010167A",
+      ],
+      size: 1.0,
+      id: "3CA9125C16DD3124",
+      tasks: [
+        {
+          id: "08667D1787AFD646",
+          type: "item",
+          item: {
+            id: "neovitae:node_router",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "565DAC76B8DFD636",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "48893D10DF47552C",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:master_core",
+        count: 1,
+      },
+      x: 3.5,
+      y: 7.5,
+      dependencies: [
+        "3F263702F010167A",
+      ],
+      size: 1.0,
+      id: "0E3D0533331945A1",
+      tasks: [
+        {
+          id: "37C93A2616A1CD4D",
+          type: "item",
+          item: {
+            id: "neovitae:master_core",
+            count: 1,
+          },
+        },
+        {
+          id: "4EC8DF857EF376A9",
+          type: "item",
+          item: {
+            id: "neovitae:master_core_speed",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A160E17FEDEC806",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1CF5F774A82BE664",
+          type: "item",
+          item: {
+            id: "neovitae:rune_speed",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:basic_cutting_fluid",
+        count: 1,
+      },
+      x: 5.5,
+      y: 2.0,
+      dependencies: [
+        "31BF04D4FDB8DC2F",
+      ],
+      size: 1.0,
+      id: "11284BF46CEB2F12",
+      tasks: [
+        {
+          id: "23A1B45E5A3C8AD5",
+          type: "item",
+          item: {
+            id: "neovitae:basic_cutting_fluid",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0CAC73B2CF10A832",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "25772B4C6258335E",
+          type: "item",
+          item: {
+            id: "minecraft:iron_ore",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "68CB5126BF88793F",
+          type: "item",
+          item: {
+            id: "minecraft:gold_ore",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "38C9E08F4947E631",
+          type: "item",
+          item: {
+            id: "neovitae:advanced_cutting_fluid",
+            count: 1,
+          },
+        },
+        {
+          id: "7783DC81867EC9BB",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:corrupted_dust",
+        count: 1,
+      },
+      x: 13.0,
+      y: 1.5,
+      dependencies: [
+        "263045D3780542C0",
+      ],
+      size: 1.0,
+      id: "1A22280295ED9A42",
+      tasks: [
+        {
+          id: "03E80404B6032598",
+          type: "item",
+          item: {
+            id: "neovitae:corrupted_dust",
+            count: 1,
+          },
+        },
+        {
+          id: "4B85BD760C5D8158",
+          type: "item",
+          item: {
+            id: "neovitae:iron_gravel",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F23085A89A77FC0",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "3BDEFD03AB78A8D1",
+          type: "item",
+          item: {
+            id: "neovitae:primitive_crystalline_resonator",
+            count: 1,
+          },
+        },
+        {
+          id: "426E59D96600F4CD",
+          type: "item",
+          item: {
+            id: "neovitae:raw_crystal_shard",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "22992C3B26887EA8",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:enchanted_book",
+        count: 1,
+        components: {
+          "minecraft:stored_enchantments": {
+            "minecraft:sharpness": 1,
+          },
+        },
+      },
+      x: 13.0,
+      y: -1.5,
+      dependencies: [
+        "263045D3780542C0",
+      ],
+      size: 1.0,
+      id: "393324AF2EE55949",
+      tasks: [
+        {
+          id: "7089A01D8E2F8FE4",
+          type: "item",
+          item: {
+            id: "minecraft:enchanted_book",
+            count: 1,
+            components: {
+              "minecraft:stored_enchantments": {
+                "minecraft:sharpness": 1,
+              },
+            },
+          },
+          match_components: "fuzzy",
+        },
+        {
+          id: "4EEF31584AA5887A",
+          type: "item",
+          item: {
+            id: "neovitae:sanguine_reverter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "095E4FD91DC825EA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1540472429AC3D2F",
+          type: "item",
+          item: {
+            id: "minecraft:book",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "1EB2BB073D4C3CC2",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:rune_blank",
+        count: 1,
+      },
+      x: 5.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "3BB1A111D7035936",
+      ],
+      size: 1.25,
+      id: "1AB874D6EADDB75D",
+      tasks: [
+        {
+          id: "6F80B291BB1068DC",
+          type: "item",
+          item: {
+            id: "neovitae:rune_blank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4E722C13EF367FA9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:spike_trap",
+        count: 1,
+      },
+      x: 5.5,
+      y: 5.0,
+      dependencies: [
+        "2D254A8045093FED",
+      ],
+      size: 1.0,
+      id: "19E98C84733A5532",
+      tasks: [
+        {
+          id: "718772BAA5427936",
+          type: "item",
+          item: {
+            id: "neovitae:spike_trap",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1AC7B829A2CEC692",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "35103BFF4DE534F5",
+          type: "item",
+          item: {
+            id: "minecraft:ender_pearl",
+            count: 1,
+          },
+        },
+        {
+          id: "60F1F78C08D42224",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "neovitae:rune_sacrifice",
+            count: 1,
+          },
+          count: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:guide_book",
+        count: 1,
+      },
+      x: 0.0,
+      y: -1.75,
+      shape: "hexagon",
+      dependencies: [
+        "3EC0F38A5F8D01E2",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "3C6ED87712D41C45",
+      tasks: [
+        {
+          id: "0BD886C64D8602AE",
+          type: "item",
+          item: {
+            id: "animusnv:guide_book",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3B38649B9B6EB31E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7629B478256D2D51",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:blood_apple",
+        count: 1,
+      },
+      x: 0.0,
+      y: -3.0,
+      dependencies: [
+        "3C6ED87712D41C45",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "1DF25DE313F5EA9D",
+      tasks: [
+        {
+          id: "532AC3986E232072",
+          type: "item",
+          item: {
+            id: "animusnv:blood_sapling",
+            count: 1,
+          },
+        },
+        {
+          id: "4C931A6A73478D7C",
+          type: "item",
+          item: {
+            id: "animusnv:blood_apple",
+            count: 1,
+          },
+        },
+        {
+          id: "289152752FC7F2E8",
+          type: "item",
+          item: {
+            id: "animusnv:blood_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C9446B55AD78292",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "741ED82F04F053E8",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:sigil_chains",
+        count: 1,
+      },
+      x: 1.5,
+      y: 5.0,
+      dependencies: [
+        "1CE38D8CD1B5CA50",
+        "2D254A8045093FED",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3F637FF7658CCA33",
+      tasks: [
+        {
+          id: "4CEBFABFDCA8DD06",
+          type: "item",
+          item: {
+            id: "animusnv:sigil_chains",
+            count: 1,
+          },
+        },
+        {
+          id: "421687A3DB229747",
+          type: "item",
+          item: {
+            id: "animusnv:mob_soul",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "389FAEF594108B0B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5B20E1AAB8AB2579",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:spear_sentient",
+        count: 1,
+      },
+      x: 6.75,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "2D254A8045093FED",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "0AF4B9B8EABB8F9B",
+      tasks: [
+        {
+          id: "2311EB1BDD377D6F",
+          type: "item",
+          item: {
+            id: "animusnv:spear_iron",
+            count: 1,
+          },
+        },
+        {
+          id: "0B64CF1982FE82E3",
+          type: "item",
+          item: {
+            id: "animusnv:spear_diamond",
+            count: 1,
+          },
+        },
+        {
+          id: "022DA4E5E84ADF37",
+          type: "item",
+          item: {
+            id: "animusnv:spear_sentient",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "03E975344484AB9F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6AA964BC6D6668C1",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:imperfect_ritual_stone",
+        count: 1,
+      },
+      x: 8.5,
+      y: -1.5,
+      shape: "hexagon",
+      dependencies: [
+        "067E4D25501B94F3",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "3198863667151E85",
+      tasks: [
+        {
+          id: "7BC329DD7C46E4D3",
+          type: "item",
+          item: {
+            id: "neovitae:imperfect_ritual_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6442324CCCCF43F3",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "7110B3FA0EBFB4EE",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:sentient_shield",
+        count: 1,
+      },
+      x: 6.75,
+      y: 6.5,
+      shape: "hexagon",
+      dependencies: [
+        "4FB5C89723323FA1",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "208FAEEF1560A473",
+      tasks: [
+        {
+          id: "3748422051846C74",
+          type: "item",
+          item: {
+            id: "animusnv:sentient_bow",
+            count: 1,
+          },
+        },
+        {
+          id: "72D72ACAEE97BEFD",
+          type: "item",
+          item: {
+            id: "animusnv:sentient_shield",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "468A2AF9649672F4",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "5C5BD61BECB8310D",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:sanguine_rectifier",
+        count: 1,
+      },
+      x: 18.0,
+      y: -0.5,
+      dependencies: [
+        "5DE88B0427A5B039",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "22AE6BD2B6F44124",
+      tasks: [
+        {
+          id: "0238561ABDD7810B",
+          type: "item",
+          item: {
+            id: "animusnv:sanguine_rectifier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A2BE058217A7CE1",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "422307CCBDC2A587",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bmaddon:blood_altar_pattern",
+        count: 1,
+      },
+      x: 16.0,
+      y: 1.5,
+      dependencies: [
+        "2E5484E8811384DA",
+        "69F87073390131D5",
+      ],
+      size: 1.0,
+      id: "6639F7B976053020",
+      tasks: [
+        {
+          id: "38AE0DF7D57698BA",
+          type: "item",
+          item: {
+            id: "bmaddon:blood_altar_pattern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6F93A65AC640073E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "6674C9FC25D522D3",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bmaddon:blood_altar_assembler",
+        count: 1,
+      },
+      x: 24.0,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "0A7737571F027A95",
+      ],
+      size: 1.25,
+      id: "4DD1E69D596D190F",
+      tasks: [
+        {
+          id: "410F332C95A59F0F",
+          type: "item",
+          item: {
+            id: "bmaddon:blood_altar_assembler",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6491B267761D4F90",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "5790638939FE25D8",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bmaddon:blood_altar_tier_card_2",
+        count: 1,
+      },
+      x: 24.0,
+      y: 4.75,
+      dependencies: [
+        "4DD1E69D596D190F",
+      ],
+      size: 1.0,
+      id: "5EDFD69BB6601872",
+      tasks: [
+        {
+          id: "5ECEFEAACA038C9B",
+          type: "item",
+          item: {
+            id: "bmaddon:blood_altar_tier_card_2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "550B2BA8B82AECE3",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "44270B6933D1BE56",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 4.0,
+      y: 3.5,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "neovitae:textures/mob_effect/soulsnare.png",
+      id: "6A935360115C93A9",
+    },
+    {
+      x: 14.5,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/weak_blood_shard",
+      id: "3AA9A5FD78DC399E",
+    },
+    {
+      x: 14.5,
+      y: -1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 180.0,
+      image: "neovitae:item/weak_blood_shard",
+      id: "087CC05C3C64A19B",
+    },
+    {
+      x: 11.5,
+      y: -1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/tau_oil",
+      id: "45AEF08E398773FB",
+    },
+    {
+      x: 11.5,
+      y: 1.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/strong_tau",
+      id: "35C9A160CA5D0B65",
+    },
+    {
+      x: 5.5,
+      y: 0.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 45.0,
+      image: "neovitae:block/deus_ritual_stone",
+      id: "1C5BF24969985CCA",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "neovitae:models/alchemyarrays/undertowarray",
+      color: 16714507,
+      id: "6B73EC6AD76BB5CA",
+    },
+    {
+      x: 21.0,
+      y: 2.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 90.0,
+      image: "neovitae:block/dungeon/prismatic_demonite_e",
+      id: "270034F9E2BB7882",
+    },
+    {
+      x: 21.0,
+      y: 2.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 0.0,
+      image: "neovitae:block/dungeon/prismatic_demonite_e",
+      id: "0EA8ADE50CEF4291",
+    },
+    {
+      x: 22.5,
+      y: 2.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: -90.0,
+      image: "neovitae:block/dungeon/prismatic_demonite_e",
+      id: "736ABCF97B209F3A",
+    },
+    {
+      x: 22.5,
+      y: 2.0,
+      width: 1.25,
+      height: 1.25,
+      rotation: 180.0,
+      image: "neovitae:block/dungeon/prismatic_demonite_e",
+      id: "3617E5773F6F6E11",
+    },
+    {
+      x: 20.5,
+      y: -3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/spiritus_gem_grand_raw",
+      id: "2659E870470DC32F",
+    },
+    {
+      x: 21.5,
+      y: -3.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/spiritus_gem_grand_ruina",
+      id: "0C3C978BB496DEF5",
+    },
+    {
+      x: 21.5,
+      y: -4.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/spiritus_gem_grand_vindicta",
+      id: "41770C522267FC83",
+    },
+    {
+      x: 20.5,
+      y: -4.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "neovitae:item/spiritus_gem_grand_nihilum",
+      id: "5E3F8475088C8718",
+    },
+    {
+      x: 8.5,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "neovitae:textures/particle/ritual.png",
+      color: 16733525,
+      id: "7AEA20F7344443A2",
+    },
+    {
+      x: 4.0,
+      y: 2.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "neovitae:textures/entity/blood_shield_overlay.png",
+      id: "0391C2BC78C6FA60",
+    },
+    {
+      x: 13.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 0.0,
+      image: "neovitae:textures/entity/blood_shield_overlay.png",
+      id: "2691911C0A9A2800",
+    },
+  ],
+}

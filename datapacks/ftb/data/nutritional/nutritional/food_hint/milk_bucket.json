@@ -1,0 +1,7 @@
+{
+  "heal_amount": 4.0,
+  "application_phase": "on_right_click",
+  "match": {
+    "item": "minecraft:milk_bucket"
+  }
+}

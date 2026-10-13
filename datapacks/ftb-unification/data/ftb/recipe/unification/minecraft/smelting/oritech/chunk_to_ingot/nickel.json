@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": "ftbmaterials:nickel_chunk",
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:nickel_ingot"
+  }
+}

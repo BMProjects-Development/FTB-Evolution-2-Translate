@@ -1,0 +1,733 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "star",
+                      "colors": [
+                        14602026
+                      ],
+                      "fade_colors": [],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Star",
+                "color": "yellow"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        1973019,
+                        15790320
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Time",
+                "color": "white"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        11743532
+                      ],
+                      "fade_colors": [
+                        14188952
+                      ],
+                      "has_trail": false,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Aroma",
+                "color": "red"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        3887386,
+                        5320730,
+                        2437522
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Earth",
+                "color": "dark_green"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        5320730,
+                        15790320
+                      ],
+                      "fade_colors": [
+                        14602026
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Thought",
+                "color": "gray"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        2437522,
+                        15790320
+                      ],
+                      "fade_colors": [
+                        6719955
+                      ],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Teamwork",
+                "color": "blue"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        8073150,
+                        11250603
+                      ],
+                      "fade_colors": [
+                        14602026
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Reflection",
+                "color": "dark_purple"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "star",
+                      "colors": [
+                        2651799,
+                        6719955
+                      ],
+                      "fade_colors": [
+                        6719955
+                      ],
+                      "has_trail": false,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Oasis",
+                "color": "aqua"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        11250603
+                      ],
+                      "fade_colors": [
+                        2437522,
+                        14602026
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Weather",
+                "color": "gray"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        4408131
+                      ],
+                      "fade_colors": [
+                        1973019
+                      ],
+                      "has_trail": false,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Dusk",
+                "color": "dark_gray"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        14188952,
+                        4312372
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Perseverance",
+                "color": "green"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        4312372,
+                        14602026
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Complement",
+                "color": "yellow"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        6719955,
+                        15790320
+                      ],
+                      "fade_colors": [
+                        6719955
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Lullaby",
+                "color": "dark_aqua"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        1973019,
+                        8073150,
+                        2651799,
+                        14602026,
+                        12801229
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Projection",
+                "color": "light_purple"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        4408131,
+                        15435844
+                      ],
+                      "fade_colors": [
+                        14602026
+                      ],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Energy",
+                "color": "gold"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "star",
+                      "colors": [
+                        11743532,
+                        8073150,
+                        4312372,
+                        6719955,
+                        15435844,
+                        15790320
+                      ],
+                      "fade_colors": [],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Sight",
+                "color": "white"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        11743532
+                      ],
+                      "fade_colors": [],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        4312372
+                      ],
+                      "fade_colors": [],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        2437522
+                      ],
+                      "fade_colors": [],
+                      "has_trail": true,
+                      "has_twinkle": false
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Pixel",
+                "color": "blue"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        11743532
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        14602026
+                      ],
+                      "fade_colors": [],
+                      "has_trail": true,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        4312372
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        12801229
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        2437522
+                      ],
+                      "fade_colors": [],
+                      "has_trail": false,
+                      "has_twinkle": true
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": [
+                {
+                  "text": "Ce",
+                  "color": "red"
+                },
+                {
+                  "text": "le",
+                  "color": "yellow"
+                },
+                {
+                  "text": "br",
+                  "color": "green"
+                },
+                {
+                  "text": "at",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "ion",
+                  "color": "blue"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

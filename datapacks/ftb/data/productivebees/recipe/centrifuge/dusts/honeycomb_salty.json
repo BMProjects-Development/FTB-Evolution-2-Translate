@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:dusts/salty"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "nautec"
+    }
+  ],
+  "type": "productivebees:centrifuge",
+  "fluid": {
+    "amount": 250,
+    "ingredient": "nautec:saltwater"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "productivebees:dusts/salty"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "item": "ftbmaterials:salt_dust",
+      "max": 3,
+      "min": 1
+    },
+    {
+      "item": "productivebees:wax"
+    }
+  ]
+}

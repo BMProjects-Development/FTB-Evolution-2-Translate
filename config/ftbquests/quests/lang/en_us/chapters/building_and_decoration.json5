@@ -1,0 +1,171 @@
+{
+  "quest.607211F8C680B88A.title": "&aDoors",
+  "quest.45979A90BFA03AA6.title": "&aLights and Lamps",
+  "task.19CEA73CCF4221E2.title": "Any Hammock",
+  "quest.672FEF37D5F5783C.title": "&3Crystalix Wand",
+  "quest.6AECB7C2DF87D34F.quest_desc": [
+    "&eGlassential&r adds glass with unusual properties. &aEthereal Glass&r is solid to everything except players, so you can walk through your own walls while mobs can't.",
+    "",
+    "&aReverse Ethereal Glass&r works the other way around and only stops players. Glassential also makes vanilla glass join up across blocks in this pack.",
+  ],
+  "quest.1914278B9065D883.title": "&aRoofs",
+  "quest.2030D1D78E2AA7DE.quest_desc": [
+    "This block does the chiseling for you. Give the &aAuto Chisel&r a chisel, a template block showing the variant you want, and a supply of input blocks, and it converts them one after another.",
+    "",
+    "It runs without power, so a hopper feeding it is enough for a whole wall's worth of blocks.",
+  ],
+  "quest.45979A90BFA03AA6.quest_desc": [
+    "Right-click a lamp to switch it on or off, and use any dye on it to change its color. Tiki torches can be built taller.",
+  ],
+  "quest.12A77A3CB31A42F4.quest_desc": [
+    "Wood bridges come from the crafting table and stone bridges from the stonecutter. Right-click a bridge two or more blocks wide with the &aPliers&r to cut an entrance into it.",
+  ],
+  "task.575442B006482AD9.title": "Any Chisel",
+  "quest.377E6E387004CA7E.quest_desc": [
+    "Most of the building mods in this pack run their catalogs through the &aStonecutter&r. &eBetterBlockZ&r, &eDecorative Wooden Lattices&r and several of the &eMacaw's&r mods all cut their variants on it.",
+    "",
+    "Each quest path on this page covers a different side of building. None of them gate anything else in the pack, so start with whatever suits the base you're working on.",
+    "",
+    "Look up any block in &eJEI&r to see every variant it cuts into.",
+  ],
+  "quest.4307A169AF52A267.title": "&aLuminous and Redstone Glass",
+  "quest.7F55F51B79B150FB.quest_desc": [
+    "&eDecorZ&r builds light fixtures from BetterBlockZ's &aCyber Light&r blocks. Turn them into panels, then run a panel through the stonecutter for covers, lamps, lanterns, plates and strips.",
+  ],
+  "quest.6AECB7C2DF87D34F.title": "&eGlassential",
+  "quest.1F9D424E8172A112.title": "&aFish Tank",
+  "quest.6D8E5365B422735D.quest_desc": [
+    "&eBetterBlockZ&r blocks come in families, and the stonecutter cuts each family's base block into up to fifteen variants. Every family needs a &aBlockz Core Base&r first.",
+    "",
+    "You can also switch a held block between variants without the stonecutter. That needs two keys the pack leaves unbound, &bVariant Selection Screen&r and &bMouse Wheel Scroll Modifier&r, both under Z-Core in Controls.",
+  ],
+  "quest.23BAF609BE4D464F.quest_desc": [
+    "Vanilla glass already connects in this pack, so &eConnected Glass&r is here for its other styles. &aConnecting Glass&r is borderless, and crafting it further gives &2Clear Glass&r and then Scratched Glass.",
+  ],
+  "quest.23B44ACF78688229.quest_desc": [
+    "The six &eMacaw's&r mods each cover one part of a build. Between them you get roofs, windows, bridges, doors, paths and lights.",
+    "",
+    "Most of their blocks come from a crafting table or the stonecutter, and each mod has one tool or trick worth knowing. The quests around this one cover those.",
+  ],
+  "quest.3F05300BC56B409C.quest_desc": [
+    "Pavings come off the stonecutter. Right-click a placed paving with a pickaxe to engrave it, or with a shovel to flatten it.",
+  ],
+  "quest.672FEF37D5F5783C.quest_desc": [
+    "Use the &3Crystalix Wand&r on Crystalix Glass to apply its settings. Sneak while you use it to change every connected block at once.",
+    "",
+    "The wand's settings open with the &bOpen Wand Editor&r key, which starts unbound in this pack. Set it under Crystalix in Controls.",
+  ],
+  "quest.29FE9DA4102EBB42.quest_desc": [
+    "&eFramedBlocks&r shapes take on the look of any block. Right-click a framed block with a block item to apply it as a camo.",
+    "",
+    "Applying a camo uses up that block, and you get it back when you knock the camo off with the &aFramed Hammer&r. The &aFramed Wrench&r rotates a framed block in place.",
+  ],
+  "quest.1749497FC966AEFB.quest_desc": [
+    "Right-click a fish with the &aFish Bag&r to catch it alive. Each bag holds one fish.",
+  ],
+  "quest.22BB5B95E316458D.quest_desc": [
+    "The &aRedstone Architect's Wand&r places whole shapes at once. It does boxes, circles and triangles, each filled, hollow or walls only.",
+    "",
+    "Its keys start unbound in this pack. Set &bWand Templates&r and the other wand actions under Architectural Building Wand in Controls before you use it.",
+  ],
+  "quest.3C3703F7BC1BE459.quest_desc": [
+    "&ePlonk&r lets you set any item down on a surface as decoration. Look at a block with the item in your main hand and press the &bPlace Item&r key.",
+    "",
+    "That key starts unbound in this pack, so set it under Plonk in Controls first. Sneak and press it with an empty hand to rotate what you placed.",
+  ],
+  "quest.5A1DA2B60986EAF9.quest_desc": [
+    "&aCrystalix Glass&r can be changed after it's placed. Color, texture, light, redstone output, invisibility and which creatures can pass through it are all settings on the block.",
+  ],
+  "quest.4676483E1F4B7CA5.quest_desc": [
+    "Macaw's windows start from a &aWindow Base&r. The &aWindow Hammer&r changes a placed window's shape, and the &2Window Key&r locks it.",
+  ],
+  "quest.1CBCDBA892A21481.quest_desc": [
+    "A &aChisel&r turns one block into its decorative variants. Right-click to open it, put a block in the slot and swap it for any variant, one for one.",
+    "",
+    "Leave a block in the slot and you can left-click blocks already placed in the world to convert them to that variant.",
+  ],
+  "quest.493D3F41AFD2AF3F.title": "&aOne Way Glass",
+  "quest.7ED0B679AA8D8F35.title": "&aHammocks",
+  "quest.22BB5B95E316458D.title": "&aArchitect's Wand",
+  "quest.3774C5D696778FF4.title": "&aWooden Lattices",
+  "quest.4307A169AF52A267.quest_desc": [
+    "&aLuminous Glass&r gives off light and &2Redstone Glass&r gives off a redstone signal, so a window can double as a lamp or a power source.",
+    "",
+    "&aGhostly Glass&r lets every creature through, players included.",
+  ],
+  "quest.1F9D424E8172A112.quest_desc": [
+    "Fill the &aFish Tank&r with a water bucket, then Sneak + Right-click it with a full Fish Bag to release the fish inside.",
+    "",
+    "&eBetter Fishtanks&r disables the aquarium from Starcatcher, so this is the tank to build.",
+  ],
+  "quest.5D61821B89B22271.quest_desc": [
+    "Fish in a tank need food in this pack, and you get a warning when they start to starve. Food is made at the &aAquarist's Table&r, and JEI lists everything it makes.",
+    "",
+    "Put the food in the tank's &bFish Food&r slot.",
+  ],
+  "quest.6D8E5365B422735D.title": "&eBetterBlockZ",
+  "quest.7F55F51B79B150FB.title": "&aCyber Light Panels",
+  "quest.3C9556B5DA05C0CE.quest_desc": [
+    "&aGlass Signs&r are see-through signs. Right-click any placed sign with a &aPhantom Membrane&r and its board disappears, leaving the text floating in the air. The membrane is used up.",
+    "",
+    "&cThe board can't be brought back afterwards.",
+  ],
+  "quest.12A77A3CB31A42F4.title": "&aBridges",
+  "quest.1749497FC966AEFB.title": "&aFish Bag",
+  "quest.4676483E1F4B7CA5.title": "&aWindows",
+  "task.6700672FB0E2B3E3.title": "Any Sleeping Bag",
+  "quest.2030D1D78E2AA7DE.title": "&aAuto Chisel",
+  "quest.34EE10F62A7C95EA.quest_desc": [
+    "The &aGlassential Brush&r sets up &2Colorable Glass&r. Right-click with the brush to pick a color and switch light, redstone, player passthrough and entity passthrough on or off, then use it on the glass.",
+  ],
+  "quest.34EE10F62A7C95EA.title": "&aColorable Glass",
+  "quest.3F05300BC56B409C.title": "&aPaths and Pavings",
+  "quest.29FE9DA4102EBB42.title": "&eFramedBlocks",
+  "quest.493D3F41AFD2AF3F.quest_desc": [
+    "Glass you can only see through from one side. Right-click a face of &aOne Way Glass&r with any block to disguise that side, and from outside it looks like a plain wall.",
+  ],
+  "quest.23BAF609BE4D464F.title": "&eConnected Glass",
+  "quest.3C9556B5DA05C0CE.title": "&aHolographic Signs",
+  "quest.5A1DA2B60986EAF9.title": "&eCrystalix Glass",
+  "quest.66FD982E02F0014A.quest_desc": [
+    "A &aSleeping Bag&r lets you sleep through the night away from home. Sneak + Right-click to place it, and you lie down in it straight away.",
+    "",
+    "&cSleeping bags don't set your spawn point.",
+  ],
+  "quest.5D61821B89B22271.title": "&aFeeding Your Fish",
+  "quest.1914278B9065D883.quest_desc": [
+    "Right-click the top of a roof with the &aRoofing Hammer&r to switch its shape. Stone and concrete roofs come off the stonecutter.",
+  ],
+  "quest.6E0B8B406E7D94CA.title": "&aWireless Switches",
+  "quest.3774C5D696778FF4.quest_desc": [
+    "&eDecorative Wooden Lattices&r has 90 lattice designs for every type of wood, all cut from planks or stripped logs on the stonecutter. They make good screens, railings and window grilles.",
+  ],
+  "quest.607211F8C680B88A.quest_desc": [
+    "Each door style comes from its &aDoor Print&r, and the print is used up when you make a door with it.",
+    "",
+    "&cMetal doors only open with redstone power.",
+  ],
+  "quest.1EEA91FF83950090.title": "&aFraming Saw",
+  "quest.3C3703F7BC1BE459.title": "&aPlonk",
+  "quest.1EF4458125E12666.title": "&eMalisis Doors",
+  "quest.1EEA91FF83950090.quest_desc": [
+    "Every other framed shape comes from the &aFraming Saw&r. It cuts &aFramed Cubes&r into slopes, stairs, panels, pillars and the rest, and JEI lists them all under the saw.",
+  ],
+  "quest.7ED0B679AA8D8F35.quest_desc": [
+    "A hammock hangs between two &aRope and Nail&r placed facing each other, and it's for sleeping through the day instead of the night.",
+    "",
+    "Like sleeping bags, hammocks don't set your spawn point.",
+  ],
+  "quest.377E6E387004CA7E.title": "&6The Stonecutter",
+  "quest.66FD982E02F0014A.title": "&eComforts",
+  "quest.1EF4458125E12666.quest_desc": [
+    "The &aDoor Factory&r builds custom doors. You pick the materials, one of 15 movement styles, the sound and timing, and extras like auto-close, proximity opening, redstone control or a digicode.",
+    "",
+    "&cThe airlock, jail, garage and sliding iron doors only work with redstone.",
+  ],
+  "quest.1CBCDBA892A21481.title": "&eChisel",
+  "quest.6E0B8B406E7D94CA.quest_desc": [
+    "&eMalisis Switches&r works as wireless redstone. Use the &aPower Linker&r on a switch to select it, then on the block it should control to link the two. Scroll with the linker in hand to change its mode.",
+  ],
+  "quest.23B44ACF78688229.title": "&eMacaw's&r Mods",
+}

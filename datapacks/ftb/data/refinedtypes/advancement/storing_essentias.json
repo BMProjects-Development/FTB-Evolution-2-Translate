@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "parent": "refinedstorage:drives",
+  "criteria": {
+    "energy_storage_disk_in_inventory": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#refinedtypes:essentia_storage_disks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.refinedtypes.storing_essentias.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "refinedtypes:64k_essentia_storage_disk"
+    },
+    "title": {
+      "translate": "advancements.refinedtypes.storing_essentias"
+    }
+  },
+  "requirements": [
+    [
+      "energy_storage_disk_in_inventory"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

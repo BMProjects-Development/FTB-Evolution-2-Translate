@@ -1,0 +1,29 @@
+{
+  "descriptionId": "ftb.irons.material.eclipse_alloy",
+  "ingredient": "justdirethings:eclipsealloy_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/eclipse_alloy",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:life_steal",
+      "amount": 0.1,
+      "operation": "add_multiplied_base"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "duration": 80,
+        "amplifier": {
+          "base": 0,
+          "scalar": 0,
+          "max": 0
+        },
+        "effect": "minecraft:blindness"
+      }
+    }
+  }
+}

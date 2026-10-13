@@ -1,0 +1,27 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:raw_materials/iron",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:iron_dust"
+      }
+    },
+    {
+      "chance": 0.8,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:iron_dust"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "count": 1,
+        "id": "ftbmaterials:nickel_dust"
+      }
+    }
+  ]
+}

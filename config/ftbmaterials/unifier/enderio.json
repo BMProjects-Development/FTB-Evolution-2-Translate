@@ -1,0 +1,8 @@
+{
+  "items": {
+    "enderio:powdered_ender_pearl": "ae2:ender_dust"
+  },
+  "fluids": {
+    "enderio:fluid_xp_juice_still": "justdirethings:xp_fluid_source"
+  }
+}

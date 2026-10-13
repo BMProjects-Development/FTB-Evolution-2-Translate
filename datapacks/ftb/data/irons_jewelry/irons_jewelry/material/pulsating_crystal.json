@@ -1,0 +1,26 @@
+{
+  "descriptionId": "ftb.irons.material.pulsating_crystal",
+  "ingredient": "enderio:pulsating_crystal",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/pulsating",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:crit_chance",
+      "amount": 0.04,
+      "operation": "add_value"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:knockback",
+        "strength": {
+          "base": 1.0,
+          "scalar": 0.5
+        }
+      }
+    }
+  }
+}

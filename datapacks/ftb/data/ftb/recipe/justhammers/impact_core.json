@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "justhammers:netherite_hammer",
+  "cast_consumed": true,
+  "cooling_time": 240,
+  "fluid": {
+    "amount": 1620,
+    "id": "hephaestus:molten_gold"
+  },
+  "result": {
+    "count": 1,
+    "id": "justhammers:impact_core"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/platinum"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:platinum_shard"
+    }
+  ],
+  "time": 100
+}

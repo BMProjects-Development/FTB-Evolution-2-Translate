@@ -1,0 +1,19 @@
+{
+  "descriptionId": "ftb.irons.material.dark_steel",
+  "ingredient": "enderio:dark_steel_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/netherite",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:mining_efficiency",
+      "amount": 0.1,
+      "operation": "add_multiplied_base"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:darkness"
+    }
+  }
+}

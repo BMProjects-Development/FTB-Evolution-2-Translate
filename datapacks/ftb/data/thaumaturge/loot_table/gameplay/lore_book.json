@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:chest",
+  "pools": [],
+  "random_sequence": "thaumaturge:gameplay/lore_book"
+}

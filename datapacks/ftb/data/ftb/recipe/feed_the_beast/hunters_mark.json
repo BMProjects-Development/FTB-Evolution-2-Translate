@@ -1,0 +1,16 @@
+{
+  "type": "enderio:slicing",
+  "energy": 72000,
+  "inputs": [
+    "apotheosis:gem_dust",
+    "apotheosis:sigil_of_socketing",
+    "apotheosis:gem_dust",
+    "reliquary:nebulous_heart",
+    "reliquary:void_tear",
+    "reliquary:nebulous_heart"
+  ],
+  "output": {
+    "count": 2,
+    "id": "ftb:hunters_mark"
+  }
+}

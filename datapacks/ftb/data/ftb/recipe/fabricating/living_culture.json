@@ -1,0 +1,59 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:tectonic_ingot",
+      "count": 1
+    },
+    {
+      "ingredient": "ftb:cognition_array",
+      "count": 1
+    },
+    {
+      "ingredient": "ftb:dynamo_matrix",
+      "count": 1
+    },
+    {
+      "ingredient": "ltxi:t5_circuit",
+      "count": 1
+    },
+    {
+      "ingredient": "mysticalagradditions:insanium_block",
+      "count": 1
+    },
+    {
+      "ingredient": "mysticalagriculture:awakened_supremium_essence",
+      "count": 2
+    },
+    {
+      "ingredient": "oritech:biosteel_ingot",
+      "count": 16
+    },
+    {
+      "ingredient": "enderio:end_steel_ingot",
+      "count": 16
+    },
+    {
+      "ingredient": "energizedpower:superconductor",
+      "count": 4
+    }
+  ],
+  "fluids": [
+    {
+      "id": "ftb:industrial_coolant",
+      "amount": 8000
+    },
+    {
+      "id": "justdirethings:xp_fluid_source",
+      "amount": 8000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:living_culture"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 1000000,
+  "stage": "ftb_beast_phase2"
+}

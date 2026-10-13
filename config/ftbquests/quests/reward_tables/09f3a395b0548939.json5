@@ -1,0 +1,372 @@
+{
+  id: "09F3A395B0548939",
+  order_index: 19,
+  icon: {
+    id: "sophisticatedbackpacks:copper_backpack",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "0B9D6E1D54530565",
+      item: {
+        id: "sophisticatedbackpacks:pickup_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5E0E4FB6337CA4E2",
+      item: {
+        id: "sophisticatedbackpacks:magnet_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3FDEA8CF6C244AF1",
+      item: {
+        id: "sophisticatedbackpacks:feeding_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "2ECAEAF1CB96349D",
+      item: {
+        id: "sophisticatedbackpacks:compacting_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "4C418306B0CF3968",
+      item: {
+        id: "sophisticatedbackpacks:void_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "338BA39BC7C0BFD9",
+      item: {
+        id: "sophisticatedbackpacks:restock_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3DC3FAA4511A1184",
+      item: {
+        id: "sophisticatedbackpacks:deposit_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "329C1218015A3066",
+      item: {
+        id: "sophisticatedbackpacks:refill_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "0E30BF15FB83111B",
+      item: {
+        id: "sophisticatedbackpacks:filter_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "3CD946BC7401248C",
+      item: {
+        id: "sophisticatedbackpacks:crafting_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "06CB2F9137CB3D4D",
+      item: {
+        id: "sophisticatedbackpacks:smelting_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "6E69FE87497AB701",
+      item: {
+        id: "sophisticatedbackpacks:tool_swapper_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "361AD39E6CBB3C0A",
+      item: {
+        id: "sophisticatedbackpacks:anvil_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "0E9F86EAD24CF6CA",
+      item: {
+        id: "sophisticatedbackpacks:smithing_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "6619742ED7C08B87",
+      item: {
+        id: "sophisticatedbackpacks:alchemy_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "51E6BA735E14610F",
+      item: {
+        id: "sophisticatedbackpacks:battery_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "27CF07915F49641E",
+      item: {
+        id: "sophisticatedbackpacks:tank_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "4A5669D8CBF727EE",
+      item: {
+        id: "sophisticatedbackpacks:pump_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "220E88FBD222FA37",
+      item: {
+        id: "sophisticatedbackpacks:xp_pump_upgrade",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "5F3CAF09B88BD4AF",
+      item: {
+        id: "sophisticatedbackpacks:stack_upgrade_starter_tier",
+        count: 1,
+      },
+      weight: 8.0,
+    },
+    {
+      id: "528EF38A6551AE51",
+      item: {
+        id: "sophisticatedbackpacks:copper_backpack",
+        count: 1,
+      },
+      weight: 4.0,
+    },
+    {
+      id: "6FBE835D5A50AE90",
+      item: {
+        id: "sophisticatedbackpacks:advanced_pickup_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0ABC2CADF3C7F0DD",
+      item: {
+        id: "sophisticatedbackpacks:advanced_magnet_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7E582DB34AB54AFE",
+      item: {
+        id: "sophisticatedbackpacks:advanced_feeding_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "10A20403F492EA90",
+      item: {
+        id: "sophisticatedbackpacks:advanced_compacting_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "64C625A8053141CA",
+      item: {
+        id: "sophisticatedbackpacks:advanced_void_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "316E0DE56BFBB8F1",
+      item: {
+        id: "sophisticatedbackpacks:advanced_restock_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "25598151BA81C2AC",
+      item: {
+        id: "sophisticatedbackpacks:advanced_deposit_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7AAA0A3266B4243D",
+      item: {
+        id: "sophisticatedbackpacks:advanced_refill_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3709B210146B6778",
+      item: {
+        id: "sophisticatedbackpacks:advanced_filter_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3AEACD9C25BC4AF3",
+      item: {
+        id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "64AD005FC1BAAF7C",
+      item: {
+        id: "sophisticatedbackpacks:advanced_alchemy_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5C3AA807BEA596E8",
+      item: {
+        id: "sophisticatedbackpacks:advanced_pump_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "379F9BBFC89A46D6",
+      item: {
+        id: "sophisticatedbackpacks:auto_smelting_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5B11BCFBE790D379",
+      item: {
+        id: "sophisticatedbackpacks:stack_upgrade_tier_1",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6BCA5D42D9BAD33E",
+      item: {
+        id: "sophisticatedbackpacks:mob_catcher_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6CD5E5BDE50E54DB",
+      item: {
+        id: "sophisticatedbackpacks:iron_backpack",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3AA6D3630B61DCFE",
+      item: {
+        id: "sophisticatedbackpacks:gold_backpack",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1E9BEFA0AA4293CE",
+      item: {
+        id: "sophisticatedbackpacks:stack_upgrade_tier_2",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4867AF7C2E4E4E20",
+      item: {
+        id: "sophisticatedbackpacks:inception_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "72C07908A06DC4AD",
+      item: {
+        id: "sophisticatedbackpacks:advanced_mob_catcher_upgrade",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6689AECF25993B93",
+      item: {
+        id: "sophisticatedbackpacks:diamond_backpack",
+        count: 1,
+      },
+    },
+    {
+      id: "356D772108095B70",
+      item: {
+        id: "sophisticatedbackpacks:everlasting_upgrade",
+        count: 1,
+      },
+    },
+    {
+      id: "0D198C93F4B42B7A",
+      item: {
+        id: "sophisticatedbackpacks:stack_upgrade_tier_3",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_backpack_addon",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.random_backpack_addon",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

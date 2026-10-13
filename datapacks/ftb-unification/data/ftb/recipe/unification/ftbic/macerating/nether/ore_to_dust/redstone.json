@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:redstone_nether_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 6,
+        "id": "minecraft:redstone"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 3,
+        "id": "minecraft:redstone"
+      }
+    }
+  ]
+}

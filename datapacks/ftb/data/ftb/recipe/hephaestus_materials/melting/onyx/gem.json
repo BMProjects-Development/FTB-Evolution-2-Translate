@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:gems/onyx",
+  "result": {
+    "amount": 90,
+    "id": "ftb:molten_onyx"
+  },
+  "temperature": 1000,
+  "time": 120
+}

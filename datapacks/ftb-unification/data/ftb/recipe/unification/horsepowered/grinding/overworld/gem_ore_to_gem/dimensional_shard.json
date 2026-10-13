@@ -1,0 +1,13 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/dimensional_shard",
+  "result": {
+    "count": 2,
+    "id": "ftbmaterials:dimensional_shard_gem"
+  },
+  "secondary": {
+    "id": "ftbmaterials:dimensional_shard_gem"
+  },
+  "secondaryChance": 25,
+  "time": 16
+}

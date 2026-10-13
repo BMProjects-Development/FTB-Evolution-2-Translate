@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/niobium",
+  "result": {
+    "id": "ltxi:niobium_dust"
+  },
+  "secondary": {
+    "id": "ltxi:niobium_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

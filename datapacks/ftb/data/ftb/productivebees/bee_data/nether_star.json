@@ -1,0 +1,12 @@
+{
+  "attack": 1.0,
+  "flowerBlock": "mysticalagradditions:nether_star_crux",
+  "particleColor": "#E8E4F4",
+  "primaryColor": "#E8E4F4",
+  "secondaryColor": "#3A2F4A",
+  "tertiaryColor": "#B9A6D9",
+  "renderer": "default_crystal",
+  "size": 0.7,
+  "useGlowLayer": true,
+  "withered": true
+}

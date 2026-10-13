@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/redstone"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/conductive_alloy"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio:energetic_alloy_ingot",
+        "count": 2
+      }
+    }
+  ]
+}

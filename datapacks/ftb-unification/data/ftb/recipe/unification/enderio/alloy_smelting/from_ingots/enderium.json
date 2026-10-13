@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 20000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "minecraft:ender_pearl"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:gems/diamond"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ftbic:enderium_ingot"
+  }
+}

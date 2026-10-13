@@ -1,0 +1,23 @@
+{
+  "parent": "ftb:evolution/beast_heart",
+  "display": {
+    "icon": {
+      "id": "ftb:beast_trophy"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.feed_the_beast.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.feed_the_beast.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

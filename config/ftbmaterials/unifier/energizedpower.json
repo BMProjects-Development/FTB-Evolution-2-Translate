@@ -1,0 +1,11 @@
+{
+  "items": {
+    "energizedpower:advanced_alloy_ingot": "ftbic:advanced_alloy",
+    "energizedpower:redstone_alloy_ingot": "enderio:redstone_alloy_ingot",
+    "energizedpower:silicon_block": "ftbmaterials:silicon_block"
+  },
+  "fluids": {
+    "energizedpower:flowing_liquid_xp": "justdirethings:xp_fluid_flowing",
+    "energizedpower:liquid_xp": "justdirethings:xp_fluid_source"
+  }
+}

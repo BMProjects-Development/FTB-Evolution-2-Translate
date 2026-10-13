@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "xycraft_world:xychorium_ore_kivi_blue"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "xycraft_world:xychorium_gem_blue"
+      }
+    }
+  ]
+}

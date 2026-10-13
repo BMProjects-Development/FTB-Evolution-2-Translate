@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "mysticalagradditions:end_inferium_ore",
+  "result": {
+    "type": "occultism:item",
+    "count": 8,
+    "id": "mysticalagriculture:inferium_essence"
+  }
+}

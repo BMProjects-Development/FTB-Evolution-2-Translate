@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "#c:rods/blaze"
+  },
+  "result": {
+    "id": "ftb:blaze_block",
+    "count": 1
+  }
+}

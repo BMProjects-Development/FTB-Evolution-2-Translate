@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:titanium_shard",
+    "ftbmaterials:titanium_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:titanium_ingot"
+    }
+  ],
+  "time": 80
+}

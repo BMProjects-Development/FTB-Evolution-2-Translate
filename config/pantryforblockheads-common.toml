@@ -1,0 +1,17 @@
+[vanillaModifications]
+	#Whether seeds from this mod generate within chest loot.
+	chestLootHoldsBlockheadSeeds = true
+	#Whether trees from this mod generate in biomes with the respective `pantryforblockheads:has_feature/*` tags.
+	generateBlockheadTrees = true
+	#Whether bushes from this mod generate in biomes with the respective `pantryforblockheads:has_feature/*` tags.
+	generateBlockheadBushes = true
+	#Whether Sweet Berry Bushes are prevented from slowing and damaging the player.
+	removeSweetBerryBushDamage = true
+
+[foodEffects]
+	#Whether fortune cookies grant random effects, with a cooldown.
+	fortuneCookies = true
+	#Whether pink donuts with sprinkles grant temporary speed buffs.
+	pinkDonutWithSprinkles = true
+	#Whether certain foods grant Well Fed absorption effects when overflowing the hunger bar.
+	excessNutritionGrantsAbsorption = true

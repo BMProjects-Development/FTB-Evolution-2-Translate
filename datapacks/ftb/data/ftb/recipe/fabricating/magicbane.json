@@ -1,0 +1,14 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "auroral:shimmersteel_ingot", "count": 2 },
+    { "ingredient": "#c:ingots/tertium", "count": 1 },
+    { "ingredient": "#c:ingots/stellar_alloy", "count": 1 }
+  ],
+  "results": [
+    { "id": "reliquary:magicbane" }
+  ],
+  "ticks": 400,
+  "energy_per_tick": 2500,
+  "stage": "skyline2_unlocked"
+}

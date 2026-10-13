@@ -1,0 +1,33 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:shulker_shell",
+      "count": 4
+    },
+    {
+      "ingredient": "minecraft:phantom_membrane",
+      "count": 2
+    },
+    {
+      "ingredient": "minecraft:dragon_breath",
+      "count": 2
+    },
+    {
+      "ingredient": "justdirethings:upgrade_blank",
+      "count": 1
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "justdirethings:upgrade_phase"
+    }
+  ],
+  "ticks": 1000,
+  "energy_per_tick": 20000,
+  "stage": "skyline3_unlocked"
+}

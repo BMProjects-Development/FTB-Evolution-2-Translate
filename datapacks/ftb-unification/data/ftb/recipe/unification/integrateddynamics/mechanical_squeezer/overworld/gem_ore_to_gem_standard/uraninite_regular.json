@@ -1,0 +1,13 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/overworld/uraninite_regular",
+  "output_items": [
+    {
+      "item": {
+        "id": "powah:uraninite",
+        "count": 5
+      }
+    }
+  ],
+  "duration": 20
+}

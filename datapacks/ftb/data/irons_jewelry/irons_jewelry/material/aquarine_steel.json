@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.aquarine_steel",
+  "ingredient": "nautec:aquarine_steel_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/aquarine_steel",
+  "quality": 2.0,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:oxygen_bonus",
+      "operation": "add_value",
+      "amount": 0.5
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:water_breathing"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:mining_fatigue"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:knockback",
+        "strength": {
+          "base": 1.0,
+          "scalar": 0.5
+        }
+      },
+      "targetSelf": false
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	// Allows poly lib to run as a server side only support. Without this, non-vanilla clients without polylib may not be able to connect.
+	"serverOnlySupport": true,
+	// Controls whether the keyboard shortcut for each registered config panel is enabled. Keys are mod IDs.
+	"configPanelKeybinds": { }
+}

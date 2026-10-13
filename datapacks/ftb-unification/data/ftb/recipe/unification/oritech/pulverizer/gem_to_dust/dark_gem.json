@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:gems/dark_gem"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "evilcraft:dark_gem_crushed"
+    }
+  ],
+  "time": 100
+}

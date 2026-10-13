@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:tin_ingot"
+  },
+  "result": {
+    "id": "ftbmaterials:tin_plate"
+  }
+}

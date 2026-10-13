@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ore_source/overworld/redstone"
+  ],
+  "itemResults": [
+    {
+      "count": 8,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "time": 100
+}

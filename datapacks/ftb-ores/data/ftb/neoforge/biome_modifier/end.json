@@ -1,0 +1,26 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": [
+    "ftb:end/mysticalagradditions/end_inferium_ore",
+    "ftb:end/mysticalagradditions/end_prosperity_ore",
+    "ftb:end/ftb/ore_aluminum",
+    "ftb:end/ftb/ore_cinnabar",
+    "ftb:end/ftb/ore_iridium",
+    "ftb:end/ftb/ore_lead",
+    "ftb:end/ftb/ore_nickel",
+    "ftb:end/ftb/ore_silver",
+    "ftb:end/ftb/ore_tin",
+    "ftb:end/ftb/ore_titanium",
+    "ftb:end/ftb/ore_uranium",
+    "ftb:end/ftb/ore_platinum",
+    "ftb:end/minecraft/ore_copper",
+    "ftb:end/minecraft/ore_diamond",
+    "ftb:end/minecraft/ore_emerald",
+    "ftb:end/minecraft/ore_gold",
+    "ftb:end/minecraft/ore_iron",
+    "ftb:end/minecraft/ore_lapis",
+    "ftb:end/minecraft/ore_redstone"
+  ],
+  "step": "underground_ores"
+}

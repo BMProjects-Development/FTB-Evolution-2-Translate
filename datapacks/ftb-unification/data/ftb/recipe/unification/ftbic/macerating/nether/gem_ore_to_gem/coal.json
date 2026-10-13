@@ -1,0 +1,23 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:coal_nether_ore"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 3,
+        "id": "minecraft:coal"
+      }
+    },
+    {
+      "chance": 0.375,
+      "item": {
+        "count": 2,
+        "id": "minecraft:coal"
+      }
+    }
+  ]
+}

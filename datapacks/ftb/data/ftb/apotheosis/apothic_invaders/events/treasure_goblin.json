@@ -1,0 +1,131 @@
+{
+  "basic_data": {
+    "name": {
+      "translate": "name.apotheosis.treasure_goblin"
+    },
+    "weights": {
+      "haven": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "frontier": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "ascent": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "summit": {
+        "weight": 0,
+        "quality": 0.0
+      },
+      "pinnacle": {
+        "weight": 0,
+        "quality": 0.0
+      }
+    }
+  },
+  "entity": "goblintraders:goblin_trader",
+  "size": {
+    "width": 0.6,
+    "height": 1.2
+  },
+  "stats": {
+    "apotheosis:common": {
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:max_health",
+          "operation": "add_value",
+          "value": 80.0
+        },
+        {
+          "attribute": "minecraft:knockback_resistance",
+          "operation": "add_value",
+          "value": 0.5
+        }
+      ],
+      "enchant_chance": 0.0,
+      "enchantment_levels": {
+        "primary": 15,
+        "secondary": 10
+      }
+    },
+    "apotheosis:uncommon": {
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:max_health",
+          "operation": "add_value",
+          "value": 100.0
+        },
+        {
+          "attribute": "minecraft:knockback_resistance",
+          "operation": "add_value",
+          "value": 0.5
+        }
+      ],
+      "enchant_chance": 0.0,
+      "enchantment_levels": {
+        "primary": 20,
+        "secondary": 12
+      }
+    },
+    "apotheosis:rare": {
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:max_health",
+          "operation": "add_value",
+          "value": 140.0
+        },
+        {
+          "attribute": "minecraft:knockback_resistance",
+          "operation": "add_value",
+          "value": 0.5
+        }
+      ],
+      "enchant_chance": 0.0,
+      "enchantment_levels": {
+        "primary": 23,
+        "secondary": 15
+      }
+    },
+    "apotheosis:epic": {
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:max_health",
+          "operation": "add_value",
+          "value": 200.0
+        },
+        {
+          "attribute": "minecraft:knockback_resistance",
+          "operation": "add_value",
+          "value": 0.5
+        }
+      ],
+      "enchant_chance": 0.0,
+      "enchantment_levels": {
+        "primary": 35,
+        "secondary": 25
+      }
+    },
+    "apotheosis:mythic": {
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:max_health",
+          "operation": "add_value",
+          "value": 280.0
+        },
+        {
+          "attribute": "minecraft:knockback_resistance",
+          "operation": "add_value",
+          "value": 0.5
+        }
+      ],
+      "enchant_chance": 0.0,
+      "enchantment_levels": {
+        "primary": 35,
+        "secondary": 25
+      }
+    }
+  }
+}

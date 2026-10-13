@@ -1,0 +1,3853 @@
+{
+  id: "2EF5133328945047",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 5,
+  icon: {
+    id: "justdynathings:eclipse_alloy_anvil",
+    count: 1,
+  },
+  filename: "gearing_up",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "37F99696A47264FD",
+  quests: [
+    {
+      icon: {
+        id: "minecraft:enchanting_table",
+        count: 1,
+      },
+      x: 6.5,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      icon_scale: 1.2,
+      min_width: 300,
+      id: "00A7C1FE54F86429",
+      tasks: [
+        {
+          id: "744D7BEFE1B47769",
+          type: "item",
+          item: {
+            id: "minecraft:enchanting_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5360F092E8487495",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2EAFC9D5D28C16B2",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:hellshelf",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "00A7C1FE54F86429",
+      ],
+      size: 1.0,
+      id: "3A7774F5F0FD174E",
+      tasks: [
+        {
+          id: "07D4EE7733B205CD",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:hellshelf",
+            count: 1,
+          },
+        },
+        {
+          id: "085FDA601A4E62BA",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:seashelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4EDB943669686477",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4E2335833445E942",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:filtering_shelf",
+        count: 1,
+      },
+      x: 10.0,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "3A53BB7A6B708966",
+      ],
+      size: 1.0,
+      id: "7244D5DADCF0D7A2",
+      tasks: [
+        {
+          id: "765351B69FEBD2AE",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:filtering_shelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "08E0D6192B4FDC67",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "02CE0E5E189543A8",
+          type: "xp",
+          team_reward: false,
+          xp: 150,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:infused_hellshelf",
+        count: 1,
+      },
+      x: 9.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "3A7774F5F0FD174E",
+      ],
+      size: 1.25,
+      icon_scale: 1.25,
+      id: "3A53BB7A6B708966",
+      tasks: [
+        {
+          id: "3D2D95906C1AD982",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:infused_hellshelf",
+            count: 1,
+          },
+        },
+        {
+          id: "6C801791BD26805F",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:infused_seashelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7D0AFB9D8D660F67",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2D8EE917F31110B4",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:library",
+        count: 1,
+      },
+      x: 6.0,
+      y: -1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "00A7C1FE54F86429",
+      ],
+      size: 1.0,
+      id: "0EE35D6E57FAD973",
+      tasks: [
+        {
+          id: "5C8A06A3BFC38B13",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:library",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0F66902C81E7309E",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "094CB48479F47232",
+          type: "xp",
+          team_reward: false,
+          xp: 250,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:blazing_hellshelf",
+        count: 1,
+      },
+      x: 11.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "3A53BB7A6B708966",
+      ],
+      size: 1.0,
+      min_width: 250,
+      id: "722901B4259D8AEC",
+      tasks: [
+        {
+          id: "1B78C40E21D23DD0",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf))",
+            },
+          },
+        },
+        {
+          id: "2C718A1A0353A93C",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AEFB3649F175164",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "3899860206C43EBD",
+          type: "xp",
+          team_reward: false,
+          xp: 150,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:infused_breath",
+        count: 1,
+      },
+      x: 13.5,
+      y: 0.0,
+      shape: "rsquare",
+      dependencies: [
+        "30689B890F5E7A03",
+      ],
+      size: 1.5,
+      icon_scale: 1.25,
+      id: "268CC540E5B605A9",
+      tasks: [
+        {
+          id: "2DB2C2C4E9427C22",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:infused_breath",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BDF48F62B63D706",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "234A4DA907CD2F6A",
+          type: "xp",
+          team_reward: false,
+          xp: 350,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:deepshelf",
+        count: 1,
+      },
+      x: 12.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "722901B4259D8AEC",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      min_width: 250,
+      id: "30689B890F5E7A03",
+      tasks: [
+        {
+          id: "17FACB7C31DCC505",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:deepshelf",
+            count: 1,
+          },
+        },
+        {
+          id: "6B8F6B75C6182427",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:echoing_deepshelf)item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:soul_touched_sculkshelf)item(apothic_enchanting:soul_touched_deepshelf)item(apothic_enchanting:treasure_shelf))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "358DBC09CEDA4C77",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "02302C8E07C2021D",
+          type: "xp",
+          team_reward: false,
+          xp: 200,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:endshelf",
+        count: 1,
+      },
+      x: 15.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "268CC540E5B605A9",
+      ],
+      size: 1.0,
+      id: "26B74124E89189F7",
+      tasks: [
+        {
+          id: "77051455BD8C57C1",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:endshelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A80A2FD57EA2E43",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+        {
+          id: "231B46C852E1BDA9",
+          type: "xp",
+          team_reward: false,
+          xp: 500,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:draconic_endshelf",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "26B74124E89189F7",
+      ],
+      size: 1.5,
+      id: "2722C0E2E8993658",
+      tasks: [
+        {
+          id: "4C11CF5409FED271",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:draconic_endshelf",
+            count: 1,
+          },
+        },
+        {
+          id: "1FC5A1C0203EC12F",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:pearl_endshelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D903B37165B4E13",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "037B7A40DD0E2E42",
+          type: "xp",
+          team_reward: false,
+          xp: 750,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:extraction_tome",
+        count: 1,
+      },
+      x: 7.0,
+      y: 1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "00A7C1FE54F86429",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 250,
+      id: "2E7EBD2A61897192",
+      tasks: [
+        {
+          id: "1C0FFC5D4A1D00C7",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:scrap_tome)item(apothic_enchanting:improved_scrap_tome)item(apothic_enchanting:extraction_tome))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BFB2216107D4197",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "5BF83B21A32BB43D",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:extraction_tome",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:geode_shelf",
+        count: 1,
+      },
+      x: 7.0,
+      y: -1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "00A7C1FE54F86429",
+      ],
+      size: 1.0,
+      id: "427682661459BB4F",
+      tasks: [
+        {
+          id: "44FB6DBF567B0F34",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:geode_shelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "282367509A7B7B2C",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "337999AE72D93C77",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justdynathings:eclipse_alloy_anvil",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "square",
+      size: 3.0,
+      id: "37F99696A47264FD",
+      tasks: [
+        {
+          id: "247B79A552BA6CCE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3C97E18449BBD78C",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:gem_dust",
+        count: 1,
+      },
+      x: 0.0,
+      y: -7.5,
+      shape: "hexagon",
+      dependencies: [
+        "011DBD2652E49B97",
+        "464AED8311A32476",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.5,
+      id: "4498E3F4B2DC24FC",
+      tasks: [
+        {
+          id: "5CB5CE9439E15B78",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27469A6FEC63596C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "3587B22E6A76E2E4",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:salvaging_table",
+        count: 1,
+      },
+      x: 2.0,
+      y: -9.0,
+      shape: "hexagon",
+      dependencies: [
+        "4498E3F4B2DC24FC",
+      ],
+      size: 1.5,
+      id: "7E685EAD7FB60B45",
+      tasks: [
+        {
+          id: "176BF5AB2BCFFC93",
+          type: "item",
+          item: {
+            id: "apotheosis:salvaging_table",
+            count: 1,
+          },
+        },
+        {
+          id: "74E6C34609E1C526",
+          type: "item",
+          icon: {
+            id: "apotheosis:mysterious_scrap_metal",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(apotheosis:mysterious_scrap_metal)item(apotheosis:timeworn_fabric)item(apotheosis:luminous_crystal_shard)item(apotheosis:arcane_sands)item(apotheosis:godforged_pearl)item(ftbarmory:aurichalcum_relic))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AD83E2A54391A6B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "23DCFA3A985FBD8C",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:gem_case",
+        count: 1,
+      },
+      x: 0.0,
+      y: -10.0,
+      shape: "hexagon",
+      dependencies: [
+        "4498E3F4B2DC24FC",
+      ],
+      size: 1.5,
+      id: "01D2CEAF59872C33",
+      tasks: [
+        {
+          id: "2867CC91A716BC92",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_case",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B5248BCED336CB0",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "757D40A50C20E7F5",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:simple_reforging_table",
+        count: 1,
+      },
+      x: -2.0,
+      y: -9.0,
+      shape: "hexagon",
+      dependencies: [
+        "4498E3F4B2DC24FC",
+      ],
+      size: 1.5,
+      min_width: 250,
+      id: "3208AF90091D1B6B",
+      tasks: [
+        {
+          id: "0D868842F7660ACA",
+          type: "item",
+          item: {
+            id: "apotheosis:simple_reforging_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2A5D09FC31B7DF3A",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6B393108773827F3",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:reforging_table",
+        count: 1,
+      },
+      x: -2.0,
+      y: -11.0,
+      shape: "hexagon",
+      dependencies: [
+        "3208AF90091D1B6B",
+      ],
+      size: 1.5,
+      id: "59CBFA5583139A3B",
+      tasks: [
+        {
+          id: "48008656C39E5268",
+          type: "item",
+          item: {
+            id: "apotheosis:reforging_table",
+            count: 1,
+          },
+        },
+        {
+          id: "431B1422414449EC",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_rebirth",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "57199AAFCD043B34",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:augmenting_table",
+        count: 1,
+      },
+      x: 2.0,
+      y: -11.0,
+      shape: "hexagon",
+      dependencies: [
+        "7E685EAD7FB60B45",
+      ],
+      size: 1.5,
+      id: "7E88C7654F281E43",
+      tasks: [
+        {
+          id: "05B05212FBEA7B38",
+          type: "item",
+          item: {
+            id: "apotheosis:augmenting_table",
+            count: 1,
+          },
+        },
+        {
+          id: "0638CAD5B4AB6A9B",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_enhancement",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "33EA39215D9D888F",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:sigil_of_unnaming",
+        count: 1,
+      },
+      x: 0.0,
+      y: -11.8,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "01D2CEAF59872C33",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4BCA8A5C3F80D375",
+      tasks: [
+        {
+          id: "010A9BB03F089B5B",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_unnaming",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2DF3C002E3B499F2",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:sigil_of_withdrawal",
+        count: 1,
+      },
+      x: 0.5,
+      y: -11.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "01D2CEAF59872C33",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "4DE483256F9E1D4F",
+      tasks: [
+        {
+          id: "51B1908A17140640",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_withdrawal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2201D86C77CBE02A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "574DF1AD7730E482",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:sigil_of_socketing",
+        count: 1,
+      },
+      x: -0.5,
+      y: -11.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "01D2CEAF59872C33",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6EE1C1B7FFB86C6C",
+      tasks: [
+        {
+          id: "2D241DCDF063BA09",
+          type: "item",
+          item: {
+            id: "apotheosis:sigil_of_socketing",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "16E6D50EB45DDEDE",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "01494831A74F04DD",
+          type: "item",
+          item: {
+            id: "apotheosis:gem_dust",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "apotheosis:textures/gui/sword_full.png",
+        },
+      },
+      x: -0.5,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "60FDF616DEDE5E73",
+      ],
+      dependency_requirement: "one_completed",
+      size: 1.0,
+      id: "464AED8311A32476",
+      tasks: [
+        {
+          id: "4544EA17F4CDD321",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "630503516866E809",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justdynathings:eclipse_alloy_anvil",
+        count: 1,
+      },
+      x: 0.5,
+      y: -6.0,
+      shape: "hexagon",
+      dependencies: [
+        "60FDF616DEDE5E73",
+      ],
+      size: 1.0,
+      id: "011DBD2652E49B97",
+      tasks: [
+        {
+          id: "764B54AFBF12BC31",
+          type: "advancement",
+          advancement: "apotheosis:progression/root",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "3A9769C19047BAF0",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:gem",
+        count: 1,
+        components: {
+          "apotheosis:gem": "apotheosis:overworld/earth",
+          "apotheosis:purity": "perfect",
+        },
+      },
+      x: 0.0,
+      y: -4.5,
+      shape: "diamond",
+      size: 2.0,
+      id: "60FDF616DEDE5E73",
+      tasks: [
+        {
+          id: "7AFA5CC185A71520",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "733CE486C388970D",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "patchouli:guide_book",
+            count: 1,
+            components: {
+              "patchouli:book": "apotheosis:apoth_chronicle",
+            },
+          },
+        },
+        {
+          id: "32D5B48B86104FE4",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:ender_library",
+        count: 1,
+      },
+      x: 17.5,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "2722C0E2E8993658",
+      ],
+      size: 2.0,
+      id: "44C341DE3BCD64CC",
+      tasks: [
+        {
+          id: "2F50803890DA38CA",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:ender_library",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E8EEB215C112A70",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "08368C44D8CE1705",
+          type: "xp",
+          team_reward: false,
+          xp: 1000,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:sightshelf_t2",
+        count: 1,
+      },
+      x: 10.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "3A53BB7A6B708966",
+      ],
+      size: 1.0,
+      id: "7552BF792403EF44",
+      tasks: [
+        {
+          id: "415D1D4FBFD9DD8B",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:sightshelf_t2",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D3A1CFB73BC87B9",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "68981FEABAC66184",
+          type: "xp",
+          team_reward: false,
+          xp: 300,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:beeshelf",
+        count: 1,
+      },
+      x: 6.0,
+      y: 1.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "00A7C1FE54F86429",
+      ],
+      size: 1.0,
+      id: "226E5BD0BEB1BA75",
+      tasks: [
+        {
+          id: "3E8E7FE8C6F7BA34",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:beeshelf",
+            count: 1,
+          },
+        },
+        {
+          id: "162A08E108ED05DE",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:melonshelf",
+            count: 1,
+          },
+        },
+        {
+          id: "3DBE154DB4FD0ABE",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "apothic_enchanting:stoneshelf",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E3CAE0DF98FD40B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0250F7F59C327C79",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:chiseled_bookshelf",
+        count: 1,
+      },
+      x: 4.5,
+      y: 0.5,
+      shape: "rsquare",
+      hide_dependency_lines: true,
+      dependencies: [
+        "00A7C1FE54F86429",
+      ],
+      size: 1.0,
+      id: "4A0A19E73680034F",
+      tasks: [
+        {
+          id: "0F868488088CDEC1",
+          type: "checkmark",
+        },
+        {
+          id: "601DC826C875D69F",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(minecraft:redstone_block)item(minecraft:lapis_block)item(minecraft:glowstone))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3085EA41862D1204",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_jewelry:jewelcrafting_station",
+        count: 1,
+      },
+      x: 4.5,
+      y: -3.5,
+      shape: "hexagon",
+      size: 2.0,
+      min_width: 300,
+      id: "496903AB7E8A0A92",
+      tasks: [
+        {
+          id: "30E05678A79E0693",
+          type: "item",
+          item: {
+            id: "irons_jewelry:jewelcrafting_station",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "59307965CCFFE159",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_jewelry:recipe",
+        count: 1,
+        components: {
+          "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection",
+        },
+      },
+      disable_toast: true,
+      x: 4.5,
+      y: -5.0,
+      shape: "diamond",
+      hide_dependent_lines: true,
+      dependencies: [
+        "496903AB7E8A0A92",
+      ],
+      size: 1.0,
+      id: "3900E67C8B833980",
+      tasks: [
+        {
+          id: "1E99CDD9919D994A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1D24C14ECF03D949",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "irons_jewelry:item/base/gold_ring",
+        },
+      },
+      disable_toast: true,
+      x: 6.0,
+      y: -3.5,
+      shape: "diamond",
+      hide_dependent_lines: true,
+      dependencies: [
+        "496903AB7E8A0A92",
+      ],
+      size: 1.0,
+      id: "26D7C5298D95C69A",
+      tasks: [
+        {
+          id: "574369B60421C9FF",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "76A8AC19E30CE3ED",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "irons_jewelry:item/ruby",
+        },
+      },
+      disable_toast: true,
+      x: 3.0,
+      y: -3.5,
+      shape: "diamond",
+      hide_dependent_lines: true,
+      dependencies: [
+        "496903AB7E8A0A92",
+      ],
+      size: 1.0,
+      id: "2F2DC018DD6A2A23",
+      tasks: [
+        {
+          id: "4B67D8495CB6403D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "4AD64017142386B2",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apothic_enchanting:raven_enchanting_table",
+        count: 1,
+      },
+      x: 17.5,
+      y: -1.0,
+      shape: "hexagon",
+      dependencies: [
+        "2722C0E2E8993658",
+      ],
+      size: 2.0,
+      id: "5382CB05500E49DE",
+      tasks: [
+        {
+          id: "5A4B3206BA7D13A0",
+          type: "item",
+          item: {
+            id: "apotheosis:god_fused_pearl",
+            count: 1,
+          },
+        },
+        {
+          id: "75507A58C9BD2616",
+          type: "item",
+          item: {
+            id: "apothic_enchanting:raven_enchanting_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B9E034A2C5F1423",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "467AE71A44094B31",
+          type: "xp",
+          team_reward: false,
+          xp: 1000,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:red_heart",
+        count: 1,
+      },
+      x: -6.5,
+      y: -5.5,
+      shape: "diamond",
+      size: 1.0,
+      id: "4BDD9230BBA6C0A0",
+      tasks: [
+        {
+          id: "5A6ED5D259874C13",
+          type: "item",
+          item: {
+            id: "bhc:red_heart",
+            count: 1,
+          },
+        },
+        {
+          id: "65F3A3E1C2C4DFE2",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:yellow_heart",
+            count: 1,
+          },
+        },
+        {
+          id: "28FD331EB93CE47C",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:green_heart",
+            count: 1,
+          },
+        },
+        {
+          id: "170D27ED74013EC4",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:blue_heart",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0B6AB238DCFF8648",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:red_heart_patch",
+        count: 1,
+      },
+      x: -7.0,
+      y: -5.0,
+      shape: "diamond",
+      dependencies: [
+        "4BDD9230BBA6C0A0",
+      ],
+      size: 1.0,
+      id: "044A192E503B766B",
+      tasks: [
+        {
+          id: "4407333358A8389A",
+          type: "item",
+          item: {
+            id: "bhc:red_heart_patch",
+            count: 1,
+          },
+        },
+        {
+          id: "57CE88E6DA5ABD44",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:yellow_heart_patch",
+            count: 1,
+          },
+        },
+        {
+          id: "74E2435894386066",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:green_heart_patch",
+            count: 1,
+          },
+        },
+        {
+          id: "1776454206AEC407",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:blue_heart_patch",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "744AEC5D9B0ACEE7",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:relic_apple",
+        count: 1,
+      },
+      x: -6.0,
+      y: -5.0,
+      shape: "diamond",
+      dependencies: [
+        "4BDD9230BBA6C0A0",
+      ],
+      size: 1.0,
+      id: "192EB03700278BE2",
+      tasks: [
+        {
+          id: "503311E13A310328",
+          type: "item",
+          item: {
+            id: "bhc:relic_apple",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25474C380A2DD866",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:heart_amulet",
+        count: 1,
+      },
+      x: -6.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "4BDD9230BBA6C0A0",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "5A6151C5CBCBAAF4",
+      tasks: [
+        {
+          id: "2F19D7363B7D3788",
+          type: "item",
+          item: {
+            id: "bhc:heart_amulet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5A1811EF564A641E",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:blade_of_vitality",
+        count: 1,
+      },
+      x: -7.0,
+      y: -4.0,
+      shape: "diamond",
+      dependencies: [
+        "5A6151C5CBCBAAF4",
+      ],
+      size: 1.0,
+      id: "78BCE2A8F87EB08B",
+      tasks: [
+        {
+          id: "55EE282D0500952E",
+          type: "item",
+          item: {
+            id: "bhc:blade_of_vitality",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5798DC56788597CA",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:red_heartpulse_belt",
+        count: 1,
+      },
+      x: -6.0,
+      y: -4.0,
+      shape: "diamond",
+      dependencies: [
+        "54013FF4444B76EB",
+      ],
+      size: 1.0,
+      id: "00249E1AFEF0051A",
+      tasks: [
+        {
+          id: "12959E344AE408A4",
+          type: "item",
+          item: {
+            id: "bhc:red_heartpulse_belt",
+            count: 1,
+          },
+        },
+        {
+          id: "1E1E0AF17AA46848",
+          type: "item",
+          item: {
+            id: "bhc:yellow_heartpulse_belt",
+            count: 1,
+          },
+        },
+        {
+          id: "77030E918C655193",
+          type: "item",
+          item: {
+            id: "bhc:green_heartpulse_belt",
+            count: 1,
+          },
+        },
+        {
+          id: "3DA3C4BF471DE037",
+          type: "item",
+          item: {
+            id: "bhc:blue_heartpulse_belt",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3549624CB4F5F6C6",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:soul_heart_amulet",
+        count: 1,
+      },
+      x: -6.5,
+      y: -3.5,
+      shape: "diamond",
+      dependencies: [
+        "5A6151C5CBCBAAF4",
+      ],
+      size: 1.0,
+      id: "27E2F70FDEE0F003",
+      tasks: [
+        {
+          id: "087FACB4AA2BC120",
+          type: "item",
+          item: {
+            id: "bhc:soul_heart_amulet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "00996D3043383085",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:red_heart_canister",
+        count: 1,
+      },
+      x: -5.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "192EB03700278BE2",
+      ],
+      size: 1.0,
+      id: "54013FF4444B76EB",
+      tasks: [
+        {
+          id: "58C04496385FF354",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:red_heart_canister",
+            count: 1,
+          },
+        },
+        {
+          id: "7BC9F061B39BE7F4",
+          type: "item",
+          item: {
+            id: "bhc:yellow_heart_canister",
+            count: 1,
+          },
+        },
+        {
+          id: "282A94D0DF700291",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:green_heart_canister",
+            count: 1,
+          },
+        },
+        {
+          id: "3D09C9E93DC01A48",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "bhc:blue_heart_canister",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "46535F53F13B0728",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "bhc:vigor_bow",
+        count: 1,
+      },
+      x: -7.5,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "5A6151C5CBCBAAF4",
+      ],
+      size: 1.0,
+      id: "266D0151DF0A7BA5",
+      tasks: [
+        {
+          id: "02865F4DA8BB2589",
+          type: "item",
+          item: {
+            id: "bhc:vigor_bow",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "28D4CA0B22CB35EE",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "littlejoys:fallen_star",
+        count: 1,
+      },
+      x: 1.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.5,
+      min_width: 300,
+      can_repeat: false,
+      id: "3D8CC5CFBD665D40",
+      tasks: [
+        {
+          id: "7C73885212DBC99A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "59CD539CB08479EA",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "power_armor:power_armor_chestplate",
+        count: 1,
+      },
+      x: -1.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "315810E48F0849F5",
+      tasks: [
+        {
+          id: "4F454FE40436EEE3",
+          type: "item",
+          item: {
+            id: "power_armor:power_armor_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "5AEA6CEC2994A39D",
+          type: "item",
+          item: {
+            id: "power_armor:power_armor_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "0C88C9C61F43DADA",
+          type: "item",
+          item: {
+            id: "power_armor:power_armor_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "43D339D2CAC18822",
+          type: "item",
+          item: {
+            id: "power_armor:power_armor_boots",
+            count: 1,
+          },
+        },
+        {
+          id: "62125B075972F29C",
+          type: "item",
+          item: {
+            id: "power_armor:armor_modification_table",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "21DE6AEEB70D128B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "500FD734720CBAB3",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mininggadgets:mininggadget",
+        count: 1,
+      },
+      x: 1.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.5,
+      min_width: 375,
+      can_repeat: false,
+      id: "6F16FFDCE6A35C31",
+      tasks: [
+        {
+          id: "28C21C1A58EB9B0F",
+          type: "item",
+          item: {
+            id: "mininggadgets:mininggadget_simple",
+            count: 1,
+          },
+        },
+        {
+          id: "7670E34EB67B7F18",
+          type: "item",
+          item: {
+            id: "mininggadgets:modificationtable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55540E731F10D79D",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "36475113EF71D88E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "waystones:andesite_waystone",
+        count: 1,
+      },
+      x: -2.0,
+      y: 2.5,
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3B4B61D505899B51",
+      tasks: [
+        {
+          id: "120E3B77B9A1F7FD",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item_tag(waystones:waystones))",
+            },
+          },
+        },
+        {
+          id: "77509B21BC08DE48",
+          type: "item",
+          item: {
+            id: "waystones:warp_stone",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6D25DF1C0F2DB009",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "75C7386F32A520CB",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "artifacts:cloud_in_a_bottle",
+        count: 1,
+      },
+      x: -1.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.5,
+      min_width: 325,
+      can_repeat: false,
+      id: "4BCEA2880B22CC55",
+      tasks: [
+        {
+          id: "1597C2CB4B03B2C2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(artifacts:artifacts)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2D57E5EBE0391CB9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "19A5479A95336B51",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "paraglider:paraglider",
+        count: 1,
+      },
+      x: -3.0,
+      y: 4.0,
+      shape: "hexagon",
+      size: 1.5,
+      min_width: 300,
+      can_repeat: false,
+      id: "5B8C8E2EC1DA1FF0",
+      tasks: [
+        {
+          id: "1C90E4B71A236235",
+          type: "item",
+          item: {
+            id: "paraglider:paraglider",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "294243E8CFCDACD9",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6A59DF6046370F44",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:saddle",
+        count: 1,
+      },
+      x: -3.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "5B8C8E2EC1DA1FF0",
+      ],
+      size: 1.5,
+      min_width: 350,
+      can_repeat: false,
+      id: "24730AF0C707CF79",
+      tasks: [
+        {
+          id: "2B42B907F779B83A",
+          type: "item",
+          item: {
+            id: "minecraft:saddle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "72F3FADE49976092",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5DC02E5DE4F38D2E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "scannable:scanner",
+        count: 1,
+      },
+      x: 2.0,
+      y: 2.5,
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2F50137C675E49F9",
+      tasks: [
+        {
+          id: "5322F09DBDCDD4D4",
+          type: "item",
+          item: {
+            id: "scannable:scanner",
+            count: 1,
+          },
+        },
+        {
+          id: "5B0EAAC268B377A6",
+          type: "item",
+          item: {
+            id: "scannable:blank_module",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3DEADF094183F5A5",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "73078335172AB714",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "kindredspirits:mini_player_spawn_egg",
+        count: 1,
+      },
+      x: -3.5,
+      y: -3.0,
+      dependencies: [
+        "25B2D69A3A827D18",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "565F0889EF67521D",
+      tasks: [
+        {
+          id: "5DB1BE5D75083C46",
+          type: "item",
+          item: {
+            id: "kindredspirits:mini_player_spawn_egg",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "32E8C8B119B67A6D",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "5CE02D9870EA2520",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "kindredspirits:boxing_gloves",
+        count: 1,
+      },
+      x: -2.5,
+      y: -3.5,
+      dependencies: [
+        "25B2D69A3A827D18",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "18198810B4198724",
+      tasks: [
+        {
+          id: "1074D584B5693F60",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(kindredspirits:boxing_gloves)item(kindredspirits:dragon_tablet)item(kindredspirits:running_shoes)item(kindredspirits:battery)item(kindredspirits:quokka_snack))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5DC3A301455430AF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6313B2C4DA1A929B",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      x: -4.0,
+      y: -2.0,
+      dependencies: [
+        "25B2D69A3A827D18",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "750007D8FAA2EA03",
+      tasks: [
+        {
+          id: "101A0B13877D4981",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6672290F9C9F035E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "constructionstick:iron_stick",
+        count: 1,
+      },
+      x: 3.0,
+      y: 4.0,
+      shape: "hexagon",
+      size: 1.5,
+      can_repeat: false,
+      id: "3EFAC6FC58219F86",
+      tasks: [
+        {
+          id: "503BA084BF6FDC24",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)",
+            },
+          },
+        },
+        {
+          id: "146FCC8BAE9923C8",
+          type: "item",
+          item: {
+            id: "constructionstick:stick_template",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "017337E4A87B4245",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "108D4DF26364CFCC",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "buildinggadgets2:gadget_building",
+        count: 1,
+      },
+      x: 3.0,
+      y: 5.5,
+      shape: "hexagon",
+      size: 1.5,
+      can_repeat: false,
+      id: "6CB85481E967E81A",
+      tasks: [
+        {
+          id: "010707EC767D10C8",
+          type: "item",
+          item: {
+            id: "buildinggadgets2:gadget_building",
+            count: 1,
+          },
+        },
+        {
+          id: "48538DB02863DC38",
+          type: "item",
+          item: {
+            id: "buildinggadgets2:template_manager",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B0C35D0164593AB",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3F00322D0F068C82",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:blackpowder",
+        count: 1,
+      },
+      x: -3.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "1A7186E64604523F",
+      tasks: [
+        {
+          id: "36E503312681B1F2",
+          type: "item",
+          item: {
+            id: "irons_artifice:blackpowder",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "27EA487B8150CB79",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5D01F028DDF181B5",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:bullet",
+        count: 1,
+      },
+      x: -4.5,
+      y: -1.0,
+      dependencies: [
+        "1A7186E64604523F",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "401680035DEE0D0A",
+      tasks: [
+        {
+          id: "5DF6A3D4D6182A18",
+          type: "item",
+          item: {
+            id: "irons_artifice:bullet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4DF688F3B6A0F0FB",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "0F72DE808A831F76",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:flintlock",
+        count: 1,
+      },
+      x: -4.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "1A7186E64604523F",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "469DBE287993C779",
+      tasks: [
+        {
+          id: "670F4AB5989C2CB7",
+          type: "item",
+          item: {
+            id: "irons_artifice:flintlock",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2527E888D30EA4B7",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3C253178E506B7E3",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:cowboy_hat",
+        count: 1,
+      },
+      x: -6.0,
+      y: -1.5,
+      dependencies: [
+        "401680035DEE0D0A",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "4352595953CF7834",
+      tasks: [
+        {
+          id: "4BECFDD71AC13EA2",
+          type: "item",
+          item: {
+            id: "irons_artifice:cowboy_hat",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0953ED8BA8B07D19",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:mechanical_components",
+        count: 1,
+      },
+      x: -4.5,
+      y: 1.0,
+      dependencies: [
+        "1A7186E64604523F",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "75BC832C835585E2",
+      tasks: [
+        {
+          id: "0D35916F479E3978",
+          type: "item",
+          item: {
+            id: "irons_artifice:mechanical_components",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05F6D2D423037A36",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "0C36538C49817F9B",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:six_shooter",
+        count: 1,
+      },
+      x: -6.0,
+      y: 1.5,
+      shape: "hexagon",
+      dependencies: [
+        "75BC832C835585E2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0CF882A83FB8931D",
+      tasks: [
+        {
+          id: "759AD7ABAF8039D2",
+          type: "item",
+          item: {
+            id: "irons_artifice:six_shooter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "06EFCBD5E9547320",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "33EC95CCB74F3ADC",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:clockwork_rifle",
+        count: 1,
+      },
+      x: -7.5,
+      y: 0.5,
+      shape: "hexagon",
+      dependencies: [
+        "17EF8561C4BE1C49",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "31AF46B183F805E3",
+      tasks: [
+        {
+          id: "0E5AA727F729982D",
+          type: "item",
+          item: {
+            id: "irons_artifice:clockwork_rifle",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70B3AF1FC48EEB22",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4FDFDD8D4AF196C3",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "irons_artifice:scattershot_modifier",
+        count: 1,
+      },
+      x: -6.0,
+      y: -0.5,
+      dependencies: [
+        "401680035DEE0D0A",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "03DB41A64E74FF33",
+      tasks: [
+        {
+          id: "2E0873C81D7EC881",
+          type: "item",
+          item: {
+            id: "irons_artifice:scattershot_modifier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5BFDCF1EFD6550EE",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "1A4CFE49A9B6219E",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "artifacts:cloud_in_a_bottle",
+        count: 1,
+      },
+      x: -2.0,
+      y: 7.0,
+      dependencies: [
+        "4BCEA2880B22CC55",
+      ],
+      size: 1.0,
+      id: "23D4C14AE83B5C7A",
+      tasks: [
+        {
+          id: "576FFC11E2C39C05",
+          type: "kill",
+          icon: {
+            id: "minecraft:chest",
+            count: 1,
+          },
+          entity: "artifacts:mimic",
+          value: 1,
+        },
+      ],
+      rewards: [
+        {
+          id: "5F8D9AC0BF28A01E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "7FE6A604118EC122",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:brush",
+        count: 1,
+      },
+      x: -1.0,
+      y: 7.5,
+      dependencies: [
+        "4BCEA2880B22CC55",
+      ],
+      size: 1.0,
+      id: "17CD2138836B714A",
+      tasks: [
+        {
+          id: "32D54BC870755179",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "49219A8F19AA4A39",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "artifacts:eternal_steak",
+        count: 1,
+      },
+      x: 0.0,
+      y: 7.0,
+      dependencies: [
+        "4BCEA2880B22CC55",
+      ],
+      size: 1.0,
+      id: "4DF8D485A9EDD069",
+      tasks: [
+        {
+          id: "6120ECE1BC66DC86",
+          type: "item",
+          item: {
+            id: "artifacts:eternal_steak",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A863267420566C6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3F850CE8B12FEB04",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mutantmonsters:hulk_hammer",
+        count: 1,
+      },
+      x: -6.0,
+      y: 5.0,
+      shape: "square",
+      dependencies: [
+        "0DA16C872BC27E21",
+      ],
+      size: 1.0,
+      id: "375EB6B5189844BD",
+      tasks: [
+        {
+          id: "4079860732A859A3",
+          type: "item",
+          item: {
+            id: "mutantmonsters:hulk_hammer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5AC3753FA2A18291",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2B27B767C89CF970",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mutantmonsters:mutant_skeleton_chestplate",
+        count: 1,
+      },
+      x: -6.0,
+      y: 6.0,
+      shape: "square",
+      dependencies: [
+        "0DA16C872BC27E21",
+      ],
+      size: 1.0,
+      id: "67E71C9B1037A2C0",
+      tasks: [
+        {
+          id: "7BCCBD4A4537B135",
+          type: "item",
+          item: {
+            id: "mutantmonsters:mutant_skeleton_skull",
+            count: 1,
+          },
+        },
+        {
+          id: "319F61C05CC964FB",
+          type: "item",
+          item: {
+            id: "mutantmonsters:mutant_skeleton_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "181013B22F9079A9",
+          type: "item",
+          item: {
+            id: "mutantmonsters:mutant_skeleton_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "1AD53D7B1A8F5036",
+          type: "item",
+          item: {
+            id: "mutantmonsters:mutant_skeleton_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7926DD182DA39754",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "159F56F4AD829D06",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mutantmonsters:creeper_shard",
+        count: 1,
+      },
+      x: -7.0,
+      y: 5.0,
+      shape: "square",
+      dependencies: [
+        "0DA16C872BC27E21",
+      ],
+      size: 1.0,
+      id: "180F6058F80F1E1B",
+      tasks: [
+        {
+          id: "6378A4F977BF7C48",
+          type: "item",
+          item: {
+            id: "mutantmonsters:creeper_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C3022CECCA79D02",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "75C3E6092A337C97",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mutantmonsters:endersoul_hand",
+        count: 1,
+      },
+      x: -7.0,
+      y: 4.0,
+      shape: "square",
+      dependencies: [
+        "0DA16C872BC27E21",
+      ],
+      size: 1.0,
+      id: "38E0212362E87E99",
+      tasks: [
+        {
+          id: "4BFA140E4C15839A",
+          type: "item",
+          item: {
+            id: "mutantmonsters:endersoul_hand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6E7826AF7CA28336",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4383200D7F98AF0C",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mutantmonsters:chemical_x",
+        count: 1,
+      },
+      x: -5.0,
+      y: 6.0,
+      shape: "square",
+      dependencies: [
+        "0DA16C872BC27E21",
+      ],
+      size: 1.0,
+      id: "183211CBBF56C4E1",
+      tasks: [
+        {
+          id: "20482DD6F9C5B97E",
+          type: "item",
+          item: {
+            id: "mutantmonsters:chemical_x",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1E6A4E7B5E29374F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4B0B310B3331623D",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justhammers:iron_hammer",
+        count: 1,
+      },
+      x: 5.5,
+      y: 4.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "398AF8F202DDD6AB",
+      tasks: [
+        {
+          id: "429479E851C28AC2",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(justhammers:hammer)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2E2917B0F3414CA2",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "681E90C23C228E02",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justhammers:impact_core",
+        count: 1,
+      },
+      x: 5.5,
+      y: 5.5,
+      dependencies: [
+        "398AF8F202DDD6AB",
+      ],
+      size: 1.0,
+      id: "34644FD6DAAE8F0C",
+      tasks: [
+        {
+          id: "1E49CFBAD7997682",
+          type: "item",
+          item: {
+            id: "justhammers:impact_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "17E1AA3648DCD2CB",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7D2E1ED562C9BD85",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justhammers:destructor_core",
+        count: 1,
+      },
+      x: 5.5,
+      y: 7.0,
+      dependencies: [
+        "34644FD6DAAE8F0C",
+      ],
+      size: 1.0,
+      id: "79A0CEB28D8EC670",
+      tasks: [
+        {
+          id: "7A94DDE118B0C3AC",
+          type: "item",
+          item: {
+            id: "justhammers:destructor_core",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1FF6BF3298DDE4CF",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7D886BB1F924ECA9",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/apotheosis/tier_haven.png",
+        },
+      },
+      x: 3.0,
+      y: -6.5,
+      dependencies: [
+        "011DBD2652E49B97",
+      ],
+      size: 1.25,
+      id: "26118B733B805236",
+      tasks: [
+        {
+          id: "6F56C5F59E46730B",
+          type: "advancement",
+          advancement: "apotheosis:progression/haven",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "474B6A05137DF707",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1D64773EFAAFD8DE",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/apotheosis/tier_frontier.png",
+        },
+      },
+      x: 4.5,
+      y: -6.5,
+      dependencies: [
+        "26118B733B805236",
+      ],
+      size: 1.25,
+      id: "2AFF075509A04B7E",
+      tasks: [
+        {
+          id: "14C1D154B292A158",
+          type: "advancement",
+          advancement: "apotheosis:progression/frontier",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "52D6E19A16049C44",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "49647991BF3AF369",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/apotheosis/tier_ascent.png",
+        },
+      },
+      x: 4.5,
+      y: -8.0,
+      dependencies: [
+        "2AFF075509A04B7E",
+      ],
+      size: 1.25,
+      id: "31A91FBA7673D2B3",
+      tasks: [
+        {
+          id: "578B1DAAA1A5772B",
+          type: "advancement",
+          advancement: "apotheosis:progression/ascent",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "53AB5E4426C24073",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4DDA5E997DC34782",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/apotheosis/tier_summit.png",
+        },
+      },
+      x: 6.0,
+      y: -8.0,
+      dependencies: [
+        "31A91FBA7673D2B3",
+      ],
+      size: 1.25,
+      id: "1709DBEFF27D834B",
+      tasks: [
+        {
+          id: "79388DC6479B36C2",
+          type: "advancement",
+          advancement: "apotheosis:progression/summit",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "55A95C376C54E1BE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4669E60B03666AD9",
+          type: "xp",
+          team_reward: false,
+          xp: 100,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/quests/apotheosis/tier_pinnacle.png",
+        },
+      },
+      x: 8.0,
+      y: -8.0,
+      shape: "hexagon",
+      dependencies: [
+        "1709DBEFF27D834B",
+      ],
+      size: 2.0,
+      id: "65DAC5AA05C91055",
+      tasks: [
+        {
+          id: "5DED32E492BFED40",
+          type: "advancement",
+          advancement: "apotheosis:progression/pinnacle",
+          criterion: "",
+        },
+      ],
+      rewards: [
+        {
+          id: "25B025938025151C",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2061CB970DE026E1",
+          type: "xp",
+          team_reward: false,
+          xp: 250,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "apotheosis:pinnacle_spawner_upgrade_rune",
+        count: 1,
+      },
+      x: 4.5,
+      y: -9.5,
+      dependencies: [
+        "31A91FBA7673D2B3",
+      ],
+      size: 1.0,
+      optional: true,
+      min_width: 350,
+      id: "718A5799ACCEFFF3",
+      tasks: [
+        {
+          id: "13E1E8B471826659",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(apotheosis:frontier_spawner_upgrade_rune)item(apotheosis:ascent_spawner_upgrade_rune)item(apotheosis:summit_spawner_upgrade_rune)item(apotheosis:pinnacle_spawner_upgrade_rune))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43A81A10B4F7CE4B",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "artifacts:crystal_heart",
+        count: 1,
+      },
+      x: -1.0,
+      y: 9.0,
+      dependencies: [
+        "17CD2138836B714A",
+      ],
+      size: 1.0,
+      id: "4BBF090D430EC4A9",
+      tasks: [
+        {
+          id: "1DDB96A415840B51",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item_tag(artifacts:artifacts)",
+            },
+          },
+          count: 10,
+        },
+      ],
+      rewards: [
+        {
+          id: "7D2665CA9AF6267B",
+          type: "currency",
+          team_reward: false,
+          amount: 50,
+        },
+        {
+          id: "157D996A8E8AE5D0",
+          type: "xp",
+          team_reward: false,
+          xp: 50,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mutantmonsters:mutant_skeleton_skull",
+        count: 1,
+      },
+      x: -5.0,
+      y: 4.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "0DA16C872BC27E21",
+      tasks: [
+        {
+          id: "211A78ABCEB663BA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "517A888BF4D21213",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/item/skill_reset_athletics.png",
+        },
+      },
+      x: 1.0,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 5,
+      id: "3AA445DE64D8E77D",
+      tasks: [
+        {
+          id: "6B866D3A40E6B79C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3A4B2696BACDA1BD",
+          type: "command",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "ftb:textures/item/skill_reset_athletics.png",
+            },
+          },
+          team_reward: false,
+          auto: "enabled",
+          command: "/puffish_skills skills reset @s puffish_skills:athletics",
+          permission_level: 2,
+          silent: true,
+          feedback_message: "Athletic Skills Have Been Reset",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/item/skill_reset_magic.png",
+        },
+      },
+      x: 2.0,
+      y: -1.0,
+      shape: "hexagon",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 5,
+      id: "23C3A724DE53F3B2",
+      tasks: [
+        {
+          id: "77F4EF2435BBA602",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "61277CDF1EDA8158",
+          type: "command",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "ftb:textures/item/skill_reset_magic.png",
+            },
+          },
+          team_reward: false,
+          auto: "enabled",
+          command: "/puffish_skills skills reset @s puffish_skills:magic",
+          permission_level: 2,
+          silent: true,
+          feedback_message: "Magic Skills Have Been Reset",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/item/skill_reset_melee.png",
+        },
+      },
+      x: 0.0,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 5,
+      id: "7313C557C45DCFAD",
+      tasks: [
+        {
+          id: "46C4540DF9CFCF9E",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1A309275399B20DF",
+          type: "command",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "ftb:textures/item/skill_reset_melee.png",
+            },
+          },
+          team_reward: false,
+          auto: "enabled",
+          command: "/puffish_skills skills reset @s puffish_skills:melee",
+          permission_level: 2,
+          silent: true,
+          feedback_message: "Melee Skills Have Been Reset",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/item/skill_reset_mining.png",
+        },
+      },
+      x: 2.0,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 5,
+      id: "29513BD00064E27D",
+      tasks: [
+        {
+          id: "2A88734461D7A62C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1BDD981CAC78578C",
+          type: "command",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "ftb:textures/item/skill_reset_mining.png",
+            },
+          },
+          team_reward: false,
+          auto: "enabled",
+          command: "/puffish_skills skills reset @s puffish_skills:mining",
+          permission_level: 2,
+          silent: true,
+          feedback_message: "Mining Skills Have Been Reset",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbquests:custom_icon",
+        count: 1,
+        components: {
+          "ftbquests:icon": "ftb:textures/item/skill_reset_ranged.png",
+        },
+      },
+      x: 2.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.0,
+      can_repeat: true,
+      repeat_cooldown: 5,
+      id: "172FD7459907AADE",
+      tasks: [
+        {
+          id: "7730E1475241BC5B",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "05932100C515A7E3",
+          type: "command",
+          icon: {
+            id: "ftbquests:custom_icon",
+            count: 1,
+            components: {
+              "ftbquests:icon": "ftb:textures/item/skill_reset_ranged.png",
+            },
+          },
+          team_reward: false,
+          auto: "enabled",
+          command: "/puffish_skills skills reset @s puffish_skills:ranged",
+          permission_level: 2,
+          silent: true,
+          feedback_message: "Ranged Skills Have Been Reset",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:leather_helmet",
+        count: 1,
+      },
+      x: 0.0,
+      y: 3.0,
+      shape: "hexagon",
+      hide_dependency_lines: true,
+      dependencies: [
+        "37F99696A47264FD",
+      ],
+      size: 1.5,
+      id: "52FD0AD73FBCBE3D",
+      tasks: [
+        {
+          id: "12C208A1F5F56633",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "7D829042B254AE30",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      x: -6.0,
+      y: 0.5,
+      dependencies: [
+        "75BC832C835585E2",
+      ],
+      size: 1.0,
+      id: "17EF8561C4BE1C49",
+      tasks: [
+        {
+          id: "04F4AE91A8AB0AE2",
+          type: "item",
+          item: {
+            id: "irons_artifice:clockwork_components",
+            count: 1,
+          },
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "2B8B225CF404A351",
+      x: 4.5,
+      y: -0.5,
+      shape: "rsquare",
+      id: "4C9E2A7B5D1F3068",
+    },
+    {
+      linked_quest: "25B2D69A3A827D18",
+      x: -2.5,
+      y: -2.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "7B9295CA4F7EE790",
+    },
+  ],
+  images: [
+    {
+      x: 2.0,
+      y: -5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/gems/royalty",
+      id: "6754CFA9AB0F4E50",
+    },
+    {
+      x: 1.5,
+      y: -7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/gems/endersurge",
+      id: "0A39BC6EB724D474",
+    },
+    {
+      x: 2.0,
+      y: -11.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 0.0,
+      image: "apotheosis:blocks/augmenting/top",
+      id: "740192022F115991",
+    },
+    {
+      x: -2.0,
+      y: -11.0,
+      width: 1.75,
+      height: 1.75,
+      rotation: 0.0,
+      image: "apotheosis:blocks/reforging/table_top",
+      id: "39FCD3137C36D526",
+    },
+    {
+      x: 0.0,
+      y: -4.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "ftbchunks:textures/circle_mask.png",
+      order: -1,
+      id: "0774AAAB08389EAF",
+    },
+    {
+      x: 0.0,
+      y: -4.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "xycraft_world:block/connected/glass_viewer_silicon/glass_viewer_silicon",
+      color: 170,
+      order: 1,
+      id: "46C24DA1770B0363",
+    },
+    {
+      x: 0.0,
+      y: -4.5,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "ftbquests:tasks/input_only",
+      id: "654036783D8BE9E2",
+    },
+    {
+      x: 2.0,
+      y: -5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png",
+      alpha: 100,
+      order: -1,
+      id: "23162B84A099BB58",
+    },
+    {
+      x: -2.0,
+      y: -5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png",
+      alpha: 100,
+      order: -1,
+      id: "272CCBD65D99AA0D",
+    },
+    {
+      x: -1.5,
+      y: -7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/gems/inferno",
+      id: "1476983DCEDF5FA4",
+    },
+    {
+      x: -1.5,
+      y: -7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png",
+      alpha: 100,
+      order: -1,
+      id: "39BE1FF701CEDCF6",
+    },
+    {
+      x: -2.0,
+      y: -5.0,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "apotheosis:items/gems/blood_lord",
+      id: "03B80C0C2CF71217",
+    },
+    {
+      x: 1.5,
+      y: -7.5,
+      width: 1.0,
+      height: 1.0,
+      rotation: 0.0,
+      image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png",
+      alpha: 100,
+      order: -1,
+      id: "49268B639A51B374",
+    },
+    {
+      x: 4.5,
+      y: -3.5,
+      width: 2.5,
+      height: 2.5,
+      rotation: 0.0,
+      image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png",
+      color: 7490560,
+      id: "3E3DED5AD5A54DA4",
+    },
+    {
+      x: 4.5,
+      y: -3.5,
+      width: 2.5,
+      height: 2.5,
+      rotation: 45.0,
+      image: "irons_jewelry:textures/gui/sprites/jewelcrafting_station/input_slot.png",
+      color: 7490560,
+      id: "403AEFFA1B9A88CE",
+    },
+    {
+      x: 6.5,
+      y: 0.0,
+      width: 3.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/apoth_logo.png",
+      alpha: 200,
+      id: "53E9FF9398750701",
+    },
+    {
+      x: -6.5,
+      y: -4.5,
+      width: 5.0,
+      height: 5.0,
+      rotation: 0.0,
+      image: "ftbquests:textures/shapes/diamond/outline.png",
+      id: "34EE277566E0995B",
+    },
+    {
+      x: -8.0,
+      y: -6.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "bhc:item/blade_of_vitality",
+      id: "3383698C91ADAD3E",
+    },
+    {
+      x: -5.0,
+      y: -6.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 90.0,
+      image: "bhc:item/vigor_bow",
+      id: "272DB56F25B57C27",
+    },
+    {
+      x: 6.5,
+      y: -12.0,
+      width: 4.0,
+      height: 0.552,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/gearing_world_tiers.png",
+      click_action: {
+        type: "open_quest",
+        data: "26118B733B805236",
+      },
+      id: "3D6AA261B4C3FCCA",
+    },
+  ],
+}

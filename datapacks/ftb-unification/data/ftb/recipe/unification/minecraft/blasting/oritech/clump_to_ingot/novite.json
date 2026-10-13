@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": "ftbmaterials:novite_clump",
+  "result": {
+    "count": 1,
+    "id": "stellaris:novite_ingot"
+  }
+}

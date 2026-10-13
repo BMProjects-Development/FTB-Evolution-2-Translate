@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:titanium_deepslate_ore",
+    "ftbmaterials:titanium_stone_ore",
+    "ltxi:deepslate_titanium_ore",
+    "ltxi:titanium_ore"
+  ]
+}

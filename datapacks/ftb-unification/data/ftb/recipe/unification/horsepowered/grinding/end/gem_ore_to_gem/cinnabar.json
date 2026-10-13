@@ -1,0 +1,14 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "ftbmaterials:cinnabar_end_ore",
+  "result": {
+    "count": 4,
+    "id": "ftbmaterials:cinnabar_gem"
+  },
+  "secondary": {
+    "id": "ftbmaterials:cinnabar_gem",
+    "count": 2
+  },
+  "secondaryChance": 50,
+  "time": 16
+}

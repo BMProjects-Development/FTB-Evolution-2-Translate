@@ -1,0 +1,7 @@
+{
+  "enableHats": true,
+  "enableMobHats": true,
+  "enablePlayerHats": true,
+  "mobHatSpawnChance": 0.1,
+  "hatMode": "HUNTING"
+}

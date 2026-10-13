@@ -1,0 +1,5 @@
+#Miner's Helmet Common Config
+[Mobs]
+	#
+	# The chance for applicably tagged mobs to spawn with a Mining Helmet (1 in x, 0 prevents them from spawning with helmets)
+	minerSpawnChance = 20

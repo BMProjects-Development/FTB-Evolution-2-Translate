@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "arsmagicalegacy:sunstone_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 3,
+      "id": "arsmagicalegacy:sunstone"
+    },
+    {
+      "count": {
+        "chance": 0.375,
+        "max": 2,
+        "min": 2
+      },
+      "id": "arsmagicalegacy:sunstone",
+      "required": false
+    }
+  ]
+}

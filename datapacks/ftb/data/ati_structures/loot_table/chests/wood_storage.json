@@ -1,0 +1,253 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_log",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_log",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_log",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_log",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 16,
+            "max": 32
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_leaves"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_leaves"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 10,
+            "max": 25
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Wood Chomping Liquid",
+                "color": "#83fb85",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Deforestation and its consequences",
+                  "color": "#4da35e"
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 2002720,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "duration": 4800
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sigma Stick",
+                "color": "#b1ff52",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "A strong and powerful stick",
+                  "color": "#75a040"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 5,
+                "minecraft:knockback": 2,
+                "minecraft:unbreaking": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Woodland Crown",
+                "color": "#3bf751",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "You can now speak for the trees",
+                  "color": "#39b14d"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:wayfinder"
+                },
+                "minecraft:dyed_color": 1404720
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_protection": 4,
+                "minecraft:thorns": 3,
+                "minecraft:unbreaking": 3
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:dyed_color": 1014565
+          }
+        },
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 0,
+            "max": 30
+          }
+        }
+      ]
+    }
+  ]
+}

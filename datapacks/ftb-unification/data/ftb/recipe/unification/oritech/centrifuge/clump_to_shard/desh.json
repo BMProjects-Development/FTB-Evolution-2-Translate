@@ -1,0 +1,12 @@
+{
+  "type": "oritech:centrifuge",
+  "itemInputs": [
+    "#c:clumps/desh"
+  ],
+  "itemResults": [
+    {
+      "id": "ftbmaterials:desh_shard"
+    }
+  ],
+  "time": 100
+}

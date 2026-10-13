@@ -1,0 +1,21 @@
+{
+  "condition": {
+    "average": {
+      "max": 30.0
+    },
+    "combine": "any",
+    "minimum": {
+      "max": 15.0
+    }
+  },
+  "display": {
+    "color": "#e57373",
+    "icon": "minecraft:rotten_flesh",
+    "name": "tier.nutritional.malnourished"
+  },
+  "messages": {
+    "enter": "tier.nutritional.malnourished.enter",
+    "exit": "tier.nutritional.malnourished.exit"
+  },
+  "priority": 25
+}

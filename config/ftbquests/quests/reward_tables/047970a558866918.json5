@@ -1,0 +1,287 @@
+{
+  id: "047970A558866918",
+  order_index: 23,
+  icon: {
+    id: "minecraft:enchanted_book",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "587956D876E059AA",
+      item: {
+        id: "minecraft:lapis_lazuli",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "6C4FF0CC300B28A1",
+      item: {
+        id: "minecraft:book",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "0A9E21EB50542FAD",
+      item: {
+        id: "apothic_enchanting:helmet_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "4865444FB88345C1",
+      item: {
+        id: "apothic_enchanting:chestplate_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "299AE95A904E86C9",
+      item: {
+        id: "apothic_enchanting:leggings_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "125D9503CFDBF9B0",
+      item: {
+        id: "apothic_enchanting:boots_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5A944FC1E71ABAA5",
+      item: {
+        id: "apothic_enchanting:weapon_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "22A25DC9B7B00A00",
+      item: {
+        id: "apothic_enchanting:pickaxe_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "15166F59CF56A58A",
+      item: {
+        id: "apothic_enchanting:bow_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "75CB6A309F0C1D5A",
+      item: {
+        id: "apothic_enchanting:fishing_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "010829CABF572445",
+      item: {
+        id: "apothic_enchanting:other_tome",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "36C1875FD46A5B3B",
+      item: {
+        id: "minecraft:experience_bottle",
+        count: 1,
+      },
+      count: 8,
+      weight: 5.0,
+    },
+    {
+      id: "4ABAB1DA921F8544",
+      icon: {
+        id: "minecraft:enchanted_book",
+        count: 1,
+      },
+      command: "/loot give @s loot ftb:gamba/random_enchanted_book",
+      permission_level: 2,
+      silent: true,
+      type: "command",
+      weight: 5.0,
+    },
+    {
+      id: "1FB2EB63CDD128FD",
+      item: {
+        id: "apothic_enchanting:scrap_tome",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6FEBD9CC5A5A5280",
+      item: {
+        id: "apothic_enchanting:beeshelf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "717E5477E6FD9595",
+      item: {
+        id: "apothic_enchanting:melonshelf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6AF8FC158538081D",
+      item: {
+        id: "apothic_enchanting:stoneshelf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "4930CD3DA6EE99C2",
+      item: {
+        id: "apothic_enchanting:hellshelf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7CA71098BEE6731D",
+      item: {
+        id: "apothic_enchanting:seashelf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2ED6F3ADCC55DA10",
+      item: {
+        id: "apothic_enchanting:sightshelf",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0203E60059A5795D",
+      item: {
+        id: "apothic_enchanting:ender_lead",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1BF6494DAB20242A",
+      item: {
+        id: "apotheosis:gem_dust",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "13EA28054FB551E8",
+      item: {
+        id: "apothic_enchanting:improved_scrap_tome",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "517ECE53F98C204E",
+      item: {
+        id: "apothic_enchanting:endshelf",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "659827967013F31D",
+      item: {
+        id: "apothic_enchanting:deepshelf",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "68895671A845757C",
+      item: {
+        id: "apotheosis:gem_case",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6C3A753B41D4C1BE",
+      item: {
+        id: "apotheosis:potion_charm",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4903EA540EC74AE7",
+      item: {
+        id: "apothic_enchanting:extraction_tome",
+        count: 1,
+      },
+    },
+    {
+      id: "1DCC6B2FBF03E5F8",
+      item: {
+        id: "apotheosis:sigil_of_socketing",
+        count: 1,
+      },
+    },
+    {
+      id: "6786D439D0313AF1",
+      item: {
+        id: "apotheosis:sigil_of_withdrawal",
+        count: 1,
+      },
+    },
+    {
+      id: "72665BF54B9C41EF",
+      item: {
+        id: "apotheosis:sigil_of_unnaming",
+        count: 1,
+      },
+    },
+    {
+      id: "4414C38AEA41B05F",
+      item: {
+        id: "minecraft:enchanted_book",
+        count: 1,
+        components: {
+          "minecraft:stored_enchantments": {
+            "mysticalagriculture:mystical_enlightenment": 5,
+          },
+        },
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_enchanter",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.random_enchanter",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

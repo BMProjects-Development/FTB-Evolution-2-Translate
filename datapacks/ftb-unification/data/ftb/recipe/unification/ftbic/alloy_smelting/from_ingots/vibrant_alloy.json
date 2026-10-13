@@ -1,0 +1,25 @@
+{
+  "type": "ftbic:alloy_smelting",
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/energetic_alloy"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/glowstone"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "enderio:vibrant_alloy_ingot",
+        "count": 2
+      }
+    }
+  ]
+}

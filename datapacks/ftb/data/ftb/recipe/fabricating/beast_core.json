@@ -1,0 +1,43 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:living_culture",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:abyssal_lens",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:dynamo_matrix",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_block",
+      "count": 4
+    },
+    {
+      "ingredient": "ftb:ultradense_antimatter",
+      "count": 4
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:refined_t4_fluid_source",
+      "amount": 8000
+    },
+    {
+      "id": "minecraft:lava",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:beast_core"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 5000000,
+  "stage": "ftb_beast_phase3"
+}

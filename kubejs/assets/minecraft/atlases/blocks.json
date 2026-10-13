@@ -1,0 +1,5 @@
+{
+  "sources": [
+    { "type": "single", "resource": "auroral:particle/basin_infuse" }
+  ]
+}

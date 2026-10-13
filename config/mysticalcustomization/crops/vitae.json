@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "neovitae:essentia_vitae_bucket"
+  },
+  "name": "Vitae",
+  "color": "#7A0300",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

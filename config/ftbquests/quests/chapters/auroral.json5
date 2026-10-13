@@ -1,0 +1,1045 @@
+{
+  id: "0902C492D4414498",
+  group: "5D1C4E7B2A9F0836",
+  order_index: 0,
+  icon: {
+    id: "auroral:frozen_petals",
+    count: 1,
+  },
+  filename: "auroral",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "780B8C00D01127EB",
+  quests: [
+    {
+      icon: {
+        id: "auroral:guide",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "diamond",
+      size: 2.0,
+      can_repeat: false,
+      id: "780B8C00D01127EB",
+      tasks: [
+        {
+          id: "0F8C00600F495096",
+          type: "item",
+          item: {
+            id: "auroral:guide",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5E2A2E80C5BF86E5",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "1E95D5941CC6025F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:aurora_shard",
+        count: 1,
+      },
+      x: -1.0,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "38EF63D7153D6AC5",
+      ],
+      size: 1.0,
+      min_width: 350,
+      can_repeat: false,
+      id: "120CAE5492D8D2FE",
+      tasks: [
+        {
+          id: "7C8EF2118D52B8D8",
+          type: "item",
+          item: {
+            id: "auroral:aurora_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "539FE735DDD6CFE8",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "4499CBFAEF9D110E",
+          type: "item",
+          item: {
+            id: "auroral:aurora_shard",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "0F3B326E2CDFE994",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:frozen_petals",
+        count: 1,
+      },
+      x: 0.0,
+      y: 2.0,
+      shape: "hexagon",
+      dependencies: [
+        "780B8C00D01127EB",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "4E326D6986822470",
+      tasks: [
+        {
+          id: "1BEC6BED1E2D2109",
+          type: "item",
+          item: {
+            id: "auroral:frozen_petals",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4C20C32654BA31DF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "3CCB0D7CE8DD2822",
+          type: "item",
+          team_reward: true,
+          item: {
+            id: "auroral:frozen_petals",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "53D5C47CD23EA5FE",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:auroral_nautilus_spawn_egg",
+        count: 1,
+      },
+      x: -1.0,
+      y: 8.5,
+      dependencies: [
+        "120CAE5492D8D2FE",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "4553492B0110AC64",
+      tasks: [
+        {
+          id: "6E0621EE142B45DE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "246386F3742A5D1F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:auroral_snowlette_spawn_egg",
+        count: 1,
+      },
+      x: -1.0,
+      y: 10.0,
+      dependencies: [
+        "4553492B0110AC64",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "734BB52B2E3B94D5",
+      tasks: [
+        {
+          id: "0C9BC872673A47AD",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2C744FB8755BBEF4",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:aurora_bloom",
+        count: 1,
+      },
+      x: 1.5,
+      y: 3.0,
+      dependencies: [
+        "4E326D6986822470",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "7694FA3E97015D23",
+      tasks: [
+        {
+          id: "03AF5E1F86240FC6",
+          type: "item",
+          item: {
+            id: "auroral:aurora_bloom",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "528BFB6787772DFF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "40A1BAB69482FE70",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmering_ice",
+        count: 1,
+      },
+      x: 0.5,
+      y: 10.0,
+      shape: "hexagon",
+      dependencies: [
+        "0A25BE050F85F9D1",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "0B7E9D8A24F07AF5",
+      tasks: [
+        {
+          id: "60904FE5CF1C6933",
+          type: "item",
+          item: {
+            id: "auroral:shimmering_ice",
+            count: 1,
+          },
+        },
+        {
+          id: "4B8F0261EB177E46",
+          type: "observation",
+          icon: {
+            id: "auroral:shimmer_soil",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "auroral:shimmer_soil",
+        },
+      ],
+      rewards: [
+        {
+          id: "1F2F6182835B1D5D",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3AA4428BB73935EE",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:glow_leek",
+        count: 1,
+      },
+      x: 0.5,
+      y: 11.0,
+      dependencies: [
+        "0B7E9D8A24F07AF5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "192DD755D7D0C4C8",
+      tasks: [
+        {
+          id: "42357DF1D2BC42A0",
+          type: "item",
+          item: {
+            id: "auroral:glow_leek_seeds",
+            count: 1,
+          },
+        },
+        {
+          id: "2A6C936F488718E1",
+          type: "item",
+          item: {
+            id: "auroral:glow_leek",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "046D9F5C61506B31",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "59B57579C0474486",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:aurora_ender_shard",
+        count: 1,
+      },
+      x: 2.5,
+      y: 2.5,
+      shape: "hexagon",
+      dependencies: [
+        "7694FA3E97015D23",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "427563F5E92CA507",
+      tasks: [
+        {
+          id: "00183CF6C64F5A43",
+          type: "item",
+          item: {
+            id: "auroral:aurora_ender_shard",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "155370C49B2443D3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "37104DBAD33A8CA0",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:glacial_basin",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "4E326D6986822470",
+      ],
+      size: 1.75,
+      min_width: 325,
+      can_repeat: false,
+      id: "38EF63D7153D6AC5",
+      tasks: [
+        {
+          id: "46D19ACD3F66E174",
+          type: "item",
+          item: {
+            id: "auroral:glacial_basin",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "305310E29A3CB316",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "32F0FAA8C31797D7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmersteel_ingot",
+        count: 1,
+      },
+      x: 1.0,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "38EF63D7153D6AC5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6A1048464ABAA02B",
+      tasks: [
+        {
+          id: "590D0D26316FEFF7",
+          type: "item",
+          item: {
+            id: "auroral:unrefined_shimmersteel",
+            count: 1,
+          },
+        },
+        {
+          id: "314466DDB08B86D9",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_ingot",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66FDE97A9ECF7CBE",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "7C4F1AE0935EE4B1",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_ingot",
+            count: 1,
+          },
+          random_bonus: 2,
+        },
+        {
+          id: "1F79D526E7787BC2",
+          type: "xp",
+          team_reward: false,
+          xp: 60,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmersteel_pickaxe",
+        count: 1,
+      },
+      x: 1.0,
+      y: 8.5,
+      shape: "hexagon",
+      dependencies: [
+        "6A1048464ABAA02B",
+        "120CAE5492D8D2FE",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "0A25BE050F85F9D1",
+      tasks: [
+        {
+          id: "4CB95D9809BBE8D4",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_upgrade_smithing_template",
+            count: 1,
+          },
+        },
+        {
+          id: "223B391ADCC0E276",
+          type: "item",
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_pickaxe)item(auroral:shimmersteel_axe)item(auroral:shimmersteel_shovel)item(auroral:shimmersteel_hoe)item(auroral:shimmersteel_sword))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "70567E2E41DB291A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "2EAE142C6224AC56",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmersteel_bow",
+        count: 1,
+      },
+      x: 1.5,
+      y: 11.0,
+      dependencies: [
+        "0A25BE050F85F9D1",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "4E42490104D43551",
+      tasks: [
+        {
+          id: "62D5716919C40799",
+          type: "item",
+          item: {
+            id: "auroral:shimmersteel_bow",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "445F4C3666D1081D",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "23F6525EB06BF1E4",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmer_spear",
+        count: 1,
+      },
+      x: 1.5,
+      y: 10.0,
+      dependencies: [
+        "0A25BE050F85F9D1",
+      ],
+      size: 1.0,
+      min_width: 300,
+      can_repeat: false,
+      id: "2EFFDC001A3BCFBD",
+      tasks: [
+        {
+          id: "46D29C589E7AC91D",
+          type: "item",
+          item: {
+            id: "auroral:shimmer_spear",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C9F2CF8634CF517",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "71B989DAC66DA9E5",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:cold_brewing_stand",
+        count: 1,
+      },
+      x: 2.5,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "6A1048464ABAA02B",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "455141615CF5D0FC",
+      tasks: [
+        {
+          id: "3807D8CBAE6939ED",
+          type: "item",
+          item: {
+            id: "auroral:cold_brewing_stand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0A2B0F9AAA7091CB",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "10E33D929D86A7F7",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmerweave_fabric",
+        count: 1,
+      },
+      x: -2.0,
+      y: 5.5,
+      shape: "hexagon",
+      dependencies: [
+        "38EF63D7153D6AC5",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "096D4B6971E6F817",
+      tasks: [
+        {
+          id: "43CD9A0AEA4D4CDC",
+          type: "item",
+          item: {
+            id: "auroral:woven_leather",
+            count: 1,
+          },
+        },
+        {
+          id: "4A8217D8BCE28B15",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_fabric",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4799008263B9F508",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "30D57EE7759543FF",
+          type: "item",
+          item: {
+            id: "minecraft:leather",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "32C1CB79A0F7285D",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:shimmerweave_tunic",
+        count: 1,
+      },
+      x: -3.5,
+      y: 7.0,
+      shape: "hexagon",
+      dependencies: [
+        "096D4B6971E6F817",
+        "120CAE5492D8D2FE",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "551695798DCC9F60",
+      tasks: [
+        {
+          id: "6787AC96657B4860",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_goggles",
+            count: 1,
+          },
+        },
+        {
+          id: "4B3219B402FBABAD",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_tunic",
+            count: 1,
+          },
+        },
+        {
+          id: "5AB07D372C4CD218",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "7A2DDC6B141E62C7",
+          type: "item",
+          item: {
+            id: "auroral:shimmerweave_skates",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A17E337515C8AD6",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "39C097A7326A6837",
+          type: "xp",
+          team_reward: false,
+          xp: 300,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:hearthwood_log",
+        count: 1,
+      },
+      x: -2.5,
+      y: 9.0,
+      shape: "hexagon",
+      dependencies: [
+        "120CAE5492D8D2FE",
+      ],
+      size: 1.5,
+      min_width: 350,
+      can_repeat: false,
+      id: "40420EB20069A628",
+      tasks: [
+        {
+          id: "2DB5BF812F1D7F91",
+          type: "item",
+          item: {
+            id: "auroral:hearthwood_log",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "56B669DE28E9AB9D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "4889567EA7EB0F54",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:aurora_lantern",
+        count: 1,
+      },
+      x: 2.5,
+      y: 8.5,
+      dependencies: [
+        "6A1048464ABAA02B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6795EDD4CF4B5A1D",
+      tasks: [
+        {
+          id: "346431B3C27FA553",
+          type: "item",
+          item: {
+            id: "auroral:aurora_lantern",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C118D10C3AC9D03",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0D45AB34BFC6EA5B",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:snow_angel",
+        count: 1,
+      },
+      x: -1.5,
+      y: 3.0,
+      dependencies: [
+        "4E326D6986822470",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6DD4902A109331D3",
+      tasks: [
+        {
+          id: "7C56FC8B1B2DB504",
+          type: "observation",
+          icon: {
+            id: "auroral:snow_angel",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "block",
+          to_observe: "auroral:snow_angel",
+        },
+      ],
+      rewards: [
+        {
+          id: "792374C91DDA6CA4",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "703592E004C3C836",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:hot_cocoa",
+        count: 1,
+      },
+      x: 2.5,
+      y: 3.5,
+      dependencies: [
+        "7694FA3E97015D23",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "5CE6320CF1FED392",
+      tasks: [
+        {
+          id: "6DBAB2BB87731B55",
+          type: "item",
+          item: {
+            id: "auroral:hot_cocoa",
+            count: 1,
+          },
+        },
+        {
+          id: "47F3ED78955B4BAC",
+          type: "item",
+          item: {
+            id: "auroral:frosted_cookies",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0208C2642E79653D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "36D7A63A1716AE5C",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "auroral:snore",
+        count: 1,
+      },
+      x: 3.5,
+      y: 3.5,
+      dependencies: [
+        "5CE6320CF1FED392",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "761D8E1A5322E1CB",
+      tasks: [
+        {
+          id: "25FD8C7CEDFC8A72",
+          type: "item",
+          item: {
+            id: "auroral:snore",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "64994D3E9D1AD4E9",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "0FE89945B7C740CE",
+          type: "item",
+          item: {
+            id: "auroral:snore",
+            count: 1,
+          },
+          count: 4,
+          random_bonus: 4,
+        },
+        {
+          id: "36B13DDA0A61B337",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -3.0,
+      width: 2.6,
+      height: 2.6,
+      rotation: 45.0,
+      image: "auroral:block/shimmering_ice",
+      id: "0844C23C79A4D478",
+    },
+    {
+      x: 0.0,
+      y: -3.0,
+      width: 8.4,
+      height: 1.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/auroral_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "780B8C00D01127EB",
+      },
+      id: "27C839225B1C6D79",
+    },
+    {
+      x: -5.0,
+      y: -3.0,
+      width: 1.7,
+      height: 1.7,
+      rotation: 10.0,
+      image: "auroral:item/aurora_shard",
+      id: "2E7804AAEA0001F5",
+    },
+    {
+      x: 5.0,
+      y: -3.0,
+      width: 1.7,
+      height: 1.7,
+      rotation: -10.0,
+      image: "auroral:block/snow_angel",
+      id: "6B8B364AE8D50BC0",
+    },
+    {
+      x: 0.0,
+      y: 4.5,
+      width: 2.5,
+      height: 2.5,
+      rotation: 45.0,
+      image: "auroral:particle/basin_infuse",
+      id: "7013CAC026FE0C58",
+    },
+    {
+      x: -2.5,
+      y: 9.0,
+      width: 2.25,
+      height: 1.75,
+      rotation: 0.0,
+      image: "auroral:block/hearthwood_fire",
+      id: "0D494B522A927071",
+    },
+  ],
+}

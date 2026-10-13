@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "has_sync_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "neosync:sync_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:block/light_blue_concrete",
+    "description": {
+      "translate": "advancements.neosync.root.description"
+    },
+    "icon": {
+      "id": "neosync:sync_core"
+    },
+    "title": {
+      "translate": "advancements.neosync.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_sync_core"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

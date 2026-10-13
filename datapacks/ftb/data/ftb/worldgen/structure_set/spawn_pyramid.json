@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:spawn_pyramid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbevolutioncompanion:fixed_chunk",
+    "salt": 921750305,
+    "chunk_x": -4,
+    "chunk_z": -4
+  }
+}

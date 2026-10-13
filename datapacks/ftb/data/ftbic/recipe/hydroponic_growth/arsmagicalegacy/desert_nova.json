@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "arsmagicalegacy:desert_nova"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "arsmagicalegacy:desert_nova"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "arsmagicalegacy:desert_nova"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "id": "arsmagicalegacy:desert_nova"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "minecraft:sand",
+      "speed": 1.0
+    },
+    {
+      "ingredient": "minecraft:red_sand",
+      "speed": 1.0
+    }
+  ]
+}

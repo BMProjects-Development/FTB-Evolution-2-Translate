@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ae2:sky_stone_block"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ae2:sky_dust"
+    }
+  ],
+  "time": 100
+}

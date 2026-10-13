@@ -1,0 +1,8 @@
+{
+  "type": "energizedpower:charger",
+  "energy": 4096,
+  "ingredient": "minecraft:book",
+  "result": {
+    "id": "ae2:guide"
+  }
+}

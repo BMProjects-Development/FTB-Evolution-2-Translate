@@ -1,0 +1,13 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "tag": "c:ingots/niobium"
+  },
+  "name": "Niobium",
+  "color": "#7B75E4",
+  "models": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

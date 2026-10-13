@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "hostilenetworks:block_data_models_enabled"
+    }
+  ],
+  "type": "hostilenetworks:block_data_model",
+  "block": "ftbic:iridium_stone_ore",
+  "variants": [
+    "ftbic:iridium_deepslate_ore",
+    "ftbmaterials:iridium_stone_ore",
+    "ftbmaterials:iridium_deepslate_ore",
+    "ftbmaterials:iridium_nether_ore",
+    "ftbmaterials:iridium_end_ore"
+  ],
+  "name_color": "#D9E4EC",
+  "display": {
+    "scale": 3
+  },
+  "sim_cost": 2048,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.iridium_ore",
+  "fabricator_drops": [
+    {
+      "id": "ftbmaterials:iridium_raw_ore",
+      "count": 8
+    }
+  ],
+  "upgrade_conditions": [
+    {
+      "condition": "minecraft:reference",
+      "name": "hostilenetworks:not_silk_touch"
+    }
+  ]
+}

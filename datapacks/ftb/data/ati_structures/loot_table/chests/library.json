@@ -1,0 +1,514 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Valheim",
+                "color": "#58ff4d",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Haiku of the Tenth World",
+                  "color": "#4c9447"
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "Dropped by a raven\ninto the meadow's soft grass,\nthe tenth world awaits"
+                },
+                {
+                  "raw": "Antlers spark with storm,\nthe first forsaken stag falls,\nOdin's ravens watch"
+                },
+                {
+                  "raw": "Longhouse fire burning,\nmead and rest before the swamp,\nthe troll's footsteps shake"
+                },
+                {
+                  "raw": "Sails catch the cold wind,\na longship cuts through the mist,\nValhalla is earned"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Hobbit",
+                "color": "#54f8c1",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "Round door, tea for one,\nthirteen dwarves come knocking late,\nthe kettle sings on"
+                },
+                {
+                  "raw": "Riddles in the dark,\na small hand finds a cold ring,\nthe cave holds its breath"
+                },
+                {
+                  "raw": "Gold piled in the deep,\na dragon dreams on its hoard,\none black arrow flies"
+                },
+                {
+                  "raw": "Home at last, older,\nthe hobbit hangs up his sword\nabove the hearth fire"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Haiku of the Shire",
+                  "color": "#4baa8a"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "P\u0159\u00edb\u011bh mal\u00e9ho krte\u010dka",
+                "color": "#ff5c5c",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "By Zden\u011bk Miler",
+                  "color": "#ff9494"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "One evening. Krtek was digging happily in the forest when he found something strange\u2014a hole that wasn't his."
+                },
+                {
+                  "raw": "It was deep, dark, and smelled like damp earth and something... rotten."
+                },
+                {
+                  "raw": "Curious, he peeked inside. A whisper rose from the depths. \"Come closer, little mole...\" Krtek hesitated, his tiny paws trembling."
+                },
+                {
+                  "raw": "But before he could run, roots shot out from the hole, wrapping around him!"
+                },
+                {
+                  "raw": "They pulled him down. The last thing he saw was the moon above, shrinking as he was dragged into the darkness."
+                },
+                {
+                  "raw": "The next morning, a new mound of soil appeared in the forest. "
+                },
+                {
+                  "raw": "But this time, Krtek wasn't the one who made it."
+                },
+                {
+                  "raw": "THE END"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "By Nidintu-B\u00eal",
+                  "color": "#a2982f"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Ancient Babylonian Script",
+                "color": "#f3f702",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "At first, it was just odd noises beneath the floorboards soft scuttling, like vermin. But pest control found nothing. Then small things began to go missing, followed by objects left scattered on the floors. "
+                },
+                {
+                  "raw": "A few days pass and deep scratch marks were found on the inside of the bedroom door. Not claw mark scratches, but from small fingernails. "
+                },
+                {
+                  "raw": "The noises under the floor now persisted throughout the entire day, constant scuttling beneath the feet."
+                },
+                {
+                  "raw": "On the sixth day, a loose floorboard in the hallway was investigated. Under the floor dozens of gnomes stared back, each with red hats and blood-smeared beards. "
+                },
+                {
+                  "raw": "The curse has been unleashed, it was too late, no hope left.  Nailing the floor shut. Sleeping with a knife. Calling the police.  It wasn\u2019t enough."
+                },
+                {
+                  "raw": "The fog is coming, the end is near, the gnomes are finally here..."
+                }
+              ],
+              "mode": "append"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Steam Check System",
+                "color": "#36a3ec",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "By Steam",
+                  "color": "#3d7699"
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "This comment is awaiting analysis by our automated content check system. It will be temporarily hidden until we verify that it does not contain harmful content (e.g. links to websites that attempt to steal information).",
+                  "color": "#04cef6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "1 VAC ban on record | Info 1791 day(s) since last ban",
+                  "color": "#a94847",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Spongebob",
+                "color": "#b8f877",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "\u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628",
+                  "color": "#75a249"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": "\u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0628\u0648\u0628 \u0628\u0648\u0628 \u0628\u0648\u0628 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0633\u0641\u0646\u062c\u0647 \u0648 \u062f\u0647 \u0644\u0648\u0646\u0649 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0627\u0635\u0641\u0631 \u0643\u0645\u0648\u0646\u0649 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0633\u0641\u0646\u062c\u0647 \u0648 \u062f\u0647 \u0644\u0648\u0646\u0649 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0627\u0646\u0627 \u0633\u0628\u0648\u0646\u062c \u0628\u0648\u0628 \u0627\u0635\u0641\u0631 \u0643\u0645\u0648\u0646\u0649"
+                },
+                {
+                  "raw": "\u0627\u0646\u0627 \u0628\u0642\u0627 \u0643\u062f\u0627 \u0635\u064a\u062a\u0649 \u0645\u0633\u0645\u0639 \u0627\u0646\u0627 \u0648\u0627\u062f \u0645\u062c\u062f\u0639 \u0645\u0646 \u064a\u0648\u0645\u0649 \u0645\u0647\u0645\u0627 \u0644\u0639\u0628\u062a \u0637\u0644\u0639\u062a \u0646\u0632\u0644\u062a \u0627\u0646\u0627 \u0645\u0628\u0633\u0648\u062e\u0634 \u0647\u062f\u0648\u0645\u0649 \u0628\u0644\u0639\u0628 120 \u0636\u063a\u0637 \u0627\u0648\u0644 \u0645\u0642\u0648\u0645 \u0645\u0646 \u0646\u0648\u0645 \u0648 \u062a\u0648\u0645 \u0648 \u062c\u064a\u0631\u0649 \u0628\u064a\u062a\u0641\u0642\u0648 \u0639\u0644\u064a\u0627 \u0641\u0643\u0631\u0646\u0649 \u062c\u0628\u0646\u0647 \u0631\u0648\u0645\u0649"
+                },
+                {
+                  "raw": "\u0634\u062e\u0628\u0637\u0647 \u0644\u063a\u0628\u0637\u0647 \u062d\u0627\u062c\u0629 \u0645\u062a\u0638\u0628\u0637\u0647 \u0634\u0643\u0644\u0647\u0627 \u0628\u0642\u0627 \u0643\u062f\u0627 \u0643\u062f\u0627 \u0645\u062a\u062e\u0637\u0637\u0647 \u0634\u062e\u0628\u0637\u0647 \u0644\u063a\u0628\u0637\u0647 \u062d\u0627\u062c\u0629 \u0645\u062a\u0638\u0628\u0637\u0647 \u0639\u0627\u064a\u0632\u0646\u0643\u0648 \u062a\u0646\u0627\u0645\u0648 \u062a\u0634\u062f\u0648 \u0627\u0644\u063a\u0637\u0627\u0621 \u0634\u062e\u0628\u0637\u0647 \u0644\u063a\u0628\u0637\u0647 \u062d\u0627\u062c\u0629 \u0645\u062a\u0638\u0628\u0637\u0647 \u062d\u0627\u0633\u0633 \u0627\u0646 \u062d\u064a\u0627\u062a\u0649 \u0645\u0634 \u0645\u062a\u0638\u0628\u0637\u0647"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Iron BattleAxe",
+                "color": "#00ff2a",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Mulitpurpose",
+                  "color": "#489d56"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 3,
+                "minecraft:unbreaking": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Here Be Treasure",
+                "color": "#ffc800",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "I love treasure hunting!",
+                  "color": "#9b8741"
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:luck_of_the_sea": 3,
+                "minecraft:unbreaking": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

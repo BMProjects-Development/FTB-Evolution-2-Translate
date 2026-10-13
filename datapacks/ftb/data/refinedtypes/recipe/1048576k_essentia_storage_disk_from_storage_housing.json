@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "refinedstorage:storage_housing",
+    "refinedtypes:1048576k_essentia_storage_part"
+  ],
+  "result": {
+    "id": "refinedtypes:1048576k_essentia_storage_disk"
+  }
+}

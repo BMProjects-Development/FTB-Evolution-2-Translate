@@ -1,0 +1,566 @@
+{
+	"athletics_root": {
+		"definition": "athletics_root",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"skies_1": {
+		"definition": "paraglider_stamina_recovery_+5%",
+		"x": 0,
+		"y": -60,
+		"root": false
+	},
+	"skies_2": {
+		"definition": "wall_climb_+3",
+		"x": 0,
+		"y": -120,
+		"root": false
+	},
+	"skies_hub": {
+		"definition": "skies_hub",
+		"x": 0,
+		"y": -180,
+		"root": false
+	},
+	"cond_1": {
+		"definition": "combat_roll_count_+1",
+		"x": -60,
+		"y": 30,
+		"root": false
+	},
+	"cond_2": {
+		"definition": "combat_roll_distance_+1",
+		"x": -120,
+		"y": 60,
+		"root": false
+	},
+	"cond_hub": {
+		"definition": "cond_hub",
+		"x": -180,
+		"y": 90,
+		"root": false
+	},
+	"utility_1": {
+		"definition": "mount_speed_+5%",
+		"x": 60,
+		"y": 30,
+		"root": false
+	},
+	"utility_2": {
+		"definition": "consuming_speed_+10%",
+		"x": 120,
+		"y": 60,
+		"root": false
+	},
+	"utility_hub": {
+		"definition": "utility_hub",
+		"x": 180,
+		"y": 90,
+		"root": false
+	},
+	"vertical_g1": {
+		"definition": "safe_fall_distance_+5",
+		"x": -60,
+		"y": -240,
+		"root": false
+	},
+	"vertical_g2": {
+		"definition": "air_dash_+1",
+		"x": -90,
+		"y": -300,
+		"root": false
+	},
+	"vertical_g3": {
+		"definition": "wall_climb_+3",
+		"x": -120,
+		"y": -360,
+		"root": false
+	},
+	"vertical_g5": {
+		"definition": "fall_reduction_+5%",
+		"x": -180,
+		"y": -510,
+		"root": false
+	},
+	"vertical_g6": {
+		"definition": "extra_jumps_+1",
+		"x": -150,
+		"y": -570,
+		"root": false
+	},
+	"vertical_g7": {
+		"definition": "air_dash_+1",
+		"x": -120,
+		"y": -630,
+		"root": false
+	},
+	"vertical_1": {
+		"definition": "extra_jumps_+1",
+		"x": -180,
+		"y": -420,
+		"root": false
+	},
+	"vertical_cap": {
+		"definition": "vertical_cap",
+		"x": -60,
+		"y": -630,
+		"root": false
+	},
+	"glide_g2": {
+		"definition": "paragliding_stamina_efficiency_+5%",
+		"x": 90,
+		"y": -300,
+		"root": false
+	},
+	"glide_g3": {
+		"definition": "paraglider_stamina_recovery_+10%",
+		"x": 120,
+		"y": -360,
+		"root": false
+	},
+	"glide_g4": {
+		"definition": "paragliding_stamina_efficiency_+5%",
+		"x": 240,
+		"y": -480,
+		"root": false
+	},
+	"glide_g9": {
+		"definition": "paraglider_stamina_recovery_+5%",
+		"x": 150,
+		"y": -570,
+		"root": false
+	},
+	"glide_g10": {
+		"definition": "paraglider_max_stamina_+100",
+		"x": 120,
+		"y": -630,
+		"root": false
+	},
+	"glide_cap": {
+		"definition": "glide_cap",
+		"x": 60,
+		"y": -630,
+		"root": false
+	},
+	"moment_g1": {
+		"definition": "movement_speed_+5%",
+		"x": -210,
+		"y": 150,
+		"root": false
+	},
+	"moment_cap": {
+		"definition": "moment_cap",
+		"x": -570,
+		"y": 150,
+		"root": false
+	},
+	"aqua_g1": {
+		"definition": "swim_speed_+5%",
+		"x": -210,
+		"y": 30,
+		"root": false
+	},
+	"aqua_g2": {
+		"definition": "swim_speed_+5%",
+		"x": -300,
+		"y": -90,
+		"root": false
+	},
+	"aqua_g3": {
+		"definition": "oxygen_bonus_+1",
+		"x": -240,
+		"y": -30,
+		"root": false
+	},
+	"aqua_cap": {
+		"definition": "aqua_cap",
+		"x": -570,
+		"y": 30,
+		"root": false
+	},
+	"travel_g1": {
+		"definition": "mount_speed_+5%",
+		"x": 240,
+		"y": -30,
+		"root": false
+	},
+	"travel_cap": {
+		"definition": "travel_cap",
+		"x": 570,
+		"y": 150,
+		"root": false
+	},
+	"sustain_g1": {
+		"definition": "dodge_chance_+2%",
+		"x": 210,
+		"y": 30,
+		"root": false
+	},
+	"sustain_g2": {
+		"definition": "stamina_+1",
+		"x": 210,
+		"y": 150,
+		"root": false
+	},
+	"sustain_g3": {
+		"definition": "stamina_+2",
+		"x": 300,
+		"y": 270,
+		"root": false
+	},
+	"sustain_g4": {
+		"definition": "armor_durability_+1",
+		"x": 360,
+		"y": 330,
+		"root": false
+	},
+	"sustain_g6": {
+		"definition": "consuming_speed_+5%",
+		"x": 270,
+		"y": 330,
+		"root": false
+	},
+	"sustain_g7": {
+		"definition": "consuming_speed_+10%",
+		"x": 240,
+		"y": 210,
+		"root": false
+	},
+	"sustain_cap": {
+		"definition": "sustain_cap",
+		"x": 570,
+		"y": 30,
+		"root": false
+	},
+	"glide_g1": {
+		"definition": "paraglider_max_stamina_+100",
+		"x": 60,
+		"y": -240,
+		"root": false
+	},
+	"vertical_g4": {
+		"definition": "safe_fall_distance_+2",
+		"x": -180,
+		"y": -330,
+		"root": false
+	},
+	"vertical_g9": {
+		"definition": "safe_fall_distance_+2",
+		"x": -240,
+		"y": -360,
+		"root": false
+	},
+	"vertical_g11": {
+		"definition": "safe_fall_distance_+2",
+		"x": -270,
+		"y": -420,
+		"root": false
+	},
+	"vertical_g8": {
+		"definition": "fall_reduction_+5%",
+		"x": -90,
+		"y": -420,
+		"root": false
+	},
+	"vertical_g10": {
+		"definition": "fall_reduction_+5%",
+		"x": -120,
+		"y": -480,
+		"root": false
+	},
+	"vertical_2": {
+		"definition": "wall_climb_+3",
+		"x": -240,
+		"y": -480,
+		"root": false
+	},
+	"glide_g7": {
+		"definition": "paraglider_max_stamina_+250",
+		"x": 180,
+		"y": -420,
+		"root": false
+	},
+	"glide_g5": {
+		"definition": "paraglider_stamina_recovery_+5%",
+		"x": 180,
+		"y": -330,
+		"root": false
+	},
+	"glide_g8": {
+		"definition": "paraglider_stamina_recovery_+5%",
+		"x": 240,
+		"y": -360,
+		"root": false
+	},
+	"glide_g12": {
+		"definition": "paraglider_stamina_recovery_+5%",
+		"x": 270,
+		"y": -420,
+		"root": false
+	},
+	"glide_g13": {
+		"definition": "paraglider_max_stamina_+100",
+		"x": 180,
+		"y": -510,
+		"root": false
+	},
+	"glide_g11": {
+		"definition": "paragliding_stamina_efficiency_+5%",
+		"x": 120,
+		"y": -480,
+		"root": false
+	},
+	"glide_g6": {
+		"definition": "paragliding_stamina_efficiency_+5%",
+		"x": 90,
+		"y": -420,
+		"root": false
+	},
+	"moment_g6": {
+		"definition": "combat_roll_count_+1",
+		"x": -360,
+		"y": 330,
+		"root": false
+	},
+	"moment_g2": {
+		"definition": "combat_roll_recharge_-0.5",
+		"x": -240,
+		"y": 210,
+		"root": false
+	},
+	"moment_g3": {
+		"definition": "combat_roll_recharge_-0.5",
+		"x": -300,
+		"y": 270,
+		"root": false
+	},
+	"moment_g4": {
+		"definition": "movement_speed_+5%",
+		"x": -270,
+		"y": 330,
+		"root": false
+	},
+	"moment_g7": {
+		"definition": "movement_speed_+5%",
+		"x": -300,
+		"y": 390,
+		"root": false
+	},
+	"moment_g9": {
+		"definition": "movement_speed_+5%",
+		"x": -360,
+		"y": 420,
+		"root": false
+	},
+	"moment_g5": {
+		"definition": "combat_roll_distance_+1",
+		"x": -360,
+		"y": 240,
+		"root": false
+	},
+	"moment_g8": {
+		"definition": "combat_roll_distance_+1",
+		"x": -420,
+		"y": 270,
+		"root": false
+	},
+	"moment_1": {
+		"definition": "wall_climb_+3",
+		"x": -450,
+		"y": 330,
+		"root": false
+	},
+	"moment_g10": {
+		"definition": "combat_roll_distance_+1",
+		"x": -420,
+		"y": 390,
+		"root": false
+	},
+	"moment_g11": {
+		"definition": "sprinting_speed_+10%",
+		"x": -510,
+		"y": 300,
+		"root": false
+	},
+	"moment_g12": {
+		"definition": "sprinting_speed_+10%",
+		"x": -570,
+		"y": 270,
+		"root": false
+	},
+	"aqua_g6": {
+		"definition": "oxygen_bonus_+5",
+		"x": -360,
+		"y": -150,
+		"root": false
+	},
+	"aqua_g7": {
+		"definition": "oxygen_bonus_+1",
+		"x": -300,
+		"y": -210,
+		"root": false
+	},
+	"aqua_g4": {
+		"definition": "oxygen_bonus_+1",
+		"x": -270,
+		"y": -150,
+		"root": false
+	},
+	"aqua_g9": {
+		"definition": "oxygen_bonus_+1",
+		"x": -360,
+		"y": -240,
+		"root": false
+	},
+	"aqua_g11": {
+		"definition": "swim_speed_+10%",
+		"x": -450,
+		"y": -150,
+		"root": false
+	},
+	"aqua_g10": {
+		"definition": "swim_speed_+5%",
+		"x": -420,
+		"y": -210,
+		"root": false
+	},
+	"aqua_g8": {
+		"definition": "swim_speed_+5%",
+		"x": -420,
+		"y": -90,
+		"root": false
+	},
+	"aqua_g5": {
+		"definition": "swim_speed_+5%",
+		"x": -360,
+		"y": -60,
+		"root": false
+	},
+	"aqua_g12": {
+		"definition": "swim_speed_+10%",
+		"x": -510,
+		"y": -120,
+		"root": false
+	},
+	"aqua_g13": {
+		"definition": "swim_speed_+25%",
+		"x": -570,
+		"y": -90,
+		"root": false
+	},
+	"sustain_g9": {
+		"definition": "consuming_speed_+5%",
+		"x": 300,
+		"y": 390,
+		"root": false
+	},
+	"sustain_g11": {
+		"definition": "consuming_speed_+5%",
+		"x": 360,
+		"y": 420,
+		"root": false
+	},
+	"sustain_g13": {
+		"definition": "stamina_+1",
+		"x": 420,
+		"y": 390,
+		"root": false
+	},
+	"sustain_g12": {
+		"definition": "consuming_speed_+5%",
+		"x": 450,
+		"y": 330,
+		"root": false
+	},
+	"sustain_g10": {
+		"definition": "stamina_+1",
+		"x": 420,
+		"y": 270,
+		"root": false
+	},
+	"sustain_g5": {
+		"definition": "stamina_+1",
+		"x": 360,
+		"y": 240,
+		"root": false
+	},
+	"sustain_g15": {
+		"definition": "stamina_+1",
+		"x": 510,
+		"y": 300,
+		"root": false
+	},
+	"travel_g10": {
+		"definition": "consuming_speed_+10%",
+		"x": 570,
+		"y": 270,
+		"root": false
+	},
+	"travel_g2": {
+		"definition": "sneaking_speed_+10%",
+		"x": 300,
+		"y": -90,
+		"root": false
+	},
+	"travel_g5": {
+		"definition": "dodge_chance_+5%",
+		"x": 360,
+		"y": -150,
+		"root": false
+	},
+	"travel_g4": {
+		"definition": "mount_speed_+10%",
+		"x": 360,
+		"y": -60,
+		"root": false
+	},
+	"travel_g7": {
+		"definition": "mount_speed_+10%",
+		"x": 420,
+		"y": -90,
+		"root": false
+	},
+	"sustain_g8": {
+		"definition": "mount_speed_+10%",
+		"x": 450,
+		"y": -150,
+		"root": false
+	},
+	"travel_g9": {
+		"definition": "mount_speed_+10%",
+		"x": 420,
+		"y": -210,
+		"root": false
+	},
+	"travel_g8": {
+		"definition": "sneaking_speed_+10%",
+		"x": 360,
+		"y": -240,
+		"root": false
+	},
+	"travel_g6": {
+		"definition": "sneaking_speed_+10%",
+		"x": 300,
+		"y": -210,
+		"root": false
+	},
+	"travel_g3": {
+		"definition": "sneaking_speed_+10%",
+		"x": 270,
+		"y": -150,
+		"root": false
+	},
+	"sustain_g14": {
+		"definition": "sneaking_speed_+10%",
+		"x": 510,
+		"y": -120,
+		"root": false
+	},
+	"sustain_g16": {
+		"definition": "mount_speed_+10%",
+		"x": 570,
+		"y": -90,
+		"root": false
+	}
+}

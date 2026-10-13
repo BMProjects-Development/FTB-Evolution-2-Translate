@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/boron"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "colossal_reactors:boron_dust"
+    }
+  ],
+  "time": 100
+}

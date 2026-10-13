@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/chromium"
+  },
+  "result": {
+    "id": "colossal_reactors:chromium_block",
+    "count": 1
+  }
+}

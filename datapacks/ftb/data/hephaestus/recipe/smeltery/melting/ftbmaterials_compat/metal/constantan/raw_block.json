@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:storage_blocks/raw_constantan",
+  "result": {
+    "amount": 810,
+    "id": "hephaestus:molten_constantan"
+  },
+  "temperature": 1220,
+  "time": 250
+}

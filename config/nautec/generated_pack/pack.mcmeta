@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Nautec generated content. pack.mcmeta is managed by the mod and gets rewritten; everything under data/ is yours to edit.",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

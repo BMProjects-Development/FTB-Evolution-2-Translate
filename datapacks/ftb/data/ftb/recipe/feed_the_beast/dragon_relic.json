@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "iceandfire:dragonbone",
+  "cast_consumed": true,
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 360,
+    "id": "ftb:molten_dragonsteel_fire"
+  },
+  "result": {
+    "count": 1,
+    "id": "ftb:dragon_relic"
+  }
+}

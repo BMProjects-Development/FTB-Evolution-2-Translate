@@ -1,0 +1,59 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "ftb:beast_core",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:beast_mind",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:beast_soul",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:hunt_standard",
+      "count": 2
+    },
+    {
+      "ingredient": "ftb:tectonic_ingot",
+      "count": 2
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 4
+    },
+    {
+      "ingredient": "minecraft:heavy_core",
+      "count": 3
+    },
+    {
+      "ingredient": "ftb:ultradense_antimatter",
+      "count": 8
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_block",
+      "count": 8
+    }
+  ],
+  "fluids": [
+    {
+      "id": "justdirethings:time_fluid_source",
+      "amount": 16000
+    },
+    {
+      "id": "justdirethings:refined_t4_fluid_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "ftb:beast_heart"
+    }
+  ],
+  "ticks": 3600,
+  "energy_per_tick": 40000000,
+  "stage": "ftb_beast_phase4"
+}

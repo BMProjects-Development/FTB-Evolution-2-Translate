@@ -1,0 +1,27 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:lapis_block",
+      "count": 16
+    },
+    {
+      "ingredient": "energizedpower:energized_gold_ingot",
+      "count": 8
+    }
+  ],
+  "fluids": [
+    {
+      "id": "ftb:industrial_coolant",
+      "amount": 8000
+    }
+  ],
+  "results": [
+    {
+      "id": "energizedpower:crystallized_lapis_lazuli",
+      "count": 32
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 150000
+}

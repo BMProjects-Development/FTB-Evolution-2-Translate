@@ -1,0 +1,121 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(1.25 * level^2.6 + 300, 9000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"stone_ores": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:ores_in_ground/stone"
+								}
+							}
+						]
+					},					
+					"deepslate_ores": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:ores_in_ground/deepslate"
+								}
+							}
+						]
+					},
+					"nether_ores": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:ores_in_ground/netherrack"
+								}
+							}
+						]
+					},
+					"end_ores": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:ores_in_ground/end_stone"
+								}
+							}
+						]
+					},
+					"obsidian": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:obsidians"
+								}
+							}
+						]
+					},
+					"skystone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "ae2:sky_stone_block"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "stone_ores",
+						"expression": "5"
+					},				
+					{
+						"condition": "deepslate_ores",
+						"expression": "10"
+					},
+					{
+						"condition": "nether_ores",
+						"expression": "10"
+					},
+					{
+						"condition": "end_ores",
+						"expression": "15"
+					},
+					{
+						"condition": "obsidian",
+						"expression": "10"
+					},
+					{
+						"condition": "skystone",
+						"expression": "10"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ingots/aluminum",
+  "result": {
+    "id": "ftbmaterials:aluminum_dust"
+  },
+  "time": 16
+}

@@ -1,0 +1,620 @@
+{
+  id: "0B06E5BDCF0EF1C5",
+  order_index: 20,
+  icon: {
+    id: "pipez:item_pipe",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "07A5D539B2ABBB3D",
+      item: {
+        id: "pipez:item_pipe",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "30EA18F0B80A17A9",
+      item: {
+        id: "pipez:fluid_pipe",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "4A9F10A3461FBB8B",
+      item: {
+        id: "pipez:energy_pipe",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "71AA5E463D7FBDFB",
+      item: {
+        id: "pipez:basic_upgrade",
+        count: 1,
+      },
+      count: 4,
+      weight: 8.0,
+    },
+    {
+      id: "62325268553983BC",
+      item: {
+        id: "nodeworks:pipe",
+        count: 1,
+      },
+      count: 16,
+      weight: 8.0,
+    },
+    {
+      id: "0D7AF9FD00872EEA",
+      item: {
+        id: "pipez:universal_pipe",
+        count: 1,
+      },
+      count: 8,
+      weight: 5.0,
+    },
+    {
+      id: "7EE2B3E3F0E491E3",
+      item: {
+        id: "pipez:improved_upgrade",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "424D73C7BBFA510B",
+      item: {
+        id: "laserio:laser_node",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "5F685007869C6370",
+      item: {
+        id: "laserio:laser_connector",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "21B72FB5BFB6F7EE",
+      item: {
+        id: "laserio:card_item",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "6FCDE17AE55B3A9D",
+      item: {
+        id: "laserio:card_fluid",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "00F319A1F6CB97F3",
+      item: {
+        id: "laserio:card_energy",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7A052697BA1BF63A",
+      item: {
+        id: "laserio:card_redstone",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6B16FFC68F9978A3",
+      item: {
+        id: "laserio:logic_chip",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "523DF733D3B78065",
+      item: {
+        id: "modularrouters:modular_router",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "295DE156F9D14337",
+      item: {
+        id: "modularrouters:blank_module",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "0DE32E1B07D0B2B9",
+      item: {
+        id: "modularrouters:sender_module_1",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "40A0DD59FFCE0208",
+      item: {
+        id: "modularrouters:puller_module_1",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "1C87AD1D300D8402",
+      item: {
+        id: "modularrouters:dropper_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "5F25F5EA54C92300",
+      item: {
+        id: "modularrouters:placer_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "7E50234F3F9B8732",
+      item: {
+        id: "modularrouters:breaker_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "49AE4AFC18A702BF",
+      item: {
+        id: "modularrouters:vacuum_module",
+        count: 1,
+      },
+      weight: 5.0,
+    },
+    {
+      id: "6C958BE22E09560A",
+      item: {
+        id: "modularrouters:stack_upgrade",
+        count: 1,
+      },
+      count: 3,
+      weight: 5.0,
+    },
+    {
+      id: "462B987AD9B597AA",
+      item: {
+        id: "modularrouters:speed_upgrade",
+        count: 1,
+      },
+      count: 3,
+      weight: 5.0,
+    },
+    {
+      id: "48645C37CECFF4D7",
+      item: {
+        id: "integrateddynamics:variable",
+        count: 1,
+      },
+      count: 16,
+      weight: 5.0,
+    },
+    {
+      id: "1C13B7349880D0D0",
+      item: {
+        id: "nodeworks:node",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "4600E7362950D553",
+      item: {
+        id: "nodeworks:blank_card",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "7DB639FEC75EAF94",
+      item: {
+        id: "nodeworks:io_card",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "24A036041DDF6B70",
+      item: {
+        id: "pipez:advanced_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "17C94AE14B54DC42",
+      item: {
+        id: "pipez:gas_pipe",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "215EA76735730C38",
+      item: {
+        id: "laserio:filter_basic",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "487156D9BCBF7E9B",
+      item: {
+        id: "laserio:filter_count",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6F5AC3A1F111DA10",
+      item: {
+        id: "laserio:filter_tag",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "772F8AC934699F1E",
+      item: {
+        id: "laserio:filter_mod",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "28B878DCE4D73F1F",
+      item: {
+        id: "laserio:filter_nbt",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1D8F133BD8C2E2B2",
+      item: {
+        id: "laserio:laser_wrench",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "7D75A38EEDFB99EC",
+      item: {
+        id: "modularrouters:sender_module_2",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3E4800B7B0E20F06",
+      item: {
+        id: "modularrouters:puller_module_2",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "31A5CD0495DF009E",
+      item: {
+        id: "modularrouters:fluid_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "6057D10954179D7E",
+      item: {
+        id: "modularrouters:activator_module",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "26AA05819AF57C9F",
+      item: {
+        id: "modularrouters:blank_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "61B09A8A03D8F866",
+      item: {
+        id: "modularrouters:muffler_upgrade",
+        count: 1,
+      },
+      count: 3,
+      weight: 3.0,
+    },
+    {
+      id: "306FD65AD986E259",
+      item: {
+        id: "modularrouters:camouflage_upgrade",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "44FE4555BCDFF419",
+      item: {
+        id: "modularrouters:fluid_upgrade",
+        count: 1,
+      },
+      count: 5,
+      weight: 3.0,
+    },
+    {
+      id: "5FFE0A5991717D21",
+      item: {
+        id: "modularrouters:energy_upgrade",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "24E520C0AA279E79",
+      item: {
+        id: "itemcollectors:basic_collector",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "65E95EA410BA4C47",
+      item: {
+        id: "simplemagnets:basicmagnet",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "59772D753B4A94A3",
+      item: {
+        id: "nodeworks:redstone_card",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "595C1A83C649C730",
+      item: {
+        id: "nodeworks:observer_card",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0A0C7EA00D1A8DEC",
+      item: {
+        id: "nodeworks:breaker",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "1AB9B3AB0A8E1774",
+      item: {
+        id: "nodeworks:placer",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "71C189B019413538",
+      item: {
+        id: "nodeworks:terminal",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "11094F9A7994179A",
+      item: {
+        id: "nodeworks:variable",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "140B720DCEB96170",
+      item: {
+        id: "neovitae:input_routing_node",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "2DEA6F191F8AC80D",
+      item: {
+        id: "neovitae:output_routing_node",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "122B979EF09DC30A",
+      item: {
+        id: "neovitae:routing_conduit",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "1D2C9916FD83EA3E",
+      item: {
+        id: "laserio:overclocker_card",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "65434282E4CA4F47",
+      item: {
+        id: "laserio:laser_connector_advanced",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3100DE98E379F20C",
+      item: {
+        id: "modularrouters:sender_module_3",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "236EC1B81F34917A",
+      item: {
+        id: "modularrouters:energy_distributor_module",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "3CB34ADA53CBC45B",
+      item: {
+        id: "modularrouters:player_module",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6DB0D3BEAE2F8CF1",
+      item: {
+        id: "simplemagnets:advancedmagnet",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2ADAFF1BFF01D735",
+      item: {
+        id: "itemcollectors:advanced_collector",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1317F81D1775D05C",
+      item: {
+        id: "nodeworks:network_controller",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4179584BC10F2825",
+      item: {
+        id: "nodeworks:focus_node",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7278676A42355564",
+      item: {
+        id: "nodeworks:card_programmer",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "15D031BDDCD086C2",
+      item: {
+        id: "neovitae:omni_routing_node",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "57EDC5D672FEA930",
+      item: {
+        id: "neovitae:node_router",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "4C7D9D4690CC05B5",
+      item: {
+        id: "neovitae:master_core",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "38D31326E3523AD6",
+      item: {
+        id: "neovitae:master_core_speed",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "6D126784A5815E6D",
+      item: {
+        id: "pipez:ultimate_upgrade",
+        count: 1,
+      },
+    },
+    {
+      id: "0C76F182034CF94D",
+      item: {
+        id: "neovitae:master_routing_node",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_logistics",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.random_logistics",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

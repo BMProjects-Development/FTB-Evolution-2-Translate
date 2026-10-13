@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "ftbmaterials:nickel_raw_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:nickel_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:nickel_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

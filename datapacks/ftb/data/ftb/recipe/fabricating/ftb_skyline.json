@@ -1,0 +1,22 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "belts:improved_belt", "count": 32 },
+    { "ingredient": "xycraft_machines:ignition_plate", "count": 1 },
+    { "ingredient": "laserio:logic_chip", "count": 16 },
+    { "ingredient": "dimstorage:dimensional_tank", "count": 1 },
+    { "ingredient": "ftbmaterials:steel_plate", "count": 32 },
+    { "ingredient": "nodeworks:broadcast_antenna", "count": 1 },
+    { "ingredient": "ftbic:overclocked_heat_vent", "count": 2 },
+    { "ingredient": "stellaris:cargo_unloader", "count": 1 },
+    { "ingredient": "ltxi:machine_housing", "count": 8 }
+  ],
+  "fluids": [
+    { "id": "enderio:fluid_rocket_fuel_still", "amount": 10000 }
+  ],
+  "results": [
+    { "id": "ftbevolutioncompanion:ftb_skyline" }
+  ],
+  "ticks": 1000,
+  "energy_per_tick": 20000
+}

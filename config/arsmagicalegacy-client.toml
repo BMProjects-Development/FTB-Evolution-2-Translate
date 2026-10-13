@@ -1,0 +1,80 @@
+#The 'quality' value of the algorithm that calculates the crystal phylactery colors. Lower value means more accurate results and more calculation cost, however lower values have diminishing returns.
+# Default: 5
+# Range: 1 ~ 10
+crystal_phylactery_model_quality = 5
+
+#Configuration for the various GUI layers in this mod.
+[gui_layers]
+
+	#Configuration for the mana, burnout and level bars. The size of the layer is 80x40.
+	[gui_layers.bars]
+		#Horizontal position of the mana, burnout and level bars.
+		# Default: 6
+		# Range: -32768 ~ 32767
+		x = 6
+		#Vertical position of the mana, burnout and level bars.
+		# Default: -44
+		# Range: -32768 ~ 32767
+		y = -44
+		#Horizontal anchor of the mana, burnout and level bars.
+		#Allowed Values: LEFT, CENTER, RIGHT
+		anchor_x = "LEFT"
+		#Vertical anchor of the mana, burnout and level bars.
+		#Allowed Values: TOP, MIDDLE, BOTTOM
+		anchor_y = "BOTTOM"
+		#If true, renders the bars in order level number -> level bar -> mana bar -> burnout bar.
+		#If false, renders the bars in order mana bar -> burnout bar -> level bar -> level number.
+		render_level_at_top = true
+		#Whether to show the exact values for mana, burnout and xp.
+		show_values = false
+
+	#Configuration for the shape groups GUI layer. The size of the layer is 180x36.
+	[gui_layers.shape_groups]
+		#Horizontal position of the shape groups GUI layer.
+		# Default: 2
+		# Range: -32768 ~ 32767
+		x = 2
+		#Vertical position of the shape groups GUI layer.
+		# Default: 2
+		# Range: -32768 ~ 32767
+		y = 2
+		#Horizontal anchor of the shape groups GUI layer.
+		#Allowed Values: LEFT, CENTER, RIGHT
+		anchor_x = "LEFT"
+		#Vertical anchor of the shape groups GUI layer.
+		#Allowed Values: TOP, MIDDLE, BOTTOM
+		anchor_y = "TOP"
+
+	#Configuration for the spell book GUI layer. The size of the layer is 111x17.
+	[gui_layers.spell_book]
+		#Horizontal position of the shape groups GUI layer.
+		# Default: 94
+		# Range: -32768 ~ 32767
+		x = 94
+		#Vertical position of the shape groups GUI layer.
+		# Default: -20
+		# Range: -32768 ~ 32767
+		y = -20
+		#Horizontal anchor of the shape groups GUI layer.
+		#Allowed Values: LEFT, CENTER, RIGHT
+		anchor_x = "CENTER"
+		#Vertical anchor of the shape groups GUI layer.
+		#Allowed Values: TOP, MIDDLE, BOTTOM
+		anchor_y = "BOTTOM"
+
+	#Configuration for the life ward GUI layer. The size of the layer is 111x17.
+	[gui_layers.life_ward]
+		#Horizontal position of the life ward GUI layer.
+		# Default: -91
+		# Range: -32768 ~ 32767
+		x = -91
+		#Vertical position of the life ward GUI layer.
+		# Default: -39
+		# Range: -32768 ~ 32767
+		y = -39
+		#Horizontal anchor of the life ward GUI layer.
+		#Allowed Values: LEFT, CENTER, RIGHT
+		anchor_x = "CENTER"
+		#Vertical anchor of the life ward GUI layer.
+		#Allowed Values: TOP, MIDDLE, BOTTOM
+		anchor_y = "BOTTOM"

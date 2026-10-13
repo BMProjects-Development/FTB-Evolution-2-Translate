@@ -1,0 +1,25 @@
+#Determines whether Nautec's ocean biomes are added to the world's biome layout. Turning this off leaves vanilla oceans untouched
+#This only applies when Lithostitched is absent. With Lithostitched installed, placement comes from the biome injectors in data/nautec/lithostitched/biome_injector, which a datapack can override or empty out
+enableBiomeInjection = true
+#The multi-noise presets Nautec's ocean biomes are added to. Packs using a custom overworld preset should list it here
+#Ignored when Lithostitched is installed, since the biome injectors target the overworld dimension directly and work with Terralith and Tectonic
+injectableWorldPresets = ["minecraft:overworld"]
+
+#Options for skyblock and void-world packs, where NauTec's oceans, structures and ocean mobs do not exist. Every option is off by default and each one can be turned on alone
+#The recipe options take effect on the next world load or /reload. Datapacks can check any of them with the nautec:skyblock_option recipe condition or loot condition
+#The Deep Sea Drain and Tidal Rotor ocean check is a separate per-world setting, drainRequiresOcean in nautec-common.toml
+[skyblock]
+	#Determines whether lucky fishing zones can appear on any open water instead of only in ocean and river biomes. Zones still need a ring of open water around them, so a player-built pool works and a bigger pool gets more zones
+	luckyZonesAnyBiome = false
+	#Determines whether lucky fishing zone catches count as ocean catches in any biome, and adds Prismarine Sand, Prismarine Shards and the Heart of the Sea to the zone loot. Catches from NauTec's own biomes are unchanged
+	skyblockFishingLoot = false
+	#Determines whether the Grafting Tool ignores the biome listed in the nautec:bacteria_obtaining data map. The block and the chance still apply
+	graftingAnyBiome = true
+	#Enables a Mixer recipe that makes Prismarine Sand from sand, a Prismarine Crystal Shard and Salt Water
+	prismarineSandMixing = false
+	#Enables a Mixer recipe that makes Budding Prismarine from Prismarine Bricks, Prismarine Crystals, Prismarine Crystal Shards and Salt Water
+	buddingPrismarineMixing = false
+	#Enables Laser Crafting Matrix recipes that make Resonant Shards and Prismarine Crystal Seeds at purity 2.5, which a Bacterial Fuel Cell can reach without a Prismarine Crystal. The colony needs full mutation resistance to get there
+	fuelCellResonance = false
+	#Enables a Mixer recipe that makes an Eldritch Heart from a Heart of the Sea, Resonant Shards, Prismarine Crystal Shards and EAS
+	eldritchHeartMixing = true

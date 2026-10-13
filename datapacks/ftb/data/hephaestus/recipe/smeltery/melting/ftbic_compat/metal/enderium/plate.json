@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:plates/enderium",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_enderium"
+  },
+  "temperature": 1450,
+  "time": 100
+}

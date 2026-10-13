@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 15000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 2,
+      "ingredient": "minecraft:slime_ball"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:crystalline_alloy_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:dyes/pink"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_evolution:crystalline_pink_slime_ingot"
+  }
+}

@@ -1,0 +1,510 @@
+{
+  id: "190CBB87E505D066",
+  group: "4780068BA76609B8",
+  order_index: 14,
+  icon: {
+    id: "xycraft_machines:hydro_pump",
+    count: 1,
+  },
+  filename: "xycraft",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "6040C9A591AB15B1",
+  quests: [
+    {
+      icon: {
+        id: "xycraft_machines:aluminum_wrench",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "6040C9A591AB15B1",
+      tasks: [
+        {
+          id: "226D2FE176DB64FF",
+          type: "item",
+          item: {
+            id: "xycraft_machines:aluminum_wrench",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4EF519850BD5E223",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+        {
+          id: "02BDC1390898EF3C",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:water_essence",
+            count: 1,
+          },
+        },
+        {
+          id: "700474F23F688976",
+          type: "item",
+          item: {
+            id: "mysticalagriculture:stone_essence",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "28C4F220C243DBC4",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:void_container",
+        count: 1,
+      },
+      x: -4.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "6040C9A591AB15B1",
+      ],
+      size: 1.0,
+      id: "466E6370698523ED",
+      tasks: [
+        {
+          id: "36D710E64AF9DBE5",
+          type: "item",
+          item: {
+            id: "xycraft_machines:void_container",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4EE7B99D2FEB0DC0",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "46086E6AEFE77A44",
+          type: "item",
+          item: {
+            id: "xycraft_world:xychorium_gem_light",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "1261EB866FCC7D31",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:light_field",
+        count: 1,
+      },
+      x: 4.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "6040C9A591AB15B1",
+      ],
+      size: 1.0,
+      id: "593E47320A36238A",
+      tasks: [
+        {
+          id: "414736F9E2A88082",
+          type: "item",
+          item: {
+            id: "xycraft_machines:light_field",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4D9838B079B98685",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2B1703F14F743BAB",
+          type: "item",
+          item: {
+            id: "xycraft_world:xychorium_gem_dark",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "2437FE6A8F6EE5A3",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:hydro_pump",
+        count: 1,
+      },
+      x: -4.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "6040C9A591AB15B1",
+      ],
+      size: 1.5,
+      id: "014788EE0C2123E3",
+      tasks: [
+        {
+          id: "4CF6E98035B176FE",
+          type: "item",
+          item: {
+            id: "xycraft_machines:hydro_pump",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "05A41F6B126167B7",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "61AE09CB866A1960",
+          type: "item",
+          item: {
+            id: "xycraft_world:kivi",
+            count: 1,
+          },
+          count: 16,
+        },
+        {
+          id: "0DAA1DB9A9B5CD02",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:valve",
+        count: 1,
+      },
+      x: -4.5,
+      y: 6.25,
+      shape: "hexagon",
+      dependencies: [
+        "014788EE0C2123E3",
+      ],
+      size: 1.5,
+      id: "77CD6178BCE6BA74",
+      tasks: [
+        {
+          id: "40668A81CD9CBCCD",
+          type: "item",
+          item: {
+            id: "xycraft_machines:valve",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63678311516E5E92",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4EC882381A94FF28",
+          type: "item",
+          item: {
+            id: "xycraft_world:kivi",
+            count: 1,
+          },
+          count: 32,
+        },
+        {
+          id: "726E77509EABD902",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:extractor",
+        count: 1,
+      },
+      x: 0.0,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "6040C9A591AB15B1",
+      ],
+      size: 1.5,
+      id: "5B36590EADA598D2",
+      tasks: [
+        {
+          id: "7E0697E181813958",
+          type: "item",
+          item: {
+            id: "xycraft_machines:extractor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5849ED86BC8EC669",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "2A899DEF65F0BA9B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:buffer",
+        count: 1,
+      },
+      x: 0.0,
+      y: 6.25,
+      shape: "circle",
+      dependencies: [
+        "5B36590EADA598D2",
+      ],
+      size: 1.0,
+      id: "4641683810274034",
+      tasks: [
+        {
+          id: "01278E8FB2D31758",
+          type: "item",
+          item: {
+            id: "xycraft_machines:buffer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "79FF5B2FE05B6E0A",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "6617561BD0161352",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:proxy",
+        count: 1,
+      },
+      x: 0.0,
+      y: 9.0,
+      shape: "circle",
+      dependencies: [
+        "4641683810274034",
+      ],
+      size: 1.0,
+      id: "2C6E51C798A67EFB",
+      tasks: [
+        {
+          id: "711EE3AE3068EEB7",
+          type: "item",
+          item: {
+            id: "xycraft_machines:proxy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6B11602C3F7C66F0",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "6266D2FEDCE37DAD",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:flare_rod",
+        count: 1,
+      },
+      x: 4.5,
+      y: 3.5,
+      shape: "hexagon",
+      dependencies: [
+        "6040C9A591AB15B1",
+      ],
+      size: 1.5,
+      id: "7B24F9613AF8F7E1",
+      tasks: [
+        {
+          id: "6C1DAF55001E899A",
+          type: "item",
+          item: {
+            id: "xycraft_machines:flare_rod",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "115266C1BEF0E54C",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "01FA8A8E0A4C9EE2",
+          type: "item",
+          item: {
+            id: "minecraft:red_dye",
+            count: 1,
+          },
+        },
+        {
+          id: "48A1F7436E6F84C3",
+          type: "item",
+          item: {
+            id: "minecraft:blue_dye",
+            count: 1,
+          },
+        },
+        {
+          id: "2B772BD8CC7667A0",
+          type: "item",
+          item: {
+            id: "minecraft:green_dye",
+            count: 1,
+          },
+        },
+        {
+          id: "53514341BAAC4531",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:magenta_dye",
+        count: 1,
+      },
+      x: 4.5,
+      y: 6.25,
+      shape: "circle",
+      dependencies: [
+        "7B24F9613AF8F7E1",
+      ],
+      size: 1.25,
+      id: "050F04E7BE95E0A1",
+      tasks: [
+        {
+          id: "541846D9293EBED1",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "14B0DAA8D4849FB8",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "xycraft_machines:aluminum_wrench",
+        count: 1,
+      },
+      x: 4.5,
+      y: 9.0,
+      shape: "diamond",
+      dependencies: [
+        "050F04E7BE95E0A1",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5F9CA56A981D5BF6",
+      tasks: [
+        {
+          id: "6F5C8197F71A84C9",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "0B58CFCF27718BF4",
+          type: "xp",
+          xp: 15,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.8,
+      width: 7.0,
+      height: 2.13,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/xycraft_machines.png",
+      id: "04FBEE7FE8F73449",
+    },
+    {
+      x: -4.5,
+      y: 9.2,
+      width: 3.16,
+      height: 3.4,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/xycraft_tank_9x9.png",
+      id: "37AC03DD1BF187A2",
+    },
+  ],
+}

@@ -1,0 +1,62 @@
+{
+  "mysticalagriculture:copper_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:constantan": {
+    "enabled": false
+  },
+  "mysticalagriculture:apatite": {
+    "enabled": false
+  },
+  "mysticalagriculture:lumium": {
+    "enabled": false
+  },
+  "mysticalagriculture:signalum": {
+    "enabled": false
+  },
+  "mysticalagriculture:basalt": {
+    "enabled": false
+  },
+  "mysticalagriculture:brass": {
+    "enabled": false
+  },
+  "mysticalagriculture:bronze": {
+    "enabled": false
+  },
+  "mysticalagriculture:conductive_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:dark_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:end_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:enderium": {
+    "enabled": false
+  },
+  "mysticalagriculture:energetic_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:energized_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:invar": {
+    "enabled": false
+  },
+  "mysticalagriculture:niotic_crystal": {
+    "enabled": false
+  },
+  "mysticalagradditions:nitro_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:pulsating_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:redstone_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:vibrant_alloy": {
+    "enabled": false
+  }
+}

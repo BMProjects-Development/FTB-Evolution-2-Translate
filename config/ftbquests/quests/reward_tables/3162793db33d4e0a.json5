@@ -1,0 +1,497 @@
+{
+  id: "3162793DB33D4E0A",
+  order_index: 11,
+  icon: {
+    id: "minecraft:oak_sapling",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "31C4AF356F6CE20E",
+      item: {
+        id: "minecraft:oak_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "5024B1FE8BD21FA8",
+      item: {
+        id: "minecraft:spruce_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "74BC0A5370308D63",
+      item: {
+        id: "minecraft:birch_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "25974D9998BE93D0",
+      item: {
+        id: "minecraft:jungle_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "464C07E0F7D79C03",
+      item: {
+        id: "minecraft:acacia_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "0CCBA904C81F88E2",
+      item: {
+        id: "minecraft:dark_oak_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "7825BF0EDD0142F4",
+      item: {
+        id: "minecraft:cherry_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "6160D6056B9BD4A0",
+      item: {
+        id: "minecraft:pale_oak_sapling",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "27C960E2A99DD188",
+      item: {
+        id: "minecraft:mangrove_propagule",
+        count: 1,
+      },
+      count: 2,
+      weight: 1.3333,
+    },
+    {
+      id: "4F11EFDBCE8EE37D",
+      item: {
+        id: "minecraft:oak_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "123C8CBE47E6C124",
+      item: {
+        id: "minecraft:spruce_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "0D70ECF406EBEE62",
+      item: {
+        id: "minecraft:birch_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "3C2EED046A97E565",
+      item: {
+        id: "minecraft:jungle_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "07614F178995EE40",
+      item: {
+        id: "minecraft:acacia_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "68D75D82154A0F4E",
+      item: {
+        id: "minecraft:dark_oak_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "055AAF6CB53B2B32",
+      item: {
+        id: "minecraft:mangrove_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "23B07A9E3E477ED4",
+      item: {
+        id: "minecraft:cherry_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "4DC6557DDBA8DE0E",
+      item: {
+        id: "minecraft:pale_oak_log",
+        count: 1,
+      },
+      count: 16,
+      weight: 1.3333,
+    },
+    {
+      id: "404D5D4DA3C86739",
+      item: {
+        id: "fertilization:compressed_bonemeal",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "275F66874105F092",
+      item: {
+        id: "agritechevolved:mulch",
+        count: 1,
+      },
+      count: 8,
+      weight: 6.0,
+    },
+    {
+      id: "3C28750F18ED7C59",
+      item: {
+        id: "minecraft:bone_meal",
+        count: 1,
+      },
+      count: 16,
+      weight: 6.0,
+    },
+    {
+      id: "5EC8C4A1ED7D9380",
+      item: {
+        id: "agritechevolved:crude_biomass",
+        count: 1,
+      },
+      count: 16,
+      weight: 6.0,
+    },
+    {
+      id: "64E46C71413220B0",
+      item: {
+        id: "minecraft:crimson_fungus",
+        count: 1,
+      },
+      count: 2,
+      weight: 4.0,
+    },
+    {
+      id: "44AF9DE29E3ACF37",
+      item: {
+        id: "minecraft:warped_fungus",
+        count: 1,
+      },
+      count: 2,
+      weight: 4.0,
+    },
+    {
+      id: "7C54EBE7314AFEFB",
+      item: {
+        id: "agritechevolved:terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.0816,
+    },
+    {
+      id: "3802A38D8CBBD67E",
+      item: {
+        id: "agritechevolved:white_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "0DA177E2C90B748B",
+      item: {
+        id: "agritechevolved:orange_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "405B0AE7E19DA2B1",
+      item: {
+        id: "agritechevolved:magenta_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "4CD5629A44C052DA",
+      item: {
+        id: "agritechevolved:light_blue_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "646E129633397919",
+      item: {
+        id: "agritechevolved:yellow_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "646F707A5E8CB8B7",
+      item: {
+        id: "agritechevolved:lime_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "7A8F9A1628027379",
+      item: {
+        id: "agritechevolved:pink_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "583272BCFDB23418",
+      item: {
+        id: "agritechevolved:gray_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "0F975B777C1FE0B7",
+      item: {
+        id: "agritechevolved:light_gray_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "10E5D522B82112B1",
+      item: {
+        id: "agritechevolved:cyan_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "335856074D0BCCFF",
+      item: {
+        id: "agritechevolved:purple_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "2DED735898D2F242",
+      item: {
+        id: "agritechevolved:blue_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "448F171DAED1506E",
+      item: {
+        id: "agritechevolved:brown_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "546E5CDB1E9C1883",
+      item: {
+        id: "agritechevolved:green_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "054C2D69392E34FD",
+      item: {
+        id: "agritechevolved:red_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "44AA4BBB74826B2D",
+      item: {
+        id: "agritechevolved:black_terracotta_planter",
+        count: 1,
+      },
+      random_bonus: 2,
+      weight: 0.2449,
+    },
+    {
+      id: "580DBEE315F1ED07",
+      item: {
+        id: "productivefarming:pollen",
+        count: 1,
+      },
+      count: 4,
+      weight: 4.0,
+    },
+    {
+      id: "6FCBBF9F11041BC5",
+      item: {
+        id: "fertilization:florists_bonemeal",
+        count: 1,
+      },
+      count: 8,
+      weight: 2.0,
+    },
+    {
+      id: "02B5B90780701487",
+      item: {
+        id: "agritechevolved:basic_planter",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "208395EF2DC9A019",
+      item: {
+        id: "arsmagicalegacy:witchwood_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1EC114356FC53A0B",
+      item: {
+        id: "integrateddynamics:menril_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "71A38B596489E5EA",
+      item: {
+        id: "evilcraft:undead_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "75F9C31149D976B5",
+      item: {
+        id: "witchery:rowan_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "66D658EE23F47A73",
+      item: {
+        id: "witchery:alder_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "2133D6C04B3FD0E5",
+      item: {
+        id: "witchery:hawthorn_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "1ED4B1B12C466AE8",
+      item: {
+        id: "occultism:otherworld_sapling_natural",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "7959F47E7E9C09E2",
+      item: {
+        id: "animusnv:blood_sapling",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "317C6A370390AA7F",
+      item: {
+        id: "fertilization:extremely_compressed_bonemeal",
+        count: 1,
+      },
+      count: 4,
+    },
+    {
+      id: "6E887612B9E5C4DC",
+      item: {
+        id: "growthacceleratortiers:boosted_growth_accelerator",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_garden",
+    color: 5635925,
+    item_name: "ftbquests.loot_crate.random_garden",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

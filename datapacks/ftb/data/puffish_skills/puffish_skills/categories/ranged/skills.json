@@ -1,0 +1,656 @@
+{
+	"ranged_root": {
+		"definition": "ranged_root",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"gunslinger_trunk_1": {
+		"definition": "gun_fire_rate_+5%",
+		"x": 0,
+		"y": 100,
+		"root": false
+	},
+	"gunslinger_trunk_2": {
+		"definition": "gun_air_accuracy_+10%",
+		"x": 0,
+		"y": 200,
+		"root": false
+	},
+	"gunslinger_trunk_3": {
+		"definition": "gun_reload_speed_+5%",
+		"x": 0,
+		"y": 300,
+		"root": false
+	},
+	"gunslinger_hub": {
+		"definition": "gunslinger_hub",
+		"x": 0,
+		"y": 400,
+		"root": false
+	},
+	"marksman_trunk_1": {
+		"definition": "gun_accuracy_+5%",
+		"x": 0,
+		"y": -100,
+		"root": false
+	},
+	"marksman_trunk_2": {
+		"definition": "gun_recoil_control_+10%",
+		"x": 0,
+		"y": -200,
+		"root": false
+	},
+	"marksman_trunk_3": {
+		"definition": "gun_damage_+2%",
+		"x": 0,
+		"y": -300,
+		"root": false
+	},
+	"marksman_hub": {
+		"definition": "marksman_hub",
+		"x": 0,
+		"y": -400,
+		"root": false
+	},
+	"quickdraw_1": {
+		"definition": "gun_fire_rate_+5%",
+		"x": -63,
+		"y": 395,
+		"root": false
+	},
+	"quickdraw_2": {
+		"definition": "gun_reload_speed_+10%",
+		"x": -124,
+		"y": 380,
+		"root": false
+	},
+	"quickdraw_3": {
+		"definition": "gun_air_accuracy_+10%",
+		"x": -182,
+		"y": 356,
+		"root": false
+	},
+	"quickdraw_4": {
+		"definition": "gun_fire_rate_+5%",
+		"x": -235,
+		"y": 324,
+		"root": false
+	},
+	"quickdraw_5": {
+		"definition": "gun_quickdraw_+40%",
+		"x": -283,
+		"y": 283,
+		"root": false
+	},
+	"quickdraw_6": {
+		"definition": "gun_ammo_save_+5%",
+		"x": -324,
+		"y": 235,
+		"root": false
+	},
+	"quickdraw_7": {
+		"definition": "gun_reload_speed_+10%",
+		"x": -356,
+		"y": 182,
+		"root": false
+	},
+	"quickdraw_8": {
+		"definition": "gun_fire_rate_+5%",
+		"x": -380,
+		"y": 124,
+		"root": false
+	},
+	"quickdraw_cap": {
+		"definition": "quickdraw_cap",
+		"x": -395,
+		"y": 63,
+		"root": false
+	},
+	"desperado_1": {
+		"definition": "gun_extra_bullet_+5%",
+		"x": 63,
+		"y": 395,
+		"root": false
+	},
+	"desperado_2": {
+		"definition": "gun_knockback_+0.1",
+		"x": 124,
+		"y": 380,
+		"root": false
+	},
+	"desperado_3": {
+		"definition": "gun_damage_+5%",
+		"x": 182,
+		"y": 356,
+		"root": false
+	},
+	"desperado_4": {
+		"definition": "gun_extra_bullet_+5%",
+		"x": 235,
+		"y": 324,
+		"root": false
+	},
+	"desperado_5": {
+		"definition": "gun_ramping_+1",
+		"x": 283,
+		"y": 283,
+		"root": false
+	},
+	"desperado_6": {
+		"definition": "gun_ammo_save_+5%",
+		"x": 324,
+		"y": 235,
+		"root": false
+	},
+	"desperado_7": {
+		"definition": "gun_knockback_+0.1",
+		"x": 356,
+		"y": 182,
+		"root": false
+	},
+	"desperado_8": {
+		"definition": "gun_extra_bullet_+5%",
+		"x": 380,
+		"y": 124,
+		"root": false
+	},
+	"desperado_cap": {
+		"definition": "desperado_cap",
+		"x": 395,
+		"y": 63,
+		"root": false
+	},
+	"dead_eye_1": {
+		"definition": "gun_accuracy_+5%",
+		"x": -63,
+		"y": -395,
+		"root": false
+	},
+	"dead_eye_2": {
+		"definition": "gun_recoil_control_+10%",
+		"x": -124,
+		"y": -380,
+		"root": false
+	},
+	"dead_eye_3": {
+		"definition": "gun_damage_+5%",
+		"x": -182,
+		"y": -356,
+		"root": false
+	},
+	"dead_eye_4": {
+		"definition": "gun_bullet_speed_+10%",
+		"x": -235,
+		"y": -324,
+		"root": false
+	},
+	"dead_eye_5": {
+		"definition": "gun_piercing_+1",
+		"x": -283,
+		"y": -283,
+		"root": false
+	},
+	"dead_eye_6": {
+		"definition": "gun_accuracy_+10%",
+		"x": -324,
+		"y": -235,
+		"root": false
+	},
+	"dead_eye_7": {
+		"definition": "gun_recoil_control_+10%",
+		"x": -356,
+		"y": -182,
+		"root": false
+	},
+	"dead_eye_8": {
+		"definition": "gun_damage_+5%",
+		"x": -380,
+		"y": -124,
+		"root": false
+	},
+	"dead_eye_cap": {
+		"definition": "dead_eye_cap",
+		"x": -395,
+		"y": -63,
+		"root": false
+	},
+	"tracker_1": {
+		"definition": "gun_seeking_+5%",
+		"x": 63,
+		"y": -395,
+		"root": false
+	},
+	"tracker_2": {
+		"definition": "gun_bullet_speed_+10%",
+		"x": 124,
+		"y": -380,
+		"root": false
+	},
+	"tracker_3": {
+		"definition": "gun_damage_+2%",
+		"x": 182,
+		"y": -356,
+		"root": false
+	},
+	"tracker_4": {
+		"definition": "gun_seeking_+10%",
+		"x": 235,
+		"y": -324,
+		"root": false
+	},
+	"tracker_5": {
+		"definition": "gun_ricochet_+1",
+		"x": 283,
+		"y": -283,
+		"root": false
+	},
+	"tracker_6": {
+		"definition": "gun_bullet_speed_+10%",
+		"x": 324,
+		"y": -235,
+		"root": false
+	},
+	"tracker_7": {
+		"definition": "gun_seeking_+5%",
+		"x": 356,
+		"y": -182,
+		"root": false
+	},
+	"tracker_8": {
+		"definition": "gun_damage_+5%",
+		"x": 380,
+		"y": -124,
+		"root": false
+	},
+	"tracker_cap": {
+		"definition": "tracker_cap",
+		"x": 395,
+		"y": -63,
+		"root": false
+	},
+	"bow_hub": {
+		"definition": "bow_hub",
+		"x": -480,
+		"y": 0,
+		"root": false
+	},
+	"bow_s_g2": {
+		"definition": "arrow_damage_+5%",
+		"x": -586,
+		"y": 21,
+		"root": false
+	},
+	"bow_s_g3": {
+		"definition": "ranged_damage_+5%",
+		"x": -671,
+		"y": 106,
+		"root": false
+	},
+	"bow_s_g4": {
+		"definition": "draw_speed_+5%",
+		"x": -586,
+		"y": -21,
+		"root": false
+	},
+	"bow_s_g5": {
+		"definition": "arrow_damage_+5%",
+		"x": -756,
+		"y": 21,
+		"root": false
+	},
+	"bow_s_g6": {
+		"definition": "ranged_damage_+5%",
+		"x": -671,
+		"y": -21,
+		"root": false
+	},
+	"bow_s_g7": {
+		"definition": "arrow_velocity_+5%",
+		"x": -756,
+		"y": -21,
+		"root": false
+	},
+	"bow_s_g9": {
+		"definition": "ranged_damage_+5%",
+		"x": -841,
+		"y": -21,
+		"root": false
+	},
+	"sharpshooter_g1": {
+		"definition": "ramping_shots_+1",
+		"x": -544,
+		"y": 64,
+		"root": false
+	},
+	"sharpshooter_g2": {
+		"definition": "first_strike_+10%",
+		"x": -586,
+		"y": 106,
+		"root": false
+	},
+	"sharpshooter_g3": {
+		"definition": "arrow_velocity_+10%",
+		"x": -628,
+		"y": 64,
+		"root": false
+	},
+	"sharpshooter_g4": {
+		"definition": "ramping_shots_+1",
+		"x": -671,
+		"y": 21,
+		"root": false
+	},
+	"sharpshooter_g5": {
+		"definition": "first_strike_+10%",
+		"x": -713,
+		"y": 64,
+		"root": false
+	},
+	"sharpshooter_g6": {
+		"definition": "arrow_velocity_+10%",
+		"x": -756,
+		"y": 106,
+		"root": false
+	},
+	"sharpshooter_g7": {
+		"definition": "ramping_shots_+1",
+		"x": -798,
+		"y": 64,
+		"root": false
+	},
+	"sharpshooter_g8": {
+		"definition": "first_strike_+10%",
+		"x": -841,
+		"y": 106,
+		"root": false
+	},
+	"sharpshooter_g9": {
+		"definition": "arrow_velocity_+10%",
+		"x": -883,
+		"y": 64,
+		"root": false
+	},
+	"sharpshooter_g10": {
+		"definition": "first_strike_+10%",
+		"x": -841,
+		"y": 21,
+		"root": false
+	},
+	"sharpshooter_cap": {
+		"definition": "sharpshooter_cap",
+		"x": -968,
+		"y": 64,
+		"root": false
+	},
+	"hunter_g1": {
+		"definition": "arrow_save_+5%",
+		"x": -544,
+		"y": -64,
+		"root": false
+	},
+	"hunter_g2": {
+		"definition": "first_strike_+5%",
+		"x": -586,
+		"y": -106,
+		"root": false
+	},
+	"hunter_g3": {
+		"definition": "arrow_save_+5%",
+		"x": -628,
+		"y": -64,
+		"root": false
+	},
+	"hunter_g4": {
+		"definition": "first_strike_+5%",
+		"x": -671,
+		"y": -106,
+		"root": false
+	},
+	"hunter_g5": {
+		"definition": "arrow_save_+5%",
+		"x": -713,
+		"y": -64,
+		"root": false
+	},
+	"hunter_2": {
+		"definition": "multishot_+1",
+		"x": -756,
+		"y": -106,
+		"root": false
+	},
+	"hunter_g6": {
+		"definition": "first_strike_+5%",
+		"x": -798,
+		"y": -64,
+		"root": false
+	},
+	"hunter_g7": {
+		"definition": "arrow_save_+5%",
+		"x": -841,
+		"y": -106,
+		"root": false
+	},
+	"hunter_g8": {
+		"definition": "first_strike_+5%",
+		"x": -883,
+		"y": -64,
+		"root": false
+	},
+	"hunter_cap": {
+		"definition": "hunter_cap",
+		"x": -968,
+		"y": -64,
+		"root": false
+	},
+	"crossbow_hub": {
+		"definition": "crossbow_hub",
+		"x": 480,
+		"y": 0,
+		"root": false
+	},
+	"crossbow_s_g1": {
+		"definition": "draw_speed_+5%",
+		"x": 628,
+		"y": -64,
+		"root": false
+	},
+	"crossbow_s_g2": {
+		"definition": "arrow_damage_+5%",
+		"x": 586,
+		"y": 21,
+		"root": false
+	},
+	"crossbow_s_g3": {
+		"definition": "ranged_damage_+5%",
+		"x": 713,
+		"y": -64,
+		"root": false
+	},
+	"crossbow_s_g4": {
+		"definition": "draw_speed_+5%",
+		"x": 671,
+		"y": 21,
+		"root": false
+	},
+	"crossbow_s_g5": {
+		"definition": "arrow_damage_+5%",
+		"x": 756,
+		"y": -106,
+		"root": false
+	},
+	"crossbow_s_g7": {
+		"definition": "draw_speed_+5%",
+		"x": 841,
+		"y": 21,
+		"root": false
+	},
+	"crossbow_s_g8": {
+		"definition": "arrow_damage_+5%",
+		"x": 968,
+		"y": -64,
+		"root": false
+	},
+	"crossbow_s_g10": {
+		"definition": "draw_speed_+5%",
+		"x": 925,
+		"y": 21,
+		"root": false
+	},
+	"crossbow_s_g12": {
+		"definition": "arrow_save_+5%",
+		"x": 925,
+		"y": -21,
+		"root": false
+	},
+	"crossbow_s_g13": {
+		"definition": "arrow_save_+5%",
+		"x": 756,
+		"y": 21,
+		"root": false
+	},
+	"arbalest_g1": {
+		"definition": "power_shot_+10%",
+		"x": 544,
+		"y": -64,
+		"root": false
+	},
+	"arbalest_g2": {
+		"definition": "vital_shot_+10%",
+		"x": 586,
+		"y": -21,
+		"root": false
+	},
+	"arbalest_g3": {
+		"definition": "arrow_velocity_+10%",
+		"x": 586,
+		"y": -106,
+		"root": false
+	},
+	"arbalest_g4": {
+		"definition": "power_shot_+10%",
+		"x": 671,
+		"y": -21,
+		"root": false
+	},
+	"arbalest_g5": {
+		"definition": "vital_shot_+10%",
+		"x": 671,
+		"y": -106,
+		"root": false
+	},
+	"arbalest_3": {
+		"definition": "marked_for_death_+1",
+		"x": 798,
+		"y": -64,
+		"root": false
+	},
+	"arbalest_g6": {
+		"definition": "arrow_velocity_+10%",
+		"x": 756,
+		"y": -21,
+		"root": false
+	},
+	"arbalest_g7": {
+		"definition": "power_shot_+10%",
+		"x": 841,
+		"y": -21,
+		"root": false
+	},
+	"arbalest_g8": {
+		"definition": "vital_shot_+10%",
+		"x": 841,
+		"y": -106,
+		"root": false
+	},
+	"arbalest_g9": {
+		"definition": "arrow_velocity_+10%",
+		"x": 883,
+		"y": -64,
+		"root": false
+	},
+	"arbalest_g10": {
+		"definition": "power_shot_+10%",
+		"x": 925,
+		"y": -106,
+		"root": false
+	},
+	"arbalest_cap": {
+		"definition": "arbalest_cap",
+		"x": 1053,
+		"y": -64,
+		"root": false
+	},
+	"mechanist_g1": {
+		"definition": "impale_+1",
+		"x": 544,
+		"y": 64,
+		"root": false
+	},
+	"mechanist_g2": {
+		"definition": "ballista_+5%",
+		"x": 586,
+		"y": 106,
+		"root": false
+	},
+	"mechanist_g3": {
+		"definition": "impale_+1",
+		"x": 628,
+		"y": 64,
+		"root": false
+	},
+	"mechanist_g4": {
+		"definition": "ballista_+5%",
+		"x": 671,
+		"y": 106,
+		"root": false
+	},
+	"mechanist_g5": {
+		"definition": "ballista_+5%",
+		"x": 713,
+		"y": 64,
+		"root": false
+	},
+	"mechanist_1": {
+		"definition": "homing_arrows_+1",
+		"x": 798,
+		"y": 64,
+		"root": false
+	},
+	"mechanist_g6": {
+		"definition": "ballista_+5%",
+		"x": 756,
+		"y": 106,
+		"root": false
+	},
+	"mechanist_g7": {
+		"definition": "ballista_+5%",
+		"x": 841,
+		"y": 106,
+		"root": false
+	},
+	"mechanist_g8": {
+		"definition": "ballista_+5%",
+		"x": 883,
+		"y": 64,
+		"root": false
+	},
+	"mechanist_g9": {
+		"definition": "ballista_+5%",
+		"x": 925,
+		"y": 106,
+		"root": false
+	},
+	"mechanist_g10": {
+		"definition": "ballista_+5%",
+		"x": 968,
+		"y": 64,
+		"root": false
+	},
+	"mechanist_cap": {
+		"definition": "mechanist_cap",
+		"x": 1053,
+		"y": 64,
+		"root": false
+	}
+}

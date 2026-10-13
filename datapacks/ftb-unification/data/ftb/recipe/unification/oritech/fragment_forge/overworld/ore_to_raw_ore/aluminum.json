@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/aluminum"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:aluminum_raw_ore"
+    }
+  ],
+  "time": 40
+}

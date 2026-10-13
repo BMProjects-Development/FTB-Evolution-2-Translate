@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mvs:small_ship",
+      "required": false
+    },
+    {
+      "id": "ati_structures:ancient_vessel",
+      "required": false
+    }
+  ]
+}

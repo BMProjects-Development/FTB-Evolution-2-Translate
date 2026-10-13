@@ -1,0 +1,84 @@
+{
+  "parent": "ftb:evolution/dungeon_delver",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_stone_bricks"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.dungeon_master.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.dungeon_master.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stone_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/stone_temple"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_dungeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/stone_dungeon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "aqua_dungeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/aqua_dungeon"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_dungeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "ftb:dungeons/nether_dungeon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

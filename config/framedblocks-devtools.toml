@@ -1,0 +1,15 @@
+#Enable debug renderer for testing ConnectionPredicates.
+#BlockEntities from add-ons must be registered to the renderer via AttachDebugRenderersEvent.
+connectionDebug = false
+#Enable quad-winding debug renderer to check for issues with quad winding on transformed quads.
+#BlockEntities from add-ons must be registered to the renderer via AttachDebugRenderersEvent.
+quadWindingDebug = false
+#If enabled, all model wrapper registrations will print which state properties of the associated block are used as-is and which ones are handled by a StateMerger
+stateMergerDebug = false
+#Set the regex pattern to filter the blocks for which StateMerger debug logging is enabled.
+#An empty string will disable filtering
+stateMergerDebugFilter = ""
+#If enabled, switches block selection shape rendering to render the occlusion shape instead of the general shape
+occlusionShapeDebug = false
+#Enable debug renderer for Collapsible Block target computation
+collapsibleBlockDebug = false

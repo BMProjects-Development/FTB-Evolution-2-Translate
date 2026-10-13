@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/other/titanium",
+  "result": {
+    "id": "ftbmaterials:titanium_raw_ore"
+  },
+  "secondary": {
+    "id": "ftbmaterials:titanium_raw_ore"
+  },
+  "secondaryChance": 70,
+  "time": 16
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:desh_essence"
+  },
+  "result": {
+    "id": "stellaris:raw_desh",
+    "count": 2
+  }
+}

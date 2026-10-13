@@ -1,0 +1,27 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": "#c:storage_blocks/raw_desh",
+  "outputs": [
+    {
+      "item": {
+        "count": 12,
+        "id": "ftbmaterials:desh_dust"
+      }
+    },
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:desh_dust"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:desh_dust"
+      }
+    }
+  ]
+}

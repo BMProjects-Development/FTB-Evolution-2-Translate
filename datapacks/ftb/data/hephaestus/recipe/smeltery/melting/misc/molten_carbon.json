@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ingots/graphite",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_carbon"
+  },
+  "temperature": 700,
+  "time": 100
+}

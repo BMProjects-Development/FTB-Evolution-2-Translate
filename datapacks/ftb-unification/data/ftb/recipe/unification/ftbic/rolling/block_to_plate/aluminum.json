@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:rolling",
+  "inputs": [
+    {
+      "ingredient": "ftbmaterials:aluminum_block"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "ftbmaterials:aluminum_plate",
+        "count": 9
+      }
+    }
+  ]
+}

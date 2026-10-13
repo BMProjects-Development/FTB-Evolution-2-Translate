@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:chromium_shard",
+    "ftbmaterials:chromium_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:chromium_ingot"
+    }
+  ],
+  "time": 80
+}

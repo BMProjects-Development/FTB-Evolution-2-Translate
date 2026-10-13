@@ -1,0 +1,73 @@
+{
+  id: "74D2721A88E9AAA0",
+  order_index: 0,
+  icon: {
+    id: "mysticalagriculture:inferium_essence",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "7DEFFEF58AE5F00F",
+      item: {
+        id: "mysticalagriculture:inferium_essence",
+        count: 1,
+      },
+      count: 16,
+      random_bonus: 16,
+      weight: 500.0,
+    },
+    {
+      id: "71D88E7A8DBED48D",
+      item: {
+        id: "mysticalagriculture:prudentium_essence",
+        count: 1,
+      },
+      count: 8,
+      random_bonus: 8,
+      weight: 500.0,
+    },
+    {
+      id: "2E237F4D0AD66DB8",
+      item: {
+        id: "mysticalagriculture:tertium_essence",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 8,
+      weight: 400.0,
+    },
+    {
+      id: "756D0AC559F47E5A",
+      item: {
+        id: "mysticalagriculture:imperium_essence",
+        count: 1,
+      },
+      count: 4,
+      random_bonus: 4,
+      weight: 400.0,
+    },
+    {
+      id: "0238425366596413",
+      item: {
+        id: "mysticalagriculture:supremium_essence",
+        count: 1,
+      },
+      random_bonus: 3,
+      weight: 90.0,
+    },
+  ],
+  loot_crate: {
+    string_id: "essence_goodie_bag",
+    color: 43520,
+    item_name: "ftbquests.reward_table.essences",
+    glow: true,
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

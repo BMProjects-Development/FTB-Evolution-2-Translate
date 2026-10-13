@@ -1,0 +1,35 @@
+{
+  "descriptionId": "material.irons_jewelry.netherite",
+  "ingredient": "#c:ingots/netherite",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/netherite",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:attack_damage",
+      "amount": 0.05,
+      "operation": "add_multiplied_base"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:strength"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:wither"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": true,
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "duration": 60,
+        "amplifier": {
+          "base": 0,
+          "scalar": 1,
+          "max": 2
+        },
+        "effect": "minecraft:strength"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "ae2:blank_pattern", "count": 1 },
+    { "ingredient": "ae2:logic_processor", "count": 2 },
+    { "ingredient": "apothic_enchanting:infused_breath", "count": 2 }
+  ],
+  "results": [
+    { "id": "nep:apothic_enchanting_encoding_module" }
+  ],
+  "ticks": 400,
+  "energy_per_tick": 2500,
+  "stage": "skyline_unlocked"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hephaestus_tools:sapphire",
+  "ingredient": {
+    "tag": "c:gems/sapphire"
+  },
+  "color": 4415653,
+  "head_stats": {
+    "durability": 800,
+    "mining_speed": 9.0,
+    "attack_damage": 2.5,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 16,
+    "trait": "lightweight"
+  },
+  "handle_stats": {
+    "durability_mult": 0.05,
+    "speed_mult": 0.04,
+    "damage_mult": 0.03,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 160
+  }
+}

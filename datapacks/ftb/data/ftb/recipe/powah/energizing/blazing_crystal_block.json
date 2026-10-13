@@ -1,0 +1,8 @@
+{
+  "type": "powah:energizing",
+  "energy": 1080000,
+  "ingredients": [
+    "ftb:blaze_block"
+  ],
+  "result": { "id": "powah:blazing_crystal_block", "count": 1 }
+}

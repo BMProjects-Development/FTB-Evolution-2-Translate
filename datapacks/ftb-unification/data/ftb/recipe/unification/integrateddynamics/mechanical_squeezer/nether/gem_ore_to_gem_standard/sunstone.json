@@ -1,0 +1,20 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "arsmagicalegacy:sunstone_ore",
+  "output_items": [
+    {
+      "item": {
+        "id": "arsmagicalegacy:sunstone",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "arsmagicalegacy:sunstone",
+        "count": 2
+      },
+      "chance": 0.375
+    }
+  ],
+  "duration": 20
+}

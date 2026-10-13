@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/brass",
+    "#c:ingots/brass"
+  ],
+  "result": {
+    "id": "ftbmaterials:brass_plate"
+  }
+}

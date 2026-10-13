@@ -1,0 +1,10 @@
+{
+  "hyper_evolution": {
+    "sounds": [
+      {
+        "name": "ftb:hyper_evolution",
+        "stream": true
+      }
+    ]
+  }
+}

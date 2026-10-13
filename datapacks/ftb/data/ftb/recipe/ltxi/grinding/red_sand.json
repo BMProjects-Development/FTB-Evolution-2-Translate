@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "#c:sandstone/red_blocks"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 2,
+      "id": "minecraft:red_sand"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": "#c:ore_source/other/titanium",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:titanium_raw_ore",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:titanium_raw_ore"
+      },
+      "chance": 0.7
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:titanium_raw_ore"
+      },
+      "chance": 0.33
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:titanium_raw_ore"
+      },
+      "chance": 0.15
+    }
+  ],
+  "duration": 40
+}

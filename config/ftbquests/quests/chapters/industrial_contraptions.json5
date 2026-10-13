@@ -1,0 +1,1417 @@
+{
+  id: "307746BE247F5485",
+  group: "4780068BA76609B8",
+  order_index: 5,
+  icon: {
+    id: "ftbic:nuclear_reactor",
+    count: 1,
+  },
+  filename: "industrial_contraptions",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  quests: [
+    {
+      icon: {
+        id: "ftbic:industrial_grade_metal",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      icon_scale: 1.25,
+      id: "06E0165E2CC70DC3",
+      tasks: [
+        {
+          id: "662F152836A046D0",
+          type: "item",
+          item: {
+            id: "ftbic:industrial_grade_metal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "120DABADFF2EBEEE",
+          type: "currency",
+          team_reward: false,
+          amount: 1,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:machine_block",
+        count: 1,
+      },
+      x: 1.5,
+      y: 0.0,
+      dependencies: [
+        "06E0165E2CC70DC3",
+      ],
+      size: 1.0,
+      min_width: 300,
+      id: "6B9F93CF811916D2",
+      tasks: [
+        {
+          id: "0FD827657351F260",
+          type: "item",
+          item: {
+            id: "ftbic:machine_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "37653A20861D9643",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:lv_cable",
+        count: 1,
+      },
+      x: 3.0,
+      y: -1.0,
+      shape: "gear",
+      dependencies: [
+        "335830B3FAC66753",
+      ],
+      size: 1.0,
+      id: "126EA0089208EB6D",
+      tasks: [
+        {
+          id: "1EBD292450A07A9B",
+          type: "item",
+          item: {
+            id: "ftbic:lv_cable",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "61CB0656B27847FD",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:basic_generator",
+        count: 1,
+      },
+      x: 3.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "6B9F93CF811916D2",
+      ],
+      size: 1.5,
+      id: "335830B3FAC66753",
+      tasks: [
+        {
+          id: "5638634830E9143C",
+          type: "item",
+          item: {
+            id: "ftbic:basic_generator",
+            count: 1,
+          },
+        },
+        {
+          id: "7E769A4ACA1F66B4",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:lv_solar_panel)item(ftbic:geothermal_generator)item(ftbic:wind_mill))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55A62F19039F1455",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:compressor",
+        count: 1,
+      },
+      x: 5.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "335830B3FAC66753",
+      ],
+      size: 1.0,
+      id: "7421E8176E1FBD30",
+      tasks: [
+        {
+          id: "58CD97FB9F71C20D",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:macerator",
+            count: 1,
+          },
+        },
+        {
+          id: "548AA30EA1A02D96",
+          type: "item",
+          item: {
+            id: "ftbic:carbon_fiber_mesh",
+            count: 1,
+          },
+        },
+        {
+          id: "19CF03DC5F5E72E4",
+          type: "item",
+          item: {
+            id: "ftbic:compressor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "78A62F0BA3D0C3FA",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:advanced_alloy",
+        count: 1,
+      },
+      x: 7.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "7421E8176E1FBD30",
+      ],
+      size: 1.0,
+      id: "2D548E1B43587294",
+      tasks: [
+        {
+          id: "41995946CA3CC1C5",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:alloy_smelter",
+            count: 1,
+          },
+        },
+        {
+          id: "5E84837CE47CF728",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_alloy",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5C7DB01428108CAC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:advanced_machine_block",
+        count: 1,
+      },
+      x: 9.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "2D548E1B43587294",
+      ],
+      size: 1.5,
+      id: "72B4C9E61D90B60C",
+      tasks: [
+        {
+          id: "110F3D1BB84668A7",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_machine_block",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6A1FAA8BAB07E151",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:lv_battery_box",
+        count: 1,
+      },
+      x: 4.0,
+      y: -1.0,
+      shape: "gear",
+      dependencies: [
+        "335830B3FAC66753",
+      ],
+      size: 1.0,
+      id: "38A82B602CB754A3",
+      tasks: [
+        {
+          id: "492CF840F8B4C9AF",
+          type: "item",
+          item: {
+            id: "ftbic:lv_battery_box",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B688D64CC1F0880",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:roller",
+        count: 1,
+      },
+      x: 3.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "335830B3FAC66753",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5299C4304F1F14C2",
+      tasks: [
+        {
+          id: "656F198C35D224E1",
+          type: "item",
+          item: {
+            id: "ftbic:centrifuge",
+            count: 1,
+          },
+        },
+        {
+          id: "1C74F06FFADD3F41",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:extruder",
+            count: 1,
+          },
+        },
+        {
+          id: "15F8B2EAB57ED3B7",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:roller",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3A3CE6CCD22BDBA6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:pump",
+        count: 1,
+      },
+      x: 9.0,
+      y: -2.0,
+      dependencies: [
+        "72B4C9E61D90B60C",
+      ],
+      size: 1.0,
+      id: "31D4DBFBA0954F8F",
+      tasks: [
+        {
+          id: "545FA8806DE776E7",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:pump",
+            count: 1,
+          },
+        },
+        {
+          id: "4AC01432CCABFAA1",
+          type: "item",
+          icon: {
+            id: "ftbic:quarry",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "item(ftbic:quarry)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "60E883509ECDB28A",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:antimatter",
+        count: 1,
+      },
+      x: 10.0,
+      y: -2.0,
+      dependencies: [
+        "72B4C9E61D90B60C",
+      ],
+      size: 1.0,
+      id: "16D8629C1CE0B2DE",
+      tasks: [
+        {
+          id: "3ACFE00A29919901",
+          type: "item",
+          item: {
+            id: "ftbic:antimatter_constructor",
+            count: 1,
+          },
+        },
+        {
+          id: "2A7A5CB25A486008",
+          type: "item",
+          item: {
+            id: "ftbic:antimatter",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "29CD4824708318AD",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:nuclear_reactor",
+        count: 1,
+      },
+      x: 11.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "72B4C9E61D90B60C",
+      ],
+      size: 1.5,
+      id: "48AB0F2C91CA731D",
+      tasks: [
+        {
+          id: "428D0BE2CA92F820",
+          type: "item",
+          item: {
+            id: "ftbic:nuclear_reactor_chamber",
+            count: 1,
+          },
+        },
+        {
+          id: "1919064105E5BCA3",
+          type: "item",
+          item: {
+            id: "ftbic:nuclear_reactor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26A4DD519242E8EA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:reprocessor",
+        count: 1,
+      },
+      x: 4.0,
+      y: 1.0,
+      shape: "hexagon",
+      dependencies: [
+        "335830B3FAC66753",
+      ],
+      size: 1.0,
+      id: "5AFE625D21EF516A",
+      tasks: [
+        {
+          id: "6589E6A6D0AF98E7",
+          type: "item",
+          item: {
+            id: "ftbic:reprocessor",
+            count: 1,
+          },
+        },
+        {
+          id: "62804D223FC59A5F",
+          type: "item",
+          item: {
+            id: "ftbic:scrap_box",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1F933B36E4E34940",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:quantum_chestplate",
+        count: 1,
+      },
+      x: 11.5,
+      y: -2.0,
+      shape: "octagon",
+      dependencies: [
+        "16D8629C1CE0B2DE",
+      ],
+      size: 1.25,
+      id: "2F9FF5E1FFBB7D56",
+      tasks: [
+        {
+          id: "51897462889FFF27",
+          type: "item",
+          item: {
+            id: "ftbic:quantum_helmet",
+            count: 1,
+          },
+        },
+        {
+          id: "6A5144DB5CF65B8B",
+          type: "item",
+          item: {
+            id: "ftbic:quantum_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "0662132750797917",
+          type: "item",
+          item: {
+            id: "ftbic:quantum_leggings",
+            count: 1,
+          },
+        },
+        {
+          id: "1110C1B8D750FC05",
+          type: "item",
+          item: {
+            id: "ftbic:quantum_boots",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "38B94CEC78FEAE1D",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:mv_transformer",
+        count: 1,
+      },
+      x: 3.5,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "6B9F93CF811916D2",
+      ],
+      dep_control_pts: {
+        "6B9F93CF811916D2": [
+          1.8000000000000043,
+          -1.4678571428571487,
+          2.028571428571432,
+          -1.9821428571428612,
+        ],
+      },
+      size: 1.25,
+      can_repeat: false,
+      id: "7FB19A7D0A3292D6",
+      tasks: [
+        {
+          id: "544E497C6E94734F",
+          type: "item",
+          item: {
+            id: "ftbic:lv_cable",
+            count: 1,
+          },
+        },
+        {
+          id: "41E36B6050B43E44",
+          type: "item",
+          item: {
+            id: "ftbic:mv_transformer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68530A53F9970528",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "283F6768AEE94B78",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:advanced_circuit",
+        count: 1,
+      },
+      x: 1.5,
+      y: 2.0,
+      dependencies: [
+        "6B9F93CF811916D2",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "156F99299E2A30F9",
+      tasks: [
+        {
+          id: "120B412F7927FCDC",
+          type: "item",
+          item: {
+            id: "ftbic:electronic_circuit",
+            count: 1,
+          },
+        },
+        {
+          id: "68C0CC70332C96F8",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_circuit",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "47238A148469990B",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "5852430D6F2B1295",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:overclocker_upgrade",
+        count: 1,
+      },
+      x: 2.5,
+      y: 4.0,
+      dependencies: [
+        "156F99299E2A30F9",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3C941658C37D10C3",
+      tasks: [
+        {
+          id: "4710E78B75223F03",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:overclocker_upgrade",
+            count: 1,
+          },
+        },
+        {
+          id: "579134F8FB6C1F9D",
+          type: "item",
+          optional_task: true,
+          item: {
+            id: "ftbic:energy_storage_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0EFC2B039E007FE4",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "312901FE2D11E8DE",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:advanced_macerator",
+        count: 1,
+      },
+      x: 9.5,
+      y: 2.0,
+      dependencies: [
+        "72B4C9E61D90B60C",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3F24E0EC9E6206D0",
+      tasks: [
+        {
+          id: "518933532AF73D1F",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_macerator",
+            count: 1,
+          },
+        },
+        {
+          id: "5B6C8C5DDDA1686E",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_powered_furnace",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "108D83CCACC5151F",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "796CE4969D1EE6EE",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:reactor_heat_vent",
+        count: 1,
+      },
+      x: 6.0,
+      y: -2.5,
+      shape: "hexagon",
+      dependencies: [
+        "7FB19A7D0A3292D6",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "3E100619DA6BB444",
+      tasks: [
+        {
+          id: "64C5AFE511A72C19",
+          type: "item",
+          item: {
+            id: "ftbic:reactor_simulator",
+            count: 1,
+          },
+        },
+        {
+          id: "4101E71E66299A0C",
+          type: "item",
+          item: {
+            id: "ftbic:reactor_heat_vent",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30A7F8E114118CA2",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "601EB84DA97E5C2A",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:quarry",
+        count: 1,
+      },
+      x: 8.5,
+      y: 2.0,
+      dependencies: [
+        "72B4C9E61D90B60C",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "23E977CDE5E3FD20",
+      tasks: [
+        {
+          id: "1C0032234E7142FE",
+          type: "item",
+          item: {
+            id: "ftbic:quarry",
+            count: 1,
+          },
+        },
+        {
+          id: "42218580D48BFE5E",
+          type: "item",
+          item: {
+            id: "ftbic:landmark",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AE5E75BB3277FB1",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "431EF13B5529C085",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:teleporter",
+        count: 1,
+      },
+      x: 10.5,
+      y: 2.0,
+      dependencies: [
+        "72B4C9E61D90B60C",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "45150AA057377B1E",
+      tasks: [
+        {
+          id: "69B63D072D9FF1B4",
+          type: "item",
+          item: {
+            id: "ftbic:teleporter",
+            count: 1,
+          },
+        },
+        {
+          id: "3E6990024991A4D9",
+          type: "item",
+          item: {
+            id: "ftbic:location_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7A24E7DD1092C5AE",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "3E1D61F56C0311CE",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:carbon_chestplate",
+        count: 1,
+      },
+      x: 10.0,
+      y: 3.5,
+      dependencies: [
+        "3F24E0EC9E6206D0",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "31534FA4E511F2A0",
+      tasks: [
+        {
+          id: "506857EF49EDC1E1",
+          type: "item",
+          item: {
+            id: "ftbic:carbon_chestplate",
+            count: 1,
+          },
+        },
+        {
+          id: "2E9D4CABD1F14CF6",
+          type: "item",
+          item: {
+            id: "ftbic:carbon_helmet",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "62A598470DB412F6",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "0C20869B980879DC",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:canning_machine",
+        count: 1,
+      },
+      x: 3.5,
+      y: 4.0,
+      dependencies: [
+        "156F99299E2A30F9",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "3CF45D25F937845E",
+      tasks: [
+        {
+          id: "504EEAB7414E819E",
+          type: "item",
+          item: {
+            id: "ftbic:canning_machine",
+            count: 1,
+          },
+        },
+        {
+          id: "1030A4C0C9375416",
+          type: "item",
+          item: {
+            id: "ftbic:empty_can",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43B13572B32115FA",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "72EDCC7631D917D2",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:charge_pad",
+        count: 1,
+      },
+      x: -0.5,
+      y: 4.0,
+      dependencies: [
+        "156F99299E2A30F9",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "0D883858A359F241",
+      tasks: [
+        {
+          id: "60AAC3199912209F",
+          type: "item",
+          item: {
+            id: "ftbic:charge_pad",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4A51F660ED97B064",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "468BF436D55D840A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:ore_washer",
+        count: 1,
+      },
+      x: 5.5,
+      y: 2.0,
+      dependencies: [
+        "7421E8176E1FBD30",
+      ],
+      size: 1.0,
+      id: "6B0BAB2876B04561",
+      tasks: [
+        {
+          id: "0907863F7C55CE50",
+          type: "item",
+          item: {
+            id: "ftbic:ore_washer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "63C24F3BA5F29AA6",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7C801A01430ADF83",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:hydroponic_accelerator",
+        count: 1,
+      },
+      x: 1.5,
+      y: 4.0,
+      dependencies: [
+        "156F99299E2A30F9",
+      ],
+      size: 1.0,
+      id: "27D8AA95DE4FBCF1",
+      tasks: [
+        {
+          id: "249B418A87F60841",
+          type: "item",
+          item: {
+            id: "ftbic:hydroponic_accelerator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "0C68B0FEF897B598",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "6C6622660F3B9A53",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "mysticalagriculture:copper_seeds",
+        count: 1,
+      },
+      x: 1.5,
+      y: 6.5,
+      shape: "diamond",
+      dependencies: [
+        "2BD6E508BB0CE73F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "48D3937A90BD8669",
+      tasks: [
+        {
+          id: "428FCB6C9E7057F9",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "5FB0B0CC6D5830DD",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:advanced_hydroponic_accelerator",
+        count: 1,
+      },
+      x: 1.5,
+      y: 5.25,
+      dependencies: [
+        "27D8AA95DE4FBCF1",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "2BD6E508BB0CE73F",
+      tasks: [
+        {
+          id: "74329583044DB7D5",
+          type: "item",
+          item: {
+            id: "ftbic:advanced_hydroponic_accelerator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "68605E8202574E06",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:batch_feeder",
+        count: 1,
+      },
+      x: 2.5,
+      y: 5.25,
+      dependencies: [
+        "3C941658C37D10C3",
+      ],
+      size: 1.0,
+      id: "64A56FA61F1BFADC",
+      tasks: [
+        {
+          id: "6383826792C779BE",
+          type: "item",
+          item: {
+            id: "ftbic:batch_feeder",
+            count: 1,
+          },
+        },
+        {
+          id: "7379C01E2983A562",
+          type: "item",
+          item: {
+            id: "ftbic:configuration_card",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "11AF3543BA8D612C",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "3FCBF043CCD99996",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:industrial_bank_port",
+        count: 1,
+      },
+      x: 0.5,
+      y: 4.0,
+      dependencies: [
+        "156F99299E2A30F9",
+      ],
+      size: 1.0,
+      id: "332E026494C8D8E6",
+      tasks: [
+        {
+          id: "21D7576BF8E021F3",
+          type: "item",
+          item: {
+            id: "ftbic:industrial_bank_cell",
+            count: 1,
+          },
+        },
+        {
+          id: "14EEF2CD3DFD380D",
+          type: "item",
+          item: {
+            id: "ftbic:industrial_bank_port",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "003573AD325B97C4",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "621AF27576403015",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:parallel_processing_upgrade",
+        count: 1,
+      },
+      x: 9.0,
+      y: 3.5,
+      dependencies: [
+        "3F24E0EC9E6206D0",
+      ],
+      size: 1.0,
+      id: "1D9DD2015E4B8903",
+      tasks: [
+        {
+          id: "5EA5808234EC1749",
+          type: "item",
+          item: {
+            id: "ftbic:parallel_processing_upgrade",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "376672E5E9B94C78",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "2F1909338F7BC676",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:reactor_blueprint",
+        count: 1,
+      },
+      x: 7.5,
+      y: -2.5,
+      shape: "gear",
+      dependencies: [
+        "3E100619DA6BB444",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "21B8123C16D4EBC4",
+      tasks: [
+        {
+          id: "2C9D1E14725CDE7C",
+          type: "item",
+          item: {
+            id: "ftbic:reactor_blueprint",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "331536DA32344200",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "39FEE3F6F2204AFF",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+  ],
+  images: [
+    {
+      x: 13.5,
+      y: 2.0,
+      width: 2.04,
+      height: 2.2,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/ic_nuclear_reactor.png",
+      id: "0ADF165FBBC40CA3",
+    },
+    {
+      x: 6.5,
+      y: 4.5,
+      width: 2.2,
+      height: 1.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/ic_battery_bank.png",
+      id: "6532E63B2A6186E8",
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      width: 2.7,
+      height: 2.7,
+      rotation: 45.0,
+      image: "ftbic:block/electric/dark/antimatter_constructor_front_off",
+      id: "3D02E2191278AB0D",
+    },
+    {
+      x: 0.0,
+      y: -4.0,
+      width: 11.0,
+      height: 0.67,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/industrial_contraptions_title.png",
+      order: 3,
+      click_action: {
+        type: "open_quest",
+        data: "06E0165E2CC70DC3",
+      },
+      id: "1850A752710BFAED",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 45.0,
+      image: "ftbic:block/electric/dark/lv_solar_panel_top",
+      id: "68710BD7904604F6",
+    },
+    {
+      x: 9.5,
+      y: 0.0,
+      width: 1.5,
+      height: 1.5,
+      rotation: 45.0,
+      image: "ftbic:block/electric/dark/macerator_front",
+      id: "795B9DAA7FA35E47",
+    },
+    {
+      x: 6.0,
+      y: -2.5,
+      width: 1.75,
+      height: 1.75,
+      rotation: 45.0,
+      image: "ftbic:block/electric/dark/geothermal_generator_front_off",
+      id: "6F3D436E27223FF8",
+    },
+  ],
+}

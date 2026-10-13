@@ -1,0 +1,54 @@
+{
+  "type": "witchery:cauldron_crafting",
+  "altar_power": 1000,
+  "inputs": [
+    {
+      "color": -9882886,
+      "itemStack": {
+        "id": "arsmagicalegacy:purified_vinteum_dust"
+      },
+      "order": 0
+    },
+    {
+      "color": -10210766,
+      "itemStack": {
+        "id": "rootsclassic:growth_powder"
+      },
+      "order": 1
+    },
+    {
+      "color": -15461356,
+      "itemStack": {
+        "id": "witchery:refined_evil"
+      },
+      "order": 2
+    },
+    {
+      "color": -13159686,
+      "itemStack": {
+        "id": "witchery:spectral_dust"
+      },
+      "order": 3
+    },
+    {
+      "color": -52686,
+      "itemStack": {
+        "id": "witchery:demon_heart"
+      },
+      "order": 4
+    },
+    {
+      "color": -206,
+      "itemStack": {
+        "id": "arsmagicalegacy:sunstone"
+      },
+      "order": 5
+    }
+  ],
+  "outputs": [
+    {
+      "count": 2,
+      "id": "ftb:rune_plate"
+    }
+  ]
+}

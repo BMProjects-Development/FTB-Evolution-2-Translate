@@ -1,0 +1,44 @@
+{
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "minecraft:nether_wart"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:nether_wart"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:nether_wart"
+      }
+    },
+    {
+      "chance": 0.05,
+      "item": {
+        "id": "minecraft:nether_wart"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "minecraft:soul_sand",
+      "speed": 1.0
+    },
+    {
+      "ingredient": "minecraft:soul_soil",
+      "speed": 1.0
+    }
+  ]
+}

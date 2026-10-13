@@ -1,0 +1,19 @@
+{
+  "descriptionId": "ftb.irons.material.prometheum",
+  "ingredient": "oritech:prometheum_ingot",
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/prometheum",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:attack_damage",
+      "amount": 0.1,
+      "operation": "add_multiplied_base"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:regeneration"
+    }
+  }
+}

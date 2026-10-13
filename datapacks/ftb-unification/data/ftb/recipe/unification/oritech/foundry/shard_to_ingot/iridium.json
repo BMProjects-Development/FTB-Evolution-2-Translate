@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:iridium_shard",
+    "ftbmaterials:iridium_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:iridium_ingot"
+    }
+  ],
+  "time": 80
+}

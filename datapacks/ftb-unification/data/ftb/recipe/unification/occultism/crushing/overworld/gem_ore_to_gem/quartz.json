@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/quartz",
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "minecraft:quartz"
+  }
+}

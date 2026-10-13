@@ -1,0 +1,14 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "minecraft:cobblestone",
+  "result": {
+    "amount": 8,
+    "id": "hephaestus:molten_seared_stone"
+  },
+  "temperature": 800,
+  "time": 60
+}

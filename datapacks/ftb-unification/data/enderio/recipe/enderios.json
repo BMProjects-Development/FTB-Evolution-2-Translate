@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:milk_bucket",
+    "minecraft:wheat",
+    "ae2:ender_dust"
+  ],
+  "result": {
+    "id": "enderio:enderios"
+  }
+}

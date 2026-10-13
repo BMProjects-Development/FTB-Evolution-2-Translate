@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/niobium"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ltxi:niobium_dust"
+    }
+  ],
+  "time": 100
+}

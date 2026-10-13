@@ -1,0 +1,456 @@
+{
+  "id": "ftb:trader_black_market",
+  "title": {
+    "translate": "ftb.shopkeeper.black_market",
+    "color": "dark_red"
+  },
+  "model": {
+    "villager_data": {
+      "type": "swamp",
+      "profession": "nitwit",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.black_market",
+        "color": "dark_red"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:trader_black_market",
+      "shop_unlock": [
+        {
+          "name": "everlasting_beef",
+          "item": { "id": "artifacts:everlasting_beef", "count": 1 },
+          "cost": 100,
+          "max_claims": 1
+        },
+        {
+          "name": "bunny_hoppers",
+          "item": { "id": "artifacts:bunny_hoppers", "count": 1 },
+          "cost": 80,
+          "max_claims": 1
+        },
+        {
+          "name": "rune_speed",
+          "item": { "id": "neovitae:rune_speed", "count": 8 },
+          "cost": 50
+        },
+        {
+          "name": "overclocker_upgrade",
+          "item": { "id": "ftbic:overclocker_upgrade", "count": 2 },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "rooted_boots",
+          "item": { "id": "artifacts:rooted_boots", "count": 1 },
+          "cost": 100,
+          "max_claims": 1
+        },
+        {
+          "name": "strider_shoes",
+          "item": { "id": "artifacts:strider_shoes", "count": 1 },
+          "cost": 100,
+          "max_claims": 1
+        },
+        {
+          "name": "teleporter",
+          "item": { "id": "ftbic:teleporter", "count": 2 },
+          "cost": 100
+        },
+        {
+          "name": "stamina_vessel",
+          "item": { "id": "paraglider:stamina_vessel", "count": 1 },
+          "cost": 60
+        },
+        {
+          "name": "rune_2_speed",
+          "item": { "id": "neovitae:rune_2_speed", "count": 2 },
+          "cost": 100
+        },
+        {
+          "name": "daybreak",
+          "item": {
+            "id": "ltxi:daybreak",
+            "count": 1,
+            "components": { "ltxi:ammo": 2 }
+          },
+          "cost": 150,
+          "max_claims": 1
+        },
+        {
+          "name": "wayfinder",
+          "item": {
+            "id": "ltxi:wayfinder",
+            "count": 1,
+            "components": { "ltxi:ammo": 10 }
+          },
+          "cost": 200,
+          "max_claims": 1
+        },
+        {
+          "name": "64k_storage_part",
+          "item": { "id": "refinedstorage:64k_storage_part", "count": 1 },
+          "cost": 200,
+          "max_claims": 1
+        },
+        {
+          "name": "cell_component_64k",
+          "item": { "id": "ae2:cell_component_64k", "count": 1 },
+          "cost": 200,
+          "max_claims": 1
+        },
+        {
+          "name": "capacitor_vivid",
+          "item": { "id": "enderio_evolution:capacitor_vivid", "count": 1 },
+          "cost": 150,
+          "max_claims": 1
+        },
+        {
+          "name": "diamond_impact_hammer",
+          "item": { "id": "justhammers:diamond_impact_hammer", "count": 1 },
+          "cost": 60,
+          "max_claims": 1
+        },
+        {
+          "name": "godforged_pearl",
+          "item": { "id": "apotheosis:godforged_pearl", "count": 1 },
+          "cost": 300,
+          "max_claims": 4
+        },
+        {
+          "name": "aurora",
+          "item": {
+            "id": "ltxi:aurora",
+            "count": 1,
+            "components": {
+              "ltxi:ammo": 5,
+              "ltxi:upgrades": { "ltxi:default/aurora": 1 }
+            }
+          },
+          "cost": 150,
+          "max_claims": 1
+        },
+        {
+          "name": "hanabi",
+          "item": {
+            "id": "ltxi:hanabi",
+            "count": 1,
+            "components": {
+              "ltxi:ammo": 6,
+              "ltxi:upgrades": { "ltxi:omni_grenade_core": 1 }
+            }
+          },
+          "cost": 200,
+          "max_claims": 1
+        },
+        {
+          "name": "stargazer",
+          "item": {
+            "id": "ltxi:stargazer",
+            "count": 1,
+            "components": {
+              "ltxi:ammo": 5,
+              "ltxi:upgrades": { "ltxi:default/stargazer": 1 }
+            }
+          },
+          "cost": 250,
+          "max_claims": 1
+        },
+        {
+          "name": "nova",
+          "item": {
+            "id": "ltxi:nova",
+            "count": 1,
+            "components": {
+              "ltxi:ammo": 7,
+              "ltxi:upgrades": { "ltxi:default/nova": 1 }
+            }
+          },
+          "cost": 200,
+          "max_claims": 1
+        },
+        {
+          "name": "time_in_a_bottle",
+          "item": {
+            "id": "tiab:time_in_a_bottle",
+            "count": 1,
+            "components": {
+              "tiab:stored_time": { "stored": 0, "total": 16760 }
+            }
+          },
+          "cost": 40,
+          "max_claims": 1
+        },
+        {
+          "name": "serenity",
+          "item": {
+            "id": "ltxi:serenity",
+            "count": 1,
+            "components": {
+              "ltxi:ammo": 45,
+              "limacore:energy_transfer_rate": 5000,
+              "ltxi:upgrades": { "ltxi:default/serenity": 1 }
+            }
+          },
+          "cost": 250,
+          "max_claims": 1
+        },
+        {
+          "name": "mirage",
+          "item": {
+            "id": "ltxi:mirage",
+            "count": 1,
+            "components": {
+              "ltxi:ammo": 30,
+              "limacore:energy_transfer_rate": 7500,
+              "ltxi:upgrades": { "ltxi:default/mirage": 1 }
+            }
+          },
+          "cost": 300,
+          "max_claims": 1
+        },
+        {
+          "name": "black_hole",
+          "item": { "id": "oritech:black_hole", "count": 1 },
+          "cost": 500,
+          "max_claims": 1
+        },
+        {
+          "name": "1 Hr of Bottled Time",
+          "command": {
+            "run": "tiab time add @s 3600",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.tiab_time_one_hour" }]
+          },
+          "cost": 25,
+          "description": [{ "translate": "ftb.shop.description.tiab_time_warning" }],
+          "icon": "tiab:item/time_in_a_bottle"
+        },
+        {
+          "name": "2.5 Hr of Bottled Time",
+          "command": {
+            "run": "tiab time add @s 9000",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.tiab_time_two_half_hours" }]
+          },
+          "cost": 50,
+          "description": [{ "translate": "ftb.shop.description.tiab_time_warning" }],
+          "icon": "tiab:item/time_in_a_bottle"
+        },
+        {
+          "name": "10 Hr of Bottled Time",
+          "command": {
+            "run": "tiab time add @s 36000",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.tiab_time_ten_hours" }]
+          },
+          "cost": 250,
+          "description": [{ "translate": "ftb.shop.description.tiab_time_warning" }],
+          "icon": "tiab:item/time_in_a_bottle"
+        },
+        {
+          "name": "25 Hr of Bottled Time",
+          "command": {
+            "run": "tiab time add @s 90000",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.tiab_time_twenty_five_hours" }]
+          },
+          "cost": 400,
+          "description": [{ "translate": "ftb.shop.description.tiab_time_warning" }],
+          "icon": "tiab:item/time_in_a_bottle"
+        },
+        {
+          "name": "Mining Skill Point I",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:mining 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_mining" }]
+          },
+          "cost": 250,
+          "max_claims": 2,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:item/iron_pickaxe"
+        },
+        {
+          "name": "Mining Skill Point II",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:mining 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_mining" }]
+          },
+          "cost": 500,
+          "max_claims": 3,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:item/iron_pickaxe"
+        },
+        {
+          "name": "Mining Skill Point III",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:mining 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_mining" }]
+          },
+          "cost": 1000,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:item/iron_pickaxe"
+        },
+        {
+          "name": "Athletics Skill Point I",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:athletics 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_athletics" }]
+          },
+          "cost": 250,
+          "max_claims": 2,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:textures/mob_effect/speed.png"
+        },
+        {
+          "name": "Athletics Skill Point II",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:athletics 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_athletics" }]
+          },
+          "cost": 500,
+          "max_claims": 3,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:textures/mob_effect/speed.png"
+        },
+        {
+          "name": "Athletics Skill Point III",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:athletics 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_athletics" }]
+          },
+          "cost": 1000,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:textures/mob_effect/speed.png"
+        },
+        {
+          "name": "Melee Skill Point I",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:melee 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_melee" }]
+          },
+          "cost": 250,
+          "max_claims": 2,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:item/iron_sword"
+        },
+        {
+          "name": "Melee Skill Point II",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:melee 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_melee" }]
+          },
+          "cost": 500,
+          "max_claims": 3,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:item/iron_sword"
+        },
+        {
+          "name": "Melee Skill Point III",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:melee 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_melee" }]
+          },
+          "cost": 1000,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "minecraft:item/iron_sword"
+        },
+        {
+          "name": "Magic Skill Point I",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:magic 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_magic" }]
+          },
+          "cost": 250,
+          "max_claims": 2,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "item:arsmagicalegacy:spell_book 1 0 {\"minecraft:dyed_color\":9064447}"
+        },
+        {
+          "name": "Magic Skill Point II",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:magic 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_magic" }]
+          },
+          "cost": 500,
+          "max_claims": 3,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "item:arsmagicalegacy:spell_book 1 0 {\"minecraft:dyed_color\":9064447}"
+        },
+        {
+          "name": "Magic Skill Point III",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:magic 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_magic" }]
+          },
+          "cost": 1000,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "item:arsmagicalegacy:spell_book 1 0 {\"minecraft:dyed_color\":9064447}"
+        },
+        {
+          "name": "Ranged Skill Point I",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:ranged 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_ranged" }]
+          },
+          "cost": 250,
+          "max_claims": 2,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "item:irons_artifice:six_shooter"
+        },
+        {
+          "name": "Ranged Skill Point II",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:ranged 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_ranged" }]
+          },
+          "cost": 500,
+          "max_claims": 3,
+          "per_player_max_claims": true,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "item:irons_artifice:six_shooter"
+        },
+        {
+          "name": "Ranged Skill Point III",
+          "command": {
+            "run": "puffish_skills points add @s puffish_skills:ranged 1",
+            "permission": "admins",
+            "description": [{ "translate": "ftb.shop.title.skill_point_ranged" }]
+          },
+          "cost": 1000,
+          "description": [{ "translate": "ftb.shop.description.skill_point" }],
+          "icon": "item:irons_artifice:six_shooter"
+        }
+      ]
+    }
+  ]
+}

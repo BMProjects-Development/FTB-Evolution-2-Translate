@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ftbic:iridium_deepslate_ore",
+    "ftbic:iridium_stone_ore",
+    "ftbmaterials:iridium_deepslate_ore",
+    "ftbmaterials:iridium_stone_ore"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:rod_cast",
+  "cooling_time": 50,
+  "fluid": {
+    "amount": 45,
+    "id": "hephaestus:molten_enderium"
+  },
+  "result": {
+    "id": "ftbic:enderium_rod"
+  }
+}

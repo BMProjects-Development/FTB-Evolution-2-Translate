@@ -1,0 +1,444 @@
+{
+  id: "6611B3CF71F4EDDD",
+  order_index: 13,
+  icon: {
+    id: "minecraft:chicken_spawn_egg",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "646B8BEE8AD6FA95",
+      item: {
+        id: "minecraft:allay_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "474EEBBE48BF1D24",
+      item: {
+        id: "minecraft:armadillo_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "5E1103CD9B967EA8",
+      item: {
+        id: "minecraft:axolotl_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "68234DF863843ABE",
+      item: {
+        id: "minecraft:bat_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "7E4041BD3819135A",
+      item: {
+        id: "minecraft:bee_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "6C85076CF33026F5",
+      item: {
+        id: "minecraft:camel_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "1FBC22674EEF3800",
+      item: {
+        id: "minecraft:cat_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "21CCB5F68C19E7C4",
+      item: {
+        id: "minecraft:chicken_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "3CCBE93D53C25285",
+      item: {
+        id: "minecraft:cow_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "209500E6DE0AF659",
+      item: {
+        id: "minecraft:dolphin_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "61B26CF5E4E29C55",
+      item: {
+        id: "minecraft:donkey_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "7D5369E233C49D16",
+      item: {
+        id: "minecraft:fox_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "1003D90DD0D9D275",
+      item: {
+        id: "minecraft:frog_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "2139116B4A3ACEEC",
+      item: {
+        id: "minecraft:glow_squid_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "33FA04FD368DCFDC",
+      item: {
+        id: "minecraft:goat_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "2B3DA2358768A3BD",
+      item: {
+        id: "minecraft:horse_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "2656B2756F25DE7F",
+      item: {
+        id: "minecraft:llama_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "095A4AF33BC4CB9A",
+      item: {
+        id: "minecraft:mooshroom_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "675D18C433F4BBED",
+      item: {
+        id: "minecraft:mule_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "2A943E3B9D37BA81",
+      item: {
+        id: "minecraft:ocelot_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "532E2568FE9089B6",
+      item: {
+        id: "minecraft:panda_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "6D6289B4A98DFE9C",
+      item: {
+        id: "minecraft:parrot_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "48B20C5AA5448BEA",
+      item: {
+        id: "minecraft:pig_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "61EC53EEB7B3E0E1",
+      item: {
+        id: "minecraft:polar_bear_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "51D61F10B6F2926D",
+      item: {
+        id: "minecraft:rabbit_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "153122C0BA1EE378",
+      item: {
+        id: "minecraft:sheep_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "6D2B944CA1A9088A",
+      item: {
+        id: "minecraft:skeleton_horse_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "692FE20B9D9D6460",
+      item: {
+        id: "minecraft:sniffer_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "10F9B0E3F7824625",
+      item: {
+        id: "minecraft:snow_golem_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "2422A6685D6A73CB",
+      item: {
+        id: "minecraft:squid_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "0804CEB5C5E6F954",
+      item: {
+        id: "minecraft:tadpole_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "378351E6E18A7564",
+      item: {
+        id: "minecraft:trader_llama_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "0287FE5F07B7CFFB",
+      item: {
+        id: "minecraft:turtle_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "2CCC672ED956F8B5",
+      item: {
+        id: "minecraft:villager_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "76F2A4ADC3529E35",
+      item: {
+        id: "minecraft:wolf_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "675AE9125B86405C",
+      item: {
+        id: "minecraft:zombie_horse_spawn_egg",
+        count: 1,
+      },
+      weight: 1.1111,
+    },
+    {
+      id: "5FBD6022FEABD659",
+      item: {
+        id: "minecraft:cod_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "0934E6D2E11EBB5C",
+      item: {
+        id: "minecraft:salmon_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "597AE7A7527111FC",
+      item: {
+        id: "minecraft:pufferfish_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "085F1E9DE2C9C956",
+      item: {
+        id: "minecraft:tropical_fish_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5AF24051A05A988E",
+      item: {
+        id: "minecraft:copper_golem_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "62C2FB0E10CAC59F",
+      item: {
+        id: "minecraft:happy_ghast_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "555D11FB58A6D7E5",
+      item: {
+        id: "minecraft:nautilus_spawn_egg",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "3527C9DACC9457D1",
+      item: {
+        id: "kindredspirits:quokka_snack",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "0C82E912B59B9C96",
+      item: {
+        id: "kindredspirits:golden_bone",
+        count: 1,
+      },
+      count: 2,
+      weight: 3.0,
+    },
+    {
+      id: "546AC7E773CEB23D",
+      item: {
+        id: "kindredspirits:gremlin_spawn_egg",
+        count: 1,
+      },
+    },
+    {
+      id: "788D8C82796868D4",
+      item: {
+        id: "kindredspirits:mini_player_spawn_egg",
+        count: 1,
+      },
+    },
+    {
+      id: "4BD8CFE7913B3702",
+      item: {
+        id: "kindredspirits:quokka_spawn_egg",
+        count: 1,
+      },
+    },
+    {
+      id: "4C2A5E1798B21BD9",
+      item: {
+        id: "kindredspirits:direwolf_spawn_egg",
+        count: 1,
+      },
+    },
+    {
+      id: "6D0F896A82B7286C",
+      item: {
+        id: "kindredspirits:nightfox_spawn_egg",
+        count: 1,
+      },
+    },
+    {
+      id: "69C601074AF3F233",
+      item: {
+        id: "kindredspirits:kindred_charm",
+        count: 1,
+      },
+      weight: 2.0,
+    },
+    {
+      id: "03D7A0336B7EAE26",
+      item: {
+        id: "kindredspirits:baby_dragon_spawn_egg",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+    {
+      id: "76F718CFA12B6C30",
+      item: {
+        id: "kindredspirits:trex_spawn_egg",
+        count: 1,
+      },
+      weight: 0.5,
+    },
+  ],
+  loot_crate: {
+    string_id: "random_passive_egg",
+    color: 5635925,
+    item_name: "ftbquests.loot_crate.random_passive_egg",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

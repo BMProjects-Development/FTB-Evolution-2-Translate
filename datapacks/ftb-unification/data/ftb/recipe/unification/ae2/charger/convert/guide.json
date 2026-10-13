@@ -1,0 +1,7 @@
+{
+  "type": "ae2:charger",
+  "ingredient": "minecraft:book",
+  "result": {
+    "id": "ae2:guide"
+  }
+}

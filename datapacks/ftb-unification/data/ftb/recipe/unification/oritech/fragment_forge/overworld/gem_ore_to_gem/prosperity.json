@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/prosperity"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "mysticalagriculture:prosperity_shard"
+    }
+  ],
+  "time": 40
+}

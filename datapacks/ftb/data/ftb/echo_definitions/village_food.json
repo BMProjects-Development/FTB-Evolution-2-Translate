@@ -1,0 +1,224 @@
+{
+  "id": "ftb:village_food",
+  "title": {
+    "translate": "ftb.shopkeeper.village_food",
+    "color": "green"
+  },
+  "model": {
+    "villager_data": {
+      "type": "plains",
+      "profession": "farmer",
+      "level": 1
+    },
+    "show_hat": true
+  },
+  "stages": [
+    {
+      "title": {
+        "translate": "ftb.shopkeeper.village_food",
+        "color": "green"
+      },
+      "lore": [],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "ftb:village_food_wares",
+      "shop_unlock": [
+        {
+          "name": "wheat_seeds",
+          "item": {
+            "id": "minecraft:wheat_seeds",
+            "count": 8
+          },
+          "cost": 3
+        },
+        {
+          "name": "carrot",
+          "item": {
+            "id": "minecraft:carrot",
+            "count": 8
+          },
+          "cost": 3
+        },
+        {
+          "name": "potato",
+          "item": {
+            "id": "minecraft:potato",
+            "count": 8
+          },
+          "cost": 3
+        },
+        {
+          "name": "beetroot_seeds",
+          "item": {
+            "id": "minecraft:beetroot_seeds",
+            "count": 8
+          },
+          "cost": 3
+        },
+        {
+          "name": "bone_meal",
+          "item": {
+            "id": "minecraft:bone_meal",
+            "count": 16
+          },
+          "cost": 6
+        },
+        {
+          "name": "sugar",
+          "item": {
+            "id": "minecraft:sugar",
+            "count": 8
+          },
+          "cost": 4
+        },
+        {
+          "name": "egg",
+          "item": {
+            "id": "minecraft:egg",
+            "count": 8
+          },
+          "cost": 4
+        },
+        {
+          "name": "cow_spawn_egg",
+          "item": {
+            "id": "minecraft:cow_spawn_egg",
+            "count": 1
+          },
+          "cost": 25,
+          "max_claims": 2
+        },
+        {
+          "name": "sheep",
+          "item": {
+            "id": "minecraft:sheep_spawn_egg",
+            "count": 1
+          },
+          "cost": 25,
+          "max_claims": 2
+        },
+        {
+          "name": "chicken",
+          "item": {
+            "id": "minecraft:chicken_spawn_egg",
+            "count": 1
+          },
+          "cost": 25,
+          "max_claims": 2
+        },
+        {
+          "name": "pig",
+          "item": {
+            "id": "minecraft:pig_spawn_egg",
+            "count": 1
+          },
+          "cost": 25,
+          "max_claims": 2
+        },
+        {
+          "name": "cutting_board",
+          "item": {
+            "id": "cookingforblockheads:cutting_board",
+            "count": 1
+          },
+          "cost": 8
+        },
+        {
+          "name": "flour",
+          "item": {
+            "id": "horsepowered:flour",
+            "count": 12
+          },
+          "cost": 6
+        },
+        {
+          "name": "mulch",
+          "item": {
+            "id": "agritechevolved:mulch",
+            "count": 8
+          },
+          "cost": 8
+        },
+        {
+          "name": "crude_biomass",
+          "item": {
+            "id": "agritechevolved:crude_biomass",
+            "count": 16
+          },
+          "cost": 20
+        },
+        {
+          "name": "inferium_essence",
+          "item": {
+            "id": "mysticalagriculture:inferium_essence",
+            "count": 8
+          },
+          "cost": 10
+        },
+        {
+          "name": "potion_regeneration",
+          "item": {
+            "id": "minecraft:potion",
+            "count": 1,
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:regeneration"
+              }
+            }
+          },
+          "cost": 15
+        },
+        {
+          "name": "potion_strength",
+          "item": {
+            "id": "minecraft:potion",
+            "count": 1,
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strength"
+              }
+            }
+          },
+          "cost": 15
+        },
+        {
+          "name": "potion_fire_resistance",
+          "item": {
+            "id": "minecraft:potion",
+            "count": 1,
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:fire_resistance"
+              }
+            }
+          },
+          "cost": 15
+        },
+        {
+          "name": "hot_cocoa",
+          "item": {
+            "id": "auroral:hot_cocoa",
+            "count": 4
+          },
+          "cost": 15
+        },
+        {
+          "name": "frosted_cookies",
+          "item": {
+            "id": "auroral:frosted_cookies",
+            "count": 2
+          },
+          "cost": 1
+        },
+        {
+          "name": "golden_carrot",
+          "item": {
+            "id": "minecraft:golden_carrot",
+            "count": 8
+          },
+          "cost": 20
+        }
+      ]
+    }
+  ]
+}

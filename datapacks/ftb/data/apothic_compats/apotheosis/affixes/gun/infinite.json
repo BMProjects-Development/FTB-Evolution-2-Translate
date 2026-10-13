@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_artifice"
+    }
+  ],
+  "type": "apothic_compats:infinite_ammo",
+  "definition": {
+    "affix_type": "ability",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 5
+    }
+  },
+  "rarities": [
+    "apotheosis:mythic",
+    "ftbarmory:exalted"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "mystianapiary:input_block_t2",
+  "material": "#c:nether_stars",
+  "result": {
+    "id": "mystianapiary:input_block_t3"
+  }
+}

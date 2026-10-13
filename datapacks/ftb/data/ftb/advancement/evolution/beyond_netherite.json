@@ -1,0 +1,46 @@
+{
+  "parent": "ftb:evolution/root",
+  "display": {
+    "icon": {
+      "id": "ftbarmory:adamantite_ingot"
+    },
+    "title": {
+      "translate": "advancement.ftb.evolution.beyond_netherite.title"
+    },
+    "description": {
+      "translate": "advancement.ftb.evolution.beyond_netherite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "adamantite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftbarmory:adamantite_ingot"
+          }
+        ]
+      }
+    },
+    "aeternium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ftbarmory:aeternium_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "adamantite",
+      "aeternium"
+    ]
+  ]
+}

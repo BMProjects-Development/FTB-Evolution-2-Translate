@@ -1,0 +1,38 @@
+{
+	"unlocked_by_default": true,
+	"title": {
+		"translate": "skill.ftb.athletics.title"
+	},
+	"description": {
+		"translate": "skill.ftb.athletics.description"
+	},
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "speed"
+		}
+	},
+	"starting_points": 1,
+	"background": {
+		"texture": "ftbevolution:textures/skills/backgrounds/athletics.png",
+		"width": 1024,
+		"height": 1024,
+		"position": "fill"
+	},
+	"colors": {
+		"connections": {
+			"locked": {
+				"fill": "#aab8aa",
+				"stroke": "#000000"
+			},
+			"available": {
+				"fill": "#ffffff",
+				"stroke": "#000000"
+			},
+			"unlocked": {
+				"fill": "#ffd447",
+				"stroke": "#000000"
+			}
+		}
+	}
+}

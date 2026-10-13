@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/chimerite"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "arsmagicalegacy:chimerite"
+    }
+  ],
+  "time": 40
+}

@@ -1,0 +1,91 @@
+{
+  id: "2251B0D25D273087",
+  order_index: 10,
+  icon: {
+    id: "ftbquests:custom_icon",
+    count: 1,
+    components: {
+      "ftbquests:icon": "ftbchunks:textures/waypoint_home.png",
+    },
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "0F6034EF65E2E94E",
+      item: {
+        id: "ftbpc:structure_placer",
+        count: 1,
+        components: {
+          "ftbpc:placer_data": {
+            structure_id: "ftb:starter_houses/classic",
+          },
+          "minecraft:custom_name": {
+            translate: "ftb.starter_house.classic",
+          },
+        },
+      },
+    },
+    {
+      id: "7A5BE9756A9DC36B",
+      item: {
+        id: "ftbpc:structure_placer",
+        count: 1,
+        components: {
+          "ftbpc:placer_data": {
+            structure_id: "ftb:starter_houses/magic",
+          },
+          "minecraft:custom_name": {
+            translate: "ftb.starter_house.magic",
+          },
+        },
+      },
+    },
+    {
+      id: "25D4EE508F112696",
+      item: {
+        id: "ftbpc:structure_placer",
+        count: 1,
+        components: {
+          "ftbpc:placer_data": {
+            structure_id: "ftb:starter_houses/tech",
+          },
+          "minecraft:custom_name": {
+            translate: "ftb.starter_house.tech",
+          },
+        },
+      },
+    },
+    {
+      id: "2C1FDE43D2222398",
+      item: {
+        id: "ftbpc:structure_placer",
+        count: 1,
+        components: {
+          "ftbpc:placer_data": {
+            structure_id: "ftb:starter_houses/hobbit",
+          },
+          "minecraft:custom_name": {
+            translate: "ftb.starter_house.hobbit",
+          },
+        },
+      },
+    },
+    {
+      id: "0C2F55B53A26895E",
+      item: {
+        id: "ftbpc:structure_placer",
+        count: 1,
+        components: {
+          "ftbpc:placer_data": {
+            structure_id: "ftb:starter_houses/tower",
+          },
+          "minecraft:custom_name": {
+            translate: "ftb.starter_house.tower",
+          },
+        },
+      },
+    },
+  ],
+}

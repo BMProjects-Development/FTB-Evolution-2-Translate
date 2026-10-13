@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/coal"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "minecraft:coal"
+    }
+  ],
+  "time": 40
+}

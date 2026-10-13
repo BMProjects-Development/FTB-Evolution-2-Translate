@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#c:is_desert",
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "cookingforblockheads:toaster",
+  "ingredient": "minecraft:chorus_fruit",
+  "result": {
+    "item": "minecraft:popped_chorus_fruit"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/other/desh",
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "ftbmaterials:desh_dust"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "values": {
+        "apothic_enchanting:knowledge_of_the_ages": {
+            "max_level": 1,
+            "level_cap": 1,
+            "max_loot_level": 1,
+            "max_anvil_combine_level": 1
+        }
+    }
+}

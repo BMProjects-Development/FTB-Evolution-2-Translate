@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "#c:ingots/iron",
+    "#c:ingots/chromium"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:stainless_steel_ingot"
+    }
+  ],
+  "time": 80
+}

@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbic:industrial_grade_metal",
+    "minecraft:charcoal"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbic:steel_ingot"
+    }
+  ],
+  "time": 80
+}

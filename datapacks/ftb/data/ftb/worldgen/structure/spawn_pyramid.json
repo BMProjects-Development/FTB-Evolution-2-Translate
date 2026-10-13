@@ -1,0 +1,16 @@
+{
+  "type": "ftbevolutioncompanion:spawn_pyramid",
+  "start_pool": "ftb:spawn_pyramid/start",
+  "start_height": 224,
+  "offset_x": 2,
+  "offset_z": -1,
+  "biomes": "#ftb:spawn_pyramid_biomes",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

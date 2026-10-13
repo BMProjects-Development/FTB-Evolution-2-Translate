@@ -1,0 +1,14 @@
+{
+  "type": "oritech:foundry",
+  "itemInputs": [
+    "ftbmaterials:platinum_shard",
+    "ftbmaterials:platinum_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:platinum_ingot"
+    }
+  ],
+  "time": 80
+}

@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "entity": "witchery:demon",
+  "variants": [],
+  "name_color": "#A0201A",
+  "display": {
+    "scale": 0.5
+  },
+  "sim_cost": 1024,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:nether_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.demon",
+  "fabricator_drops": [
+    {
+      "id": "witchery:demon_heart",
+      "count": 2
+    }
+  ]
+}

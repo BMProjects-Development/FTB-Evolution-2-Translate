@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "minecraft:lapis_lazuli",
+  "result": {
+    "id": "ftbmaterials:lapis_lazuli_dust"
+  },
+  "time": 16
+}

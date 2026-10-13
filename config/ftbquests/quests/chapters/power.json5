@@ -1,0 +1,1045 @@
+{
+  id: "391B65CD04A90459",
+  group: "28224E273DBAA255",
+  order_index: 3,
+  icon: {
+    id: "powah:energy_cell_nitro",
+    count: 1,
+  },
+  filename: "power",
+  default_quest_shape: "",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "754048401D3A6A7B",
+  quests: [
+    {
+      icon: {
+        id: "minecraft:redstone_block",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 1.5,
+      id: "754048401D3A6A7B",
+      tasks: [
+        {
+          id: "2E2AAC08F926D8EE",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "313CC5D40057661F",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:lv_battery",
+        count: 1,
+      },
+      x: -4.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "754048401D3A6A7B",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0532680A316DBF67",
+      tasks: [
+        {
+          id: "20409431D0FA012C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "76FFC3C7BD9AAABC",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:bacterial_fuel_cell",
+        count: 1,
+      },
+      x: -8.0,
+      y: 0.0,
+      shape: "diamond",
+      dependencies: [
+        "0532680A316DBF67",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0C006EE92B11ED21",
+      tasks: [
+        {
+          id: "48FD2E317807DBCA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "78BA87E7CD85B902",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:energy_cell_basic",
+        count: 1,
+      },
+      x: 4.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "754048401D3A6A7B",
+      ],
+      size: 1.0,
+      id: "5F14BE199B3484CF",
+      tasks: [
+        {
+          id: "683E41E7DAE795CA",
+          type: "item",
+          icon: {
+            id: "powah:energy_cell_basic",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:lv_battery_box)item(ftbic:mv_battery_box)item(ftbic:hv_battery_box)item(ftbic:ev_battery_box)item(energizedpower:battery_box)item(energizedpower:advanced_battery_box)item(energizedpower:elite_battery_box)item(agritechevolved:capacitor_tier1)item(agritechevolved:capacitor_tier2)item(agritechevolved:capacitor_tier3)item(ltxi:energy_cell_array)item(oritech:portable_energy_storage)item(oritech:large_storage)item(integrateddynamics:energy_battery)item(powah:energy_cell_starter)item(powah:energy_cell_basic)item(powah:energy_cell_hardened)item(powah:energy_cell_blazing)item(powah:energy_cell_niotic)item(powah:energy_cell_spirited)item(powah:energy_cell_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7587C091A2BEA601",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "7C635A8EE8176F18",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:energy_cable_starter",
+        count: 1,
+      },
+      x: 8.0,
+      y: 0.0,
+      shape: "square",
+      dependencies: [
+        "5F14BE199B3484CF",
+      ],
+      size: 1.0,
+      id: "5BDF75F1F09E9C22",
+      tasks: [
+        {
+          id: "19D309213D852B2D",
+          type: "item",
+          icon: {
+            id: "powah:energy_cable_starter",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(powah:energy_cable_starter)item(powah:energy_cable_basic)item(powah:energy_cable_hardened)item(powah:energy_cable_blazing)item(powah:energy_cable_niotic)item(powah:energy_cable_spirited)item(powah:energy_cable_nitro)item(ftbic:lv_cable)item(ftbic:mv_cable)item(ftbic:hv_cable)item(ftbic:ev_cable)item(ftbic:iv_cable)item(ftbic:lv_reinforced_cable)item(ftbic:mv_reinforced_cable)item(ftbic:hv_reinforced_cable)item(ftbic:ev_reinforced_cable)item(ftbic:iv_reinforced_cable)item(ftbic:superconducting_cable)item(energizedpower:tin_cable)item(energizedpower:copper_cable)item(energizedpower:gold_cable)item(energizedpower:energized_copper_cable)item(energizedpower:energized_gold_cable)item(energizedpower:energized_crystal_matrix_cable)item(energizedpower:superconductive_cable)item(oritech:energy_pipe)item(oritech:framed_energy_pipe)item(oritech:energy_pipe_duct)item(pipez:energy_pipe)item(stellaris:cable_t1)item(enderio:conduit))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "30CEC3851DF35BFF",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "0B4C58EB3FD77F45",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:coal",
+        count: 1,
+      },
+      x: -8.0,
+      y: 4.0,
+      shape: "diamond",
+      size: 1.25,
+      optional: true,
+      id: "35C4B2EA0D7FB8CB",
+      tasks: [
+        {
+          id: "6AE9CBE1EAAE4F72",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6E73550DC0E4A678",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:steel_energized",
+        count: 1,
+      },
+      x: -8.0,
+      y: 8.0,
+      shape: "diamond",
+      size: 1.25,
+      optional: true,
+      id: "1BF4810083FE3046",
+      tasks: [
+        {
+          id: "7883DDD837E876A4",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3AD3280FB5584B05",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:iridium_alloy",
+        count: 1,
+      },
+      x: -8.0,
+      y: 12.0,
+      shape: "diamond",
+      size: 1.25,
+      optional: true,
+      id: "7E4532B9052F0BEC",
+      tasks: [
+        {
+          id: "29DAAFF53D9E9531",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "516F3D595E421DC1",
+          type: "xp",
+          team_reward: false,
+          xp: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "minecraft:nether_star",
+        count: 1,
+      },
+      x: -8.0,
+      y: 16.0,
+      shape: "diamond",
+      size: 1.25,
+      optional: true,
+      id: "49E157E9B5237314",
+      tasks: [
+        {
+          id: "482EC56673B12AA2",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2372D080ECE72459",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:basic_generator",
+        count: 1,
+      },
+      x: -4.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "754048401D3A6A7B",
+      ],
+      size: 1.0,
+      id: "677873EA54068604",
+      tasks: [
+        {
+          id: "4CBB57AF9D47AD33",
+          type: "item",
+          icon: {
+            id: "ftbic:basic_generator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:basic_generator)item(justdirethings:generatort1)item(oritech:basic_generator)item(powah:furnator_starter)item(powah:furnator_basic)item(enderio:stirling_generator)item(integrateddynamics:coal_generator)item(ltxi:portable_generator)item(stellaris:coal_generator))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5F22F0366C4718F8",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "62ECC9E6051CCC52",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "powah:magmator_basic",
+        count: 1,
+      },
+      x: 0.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "754048401D3A6A7B",
+      ],
+      size: 1.0,
+      id: "2F9A9E260BC5061D",
+      tasks: [
+        {
+          id: "493B10CDEA467DA4",
+          type: "item",
+          icon: {
+            id: "powah:magmator_basic",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:geothermal_generator)item(powah:magmator_starter)item(powah:magmator_basic)item(oritech:lava_generator)item(energizedpower:heat_generator))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "035F1A207E3A4367",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "2D600D332368C2D9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:lv_solar_panel",
+        count: 1,
+      },
+      x: 4.0,
+      y: 4.0,
+      shape: "hexagon",
+      dependencies: [
+        "754048401D3A6A7B",
+      ],
+      size: 1.0,
+      id: "6393AAFA09F46A77",
+      tasks: [
+        {
+          id: "56B5B44D10E7EC7A",
+          type: "item",
+          icon: {
+            id: "ftbic:lv_solar_panel",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:lv_solar_panel)item(ltxi:solar_panel)item(powah:solar_panel_starter)item(powah:solar_panel_basic)item(energizedpower:solar_panel_1)item(energizedpower:solar_panel_2)item(energizedpower:solar_panel_3)item(enderio:energetic_photovoltaic_module)item(stellaris:solar_panel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15B2105601FA237B",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "00C6AD90A8E0603B",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "horsepowered:generator",
+        count: 1,
+      },
+      x: -6.0,
+      y: 5.25,
+      shape: "hexagon",
+      dependencies: [
+        "677873EA54068604",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "666CC5BD7E85A79A",
+      tasks: [
+        {
+          id: "5897362AE575635C",
+          type: "item",
+          icon: {
+            id: "horsepowered:generator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(horsepowered:generator)item(productivebees:honey_generator)item(agritechevolved:biomass_burner))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4B2F53355A959D38",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:bio_generator",
+        count: 1,
+      },
+      x: -4.0,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "677873EA54068604",
+      ],
+      size: 1.0,
+      id: "334613FB40021822",
+      tasks: [
+        {
+          id: "5772804405C79E5C",
+          type: "item",
+          icon: {
+            id: "oritech:bio_generator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(justdirethings:generatorfluidt1)item(nautec:combustion_dynamo)item(oritech:bio_generator)item(powah:furnator_hardened)item(powah:furnator_blazing)item(enderio:soul_engine))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "674777B4C723BF93",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "5C70F779B2BBBF73",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftb:industrial_coolant_bucket",
+        count: 1,
+      },
+      x: 0.0,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "2F9A9E260BC5061D",
+      ],
+      size: 1.0,
+      id: "339B63DF5067A4F4",
+      tasks: [
+        {
+          id: "3234030234184974",
+          type: "item",
+          item: {
+            id: "ftb:industrial_coolant_bucket",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "123CDEEE8F398520",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "2CE5B037E4EE61A9",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:solar_panel_5",
+        count: 1,
+      },
+      x: 4.0,
+      y: 8.0,
+      shape: "hexagon",
+      dependencies: [
+        "6393AAFA09F46A77",
+      ],
+      size: 1.0,
+      id: "379AF010B6BB7ECA",
+      tasks: [
+        {
+          id: "0F9F80BE3C6A92D6",
+          type: "item",
+          icon: {
+            id: "energizedpower:solar_panel_5",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:mv_solar_panel)item(energizedpower:solar_panel_4)item(energizedpower:solar_panel_5)item(powah:solar_panel_hardened)item(powah:solar_panel_blazing)item(enderio:pulsating_photovoltaic_module)item(enderio:vibrant_photovoltaic_module)item(oritech:big_solar_panel))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "5ADAB2FCABF8F5B2",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "15065C9A3A888827",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:fuel_generator",
+        count: 1,
+      },
+      x: -4.0,
+      y: 12.0,
+      shape: "hexagon",
+      dependencies: [
+        "334613FB40021822",
+      ],
+      size: 1.0,
+      id: "504D47A4397ED4C1",
+      tasks: [
+        {
+          id: "3EDC5F4A0F29DC35",
+          type: "item",
+          icon: {
+            id: "oritech:fuel_generator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritech:fuel_generator)item(justdirethings:refined_t3_fluid_bucket)item(powah:furnator_niotic)item(powah:furnator_spirited))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4BAA5B34FD8CF582",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1E840414BEE52FBE",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "colossal_reactors:reactor_controller",
+        count: 1,
+      },
+      x: 0.0,
+      y: 12.0,
+      shape: "hexagon",
+      dependencies: [
+        "339B63DF5067A4F4",
+      ],
+      size: 1.0,
+      id: "6F54FA28ABED5FDB",
+      tasks: [
+        {
+          id: "2B8F534F3694285E",
+          type: "item",
+          icon: {
+            id: "colossal_reactors:reactor_controller",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(colossal_reactors:reactor_controller)item(ftbic:nuclear_reactor)item(oritech:nuclear_reactor_controller)item(powah:reactor_niotic)item(powah:reactor_spirited))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1766DA4D7DE38364",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "66513B4A02427209",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "energizedpower:solar_panel_6",
+        count: 1,
+      },
+      x: 4.0,
+      y: 12.0,
+      shape: "hexagon",
+      dependencies: [
+        "379AF010B6BB7ECA",
+      ],
+      size: 1.0,
+      id: "50458106894EDFFF",
+      tasks: [
+        {
+          id: "3EC6053B7A8B946E",
+          type: "item",
+          icon: {
+            id: "energizedpower:solar_panel_6",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:hv_solar_panel)item(energizedpower:solar_panel_6)item(powah:solar_panel_niotic)item(powah:solar_panel_spirited))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "369F28E470E6A556",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "53F7E5E40E1D4A90",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "justdirethings:refined_t4_fluid_bucket",
+        count: 1,
+      },
+      x: -4.0,
+      y: 16.0,
+      shape: "hexagon",
+      dependencies: [
+        "504D47A4397ED4C1",
+      ],
+      size: 1.25,
+      id: "5FC6E8021F428789",
+      tasks: [
+        {
+          id: "17E154E7B81EB1F6",
+          type: "item",
+          icon: {
+            id: "justdirethings:refined_t4_fluid_bucket",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(justdirethings:refined_t4_fluid_bucket)item(powah:furnator_nitro)item(powah:magmator_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4937C0B7B1163EF5",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "28DA3508D6EB6844",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "nautec:fusion_controller",
+        count: 1,
+      },
+      x: 0.0,
+      y: 16.0,
+      shape: "hexagon",
+      dependencies: [
+        "6F54FA28ABED5FDB",
+      ],
+      size: 1.25,
+      id: "2706305DE6477D21",
+      tasks: [
+        {
+          id: "1B9EDDD730B8EB3E",
+          type: "item",
+          icon: {
+            id: "nautec:fusion_controller",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(nautec:fusion_controller)item(powah:reactor_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "14BBF83FF46EC403",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "114E4B90958C9B24",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "ftbic:ev_solar_panel",
+        count: 1,
+      },
+      x: 4.0,
+      y: 16.0,
+      shape: "hexagon",
+      dependencies: [
+        "50458106894EDFFF",
+      ],
+      size: 1.25,
+      id: "1A964E72CA3B398D",
+      tasks: [
+        {
+          id: "6D28CCC2CA870236",
+          type: "item",
+          icon: {
+            id: "ftbic:ev_solar_panel",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(ftbic:ev_solar_panel)item(energizedpower:solar_panel_7)item(powah:solar_panel_nitro))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2EA163D8B595DEED",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "106820343FFF29CC",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "1F42537BFD6A6F33",
+      x: 8.0,
+      y: 3.0,
+      shape: "gear",
+      id: "1F0F79E73CB086C4",
+    },
+    {
+      linked_quest: "39A6CE8A1D5B2D8F",
+      x: 8.0,
+      y: 5.0,
+      shape: "gear",
+      id: "1BFDAE9FCBA7E00F",
+    },
+    {
+      linked_quest: "659B9311FB49C425",
+      x: 8.0,
+      y: 7.0,
+      shape: "gear",
+      id: "38B826EF36DB268B",
+    },
+    {
+      linked_quest: "001F0C36B4AB9F5F",
+      x: 8.0,
+      y: 9.0,
+      shape: "gear",
+      id: "519510236669B54D",
+    },
+    {
+      linked_quest: "48AB0F2C91CA731D",
+      x: 8.0,
+      y: 11.0,
+      shape: "gear",
+      id: "1F02714705A09AD8",
+    },
+    {
+      linked_quest: "10E9ABD23A1018AC",
+      x: 8.0,
+      y: 13.0,
+      shape: "gear",
+      id: "71D3574DF6162289",
+    },
+    {
+      linked_quest: "53F8764099C14F93",
+      x: 8.0,
+      y: 15.0,
+      shape: "gear",
+      id: "3D68B3B34C728C94",
+    },
+    {
+      linked_quest: "4C85D0D1C8143B30",
+      x: 8.0,
+      y: 17.0,
+      shape: "gear",
+      id: "148FA66DF5645582",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ae2:block/molecular_assembler_lights",
+      id: "1786C8803CF60EE1",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ae2:block/mysterious_cube_side",
+      id: "008DB5F6A2EFD86A",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.0,
+      height: 2.0,
+      rotation: 45.0,
+      image: "irons_jewelry:textures/gui/sprites/guidebook/guidebook_part_frame.png",
+      order: -1,
+      id: "1C7537C907C7860A",
+    },
+    {
+      x: 0.0,
+      y: 0.0,
+      width: 2.5,
+      height: 2.5,
+      rotation: 45.0,
+      image: "ftbquests:tasks/input_only",
+      order: -5,
+      id: "1F77E19C2F79292D",
+    },
+    {
+      x: 0.0,
+      y: -3.5,
+      width: 7.0,
+      height: 3.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/power_gen_title.png",
+      click_action: {
+        type: "open_quest",
+        data: "754048401D3A6A7B",
+      },
+      id: "1FFB9EE98FBF5177",
+    },
+    {
+      x: 3.0,
+      y: -2.75,
+      width: 2.0,
+      height: 2.0,
+      rotation: 90.0,
+      image: "modularrouters:item/upgrade/energy_upgrade",
+      order: -1,
+      id: "543DBDD5F1D62867",
+    },
+    {
+      x: -3.0,
+      y: -2.45,
+      width: 2.0,
+      height: 2.0,
+      rotation: -90.0,
+      image: "modularrouters:item/upgrade/energy_upgrade",
+      order: -1,
+      id: "298D41E364F8A916",
+    },
+    {
+      x: 0.0,
+      y: 4.0,
+      width: 18.6,
+      height: 3.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/white_bg.png",
+      color: 0,
+      alpha: 120,
+      order: -1,
+      id: "0FFFC3EE8ED68054",
+    },
+    {
+      x: 0.0,
+      y: 8.0,
+      width: 18.6,
+      height: 3.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/white_bg.png",
+      color: 0,
+      alpha: 120,
+      order: -1,
+      id: "11ACCE48B778D7E5",
+    },
+    {
+      x: 0.0,
+      y: 12.0,
+      width: 18.6,
+      height: 3.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/white_bg.png",
+      color: 0,
+      alpha: 120,
+      order: -1,
+      id: "4A9EDD7D3C19B1E4",
+    },
+    {
+      x: 0.0,
+      y: 16.0,
+      width: 18.6,
+      height: 3.6,
+      rotation: 0.0,
+      image: "ftb:textures/quests/white_bg.png",
+      color: 0,
+      alpha: 120,
+      order: -1,
+      id: "1A26316A13B114E2",
+    },
+  ],
+}

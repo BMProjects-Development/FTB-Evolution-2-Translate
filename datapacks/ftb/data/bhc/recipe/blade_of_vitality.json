@@ -1,0 +1,51 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+      {
+      "ingredient": "ftbarmory:aeternium_sword",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:red_heart_canister",
+      "count": 1
+    },
+     {
+      "ingredient": "bhc:yellow_heart_canister",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:green_heart_canister",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:blue_heart_canister",
+      "count": 1
+    },
+    {
+      "ingredient": "bhc:soul_heart_crystal",
+      "count": 1
+    },
+    {
+      "ingredient": "#bhc:heart_amulets",
+      "count": 1
+    }
+    
+  ],
+  "fluids": [
+    {
+      "id": "evilcraft:blood",
+      "amount": 16000
+    },
+    {
+      "id": "neovitae:essentia_vitae_source",
+      "amount": 16000
+    }
+  ],
+  "results": [
+    {
+      "id": "bhc:blade_of_vitality"
+    }
+  ],
+  "ticks": 72000,
+  "energy_per_tick": 1000000
+}

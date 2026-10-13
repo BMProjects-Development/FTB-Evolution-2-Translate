@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": "#c:ores/uraninite_dense",
+  "result": {
+    "count": 1,
+    "id": "powah:uraninite"
+  }
+}

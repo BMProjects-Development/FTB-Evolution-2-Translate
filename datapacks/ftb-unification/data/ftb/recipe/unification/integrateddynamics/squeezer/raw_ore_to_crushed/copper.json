@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "minecraft:raw_copper",
+  "output_items": [
+    {
+      "item": {
+        "id": "ftbmaterials:copper_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:copper_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

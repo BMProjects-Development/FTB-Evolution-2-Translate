@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:ingots/lead"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:lead_dust"
+    }
+  ],
+  "time": 100
+}

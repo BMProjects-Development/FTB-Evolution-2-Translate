@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thunderrelics"
+    }
+  ],
+  "entity": "thunderrelics:thunder_king",
+  "variants": [],
+  "name_color": "#E8C83A",
+  "display": {
+    "scale": 0.5
+  },
+  "sim_cost": 2560,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.thunder_king",
+  "fabricator_drops": [
+    {
+      "id": "thunderrelics:royal_helmet",
+      "count": 1
+    },
+    {
+      "id": "thunderrelics:royal_chestplate",
+      "count": 1
+    },
+    {
+      "id": "thunderrelics:royal_leggings",
+      "count": 1
+    },
+    {
+      "id": "thunderrelics:royal_boots",
+      "count": 1
+    },
+    {
+      "id": "thunderrelics:royal_glaive",
+      "count": 1
+    }
+  ]
+}

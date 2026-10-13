@@ -1,0 +1,7 @@
+{
+  "input_bacteria": "nautec:metallophiles",
+  "result_bacteria": "nautec_generated:resinophiles",
+  "catalyst": "appflux:harden_insulating_resin",
+  "chance": 10.0,
+  "type": "nautec:bacteria_mutation"
+}

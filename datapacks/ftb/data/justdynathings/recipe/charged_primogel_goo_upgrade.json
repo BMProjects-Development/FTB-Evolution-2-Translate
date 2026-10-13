@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "goo_upgrade",
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "G": "justdynathings:charged_primogel_goo",
+    "N": "minecraft:nether_wart",
+    "R": "#c:dusts/redstone"
+  },
+  "pattern": [
+    "BRB",
+    "NGN",
+    "BRB"
+  ],
+  "result": {
+    "id": "justdynathings:charged_blazebloom_goo"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": "ftbic:hydroponic_growth",
+  "input_fluids": [
+    {
+      "amount": 250,
+      "ingredient": "minecraft:water"
+    }
+  ],
+  "inputs": [
+    {
+      "ingredient": "mysticalagriculture:dirt_seeds"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "mysticalagriculture:dirt_essence"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "mysticalagriculture:dirt_seeds"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "id": "mysticalagriculture:fertilized_essence"
+      }
+    }
+  ],
+  "soil_options": [
+    {
+      "ingredient": "mysticalagriculture:inferium_farmland",
+      "speed": 1.0
+    },
+    {
+      "ingredient": "mysticalagriculture:prudentium_farmland",
+      "speed": 1.25
+    },
+    {
+      "ingredient": "mysticalagriculture:tertium_farmland",
+      "speed": 1.5
+    },
+    {
+      "ingredient": "mysticalagriculture:imperium_farmland",
+      "speed": 1.75
+    },
+    {
+      "ingredient": "mysticalagriculture:supremium_farmland",
+      "speed": 2.0
+    },
+    {
+      "ingredient": "mysticalagriculture:awakened_supremium_farmland",
+      "speed": 2.25
+    },
+    {
+      "ingredient": "mysticalagradditions:insanium_farmland",
+      "speed": 2.25
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  general: {
+    /*
+     * If true, the custom temperature ingredients will not be displayed
+     * Default: false
+     */
+    hide_temperature_ingredients: false,
+    /*
+     * If true, dev/testing recipes will be available outside a development environment
+     * Leave this false unless actually testing the mod.
+     * Default: false
+     */
+    include_dev_recipes: false,
+  },
+}

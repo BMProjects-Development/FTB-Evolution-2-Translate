@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "xycraft:extractor",
+  "adjacent": [
+    {
+      "context_matters:rule_type": "context_matters:water"
+    }
+  ],
+  "output": {
+    "type": "xycraft:item",
+    "id": "ae2:certus_quartz_dust",
+    "amount": 1
+  },
+  "target": {
+    "block": "ae2:flawless_budding_quartz",
+    "context_matters:rule_type": "context_matters:block"
+  },
+  "ticks": 300
+}

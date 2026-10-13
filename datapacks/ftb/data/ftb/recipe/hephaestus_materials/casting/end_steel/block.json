@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "ftb:molten_end_steel"
+  },
+  "result": {
+    "id": "enderio:end_steel_block"
+  }
+}

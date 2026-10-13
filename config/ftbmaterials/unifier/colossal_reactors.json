@@ -1,0 +1,6 @@
+{
+  "fluids": {
+    "colossal_reactors:gas_fluid_steam": "oritech:still_steam",
+    "colossal_reactors:gas_fluid_steam_flowing": "oritech:flowing_steam"
+  }
+}

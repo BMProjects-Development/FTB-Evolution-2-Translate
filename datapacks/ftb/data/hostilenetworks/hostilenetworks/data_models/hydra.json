@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "entity": "iceandfire:hydra",
+  "variants": [],
+  "name_color": "#3A7A3A",
+  "display": {
+    "scale": 0.4
+  },
+  "sim_cost": 1536,
+  "input": "hostilenetworks:prediction_matrix",
+  "base_drop": {
+    "id": "hostilenetworks:overworld_prediction"
+  },
+  "trivia": "hostilenetworks.trivia.hydra",
+  "fabricator_drops": [
+    {
+      "id": "iceandfire:hydra_fang",
+      "count": 8
+    },
+    {
+      "id": "iceandfire:hydra_heart",
+      "count": 1
+    }
+  ]
+}

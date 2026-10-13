@@ -1,0 +1,17 @@
+{
+  "type": "oritech:centrifuge_fluid",
+  "fluidInput": {
+    "amount": 1000,
+    "ingredient": "minecraft:water"
+  },
+  "itemInputs": [
+    "#c:clumps/aluminum"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:aluminum_shard"
+    }
+  ],
+  "time": 150
+}

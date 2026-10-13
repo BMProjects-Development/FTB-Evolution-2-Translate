@@ -1,0 +1,13 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:ore_source/overworld/prosperity",
+  "result": {
+    "count": 2,
+    "id": "mysticalagriculture:prosperity_shard"
+  },
+  "secondary": {
+    "id": "mysticalagriculture:prosperity_shard"
+  },
+  "secondaryChance": 25,
+  "time": 16
+}

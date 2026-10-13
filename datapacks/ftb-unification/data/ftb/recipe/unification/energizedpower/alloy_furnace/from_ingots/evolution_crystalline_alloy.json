@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "enderio:pulsating_powder"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio:pulsating_alloy_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "enderio_evolution:vivid_alloy_ingot"
+    }
+  ],
+  "result": {
+    "id": "enderio_evolution:crystalline_alloy_ingot",
+    "count": 1
+  },
+  "ticks": 1000
+}

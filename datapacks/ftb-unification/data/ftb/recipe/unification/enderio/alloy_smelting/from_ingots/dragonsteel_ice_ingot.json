@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 20000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": "ftbmaterials:steel_ingot"
+    },
+    {
+      "count": 1,
+      "ingredient": "iceandfire:dragon_ice"
+    },
+    {
+      "count": 1,
+      "ingredient": "ftbmaterials:cinnabar_gem"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "iceandfire:dragonsteel_ice_ingot"
+  }
+}

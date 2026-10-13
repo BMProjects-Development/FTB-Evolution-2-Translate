@@ -1,0 +1,22 @@
+{
+  "type": "energizedpower:alloy_furnace",
+  "ingredients": [
+    {
+      "count": 1,
+      "ingredient": "#c:dusts/redstone"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/conductive_alloy"
+    },
+    {
+      "count": 1,
+      "ingredient": "#c:ingots/gold"
+    }
+  ],
+  "result": {
+    "id": "enderio:energetic_alloy_ingot",
+    "count": 2
+  },
+  "ticks": 480
+}

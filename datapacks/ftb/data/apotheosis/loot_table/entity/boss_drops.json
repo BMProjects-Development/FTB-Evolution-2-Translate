@@ -1,0 +1,159 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                { "type": "apotheosis:random_gem", "quality": 1, "weight": 30 },
+                { "type": "minecraft:item", "name": "apotheosis:sigil_of_malice", "quality": 1, "weight": 15 },
+                { "type": "minecraft:empty", "weight": 55 }
+            ],
+            "rolls": 1.0
+        },
+
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:uncommon\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["haven"] },
+            { "condition": "minecraft:random_chance", "chance": 0.05 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:uncommon\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["frontier"] },
+            { "condition": "minecraft:random_chance", "chance": 0.10 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:uncommon\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["ascent"] },
+            { "condition": "minecraft:random_chance", "chance": 0.15 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:uncommon\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["summit"] },
+            { "condition": "minecraft:random_chance", "chance": 0.20 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:uncommon\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["pinnacle"] },
+            { "condition": "minecraft:random_chance", "chance": 0.25 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:rare\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["haven"] },
+            { "condition": "minecraft:random_chance", "chance": 0.10 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:rare\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["frontier"] },
+            { "condition": "minecraft:random_chance", "chance": 0.20 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:rare\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["ascent"] },
+            { "condition": "minecraft:random_chance", "chance": 0.30 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:rare\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["summit"] },
+            { "condition": "minecraft:random_chance", "chance": 0.40 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:rare\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["pinnacle"] },
+            { "condition": "minecraft:random_chance", "chance": 0.50 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:mythic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["haven"] },
+            { "condition": "minecraft:random_chance", "chance": 0.15 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:mythic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["frontier"] },
+            { "condition": "minecraft:random_chance", "chance": 0.30 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:mythic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["ascent"] },
+            { "condition": "minecraft:random_chance", "chance": 0.45 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:mythic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["summit"] },
+            { "condition": "minecraft:random_chance", "chance": 0.60 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:mythic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["pinnacle"] },
+            { "condition": "minecraft:random_chance", "chance": 0.75 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:epic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["haven"] },
+            { "condition": "minecraft:random_chance", "chance": 0.20 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:epic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["frontier"] },
+            { "condition": "minecraft:random_chance", "chance": 0.40 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:epic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["ascent"] },
+            { "condition": "minecraft:random_chance", "chance": 0.60 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:epic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["summit"] },
+            { "condition": "minecraft:random_chance", "chance": 0.80 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] },
+        { "rolls": 1.0, "bonus_rolls": 0.0,
+          "conditions": [
+            { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "nbt": "{NeoForgeData:{\"apoth.boss\":1b,\"apoth.boss.rarity\":\"apotheosis:epic\"}}" } },
+            { "condition": "apotheosis:has_world_tier", "tiers": ["pinnacle"] },
+            { "condition": "minecraft:random_chance", "chance": 1.00 }
+          ],
+          "entries": [{ "type": "minecraft:item", "name": "bhc:red_heart" }] }
+    ],
+    "random_sequence": "apotheosis:entity/boss_drops"
+}

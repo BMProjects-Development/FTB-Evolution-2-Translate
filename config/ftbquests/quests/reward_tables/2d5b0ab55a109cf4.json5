@@ -1,0 +1,57 @@
+{
+  id: "2D5B0AB55A109CF4",
+  order_index: 15,
+  icon: {
+    id: "minecraft:coast_armor_trim_smithing_template",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "1574C56C3F0431A9",
+      icon: {
+        id: "hats:acornhat",
+        count: 1,
+      },
+      command: "/loot give @s loot ftb:gamba/random_hat",
+      permission_level: 2,
+      silent: true,
+      type: "command",
+      weight: 8.0,
+    },
+    {
+      id: "5C1E290CE3B1C81A",
+      icon: {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        count: 1,
+      },
+      command: "/loot give @s loot ftb:gamba/random_armor_trim",
+      permission_level: 2,
+      silent: true,
+      type: "command",
+    },
+    {
+      id: "2C6D94106D6B7FA3",
+      icon: {
+        id: "starcatcher:king_smithing_template",
+        count: 1,
+      },
+      command: "/loot give @s loot ftb:gamba/random_starcatcher_template",
+      permission_level: 2,
+      silent: true,
+      type: "command",
+    },
+  ],
+  loot_crate: {
+    string_id: "random_wardrobe",
+    color: 5635925,
+    item_name: "ftbquests.loot_crate.random_wardrobe",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

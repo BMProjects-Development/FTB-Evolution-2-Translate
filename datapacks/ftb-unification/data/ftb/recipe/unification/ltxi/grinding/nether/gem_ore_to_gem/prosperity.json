@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "mysticalagradditions:nether_prosperity_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 3,
+      "id": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "count": {
+        "chance": 0.375,
+        "max": 2,
+        "min": 2
+      },
+      "id": "mysticalagriculture:prosperity_shard",
+      "required": false
+    }
+  ]
+}

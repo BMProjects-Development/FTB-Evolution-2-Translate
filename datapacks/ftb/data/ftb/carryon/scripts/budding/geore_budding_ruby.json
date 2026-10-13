@@ -1,0 +1,8 @@
+{
+  "object": {
+    "block": {
+      "name": "geore:budding_ruby"
+    }
+  },
+  "override_checks": true
+}

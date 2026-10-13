@@ -1,0 +1,23 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "mysticalagradditions:nether_inferium_ore"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 4,
+      "id": "mysticalagriculture:inferium_essence"
+    },
+    {
+      "count": {
+        "chance": 0.75,
+        "max": 3,
+        "min": 3
+      },
+      "id": "mysticalagriculture:inferium_essence",
+      "required": false
+    }
+  ]
+}

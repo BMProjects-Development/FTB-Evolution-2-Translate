@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:extruding",
+  "inputs": [
+    {
+      "ingredient": "#c:rods/aluminum"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "count": 2,
+        "id": "ftbmaterials:aluminum_wire"
+      }
+    }
+  ]
+}

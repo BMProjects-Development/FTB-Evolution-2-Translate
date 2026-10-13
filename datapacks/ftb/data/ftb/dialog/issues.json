@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": "Get Support",
+  "title": "Get Support",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": ""
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Join Discord",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://go.ftb.team/discord"
+      }
+    },
+    {
+      "label": "Report Issue",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://go.ftb.team/support-modpack"
+      }
+    },
+    {
+      "label": "Cancel "
+    }
+  ]
+}

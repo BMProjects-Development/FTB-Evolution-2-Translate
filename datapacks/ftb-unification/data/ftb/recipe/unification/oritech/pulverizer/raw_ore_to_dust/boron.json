@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:raw_materials/boron"
+  ],
+  "itemResults": [
+    {
+      "id": "colossal_reactors:boron_dust"
+    }
+  ],
+  "time": 100
+}

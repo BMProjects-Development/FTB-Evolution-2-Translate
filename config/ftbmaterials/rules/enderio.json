@@ -1,0 +1,25 @@
+{
+  "enderio:sag_milling": [
+    {
+      "path": "input",
+      "action": {
+        "field": "input",
+        "output_value": "<item_map>"
+      }
+    },
+    {
+      "path": "input",
+      "action": {
+        "field": "input",
+        "output_value": "<item_tag_map>"
+      }
+    },
+    {
+      "path": "outputs/item/id",
+      "action": {
+        "field": "id",
+        "output_value": "<item_map>"
+      }
+    }
+  ]
+}

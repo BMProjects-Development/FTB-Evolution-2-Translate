@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftbmaterials:platinum_deepslate_ore",
+    "ftbmaterials:platinum_stone_ore",
+    "oritech:deepslate_platinum_ore"
+  ]
+}

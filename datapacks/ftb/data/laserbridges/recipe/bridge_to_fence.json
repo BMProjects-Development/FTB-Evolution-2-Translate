@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "laserbridges:laser_source_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "laserbridges:laser_fence_source_block"
+  }
+}

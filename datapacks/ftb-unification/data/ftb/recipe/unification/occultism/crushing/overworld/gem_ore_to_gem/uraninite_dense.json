@@ -1,0 +1,9 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": "#c:ore_source/overworld/uraninite_dense",
+  "result": {
+    "type": "occultism:item",
+    "count": 10,
+    "id": "powah:uraninite"
+  }
+}

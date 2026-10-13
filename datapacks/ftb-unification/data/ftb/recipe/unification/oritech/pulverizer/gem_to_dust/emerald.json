@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:gems/emerald"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:emerald_dust"
+    }
+  ],
+  "time": 100
+}

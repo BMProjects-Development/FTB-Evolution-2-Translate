@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "colossal_reactors:deep_uranium_ore",
+    "colossal_reactors:uranium_ore",
+    "ftbic:uranium_deepslate_ore",
+    "ftbic:uranium_stone_ore",
+    "ftbmaterials:uranium_deepslate_ore",
+    "ftbmaterials:uranium_stone_ore",
+    "oritech:deepslate_uranium_ore"
+  ]
+}

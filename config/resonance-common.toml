@@ -1,0 +1,14 @@
+#Extra damage multiplier per Resonance amplifier level (0.2 = +20% damage taken).
+# Default: 0.2
+# Range: 0.0 ~ 2.0
+resonanceDamageBonus = 0.2
+#Duration of the Resonance effect in ticks (100 = 5 seconds).
+# Default: 100
+# Range: 20 ~ 600
+resonanceDuration = 100
+#Cooldown in ticks for Harmonic Shield regeneration (600 = 30 seconds).
+# Default: 600
+# Range: 100 ~ 2400
+harmonicShieldCooldown = 600
+#Whether to show particles on entities afflicted with Resonance.
+showParticles = true

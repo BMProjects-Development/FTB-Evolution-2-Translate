@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.spiritus_crystal",
+  "ingredient": "neovitae:raw_crystal_shard",
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/spiritus_crystal",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "neovitae:bonus_sacrifice",
+      "operation": "add_value",
+      "amount": 0.1
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:absorption"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:hunger"
+    },
+    "irons_jewelry:action": {
+      "action": {
+        "type": "irons_jewelry:heal",
+        "amount": {
+          "base": 2.0,
+          "scalar": 1.0
+        }
+      },
+      "targetSelf": true
+    }
+  }
+}

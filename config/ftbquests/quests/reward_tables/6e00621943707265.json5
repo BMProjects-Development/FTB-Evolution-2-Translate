@@ -1,0 +1,438 @@
+{
+  id: "6E00621943707265",
+  order_index: 22,
+  icon: {
+    id: "arsmagicalegacy:purified_vinteum_dust",
+    count: 1,
+  },
+  loot_size: 1,
+  hide_tooltip: true,
+  use_title: true,
+  rewards: [
+    {
+      id: "4D525E77C0B6CA5D",
+      item: {
+        id: "arsmagicalegacy:vinteum_dust",
+        count: 1,
+      },
+      count: 8,
+      weight: 8.0,
+    },
+    {
+      id: "7E290317FC8B0DD4",
+      item: {
+        id: "arsmagicalegacy:chimerite",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "32BB430385267880",
+      item: {
+        id: "arsmagicalegacy:topaz",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "419449723739F501",
+      item: {
+        id: "arsmagicalegacy:spell_parchment",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "1844E0826E755096",
+      item: {
+        id: "arsmagicalegacy:blank_rune",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "76CBAC93CE8E8DAD",
+      item: {
+        id: "arsmagicalegacy:tarma_root",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "1BB74A3F53548BEF",
+      item: {
+        id: "arsmagicalegacy:aum",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "34A186C9E7B24FA1",
+      item: {
+        id: "arsmagicalegacy:cerublossom",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "0693C6FE83C2D023",
+      item: {
+        id: "arsmagicalegacy:wakebloom",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "5C404504B5A914EF",
+      item: {
+        id: "arsmagicalegacy:desert_nova",
+        count: 1,
+      },
+      count: 2,
+      weight: 5.0,
+    },
+    {
+      id: "010D5845E3888D62",
+      item: {
+        id: "auroral:frozen_petals",
+        count: 1,
+      },
+      count: 8,
+      weight: 5.0,
+    },
+    {
+      id: "37EACAC6F0B67FCA",
+      item: {
+        id: "auroral:glow_leek_seeds",
+        count: 1,
+      },
+      count: 4,
+      weight: 5.0,
+    },
+    {
+      id: "33F4FF83DE67D5FA",
+      item: {
+        id: "arsmagicalegacy:wizards_chalk",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "5D7763DACAA60691",
+      item: {
+        id: "arsmagicalegacy:arcane_ash",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "7F8661467AD211F1",
+      item: {
+        id: "arsmagicalegacy:mana_cake",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "4796135FA1E48314",
+      item: {
+        id: "arsmagicalegacy:witchwood_sapling",
+        count: 1,
+      },
+      weight: 3.0,
+    },
+    {
+      id: "5BAD3784F91D303D",
+      item: {
+        id: "arsmagicalegacy:gold_inlay",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "2358CFFF3DB93FE6",
+      item: {
+        id: "arsmagicalegacy:iron_inlay",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "49851FAACCEA9DDA",
+      item: {
+        id: "arsmagicalegacy:redstone_inlay",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "4B873C3EEA846EAA",
+      item: {
+        id: "auroral:shimmering_ice",
+        count: 1,
+      },
+      count: 8,
+      weight: 3.0,
+    },
+    {
+      id: "39415CEC4F90A724",
+      item: {
+        id: "auroral:woven_leather",
+        count: 1,
+      },
+      count: 4,
+      weight: 3.0,
+    },
+    {
+      id: "0238FB2B0FDE6643",
+      item: {
+        id: "arsmagicalegacy:purified_vinteum_dust",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "7A8F34A802A3EF43",
+      item: {
+        id: "arsmagicalegacy:moonstone",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "0C73E5DFDD895DDB",
+      item: {
+        id: "arsmagicalegacy:sunstone",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "2A091949963268E1",
+      item: {
+        id: "arsmagicalegacy:mana_martini",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "2DA5DCDC82E0AA28",
+      item: {
+        id: "arsmagicalegacy:white_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "2EAB5172DA3C3D96",
+      item: {
+        id: "arsmagicalegacy:orange_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "6CEFE7D90E203BAE",
+      item: {
+        id: "arsmagicalegacy:magenta_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "72A939FC8A8C068C",
+      item: {
+        id: "arsmagicalegacy:light_blue_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "0FC260EBE22987BD",
+      item: {
+        id: "arsmagicalegacy:yellow_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "283FEB772F4227AC",
+      item: {
+        id: "arsmagicalegacy:lime_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "657288616C552158",
+      item: {
+        id: "arsmagicalegacy:pink_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "3A9A29D09E143987",
+      item: {
+        id: "arsmagicalegacy:gray_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "19D88817217647DA",
+      item: {
+        id: "arsmagicalegacy:light_gray_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "660D1FA86F0EC3DE",
+      item: {
+        id: "arsmagicalegacy:cyan_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "25810A73F432D055",
+      item: {
+        id: "arsmagicalegacy:purple_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "21129E10E474FE92",
+      item: {
+        id: "arsmagicalegacy:blue_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "63177B0CFC4A2597",
+      item: {
+        id: "arsmagicalegacy:brown_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "6CF6B711CA193A23",
+      item: {
+        id: "arsmagicalegacy:green_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "6761719C372B0510",
+      item: {
+        id: "arsmagicalegacy:red_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "284DC9DC1E185486",
+      item: {
+        id: "arsmagicalegacy:black_rune",
+        count: 1,
+      },
+      count: 2,
+      weight: 2.0,
+    },
+    {
+      id: "41C2FEA28AB723C5",
+      item: {
+        id: "auroral:hearthwood_log",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "4AC15D9CF1712075",
+      item: {
+        id: "auroral:aurora_ender_shard",
+        count: 1,
+      },
+      count: 4,
+      weight: 2.0,
+    },
+    {
+      id: "13FB8C395D93D1E9",
+      item: {
+        id: "arsmagicalegacy:rune_bag",
+        count: 1,
+      },
+    },
+    {
+      id: "3117303DABBE0F32",
+      item: {
+        id: "arsmagicalegacy:crystal_phylactery",
+        count: 1,
+      },
+    },
+    {
+      id: "10794119A47D1C41",
+      item: {
+        id: "auroral:shimmerweave_fabric",
+        count: 1,
+      },
+      count: 2,
+    },
+    {
+      id: "639D9725C63C0D18",
+      item: {
+        id: "auroral:aurora_lantern",
+        count: 1,
+      },
+    },
+  ],
+  loot_crate: {
+    string_id: "random_arcane",
+    color: 5592575,
+    item_name: "ftbquests.loot_crate.random_arcane",
+    drops: {
+      passive: 0,
+      monster: 0,
+      boss: 0,
+    },
+  },
+}

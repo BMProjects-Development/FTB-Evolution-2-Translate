@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "synergy" }
+  ],
+  "type": "synergy:casting_table",
+  "fluid": {
+    "amount": 90,
+    "id": "colossal_reactors:molten_stainless_steel"
+  },
+  "input": {
+    "item": "synergy:ingot_mold"
+  },
+  "consume_input": false,
+  "ticks": 80,
+  "output": {
+    "id": "colossal_reactors:stainless_steel_ingot",
+    "count": 1
+  }
+}

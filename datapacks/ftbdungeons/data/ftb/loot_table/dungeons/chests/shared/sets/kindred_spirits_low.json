@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kindredspirits:gremlin_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kindredspirits:mini_player_spawn_egg",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kindredspirits:quokka_spawn_egg",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

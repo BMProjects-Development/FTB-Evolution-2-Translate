@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "E E",
+    "EEE"
+  ],
+  "key": {
+    "E": "mysticalagriculture:fluxite_essence"
+  },
+  "result": {
+    "id": "oritech:fluxite",
+    "count": 7
+  }
+}

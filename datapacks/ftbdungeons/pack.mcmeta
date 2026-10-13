@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "FTB Evolution 2 - Dungeons (ported from FTB One)",
+    "min_format": [
+      101,
+      0
+    ],
+    "max_format": [
+      101,
+      2147483647
+    ]
+  }
+}

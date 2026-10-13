@@ -1,0 +1,12 @@
+#Client settings
+[Client]
+	#Use hexagonal style for the radial menu slices instead of smooth circle
+	pixelatedMode = false
+	#The integer color of the radial menu when hovering a slice [Default: 4170175]
+	# Default: 4170175
+	# Range: 0 ~ 16777215
+	hoverColor = 4170175
+	#The max number of tamed entities visible in the radial menu [Default: 20]
+	# Default: 20
+	# Range: 1 ~ 100
+	slotsVisible = 20

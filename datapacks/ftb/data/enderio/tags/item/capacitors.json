@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftb:adamantite_capacitor",
+    "ftb:aeternium_capacitor",
+    "ftb:aurichalcum_capacitor"
+  ]
+}

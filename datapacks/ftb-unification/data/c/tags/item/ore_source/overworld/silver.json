@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "ftbic:silver_deepslate_ore",
+    "ftbic:silver_stone_ore",
+    "ftbmaterials:silver_deepslate_ore",
+    "ftbmaterials:silver_stone_ore",
+    "ltxi:deepslate_silver_ore",
+    "ltxi:silver_ore",
+    "occultism:silver_ore",
+    "occultism:silver_ore_deepslate"
+  ]
+}

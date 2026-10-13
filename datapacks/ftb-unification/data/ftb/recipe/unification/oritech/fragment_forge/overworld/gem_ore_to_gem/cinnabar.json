@@ -1,0 +1,13 @@
+{
+  "type": "oritech:fragment_forge",
+  "itemInputs": [
+    "#c:ore_source/overworld/cinnabar"
+  ],
+  "itemResults": [
+    {
+      "count": 2,
+      "id": "ftbmaterials:cinnabar_gem"
+    }
+  ],
+  "time": 40
+}

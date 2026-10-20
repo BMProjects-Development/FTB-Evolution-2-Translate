@@ -188,7 +188,7 @@
 	"travel_cap": {
 		"definition": "travel_cap",
 		"x": 570,
-		"y": 150,
+		"y": 30,
 		"root": false
 	},
 	"sustain_g1": {
@@ -230,7 +230,7 @@
 	"sustain_cap": {
 		"definition": "sustain_cap",
 		"x": 570,
-		"y": 30,
+		"y": 150,
 		"root": false
 	},
 	"glide_g1": {

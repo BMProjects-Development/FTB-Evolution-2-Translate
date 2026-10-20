@@ -1,0 +1,19 @@
+{
+  "id": "chisel_leaf",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_leaf",
+    "fallback": "Chisel: Leaf Block"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "leaf_"
+      }
+    ]
+  }
+}

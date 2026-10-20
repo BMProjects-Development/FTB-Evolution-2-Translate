@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "ftb:aeternium_turbine_coil",
+    "#c:nuggets/aurichalcum"
+  ],
+  "result": {
+    "id": "ftb:aurichalcum_turbine_coil",
+    "count": 1
+  }
+}

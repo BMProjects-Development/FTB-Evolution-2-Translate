@@ -1,0 +1,14 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": "minecraft:amethyst_shard",
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "occultism:amethyst_dust"
+      }
+    }
+  ]
+}

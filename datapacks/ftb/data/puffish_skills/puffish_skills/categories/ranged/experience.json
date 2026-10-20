@@ -76,7 +76,23 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"damage_type": "#ltxi:weapons"
+									"damage_type": "#ltxi:wepaon_or_gadget"
+								}
+							}
+						]
+					},
+					"is_no_skill_xp": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "#ftb:no_skill_xp"
 								}
 							}
 						]
@@ -84,15 +100,15 @@
 				},
 				"experience": [
 					{
-						"condition": "is_bullet & !is_target_dummy",
+						"condition": "is_bullet & !is_target_dummy & !is_no_skill_xp",
 						"expression": "damage * 0.4"
 					},
 					{
-						"condition": "is_ltx & !is_target_dummy",
+						"condition": "is_ltx & !is_target_dummy & !is_no_skill_xp",
 						"expression": "damage * 0.4"
 					},
 					{
-						"condition": "is_projectile & !is_bullet & !is_target_dummy",
+						"condition": "is_projectile & !is_bullet & !is_target_dummy & !is_no_skill_xp",
 						"expression": "damage * 0.25"
 					}
 				],
@@ -166,7 +182,7 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"damage_type": "#ltxi:weapons"
+									"damage_type": "#ltxi:wepaon_or_gadget"
 								}
 							}
 						]
@@ -175,15 +191,15 @@
 				"experience": [
 					{
 						"condition": "is_bullet",
-						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+						"expression": "min(dropped_xp, 10) + min(2 * sqrt(max(dropped_xp - 10, 0)), 40) + min(max_health / 5, 40)"
 					},
 					{
 						"condition": "is_ltx",
-						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+						"expression": "min(dropped_xp, 10) + min(2 * sqrt(max(dropped_xp - 10, 0)), 40) + min(max_health / 5, 40)"
 					},
 					{
 						"condition": "is_projectile & !is_bullet",
-						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+						"expression": "min(dropped_xp, 10) + min(2 * sqrt(max(dropped_xp - 10, 0)), 40) + min(max_health / 5, 40)"
 					}
 				],
 				"anti_farming": {
@@ -234,11 +250,27 @@
 								}
 							}
 						]
+					},
+					"is_no_skill_xp": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "#ftb:no_skill_xp"
+								}
+							}
+						]
 					}
 				},
 				"experience": [
 					{
-						"condition": "is_beam & !is_target_dummy",
+						"condition": "is_beam & !is_target_dummy & !is_no_skill_xp",
 						"expression": "damage * 0.4"
 					}
 				],
@@ -289,7 +321,7 @@
 				"experience": [
 					{
 						"condition": "is_beam",
-						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+						"expression": "min(dropped_xp, 10) + min(2 * sqrt(max(dropped_xp - 10, 0)), 40) + min(max_health / 5, 40)"
 					}
 				],
 				"anti_farming": {

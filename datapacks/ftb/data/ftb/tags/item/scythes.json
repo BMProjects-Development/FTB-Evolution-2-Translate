@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "animusnv:hand_of_death",
+      "required": false
+    },
+    {
+      "id": "witchery:death_sickle",
+      "required": false
+    }
+  ]
+}

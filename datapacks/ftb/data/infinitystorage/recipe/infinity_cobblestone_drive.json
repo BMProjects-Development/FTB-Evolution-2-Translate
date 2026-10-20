@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "infinity_storage",
+  "key": {
+    "A": "compressium:cobblestone_3",
+    "B": "infinitystorage:empty_infinity_drive"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "id": "infinitystorage:infinity_cobblestone_drive"
+  }
+}

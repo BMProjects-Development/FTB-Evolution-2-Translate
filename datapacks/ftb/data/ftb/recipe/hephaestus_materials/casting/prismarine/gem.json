@@ -4,7 +4,7 @@
   "cooling_time": 100,
   "fluid": {
     "amount": 90,
-    "id": "ftb:molten_prismarine"
+    "id": "hephaestus:molten_prismarine"
   },
   "result": {
     "id": "minecraft:prismarine_crystals"

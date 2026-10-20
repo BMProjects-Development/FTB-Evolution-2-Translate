@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "trainingdummy:dummy",
+      "required": false
+    },
+    {
+      "id": "trainingdummy:scoreboard_dummy",
+      "required": false
+    }
+  ]
+}

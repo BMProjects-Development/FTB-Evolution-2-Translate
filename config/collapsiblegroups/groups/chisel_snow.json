@@ -1,0 +1,19 @@
+{
+  "id": "chisel_snow",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_snow",
+    "fallback": "Chisel: Snow Block"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "snow_"
+      }
+    ]
+  }
+}

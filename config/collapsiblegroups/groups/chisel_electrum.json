@@ -1,0 +1,19 @@
+{
+  "id": "chisel_electrum",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_electrum",
+    "fallback": "Chisel: Electrum"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "electrum_"
+      }
+    ]
+  }
+}

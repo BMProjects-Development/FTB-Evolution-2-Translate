@@ -1,0 +1,19 @@
+{
+  "id": "little_big_redstone_microchips",
+  "name": {
+    "translate": "collapsible_groups.group.little_big_redstone_microchips",
+    "fallback": "Little Big Redstone: Microchips"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "little_big_redstone"
+      },
+      {
+        "item_path_ends_with": "_microchip"
+      }
+    ]
+  }
+}

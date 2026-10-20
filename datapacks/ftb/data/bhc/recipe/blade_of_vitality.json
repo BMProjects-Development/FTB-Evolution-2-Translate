@@ -46,6 +46,7 @@
       "id": "bhc:blade_of_vitality"
     }
   ],
-  "ticks": 72000,
-  "energy_per_tick": 1000000
+  "ticks": 1200,
+  "energy_per_tick": 6000,
+  "stage": "skyline2_unlocked"
 }

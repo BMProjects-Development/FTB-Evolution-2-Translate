@@ -1,0 +1,19 @@
+{
+  "id": "chisel_cobblestone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_cobblestone",
+    "fallback": "Chisel: Cobblestone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "cobblestone_"
+      }
+    ]
+  }
+}

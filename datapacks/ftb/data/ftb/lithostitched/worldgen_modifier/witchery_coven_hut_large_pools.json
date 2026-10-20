@@ -1,0 +1,18 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": [
+    "ctov:village/mesa/house",
+    "ctov:village/savanna_na/house"
+  ],
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery:village/houses/coven_hut",
+        "processors": "witchery:coven_hut",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

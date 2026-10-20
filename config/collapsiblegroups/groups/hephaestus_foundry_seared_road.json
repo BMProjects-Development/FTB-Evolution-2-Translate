@@ -1,0 +1,19 @@
+{
+  "id": "hephaestus_foundry_seared_road",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_foundry_seared_road",
+    "fallback": "Hephaestus Foundry: Seared Road Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "hephaestus"
+      },
+      {
+        "item_path_contains": "seared_road"
+      }
+    ]
+  }
+}

@@ -14,6 +14,9 @@
     "witchery:waxed_copper_witches_oven",
     "witchery:waxed_exposed_copper_witches_oven",
     "witchery:waxed_weathered_copper_witches_oven",
-    "witchery:waxed_oxidized_copper_witches_oven"
+    "witchery:waxed_oxidized_copper_witches_oven",
+    "ftb:adamantite_coolant",
+    "ftb:aeternium_coolant",
+    "ftb:aurichalcum_coolant"
   ]
 }

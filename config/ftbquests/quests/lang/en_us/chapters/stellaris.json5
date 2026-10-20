@@ -5,7 +5,7 @@
   "quest.2AB8372D4923EB79.title": "&6Launch Pad Towers",
   "quest.48793376ABF73D9D.title": "&6Rocket Parts",
   "quest.7E33FAE9B28F310C.quest_desc": [
-    "Titanium tools have 1200 durability, 6.0 mining speed, a 2.0 attack bonus and 14 enchantability. They sit between iron and diamond in every respect.",
+    "Titanium tools have 3122 durability and 9.6 mining speed, more than diamond tools on both counts, and they harvest everything a diamond pickaxe can.",
     "",
     "The set includes a sword as well. They are worth making if you expect to spend much time underground looking for more titanium.",
   ],
@@ -73,7 +73,7 @@
     "",
     "On Earth, the ore generates from bedrock up to about &ey 60&r, with the best supply in the middle of that range. The Moon has its own deposits below &ey 32&r, but you will need titanium before you can get there.",
     "",
-    "&7&oTitanium tools sit between iron and diamond.&r",
+    "&7&oTitanium tools harvest at diamond tier and outlast diamond ones.&r",
   ],
   "quest.11DCEA26B9BA0EC2.title": "&aWater Pump",
   "quest.6D3E46EA2429C2B6.title": "&aSolar Panel",

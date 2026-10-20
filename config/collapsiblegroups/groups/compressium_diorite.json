@@ -1,0 +1,19 @@
+{
+  "id": "compressium_diorite",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_diorite",
+    "fallback": "Compressium: Diorite"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "diorite_"
+      }
+    ]
+  }
+}

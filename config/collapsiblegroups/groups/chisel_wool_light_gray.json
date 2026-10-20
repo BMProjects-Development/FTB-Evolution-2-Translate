@@ -1,0 +1,19 @@
+{
+  "id": "chisel_wool_light_gray",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_wool_light_gray",
+    "fallback": "Chisel: Light Gray Wool"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "wool_light_gray_l"
+      }
+    ]
+  }
+}

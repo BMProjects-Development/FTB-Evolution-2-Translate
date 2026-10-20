@@ -1,0 +1,19 @@
+{
+  "id": "chisel_purpur",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_purpur",
+    "fallback": "Chisel: Purpur"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "purpur_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "decorz_number_decals",
+  "name": {
+    "translate": "collapsible_groups.group.decorz_number_decals",
+    "fallback": "DecorZ: Number Decals"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorz"
+      },
+      {
+        "item_path_starts_with": "number_"
+      }
+    ]
+  }
+}

@@ -44,7 +44,7 @@
 		#When true, network elements will tick, irrespective of whether their chunk is loaded or not.
 		tickUnloadedNetworkElements = false
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 	[general.general]
 		#The energy usage multiplier for networks.

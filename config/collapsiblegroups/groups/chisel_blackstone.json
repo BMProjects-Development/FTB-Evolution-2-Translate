@@ -1,0 +1,19 @@
+{
+  "id": "chisel_blackstone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_blackstone",
+    "fallback": "Chisel: Blackstone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "blackstone_"
+      }
+    ]
+  }
+}

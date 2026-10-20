@@ -4,7 +4,7 @@
   "cooling_time": 100,
   "fluid": {
     "amount": 90,
-    "id": "ftb:molten_aquarine_steel"
+    "id": "hephaestus:molten_aquarine_steel"
   },
   "result": {
     "id": "nautec:aquarine_steel_ingot"

@@ -46,6 +46,7 @@
         {
           id: "49F2082C1B703A92",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -1545,7 +1546,7 @@
             id: "ftbfiltersystem:smart_filter",
             count: 1,
             components: {
-              "ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))",
+              "ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus)item(extendedae:ex_import_bus_part)item(extendedae:ex_export_bus_part)item(extendedae:tag_export_bus)item(extendedae:mod_export_bus)item(extendedae:precise_export_bus)item(extendedae:threshold_export_bus)item(advanced_ae:import_export_bus_part)item(advanced_ae:advanced_io_bus_part)item(advanced_ae:stock_export_bus_part))",
               "minecraft:custom_name": "\"I/O Bus\"",
             },
           },
@@ -2334,10 +2335,9 @@
         id: "ae2:wireless_access_point",
         count: 1,
       },
-      x: 2.5,
-      y: 4.0,
+      x: 10.0,
+      y: 11.0,
       shape: "rsquare",
-      hide_dependency_lines: true,
       dependencies: [
         "46A1341E5E97ABDC",
       ],
@@ -2387,8 +2387,8 @@
         id: "ae2:wireless_crafting_terminal",
         count: 1,
       },
-      x: 2.5,
-      y: 6.0,
+      x: 9.5,
+      y: 12.0,
       shape: "square",
       dependencies: [
         "0C784115309E7C1C",
@@ -2428,12 +2428,12 @@
         id: "ae2:quantum_entangled_singularity",
         count: 1,
       },
-      x: 4.5,
-      y: 4.0,
+      x: 8.5,
+      y: 12.0,
       shape: "rsquare",
       hide_dependency_lines: true,
       dependencies: [
-        "46A1341E5E97ABDC",
+        "4B463FDAEAC42511",
       ],
       size: 1.0,
       optional: true,
@@ -3208,6 +3208,7 @@
       dependencies: [
         "16E0A9FD1B08D34E",
       ],
+      hide_until_deps_complete: true,
       size: 1.0,
       icon_scale: 2.0,
       optional: true,
@@ -6498,8 +6499,8 @@
         id: "ae2wtlib:quantum_bridge_card",
         count: 1,
       },
-      x: 4.5,
-      y: 6.0,
+      x: 9.0,
+      y: 13.5,
       shape: "gear",
       dependencies: [
         "3A59D1773EBD3B8A",
@@ -6524,56 +6525,6 @@
           type: "currency",
           team_reward: false,
           amount: 15,
-        },
-      ],
-    },
-    {
-      icon: {
-        id: "nep:pattern_decoder",
-        count: 1,
-      },
-      x: 12.0,
-      y: 15.0,
-      shape: "square",
-      dependencies: [
-        "69F87073390131D5",
-      ],
-      size: 1.0,
-      id: "420F0EE98B6DC834",
-      tasks: [
-        {
-          id: "24FB509124B73159",
-          type: "item",
-          item: {
-            id: "nep:pattern_decoder",
-            count: 1,
-          },
-        },
-        {
-          id: "0A8D747C94E87BD7",
-          type: "item",
-          optional_task: true,
-          item: {
-            id: "nep:apothic_enchanting_encoding_module",
-            count: 1,
-          },
-        },
-        {
-          id: "6AABDFB7338A1B76",
-          type: "item",
-          optional_task: true,
-          item: {
-            id: "nep:mystical_agriculture_encoding_module",
-            count: 1,
-          },
-        },
-      ],
-      rewards: [
-        {
-          id: "3680DE6CED74734C",
-          type: "currency",
-          team_reward: false,
-          amount: 10,
         },
       ],
     },
@@ -6857,6 +6808,7 @@
       height: 2.0,
       rotation: 45.0,
       image: "advanced_ae:block/crafting/quantum_unit",
+      dependency: "325D35004FF683C2",
       id: "7B9721BDD9CC4697",
     },
     {
@@ -6876,6 +6828,7 @@
       rotation: 45.0,
       image: "extendedae:block/assembler_matrix/frame_block_on",
       color: 11645361,
+      dependency: "16E0A9FD1B08D34E",
       id: "5CACCA238590DE5A",
     },
     {

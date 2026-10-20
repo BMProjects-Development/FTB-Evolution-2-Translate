@@ -1,0 +1,19 @@
+{
+  "id": "chisel_exposed_copper",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_exposed_copper",
+    "fallback": "Chisel: Exposed Copper"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "exposed_copper_"
+      }
+    ]
+  }
+}

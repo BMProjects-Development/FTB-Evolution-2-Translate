@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_kamas",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_kamas",
+    "fallback": "Hephaestus Tools: Kamas"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:kama"
+  }
+}

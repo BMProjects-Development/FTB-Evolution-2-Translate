@@ -1,0 +1,19 @@
+{
+  "id": "decorative_wooden_lattices_wall_frames",
+  "name": {
+    "translate": "collapsible_groups.group.decorative_wooden_lattices_wall_frames",
+    "fallback": "Decorative Wooden Lattices: Wall Frames"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorativewoodenlattices"
+      },
+      {
+        "item_path_ends_with": "_wall_frame"
+      }
+    ]
+  }
+}

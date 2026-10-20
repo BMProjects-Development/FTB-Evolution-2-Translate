@@ -977,6 +977,7 @@
         {
           id: "798B92E7C44F9FD8",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -1065,6 +1066,7 @@
         {
           id: "5E9C1E5392C140AC",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -1262,6 +1264,7 @@
         {
           id: "50DF30F0A628D8ED",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -1352,6 +1355,7 @@
         {
           id: "1DD2EB50AB02DC70",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -1395,6 +1399,7 @@
         {
           id: "13DE08FA8D3A87E8",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -1453,6 +1458,7 @@
         {
           id: "5AE09BF15194E64C",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -1554,6 +1560,7 @@
         {
           id: "75E2260777BD8A19",
           type: "xp",
+          team_reward: false,
           xp: 20,
         },
       ],
@@ -1606,12 +1613,14 @@
         {
           id: "338BC753BB54CC60",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
         {
           id: "50E8B2FF0722985E",
           type: "xp",
+          team_reward: false,
           xp: 20,
         },
       ],
@@ -1705,12 +1714,14 @@
         {
           id: "02530206CF93980E",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
         {
           id: "7BF6C7EA7682DDDE",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -1842,6 +1853,7 @@
         {
           id: "47DFD51897DFF099",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -2080,6 +2092,7 @@
         {
           id: "20C6264BC9DB6619",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },
@@ -2210,6 +2223,7 @@
         {
           id: "181D76DCBDD4A452",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7369411613336078664,
         },

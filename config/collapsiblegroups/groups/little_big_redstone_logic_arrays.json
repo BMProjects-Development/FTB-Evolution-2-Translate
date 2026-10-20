@@ -1,0 +1,19 @@
+{
+  "id": "little_big_redstone_logic_arrays",
+  "name": {
+    "translate": "collapsible_groups.group.little_big_redstone_logic_arrays",
+    "fallback": "Little Big Redstone: Logic Arrays"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "little_big_redstone"
+      },
+      {
+        "item_path_ends_with": "_logic_array"
+      }
+    ]
+  }
+}

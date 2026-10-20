@@ -1,0 +1,19 @@
+{
+  "id": "chisel_grimstone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_grimstone",
+    "fallback": "Chisel: Grimstone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "grimstone_"
+      }
+    ]
+  }
+}

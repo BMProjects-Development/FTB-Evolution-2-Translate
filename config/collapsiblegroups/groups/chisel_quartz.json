@@ -1,0 +1,19 @@
+{
+  "id": "chisel_quartz",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_quartz",
+    "fallback": "Chisel: Quartz"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "quartz_"
+      }
+    ]
+  }
+}

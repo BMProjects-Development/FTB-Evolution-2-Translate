@@ -7,7 +7,6 @@ const hideFromJEI = [
   "mysticalagriculture:copper_alloy_essence",
   "arsmagicalegacy:nature_scythe",
   "arsmagicalegacy:winters_grasp",
-  "power_armor:creative_battery",
   "enderio:block_detector",
 ]
 
@@ -72,4 +71,5 @@ ServerEvents.tags("item", (event) => {
   hideFromJEI.forEach((item) => {
     event.add("c:hidden_from_recipe_viewers", item)
   })
+  event.add("c:hidden_from_recipe_viewers", "@easy_npc")
 });

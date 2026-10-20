@@ -7,7 +7,7 @@
   "ingredient": "nautec:aquarine_steel_ingot",
   "result": {
     "amount": 90,
-    "id": "ftb:molten_aquarine_steel"
+    "id": "hephaestus:molten_aquarine_steel"
   },
   "temperature": 1200,
   "time": 120

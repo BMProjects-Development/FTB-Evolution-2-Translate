@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_vein_hammers",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_vein_hammers",
+    "fallback": "Hephaestus Tools: Vein Hammers"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:vein_hammer"
+  }
+}

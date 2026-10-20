@@ -57,13 +57,13 @@
 				"nitro": 40000000
 			},
 			"transfer_rates": {
-				"starter": 16,
-				"basic": 64,
-				"hardened": 128,
-				"blazing": 256,
-				"niotic": 512,
-				"spirited": 1024,
-				"nitro": 4096
+				"starter": 80,
+				"basic": 320,
+				"hardened": 800,
+				"blazing": 3200,
+				"niotic": 8000,
+				"spirited": 32000,
+				"nitro": 160000
 			},
 			"generation_rates": {
 				"starter": 16,

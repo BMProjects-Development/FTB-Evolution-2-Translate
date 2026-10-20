@@ -1,0 +1,51 @@
+{
+  "type": "witchery:ritual",
+  "altar_power": 3000,
+  "block_mapping": {
+    "G": "witchery:golden_ritual_chalk",
+    "S": "witchery:infernal_chalk"
+  },
+  "pattern": [
+    "__SSS__",
+    "_S___S_",
+    "S_____S",
+    "S__G__S",
+    "S_____S",
+    "_S___S_",
+    "__SSS__"
+  ],
+  "ritual_events": [
+    {
+      "type": "witchery:consume_items",
+      "items": [
+        {
+          "item": "witchery:phantom_vapor"
+        },
+        {
+          "item": "witchery:demons_blood"
+        },
+        {
+          "item": "witchery:coven_contract"
+        },
+        {
+          "item": "witchery:arthana"
+        },
+        {
+          "item": "witchery:seer_stone"
+        }
+      ]
+    },
+    {
+      "type": "witchery:consume_sacrifice",
+      "entities": [
+        "minecraft:witch"
+      ]
+    },
+    {
+      "type": "witchery:summon_entities",
+      "entities": [
+        "witchery:coven_witch"
+      ]
+    }
+  ]
+}

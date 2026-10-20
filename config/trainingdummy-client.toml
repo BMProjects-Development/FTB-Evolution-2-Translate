@@ -1,0 +1,21 @@
+#Every hit adds to a running total. If this many seconds pass without a hit, the next hit starts a fresh total.
+# Default: 2.0
+# Range: 0.1 ~ 600.0
+hitResetSeconds = 2.0
+#How long the damage readout stays on screen/in chat after the last hit, in seconds.
+# Default: 5.0
+# Range: 0.1 ~ 60.0
+displayDurationSeconds = 5.0
+#Where to show the damage readout: SCREEN (HUD overlay) or CHAT (local chat message).
+#Allowed Values: SCREEN, CHAT
+displayLocation = "CHAT"
+#SCREEN readout only. Horizontal pixel offset from the center of the screen (negative = left, positive = right). Useful if another mod's HUD element sits where the readout would otherwise be.
+# Default: 0
+# Range: -10000 ~ 10000
+displayOffsetX = 0
+#SCREEN readout only. Vertical pixel offset up from the bottom of the screen (the default, 90, sits above the XP bar/hotbar).
+# Default: 90
+# Range: 0 ~ 10000
+displayOffsetY = 90
+#SCREEN readout only. Text color as a 6-digit RRGGBB or 8-digit AARRGGBB hex string (no # prefix). Default is a darker red. Falls back to the default on an invalid value.
+displayColor = "FFCC2222"

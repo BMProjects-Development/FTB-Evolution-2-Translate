@@ -5,7 +5,7 @@
   "cooling_time": 200,
   "fluid": {
     "amount": 360,
-    "id": "ftb:molten_dragonsteel_fire"
+    "id": "hephaestus:molten_dragonsteel_fire"
   },
   "result": {
     "count": 1,

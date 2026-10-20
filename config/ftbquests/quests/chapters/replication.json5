@@ -1,0 +1,679 @@
+{
+  id: "7E57EDCD326988B3",
+  group: "28224E273DBAA255",
+  order_index: 2,
+  icon: {
+    id: "replication:replicator",
+    count: 1,
+  },
+  filename: "replication",
+  default_quest_shape: "circle",
+  default_hide_dependency_lines: false,
+  default_min_width: 250,
+  autofocus_id: "095B11E487F642F2",
+  quests: [
+    {
+      icon: {
+        id: "replication:replicator",
+        count: 1,
+      },
+      x: 0.0,
+      y: 0.0,
+      shape: "hexagon",
+      size: 2.0,
+      id: "095B11E487F642F2",
+      tasks: [
+        {
+          id: "41AC6D6430CD0655",
+          type: "checkmark",
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:raw_replica",
+        count: 1,
+      },
+      x: 2.75,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "095B11E487F642F2",
+        "283BBAFACC4EABB0",
+      ],
+      size: 1.25,
+      id: "134EFEDDD83B24B0",
+      tasks: [
+        {
+          id: "07A6FB9FE6C1EB98",
+          type: "item",
+          item: {
+            id: "replication:raw_replica",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "3C9A60DFF2B01FF3",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "608DD056CDB327DA",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replica_ingot",
+        count: 1,
+      },
+      x: 5.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "134EFEDDD83B24B0",
+      ],
+      size: 1.0,
+      id: "1598E1B720D0EFC5",
+      tasks: [
+        {
+          id: "44ED04715EBF5A11",
+          type: "item",
+          item: {
+            id: "replication:replica_ingot",
+            count: 1,
+          },
+          count: 16,
+        },
+      ],
+      rewards: [
+        {
+          id: "7CE1146DDCF07E0E",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+        {
+          id: "4657591CFC067F77",
+          type: "item",
+          team_reward: false,
+          item: {
+            id: "replication:replica_ingot",
+            count: 1,
+          },
+          count: 8,
+          random_bonus: 8,
+        },
+        {
+          id: "7AE1FE19C8F6463A",
+          type: "xp",
+          team_reward: false,
+          xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:matter_network_pipe",
+        count: 1,
+      },
+      x: 7.0,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "1598E1B720D0EFC5",
+      ],
+      size: 1.0,
+      id: "6FE443A5BA6370F0",
+      tasks: [
+        {
+          id: "02E13322EFF05CED",
+          type: "item",
+          item: {
+            id: "replication:matter_network_pipe",
+            count: 1,
+          },
+          count: 8,
+        },
+      ],
+      rewards: [
+        {
+          id: "700FCD816BA021EC",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "1E76E4D9AF7F0865",
+          type: "item",
+          item: {
+            id: "replication:matter_network_pipe",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "71436AD958DE9421",
+          type: "xp",
+          team_reward: false,
+          xp: 15,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:disintegrator",
+        count: 1,
+      },
+      x: 9.0,
+      y: -2.25,
+      shape: "hexagon",
+      dependencies: [
+        "6FE443A5BA6370F0",
+      ],
+      size: 1.25,
+      id: "565BD760506A6925",
+      tasks: [
+        {
+          id: "044F49904EC65AEC",
+          type: "item",
+          item: {
+            id: "replication:disintegrator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "6AFAB1AECFEAD923",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "76202C51601CCCC4",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:matter_tank",
+        count: 1,
+      },
+      x: 11.25,
+      y: -2.25,
+      shape: "hexagon",
+      dependencies: [
+        "565BD760506A6925",
+      ],
+      size: 1.25,
+      id: "29EC17CFDF5DD983",
+      tasks: [
+        {
+          id: "5496577AA2489756",
+          type: "item",
+          item: {
+            id: "replication:matter_tank",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "36829BB4A0F7CA09",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "170C50E43E390B5D",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:identification_chamber",
+        count: 1,
+      },
+      x: 9.0,
+      y: 2.25,
+      shape: "hexagon",
+      dependencies: [
+        "6FE443A5BA6370F0",
+      ],
+      size: 1.25,
+      id: "0E083BA63C24EF7F",
+      tasks: [
+        {
+          id: "0EE4738543D90B2C",
+          type: "item",
+          item: {
+            id: "replication:identification_chamber",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22F21BA4A9588DAF",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+        {
+          id: "38B99E583EE38433",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:chip_storage",
+        count: 1,
+      },
+      x: 11.25,
+      y: 2.25,
+      shape: "hexagon",
+      dependencies: [
+        "0E083BA63C24EF7F",
+      ],
+      size: 1.25,
+      id: "2509B9DB101B95CC",
+      tasks: [
+        {
+          id: "5D0149BDA844D4F1",
+          type: "item",
+          item: {
+            id: "replication:chip_storage",
+            count: 1,
+          },
+        },
+        {
+          id: "113243F678E15567",
+          type: "item",
+          item: {
+            id: "replication:memory_chip",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "66EE925386116E4D",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "61882F567F723392",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replicator",
+        count: 1,
+      },
+      x: 13.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "29EC17CFDF5DD983",
+        "2509B9DB101B95CC",
+      ],
+      size: 1.5,
+      id: "68D8E953D622182C",
+      tasks: [
+        {
+          id: "1E4C347336A2B910",
+          type: "item",
+          item: {
+            id: "replication:replicator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "26E6BA85E778FF8A",
+          type: "currency",
+          team_reward: false,
+          amount: 4,
+        },
+        {
+          id: "7EFAF231788D096B",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replication_terminal",
+        count: 1,
+      },
+      x: 16.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "68D8E953D622182C",
+      ],
+      size: 2.0,
+      id: "0AF48313E70D2BAB",
+      tasks: [
+        {
+          id: "38AF4DEA1894A385",
+          type: "item",
+          item: {
+            id: "replication:replication_terminal",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3260F539D0E1504F",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+        {
+          id: "00F825FD304F3421",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:matter_tank",
+        count: 1,
+      },
+      x: 9.0,
+      y: -4.5,
+      shape: "diamond",
+      dependencies: [
+        "565BD760506A6925",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "202C04935B832587",
+      tasks: [
+        {
+          id: "27C0E841AD40CC44",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "3462CE5BEA3CD537",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:identification_chamber",
+        count: 1,
+      },
+      x: 9.0,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "0E083BA63C24EF7F",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "79D22A719DDB3E61",
+      tasks: [
+        {
+          id: "1A4F4017DF53A34D",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "303934D883B1B514",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replicator_enclosure",
+        count: 1,
+      },
+      x: 13.5,
+      y: -2.5,
+      shape: "circle",
+      dependencies: [
+        "68D8E953D622182C",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6EB34D22191B3CD2",
+      tasks: [
+        {
+          id: "62B76B90FBB1C563",
+          type: "item",
+          item: {
+            id: "replication:replicator_enclosure",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "397F204E6A654E41",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replicator",
+        count: 1,
+      },
+      x: 13.5,
+      y: 2.5,
+      shape: "diamond",
+      dependencies: [
+        "68D8E953D622182C",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "3857D3E57687D6D6",
+      tasks: [
+        {
+          id: "35C6D1A4F6B0D70A",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "1EAD3FFE84F71A28",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:matter_blueprint",
+        count: 1,
+      },
+      x: 16.0,
+      y: -2.75,
+      shape: "circle",
+      dependencies: [
+        "0AF48313E70D2BAB",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "6867FE9E6EE4E60A",
+      tasks: [
+        {
+          id: "41E54FCC245775C3",
+          type: "item",
+          item: {
+            id: "replication:matter_blueprint",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "55ACCA4819EE6770",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replicator_motor",
+        count: 1,
+      },
+      x: 18.25,
+      y: -2.75,
+      shape: "circle",
+      dependencies: [
+        "6867FE9E6EE4E60A",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "0898A63F00AC7E38",
+      tasks: [
+        {
+          id: "7689326CFE5A60D6",
+          type: "item",
+          item: {
+            id: "replication:replicator_motor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2BE80F8B65806D57",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "replication:replication_terminal",
+        count: 1,
+      },
+      x: 16.0,
+      y: 2.75,
+      shape: "diamond",
+      dependencies: [
+        "0AF48313E70D2BAB",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "210570C85B4ADB84",
+      tasks: [
+        {
+          id: "60B7461DB5D06434",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "681C66A95CC60D73",
+          type: "currency",
+          team_reward: false,
+          amount: 10,
+        },
+      ],
+    },
+  ],
+  quest_links: [
+    {
+      linked_quest: "283BBAFACC4EABB0",
+      x: 2.75,
+      y: 2.5,
+      shape: "gear",
+      id: "39DDA8AADEAF57FC",
+    },
+  ],
+  images: [
+    {
+      x: 0.0,
+      y: -2.1,
+      width: 6.2,
+      height: 0.8,
+      rotation: 0.0,
+      image: "ftb:textures/quests/titles_and_logos/replication_title.png",
+      id: "4D298787563D8CA3",
+    },
+    {
+      x: -3.2,
+      y: 0.0,
+      width: 2.1,
+      height: 2.59,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/replication_replica_ore.png",
+      id: "673A67EA38E5CA71",
+    },
+    {
+      x: 6.6,
+      y: -2.6,
+      width: 1.85,
+      height: 2.0,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/replication_disintegrator.png",
+      id: "502E872F7A88E755",
+    },
+    {
+      x: 6.6,
+      y: 2.6,
+      width: 2.0,
+      height: 1.96,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/replication_identification_chamber.png",
+      id: "7E62A8DA46D1E898",
+    },
+    {
+      x: 19.6,
+      y: 0.5,
+      width: 3.65,
+      height: 4.2,
+      rotation: 0.0,
+      image: "ftb:textures/quests/renders/replication_setup.png",
+      id: "34C7AACD87D48DB4",
+    },
+  ],
+}

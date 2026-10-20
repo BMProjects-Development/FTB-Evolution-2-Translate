@@ -73,6 +73,30 @@
 	# Default: -1
 	# Range: -1 ~ 100
 	beeBeeArmorDurabilityPercentageRemainder = 5
+	#How many ticks it takes to extract genes from a bee in the bee squisher. Default 300.
+	# Default: 300
+	# Range: > 20
+	beeSquisherProcessingTime = 300
+	#How much FE to use per tick for a bee squisher when processing a bee. Default 10.
+	# Default: 10
+	# Range: > 1
+	beeSquisherPowerUse = 10
+	#Minimum ticks between bee death sounds in a bee squisher. The sound plays when a bee is squished, but no more often than this. Default 140.
+	# Default: 140
+	# Range: > 0
+	beeSquisherSoundInterval = 140
+	#Purity subtracted from every gene a bee squisher produces, before productivity upgrades are added. Default 20.
+	# Default: 20
+	# Range: 0 ~ 100
+	beeSquisherPurityPenalty = 20
+	#Type gene purity added per stability upgrade in a bee squisher. Default 25.
+	# Default: 25
+	# Range: 0 ~ 100
+	beeSquisherStabilityPurity = 25
+	#Extra power a bee squisher draws per installed speed or productivity upgrade, as a fraction of its base use. Higher tiers count for more. Default 0.15.
+	# Default: 0.15
+	# Range: 0.0 ~ 10.0
+	beeSquisherPowerPerUpgrade = 0.15
 
 [Bees]
 	#Allow for bee simulation in hives using simulation upgrades. This will stop bees from exiting the hive and instead simulate a trip to flower blocks saving on performance.

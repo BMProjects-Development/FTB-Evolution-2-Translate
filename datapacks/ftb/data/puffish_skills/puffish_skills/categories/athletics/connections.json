@@ -450,10 +450,6 @@
 				"travel_g10"
 			],
 			[
-				"travel_g10",
-				"travel_cap"
-			],
-			[
 				"utility_hub",
 				"sustain_g1"
 			],
@@ -538,10 +534,6 @@
 				"sustain_g16"
 			],
 			[
-				"sustain_cap",
-				"sustain_g16"
-			],
-			[
 				"vertical_g11",
 				"vertical_2"
 			],
@@ -564,6 +556,14 @@
 			[
 				"vertical_g6",
 				"vertical_g5"
+			],
+			[
+				"sustain_g16",
+				"travel_cap"
+			],
+			[
+				"travel_g10",
+				"sustain_cap"
 			]
 		]
 	}

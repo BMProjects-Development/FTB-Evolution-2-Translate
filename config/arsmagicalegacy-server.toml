@@ -141,7 +141,7 @@ mana_to_burnout_ratio = 0.5
 	#The multiplier for mana calculation. Mana is calculated as base + multiplier * (level - 1).
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	multiplier = 25.0
+	multiplier = 50.0
 	#The multiplier for mana regeneration. Mana regeneration is calculated as (base + multiplier * (level - 1)) * regeneration.
 	# Default: 0.001
 	# Range: 0.0 ~ 1000000.0
@@ -156,7 +156,7 @@ mana_to_burnout_ratio = 0.5
 	#The multiplier for burnout calculation. Burnout is calculated as base + multiplier * (level - 1).
 	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	multiplier = 25.0
+	multiplier = 50.0
 	#The multiplier for burnout regeneration. Burnout regeneration is calculated as (base + multiplier * (level - 1)) * regeneration.
 	# Default: 0.001
 	# Range: 0.0 ~ 1000000.0
@@ -251,7 +251,7 @@ mana_to_burnout_ratio = 0.5
 	#The damage of the Blizzard component. May be amplified by spell modifiers.
 	# Default: 2.0
 	# Range: 1.0 ~ 100.0
-	blizzard_damage = 2.0
+	blizzard_damage = 3.0
 	#The duration of the Blizzard component. May be amplified by spell modifiers.
 	# Default: 600.0
 	# Range: 1.0 ~ 32767.0
@@ -285,9 +285,9 @@ mana_to_burnout_ratio = 0.5
 	# Range: 1.0 ~ 16.0
 	explosion_range = 2.0
 	#The damage of the Falling Star component. May be amplified by spell modifiers.
-	# Default: 6.0
+	# Default: 18.0
 	# Range: 1.0 ~ 100.0
-	falling_star_damage = 6.0
+	falling_star_damage = 16.0
 	#The range of the Falling Star component. May be amplified by spell modifiers.
 	# Default: 6.0
 	# Range: 1.0 ~ 16.0
@@ -307,7 +307,7 @@ mana_to_burnout_ratio = 0.5
 	#The damage of the Fire Rain component. May be amplified by spell modifiers.
 	# Default: 2.0
 	# Range: 1.0 ~ 100.0
-	fire_rain_damage = 2.0
+	fire_rain_damage = 3.0
 	#The duration of the Fire Rain component. May be amplified by spell modifiers.
 	# Default: 600.0
 	# Range: 1.0 ~ 32767.0

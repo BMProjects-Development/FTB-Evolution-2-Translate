@@ -1,0 +1,16 @@
+{
+  "type": "oritech:assembler",
+  "time": 200,
+  "itemInputs": [
+    "oritechthings:addon_block_efficiency_tier_2",
+    "oritech:machine_efficiency_addon",
+    "oritech:machine_efficiency_addon",
+    "oritech:magnetic_coil"
+  ],
+  "itemResults": [
+    {
+      "id": "oritechthings:addon_block_efficiency_tier_3",
+      "count": 1
+    }
+  ]
+}

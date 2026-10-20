@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_pick_heads",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_pick_heads",
+    "fallback": "Hephaestus Tools: Pick Heads"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:pick_head"
+  }
+}

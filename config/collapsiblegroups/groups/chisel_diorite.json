@@ -1,0 +1,19 @@
+{
+  "id": "chisel_diorite",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_diorite",
+    "fallback": "Chisel: Diorite"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "diorite_"
+      }
+    ]
+  }
+}

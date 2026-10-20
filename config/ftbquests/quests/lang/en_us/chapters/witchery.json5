@@ -43,6 +43,15 @@
     "",
     "You can fit two, one on the left and one on the right of the oven's front.",
   ],
+  "quest.4DC258DC240CB01A.quest_desc": [
+    "&bCoven Witches&r are the witches who join your coven. Each one you recruit with a signed &aCoven Contract&r counts toward the bigger rites.",
+    "",
+    "A coven rite counts the coven witches within 16 blocks of the &6Golden Ritual Chalk&r. If you carry a &aSeer Stone&r, any recruited witches who are missing are called to the circle.",
+    "{@pagebreak}",
+    " Coven huts are rare, so the &bSummon Coven Witch&r rite makes one instead. It needs an ordinary witch as a sacrifice, and &bSummon Witch&r ritual can easily bring a witch to you.",
+    "",
+    "&cUse a blank contract.&r The rite eats the one you put in, and losing the signed one disbands your coven.",
+  ],
   "quest.5BE987F72F75E6B4.quest_desc": [
     "Custom potions start with &aNether Wart&r in a lit &2Cauldron&r with an &dAltar&r in range, then you add ingredients one at a time.",
     "",
@@ -50,20 +59,7 @@
     "",
     "Decide the whole order before you start. There is no undo once a brew is part-built, only &aWood Ash&r and starting over.",
   ],
-  "quest.3BC3912753C84805.title": "Cauldron Infusion",
-  "quest.3BC3912753C84805.quest_desc": [
-    "Several of the named brews can put an enchantment straight onto your gear. JEI's Cauldron Infusion recipes show which brew gives which enchantment and what it goes on.",
-    "",
-    "Finish one of those brews in a lit &2Cauldron&r with an &dAltar&r in range and leave it there, then throw in the item you want enchanted. It comes back out enchanted and the cauldron empties, so one brew enchants one item.",
-    "",
-    "A bottled brew can't be poured back in, but bottling part of it is fine as long as some is left. Each infusion takes 2,500 &bAltar Power&r, or 5,000 for a &2Hags Ring&r.",
-    "",
-    "&cWarning&r: An item that doesn't match a recipe, already has that enchantment at that level or higher, or goes in while the &dAltar&r is short of power is taken in as a brewing ingredient instead.",
-  ],
   "quest.75833FE4473ACD2F.title": "&dThe Cauldron",
-  "task.329249CAA612F688.title": "Any Cauldron, iron or copper",
-  "task.4AE3B34BFEAE32D6.title": "Any Witches' Oven, iron or copper",
-  "task.6E08A194E248D650.title": "Any Fume Extension, iron or copper",
   "quest.44AFF4B7385115C5.title": "&6The Lich Eternal",
   "task.23053105A5CEA741.title": "Read an Ancient Tablet",
   "quest.22D3C16250EAAB17.quest_desc": [
@@ -86,6 +82,7 @@
     "Level 2 gives you &bSummon Undead&r, which raises the corpses around you without using infusion charge.",
   ],
   "quest.39F2353FFE78EA20.title": "&dThe Altar",
+  "task.329249CAA612F688.title": "Any Cauldron, iron or copper",
   "quest.59429D6ED1EBF212.title": "The Binding of Souls",
   "quest.2AAC5AE4E1520348.title": "Necromantic Stone",
   "quest.34FC6EDF6C1D4200.quest_desc": [
@@ -111,7 +108,9 @@
     "",
     "A pinch of &aWood Ash&r empties it when a brew goes wrong.",
   ],
+  "quest.3BC3912753C84805.title": "Cauldron Infusion",
   "quest.129860E2C9082F1C.title": "&cThe Voodoo Poppet",
+  "quest.4DC258DC240CB01A.title": "The Coven",
   "quest.659C0BF1D4150E50.quest_desc": [
     "One of the four long paths, and one of the two that change how you eat.",
     "",
@@ -143,6 +142,7 @@
     "",
     "Most of its recipes pull &bAltar Power&r, so keep it in range of the &dAltar&r like everything else.",
   ],
+  "task.6E08A194E248D650.title": "Any Fume Extension, iron or copper",
   "quest.54C808CC43A93EC0.title": "The Distillery",
   "quest.59F9E4D81168E7B6.quest_desc": [
     "Bigger rites need better chalk. Each one draws a different ring of the same circle.",
@@ -155,11 +155,15 @@
   "quest.720DB36A13C6BBDC.quest_desc": [
     "Witchcraft here is a workshop craft. You grow strange plants, boil them down in a &aCauldron&r, and bind the results to people and places.",
     "",
-    "It starts in the grass. Short and tall grass can drop &aBelladonna&r and &2Mandrake&r seeds, each at about one in twenty. &aSnowbell&r and &2Water Artichoke&r seeds drop just as often. &aWolfsbane&r is a little rarer.",
+    "It starts in the grass. Whenever short or tall grass drops &2Wheat Seeds&r, it has a one in twenty chance to drop each Witchery seed as well. That makes &aBelladonna&r and &2Mandrake&r turn up roughly once per 160 grass blocks each. &aSnowbell&r and &2Water Artichoke&r drop just as often. So does &aWolfsbane&r.",
+    "",
+    "The &dHedge Witch&r sells all five for 20 coins each, and her shop opens as soon as you carry one. She keeps shop in witch huts, swamp houses, mangrove huts and dark forest settlements.",
     "",
     "Plant the &aBelladonna&r first. Its flower is the one ingredient the &dGuidebook&r needs, and nothing else in the mod opens until you have a garden going.",
     "",
     "&aMandrake&r wakes up in daylight. Pull a ripe one while it is awake and it jumps out of the ground and runs, so you have to chase it down for the root. At night it is often asleep and gives up the root straight away.",
+    "",
+    "[\"\", \"Rites, brews, symbology spells and afflictions also level your \", {\"text\": \"Magic skill tree\", \"color\": \"aqua\", \"underlined\": true, \"click_event\": {\"action\": \"custom\", \"id\": \"ftbquests:docs\", \"payload\": {\"location\": \"guideme,ftb:skills,ftb:magic.md\"}}, \"hover_event\": {\"action\": \"show_text\", \"value\": \"Open the Skill Trees guide\"}}, \".\"]",
   ],
   "quest.0E9C90976C66641C.quest_desc": [
     "A plant that catches small mobs. Slimes, bats and silverfish walk in and stay there.",
@@ -316,6 +320,15 @@
   "quest.21812817F84A52D1.title": "The Brazier",
   "quest.3A6004A6F9AA8A10.title": "&dThe Soul Cage",
   "quest.25B6E92B02340718.title": "The Petrification Contract",
+  "quest.3BC3912753C84805.quest_desc": [
+    "Several of the named brews can put an enchantment straight onto your gear. JEI's Cauldron Infusion recipes show which brew gives which enchantment and what it goes on.",
+    "",
+    "Finish one of those brews in a lit &2Cauldron&r with an &dAltar&r in range and leave it there, then throw in the item you want enchanted. It comes back out enchanted and the cauldron empties, so one brew enchants one item.",
+    "",
+    "A bottled brew can't be poured back in, but bottling part of it is fine as long as some is left. Each infusion takes 2,500 &bAltar Power&r, or 5,000 for a &2Hags Ring&r.",
+    "",
+    "&cWarning&r: An item that doesn't match a recipe, already has that enchantment at that level or higher, or goes in while the &dAltar&r is short of power is taken in as a brewing ingredient instead.",
+  ],
   "quest.0C9BBC137D055B80.quest_desc": [
     "&dLifeblood&r is a vine grown from a living soul. Eating a berry heals a heart and, if you have none, gives you a &dLifeblood&r heart that takes damage before your own health and refills over time.",
     "",
@@ -416,4 +429,5 @@
   ],
   "quest.17FAD6B414738DC2.title": "&6The Tarot Deck",
   "quest.0D831CA92D518208.title": "&dMutandis Extremis",
+  "task.4AE3B34BFEAE32D6.title": "Any Witches' Oven, iron or copper",
 }

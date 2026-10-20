@@ -1,0 +1,16 @@
+{
+  "values": {
+    "ftb:adamantite_coolant": {
+      "base_cooling": 2.0,
+      "cluster_bonus": 2.0
+    },
+    "ftb:aeternium_coolant": {
+      "base_cooling": 3.0,
+      "cluster_bonus": 3.0
+    },
+    "ftb:aurichalcum_coolant": {
+      "base_cooling": 4.0,
+      "cluster_bonus": 4.0
+    }
+  }
+}

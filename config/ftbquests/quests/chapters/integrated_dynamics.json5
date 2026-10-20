@@ -272,7 +272,6 @@
             id: "integrateddynamics:part_connector_mono_directional",
             count: 1,
           },
-          match_components: "fuzzy",
         },
       ],
       rewards: [
@@ -707,7 +706,6 @@
             id: "integrateddynamics:part_connector_omni_directional",
             count: 1,
           },
-          match_components: "fuzzy",
         },
       ],
       rewards: [

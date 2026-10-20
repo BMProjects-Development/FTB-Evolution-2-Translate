@@ -181,3 +181,47 @@ evolution_upgrade_points = 300
 	# Default: 50
 	# Range: 0 ~ 1000000
 	deus_tool_ev_per_use = 50
+
+#Sanguine Crafter Configuration
+[sanguine_crafter]
+	#EV drawn from the owner's network for every item crafted, on top of any Tabula Vitae recipe cost.
+	# Default: 20
+	# Range: 0 ~ 1000000
+	ev_per_craft = 20
+	#Ticks one crafting table recipe takes before Swift Sanguine Casings are applied.
+	# Default: 20
+	# Range: 1 ~ 72000
+	crafting_ticks = 20
+	#Ticks one Hellfire Forge recipe takes before Swift Sanguine Casings are applied.
+	#Tabula Vitae recipes use their own crafting time.
+	# Default: 100
+	# Range: 1 ~ 72000
+	forge_ticks = 100
+	#Speed multiplier on every craft. 5.0 crafts five times faster than the base times above.
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	base_speed = 5.0
+	#Extra crafting speed per Swift Sanguine Casing. 0.25 means each casing adds 25% speed.
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	speed_per_swift_casing = 0.25
+	#Most crafts one Sanguine Crafter performs at once. Each Hellforged Sanguine Casing adds one, up to this cap.
+	# Default: 16
+	# Range: 1 ~ 64
+	max_parallel = 16
+	#Whether a formed, running Sanguine Crafter keeps the chunks it stands in loaded.
+	chunk_loading = true
+	#Only keep a crafter's chunks loaded while the player who built it is online.
+	#Set to false to let crafters keep their chunks loaded while their owner is offline.
+	chunk_loading_owner_online_only = true
+	#Most Sanguine Crafters a single player may have keeping chunks loaded at once. 0 removes the limit.
+	# Default: 10
+	# Range: 0 ~ 1024
+	chunk_loading_max_per_player = 10
+
+#Ritual Anchor Configuration
+[ritual_anchor]
+	#Furthest a Ritual Anchor may be from the Master Ritual Stone it is linked to, in blocks.
+	# Default: 64
+	# Range: 1 ~ 128
+	range = 64

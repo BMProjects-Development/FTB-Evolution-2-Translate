@@ -1,0 +1,19 @@
+{
+  "id": "chisel_light_red",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_light_red",
+    "fallback": "Chisel: Red Light"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "light_red_"
+      }
+    ]
+  }
+}

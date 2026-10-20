@@ -1,0 +1,19 @@
+{
+  "id": "utilitarian_trapped_soliciting_carpets",
+  "name": {
+    "translate": "collapsible_groups.group.utilitarian_trapped_soliciting_carpets",
+    "fallback": "Utilitarian: Trapped Soliciting Carpets"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "utilitarian"
+      },
+      {
+        "item_path_contains": "trapped_soliciting_carpet"
+      }
+    ]
+  }
+}

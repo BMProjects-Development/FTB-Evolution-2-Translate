@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/replica"
+      }
+    }
+  ],
+  "type": "nautec:simple",
+  "bacteria": "#c:ingots/replica",
+  "initial_size": {
+    "max": 275,
+    "min": 150
+  },
+  "production_multiplier": 0.4,
+  "stats": {
+    "type": "nautec:simple",
+    "color": -12298397,
+    "growth_rate": {
+      "max": 1.1,
+      "min": 0.5
+    },
+    "lifespan": {
+      "max": 2300,
+      "min": 1100
+    },
+    "mutation_resistance": {
+      "max": 0.12,
+      "min": 0.0
+    },
+    "production_rate": {
+      "max": 0.4,
+      "min": 0.1
+    }
+  }
+}

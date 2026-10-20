@@ -1,0 +1,19 @@
+{
+  "id": "decorative_wooden_lattices_mangrove_lattices",
+  "name": {
+    "translate": "collapsible_groups.group.decorative_wooden_lattices_mangrove_lattices",
+    "fallback": "Decorative Wooden Lattices: Mangrove Lattices"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorativewoodenlattices"
+      },
+      {
+        "item_path_starts_with": "mangrove_lattice_"
+      }
+    ]
+  }
+}

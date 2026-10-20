@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "minecraft:amethyst_shard"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "occultism:amethyst_dust"
+    }
+  ]
+}

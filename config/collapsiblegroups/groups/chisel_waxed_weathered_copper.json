@@ -1,0 +1,19 @@
+{
+  "id": "chisel_waxed_weathered_copper",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_waxed_weathered_copper",
+    "fallback": "Chisel: Waxed Weathered Copper"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "waxed_weathered_copper_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": [
+    "ctov:village/plains/house",
+    "ctov:village/taiga/house",
+    "ctov:village/taiga_fortified/house"
+  ],
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery:village/houses/plains_graveyard",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery:village/houses/plains_graveyard_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery:village/houses/plains_graveyard_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

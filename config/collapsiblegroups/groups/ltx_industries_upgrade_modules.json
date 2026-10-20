@@ -1,0 +1,12 @@
+{
+  "id": "ltx_industries_upgrade_modules",
+  "name": {
+    "translate": "collapsible_groups.group.ltx_industries_upgrade_modules",
+    "fallback": "LTX Industries: Upgrade Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "ltxi:upgrade_module"
+  }
+}

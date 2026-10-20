@@ -1,0 +1,19 @@
+{
+  "advancements.apotheosis.progression.frontier.criteria.skyline": "Получите FTB Skyline",
+  "advancements.apotheosis.progression.ascent.criteria.previous_tier": "Разблокируйте уровень мира «Рубеж»",
+  "advancements.apotheosis.progression.summit.criteria.previous_tier": "Разблокируйте уровень мира «Восхождение»",
+  "advancements.apotheosis.progression.pinnacle.criteria.previous_tier": "Разблокируйте уровень мира «Вершина»",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_helm": "Экипируйте необычный шлем с базовой твёрдостью брони не менее 2",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_chest": "Экипируйте необычный нагрудник с базовой твёрдостью брони не менее 2",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_legs": "Экипируйте необычные поножи с базовой твёрдостью брони не менее 2",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_feet": "Экипируйте необычные ботинки с базовой твёрдостью брони не менее 2",
+  "advancements.apotheosis.progression.summit.criteria.rare_helm": "Экипируйте редкий шлем с базовой твёрдостью брони не менее 3",
+  "advancements.apotheosis.progression.summit.criteria.rare_chest": "Экипируйте редкий нагрудник с базовой твёрдостью брони не менее 3",
+  "advancements.apotheosis.progression.summit.criteria.rare_legs": "Экипируйте редкие поножи с базовой твёрдостью брони не менее 3",
+  "advancements.apotheosis.progression.summit.criteria.rare_feet": "Экипируйте редкие ботинки с базовой твёрдостью брони не менее 3",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_helm": "Экипируйте эпический шлем с базовой твёрдостью брони не менее 4",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_chest": "Экипируйте эпический нагрудник с базовой твёрдостью брони не менее 4",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_legs": "Экипируйте эпические поножи с базовой твёрдостью брони не менее 4",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_feet": "Экипируйте эпические ботинки с базовой твёрдостью брони не менее 4",
+  "misc.apotheosis.aurichalcum": "аурихальк"
+}

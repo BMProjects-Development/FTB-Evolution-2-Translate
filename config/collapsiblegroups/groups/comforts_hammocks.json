@@ -1,0 +1,19 @@
+{
+  "id": "comforts_hammocks",
+  "name": {
+    "translate": "collapsible_groups.group.comforts_hammocks",
+    "fallback": "Comforts: Hammocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "comforts"
+      },
+      {
+        "item_path_contains": "hammock"
+      }
+    ]
+  }
+}

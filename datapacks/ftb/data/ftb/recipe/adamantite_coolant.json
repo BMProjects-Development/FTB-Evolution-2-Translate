@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "IPI",
+    "DSD"
+  ],
+  "key": {
+    "D": "nodeworks:substrate",
+    "S": "minecraft:snow_block",
+    "I": "ftbarmory:adamantite_ingot",
+    "P": "nodeworks:stabilizer"
+  },
+  "result": {
+    "id": "ftb:adamantite_coolant",
+    "count": 1
+  }
+}

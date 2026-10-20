@@ -529,6 +529,14 @@
     {
       "id": "productivebees:bumble_bee",
       "required": false
+    },
+    {
+      "id": "trainingdummy:dummy",
+      "required": false
+    },
+    {
+      "id": "trainingdummy:scoreboard_dummy",
+      "required": false
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_mossy_stone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_mossy_stone",
+    "fallback": "Chisel: Mossy Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "mossy_stone_"
+      }
+    ]
+  }
+}

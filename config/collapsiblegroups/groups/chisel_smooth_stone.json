@@ -1,0 +1,19 @@
+{
+  "id": "chisel_smooth_stone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_smooth_stone",
+    "fallback": "Chisel: Smooth Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "smooth_stone_"
+      }
+    ]
+  }
+}

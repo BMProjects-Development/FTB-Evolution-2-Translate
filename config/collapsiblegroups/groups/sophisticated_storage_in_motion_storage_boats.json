@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_in_motion_storage_boats",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_in_motion_storage_boats",
+    "fallback": "Sophisticated Storage In Motion: Storage Boats"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorageinmotion:storage_boat"
+  }
+}

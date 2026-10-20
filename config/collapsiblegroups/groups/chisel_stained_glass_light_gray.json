@@ -1,0 +1,19 @@
+{
+  "id": "chisel_stained_glass_light_gray",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_stained_glass_light_gray",
+    "fallback": "Chisel: Light Gray Stained Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "stained_glass_light_gray_"
+      }
+    ]
+  }
+}

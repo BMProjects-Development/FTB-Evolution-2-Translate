@@ -10,7 +10,7 @@ navigation:
 
   <ItemImage id="colossal_reactors:reactor_controller" scale="2"/>
 
-  Reactors make less steam, turbines make far more power from it, and some inputs and outputs changed.
+  Reactors are smaller, reactors and turbines both have an output ceiling, and some inputs and outputs changed.
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
@@ -24,13 +24,23 @@ navigation:
 <ItemImage id="minecraft:air" scale="0.25"/>
 
 <Row>
+  <ItemImage id="colossal_reactors:reactor_controller"/>
+  ### <Color id="aqua">Reactors</Color>
+</Row>
+
+* A reactor can be at most 32x32x32, casing included.
+* Each extra rod adds less power the bigger a reactor gets (scaling exponent 0.55, was 0.9), so small reactors stay worthwhile and the largest tops out around 500K RF/t.
+
+<ItemImage id="minecraft:air" scale="0.25"/>
+
+<Row>
   <ItemImage id="oritech:still_steam_bucket"/>
   ### <Color id="aqua">Water Cooling Makes Oritech Steam</Color>
 </Row>
 
 An actively cooled reactor running on water produces Oritech steam. Colossal Reactors turbines accept Oritech steam, and so does the Oritech Steam Engine, so either one can burn a reactor's output.
 
-* A water-cooled reactor makes 20% less steam: 0.8 mB per mB of water (1.0).
+* A water-cooled reactor uses 0.085 mB of water for each RF/t it would have made (0.45), and makes 0.8 mB of steam per mB of water (1.0).
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -39,7 +49,9 @@ An actively cooled reactor running on water produces Oritech steam. Colossal Rea
   ### <Color id="aqua">Turbines</Color>
 </Row>
 
-* A turbine makes 120 RF per mB of steam (4), before coils and blades.
+* A turbine makes 9 RF per mB of steam (4), before coils and blades.
+* A turbine can be at most 32x32x32, casing included.
+* Each blade takes at most 48 mB of steam per tick (1000), so even the largest turbine tops out around 1M RF/t.
 * Any steam works, including steam from an Oritech generator fitted with a Steam Boiler Addon.
 
 <ItemImage id="minecraft:air" scale="0.25"/>

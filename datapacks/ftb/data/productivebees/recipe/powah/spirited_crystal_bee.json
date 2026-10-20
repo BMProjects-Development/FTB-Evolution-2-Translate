@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "powah:energizing",
+  "energy": 10000000,
+  "ingredients": [
+    "powah:spirited_crystal_block",
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:powah/niotic_crystal",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    },
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:gems/emerald",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    },
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:powah/niotic_crystal",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    },
+    "powah:spirited_crystal_block"
+  ],
+  "result": {
+    "components": {
+      "minecraft:entity_data": {
+        "type": "productivebees:powah/spirited_crystal",
+        "id": "productivebees:configurable_bee"
+      }
+    },
+    "id": "productivebees:spawn_egg_configurable_bee"
+  }
+}

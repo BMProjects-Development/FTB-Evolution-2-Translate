@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "extendedae:entro_crystal",
+  "result": {
+    "id": "extendedae:entro_dust"
+  },
+  "time": 16
+}

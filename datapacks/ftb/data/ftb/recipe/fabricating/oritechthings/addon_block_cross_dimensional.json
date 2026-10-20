@@ -1,0 +1,33 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "#c:ingots/electrum",
+      "count": 4
+    },
+    {
+      "ingredient": "oritech:heisenberg_compensator",
+      "count": 2
+    },
+    {
+      "ingredient": "oritech:advanced_computing_engine",
+      "count": 1
+    },
+    {
+      "ingredient": "minecraft:ender_eye",
+      "count": 8
+    },
+    {
+      "ingredient": "ftbarmory:aeternium_plate",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_cross_dimensional"
+    }
+  ],
+  "ticks": 800,
+  "energy_per_tick": 10000,
+  "stage": "skyline2_unlocked"
+}

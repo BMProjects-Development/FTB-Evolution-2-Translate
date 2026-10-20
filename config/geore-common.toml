@@ -67,3 +67,186 @@
 	generateVibraniumGeore = false
 	#Generate Unobtainium GeOre [Default: false]
 	generateUnobtainiumGeore = false
+
+#Per-ore balancing settings. Values are rate factors; 1 keeps the vanilla GeOre rate.
+[Balancing]
+
+	#Growth rate factor. 0.2 is five times slower and 5 is five times faster. [Default: 1.0]
+	[Balancing.Growth]
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		coal = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		copper = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		diamond = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		emerald = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		gold = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		iron = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		lapis = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		quartz = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		redstone = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		ancient_debris = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		ruby = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		sapphire = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		topaz = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		zinc = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		uraninite = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		black_quartz = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		monazite = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		aluminum = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		lead = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		nickel = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		osmium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		platinum = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		silver = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		tin = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		tungsten = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		uranium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		allthemodium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		vibranium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		unobtainium = 1.0
+
+	#GeOre spawn rate factor. 0.2 is five times rarer and 5 is five times more common. [Default: 1.0]
+	[Balancing.GeOreSpawnRate]
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		coal = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		copper = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		diamond = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		emerald = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		gold = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		iron = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		lapis = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		quartz = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		redstone = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		ancient_debris = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		ruby = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		sapphire = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		topaz = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		zinc = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		uraninite = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		black_quartz = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		monazite = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		aluminum = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		lead = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		nickel = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		osmium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		platinum = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		silver = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		tin = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		tungsten = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		uranium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		allthemodium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		vibranium = 1.0
+		# Default: 1.0
+		# Range: 0.01 ~ 5.0
+		unobtainium = 1.0

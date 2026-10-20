@@ -12,7 +12,7 @@
     ]
   },
   "useMetadata": {
-    "value": false,
+    "value": true,
     "comments": [
       "Use the metadata.json to determine the modpack version",
       "ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING"

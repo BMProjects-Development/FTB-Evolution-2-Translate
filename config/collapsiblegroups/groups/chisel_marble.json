@@ -1,0 +1,19 @@
+{
+  "id": "chisel_marble",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_marble",
+    "fallback": "Chisel: Marble"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "marble_"
+      }
+    ]
+  }
+}

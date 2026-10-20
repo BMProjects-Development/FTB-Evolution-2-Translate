@@ -1,7 +1,7 @@
 {
   id: "1D7D877A620A601D",
   group: "34AB008A83BAD0A6",
-  order_index: 1,
+  order_index: 0,
   icon: {
     id: "minecraft:oak_log",
     count: 1,
@@ -240,6 +240,7 @@
         {
           id: "27D308840BA04908",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -285,6 +286,7 @@
         {
           id: "4EEAFC2AEF58515A",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -337,6 +339,7 @@
         {
           id: "2A00B6916E6AA37B",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -418,12 +421,14 @@
         {
           id: "5C7AB3ED7BF1B9F7",
           type: "loot",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 6449217915222121663,
         },
         {
           id: "5EF7C09B19C866F1",
           type: "xp",
+          team_reward: false,
           xp: 100,
         },
       ],
@@ -466,6 +471,7 @@
         {
           id: "4BF1576B9EFD8D4D",
           type: "currency",
+          team_reward: false,
           amount: 10,
         },
         {
@@ -481,6 +487,7 @@
         {
           id: "19B830B1F3A41A0D",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -559,6 +566,7 @@
         {
           id: "6A5469B1CA958A23",
           type: "currency",
+          team_reward: false,
           amount: 10,
         },
         {
@@ -574,6 +582,7 @@
         {
           id: "518656545071CCE8",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -613,6 +622,7 @@
         {
           id: "5493C6AD4B7821B6",
           type: "currency",
+          team_reward: false,
           amount: 25,
         },
         {
@@ -627,6 +637,7 @@
         {
           id: "620100D82F2E5FF1",
           type: "xp",
+          team_reward: false,
           xp: 25,
         },
       ],
@@ -683,17 +694,20 @@
         {
           id: "16EC552A501FC540",
           type: "currency",
+          team_reward: false,
           amount: 25,
         },
         {
           id: "1E3560E8C0476D88",
           type: "random",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 7855799128151010103,
         },
         {
           id: "76672FE75C063C90",
           type: "xp",
+          team_reward: false,
           xp: 25,
         },
       ],
@@ -735,6 +749,7 @@
         {
           id: "3B5DF77B1C0173C2",
           type: "currency",
+          team_reward: false,
           amount: 3,
         },
         {
@@ -748,6 +763,7 @@
         {
           id: "65C46162CC1A8D82",
           type: "xp",
+          team_reward: false,
           xp: 25,
         },
       ],
@@ -830,6 +846,7 @@
         {
           id: "1B7AD90F50A57744",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -875,6 +892,7 @@
         {
           id: "2AC90949A1A1E155",
           type: "xp",
+          team_reward: false,
           xp: 5,
         },
       ],
@@ -948,6 +966,7 @@
         {
           id: "0D3A233ED9FC5210",
           type: "currency",
+          team_reward: false,
           amount: 25,
         },
         {
@@ -963,6 +982,7 @@
         {
           id: "7376FFEBFEE46868",
           type: "xp",
+          team_reward: false,
           xp: 25,
         },
       ],
@@ -1014,6 +1034,7 @@
         {
           id: "2AA1AB9E0CAB6614",
           type: "currency",
+          team_reward: false,
           amount: 10,
         },
         {
@@ -1029,6 +1050,7 @@
         {
           id: "2C131C69C8FC1481",
           type: "xp",
+          team_reward: false,
           xp: 25,
         },
       ],
@@ -1088,6 +1110,7 @@
         {
           id: "6C4AE3E9DD53CBB7",
           type: "currency",
+          team_reward: false,
           amount: 3,
         },
         {
@@ -1103,6 +1126,7 @@
         {
           id: "6A956C8E109BF69D",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -1143,6 +1167,7 @@
         {
           id: "620D006649DA2A8B",
           type: "currency",
+          team_reward: false,
           amount: 10,
         },
         {
@@ -1156,6 +1181,7 @@
         {
           id: "2D2C8034F6381F97",
           type: "xp",
+          team_reward: false,
           xp: 25,
         },
       ],

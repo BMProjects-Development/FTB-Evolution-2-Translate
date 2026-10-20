@@ -1,0 +1,19 @@
+{
+  "id": "energized_power_energy_production_upgrade_modules",
+  "name": {
+    "translate": "collapsible_groups.group.energized_power_energy_production_upgrade_modules",
+    "fallback": "Energized Power: Energy Production Upgrade Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "energizedpower"
+      },
+      {
+        "item_path_starts_with": "energy_production_upgrade_module_"
+      }
+    ]
+  }
+}

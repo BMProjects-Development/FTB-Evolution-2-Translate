@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "minecraft:amethyst_shard"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "occultism:amethyst_dust"
+    }
+  ],
+  "time": 100
+}

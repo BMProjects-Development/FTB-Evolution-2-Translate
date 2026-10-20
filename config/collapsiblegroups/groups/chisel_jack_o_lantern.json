@@ -1,0 +1,19 @@
+{
+  "id": "chisel_jack_o_lantern",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_jack_o_lantern",
+    "fallback": "Chisel: Jack o'Lantern"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "jack_o_lantern_"
+      }
+    ]
+  }
+}

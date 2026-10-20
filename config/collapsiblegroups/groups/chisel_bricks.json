@@ -1,0 +1,19 @@
+{
+  "id": "chisel_bricks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_bricks",
+    "fallback": "Chisel: Bricks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "bricks_"
+      }
+    ]
+  }
+}

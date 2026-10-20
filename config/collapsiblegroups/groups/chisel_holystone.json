@@ -1,0 +1,19 @@
+{
+  "id": "chisel_holystone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_holystone",
+    "fallback": "Chisel: Holystone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "holystone_"
+      }
+    ]
+  }
+}

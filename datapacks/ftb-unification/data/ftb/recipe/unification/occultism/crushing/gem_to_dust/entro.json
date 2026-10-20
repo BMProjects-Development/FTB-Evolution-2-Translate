@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "extendedae:entro_crystal",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "extendedae:entro_dust"
+  }
+}

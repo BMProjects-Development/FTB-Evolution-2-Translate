@@ -20,7 +20,7 @@
     },
     {
       "count": {
-        "chance": 0.01,
+        "chance": 0.075,
         "max": 1,
         "min": 1
       },

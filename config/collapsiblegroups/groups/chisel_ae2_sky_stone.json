@@ -1,0 +1,19 @@
+{
+  "id": "chisel_ae2_sky_stone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_ae2_sky_stone",
+    "fallback": "Chisel: Sky Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "sky_stone_"
+      }
+    ]
+  }
+}

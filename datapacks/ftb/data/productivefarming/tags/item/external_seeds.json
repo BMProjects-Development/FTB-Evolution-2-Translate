@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:chromium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:cinnabar_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:dark_gem_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:desh_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:entro_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:fluxite_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:iesnium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:kivi_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:moonstone_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:niobium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:oil_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:redstone_crystal_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:salt_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:vitae_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:xychorium_seeds",
+      "required": false
+    }
+  ]
+}

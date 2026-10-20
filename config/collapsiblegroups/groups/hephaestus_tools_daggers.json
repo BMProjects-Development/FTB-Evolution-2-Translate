@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_daggers",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_daggers",
+    "fallback": "Hephaestus Tools: Daggers"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:dagger"
+  }
+}

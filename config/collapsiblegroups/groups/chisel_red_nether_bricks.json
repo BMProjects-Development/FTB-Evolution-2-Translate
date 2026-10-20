@@ -1,0 +1,19 @@
+{
+  "id": "chisel_red_nether_bricks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_red_nether_bricks",
+    "fallback": "Chisel: Red Nether Bricks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "red_nether_bricks_"
+      }
+    ]
+  }
+}

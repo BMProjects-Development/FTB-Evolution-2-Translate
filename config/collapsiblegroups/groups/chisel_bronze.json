@@ -1,0 +1,19 @@
+{
+  "id": "chisel_bronze",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_bronze",
+    "fallback": "Chisel: Bronze"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "bronze_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_atm_ancient_stone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_atm_ancient_stone",
+    "fallback": "Chisel: Ancient Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "ancient_stone_"
+      }
+    ]
+  }
+}

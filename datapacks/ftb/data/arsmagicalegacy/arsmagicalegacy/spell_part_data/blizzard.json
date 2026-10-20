@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "arsmagicalegacy"
+    }
+  ],
+  "affinity_shifts": {
+    "arsmagicalegacy:ice": 0.009999999776482582
+  },
+  "mana": 250.0,
+  "burnout": 75.0,
+  "recipe": [
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": {
+        "neoforge:ingredient_type": "neoforge:components",
+        "components": {
+          "arsmagicalegacy:affinity": "arsmagicalegacy:ice"
+        },
+        "items": "arsmagicalegacy:affinity_essence"
+      }
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "#c:gems/topaz"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "minecraft:ice"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "type": "arsmagicalegacy:item",
+      "count": 1,
+      "item": "#c:ingots/adamantite"
+    }
+  ]
+}

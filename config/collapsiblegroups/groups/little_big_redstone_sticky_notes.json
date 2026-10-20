@@ -1,0 +1,19 @@
+{
+  "id": "little_big_redstone_sticky_notes",
+  "name": {
+    "translate": "collapsible_groups.group.little_big_redstone_sticky_notes",
+    "fallback": "Little Big Redstone: Sticky Notes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "little_big_redstone"
+      },
+      {
+        "item_path_ends_with": "_sticky_note"
+      }
+    ]
+  }
+}

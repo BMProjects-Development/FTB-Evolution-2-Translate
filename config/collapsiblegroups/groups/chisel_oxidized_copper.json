@@ -1,0 +1,19 @@
+{
+  "id": "chisel_oxidized_copper",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_oxidized_copper",
+    "fallback": "Chisel: Oxidized Copper"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "oxidized_copper_"
+      }
+    ]
+  }
+}

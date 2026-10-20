@@ -1,0 +1,19 @@
+{
+  "id": "chisel_andesite",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_andesite",
+    "fallback": "Chisel: Andesite"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "andesite_"
+      }
+    ]
+  }
+}

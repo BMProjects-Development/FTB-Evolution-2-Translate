@@ -416,34 +416,6 @@
       weight: 8.0,
     },
     {
-      id: "2892576BF1B95237",
-      item: {
-        id: "power_armor:power_armor_helmet",
-        count: 1,
-      },
-    },
-    {
-      id: "48264B67A96E13A4",
-      item: {
-        id: "power_armor:power_armor_chestplate",
-        count: 1,
-      },
-    },
-    {
-      id: "554C9A2842E4F4F9",
-      item: {
-        id: "power_armor:power_armor_leggings",
-        count: 1,
-      },
-    },
-    {
-      id: "64286DCF98B1BAAB",
-      item: {
-        id: "power_armor:power_armor_boots",
-        count: 1,
-      },
-    },
-    {
       id: "37D9D9081F6B2C8E",
       item: {
         id: "ftbarmory:adamantite_helmet",

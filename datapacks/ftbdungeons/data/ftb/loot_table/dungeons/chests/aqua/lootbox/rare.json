@@ -1782,23 +1782,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "ftb:dungeons/chests/shared/sets/power_armor",
-          "functions": [
-            {
-              "enchantments": {
-                "minecraft:thorns": {
-                  "n": 18,
-                  "p": 0.5,
-                  "type": "minecraft:binomial"
-                }
-              },
-              "function": "minecraft:set_enchantments"
-            }
-          ],
-          "weight": 86
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "ftb:dungeons/chests/shared/sets/prudentium_armor",
           "weight": 6506,
           "functions": [

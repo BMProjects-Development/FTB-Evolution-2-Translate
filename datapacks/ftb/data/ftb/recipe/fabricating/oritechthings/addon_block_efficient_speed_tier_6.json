@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritechthings:addon_block_speed_tier_6",
+      "count": 1
+    },
+    {
+      "ingredient": "oritechthings:addon_block_efficiency_tier_6",
+      "count": 1
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_plate",
+      "count": 4
+    },
+    {
+      "ingredient": "oritech:heisenberg_compensator",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_efficient_speed_tier_6"
+    }
+  ],
+  "ticks": 800,
+  "energy_per_tick": 20000,
+  "stage": "skyline3_unlocked"
+}

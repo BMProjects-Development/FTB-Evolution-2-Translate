@@ -9,12 +9,16 @@
     "",
     "Throwing a &3Weather Container&r into the &aEnvironmental Accumulator&r during rain or a thunderstorm will allow you to harness their powers to control the weather at will.",
   ],
+  "task.2148DCC201648C0A.title": "Any Broom Brush",
   "quest.2CB69634F6A6E53E.title": "Dark Temples",
   "quest.525517F1625A9BCB.title": "Automating Blood Collection",
+  "task.499D24D1F87BF794.title": "Any Broom Cap",
   "quest.5A8F4CA0F09F4842.quest_desc": [
     "The &dPurifier&r allows you to remove &5Enchantments&r and &cCurses&r from items using blood.",
     "",
-    "You'll need at least 1 bucket's worth of blood in the &dPurifier&r, then throw in the item you want to remove an enchantment from and a &cBlook&r to absorb one of the enchants from the item.",
+    "To remove an &5Enchantment&r, fill the &dPurifier&r with 3 buckets of blood, then right-click it with the item you want to disenchant and with a &cBlook&r. One random enchantment is moved onto the &cBlook&r, which becomes an &5Enchanted Book&r, and all 3 buckets are used up.",
+    "",
+    "To remove a &cCurse&r, you only need 1 bucket of blood and the cursed item; no &cBlook&r is needed. Each curse level removed uses 1 bucket. Curses on the &4Vengeance Pickaxe&r can't be removed.",
   ],
   "quest.68318811CCC28320.quest_desc": [
     "To progress further into &eEvilCraft&r, you'll need to create &3Blood Infusion Cores&r, which are one of the mod's main crafting components.",
@@ -110,6 +114,7 @@
     "If you're looking to automate blood using your mob farm, simply place a &2Spiked Plate&r on top of a &aSanguinary Pedestal&r and have your mobs stand or drop on it.",
   ],
   "quest.51B24CC5E9332C1E.title": "Revenge of the &dSpirits",
+  "task.73427CBDD811273E.title": "Any Broom Rod",
   "quest.066438B01655D866.title": "Capturing &dSpirits",
   "quest.600F66B13B29708B.quest_desc": [
     "The &zRejuvenated Flesh&r grants you an infinite food source that consumes blood.",
@@ -141,6 +146,8 @@
     "&eEvilCraft&r is a magic mod based around gathering blood from mobs.",
     "",
     "To get started, go mining for some &aDark Gems&r.",
+    "",
+    "[\"\", \"Trapping spirits, raising the dead and the Mace of Distortion also level your \", {\"text\": \"Magic skill tree\", \"color\": \"aqua\", \"underlined\": true, \"click_event\": {\"action\": \"custom\", \"id\": \"ftbquests:docs\", \"payload\": {\"location\": \"guideme,ftb:skills,ftb:magic.md\"}}, \"hover_event\": {\"action\": \"show_text\", \"value\": \"Open the Skill Trees guide\"}}, \".\"]",
   ],
   "quest.1DA0A87C471A38AC.quest_desc": [
     "To start your own &eEvilCraft&r mob farm, you'll need at least 33 &aDark Blood Bricks&r to build the structure for the summoned spirits and a &9Box of Eternal Closure&r with your chosen spirit.",

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_bright_glass",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_bright_glass",
+    "fallback": "Chisel: Bright Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "bright_glass"
+      }
+    ]
+  }
+}

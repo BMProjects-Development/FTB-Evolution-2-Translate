@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritechthings:addon_block_acceptor_tier_3",
+      "count": 1
+    },
+    {
+      "ingredient": "oritech:machine_acceptor_addon",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:adamantite_plate",
+      "count": 4
+    },
+    {
+      "ingredient": "oritech:motor",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_acceptor_tier_4"
+    }
+  ],
+  "ticks": 400,
+  "energy_per_tick": 2000,
+  "stage": "oritech_atomic_forge"
+}

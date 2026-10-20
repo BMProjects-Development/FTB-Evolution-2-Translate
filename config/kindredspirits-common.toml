@@ -25,11 +25,11 @@
 	# Range: 0.0 ~ 20.0
 	health_per_level = 2.0
 	#Extra attack damage added per level, before the species growth multiplier.
-	# Default: 0.25
+	# Default: 0.35
 	# Range: 0.0 ~ 20.0
 	attack_per_level = 0.25
 	#Extra armour added per level, before the species growth multiplier.
-	# Default: 0.1
+	# Default: 0.125
 	# Range: 0.0 ~ 5.0
 	armour_per_level = 0.2
 	#Extra movement speed added per level, before the species growth multiplier.
@@ -70,6 +70,20 @@
 	# Default: 6.0
 	# Range: 0.0 ~ 1024.0
 	bandage_healing = 6.0
+	#Extra experience gain for each star, as a fraction. Stars add together, so 0.2 gives
+	#a five star companion twice the experience of a fresh one.
+	# Default: 0.2
+	# Range: 0.0 ~ 5.0
+	star_experience_bonus = 0.2
+	#Extra attack damage for each star, as a fraction of the levelled value. Stars add
+	#together, so 0.05 gives a five star companion a quarter more.
+	# Default: 0.05
+	# Range: 0.0 ~ 5.0
+	star_attack_bonus = 0.05
+	#Flat armour added for each star.
+	# Default: 0.25
+	# Range: 0.0 ~ 20.0
+	star_armour_bonus = 0.25
 
 [bond]
 	#Highest bond level a companion can reach.
@@ -101,6 +115,11 @@
 	# Default: 120
 	# Range: 1 ~ 86400
 	afk_seconds = 120
+	#Extra experience gain at max bond, as a fraction. It rises evenly from none at bond 0,
+	#so 1.5 gives a max bond companion 2.5 times the experience.
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	bond_experience_bonus = 1.5
 
 [taming]
 	#Chance that one of the species' taming items tames a wild companion.
@@ -141,3 +160,10 @@
 [worldgen]
 	#Scatter the odd block of suspicious sand into beach sand as new chunks generate. Brushing it can turn up a T-Rex Egg.
 	beach_suspicious_sand = true
+
+[commands]
+	#Permission level needed for /kindredspirits minime, which summons a tamed, unbonded Mini Player.
+	#0 lets everyone use it, 2 needs the default op level, 4 needs server owner.
+	# Default: 2
+	# Range: 0 ~ 4
+	minime_permission_level = 2

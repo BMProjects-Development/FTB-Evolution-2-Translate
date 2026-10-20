@@ -1,0 +1,19 @@
+{
+  "id": "compressium_diamond",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_diamond",
+    "fallback": "Compressium: Diamond"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "diamond_"
+      }
+    ]
+  }
+}

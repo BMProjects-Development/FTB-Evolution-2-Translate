@@ -1,0 +1,19 @@
+{
+  "id": "chisel_raw_gold",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_raw_gold",
+    "fallback": "Chisel: Raw Gold"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "raw_gold_"
+      }
+    ]
+  }
+}

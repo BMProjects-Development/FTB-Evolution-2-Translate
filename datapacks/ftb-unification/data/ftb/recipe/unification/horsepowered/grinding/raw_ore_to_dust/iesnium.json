@@ -1,0 +1,12 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "#c:raw_materials/iesnium",
+  "result": {
+    "id": "occultism:iesnium_dust"
+  },
+  "secondary": {
+    "id": "occultism:iesnium_dust"
+  },
+  "secondaryChance": 33,
+  "time": 16
+}

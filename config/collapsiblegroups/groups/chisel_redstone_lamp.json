@@ -1,0 +1,12 @@
+{
+  "id": "chisel_redstone_lamp",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_redstone_lamp",
+    "fallback": "Chisel: Redstone Lamp"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "chisel:redstone_lamp_square"
+  }
+}

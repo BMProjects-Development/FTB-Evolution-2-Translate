@@ -1,0 +1,19 @@
+{
+  "advancements.apotheosis.progression.frontier.criteria.skyline": "Consigue el FTB Skyline",
+  "advancements.apotheosis.progression.ascent.criteria.previous_tier": "Desbloquea el Nivel de Mundo Frontera",
+  "advancements.apotheosis.progression.summit.criteria.previous_tier": "Desbloquea el Nivel de Mundo Ascenso",
+  "advancements.apotheosis.progression.pinnacle.criteria.previous_tier": "Desbloquea el Nivel de Mundo Cumbre",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_helm": "Equipa un Casco Poco Común con al menos 2 de Dureza de armadura base",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_chest": "Equipa un Peto Poco Común con al menos 2 de Dureza de armadura base",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_legs": "Equipa unas Grebas Poco Comunes con al menos 2 de Dureza de armadura base",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_feet": "Equipa unas Botas Poco Comunes con al menos 2 de Dureza de armadura base",
+  "advancements.apotheosis.progression.summit.criteria.rare_helm": "Equipa un Casco Raro con al menos 3 de Dureza de armadura base",
+  "advancements.apotheosis.progression.summit.criteria.rare_chest": "Equipa un Peto Raro con al menos 3 de Dureza de armadura base",
+  "advancements.apotheosis.progression.summit.criteria.rare_legs": "Equipa unas Grebas Raras con al menos 3 de Dureza de armadura base",
+  "advancements.apotheosis.progression.summit.criteria.rare_feet": "Equipa unas Botas Raras con al menos 3 de Dureza de armadura base",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_helm": "Equipa un Casco Épico con al menos 4 de Dureza de armadura base",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_chest": "Equipa un Peto Épico con al menos 4 de Dureza de armadura base",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_legs": "Equipa unas Grebas Épicas con al menos 4 de Dureza de armadura base",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_feet": "Equipa unas Botas Épicas con al menos 4 de Dureza de armadura base",
+  "misc.apotheosis.aurichalcum": "oricalco"
+}

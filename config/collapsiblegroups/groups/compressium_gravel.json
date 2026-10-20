@@ -1,0 +1,19 @@
+{
+  "id": "compressium_gravel",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_gravel",
+    "fallback": "Compressium: Gravel"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "gravel_"
+      }
+    ]
+  }
+}

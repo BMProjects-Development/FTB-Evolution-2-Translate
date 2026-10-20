@@ -1,0 +1,19 @@
+{
+  "id": "energized_power_range_upgrade_modules",
+  "name": {
+    "translate": "collapsible_groups.group.energized_power_range_upgrade_modules",
+    "fallback": "Energized Power: Range Upgrade Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "energizedpower"
+      },
+      {
+        "item_path_starts_with": "range_upgrade_module_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_hex_plating",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_hex_plating",
+    "fallback": "Chisel: Hex Plating"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "hex_plating_"
+      }
+    ]
+  }
+}

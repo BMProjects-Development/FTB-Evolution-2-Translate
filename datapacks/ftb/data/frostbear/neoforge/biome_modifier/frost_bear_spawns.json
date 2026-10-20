@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "frostbear"
+    }
+  ],
   "type": "neoforge:remove_spawns",
   "biomes": "#c:is_snowy",
   "entity_types": [

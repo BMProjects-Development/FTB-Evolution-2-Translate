@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_table",
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 50,
+    "id": "hephaestus:molten_glowstone"
+  },
+  "result": {
+    "id": "minecraft:glowstone_dust"
+  }
+}

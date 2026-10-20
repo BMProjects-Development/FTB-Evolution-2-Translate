@@ -1,0 +1,19 @@
+{
+  "id": "chisel_stained_glass_pane_light_blue",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_stained_glass_pane_light_blue",
+    "fallback": "Chisel: Light Blue Stained Glass Pane"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "stained_glass_pane_light_blue_"
+      }
+    ]
+  }
+}

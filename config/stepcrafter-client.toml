@@ -1,0 +1,10 @@
+[resourceConfigurationDefaults]
+	# Default: 0.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	defaultMinAmount = 0.0
+	# Default: 0.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	defaultMaxAmount = 0.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	defaultBatchSize = 1.0

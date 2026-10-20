@@ -1,0 +1,19 @@
+{
+  "id": "better_fishtanks_medium_decor",
+  "name": {
+    "translate": "collapsible_groups.group.better_fishtanks_medium_decor",
+    "fallback": "Better Fishtanks: Medium Decor"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterfishtanks"
+      },
+      {
+        "item_path_starts_with": "medium_"
+      }
+    ]
+  }
+}

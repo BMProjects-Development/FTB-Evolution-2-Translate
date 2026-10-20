@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:chromium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:desh_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:entro_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:fluxite_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:moonstone_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:redstone_crystal_seeds",
+      "required": false
+    }
+  ]
+}

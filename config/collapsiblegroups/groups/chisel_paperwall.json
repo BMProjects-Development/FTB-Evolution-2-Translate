@@ -1,0 +1,19 @@
+{
+  "id": "chisel_paperwall",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_paperwall",
+    "fallback": "Chisel: Paperwall"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "paperwall_"
+      }
+    ]
+  }
+}

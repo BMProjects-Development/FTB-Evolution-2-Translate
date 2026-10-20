@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:chromium_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:cinnabar_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:dark_gem_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:desh_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:entro_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:fluxite_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:iesnium_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:kivi_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:moonstone_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:niobium_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:oil_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:redstone_crystal_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:salt_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:vitae_crop",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:xychorium_crop",
+      "required": false
+    }
+  ]
+}

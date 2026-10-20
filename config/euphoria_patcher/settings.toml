@@ -16,7 +16,7 @@
 	# Update checker mode: 'important' (critical or big updates only), 'all' (all updates), 'none' (disabled).
 	# Uses the Modrinth API to fetch update information.
 	# Default = important
-	doUpdateChecking = "important"
+	doUpdateChecking = "none"
 
 [maintenance]
 	# Option that automatically renames outdated Euphoria Patches folders and config files to a new name.

@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_tool_bindings",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_tool_bindings",
+    "fallback": "Hephaestus Tools: Tool Bindings"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:tool_binding"
+  }
+}

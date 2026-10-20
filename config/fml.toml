@@ -1,11 +1,11 @@
 #Disables File Watcher. Used to automatically update config if its file has been modified.
-disableConfigWatcher = false
+disableConfigWatcher = true
 #Shows an early loading screen for mod loading which improves the user experience with early feedback about mod loading.
 earlyWindowControl = true
 #Max threads for early initialization parallelism,  -1 is based on processor count
 maxThreads = -1
 #Enable NeoForge global version checking
-versionCheck = true
+versionCheck = false
 #Enable synchronous OpenGL debug output and object labeling
 debugOpenGl = false
 #Default config path for servers

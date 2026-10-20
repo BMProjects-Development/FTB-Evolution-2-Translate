@@ -73,7 +73,8 @@ ItemEvents.modifyTooltips(event => {
         [['ftbarmory:aurichalcum_end_ore'], null, null, null, range(16, 72)],
         [['occultism:iesnium_ore', 'occultism:iesnium_ore_natural'], null, null, y(64), null],
         [['ltxi:niobium_ore'], null, null, null, range(40, 128)],
-        [['stellaris:novite_ore'], null, range(-48, 32), null, null]
+        [['stellaris:novite_ore'], null, range(-48, 32), null, null],
+        [['replication:deepslate_replica_ore'], null, y(-63), null, null]
     ]
 
     const xychorium = []

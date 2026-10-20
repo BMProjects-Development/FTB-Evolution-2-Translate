@@ -1,0 +1,19 @@
+{
+  "id": "chisel_amethyst",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_amethyst",
+    "fallback": "Chisel: Amethyst"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "amethyst_"
+      }
+    ]
+  }
+}

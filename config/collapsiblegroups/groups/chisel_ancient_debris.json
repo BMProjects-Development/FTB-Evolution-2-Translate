@@ -1,0 +1,19 @@
+{
+  "id": "chisel_ancient_debris",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_ancient_debris",
+    "fallback": "Chisel: Ancient Debris"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "ancient_debris_"
+      }
+    ]
+  }
+}

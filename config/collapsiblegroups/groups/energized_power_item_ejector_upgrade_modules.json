@@ -1,0 +1,19 @@
+{
+  "id": "energized_power_item_ejector_upgrade_modules",
+  "name": {
+    "translate": "collapsible_groups.group.energized_power_item_ejector_upgrade_modules",
+    "fallback": "Energized Power: Item Ejector Upgrade Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "energizedpower"
+      },
+      {
+        "item_path_starts_with": "item_ejector_upgrade_module_"
+      }
+    ]
+  }
+}

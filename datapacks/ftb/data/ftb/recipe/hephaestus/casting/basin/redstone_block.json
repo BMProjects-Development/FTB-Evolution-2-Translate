@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 120,
+  "fluid": {
+    "amount": 90,
+    "id": "hephaestus:molten_redstone"
+  },
+  "result": {
+    "id": "minecraft:redstone_block"
+  }
+}

@@ -4,7 +4,7 @@
   "cooling_time": 100,
   "fluid": {
     "amount": 90,
-    "id": "ftb:molten_dragonsteel_fire"
+    "id": "hephaestus:molten_dragonsteel_fire"
   },
   "result": {
     "id": "iceandfire:dragonsteel_fire_ingot"

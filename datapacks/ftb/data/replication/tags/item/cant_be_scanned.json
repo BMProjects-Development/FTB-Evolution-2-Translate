@@ -1,0 +1,2829 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "gateways:gate_pearl",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_ingot",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_ingot",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_ingot",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_block",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_block",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_block",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:nuggets/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/iridium",
+      "required": false
+    },
+    {
+      "id": "#c:plates/iridium",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:aluminum_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:antimony_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:apatite_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bauxite_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:brass_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:bronze_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:charcoal_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:charcoal_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:charcoal_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:charcoal_tiny",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:charcoal_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:chromium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:cinnabar_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_coke_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_coke_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_coke_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:coal_tiny",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:constantan_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:copper_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:diamond_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:dimensional_shard_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:electrum_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:emerald_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:fluorite_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:gold_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:graphite_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:invar_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iridium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:iron_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lapis_lazuli_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lead_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lithium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:lumium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:monazite_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:netherite_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:nickel_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:niter_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:obsidian_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:osmium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:platinum_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:plutonium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:quartz_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:redstone_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_glowstone_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_obsidian_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_obsidian_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_obsidian_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:refined_obsidian_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:resonating_ore_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:ruby_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:salt_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sapphire_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:saw_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:signalum_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silicon_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:silver_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:stainless_steel_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:steel_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_gem",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:sulfur_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tin_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_blade",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:titanium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:topaz_tiny",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:tungsten_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:uranium_wire",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_chunk",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_clump",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_cluster",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_crystal",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_dirty_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_end_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_gear",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_ingot",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_nether_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_nugget",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_plate",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_raw_block",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_raw_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_rod",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_shard",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_small_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_stone_ore",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_tiny_dust",
+      "required": false
+    },
+    {
+      "id": "ftbmaterials:zinc_wire",
+      "required": false
+    }
+  ]
+}

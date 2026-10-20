@@ -44,7 +44,7 @@
           "name": "overclocker_upgrade",
           "item": { "id": "ftbic:overclocker_upgrade", "count": 2 },
           "cost": 60,
-          "max_claims": 1
+          "max_claims": 4
         },
         {
           "name": "rooted_boots",
@@ -185,7 +185,8 @@
             }
           },
           "cost": 40,
-          "max_claims": 1
+          "max_claims": 1,
+          "per_player_max_claims": true
         },
         {
           "name": "serenity",

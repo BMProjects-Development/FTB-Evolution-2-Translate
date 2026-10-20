@@ -512,7 +512,6 @@
     "Start here. A 1k part is cheap enough to make several while you work out how much space you actually need.",
   ],
   "quest.5D7BD0CDE35A3196.title": "&fME Stock Export Bus",
-  "quest.420F0EE98B6DC834.title": "&dPattern Encoding",
   "quest.59AD05C4C9642285.title": "&2Iron Autocrafter",
   "quest.475662C0E0DCB7B3.title": "&aStorage Upgrades",
   "quest.193CAE408B6B3A27.title": "&aCompacting Drawers",
@@ -954,15 +953,6 @@
     "This allows you to void specific items that go into the chest, and comes with a filter that can do some pretty awesome stuff. You could even set the filter to void everything from a certain mod!",
   ],
   "task.3D22C65DCF3BF778.title": "Any #ftb:tiered_importers",
-  "quest.420F0EE98B6DC834.quest_desc": [
-    "&eNot Enough Patterns&r (&eNEP&r) allows you to bypass a lot of the logistics involved with autocrafting.",
-    "",
-    "When a &aDecoder&r is installed onto your AE2 network and a mod's &dEncoding Module&r is installed, creating a processing pattern for that matching recipe will automatically convert it into a &eNEP&r mod pattern.",
-    "",
-    "Each &eNEP&r pattern behaves slightly differently, but in general it attempts to automatically insert all items that make up that recipe, even to non-connected blocks like pedestals, process the recipe, then return the items automatically.",
-    "",
-    "You may still sometimes require an &aImport Card&r to pull the items back into your system.",
-  ],
   "quest.59AD05C4C9642285.quest_desc": [
     "The &2Iron Autocrafter&r has 27 &aPattern&r slots and works as fast as a fully upgraded Autocrafter.",
   ],

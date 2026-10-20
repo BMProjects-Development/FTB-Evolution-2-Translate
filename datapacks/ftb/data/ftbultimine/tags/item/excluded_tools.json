@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "arsmagicalegacy:spell", "required": false },
+    { "id": "arsmagicalegacy:spell_book", "required": false },
+    { "id": "arsmagicalegacy:arcane_spell_book", "required": false }
+  ]
+}

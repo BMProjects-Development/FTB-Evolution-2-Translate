@@ -5,7 +5,7 @@
   "cooling_time": 120,
   "fluid": {
     "amount": 270,
-    "id": "ftb:molten_wrought_iron"
+    "id": "hephaestus:molten_wrought_iron"
   },
   "result": {
     "count": 1,

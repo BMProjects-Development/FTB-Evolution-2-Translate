@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_scythes",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_scythes",
+    "fallback": "Hephaestus Tools: Scythes"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:scythe"
+  }
+}

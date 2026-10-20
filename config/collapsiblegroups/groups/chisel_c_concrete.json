@@ -1,0 +1,99 @@
+{
+  "id": "chisel_c_concrete",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_c_concrete",
+    "fallback": "Chisel: Concrete"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "concrete_"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_black_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_blue_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_brown_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_cyan_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_gray_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_green_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_light_blue_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_light_gray_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_lime_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_magenta_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_orange_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_pink_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_purple_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_red_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_white_"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "concrete_yellow_"
+        }
+      }
+    ]
+  }
+}

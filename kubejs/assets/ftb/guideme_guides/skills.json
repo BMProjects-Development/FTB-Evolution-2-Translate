@@ -1,0 +1,14 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Skill Trees"
+    },
+    "tooltip_lines": [
+      {
+        "text": "How every skill tree in FTB Evolution 2 levels up",
+        "color": "dark_gray"
+      }
+    ]
+  },
+  "default_language": "en_us"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "animal_pen_animal_pens",
+  "name": {
+    "translate": "collapsible_groups.group.animal_pen_animal_pens",
+    "fallback": "Animal Pen: Animal Pens"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "animal_pen"
+      },
+      {
+        "item_path_starts_with": "animal_pen_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:athanor",
+  "inputs": [
+    "#c:gravels/niobium"
+  ],
+  "tool": "#neovitae:athanor_tool/cutting_fluids",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "ltxi:niobium_dust"
+    }
+  ],
+  "chance_outputs": []
+}

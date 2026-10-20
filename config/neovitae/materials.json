@@ -55,8 +55,7 @@
     "color": "#755045",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "minecraft:netherite_scrap",
     "smelt_xp": 2.0,
@@ -218,8 +217,7 @@
     "color": "#808080",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "ltxi:niobium_ingot",
     "smelt_xp": 0.7,
@@ -437,8 +435,7 @@
     "color": "#446FDC",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "minecraft:lapis_lazuli",
     "smelt_xp": 0.7,
@@ -487,8 +484,7 @@
     "color": "#947BAB",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "ftbmaterials:titanium_ingot",
     "smelt_xp": 0.7,
@@ -505,8 +501,7 @@
     "color": "#808080",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "colossal_reactors:boron_ingot",
     "smelt_xp": 0.7,
@@ -539,8 +534,7 @@
     "color": "#593322",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "mysticalagriculture:soulium_dust",
     "smelt_xp": 0.7,
@@ -556,8 +550,7 @@
     "color": "#A2CBCC",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "occultism:iesnium_ingot",
     "smelt_xp": 0.7,
@@ -574,8 +567,7 @@
     "color": "#98A2B2",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "ftbmaterials:platinum_ingot",
     "smelt_xp": 0.7,
@@ -609,8 +601,7 @@
     "color": "#B2A339",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_xp": 0.0,
     "ore_tag": "c:ores/sulfur",
@@ -641,8 +632,7 @@
     "color": "#6E5BD6",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "stellaris:novite_ingot",
     "smelt_xp": 0.7,
@@ -655,12 +645,28 @@
     "gen_raw": ""
   },
   {
+    "name": "desh",
+    "color": "#C07849",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_to": "stellaris:desh_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/desh",
+    "raw_tag": "c:raw_materials/desh",
+    "ingot_tag": "c:ingots/desh",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
     "name": "vinteum",
     "color": "#3A6FD8",
     "stages": [
       "fragment",
-      "gravel",
-      "dust"
+      "gravel"
     ],
     "smelt_to": "arsmagicalegacy:vinteum_dust",
     "smelt_xp": 0.7,

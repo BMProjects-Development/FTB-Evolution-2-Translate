@@ -1,0 +1,19 @@
+{
+  "id": "chisel_energized_voidstone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_energized_voidstone",
+    "fallback": "Chisel: Energized Voidstone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "energized_voidstone_"
+      }
+    ]
+  }
+}

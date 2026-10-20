@@ -1,0 +1,19 @@
+{
+  "id": "chisel_tt_thaumium",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_tt_thaumium",
+    "fallback": "Chisel: Thaumium"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "thaumium_"
+      }
+    ]
+  }
+}

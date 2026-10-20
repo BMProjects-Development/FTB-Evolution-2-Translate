@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "powah:uraninite"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:uranium_dust"
+    }
+  ],
+  "time": 100
+}

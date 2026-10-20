@@ -7,7 +7,7 @@
   "ingredient": "nautec:atlantic_gold_nugget",
   "result": {
     "amount": 10,
-    "id": "ftb:molten_atlantic_gold"
+    "id": "hephaestus:molten_atlantic_gold"
   },
   "temperature": 1200,
   "time": 33

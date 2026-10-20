@@ -306,7 +306,7 @@
 		#The area in which the spawn limit will be checked on each spawn attempt.
 		spawnLimitArea = 32
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
-		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant"]
+		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant", "iceandfire:.*", "trainingdummy:.*"]
 		#Whether vengeance spirits should always be visible in creative mode.
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.

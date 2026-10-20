@@ -1,0 +1,14 @@
+{
+  "type": "ltxi:grinding",
+  "item_inputs": [
+    {
+      "ingredient": "extendedae:entro_crystal"
+    }
+  ],
+  "item_results": [
+    {
+      "count": 1,
+      "id": "extendedae:entro_dust"
+    }
+  ]
+}

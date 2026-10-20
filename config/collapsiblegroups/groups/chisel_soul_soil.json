@@ -1,0 +1,19 @@
+{
+  "id": "chisel_soul_soil",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_soul_soil",
+    "fallback": "Chisel: Soul Soil"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "soul_soil_"
+      }
+    ]
+  }
+}

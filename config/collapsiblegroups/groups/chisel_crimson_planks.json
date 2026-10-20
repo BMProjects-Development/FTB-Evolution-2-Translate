@@ -1,0 +1,19 @@
+{
+  "id": "chisel_crimson_planks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_crimson_planks",
+    "fallback": "Chisel: Crimson Planks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "crimson_planks_"
+      }
+    ]
+  }
+}

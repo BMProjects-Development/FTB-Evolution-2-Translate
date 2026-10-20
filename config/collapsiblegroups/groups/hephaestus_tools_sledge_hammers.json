@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_sledge_hammers",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_sledge_hammers",
+    "fallback": "Hephaestus Tools: Sledge Hammers"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:sledge_hammer"
+  }
+}

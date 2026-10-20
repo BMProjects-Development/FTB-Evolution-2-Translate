@@ -181,17 +181,6 @@
           "max_claims": 1
         },
         {
-          "name": "gate_pearl_merchants_gateway",
-          "item": {
-            "id": "gateways:gate_pearl",
-            "count": 1,
-            "components": {
-              "gateways:gateway": "ftb:merchants_gateway"
-            }
-          },
-          "cost": 80
-        },
-        {
           "name": "ominous_bottle",
           "item": {
             "id": "minecraft:ominous_bottle",

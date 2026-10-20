@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:kivi_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:oil_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:salt_seeds",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "mysticalagriculture:desh_seeds",
+    "mysticalagriculture:dark_gem_seeds",
+    "mysticalagriculture:fluxite_seeds",
+    "mysticalagriculture:iesnium_seeds",
+    "mysticalagriculture:chromium_seeds",
+    "mysticalagriculture:niobium_seeds",
+    "mysticalagriculture:cinnabar_seeds",
+    "mysticalagriculture:redstone_crystal_seeds",
+    "mysticalagriculture:xychorium_seeds",
+    "mysticalagriculture:oil_seeds",
+    "mysticalagriculture:vitae_seeds",
+    "mysticalagriculture:salt_seeds",
+    "mysticalagriculture:moonstone_seeds",
+    "mysticalagriculture:kivi_seeds",
+    "mysticalagriculture:entro_seeds",
+    "mysticalagriculture:sculk_seeds"
+  ]
+}

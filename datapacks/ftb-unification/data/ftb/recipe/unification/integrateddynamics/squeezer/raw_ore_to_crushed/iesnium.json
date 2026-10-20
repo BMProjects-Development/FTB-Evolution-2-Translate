@@ -1,0 +1,17 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": "occultism:raw_iesnium",
+  "output_items": [
+    {
+      "item": {
+        "id": "occultism:iesnium_dust"
+      }
+    },
+    {
+      "item": {
+        "id": "occultism:iesnium_dust"
+      },
+      "chance": 0.33
+    }
+  ]
+}

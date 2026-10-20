@@ -265,6 +265,34 @@
 	# Default: 100
 	# Range: 0 ~ 1728000
 	deaths_toll_cooldown = 100
+	#Radius in blocks a ricocheting thrown weapon looks for its next target.
+	# Default: 8.0
+	# Range: 1.0 ~ 32.0
+	ricochet_radius = 8.0
+	#Fraction of the thrown weapon's hit damage dealt to each ricochet target.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	ricochet_damage_fraction = 0.5
+	#Cooldown in ticks between Doom procs.
+	# Default: 200
+	# Range: 0 ~ 1728000
+	doom_cooldown = 200
+	#Duration in ticks of the blindness and slowness Doom applies.
+	# Default: 40
+	# Range: 1 ~ 12000
+	doom_effect_ticks = 40
+	#Slowness amplifier Doom applies (3 is Slowness IV).
+	# Default: 3
+	# Range: 0 ~ 9
+	doom_slowness_amplifier = 3
+	#Extra copies thrown when Volley procs.
+	# Default: 2
+	# Range: 1 ~ 8
+	volley_extra = 2
+	#Angle in degrees between the copies thrown by Volley.
+	# Default: 10.0
+	# Range: 1.0 ~ 45.0
+	volley_spread_degrees = 10.0
 
 #Odd Berry Bush, the Roots Classic berry source that replaces berries dropping from leaves.
 #A bush placed by a player is tended and spreads; right clicking it toggles that off again.

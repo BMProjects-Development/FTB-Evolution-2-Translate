@@ -221,6 +221,8 @@
     "The third frame is where the mod gets fast.",
     "",
     "Craft an &aAdvanced Machine Frame&r from a Hardened frame, two advanced alloy, silicon and four brass ingots.",
+    "",
+    "Brass is zinc and copper alloyed together in the &2Alloy Furnace&r, one ingot of each per brass ingot. Zinc has no ore and comes from pulverizing basalt.",
   ],
   "quest.0D6C804C2A6E9ECE.quest_desc": [
     "Molds need a press.",
@@ -330,5 +332,7 @@
     "Build a &aPulverizer&r and a &2Crusher&r. The Pulverizer turns ores and ingots into dust with chance bonus outputs, and the Crusher steps stone down to cobblestone, gravel and sand.",
     "",
     "Both run on 8 FE per tick. Their advanced versions come with the Advanced frame.",
+    "",
+    "There's no zinc ore to mine. Pulverize &2Basalt&r instead: it gives blackstone with a 5% chance of &aZinc Dust&r, and 10% in the Advanced Pulverizer. A SAG Mill or Macerator works too.",
   ],
 }

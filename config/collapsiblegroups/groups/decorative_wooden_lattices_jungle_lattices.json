@@ -1,0 +1,19 @@
+{
+  "id": "decorative_wooden_lattices_jungle_lattices",
+  "name": {
+    "translate": "collapsible_groups.group.decorative_wooden_lattices_jungle_lattices",
+    "fallback": "Decorative Wooden Lattices: Jungle Lattices"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorativewoodenlattices"
+      },
+      {
+        "item_path_starts_with": "jungle_lattice_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:iesnium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:niobium_seeds",
+      "required": false
+    }
+  ]
+}

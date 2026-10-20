@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_table",
+  "cooling_time": 40,
+  "fluid": {
+    "amount": 10,
+    "id": "hephaestus:molten_redstone"
+  },
+  "result": {
+    "id": "minecraft:redstone"
+  }
+}

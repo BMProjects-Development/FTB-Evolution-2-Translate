@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_broad_axes",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_broad_axes",
+    "fallback": "Hephaestus Tools: Broad Axes"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:broad_axe"
+  }
+}

@@ -43,7 +43,7 @@ This example has a 3x3 middle and one layer of wall: 9 floor blocks and 12 wall 
 
 - **Floor:** one seared block under every block of the middle. It doesn't go under the walls.
 - **Walls:** a ring of blocks around the middle, level with it, so one block higher than the floor. Leave the four corners out, because the Smeltery never checks them.
-- **Middle:** air or liquid only, from 1x1 up to 15x15.
+- **Middle:** air or liquid only, from 1x1 up to 15 blocks wide along the Controller's wall and 8 blocks deep away from it. The Smeltery measures from the block behind the Controller, up to 7 blocks to each side, so put the Controller in the middle of its wall to get the full width.
 - **Height:** stack more rings on top to make it taller, up to 64 layers. Every layer must be a **complete** ring, or the Smeltery won't form at all.
 
 ## Components

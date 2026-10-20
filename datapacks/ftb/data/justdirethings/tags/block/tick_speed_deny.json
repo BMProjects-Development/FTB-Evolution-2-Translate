@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#colossal_reactors:reactor_blocks",
+    "#colossal_reactors:turbine_blocks",
+    "#colossal_reactors:heating_coils",
+    "colossal_reactors:reactor_rod",
+    "colossal_reactors:rod_controller",
+    "colossal_reactors:turbine_rod",
+    "colossal_reactors:turbine_rod_controller",
+    "colossal_reactors:turbine_blade",
+    "colossal_reactors:melter",
+    "colossal_reactors:radiation_scrubber"
+  ]
+}

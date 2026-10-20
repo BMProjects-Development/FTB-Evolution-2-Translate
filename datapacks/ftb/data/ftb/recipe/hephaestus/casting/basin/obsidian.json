@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 288,
+    "id": "hephaestus:molten_obsidian"
+  },
+  "result": {
+    "id": "minecraft:obsidian"
+  }
+}

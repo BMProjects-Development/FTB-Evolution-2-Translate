@@ -1,0 +1,19 @@
+{
+  "id": "compressium_endstone",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_endstone",
+    "fallback": "Compressium: End Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "endstone_"
+      }
+    ]
+  }
+}

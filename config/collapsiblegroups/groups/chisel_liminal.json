@@ -1,0 +1,19 @@
+{
+  "id": "chisel_liminal",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_liminal",
+    "fallback": "Chisel: Liminal Block"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "liminal_"
+      }
+    ]
+  }
+}

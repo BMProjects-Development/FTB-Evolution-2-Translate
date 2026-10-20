@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritechthings:addon_block_speed_tier_8",
+      "count": 1
+    },
+    {
+      "ingredient": "oritech:machine_speed_addon",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_plate",
+      "count": 8
+    },
+    {
+      "ingredient": "oritech:machine_core_7",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_speed_tier_9"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 30000,
+  "stage": "skyline3_unlocked"
+}

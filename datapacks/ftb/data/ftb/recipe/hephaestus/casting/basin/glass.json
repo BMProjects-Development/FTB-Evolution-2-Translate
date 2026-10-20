@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 250,
+    "id": "hephaestus:molten_glass"
+  },
+  "result": {
+    "id": "minecraft:glass"
+  }
+}

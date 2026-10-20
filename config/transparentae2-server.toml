@@ -1,2 +1,5 @@
 #Calculate AE2 item-transfer paths and send them to clients for rendering.
 enableTransferPaths = true
+#Log each AE2 item transfer and resolved path at DEBUG level. Requires DEBUG logging to be enabled.
+#Disabled by default because busy networks can produce very large debug logs. Does not affect animations.
+enableTransferLogging = false

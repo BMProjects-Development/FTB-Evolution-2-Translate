@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#xycraft:crafting_groups/marble",
+  "result": {
+    "count": 2,
+    "id": "xycraft_world:marble_tiles_slab"
+  }
+}

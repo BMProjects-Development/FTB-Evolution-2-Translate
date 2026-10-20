@@ -1,0 +1,208 @@
+#Show the Hats welcome chat message when joining a world
+showWelcomeMessage = true
+#Chance for mobs to spawn wearing hats
+#0.0 = never
+#1.0 = always
+# Default: 0.6
+# Range: 0.0 ~ 1.0
+mobHatSpawnChance = 0.6
+#Hat gameplay mode
+#COSMETIC = all hats unlocked
+#HUNTING = hats must be unlocked by killing mobs
+#Allowed Values: COSMETIC, HUNTING
+hatMode = "HUNTING"
+#Hat menu style
+#LEGACY = Hats 1.7.10 window
+#MODERN = Hats 1.16.5 / Renewed grid
+#Allowed Values: LEGACY, MODERN
+guiStyle = "LEGACY"
+#Color Legacy GUI hat names by rarity outside the rarity categories
+showRarityColorsEverywhere = false
+#Hat stand menu style
+#Allowed Values: LEGACY, MODERN
+hatStandGuiStyle = "LEGACY"
+#When a hatless mob kills a hatted mob, the killer inherits the hat
+mobHatTakeover = true
+#When true, boss mobs (ender dragon, wither, elder guardian, warden)
+#can spawn with hats. When false they never spawn hatted;
+#per-mob toggles still apply when this is on.
+bossMobHats = true
+#When true, undead mobs wearing a hat do not burn in sunlight.
+#Default: false.
+preventUndeadFire = false
+#When true, (C) contributor hats are excluded from random
+#mob hat spawn rolls. Already worn hats are left alone. Default: false.
+disableContributorHats = false
+#Ticks a launched hat entity lives before disappearing
+# Default: 6000
+# Range: 20 ~ 72000
+hatEntityLifespan = 6000
+#Launched hats can knock a hat off another player
+hatLauncherReplacesPlayerHat = true
+#When a launched hat hits a player, keep their previous hat in inventory
+hatLauncherDoesNotRemoveHatFromInventory = true
+#If true, a chat message is broadcast to all players whenever one
+#of them unlocks a new hat for the first time. The hat name is
+#colored by rarity and hovering shows its info. Default: false.
+hatUnlockChatAnnouncement = false
+
+[mobHats]
+	#Toggle hats per mob.
+	#Allow allay to spawn with hats
+	allay = true
+	#Allow axolotl to spawn with hats
+	axolotl = true
+	#Allow bat to spawn with hats
+	bat = true
+	#Allow bee to spawn with hats
+	bee = true
+	#Allow camel to spawn with hats
+	camel = true
+	#Allow cat to spawn with hats
+	cat = true
+	#Allow chicken to spawn with hats
+	chicken = true
+	#Allow cod to spawn with hats
+	cod = true
+	#Allow cow to spawn with hats
+	cow = true
+	#Allow dolphin to spawn with hats
+	dolphin = true
+	#Allow donkey to spawn with hats
+	donkey = true
+	#Allow fox to spawn with hats
+	fox = true
+	#Allow frog to spawn with hats
+	frog = true
+	#Allow glow squid to spawn with hats
+	glow_squid = true
+	#Allow goat to spawn with hats
+	goat = true
+	#Allow horse to spawn with hats
+	horse = true
+	#Allow iron golem to spawn with hats
+	iron_golem = true
+	#Allow llama to spawn with hats
+	llama = true
+	#Allow mooshroom to spawn with hats
+	mooshroom = true
+	#Allow mule to spawn with hats
+	mule = true
+	#Allow ocelot to spawn with hats
+	ocelot = true
+	#Allow panda to spawn with hats
+	panda = true
+	#Allow parrot to spawn with hats
+	parrot = true
+	#Allow pig to spawn with hats
+	pig = true
+	#Allow polar bear to spawn with hats
+	polar_bear = true
+	#Allow rabbit to spawn with hats
+	rabbit = true
+	#Allow salmon to spawn with hats
+	salmon = true
+	#Allow sheep to spawn with hats
+	sheep = true
+	#Allow skeleton horse to spawn with hats
+	skeleton_horse = true
+	#Allow sniffer to spawn with hats
+	sniffer = true
+	#Allow snow golem to spawn with hats
+	snow_golem = true
+	#Allow squid to spawn with hats
+	squid = true
+	#Allow strider to spawn with hats
+	strider = true
+	#Allow tadpole to spawn with hats
+	tadpole = true
+	#Allow trader llama to spawn with hats
+	trader_llama = true
+	#Allow tropical fish to spawn with hats
+	tropical_fish = true
+	#Allow turtle to spawn with hats
+	turtle = true
+	#Allow vex to spawn with hats
+	vex = true
+	#Allow villager to spawn with hats
+	villager = true
+	#Allow wandering trader to spawn with hats
+	wandering_trader = true
+	#Allow warden to spawn with hats
+	warden = true
+	#Allow wolf to spawn with hats
+	wolf = true
+	#Allow zombie horse to spawn with hats
+	zombie_horse = true
+	#Allow blaze to spawn with hats
+	blaze = true
+	#Allow cave spider to spawn with hats
+	cave_spider = true
+	#Allow creeper to spawn with hats
+	creeper = true
+	#Allow drowned to spawn with hats
+	drowned = true
+	#Allow elder guardian to spawn with hats
+	elder_guardian = true
+	#Allow ender dragon to spawn with hats
+	ender_dragon = true
+	#Allow enderman to spawn with hats
+	enderman = true
+	#Allow endermite to spawn with hats
+	endermite = true
+	#Allow evoker to spawn with hats
+	evoker = true
+	#Allow ghast to spawn with hats
+	ghast = true
+	#Allow giant to spawn with hats
+	giant = true
+	#Allow guardian to spawn with hats
+	guardian = true
+	#Allow hoglin to spawn with hats
+	hoglin = true
+	#Allow husk to spawn with hats
+	husk = true
+	#Allow illusioner to spawn with hats
+	illusioner = true
+	#Allow magma cube to spawn with hats
+	magma_cube = true
+	#Allow phantom to spawn with hats
+	phantom = true
+	#Allow piglin to spawn with hats
+	piglin = true
+	#Allow piglin brute to spawn with hats
+	piglin_brute = true
+	#Allow pillager to spawn with hats
+	pillager = true
+	#Allow pufferfish to spawn with hats
+	pufferfish = true
+	#Allow ravager to spawn with hats
+	ravager = true
+	#Allow shulker to spawn with hats
+	shulker = true
+	#Allow silverfish to spawn with hats
+	silverfish = true
+	#Allow skeleton to spawn with hats
+	skeleton = true
+	#Allow slime to spawn with hats
+	slime = true
+	#Allow spider to spawn with hats
+	spider = true
+	#Allow stray to spawn with hats
+	stray = true
+	#Allow vindicator to spawn with hats
+	vindicator = true
+	#Allow witch to spawn with hats
+	witch = true
+	#Allow wither to spawn with hats
+	wither = true
+	#Allow wither skeleton to spawn with hats
+	wither_skeleton = true
+	#Allow zoglin to spawn with hats
+	zoglin = true
+	#Allow zombie to spawn with hats
+	zombie = true
+	#Allow zombie villager to spawn with hats
+	zombie_villager = true
+	#Allow zombified piglin to spawn with hats
+	zombified_piglin = true

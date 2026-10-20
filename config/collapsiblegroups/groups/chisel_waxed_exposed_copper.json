@@ -1,0 +1,19 @@
+{
+  "id": "chisel_waxed_exposed_copper",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_waxed_exposed_copper",
+    "fallback": "Chisel: Waxed Exposed Copper"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "waxed_exposed_copper_"
+      }
+    ]
+  }
+}

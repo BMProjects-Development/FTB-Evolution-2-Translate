@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftb:adamantite_coolant",
+    "ftb:aeternium_coolant",
+    "ftb:aurichalcum_coolant"
+  ]
+}

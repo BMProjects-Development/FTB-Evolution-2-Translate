@@ -1,0 +1,19 @@
+{
+  "id": "chisel_mossy_cobblestone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_mossy_cobblestone",
+    "fallback": "Chisel: Mossy Cobblestone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "mossy_cobblestone_"
+      }
+    ]
+  }
+}

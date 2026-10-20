@@ -1,0 +1,27 @@
+{
+  "id": "decorz_cyber_light_panels",
+  "name": {
+    "translate": "collapsible_groups.group.decorz_cyber_light_panels",
+    "fallback": "DecorZ: Cyber Light Panels"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorz"
+      },
+      {
+        "item_path_starts_with": "cyber_light_"
+      },
+      {
+        "item_path_ends_with": "_panel"
+      },
+      {
+        "not": {
+          "item_path_ends_with": "_cut_panel"
+        }
+      }
+    ]
+  }
+}

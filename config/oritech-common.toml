@@ -1,3 +1,8 @@
+#Horizontal resonator search radius in blocks. Only loaded chunks are searched; higher ranges take longer.
+# Default: 128
+# Range: 16 ~ 1024
+resonatorRange = 128
+
 [machineSettings]
 	#Whether addon bonuses are added additive or multiplicative
 	additiveAddons = true

@@ -217,6 +217,16 @@
             "count": 8
           },
           "cost": 20
+        },
+        {
+          "name": "relic_apple",
+          "item": {
+            "id": "bhc:relic_apple",
+            "count": 1
+          },
+          "cost": 50,
+          "max_claims": 10,
+          "per_player_max_claims": true
         }
       ]
     }

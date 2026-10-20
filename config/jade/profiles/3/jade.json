@@ -114,6 +114,9 @@
       "entity": true,
       "entity_variant": true
     },
+    "oritech": {
+      "machine_core_controller": true
+    },
     "logisticsnetworks": {
       "logistics_node_entity": true,
       "node_attached": true
@@ -160,7 +163,9 @@
     },
     "stellaris": {
       "proxy_as_main": true,
-      "flag_owner": true
+      "flag_owner": true,
+      "oxygen_distributor": true,
+      "energy_rate": true
     },
     "ftbic": {
       "cable_tier": true,
@@ -293,6 +298,9 @@
     "neovitae": {
       "block_info": true
     },
+    "replication": {
+      "matter_tank": true
+    },
     "framedblocks": {
       "framed_item_frame": true,
       "framed_block_generic": true
@@ -302,6 +310,7 @@
       "pattern_provider": true
     },
     "extrastorage": {
+      "crafter": true,
       "advanced_crafter": true
     },
     "chisel": {
@@ -336,16 +345,18 @@
     "nautec": {
       "aquatic_catalyst": true,
       "energy_converter": true,
+      "osmosis_filter": true,
       "laser_junction": true,
-      "fusion_controller": true,
-      "mixer": true,
       "laser_crafting_matrix": true,
-      "confined_spawner": true,
       "beam_speed": true,
       "prismarine_crystal": true,
       "crystal_cradle": true,
       "drain": true,
-      "fe_generator": true
+      "fe_generator": true,
+      "laser_power": true,
+      "fusion_controller": true,
+      "mixer": true,
+      "confined_spawner": true
     },
     "hephaestus": {
       "melter_progress": true,

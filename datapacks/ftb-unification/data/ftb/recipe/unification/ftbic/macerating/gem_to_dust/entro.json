@@ -1,0 +1,15 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "extendedae:entro_crystal"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "extendedae:entro_dust"
+      }
+    }
+  ]
+}

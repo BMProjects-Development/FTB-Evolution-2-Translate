@@ -977,6 +977,7 @@
         {
           id: "7F0B2F19927C860A",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -1014,6 +1015,7 @@
         {
           id: "1962BD82D37C5463",
           type: "xp",
+          team_reward: false,
           xp: 10,
         },
       ],
@@ -1307,6 +1309,7 @@
         {
           id: "3597F35548B085F9",
           type: "xp",
+          team_reward: false,
           xp: 20,
         },
       ],
@@ -1458,6 +1461,7 @@
         {
           id: "59EC808F1DB374EB",
           type: "xp",
+          team_reward: false,
           xp: 20,
         },
       ],
@@ -1497,6 +1501,7 @@
         {
           id: "0452A7308F6CA3E6",
           type: "xp",
+          team_reward: false,
           xp: 40,
         },
       ],
@@ -1967,6 +1972,48 @@
           type: "xp",
           team_reward: false,
           xp: 20,
+        },
+      ],
+    },
+    {
+      x: 16.0,
+      y: 2.0,
+      dependencies: [
+        "77FAC5980E0A7A5D",
+      ],
+      size: 1.0,
+      id: "4DC258DC240CB01A",
+      tasks: [
+        {
+          id: "25FAAB78F44DE172",
+          type: "observation",
+          icon: {
+            id: "easy_npc:witch_spawn_egg",
+            count: 1,
+          },
+          timer: 0,
+          observation_type: "entity_type",
+          to_observe: "witchery:coven_witch",
+        },
+      ],
+      rewards: [
+        {
+          id: "38921A1DCBC9560C",
+          type: "currency",
+          amount: 10,
+        },
+        {
+          id: "75A6163BBC4FC264",
+          type: "item",
+          item: {
+            id: "witchery:coven_contract",
+            count: 1,
+          },
+        },
+        {
+          id: "6BE99C0360A4459C",
+          type: "xp",
+          xp: 10,
         },
       ],
     },

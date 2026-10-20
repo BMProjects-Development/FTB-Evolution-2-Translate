@@ -797,7 +797,6 @@
             id: "evilcraft:vein_sword",
             count: 1,
           },
-          match_components: "fuzzy",
         },
         {
           id: "6D31A568E9F320A8",
@@ -841,25 +840,61 @@
         {
           id: "73427CBDD811273E",
           type: "item",
-          item: {
+          icon: {
             id: "evilcraft:broom_part",
             count: 1,
+            components: {
+              "evilcraft:broom_parts": [
+                "evilcraft:rod_wood",
+              ],
+            },
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "and(item(evilcraft:broom_part)or(component({'evilcraft:broom_parts':['evilcraft:rod_bamboo']})component({'evilcraft:broom_parts':['evilcraft:rod_bare']})component({'evilcraft:broom_parts':['evilcraft:rod_blaze']})component({'evilcraft:broom_parts':['evilcraft:rod_bone']})component({'evilcraft:broom_parts':['evilcraft:rod_endstone']})component({'evilcraft:broom_parts':['evilcraft:rod_ice']})component({'evilcraft:broom_parts':['evilcraft:rod_netherrack']})component({'evilcraft:broom_parts':['evilcraft:rod_obsidian']})component({'evilcraft:broom_parts':['evilcraft:rod_prismarine']})component({'evilcraft:broom_parts':['evilcraft:rod_purpur']})component({'evilcraft:broom_parts':['evilcraft:rod_reed']})component({'evilcraft:broom_parts':['evilcraft:rod_sponge']})component({'evilcraft:broom_parts':['evilcraft:rod_stone']})component({'evilcraft:broom_parts':['evilcraft:rod_undead']})component({'evilcraft:broom_parts':['evilcraft:rod_wood']})))",
+            },
           },
         },
         {
           id: "499D24D1F87BF794",
           type: "item",
-          item: {
+          icon: {
             id: "evilcraft:broom_part",
             count: 1,
+            components: {
+              "evilcraft:broom_parts": [
+                "evilcraft:cap_metal_iron",
+              ],
+            },
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "and(item(evilcraft:broom_part)or(component({'evilcraft:broom_parts':['evilcraft:cap_bare']})component({'evilcraft:broom_parts':['evilcraft:cap_gem_dark']})component({'evilcraft:broom_parts':['evilcraft:cap_gem_dark_power']})component({'evilcraft:broom_parts':['evilcraft:cap_gem_diamond']})component({'evilcraft:broom_parts':['evilcraft:cap_gem_emerald']})component({'evilcraft:broom_parts':['evilcraft:cap_gem_quartz']})component({'evilcraft:broom_parts':['evilcraft:cap_head_creeper']})component({'evilcraft:broom_parts':['evilcraft:cap_head_player']})component({'evilcraft:broom_parts':['evilcraft:cap_head_skeleton']})component({'evilcraft:broom_parts':['evilcraft:cap_head_wither']})component({'evilcraft:broom_parts':['evilcraft:cap_head_witherskeleton']})component({'evilcraft:broom_parts':['evilcraft:cap_head_zombie']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_alubrass']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_ardite']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_cobalt']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_copper']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_gold']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_iron']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_manyullyn']})component({'evilcraft:broom_parts':['evilcraft:cap_metal_silver']})component({'evilcraft:broom_parts':['evilcraft:cap_slime']})))",
+            },
           },
         },
         {
           id: "2148DCC201648C0A",
           type: "item",
-          item: {
+          icon: {
             id: "evilcraft:broom_part",
             count: 1,
+            components: {
+              "evilcraft:broom_parts": [
+                "evilcraft:brush_wheat",
+              ],
+            },
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "and(item(evilcraft:broom_part)or(component({'evilcraft:broom_parts':['evilcraft:brush_bare']})component({'evilcraft:broom_parts':['evilcraft:brush_feather']})component({'evilcraft:broom_parts':['evilcraft:brush_honey']})component({'evilcraft:broom_parts':['evilcraft:brush_leaves']})component({'evilcraft:broom_parts':['evilcraft:brush_twig']})component({'evilcraft:broom_parts':['evilcraft:brush_wheat']})component({'evilcraft:broom_parts':['evilcraft:brush_wool']})))",
+            },
           },
         },
         {
@@ -869,7 +904,6 @@
             id: "evilcraft:broom",
             count: 1,
           },
-          match_components: "fuzzy",
         },
       ],
       rewards: [
@@ -923,6 +957,13 @@
     },
   ],
   quest_links: [
+    {
+      linked_quest: "22AE6BD2B6F44124",
+      x: 10.0,
+      y: 3.5,
+      shape: "gear",
+      id: "2E5FF8E5E516EA46",
+    },
   ],
   images: [
     {

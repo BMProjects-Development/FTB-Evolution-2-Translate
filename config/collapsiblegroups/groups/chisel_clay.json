@@ -1,0 +1,26 @@
+{
+  "id": "chisel_clay",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_clay",
+    "fallback": "Chisel: Clay"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "clay_"
+          },
+          {
+            "item_path_starts_with": "woolen_clay_"
+          }
+        ]
+      }
+    ]
+  }
+}

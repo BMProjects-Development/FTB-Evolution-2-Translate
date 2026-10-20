@@ -1,0 +1,17 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": [
+    "ctov:village/plains_fortified/house"
+  ],
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery:village/houses/coven_hut",
+        "processors": "witchery:coven_hut",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

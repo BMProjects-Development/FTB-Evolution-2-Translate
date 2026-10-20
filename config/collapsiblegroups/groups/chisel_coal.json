@@ -1,0 +1,24 @@
+{
+  "id": "chisel_coal",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_coal",
+    "fallback": "Chisel: Coal"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "coal_"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "coal_coke_"
+        }
+      }
+    ]
+  }
+}

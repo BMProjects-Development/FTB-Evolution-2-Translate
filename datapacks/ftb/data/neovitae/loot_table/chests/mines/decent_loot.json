@@ -738,19 +738,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "neovitae:hellforged_explosive_cell",
-          "quality": 5,
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "neovitae:hellforged_resonator",
           "quality": 5,
           "weight": 4

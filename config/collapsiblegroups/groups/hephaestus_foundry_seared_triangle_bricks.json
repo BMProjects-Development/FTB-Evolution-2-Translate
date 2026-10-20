@@ -1,0 +1,19 @@
+{
+  "id": "hephaestus_foundry_seared_triangle_bricks",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_foundry_seared_triangle_bricks",
+    "fallback": "Hephaestus Foundry: Triangle Seared Brick Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "hephaestus"
+      },
+      {
+        "item_path_contains": "seared_triangle_bricks"
+      }
+    ]
+  }
+}

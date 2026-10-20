@@ -1,0 +1,19 @@
+{
+  "id": "better_fishtanks_cave_structures",
+  "name": {
+    "translate": "collapsible_groups.group.better_fishtanks_cave_structures",
+    "fallback": "Better Fishtanks: Cave Structures"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterfishtanks"
+      },
+      {
+        "item_path_starts_with": "structure_"
+      }
+    ]
+  }
+}

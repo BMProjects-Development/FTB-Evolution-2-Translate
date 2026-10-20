@@ -1,0 +1,19 @@
+{
+  "id": "chisel_lead",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_lead",
+    "fallback": "Chisel: Lead"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "lead_"
+      }
+    ]
+  }
+}

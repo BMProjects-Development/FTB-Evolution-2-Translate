@@ -1,0 +1,19 @@
+{
+  "id": "compressium_cobbled_deepslate",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_cobbled_deepslate",
+    "fallback": "Compressium: Cobbled Deepslate"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "cobbled_deepslate_"
+      }
+    ]
+  }
+}

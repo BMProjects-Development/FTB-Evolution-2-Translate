@@ -45,7 +45,7 @@ navigation:
 * <Color id="green">Now:</Color> 16, 64, 128, 256, 512, 1,024, 4,096
 * <Color id="gray">Default:</Color> 20, 80, 200, 800, 2,000, 8,000, 40,000
 
-Output transfer is capped at the same numbers. Lava is still 10,000 FE per bucket.
+Output transfer runs from 80 FE/t for Starter up to 160,000 FE/t for Nitro. Lava gives 10,000 FE per bucket.
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 

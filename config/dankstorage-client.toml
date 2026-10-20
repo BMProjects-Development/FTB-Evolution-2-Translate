@@ -6,7 +6,7 @@
 	# Range: -10000 ~ 10000
 	preview_x = -140
 	#Y position of preview
-	# Default: -25
+	# Default: -45
 	# Range: -10000 ~ 10000
 	preview_y = -25
 	#Size of item text

@@ -1,0 +1,10 @@
+{
+  "type": "witchery:ritual_recipe",
+  "condition": {
+    "type": "modonomicon:none"
+  },
+  "id": "summon_coven_witch_ritual",
+  "recipe_id_1": "witchery:ritual/summon_coven_witch",
+  "sort_number": 1,
+  "text": "book.witchery.guidebook.ritual.summon_coven_witch.summon_coven_witch_ritual.text"
+}

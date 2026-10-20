@@ -599,7 +599,6 @@
             id: "rootsclassic:spell_powder",
             count: 1,
           },
-          match_components: "fuzzy",
         },
       ],
       rewards: [

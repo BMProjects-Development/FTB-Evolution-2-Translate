@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritechthings:addon_block_acceptor_tier_6",
+      "count": 1
+    },
+    {
+      "ingredient": "oritech:machine_acceptor_addon",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aeternium_plate",
+      "count": 8
+    },
+    {
+      "ingredient": "oritech:heisenberg_compensator",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_acceptor_tier_7"
+    }
+  ],
+  "ticks": 800,
+  "energy_per_tick": 12000,
+  "stage": "skyline2_unlocked"
+}

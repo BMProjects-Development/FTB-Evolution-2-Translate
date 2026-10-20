@@ -1,0 +1,16 @@
+{
+  "type": "oritech:assembler",
+  "time": 200,
+  "itemInputs": [
+    "oritechthings:addon_block_processing_tier_2",
+    "oritech:auxiliary_processing_chamber_addon",
+    "oritech:auxiliary_processing_chamber_addon",
+    "oritech:magnetic_coil"
+  ],
+  "itemResults": [
+    {
+      "id": "oritechthings:addon_block_processing_tier_3",
+      "count": 1
+    }
+  ]
+}

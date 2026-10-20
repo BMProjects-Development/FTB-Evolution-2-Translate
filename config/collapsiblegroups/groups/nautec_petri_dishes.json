@@ -1,0 +1,12 @@
+{
+  "id": "nautec_petri_dishes",
+  "name": {
+    "translate": "collapsible_groups.group.nautec_petri_dishes",
+    "fallback": "NauTec: Petri Dishes"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "nautec:petri_dish"
+  }
+}

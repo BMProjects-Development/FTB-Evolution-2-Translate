@@ -1,0 +1,19 @@
+{
+  "id": "chisel_spruce_planks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_spruce_planks",
+    "fallback": "Chisel: Spruce Planks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "spruce_planks_"
+      }
+    ]
+  }
+}

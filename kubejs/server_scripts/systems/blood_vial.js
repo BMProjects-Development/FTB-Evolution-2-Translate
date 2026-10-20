@@ -8,15 +8,17 @@ BlockEvents.rightClicked(BLOOD_VIAL_ALTAR, (event) => {
 
   const altar = event.block.entity;
   if (!altar) return;
-  event.cancel();
 
   const player = event.player;
   if (altar.getMainTank() >= altar.getMainCapacity()) {
     player.setStatusMessage(Text.translate("ftb.blood_vial.altar_full").red());
-    return;
+    altar.syncToClients();
+    player.containerMenu.sendAllDataToRemote();
+    event.cancel();
   }
 
   altar.addSacrificeEV(BLOOD_VIAL_ESSENCE, false);
   if (!player.isCreative()) held.shrink(1);
   player.playSound("minecraft:item.bottle.empty");
+  event.cancel();
 });

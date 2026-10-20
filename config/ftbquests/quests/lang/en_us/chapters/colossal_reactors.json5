@@ -16,7 +16,7 @@
     "",
     "Inside the casing goes a shaft of &aTurbine Rods&r, with exactly one &2Turbine Rod Controller&r at the center of the top rotor layer. The turbine will not form without it.",
     "",
-    "Right-click a rod with &aTurbine Blades&r to add them. Each blade lets the turbine take up to 1,000 mB of steam a tick, but blades only count in complete rings of four around a rod, so a half-finished ring adds nothing.",
+    "Right-click a rod with &aTurbine Blades&r to add them. Each blade lets the turbine take up to 48 mB of steam a tick, but blades only count in complete rings of four around a rod, so a half-finished ring adds nothing.",
     "{@pagebreak}",
     "The top layers inside are the coil zone. Fill them with metal storage blocks, and better metals give more power per mB of steam. Empty space there only counts for 30%, and &aHeating Coils&r count the same as empty space.",
     "",
@@ -63,7 +63,7 @@
     "Start by gathering the metals. &aUranium&r, &2Lead&r, Boron, Chromium and Graphite all go into the build.",
   ],
   "quest.10E9ABD23A1018AC.quest_desc": [
-    "A reactor is a hollow box of &aReactor Casing&r with a &2Reactor Controller&r in the wall and Reactor Rods running top to bottom inside it.",
+    "A reactor is a hollow box of &aReactor Casing&r with a &2Reactor Controller&r in the wall and Reactor Rods running top to bottom inside it. It can be at most &e32x32x32&r, casing included.",
     "",
     "&aReactor Glass&r lets you see in. Each column of rods needs a &aReactor Rod Controller&r in the top layer of casing, directly above it, and every block under it in that column must be a rod or the reactor will not form.",
     "",

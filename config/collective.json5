@@ -1,6 +1,6 @@
 {
 	// Whether Collective should show a message in the console if a dependent mod has an update available. Update checks are optional and async.
-	"enableUpdateChecker": true,
+	"enableUpdateChecker": false,
 	// When enabled, transfer the held items and armour from replaced entities by any of the Entity Spawn mods which depend on Collective.
 	"transferItemsBetweenReplacedEntities": true,
 	// The amount of times Collective loops through possible mob drops to get them all procedurally. Drops are only generated when a dependent mod uses them. Lowering this can increase world load time but decrease accuracy.

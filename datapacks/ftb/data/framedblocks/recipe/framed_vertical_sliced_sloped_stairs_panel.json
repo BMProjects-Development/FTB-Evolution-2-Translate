@@ -7,7 +7,7 @@
   },
   "pattern": [
     "PH",
-    "P"
+    "P "
   ],
   "result": {
     "id": "framedblocks:framed_vertical_sliced_sloped_stairs_panel",

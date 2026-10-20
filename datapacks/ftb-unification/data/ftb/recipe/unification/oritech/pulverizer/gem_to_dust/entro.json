@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "extendedae:entro_crystal"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "extendedae:entro_dust"
+    }
+  ],
+  "time": 100
+}

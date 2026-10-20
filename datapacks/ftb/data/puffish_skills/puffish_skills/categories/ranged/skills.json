@@ -652,5 +652,113 @@
 		"x": 1053,
 		"y": 64,
 		"root": false
+	},
+	"thrown_hub": {
+		"definition": "thrown_hub",
+		"x": -468,
+		"y": 340,
+		"root": false
+	},
+	"thrown_1": {
+		"definition": "thrown_damage_+5%",
+		"x": -551,
+		"y": 359,
+		"root": false
+	},
+	"thrown_2": {
+		"definition": "thrown_velocity_+5%",
+		"x": -621,
+		"y": 406,
+		"root": false
+	},
+	"thrown_3": {
+		"definition": "thrown_damage_+5%",
+		"x": -669,
+		"y": 475,
+		"root": false
+	},
+	"thrown_run_through": {
+		"definition": "run_through_+1",
+		"x": -690,
+		"y": 557,
+		"root": false
+	},
+	"thrown_4": {
+		"definition": "thrown_damage_+8%",
+		"x": -679,
+		"y": 641,
+		"root": false
+	},
+	"thrown_5": {
+		"definition": "thrown_durability_+1",
+		"x": -639,
+		"y": 715,
+		"root": false
+	},
+	"thrown_pin": {
+		"definition": "thrown_pin_+20%",
+		"x": -574,
+		"y": 770,
+		"root": false
+	},
+	"thrown_6": {
+		"definition": "thrown_pin_+10%",
+		"x": -494,
+		"y": 797,
+		"root": false
+	},
+	"thrown_7": {
+		"definition": "thrown_damage_+8%",
+		"x": -410,
+		"y": 794,
+		"root": false
+	},
+	"thrown_8": {
+		"definition": "thrown_velocity_+10%",
+		"x": -332,
+		"y": 761,
+		"root": false
+	},
+	"thrown_ricochet": {
+		"definition": "ricochet_+2",
+		"x": -272,
+		"y": 702,
+		"root": false
+	},
+	"thrown_9": {
+		"definition": "thrown_pin_+10%",
+		"x": -237,
+		"y": 625,
+		"root": false
+	},
+	"thrown_10": {
+		"definition": "thrown_damage_+12%",
+		"x": -232,
+		"y": 541,
+		"root": false
+	},
+	"thrown_doom": {
+		"definition": "doom",
+		"x": -258,
+		"y": 460,
+		"root": false
+	},
+	"thrown_11": {
+		"definition": "thrown_pin_+10%",
+		"x": -311,
+		"y": 395,
+		"root": false
+	},
+	"thrown_12": {
+		"definition": "thrown_damage_+12%",
+		"x": -384,
+		"y": 353,
+		"root": false
+	},
+	"thrown_volley_cap": {
+		"definition": "volley_cap",
+		"x": -460,
+		"y": 570,
+		"root": false
 	}
 }

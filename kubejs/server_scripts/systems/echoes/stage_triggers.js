@@ -38,8 +38,17 @@ const hasPatchouliBook = (player, book) => {
 };
 
 const ARCANIST_ITEMS = ["arsmagicalegacy:vinteum_dust", "thaumaturge:thaumometer"];
-const HEDGE_WITCH_ITEMS = ["witchery:guidebook", "rootsclassic:verdant_sprig"];
+const HEDGE_WITCH_ITEMS = [
+  "witchery:guidebook",
+  "rootsclassic:verdant_sprig",
+  "witchery:belladonna_seeds",
+  "witchery:mandrake_seeds",
+  "witchery:snowbell_seeds",
+  "witchery:wolfsbane_seeds",
+  "witchery:water_artichoke_seeds",
+];
 const BEASTMASTER_ITEMS = ["iceandfire:bestiary"];
+const ATOMIC_FORGE_ITEMS = ["oritech:atomic_forge", "oritech:super_ai_chip", "oritech:heisenberg_compensator", "oritech:advanced_computing_engine"];
 
 ItemEvents.foodEaten((event) => {
   let eater = event.entity;
@@ -114,6 +123,9 @@ PlayerEvents.tick((event) => {
     }
     if (!player.stages.has("ftb:beastmaster_wares") && hasAnyItem(player, BEASTMASTER_ITEMS)) {
       grantWares(player, "ftb:beastmaster_wares");
+    }
+    if (!player.stages.has("oritech_atomic_forge") && hasAnyItem(player, ATOMIC_FORGE_ITEMS)) {
+      player.stages.add("oritech_atomic_forge");
     }
   } catch (e) {}
 });

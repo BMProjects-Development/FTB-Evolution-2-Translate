@@ -1,0 +1,12 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "#c:raw_materials/iesnium"
+  ],
+  "itemResults": [
+    {
+      "id": "occultism:iesnium_dust"
+    }
+  ],
+  "time": 100
+}

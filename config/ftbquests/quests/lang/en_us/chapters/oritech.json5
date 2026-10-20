@@ -20,9 +20,21 @@
   ],
   "quest.033F3D2427ED6F40.title": "&fRedstone Control Unit",
   "quest.39EFBD54020011EF.title": "&6Turbofuel",
+  "quest.6CE7FB30455E939E.quest_desc": [
+    "Past tier 3 the addons move to the &dFabricator&r, and each band waits on a milestone.",
+    "",
+    "- &bTiers 4 and 5&r: build an Atomic Forge first. They use &2Adamantite Plates&r.",
+    "- &bTiers 6 and 7&r: kill the Wither first. They use &aAeternium Plates&r.",
+    "- &bTiers 8 and 9&r: free the End first. They use &2Aurichalcum Plates&r.",
+    "",
+    "Every step takes the tier below it plus two regular addons of the same kind.",
+    "",
+    "&eNote&r: carrying an Atomic Forge, a Super AI Chip, a Heisenberg Compensator or an Advanced Computing Engine also opens the first band.",
+  ],
   "quest.7A26B0FFC0BCA275.quest_desc": [
     "Turns a laser into a turret. One, two or three addons reach 4.5, 16.5 or 64.5 blocks.",
   ],
+  "quest.539458FB0A93BE4B.title": "&bFrame Placer",
   "quest.1770A460E1FD7CC8.quest_desc": [
     "A straight run of motors can fire a particle at something, but rings are the efficient way to build speed.",
     "",
@@ -43,7 +55,7 @@
     "",
     "A Fuel Generator makes 1,638 mB of steam a tick that way. Pipe water into the addon block and steam out of it; both tanks hold 128 buckets.",
     "{@pagebreak}",
-    "In this pack a &eColossal Reactors&r turbine makes 120 RF per mB of steam before coils, so one boiler-fitted Fuel Generator feeding a turbine gives about 196,000 RF/t. The turbine takes up to 1,000 mB a tick per blade, so it needs at least two blades.",
+    "In this pack a &eColossal Reactors&r turbine makes 9 RF per mB of steam before coils and blades, so one boiler-fitted Fuel Generator feeding a turbine gives about 14,700 RF/t before coils, and up to about 47,000 RF/t with the best coils and blades. Each blade takes up to 48 mB a tick, so it needs at least 35 blades.",
     "",
     "Set a Turbine Resource Port to Insert to take the steam in.",
   ],
@@ -68,8 +80,22 @@
     "The Arcane Catalyst and the Bedrock Extractor are powered the same way.",
   ],
   "quest.33E4C81B762892B2.title": "&eOritech",
+  "quest.7F70D7907F8EBA66.quest_desc": [
+    "Drone Ports normally only deliver within one dimension.",
+    "",
+    "Put a &aCross-Dimensional Addon&r on the sending Drone Port. Save the receiving port with an &2Advanced Target Designator&r, which remembers the dimension as well as the position, then use it on the sending port. Its drones then deliver to the other dimension whenever the port holds items.",
+    "",
+    "The addon is made in the Fabricator once you have killed the Wither.",
+  ],
   "quest.68760266CAAF9F8C.title": "&fSilk Touch Addon",
   "quest.535666E7CDE3BD43.title": "&fSynergy Matrix",
+  "quest.1582865EA8A8091B.quest_desc": [
+    "Addon faces run out long before you run out of ideas. &eOritech Things&r packs several addons into one face.",
+    "",
+    "Make a &aTier 2 Addon&r of any kind. Tier 2 does the work of two regular addons of its kind, and every tier above adds one more, up to tier 9. Speed, efficiency, extra processing chambers and stored energy all follow that rule. Capacitor and Acceptor transfer rates grow more slowly.",
+    "",
+    "Tier 2 is crafted at a crafting table and tier 3 in the &2Assembler&r, from the tier below it and two more regular addons.",
+  ],
   "quest.7791DA964DA2A80D.title": "&fAccelerator Setup",
   "quest.2765AC7C3E0350FE.title": "&9Spawning Mobs",
   "quest.06DA083C1726EE4C.title": "&fQuarry Addon",
@@ -85,6 +111,15 @@
     "[\"\", \"Hold \", {\"keybind\": \"key.oritech.augment_screen\", \"color\": \"yellow\", \"hover_event\": {\"action\": \"show_text\", \"value\": \"Default: G\"}}, \", hover over an augment and release to toggle it.\"]",
     "",
     "&cWarning&r: The center stores every researched blueprint. Break it and the research is gone, though installed augments can be scanned back in with the Import button.",
+  ],
+  "quest.2A0BE00CE5037684.quest_desc": [
+    "Two blocks make a Particle Accelerator easier to run.",
+    "",
+    "The &aAccelerator Magnetic Field&r helps particles through tight turns. Place it inside the ring, then link it with an &2Advanced Target Designator&r saved on the accelerator. Only one field per accelerator counts.",
+    "",
+    "The &aParticle Accelerator Speed Sensor&r gives a redstone signal once particles pass a speed you set, and links the same way. Accelerator Motors also take Speed and Efficiency addons placed underneath them.",
+    "",
+    "&eNote&r: In this version the Magnetic Field does not help particles through turns, and the Speed Sensor gives no signal. This is a bug in the mod, so hold off on building them until an update fixes it.",
   ],
   "quest.7F186F5B5630DB4A.quest_desc": [
     "The &aFuel Generator&r is Oritech's big burner: 8,192 RF/t in this pack, from any fuel in the oil family.",
@@ -102,6 +137,11 @@
   "quest.7F186F5B5630DB4A.title": "&cFuel Generator",
   "quest.22B83D03C6C3E61E.quest_desc": [
     "Works 50% faster, but each operation uses 20% more energy.",
+  ],
+  "quest.539458FB0A93BE4B.quest_desc": [
+    "Building a frame for a Destroyer one block at a time gets old.",
+    "",
+    "Sneak + Right-click a frame machine with a &aFrame Placer&r, set the frame size, and it builds the frame from the frame blocks you carry.",
   ],
   "quest.39BC89942A5CA7E1.title": "&fEfficiency Addon",
   "quest.036C11AC70835846.quest_desc": [
@@ -142,6 +182,7 @@
   ],
   "quest.7A26B0FFC0BCA275.title": "&fHunter Addon",
   "quest.2C0C63951FDED180.title": "&dParticle Accelerator",
+  "quest.2A0BE00CE5037684.title": "&dAccelerator Upgrades",
   "quest.3AC24F0B92156F55.quest_desc": [
     "Most of the parts on the way to the endgame are made in the &aAssembler&r.",
     "",
@@ -149,6 +190,7 @@
     "",
     "Some components also have a hand recipe, but it costs more materials than the Assembler version.",
   ],
+  "quest.45B55DF3A6745291.title": "&6Exo Jetpack",
   "quest.24CE908ED60FD514.quest_desc": [
     "The &aPulverizer&r needs no cores at all, which makes it the first real machine.",
     "",
@@ -166,6 +208,7 @@
     "",
     "&eNote&r: A Refinery on its own only puts out its first fluid. Stack &aRefinery Chamber Modules&r on top, up to two, to get the second and third outputs.",
   ],
+  "quest.2AB2C3ABF3F0EC71.title": "&6The Ninth Tier",
   "quest.45B2C8BD2ACBA46D.title": "&fDesigning Your Reactor",
   "quest.0F3EDB9AE592016B.title": "&fCapacitor Addon",
   "quest.39EFBD54020011EF.quest_desc": [
@@ -199,7 +242,13 @@
     "It makes the &2Ultimate Machine Core&r and the Prometheum tools. The Prometheum Battleaxe hits for 10.5 in this pack and fells whole trees when you sneak.",
   ],
   "quest.7F186F5B5630DB4A.quest_subtitle": "8,192 RF/t from any oil",
+  "quest.2AB2C3ABF3F0EC71.quest_desc": [
+    "A tier 9 addon is nine regular addons in a single face.",
+    "",
+    "Make one. On top of its &2Aurichalcum Plates&r it needs an &aUltimate Machine Core&r.",
+  ],
   "quest.17B369A4BF64EE98.title": "&6Beyond the Limit",
+  "quest.6CE7FB30455E939E.title": "&bFabricated Tiers",
   "quest.2DCC43735EC5F60F.quest_desc": [
     "Oritech machines run on RF, and the first source is simple.",
     "",
@@ -269,6 +318,8 @@
     "Adds 2,000,000 RF of storage and 2,000 RF/t of input.",
   ],
   "quest.3F75F781DE5123F4.title": "&dNuclear Reactor",
+  "quest.7F70D7907F8EBA66.title": "&bAcross Dimensions",
+  "quest.7F7AF4C047AF4EFE.title": "&bEfficient Speed",
   "quest.1E649B7D09AB54F5.quest_desc": [
     "Ore processing gets serious with the &aFragment Forge&r.",
     "",
@@ -305,6 +356,8 @@
     "It needs eight cores and takes no cables at all. Every craft is paid for by Enderic Lasers aimed at it, 1,024 RF per tick of recipe time.",
     "",
     "Point more lasers at it to craft faster.",
+    "",
+    "&eNote&r: building one also opens tier 4 and 5 addons in the Fabricator.",
   ],
   "quest.738AAB7C13A1C2CF.title": "&fBurst Addon",
   "quest.3D9FFFF325533514.title": "&fYield Addon",
@@ -325,6 +378,11 @@
     "It needs &aArcane Catalysts&r holding souls within 16 blocks, one for each point of the enchantment's anvil cost plus its level. Each step takes 512 RF and one soul.",
     "",
     "The catalysts can do far more than this on their own.",
+  ],
+  "quest.7F7AF4C047AF4EFE.quest_desc": [
+    "Speed addons make a machine faster and hungrier. The &aEfficient Speed Addon&r keeps the speed and drops the extra power cost.",
+    "",
+    "Each one joins a Speed and an Efficiency addon of the same tier in the Fabricator, one band later than its parts. Tiers 2 and 3 open after the Atomic Forge, 4 and 5 after the Wither, and 6 to 9 after the End.",
   ],
   "quest.0C9CD2D8F10D750F.title": "&cFlux Gate",
   "quest.1E649B7D09AB54F5.title": "&aFragment Forge",
@@ -348,6 +406,7 @@
     "",
     "&eNote&r: Oritech's own ores do not generate in this pack. Nickel, uranium and platinum all come from the pack's own ore generation, with platinum in the Overworld, the Nether and the End.",
   ],
+  "quest.1582865EA8A8091B.title": "&bTiered Addons",
   "quest.6697F832067F1A9C.quest_desc": [
     "The &aEnderic Railgun&r is a laser you carry. It holds 5,000,000 RF and fires a beam that damages anything in its path or mines the block it hits.",
     "",
@@ -361,5 +420,12 @@
     "Every collision has a minimum energy, the two particles' speeds added together, and JEI lists what each one makes.",
     "",
     "Collisions need two controllers firing into the same path.",
+  ],
+  "quest.45B55DF3A6745291.quest_desc": [
+    "The &aExo Jetpack&r gives you creative flight.",
+    "",
+    "Wear it in your chest slot while it holds more than 10,000 RF and you can fly freely once you are in the air. Landing or going underwater turns flight off until you are airborne again, and so does running the charge down.",
+    "",
+    "It is made in the Fabricator once you have freed the End, and it needs &2Aurichalcum Plates&r.",
   ],
 }

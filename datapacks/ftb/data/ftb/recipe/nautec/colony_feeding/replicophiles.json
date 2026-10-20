@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/replica"
+      }
+    }
+  ],
+  "type": "nautec:colony_feeding",
+  "bacteria": "ftb:replicophiles",
+  "ingredient": {
+    "ingredient": "#c:ingots/replica"
+  },
+  "vitality_ticks": 1200
+}

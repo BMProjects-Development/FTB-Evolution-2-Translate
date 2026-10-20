@@ -1,0 +1,19 @@
+{
+  "id": "comforts_sleeping_bags",
+  "name": {
+    "translate": "collapsible_groups.group.comforts_sleeping_bags",
+    "fallback": "Comforts: Sleeping Bags"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "comforts"
+      },
+      {
+        "item_path_contains": "sleeping_bag"
+      }
+    ]
+  }
+}

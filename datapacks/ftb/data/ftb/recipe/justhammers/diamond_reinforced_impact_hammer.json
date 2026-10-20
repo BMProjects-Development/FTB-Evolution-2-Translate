@@ -1,5 +1,5 @@
 {
-  "type": "hephaestus:casting_table",
+  "type": "hephaestus:casting_basin",
   "cast": "justhammers:reinforced_impact_core",
   "cast_consumed": true,
   "cooling_time": 300,

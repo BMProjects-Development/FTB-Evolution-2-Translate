@@ -10,7 +10,7 @@
         "%mekanism:steam"
       ],
       "output": "minecraft:water",
-      "rf_production": 120
+      "rf_production": 9.0
     }
   ]
 }

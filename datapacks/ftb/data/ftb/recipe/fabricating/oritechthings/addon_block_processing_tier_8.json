@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritechthings:addon_block_processing_tier_7",
+      "count": 1
+    },
+    {
+      "ingredient": "oritech:auxiliary_processing_chamber_addon",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_plate",
+      "count": 4
+    },
+    {
+      "ingredient": "oritech:prometheum_ingot",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_processing_tier_8"
+    }
+  ],
+  "ticks": 1000,
+  "energy_per_tick": 20000,
+  "stage": "skyline3_unlocked"
+}

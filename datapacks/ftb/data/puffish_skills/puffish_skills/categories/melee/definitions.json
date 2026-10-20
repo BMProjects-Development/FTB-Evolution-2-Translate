@@ -421,7 +421,8 @@
 		"icon": { "type": "item", "data": { "item": "minecraft:iron_axe" } },
 		"size": 0.75,
 		"rewards": [
-			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.05, "operation": "addition" } }
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_plunder", "value": 2.0, "operation": "addition" } }
 		]
 	},
 
@@ -432,7 +433,8 @@
 		"icon": { "type": "item", "data": { "item": "minecraft:diamond_axe" } },
 		"size": 0.75,
 		"rewards": [
-			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.1, "operation": "addition" } }
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:axe_damage", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:axe_plunder", "value": 2.0, "operation": "addition" } }
 		]
 	},
 
@@ -731,7 +733,8 @@
 		"rewards": [
 			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:dragoon", "value": 0.05, "operation": "addition" } },
 			{ "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:fall_reduction", "value": 0.05, "operation": "addition" } },
-			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_cooldown", "value": 0.1, "operation": "addition" } }
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:lancer_cooldown", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_damage", "value": 0.06, "operation": "addition" } }
 		]
 	},
 
@@ -1646,7 +1649,8 @@
 		"icon": { "type": "item", "data": { "item": "minecraft:pointed_dripstone" } },
 		"size": 0.75,
 		"rewards": [
-			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:skewer", "value": 0.05, "operation": "addition" } }
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:skewer", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_damage", "value": 0.06, "operation": "addition" } }
 		]
 	},
 
@@ -1701,7 +1705,8 @@
 		"icon": { "type": "item", "data": { "item": "minecraft:anvil" } },
 		"size": 0.75,
 		"rewards": [
-			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_durability", "value": 1.0, "operation": "addition" } }
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_durability", "value": 1.0, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:spear_damage", "value": 0.09, "operation": "addition" } }
 		]
 	},
 

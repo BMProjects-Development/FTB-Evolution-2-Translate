@@ -1,0 +1,15 @@
+{
+  "type": "ftbic:macerating",
+  "inputs": [
+    {
+      "ingredient": "minecraft:amethyst_shard"
+    }
+  ],
+  "outputs": [
+    {
+      "item": {
+        "id": "occultism:amethyst_dust"
+      }
+    }
+  ]
+}

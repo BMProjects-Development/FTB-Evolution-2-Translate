@@ -1,7 +1,7 @@
 {
   "type": "oritech:pulverizer",
   "itemInputs": [
-    "#c:gems/quartz"
+    "minecraft:quartz"
   ],
   "itemResults": [
     {

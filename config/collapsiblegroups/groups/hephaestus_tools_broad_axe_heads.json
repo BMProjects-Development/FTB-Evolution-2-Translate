@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_broad_axe_heads",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_broad_axe_heads",
+    "fallback": "Hephaestus Tools: Broad Axe Heads"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:broad_axe_head"
+  }
+}

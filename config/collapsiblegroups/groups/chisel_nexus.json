@@ -1,0 +1,19 @@
+{
+  "id": "chisel_nexus",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_nexus",
+    "fallback": "Chisel: Nexus Block"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "nexus_"
+      }
+    ]
+  }
+}

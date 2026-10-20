@@ -1,0 +1,19 @@
+{
+  "id": "chisel_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_kitchen",
+    "fallback": "Chisel: Kitchen Block"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "kitchen_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+#Enable recursive AE2 pattern generation. When enabled, the mod will automatically generate dependency patterns for missing crafting ingredients. Works with all AE2 pattern types (crafting, processing, smithing, stonecutting, etc.)
+enableRecursiveAE2PatternProvider = true
+#Show the recursive pattern toggle button in the Pattern Encoding Terminal GUI. Default is true
+enableEncodingGuiToggle = true
+#Start newly opened pattern encoding terminals in recursive mode. The terminal toggle can override this for the current session. Uses the server setting in multiplayer; existing patterns are not converted.
+defaultRecursiveMode = false
+#Maximum recursion depth for dependency pattern generation. -1 = no limit, 0 = disable recursion, positive values = max depth
+# Default: -1
+# Range: -1 ~ 100
+recursionDepth = -1
+#Default setting for allowing item substitutes in auto-generated patterns when parent pattern has no substitute info. When true, allows equivalent items (e.g., different wood types) to be used in recipes
+defaultAllowSubstitutes = false
+#Default setting for allowing fluid substitutes in auto-generated patterns when parent pattern has no substitute info. When true, allows equivalent fluids to be used in recipes
+defaultAllowFluidSubstitutes = false
+#Item required to craft recursive patterns. Use format: 'namespace:item_name'. Default is 'minecraft:iron_ingot'
+recipeItem = "minecraft:iron_ingot"
+#Maximum recipes per dependency in static selection mode (retainRecipeAlternatives = false)
+# Default: 1
+# Range: 1 ~ 64
+maxAlternativesPerItem = 1
+#Publish valid recipe alternatives for AE2 to check against stock during each crafting calculation. Includes stored block/nugget conversions without expanding compression chains. Publishes at most 64 alternatives per item; when false, uses maxAlternativesPerItem and static selection.
+retainRecipeAlternatives = true
+#Publish validated ingredient variants for generated patterns (e.g. accepted log/plank choices). Each variant uses exact item inputs during execution so substitutions cannot consume stock reserved for another dependency. Does not change manually encoded root patterns. When false, generated patterns inherit the parent substitution setting.
+generatedIngredientAlternatives = true
+#Ignore recipes that consume their own output (e.g. 'clear settings' / NBT-wipe recipes) when generating dependency patterns
+skipSelfReferentialRecipes = true
+#Recipe ids that are never used for auto-generated patterns. Use an exact id ('modid:recipe_name') or a prefix ending with '*' ('modid:*', 'modid:reset/*')
+recipeBlacklist = ["compressium:andesite/uncraft/*", "compressium:calcite/uncraft/*", "compressium:clay/uncraft/*", "compressium:coal/uncraft/*", "compressium:cobbled_deepslate/uncraft/*", "compressium:cobblestone/uncraft/*", "compressium:copper/uncraft/*", "compressium:deepslate/uncraft/*", "compressium:diamond/uncraft/*", "compressium:diorite/uncraft/*", "compressium:dirt/uncraft/*", "compressium:emerald/uncraft/*", "compressium:endstone/uncraft/*", "compressium:gold/uncraft/*", "compressium:granite/uncraft/*", "compressium:gravel/uncraft/*", "compressium:iron/uncraft/*", "compressium:lapis/uncraft/*", "compressium:netherite/uncraft/*", "compressium:netherrack/uncraft/*", "compressium:quartz/uncraft/*", "compressium:redstone/uncraft/*", "compressium:sand/uncraft/*", "compressium:stone/uncraft/*", "compressium:tuff/uncraft/*"]

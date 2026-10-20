@@ -278,6 +278,38 @@
             "count": 1
           },
           "cost": 500
+        },
+        {
+          "name": "infinity_dirt_drive",
+          "item": {
+            "id": "infinitystorage:infinity_dirt_drive",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "infinity_sand_drive",
+          "item": {
+            "id": "infinitystorage:infinity_sand_drive",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "infinity_gravel_drive",
+          "item": {
+            "id": "infinitystorage:infinity_gravel_drive",
+            "count": 1
+          },
+          "cost": 200
+        },
+        {
+          "name": "infinity_lava_drive",
+          "item": {
+            "id": "infinitystorage:infinity_lava_drive",
+            "count": 1
+          },
+          "cost": 500
         }
       ]
     }

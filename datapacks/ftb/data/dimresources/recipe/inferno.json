@@ -15,6 +15,13 @@
     {
       "stack": {
         "count": 1,
+        "id": "ae2:certus_quartz_crystal"
+      },
+      "weight": 53
+    },
+    {
+      "stack": {
+        "count": 1,
         "id": "minecraft:glowstone_dust"
       },
       "weight": 60

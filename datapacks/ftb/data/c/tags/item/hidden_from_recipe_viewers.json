@@ -2,10 +2,6 @@
   "replace": false,
   "values": [
     "functionalstorage:armory_cabinet",
-    "justdynathings:charged_blazebloom_goo",
-    "justdynathings:charged_primogel_goo",
-    "justdynathings:charged_shadowpulse_goo",
-    "justdynathings:charged_voidshimmer_goo",
     "energizedpower:coal_engine",
     "ironfurnaces:augment_generator",
     "justdynathings:ferricore_solar_panel",
@@ -62,21 +58,18 @@
     "ftbarmory:adamantite_dust",
     "ftbarmory:adamantite_small_dust",
     "ftbarmory:adamantite_tiny_dust",
-    "ftbarmory:adamantite_plate",
     "ftbarmory:adamantite_gear",
     "ftbarmory:adamantite_wire",
     "ftbarmory:aeternium_raw_ore",
     "ftbarmory:aeternium_dust",
     "ftbarmory:aeternium_small_dust",
     "ftbarmory:aeternium_tiny_dust",
-    "ftbarmory:aeternium_plate",
     "ftbarmory:aeternium_gear",
     "ftbarmory:aeternium_wire",
     "ftbarmory:aurichalcum_raw_ore",
     "ftbarmory:aurichalcum_dust",
     "ftbarmory:aurichalcum_small_dust",
     "ftbarmory:aurichalcum_tiny_dust",
-    "ftbarmory:aurichalcum_plate",
     "ftbarmory:aurichalcum_gear",
     "ftbarmory:aurichalcum_wire",
     "chisel:coal_coke_array",
@@ -372,6 +365,10 @@
     },
     {
       "id": "xycraft_machines:proto",
+      "required": false
+    },
+    {
+      "id": "farmingforblockheads:watering_can",
       "required": false
     }
   ]

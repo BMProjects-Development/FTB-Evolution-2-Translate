@@ -1,0 +1,30 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "minecraft:cooked_beef",
+      "count": 16
+    },
+    {
+      "ingredient": "minecraft:nether_star",
+      "count": 1
+    }
+  ],
+  "fluids": [
+    {
+      "id": "hephaestus:molten_meat",
+      "amount": 4000
+    },
+    {
+      "id": "hephaestus:molten_aeternium",
+      "amount": 1440
+    }
+  ],
+  "results": [
+    {
+      "id": "artifacts:eternal_steak"
+    }
+  ],
+  "ticks": 1200,
+  "energy_per_tick": 1000000
+}

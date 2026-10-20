@@ -1,0 +1,19 @@
+{
+  "id": "chisel_jungle_planks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_jungle_planks",
+    "fallback": "Chisel: Jungle Planks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "jungle_planks_"
+      }
+    ]
+  }
+}

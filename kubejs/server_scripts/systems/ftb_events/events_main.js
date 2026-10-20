@@ -89,6 +89,7 @@ function eventSystem(event, forceEvent, server) {
     if (!checks.player.hasTimer(chosenPlayer)) return;
     if (checks.player.isOnCooldown(chosenPlayer, timeCooldown)) return;
     if (checks.player.isInSpawn(chosenPlayer)) return;
+    if (checks.player.isInSpace(chosenPlayer)) return;
     disabledEvents = checks.player.getDisabledEvents(chosenPlayer);
   }
 

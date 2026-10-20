@@ -1,0 +1,19 @@
+{
+  "id": "chisel_glass_pane",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_glass_pane",
+    "fallback": "Chisel: Glass Pane"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "glass_pane_"
+      }
+    ]
+  }
+}

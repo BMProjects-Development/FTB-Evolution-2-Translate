@@ -1,21 +1,18 @@
 // priority: 500
 
-const NODE_PLACER = "thaumaturge:creative_node_placer";
+const ETERNAL_WATER = "evilcraft:eternal_water";
 
-BlockEvents.rightClicked((event) => {
-  const { player, item, hand } = event;
+BlockEvents.broken(ETERNAL_WATER, (event) => {
+  const player = event.player;
+  if (player.isCreative()) return;
 
-  if (!item || item.isEmpty() || item.id !== NODE_PLACER) return;
-  if (player.level.isClientSide()) return;
-  if (player.isCreative() || player.isSpectator()) return;
+  const block = event.block;
+  const level = block.level;
+  const pos = block.pos;
 
-  const server = player.server;
-  if (!server) return;
-
-  server.scheduleInTicks(1, () => {
-    const held = player.getItemInHand(hand);
-    if (!held || held.isEmpty() || held.id !== NODE_PLACER) return;
-    held.shrink(1);
-    player.setItemInHand(hand, held);
+  level.server.scheduleInTicks(1, () => {
+    const current = level.getBlock(pos);
+    if (String(current.id) === ETERNAL_WATER) return;
+    current.popItem(Item.of(ETERNAL_WATER));
   });
 });

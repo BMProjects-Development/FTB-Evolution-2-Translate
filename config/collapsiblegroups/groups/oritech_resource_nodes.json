@@ -1,0 +1,27 @@
+{
+  "id": "oritech_resource_nodes",
+  "name": {
+    "translate": "collapsible_groups.group.oritech_resource_nodes",
+    "fallback": "Oritech: Resource Nodes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "oritech"
+      },
+      {
+        "any": [
+          {
+            "item_path_ends_with": "_resource_node"
+          },
+          {
+            "type": "item",
+            "id": "oritech:resource_node_lapis"
+          }
+        ]
+      }
+    ]
+  }
+}

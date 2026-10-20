@@ -3,7 +3,7 @@
   "cooling_time": 200,
   "fluid": {
     "amount": 810,
-    "id": "ftb:molten_dragonsteel_ice"
+    "id": "hephaestus:molten_dragonsteel_ice"
   },
   "result": {
     "id": "iceandfire:dragonsteel_ice_block"

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_invar",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_invar",
+    "fallback": "Chisel: Invar"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "invar_"
+      }
+    ]
+  }
+}

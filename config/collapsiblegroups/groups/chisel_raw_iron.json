@@ -1,0 +1,19 @@
+{
+  "id": "chisel_raw_iron",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_raw_iron",
+    "fallback": "Chisel: Raw Iron"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "raw_iron_"
+      }
+    ]
+  }
+}

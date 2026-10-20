@@ -1,0 +1,12 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:ingot_cast",
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 40,
+    "id": "hephaestus:molten_meat"
+  },
+  "result": {
+    "id": "ftb:meat_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ftbmaterials:cinnabar_block"
+  ],
+  "result": {
+    "id": "ftbmaterials:cinnabar_gem",
+    "count": 9
+  }
+}

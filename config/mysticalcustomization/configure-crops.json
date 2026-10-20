@@ -17,6 +17,12 @@
   "mysticalagriculture:basalt": {
     "enabled": false
   },
+  "mysticalagriculture:blazing_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:spirited_crystal": {
+    "enabled": false
+  },
   "mysticalagriculture:brass": {
     "enabled": false
   },

@@ -28,6 +28,8 @@
     "The &aNecronomicon&r is the mod's guide. Its tabs run in the same order as this chapter, and JEI has a page for every workstation too.",
     "",
     "Most of the work happens out in the world. Cages, glassware, wells and rituals are all built by hand, and each quest here says what the in-world step is.",
+    "",
+    "[\"\", \"Infusions, offerings, research and soul work also level your \", {\"text\": \"Magic skill tree\", \"color\": \"aqua\", \"underlined\": true, \"click_event\": {\"action\": \"custom\", \"id\": \"ftbquests:docs\", \"payload\": {\"location\": \"guideme,ftb:skills,ftb:magic.md\"}}, \"hover_event\": {\"action\": \"show_text\", \"value\": \"Open the Skill Trees guide\"}}, \".\"]",
   ],
   "quest.6D4A7E25E55FA2F4.quest_desc": [
     "A &aGem Mold&r turns one bucket of &3Molten Blue Crystal&r into three &2Blue Gems&r.",

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_packed_mud",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_packed_mud",
+    "fallback": "Chisel: Packed Mud"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "packed_mud_"
+      }
+    ]
+  }
+}

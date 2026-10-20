@@ -1,0 +1,19 @@
+{
+  "id": "chisel_concrete_black",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_concrete_black",
+    "fallback": "Chisel: Black Concrete"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "concrete_black_"
+      }
+    ]
+  }
+}

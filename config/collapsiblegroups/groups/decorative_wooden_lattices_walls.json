@@ -1,0 +1,19 @@
+{
+  "id": "decorative_wooden_lattices_walls",
+  "name": {
+    "translate": "collapsible_groups.group.decorative_wooden_lattices_walls",
+    "fallback": "Decorative Wooden Lattices: Walls"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorativewoodenlattices"
+      },
+      {
+        "item_path_ends_with": "_wall"
+      }
+    ]
+  }
+}

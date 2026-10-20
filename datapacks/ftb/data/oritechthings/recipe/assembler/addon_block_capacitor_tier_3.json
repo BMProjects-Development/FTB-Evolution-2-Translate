@@ -1,0 +1,16 @@
+{
+  "type": "oritech:assembler",
+  "time": 200,
+  "itemInputs": [
+    "oritechthings:addon_block_capacitor_tier_2",
+    "oritech:machine_capacitor_addon",
+    "oritech:machine_capacitor_addon",
+    "oritech:magnetic_coil"
+  ],
+  "itemResults": [
+    {
+      "id": "oritechthings:addon_block_capacitor_tier_3",
+      "count": 1
+    }
+  ]
+}

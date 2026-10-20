@@ -1,0 +1,4 @@
+# Wand properties that can't be changed on a wand. Only operators can apply them to blocks.
+# Valid values: "apply_mode", "invisible", "light", "ghost", "color", "material", "shadeless", "tinted", "reinforced", "waterloggable", "conductor", "redstone"
+# Default: []
+disabled_properties = []

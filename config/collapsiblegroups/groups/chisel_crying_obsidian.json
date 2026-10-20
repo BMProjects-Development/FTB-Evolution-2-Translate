@@ -1,0 +1,19 @@
+{
+  "id": "chisel_crying_obsidian",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_crying_obsidian",
+    "fallback": "Chisel: Crying Obsidian"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "crying_obsidian_"
+      }
+    ]
+  }
+}

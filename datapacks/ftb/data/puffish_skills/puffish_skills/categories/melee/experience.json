@@ -73,7 +73,7 @@
 				"experience": [
 					{
 						"condition": "!is_projectile",
-						"expression": "min(dropped_xp, 10) + 2 * sqrt(max(dropped_xp - 10, 0)) + min(max_health / 5, 40)"
+						"expression": "min(dropped_xp, 10) + min(2 * sqrt(max(dropped_xp - 10, 0)), 40) + min(max_health / 5, 40)"
 					}
 				],
 				"anti_farming": {
@@ -124,12 +124,38 @@
 								}
 							}
 						]
+					},
+					"is_no_skill_xp": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "#ftb:no_skill_xp"
+								}
+							}
+						]
+					},
+					"target_max_health": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
 					}
 				},
 				"experience": [
 					{
-						"condition": "!is_target_dummy & !is_projectile",
-						"expression": "damage * 0.25"
+						"condition": "!is_target_dummy & !is_no_skill_xp & !is_projectile",
+						"expression": "min(damage, target_max_health) * 0.25"
 					}
 				],
 				"anti_farming_per_entity": {

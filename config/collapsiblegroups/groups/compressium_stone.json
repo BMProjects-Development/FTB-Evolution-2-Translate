@@ -1,0 +1,19 @@
+{
+  "id": "compressium_stone",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_stone",
+    "fallback": "Compressium: Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "stone_"
+      }
+    ]
+  }
+}

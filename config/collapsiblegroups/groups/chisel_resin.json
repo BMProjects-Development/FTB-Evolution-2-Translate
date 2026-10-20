@@ -1,0 +1,19 @@
+{
+  "id": "chisel_resin",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_resin",
+    "fallback": "Chisel: Resin"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "resin_"
+      }
+    ]
+  }
+}

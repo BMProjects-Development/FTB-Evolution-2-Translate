@@ -36,15 +36,15 @@
 		#Maximum reactor width (X or Z). Default: 65
 		# Default: 65
 		# Range: > 1
-		000_maxReactorWidth = 65
+		000_maxReactorWidth = 32
 		#Maximum reactor length (X or Z). Default: 64
 		# Default: 65
 		# Range: > 1
-		001_maxReactorLength = 65
+		001_maxReactorLength = 32
 		#Maximum reactor height (Y). Default: 65
 		# Default: 65
 		# Range: > 1
-		002_maxReactorHeight = 65
+		002_maxReactorHeight = 32
 
 	#Reactor capacity and minimums (base RF/fuel come from datapack fuel definitions)
 	[reactor.base]
@@ -107,7 +107,7 @@
 		#When rodEnergyScalingMode=1: exponent for n^exp. Smaller = flatter for large reactors. Default: 0.90
 		# Default: 0.9
 		# Range: 0.05 ~ 1.5
-		001_rodEnergyScalingExponent = 0.9
+		001_rodEnergyScalingExponent = 0.76
 		#When rodEnergyScalingMode=2: saturation constant k for n/(1+n/k). Default: 600
 		# Default: 600.0
 		# Range: 1.0 ~ 1.7976931348623157E308
@@ -210,15 +210,15 @@
 		#Maximum turbine width (X or Z). Default: 65
 		# Default: 65
 		# Range: > 1
-		000_maxTurbineWidth = 65
+		000_maxTurbineWidth = 32
 		#Maximum turbine length (X or Z). Default: 65
 		# Default: 65
 		# Range: > 1
-		001_maxTurbineLength = 65
+		001_maxTurbineLength = 32
 		#Maximum turbine height (Y). Default: 65
 		# Default: 65
 		# Range: > 1
-		002_maxTurbineHeight = 65
+		002_maxTurbineHeight = 32
 
 	#Turbine capacity and defaults (rf_production primary source is datapack)
 	[turbine.base]
@@ -251,7 +251,7 @@
 		#Max mB steam per tick counted per valid balanced blade. Default: 1000
 		# Default: 1000.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		004_steamMbPerBladePerTick = 1000.0
+		004_steamMbPerBladePerTick = 150.0
 		#Steam input buffer capacity (mB) per valid balanced blade in the turbine controller,
 		#same idea as reactor coolant per rod (10000). Output condensate stays one tick on ports. Default: 10000
 		# Default: 10000

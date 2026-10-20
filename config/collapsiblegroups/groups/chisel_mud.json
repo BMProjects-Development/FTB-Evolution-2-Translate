@@ -1,0 +1,19 @@
+{
+  "id": "chisel_mud",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_mud",
+    "fallback": "Chisel: Mud"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "mud_"
+      }
+    ]
+  }
+}

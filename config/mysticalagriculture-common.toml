@@ -35,7 +35,7 @@
 	#Should Supremium & Awakened Supremium Armor be unbreakable?
 	unbreakableSupremiumArmor = false
 	#Should fake players be able to use watering cans?
-	fakePlayerWatering = true
+	fakePlayerWatering = false
 	#Should wearing a full set of Awakened Supremium armor grant the Plant Growth AOE set bonus?
 	awakenedSupremiumSetBonus = true
 

@@ -96,34 +96,6 @@
       weight: 8.0,
     },
     {
-      id: "5D6015EA375E4CCE",
-      item: {
-        id: "power_armor:power_armor_helmet",
-        count: 1,
-      },
-    },
-    {
-      id: "084437FAAC593E89",
-      item: {
-        id: "power_armor:power_armor_chestplate",
-        count: 1,
-      },
-    },
-    {
-      id: "69849AB0FDD45985",
-      item: {
-        id: "power_armor:power_armor_leggings",
-        count: 1,
-      },
-    },
-    {
-      id: "15E24806148D88E6",
-      item: {
-        id: "power_armor:power_armor_boots",
-        count: 1,
-      },
-    },
-    {
       id: "599BF34263A11F80",
       item: {
         id: "mysticalagriculture:supremium_helmet",

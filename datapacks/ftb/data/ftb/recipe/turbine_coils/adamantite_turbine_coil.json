@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#c:storage_blocks/electrum",
+    "#c:nuggets/adamantite"
+  ],
+  "result": {
+    "id": "ftb:adamantite_turbine_coil",
+    "count": 1
+  }
+}

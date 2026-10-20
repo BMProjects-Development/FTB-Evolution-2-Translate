@@ -1,0 +1,19 @@
+{
+  "id": "chisel_stained_glass_brown",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_stained_glass_brown",
+    "fallback": "Chisel: Brown Stained Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "stained_glass_brown_"
+      }
+    ]
+  }
+}

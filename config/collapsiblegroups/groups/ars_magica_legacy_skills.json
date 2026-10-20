@@ -1,0 +1,12 @@
+{
+  "id": "ars_magica_legacy_skills",
+  "name": {
+    "translate": "collapsible_groups.group.ars_magica_legacy_skills",
+    "fallback": "Ars Magica Legacy: Skills"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "at.minecraftschurli.mods.arsmagicalegacy.api.magic.Skill",
+    "namespace": "arsmagicalegacy"
+  }
+}

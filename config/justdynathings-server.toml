@@ -11,6 +11,11 @@
 	disable_jei_fuels = true
 	#Define the pool of strings that will show as tooltip below Void Crystal
 	void_crystal_tooltips = ["Unstable Stability", "This is time", "Fragment of reality", "The paradox must grow", "Is the time a lie?", "There is a paradox on your timeline", "Time to collapse", "Time is relative", "Its time to collapse", "You collapse me round", "Press T to collapse", "Paradox mentioned", "Never gone collapse up", "Better with Time"]
+	#Number of particles that any goo will produce on conversion success
+	#This use mixin , default JDT value is 100 but when boosted can be a lag-client machine!
+	# Default: 12
+	# Range: > 1
+	goo_particles = 12
 
 #Blocks
 [entry_blocks]
@@ -39,27 +44,6 @@
 	stabilizer_fluid_every_tick = 10
 	#Enable/Disable sound
 	stabilizer_emit_sound = true
-	#Ticker
-	#tickerFE Capacity
-	# Default: 10000
-	# Range: > 1
-	ticker_max_energy_storage = 10000
-	#tickerFE/t
-	# Default: 10
-	# Range: > 1
-	ticker_energy_every_tick = 10
-	#tickerMB Capacity
-	# Default: 1000
-	# Range: > 1
-	ticker_max_fluid_storage = 1000
-	#tickerMB/t
-	# Default: 1
-	# Range: > 1
-	ticker_fluid_every_tick = 1
-	#tickermax tick limit
-	# Default: 1200
-	# Range: > 1
-	ticker_max_tick_limit = 2048
 	#Blackhole
 	#Keep stored stuff when redstone disable it
 	blackhole_keep_content = true
@@ -79,6 +63,77 @@
 	# Default: 2147483647
 	# Range: > 1
 	blackhole_fluid_every_tick = 2147483647
+	#Simple_ticker
+	#simple_tickerFE Capacity
+	# Default: 10000
+	# Range: > 1
+	simple_ticker_max_energy_storage = 10000
+	#simple_tickerFE/t
+	# Default: 100
+	# Range: > 1
+	simple_ticker_energy_every_tick = 100
+	#simple_tickerMB Capacity
+	# Default: 10000
+	# Range: > 1
+	simple_ticker_max_fluid_storage = 10000
+	#simple_tickerMB/t
+	# Default: 10
+	# Range: > 1
+	simple_ticker_fluid_every_tick = 10
+	#simple_ticker tick rate
+	# Default: 16
+	# Range: > 1
+	simple_ticker_tick_rate = 16
+	#simple_ticker disable tick scrolling
+	simple_ticker_locked = true
+	#Advanced_ticker
+	#advanced_tickerFE Capacity
+	# Default: 1000000
+	# Range: > 1
+	advanced_ticker_max_energy_storage = 1000000
+	#advanced_tickerFE/t
+	# Default: 1000
+	# Range: > 1
+	advanced_ticker_energy_every_tick = 1000
+	#advanced_tickerMB Capacity
+	# Default: 1000000
+	# Range: > 1
+	advanced_ticker_max_fluid_storage = 1000000
+	#advanced_tickerMB/t
+	# Default: 10
+	# Range: > 1
+	advanced_ticker_fluid_every_tick = 10
+	#advanced_ticker max tick limit
+	# Default: 1200
+	# Range: > 1
+	advanced_ticker_max_tick_limit = 1200
+	#advanced_ticker disable tick scrolling
+	advanced_ticker_locked = false
+	#Advanced_energy_transmitter
+	#FE Capacity
+	# Default: 10000000
+	# Range: > 1
+	advanced_energy_transmitter_max_energy_storage = 10000000
+	#FE/t
+	# Default: 100000
+	# Range: > 1
+	advanced_energy_transmitter_energy_every_tick = 100000
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	advanced_energy_transmitter_max_fluid_storage = 10000
+	#MB/t
+	# Default: 10
+	# Range: > 1
+	advanced_energy_transmitter_fluid_every_tick = 10
+	#Energy loss
+	# Default: 0.1
+	# Range: 0.0 ~ 2.147483647E9
+	advanced_energy_transmitter_energy_loss = 0.1
+	#Tick rate
+	# Default: 10
+	# Range: > 1
+	advanced_energy_transmitter_tick_rate = 10
 
 #Goo
 [entry_goo]

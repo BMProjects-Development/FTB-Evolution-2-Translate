@@ -26,6 +26,6 @@
       "id": "bhc:blue_heart"
     }
   ],
-  "ticks": 72000,
-  "energy_per_tick": 1000000
+  "ticks": 600,
+  "energy_per_tick": 1200
 }

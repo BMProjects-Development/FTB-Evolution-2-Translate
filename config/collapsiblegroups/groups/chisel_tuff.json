@@ -1,0 +1,19 @@
+{
+  "id": "chisel_tuff",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_tuff",
+    "fallback": "Chisel: Tuff"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "tuff_"
+      }
+    ]
+  }
+}

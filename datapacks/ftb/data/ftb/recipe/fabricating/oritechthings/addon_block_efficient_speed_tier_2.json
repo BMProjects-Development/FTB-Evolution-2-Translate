@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritechthings:addon_block_speed_tier_2",
+      "count": 1
+    },
+    {
+      "ingredient": "oritechthings:addon_block_efficiency_tier_2",
+      "count": 1
+    },
+    {
+      "ingredient": "ftbarmory:adamantite_plate",
+      "count": 4
+    },
+    {
+      "ingredient": "oritech:magnetic_coil",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:addon_block_efficient_speed_tier_2"
+    }
+  ],
+  "ticks": 300,
+  "energy_per_tick": 2000,
+  "stage": "oritech_atomic_forge"
+}

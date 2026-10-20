@@ -1143,7 +1143,7 @@
           id: "65F546A56D7A3418",
           type: "item",
           item: {
-            id: "neovitae:bloodstone",
+            id: "neovitae:bloodstone_brick",
             count: 1,
           },
           count: 4,
@@ -1739,7 +1739,7 @@
       y: 0.0,
       shape: "hexagon",
       dependencies: [
-        "0A7737571F027A95",
+        "2CB3745D96885DED",
       ],
       size: 2.0,
       min_width: 340,
@@ -2876,8 +2876,834 @@
         },
       ],
     },
+    {
+      icon: {
+        id: "neovitae:spiritus_gem_lesser",
+        count: 1,
+      },
+      x: 19.0,
+      y: -6.0,
+      shape: "circle",
+      dependencies: [
+        "2507A7FD69022F2C",
+      ],
+      size: 1.0,
+      id: "402B2E08A12381D4",
+      tasks: [
+        {
+          id: "6FE02E2E3C0F2817",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gem_lesser",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2540F4393E681DC8",
+          type: "currency",
+          team_reward: false,
+          amount: 6,
+        },
+        {
+          id: "54DCA8F3EDA37F59",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+        {
+          id: "283AB2F4BF467EC4",
+          type: "item",
+          item: {
+            id: "minecraft:redstone_block",
+            count: 1,
+          },
+        },
+        {
+          id: "6F2438BD574130DA",
+          type: "item",
+          item: {
+            id: "minecraft:lapis_block",
+            count: 1,
+          },
+        },
+        {
+          id: "3313896CB6C25B6B",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 2000",
+          permission_level: 3,
+        },
+        {
+          id: "3D1E23B76E5D6C7A",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:spiritus_gem_common",
+        count: 1,
+      },
+      x: 20.5,
+      y: -6.0,
+      shape: "circle",
+      dependencies: [
+        "402B2E08A12381D4",
+      ],
+      size: 1.0,
+      id: "7CB8720F0CADDD66",
+      tasks: [
+        {
+          id: "3EDB4EB93BF8CAC9",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gem_common",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "41CBD1F62920852C",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "6A92A4DF95FA93A8",
+          type: "item",
+          item: {
+            id: "minecraft:diamond",
+            count: 1,
+          },
+        },
+        {
+          id: "6D8216168467CE0D",
+          type: "item",
+          item: {
+            id: "minecraft:gold_block",
+            count: 1,
+          },
+        },
+        {
+          id: "4F443601DEA61F0F",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_animata",
+            count: 1,
+          },
+        },
+        {
+          id: "26B32CBF18AE51F1",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 5000",
+          permission_level: 3,
+        },
+        {
+          id: "4293378831C5EBAC",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:spiritus_gem_greater",
+        count: 1,
+      },
+      x: 22.0,
+      y: -6.0,
+      shape: "circle",
+      dependencies: [
+        "7CB8720F0CADDD66",
+      ],
+      size: 1.0,
+      id: "78481F52005467B2",
+      tasks: [
+        {
+          id: "6C8F1EFA99536324",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gem_greater",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "43E87FEB602B1179",
+          type: "currency",
+          team_reward: false,
+          amount: 12,
+        },
+        {
+          id: "3F6976147F9A3FF7",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_spiritus",
+            count: 1,
+          },
+        },
+        {
+          id: "7436F3B3A94B7236",
+          type: "item",
+          item: {
+            id: "neovitae:weak_blood_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "4A3F7515550D8522",
+          type: "item",
+          item: {
+            id: "neovitae:raw_crystal_shard",
+            count: 1,
+          },
+        },
+        {
+          id: "1F0BBB61CECF9E27",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 10000",
+          permission_level: 3,
+        },
+        {
+          id: "6927E4B8C43363AC",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:tabula_aetherea",
+        count: 1,
+      },
+      x: 26.0,
+      y: 2.0,
+      shape: "circle",
+      dependencies: [
+        "0A7737571F027A95",
+      ],
+      size: 1.0,
+      id: "2CB3745D96885DED",
+      tasks: [
+        {
+          id: "1E3475FA78818BD5",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_aetherea",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "22CA4C8520BB48D2",
+          type: "currency",
+          team_reward: false,
+          amount: 12,
+        },
+        {
+          id: "2B17E17BA8D0A417",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_spiritus",
+            count: 1,
+          },
+        },
+        {
+          id: "194827FF24C62CDA",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:spiritus_gem_grand",
+        count: 1,
+      },
+      x: 24.0,
+      y: -4.5,
+      shape: "hexagon",
+      dependencies: [
+        "78481F52005467B2",
+      ],
+      size: 1.25,
+      id: "25E6EEE74D627857",
+      tasks: [
+        {
+          id: "1A0B57567AE7F8D5",
+          type: "item",
+          item: {
+            id: "neovitae:spiritus_gem_grand",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1DE936945512F40D",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "143E3758B7DDBADC",
+          type: "item",
+          item: {
+            id: "neovitae:animus_mote",
+            count: 1,
+          },
+        },
+        {
+          id: "770CD0F31CF1B7D7",
+          type: "item",
+          item: {
+            id: "neovitae:tabula_aetherea",
+            count: 1,
+          },
+        },
+        {
+          id: "233A70A274E5E4DE",
+          type: "item",
+          item: {
+            id: "neovitae:permafrost_core",
+            count: 1,
+          },
+        },
+        {
+          id: "3F66CA8D659BB1F4",
+          type: "command",
+          icon: {
+            id: "neovitae:essentia_vitae_bucket",
+            count: 1,
+          },
+          team_reward: false,
+          command: "/neovitae anima-network @p add 25000",
+          permission_level: 3,
+        },
+        {
+          id: "4C735EE813DB287B",
+          type: "xp",
+          team_reward: false,
+          xp: 40,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:prismatic_spiritus_gem",
+        count: 1,
+      },
+      x: 27.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "50941BEEA38BE2C9",
+        "25E6EEE74D627857",
+      ],
+      size: 1.5,
+      id: "1A885C9475D37138",
+      tasks: [
+        {
+          id: "278E4A8B460C0E74",
+          type: "item",
+          item: {
+            id: "neovitae:prismatic_spiritus_gem",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1A84BA087BBE5139",
+          type: "currency",
+          team_reward: false,
+          amount: 40,
+        },
+        {
+          id: "3CBAA16F9E644A89",
+          type: "item",
+          item: {
+            id: "minecraft:nether_star",
+            count: 1,
+          },
+        },
+        {
+          id: "3922FDF9CD7E983D",
+          type: "xp",
+          team_reward: false,
+          xp: 60,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:deus_scribe_tool",
+        count: 1,
+      },
+      x: 29.5,
+      y: -1.75,
+      shape: "circle",
+      dependencies: [
+        "1A885C9475D37138",
+      ],
+      size: 1.0,
+      id: "3FF43BAE10A1FE28",
+      tasks: [
+        {
+          id: "26BAB62FA3BA97C6",
+          type: "item",
+          item: {
+            id: "neovitae:deus_scribe_tool",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2B86896AF69A9A72",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "6DD90ECD8AC2E5A9",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_stone",
+            count: 1,
+          },
+          count: 8,
+        },
+        {
+          id: "289307FA26005F7B",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:activation_crystal_divinus",
+        count: 1,
+      },
+      x: 29.5,
+      y: 0.0,
+      shape: "circle",
+      dependencies: [
+        "1A885C9475D37138",
+      ],
+      size: 1.0,
+      id: "4E97A41B8084EC3C",
+      tasks: [
+        {
+          id: "3A65CF8A75D329EE",
+          type: "item",
+          item: {
+            id: "neovitae:activation_crystal_awakened",
+            count: 1,
+          },
+        },
+        {
+          id: "34036883B40E626E",
+          type: "item",
+          item: {
+            id: "neovitae:activation_crystal_divinus",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "15184521454CCE52",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "218E12EA6DF5BE39",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:deus_resonator",
+        count: 1,
+      },
+      x: 29.5,
+      y: 1.75,
+      shape: "circle",
+      dependencies: [
+        "1A885C9475D37138",
+      ],
+      size: 1.0,
+      id: "457CAD80D2F1DAF4",
+      tasks: [
+        {
+          id: "68662F078ED485D7",
+          type: "item",
+          icon: {
+            id: "neovitae:deus_resonator",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(neovitae:deus_cutting_fluid)item(neovitae:deus_hydration_cell)item(neovitae:deus_resonator)item(neovitae:deus_reverter))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "24DFA209B30EA07D",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "1F52008F403711CB",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:ritual_diviner_deus",
+        count: 1,
+      },
+      x: 31.5,
+      y: -1.75,
+      shape: "circle",
+      dependencies: [
+        "3FF43BAE10A1FE28",
+      ],
+      size: 1.0,
+      id: "7C9C13B714FC8ADA",
+      tasks: [
+        {
+          id: "2EF424A160D13A3C",
+          type: "item",
+          item: {
+            id: "neovitae:ritual_diviner_deus",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1D4506F91903E6F7",
+          type: "currency",
+          team_reward: false,
+          amount: 15,
+        },
+        {
+          id: "4EC9F052E4F4E842",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:deus_ritual_stone",
+        count: 1,
+      },
+      x: 31.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "7C9C13B714FC8ADA",
+        "4E97A41B8084EC3C",
+      ],
+      size: 1.5,
+      id: "19A36A138537D911",
+      tasks: [
+        {
+          id: "70BC55512338618C",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "2A797369E7EB3913",
+          type: "currency",
+          team_reward: false,
+          amount: 40,
+        },
+        {
+          id: "3F314350A0A5113B",
+          type: "xp",
+          team_reward: false,
+          xp: 60,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:sentient_plate",
+        count: 1,
+      },
+      x: 33.5,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "19A36A138537D911",
+      ],
+      size: 1.25,
+      id: "6181B4122A7D40D9",
+      tasks: [
+        {
+          id: "62016509D80C57FA",
+          type: "checkmark",
+        },
+      ],
+      rewards: [
+        {
+          id: "6953098F25048C2F",
+          type: "currency",
+          team_reward: false,
+          amount: 30,
+        },
+        {
+          id: "59E10A80D6C9CFDE",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "neovitae:sentient_spear",
+        count: 1,
+      },
+      x: 6.0,
+      y: 8.25,
+      shape: "circle",
+      dependencies: [
+        "4FB5C89723323FA1",
+      ],
+      size: 1.0,
+      id: "470284891D9DBE29",
+      tasks: [
+        {
+          id: "6ED3CC7C4418A541",
+          type: "item",
+          item: {
+            id: "neovitae:sentient_spear",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "535BA7C2B360785F",
+          type: "currency",
+          team_reward: false,
+          amount: 6,
+        },
+        {
+          id: "3974490D09803D42",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:blood_bullet_modifier",
+        count: 1,
+      },
+      x: 10.75,
+      y: 3.5,
+      shape: "circle",
+      dependencies: [
+        "03DB41A64E74FF33",
+      ],
+      size: 1.0,
+      id: "5E9540650EA59208",
+      tasks: [
+        {
+          id: "1914935FCBC7E22A",
+          type: "item",
+          item: {
+            id: "animusnv:blood_bullet_modifier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1293F975D143A951",
+          type: "currency",
+          team_reward: false,
+          amount: 6,
+        },
+        {
+          id: "588B9315F7BAD007",
+          type: "xp",
+          team_reward: false,
+          xp: 20,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:spirit_powder_modifier",
+        count: 1,
+      },
+      x: 10.75,
+      y: 5.25,
+      shape: "circle",
+      dependencies: [
+        "0AF4B9B8EABB8F9B",
+      ],
+      size: 1.0,
+      id: "5F8C0F8D4270F154",
+      tasks: [
+        {
+          id: "39EA8E124179DAEB",
+          type: "item",
+          item: {
+            id: "animusnv:spirit_powder_modifier",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "4AC510471DCD0085",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "30C2EE34051D3CB6",
+          type: "item",
+          item: {
+            id: "irons_artifice:blackpowder",
+            count: 1,
+          },
+          count: 4,
+        },
+        {
+          id: "3FD3E987A5F2D600",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:sanguine_diviner",
+        count: 1,
+      },
+      x: 8.0,
+      y: 1.75,
+      shape: "diamond",
+      dependencies: [
+        "067E4D25501B94F3",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "5A2BA6A54F83E1BB",
+      tasks: [
+        {
+          id: "28B020890A639AF3",
+          type: "item",
+          item: {
+            id: "animusnv:sanguine_diviner",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "506A5385F062C0A3",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "animusnv:activation_crystal_fragile",
+        count: 1,
+      },
+      x: 9.5,
+      y: 1.75,
+      shape: "diamond",
+      dependencies: [
+        "067E4D25501B94F3",
+      ],
+      size: 1.0,
+      optional: true,
+      id: "60CD135658A813E5",
+      tasks: [
+        {
+          id: "27AF02294F78666C",
+          type: "item",
+          item: {
+            id: "animusnv:activation_crystal_fragile",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "3C4F6AA12027BDC5",
+          type: "currency",
+          team_reward: false,
+          amount: 2,
+        },
+      ],
+    },
   ],
   quest_links: [
+    {
+      linked_quest: "03DB41A64E74FF33",
+      x: 9.0,
+      y: 3.5,
+      shape: "gear",
+      id: "3DA397C132BA23E8",
+    },
   ],
   images: [
     {

@@ -1,0 +1,19 @@
+{
+  "id": "energized_power_speed_upgrade_modules",
+  "name": {
+    "translate": "collapsible_groups.group.energized_power_speed_upgrade_modules",
+    "fallback": "Energized Power: Speed Upgrade Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "energizedpower"
+      },
+      {
+        "item_path_starts_with": "speed_upgrade_module_"
+      }
+    ]
+  }
+}

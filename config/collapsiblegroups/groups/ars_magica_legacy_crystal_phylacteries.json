@@ -1,0 +1,12 @@
+{
+  "id": "ars_magica_legacy_crystal_phylacteries",
+  "name": {
+    "translate": "collapsible_groups.group.ars_magica_legacy_crystal_phylacteries",
+    "fallback": "Ars Magica Legacy: Crystal Phylacteries"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "arsmagicalegacy:crystal_phylactery"
+  }
+}

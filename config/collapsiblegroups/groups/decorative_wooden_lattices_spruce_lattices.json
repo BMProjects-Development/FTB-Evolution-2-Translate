@@ -1,0 +1,19 @@
+{
+  "id": "decorative_wooden_lattices_spruce_lattices",
+  "name": {
+    "translate": "collapsible_groups.group.decorative_wooden_lattices_spruce_lattices",
+    "fallback": "Decorative Wooden Lattices: Spruce Lattices"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorativewoodenlattices"
+      },
+      {
+        "item_path_starts_with": "spruce_lattice_"
+      }
+    ]
+  }
+}

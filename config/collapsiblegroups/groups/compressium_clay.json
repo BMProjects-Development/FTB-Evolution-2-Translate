@@ -1,0 +1,19 @@
+{
+  "id": "compressium_clay",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_clay",
+    "fallback": "Compressium: Clay"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "clay_"
+      }
+    ]
+  }
+}

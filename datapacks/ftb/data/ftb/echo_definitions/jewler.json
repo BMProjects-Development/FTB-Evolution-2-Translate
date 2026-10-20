@@ -61,7 +61,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:rhinestone_amulet"
+              "irons_jewelry:stored_pattern": "irons_jewelry:rhinestone_amulet",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.rhinestone_amulet"
+                  }
+                ]
+              }
             }
           },
           "cost": 80
@@ -72,7 +80,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop"
+              "irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.sharpshooter_loop"
+                  }
+                ]
+              }
             }
           },
           "cost": 20
@@ -83,7 +99,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:tearstone_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:tearstone_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.tearstone_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 120
@@ -94,7 +118,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:superior_gemset_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:superior_gemset_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.superior_gemset_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 120
@@ -105,7 +137,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:stalwart_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:stalwart_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.stalwart_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 25
@@ -116,7 +156,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:improved_gemset_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:improved_gemset_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.improved_gemset_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 40
@@ -127,7 +175,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:piglin_signet_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:piglin_signet_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.piglin_signet_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 20
@@ -138,7 +194,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:haggler_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:haggler_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.haggler_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 20
@@ -149,7 +213,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:duality_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:duality_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "ftb.irons.pattern.duality_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 120
@@ -160,7 +232,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:duality_necklace"
+              "irons_jewelry:stored_pattern": "irons_jewelry:duality_necklace",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "ftb.irons.pattern.duality_necklace"
+                  }
+                ]
+              }
             }
           },
           "cost": 120
@@ -171,7 +251,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:barbed_band"
+              "irons_jewelry:stored_pattern": "irons_jewelry:barbed_band",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.barbed_band"
+                  }
+                ]
+              }
             }
           },
           "cost": 40
@@ -182,7 +270,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:bane_ring"
+              "irons_jewelry:stored_pattern": "irons_jewelry:bane_ring",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.bane_ring"
+                  }
+                ]
+              }
             }
           },
           "cost": 40
@@ -193,7 +289,15 @@
             "id": "irons_jewelry:recipe",
             "count": 1,
             "components": {
-              "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection"
+              "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection",
+              "minecraft:item_name": {
+                "translate": "ftb.artisan_scroll",
+                "with": [
+                  {
+                    "translate": "pattern.irons_jewelry.amulet_of_protection"
+                  }
+                ]
+              }
             }
           },
           "cost": 40

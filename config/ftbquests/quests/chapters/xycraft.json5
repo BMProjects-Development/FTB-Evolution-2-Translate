@@ -480,6 +480,7 @@
         {
           id: "0B58CFCF27718BF4",
           type: "xp",
+          team_reward: false,
           xp: 15,
         },
       ],

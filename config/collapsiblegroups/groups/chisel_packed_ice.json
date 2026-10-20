@@ -1,0 +1,19 @@
+{
+  "id": "chisel_packed_ice",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_packed_ice",
+    "fallback": "Chisel: Packed Ice"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "packed_ice_"
+      }
+    ]
+  }
+}

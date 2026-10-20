@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_tool_handles",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_tool_handles",
+    "fallback": "Hephaestus Tools: Tool Handles"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:tool_handle"
+  }
+}

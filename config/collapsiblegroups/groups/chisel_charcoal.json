@@ -1,0 +1,19 @@
+{
+  "id": "chisel_charcoal",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_charcoal",
+    "fallback": "Chisel: Charcoal"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "charcoal_"
+      }
+    ]
+  }
+}

@@ -36,6 +36,12 @@ const checks = {
       return true;
     },
 
+    isInSpace: (player) => {
+      if (!String(player.level.dimension).startsWith("stellaris:")) return false;
+      Statistics().addFailure("Player in space");
+      return true;
+    },
+
     getDisabledEvents: (player) => {
       let disabled = [];
       let list = player.persistentData.getListOrEmpty("disabledEvents");

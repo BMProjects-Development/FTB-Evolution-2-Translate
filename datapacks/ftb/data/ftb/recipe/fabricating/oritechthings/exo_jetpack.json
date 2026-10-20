@@ -1,0 +1,37 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritech:jetpack",
+      "count": 1
+    },
+    {
+      "ingredient": "oritech:exo_chestplate",
+      "count": 1
+    },
+    {
+      "ingredient": "oritech:ion_thruster",
+      "count": 4
+    },
+    {
+      "ingredient": "oritech:portable_tank",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:aurichalcum_plate",
+      "count": 8
+    },
+    {
+      "ingredient": "oritech:prometheum_ingot",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "oritech:exo_jetpack"
+    }
+  ],
+  "ticks": 2400,
+  "energy_per_tick": 50000,
+  "stage": "skyline3_unlocked"
+}

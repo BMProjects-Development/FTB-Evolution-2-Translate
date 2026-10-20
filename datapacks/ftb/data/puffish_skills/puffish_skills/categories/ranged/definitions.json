@@ -666,5 +666,153 @@
 		"rewards": [
 			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:vital_shot", "value": 0.1, "operation": "addition" } }
 		]
+	},
+
+	"thrown_hub": {
+		"title": { "translate": "skill.ftb.ranged.thrown_hub.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_hub.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:trident" } },
+		"size": 1.75,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_velocity", "value": 0.05, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"thrown_damage_+5%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_damage_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_damage_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:prismarine_shard" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_damage", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"thrown_damage_+8%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_damage_+8%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_damage_+8%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:prismarine_crystals" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_damage", "value": 0.08, "operation": "addition" } }
+		]
+	},
+
+	"thrown_damage_+12%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_damage_+12%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_damage_+12%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:heart_of_the_sea" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_damage", "value": 0.12, "operation": "addition" } }
+		]
+	},
+
+	"thrown_velocity_+5%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_velocity_+5%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_velocity_+5%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_velocity", "value": 0.05, "operation": "addition" } }
+		]
+	},
+
+	"thrown_velocity_+10%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_velocity_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_velocity_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:phantom_membrane" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_velocity", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"thrown_durability_+1": {
+		"title": { "translate": "skill.ftb.ranged.thrown_durability_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_durability_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:nautilus_shell" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_durability", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"thrown_pin_+10%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_pin_+10%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_pin_+10%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/circle_locked.png", "available": "ftbevolution:textures/skills/frames/available/circle_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/circle_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:string" } },
+		"size": 1.0,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_pin", "value": 0.1, "operation": "addition" } }
+		]
+	},
+
+	"run_through_+1": {
+		"title": { "translate": "skill.ftb.ranged.run_through_+1.title" },
+		"description": { "translate": "skill.ftb.ranged.run_through_+1.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:pointed_dripstone" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:run_through", "value": 1.0, "operation": "addition" } }
+		]
+	},
+
+	"thrown_pin_+20%": {
+		"title": { "translate": "skill.ftb.ranged.thrown_pin_+20%.title" },
+		"description": { "translate": "skill.ftb.ranged.thrown_pin_+20%.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:cobweb" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_pin", "value": 0.2, "operation": "addition" } }
+		]
+	},
+
+	"ricochet_+2": {
+		"title": { "translate": "skill.ftb.ranged.ricochet_+2.title" },
+		"description": { "translate": "skill.ftb.ranged.ricochet_+2.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:slime_ball" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:ricochet", "value": 2.0, "operation": "addition" } }
+		]
+	},
+
+	"doom": {
+		"title": { "translate": "skill.ftb.ranged.doom.title" },
+		"description": { "translate": "skill.ftb.ranged.doom.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/octocog_locked.png", "available": "ftbevolution:textures/skills/frames/available/octocog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/octocog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "minecraft:wither_skeleton_skull" } },
+		"size": 1.5,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:doom", "value": 2.0, "operation": "addition" } }
+		]
+	},
+
+	"volley_cap": {
+		"title": { "translate": "skill.ftb.ranged.volley_cap.title" },
+		"description": { "translate": "skill.ftb.ranged.volley_cap.description" },
+		"frame": { "type": "texture", "data": { "locked": "ftbevolution:textures/skills/frames/locked/hexcog_locked.png", "available": "ftbevolution:textures/skills/frames/available/hexcog_available.png", "unlocked": "ftbevolution:textures/skills/frames/unlocked/hexcog_unlocked.png" } },
+		"icon": { "type": "item", "data": { "item": "nautec:volley_trident_arm" } },
+		"size": 2.25,
+		"cost": 1,
+		"rewards": [
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:volley", "value": 0.25, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_velocity", "value": 0.1, "operation": "addition" } },
+			{ "type": "puffish_skills:attribute", "data": { "attribute": "ftb:thrown_pin", "value": 0.15, "operation": "addition" } }
+		]
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 120,
+  "fluid": {
+    "amount": 450,
+    "id": "hephaestus:molten_slime"
+  },
+  "result": {
+    "id": "minecraft:slime_block"
+  }
+}

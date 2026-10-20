@@ -30,6 +30,8 @@ const removeRecipeId = [
   "bhc:yellow_heart_melted_from_red_heart_melted",
   "bhc:green_heart_melted_from_yellow_heart_melted",
   "bhc:blue_heart_melted_from_green_heart_melted",
+  "bhc:relic_apple",
+  "bhc:relic_apple_rotated",
   "magnumtorch:diamond_magnum_torch",
   "magnumtorch:emerald_magnum_torch",
   "magnumtorch:amethyst_magnum_torch",
@@ -37,19 +39,29 @@ const removeRecipeId = [
   "connectedglass:borderless_glass1",
   "oritech:pulverizer/uranium",
   "ltxi:pressing/silicon_plate",
-  "nep:infused_awakening_matrix",
-  "nep:mystical_agriculture_encoding_module",
-  "nep:apothic_enchanting_encoding_module",
   "justdynathings:creative_goo",
+  "occultism:miners/basic/antimony",
+  "occultism:miners/basic/bauxite",
+  "occultism:miners/basic/monazite",
+  "occultism:miners/basic/quartz",
+  "occultism:miners/basic/ruby",
+  "occultism:miners/basic/salt",
+  "occultism:miners/basic/tungsten",
+  "occultism:miners/basic/zinc",
+  "occultism:miners/iron/osmium",
 ];
 
 const removeItemFromIOAndHide = [
   "pylons:infusion_pylon",
   "stellaris:oil_bucket",
   "paraglider:heart_container",
-  "power_armor:compressor",
-  "nep:machine_hub",
-  "nep:hub_linker",
+  "hostilenetworks:prediction",
+  "hostilenetworks:overworld_prediction",
+  "hostilenetworks:nether_prediction",
+  "hostilenetworks:end_prediction",
+  "hostilenetworks:twilight_prediction",
+  "meinfinitycell:infinity_cobblestone_cell",
+  "meinfinitycell:infinity_water_cell"
 ];
 
 const FACADE_RECIPE_TYPE = "integrateddynamics:crafting_special_facade";
@@ -80,10 +92,6 @@ ServerEvents.recipes((event) => {
     event.remove({ input: item, not: { type: FACADE_RECIPE_TYPE } });
   });
 
-});
-
-  RecipeViewerEvents.removeCategories((event) => {
-  event.remove("power_armor:compressing");
 });
 
 // #endregion Server Events

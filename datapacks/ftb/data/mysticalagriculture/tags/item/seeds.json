@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalcustomization:chromium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:cinnabar_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:dark_gem_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:desh_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:entro_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:fluxite_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:iesnium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:kivi_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:moonstone_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:niobium_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:oil_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:redstone_crystal_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:salt_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:vitae_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:xychorium_seeds",
+      "required": false
+    }
+  ]
+}

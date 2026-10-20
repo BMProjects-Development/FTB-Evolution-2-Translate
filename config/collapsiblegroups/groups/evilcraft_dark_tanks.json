@@ -1,0 +1,12 @@
+{
+  "id": "evilcraft_dark_tanks",
+  "name": {
+    "translate": "collapsible_groups.group.evilcraft_dark_tanks",
+    "fallback": "EvilCraft: Dark Tanks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "evilcraft:dark_tank"
+  }
+}

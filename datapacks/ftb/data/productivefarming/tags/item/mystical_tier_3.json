@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalagriculture:cinnabar_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:dark_gem_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:vitae_seeds",
+      "required": false
+    },
+    {
+      "id": "mysticalagriculture:xychorium_seeds",
+      "required": false
+    }
+  ]
+}

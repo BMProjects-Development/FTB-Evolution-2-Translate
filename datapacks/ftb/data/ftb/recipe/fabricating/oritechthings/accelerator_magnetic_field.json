@@ -1,0 +1,29 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    {
+      "ingredient": "oritech:magnetic_coil",
+      "count": 8
+    },
+    {
+      "ingredient": "#c:ingots/electrum",
+      "count": 8
+    },
+    {
+      "ingredient": "oritech:super_ai_chip",
+      "count": 2
+    },
+    {
+      "ingredient": "ftbarmory:adamantite_plate",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "oritechthings:accelerator_magnetic_field"
+    }
+  ],
+  "ticks": 600,
+  "energy_per_tick": 5000,
+  "stage": "oritech_atomic_forge"
+}

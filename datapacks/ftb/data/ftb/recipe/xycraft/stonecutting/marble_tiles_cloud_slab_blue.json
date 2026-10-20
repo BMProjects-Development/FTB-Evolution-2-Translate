@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "xycraft_world:marble_bricks_cloud_blue",
+  "result": {
+    "count": 2,
+    "id": "xycraft_world:marble_tiles_cloud_slab_blue"
+  }
+}

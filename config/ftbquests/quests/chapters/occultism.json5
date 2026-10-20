@@ -317,23 +317,41 @@
         {
           id: "28DC00FA31DE8AB6",
           type: "item",
-          item: {
+          icon: {
             id: "occultism:sacrificial_bowl",
             count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:occultism_sacrificial_bowls)",
+            },
           },
           count: 4,
         },
         {
           id: "06C1EF6F388BE142",
           type: "item",
-          item: {
+          icon: {
             id: "occultism:golden_sacrificial_bowl",
             count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:occultism_center_bowls)",
+            },
           },
         },
         {
           id: "2657647D4CF31BBA",
           type: "item",
+          icon: {
+            id: "minecraft:candle",
+            count: 1,
+          },
           item: {
             id: "ftbfiltersystem:smart_filter",
             count: 1,
@@ -1605,14 +1623,6 @@
       id: "43BF1E0CE33F8BB7",
       tasks: [
         {
-          id: "48FB07292F725224",
-          type: "item",
-          item: {
-            id: "occultism:chalk_brown_impure",
-            count: 1,
-          },
-        },
-        {
           id: "2377F223D4F57790",
           type: "item",
           item: {
@@ -1659,14 +1669,6 @@
       id: "337838FB759E4377",
       tasks: [
         {
-          id: "3B42072BEC6993A1",
-          type: "item",
-          item: {
-            id: "occultism:chalk_magenta_impure",
-            count: 1,
-          },
-        },
-        {
           id: "54F8C6F5E5D693C0",
           type: "item",
           item: {
@@ -1704,14 +1706,6 @@
       size: 1.0,
       id: "504EEAA75990C78C",
       tasks: [
-        {
-          id: "13CFFC7E6B3CFF6B",
-          type: "item",
-          item: {
-            id: "occultism:chalk_cyan_impure",
-            count: 1,
-          },
-        },
         {
           id: "5E95B985000E49C4",
           type: "item",
@@ -2256,13 +2250,14 @@
           id: "7046A9A42F700BE2",
           type: "currency",
           team_reward: false,
-          amount: 5,
+          amount: 20,
         },
         {
-          id: "60069192ACC46E96",
+          id: "07F69135149B5AAB",
           type: "choice",
           team_reward: false,
           exclude_from_claim_all: true,
+          table_id: 8343583949716705409,
         },
         {
           id: "531A6AB4C462B29F",
@@ -2437,19 +2432,32 @@
         {
           id: "438673D8562CCBA9",
           type: "item",
-          item: {
+          icon: {
             id: "occultism:otherstone",
             count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:occultism_otherstone)",
+            },
           },
         },
         {
           id: "0AF26E34A4343D1E",
           type: "item",
-          item: {
+          icon: {
             id: "occultism:burnt_otherstone",
             count: 1,
           },
-          count: 3,
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(occultism:dusts/chalk_base)",
+            },
+          },
         },
       ],
       rewards: [

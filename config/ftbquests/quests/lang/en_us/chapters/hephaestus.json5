@@ -30,7 +30,7 @@
     "",
     "- &3Walls&r: A ring of wall blocks around the empty space, on every layer. The corners can be left out.",
     "",
-    "- &3Inside&r: Empty, anywhere from 1x1 to 15x15 blocks across.",
+    "- &3Inside&r: Empty, from 1x1 up to 15 blocks wide along the Controller's wall and 8 blocks deep away from it. Put the Controller in the middle of its wall to get the full 15.",
     "{@pagebreak}",
     "- &aSmeltery Controller&r: In the wall, facing out, with the empty space right behind it.",
     "",

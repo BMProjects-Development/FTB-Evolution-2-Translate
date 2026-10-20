@@ -1,0 +1,19 @@
+{
+  "id": "chisel_sea_lantern",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_sea_lantern",
+    "fallback": "Chisel: Sea Lantern"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "sea_lantern_"
+      }
+    ]
+  }
+}

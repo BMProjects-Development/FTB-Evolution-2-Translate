@@ -1,7 +1,7 @@
 {
   "type": "oritech:pulverizer",
   "itemInputs": [
-    "#c:gems/fluix"
+    "ae2:fluix_crystal"
   ],
   "itemResults": [
     {

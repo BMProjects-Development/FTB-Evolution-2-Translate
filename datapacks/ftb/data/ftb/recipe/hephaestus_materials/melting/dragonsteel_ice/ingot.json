@@ -7,7 +7,7 @@
   "ingredient": "iceandfire:dragonsteel_ice_ingot",
   "result": {
     "amount": 90,
-    "id": "ftb:molten_dragonsteel_ice"
+    "id": "hephaestus:molten_dragonsteel_ice"
   },
   "temperature": 1600,
   "time": 120

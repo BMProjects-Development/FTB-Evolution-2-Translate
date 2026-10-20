@@ -1,0 +1,14 @@
+{
+  "type": "ftbevolutioncompanion:fabricating",
+  "ingredients": [
+    { "ingredient": "minecraft:enchanted_golden_apple", "count": 1 },
+    { "ingredient": "#c:gems/diamond", "count": 2 },
+    { "ingredient": "#c:gems/emerald", "count": 2 },
+    { "ingredient": "minecraft:dragon_breath", "count": 1 }
+  ],
+  "results": [
+    { "id": "bhc:relic_apple" }
+  ],
+  "ticks": 600,
+  "energy_per_tick": 1200
+}

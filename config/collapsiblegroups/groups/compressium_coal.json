@@ -1,0 +1,19 @@
+{
+  "id": "compressium_coal",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_coal",
+    "fallback": "Compressium: Coal"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "coal_"
+      }
+    ]
+  }
+}

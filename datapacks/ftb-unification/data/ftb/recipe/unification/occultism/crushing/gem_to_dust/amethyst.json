@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": "minecraft:amethyst_shard",
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "occultism:amethyst_dust"
+  }
+}

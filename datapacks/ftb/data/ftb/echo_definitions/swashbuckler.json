@@ -192,14 +192,6 @@
             "count": 2
           },
           "cost": 20
-        },
-        {
-          "name": "lootcrate",
-          "item": {
-            "id": "ftbquests:lootcrate",
-            "count": 1
-          },
-          "cost": 60
         }
       ]
     }

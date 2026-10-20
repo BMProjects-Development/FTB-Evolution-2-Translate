@@ -1,0 +1,19 @@
+{
+  "id": "chisel_aluminum",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_aluminum",
+    "fallback": "Chisel: Aluminum"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "aluminum_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "nautec:aquarine_copper_ingot",
+    "G": "#c:glass_panes",
+    "O": "#c:obsidians"
+  },
+  "pattern": [
+    "CGC",
+    "G G",
+    "GOG"
+  ],
+  "result": {
+    "id": "nautec:biome_tank"
+  }
+}

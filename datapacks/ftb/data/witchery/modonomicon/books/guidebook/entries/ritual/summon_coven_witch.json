@@ -1,0 +1,32 @@
+{
+  "type": "modonomicon:content",
+  "background": {
+    "height": 26,
+    "sprite": "modonomicon:modonomicon/themes/default/node/entry_backgrounds/square_gold",
+    "width": 26
+  },
+  "category": "witchery:ritual",
+  "condition": {
+    "type": "modonomicon:and",
+    "children": [
+      {
+        "type": "modonomicon:research_node_unlocked",
+        "node_id": "witchery:research/entry_viewed/ritual/infernal_chalk"
+      },
+      {
+        "type": "modonomicon:research_node_unlocked",
+        "node_id": "witchery:advancement_gate/infernal_chalk"
+      }
+    ]
+  },
+  "description": "book.witchery.guidebook.ritual.summon_coven_witch.description",
+  "hide_while_locked": true,
+  "icon": {
+    "id": "witchery:coven_contract"
+  },
+  "id": "witchery:ritual/summon_coven_witch",
+  "name": "book.witchery.guidebook.ritual.summon_coven_witch.name",
+  "sort_number": 53,
+  "x": 5,
+  "y": 2
+}

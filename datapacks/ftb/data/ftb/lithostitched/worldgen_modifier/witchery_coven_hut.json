@@ -1,0 +1,30 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": [
+    "ctov:village/beach/house",
+    "ctov:village/desert/house",
+    "ctov:village/desert_oasis/house",
+    "ctov:village/jungle/house",
+    "ctov:village/mesa_fortified/house",
+    "ctov:village/plains/house",
+    "ctov:village/swamp/house",
+    "ctov:village/swamp_fortified/house",
+    "ctov:village/taiga/house",
+    "ctov:village/taiga_fortified/house",
+    "minecraft:village/desert/houses",
+    "minecraft:village/savanna/houses",
+    "minecraft:village/snowy/houses",
+    "minecraft:village/taiga/houses"
+  ],
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery:village/houses/coven_hut",
+        "processors": "witchery:coven_hut",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

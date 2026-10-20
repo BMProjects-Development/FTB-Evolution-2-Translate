@@ -1,0 +1,19 @@
+{
+  "id": "chisel_acacia_planks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_acacia_planks",
+    "fallback": "Chisel: Acacia Planks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "acacia_planks_"
+      }
+    ]
+  }
+}

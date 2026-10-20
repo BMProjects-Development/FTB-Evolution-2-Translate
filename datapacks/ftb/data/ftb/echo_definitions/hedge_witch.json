@@ -123,49 +123,49 @@
           "name": "belladonna_seeds",
           "item": {
             "id": "witchery:belladonna_seeds",
-            "count": 2
+            "count": 1
           },
-          "cost": 8
+          "cost": 20
         },
         {
           "name": "mandrake_seeds",
           "item": {
             "id": "witchery:mandrake_seeds",
-            "count": 2
+            "count": 1
           },
-          "cost": 8
+          "cost": 20
         },
         {
           "name": "wormwood_seeds",
           "item": {
             "id": "witchery:wormwood_seeds",
-            "count": 2
+            "count": 1
           },
-          "cost": 8
+          "cost": 20
         },
         {
           "name": "snowbell_seeds",
           "item": {
             "id": "witchery:snowbell_seeds",
-            "count": 2
+            "count": 1
           },
-          "cost": 8
+          "cost": 20
         },
         {
           "name": "wolfsbane_seeds",
           "item": {
             "id": "witchery:wolfsbane_seeds",
-            "count": 2
+            "count": 1
           },
-          "cost": 8
+          "cost": 20
         },
         {
           "name": "water_artichoke_seeds",
           "item": {
             "id": "witchery:water_artichoke_seeds",
-            "count": 2
+            "count": 1
           },
-          "cost": 8
+          "cost": 20
         },
         {
           "name": "jar",
@@ -246,6 +246,14 @@
             "count": 4
           },
           "cost": 30
+        },
+        {
+          "name": "torn_page",
+          "item": {
+            "id": "witchery:torn_page",
+            "count": 1
+          },
+          "cost": 20
         }
       ]
     }

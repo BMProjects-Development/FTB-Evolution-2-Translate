@@ -99,6 +99,13 @@
     {
       "stack": {
         "count": 1,
+        "id": "replication:raw_replica"
+      },
+      "weight": 30
+    },
+    {
+      "stack": {
+        "count": 1,
         "id": "ftbmaterials:silver_raw_ore"
       },
       "weight": 20

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_tin",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_tin",
+    "fallback": "Chisel: Tin"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "tin_"
+      }
+    ]
+  }
+}

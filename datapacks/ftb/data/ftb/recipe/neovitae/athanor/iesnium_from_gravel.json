@@ -1,0 +1,14 @@
+{
+  "type": "neovitae:athanor",
+  "inputs": [
+    "#c:gravels/iesnium"
+  ],
+  "tool": "#neovitae:athanor_tool/cutting_fluids",
+  "guaranteed_outputs": [
+    {
+      "count": 1,
+      "id": "occultism:iesnium_dust"
+    }
+  ],
+  "chance_outputs": []
+}

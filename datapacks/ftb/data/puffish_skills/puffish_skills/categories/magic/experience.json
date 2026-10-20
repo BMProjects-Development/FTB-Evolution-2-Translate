@@ -48,12 +48,38 @@
 								}
 							}
 						]
+					},
+					"is_no_skill_xp": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "#ftb:no_skill_xp"
+								}
+							}
+						]
+					},
+					"target_max_health": {
+						"operations": [
+							{
+								"type": "get_damaged_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
 					}
 				},
 				"experience": [
 					{
-						"condition": "is_magic & !is_target_dummy",
-						"expression": "damage * 0.5"
+						"condition": "is_magic & !is_target_dummy & !is_no_skill_xp",
+						"expression": "min(damage, target_max_health) * 0.5"
 					}
 				],
 				"anti_farming_per_entity": {

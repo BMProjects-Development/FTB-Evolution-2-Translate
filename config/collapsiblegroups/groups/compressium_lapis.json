@@ -1,0 +1,19 @@
+{
+  "id": "compressium_lapis",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_lapis",
+    "fallback": "Compressium: Lapis Lazuli"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "lapis_"
+      }
+    ]
+  }
+}

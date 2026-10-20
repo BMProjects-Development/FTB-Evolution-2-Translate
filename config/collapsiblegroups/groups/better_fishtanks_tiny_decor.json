@@ -1,0 +1,19 @@
+{
+  "id": "better_fishtanks_tiny_decor",
+  "name": {
+    "translate": "collapsible_groups.group.better_fishtanks_tiny_decor",
+    "fallback": "Better Fishtanks: Tiny Decor"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterfishtanks"
+      },
+      {
+        "item_path_starts_with": "tiny_"
+      }
+    ]
+  }
+}

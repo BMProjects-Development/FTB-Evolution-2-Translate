@@ -1,0 +1,12 @@
+{
+  "type": "lithostitched:remove_features",
+  "biomes": {
+    "type": "lithostitched:any"
+  },
+  "features": [
+    "minecraft:spring_closed",
+    "minecraft:spring_closed_double",
+    "minecraft:spring_open"
+  ],
+  "step": "fluid_springs"
+}

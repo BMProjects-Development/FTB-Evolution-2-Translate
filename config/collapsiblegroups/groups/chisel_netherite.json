@@ -1,0 +1,19 @@
+{
+  "id": "chisel_netherite",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_netherite",
+    "fallback": "Chisel: Netherite"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "netherite_"
+      }
+    ]
+  }
+}

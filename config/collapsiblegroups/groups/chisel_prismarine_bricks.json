@@ -1,0 +1,55 @@
+{
+  "id": "chisel_prismarine_bricks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_prismarine_bricks",
+    "fallback": "Chisel: Prismarine Bricks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "prismarine_bricks_"
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "chisel:prismarine_bricks_inlayed"
+        }
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "chisel:prismarine_bricks_large"
+        }
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "chisel:prismarine_bricks_large_rough"
+        }
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "chisel:prismarine_bricks_round"
+        }
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "chisel:prismarine_bricks_square"
+        }
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "chisel:prismarine_bricks_vertical"
+        }
+      }
+    ]
+  }
+}

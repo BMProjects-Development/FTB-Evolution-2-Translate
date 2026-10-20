@@ -900,6 +900,14 @@
           team_reward: false,
           xp: 40,
         },
+        {
+          id: "1AA0DF5307A738A5",
+          type: "gamestage",
+          team_reward: false,
+          auto: "enabled",
+          ignore_reward_blocking: true,
+          stage: "oritech_atomic_forge",
+        },
       ],
     },
     {
@@ -2225,6 +2233,376 @@
           type: "xp",
           team_reward: false,
           xp: 10,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:addon_block_speed_tier_2",
+        count: 1,
+      },
+      x: 17.5,
+      y: 4.5,
+      shape: "hexagon",
+      dependencies: [
+        "091B8E814908DEDF",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "1582865EA8A8091B",
+      tasks: [
+        {
+          id: "4129BEEA25107548",
+          type: "item",
+          icon: {
+            id: "oritechthings:addon_block_speed_tier_2",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritechthings:addons)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "18E9359FB08BB23A",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "733B2BE1873D15B0",
+          type: "item",
+          item: {
+            id: "oritech:machine_extender",
+            count: 1,
+          },
+          random_bonus: 1,
+        },
+        {
+          id: "6108DFFAEC01B5AF",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:addon_block_speed_tier_4",
+        count: 1,
+      },
+      x: 19.5,
+      y: 6.5,
+      shape: "circle",
+      dependencies: [
+        "1582865EA8A8091B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "6CE7FB30455E939E",
+      tasks: [
+        {
+          id: "1D2BF1F775EFAE02",
+          type: "item",
+          icon: {
+            id: "oritechthings:addon_block_speed_tier_4",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritechthings:addon_block_speed_tier_4)item(oritechthings:addon_block_efficiency_tier_4)item(oritechthings:addon_block_capacitor_tier_4)item(oritechthings:addon_block_acceptor_tier_4)item(oritechthings:addon_block_processing_tier_4))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "42635E901CB324FA",
+          type: "currency",
+          team_reward: false,
+          amount: 8,
+        },
+        {
+          id: "17E7A745E47E6E85",
+          type: "item",
+          item: {
+            id: "ftbarmory:adamantite_plate",
+            count: 1,
+          },
+          count: 2,
+          random_bonus: 2,
+        },
+        {
+          id: "32606BAA3CDD3683",
+          type: "xp",
+          team_reward: false,
+          xp: 35,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:addon_block_speed_tier_9",
+        count: 1,
+      },
+      x: 21.5,
+      y: 8.5,
+      shape: "hexagon",
+      dependencies: [
+        "6CE7FB30455E939E",
+      ],
+      size: 1.25,
+      can_repeat: false,
+      id: "2AB2C3ABF3F0EC71",
+      tasks: [
+        {
+          id: "25703CC4EB752130",
+          type: "item",
+          icon: {
+            id: "oritechthings:addon_block_speed_tier_9",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "or(item(oritechthings:addon_block_speed_tier_9)item(oritechthings:addon_block_efficiency_tier_9)item(oritechthings:addon_block_capacitor_tier_9)item(oritechthings:addon_block_acceptor_tier_9)item(oritechthings:addon_block_processing_tier_9)item(oritechthings:addon_block_efficient_speed_tier_9))",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "2C6EFA921AFCE932",
+          type: "currency",
+          team_reward: false,
+          amount: 20,
+        },
+        {
+          id: "51EB6635FCCD39C2",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:addon_block_efficient_speed_tier_2",
+        count: 1,
+      },
+      x: 19.5,
+      y: 8.5,
+      shape: "circle",
+      dependencies: [
+        "6CE7FB30455E939E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "7F7AF4C047AF4EFE",
+      tasks: [
+        {
+          id: "763B55FF89000925",
+          type: "item",
+          icon: {
+            id: "oritechthings:addon_block_efficient_speed_tier_2",
+            count: 1,
+          },
+          item: {
+            id: "ftbfiltersystem:smart_filter",
+            count: 1,
+            components: {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritechthings:tiered_addon_efficient_speed)",
+            },
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "25610D109EB0D359",
+          type: "currency",
+          team_reward: false,
+          amount: 6,
+        },
+        {
+          id: "3E1DAA8AA6A1E07A",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:addon_block_cross_dimensional",
+        count: 1,
+      },
+      x: 17.5,
+      y: 6.5,
+      shape: "circle",
+      dependencies: [
+        "1582865EA8A8091B",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "7F70D7907F8EBA66",
+      tasks: [
+        {
+          id: "29E455E3C228A6E3",
+          type: "item",
+          item: {
+            id: "oritechthings:addon_block_cross_dimensional",
+            count: 1,
+          },
+        },
+        {
+          id: "6D9EB171A6430E39",
+          type: "item",
+          item: {
+            id: "oritechthings:advanced_target_designator",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7C1635E0233F91CD",
+          type: "currency",
+          team_reward: false,
+          amount: 6,
+        },
+        {
+          id: "35B2D50FE6818E0E",
+          type: "xp",
+          team_reward: false,
+          xp: 30,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:frame_placer",
+        count: 1,
+      },
+      x: 19.5,
+      y: 4.5,
+      shape: "diamond",
+      dependencies: [
+        "1582865EA8A8091B",
+      ],
+      size: 1.0,
+      optional: true,
+      can_repeat: false,
+      id: "539458FB0A93BE4B",
+      tasks: [
+        {
+          id: "528EF206F518EFED",
+          type: "item",
+          item: {
+            id: "oritechthings:frame_placer",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "7FA6B5B87D475270",
+          type: "currency",
+          team_reward: false,
+          amount: 3,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritechthings:accelerator_magnetic_field",
+        count: 1,
+      },
+      x: 19.5,
+      y: 2.5,
+      shape: "circle",
+      dependencies: [
+        "778A876616D4638E",
+      ],
+      size: 1.0,
+      can_repeat: false,
+      id: "2A0BE00CE5037684",
+      tasks: [
+        {
+          id: "15CFEF97B02497CB",
+          type: "item",
+          item: {
+            id: "oritechthings:accelerator_magnetic_field",
+            count: 1,
+          },
+        },
+        {
+          id: "759841C750F27579",
+          type: "item",
+          item: {
+            id: "oritechthings:particle_accelerator_speed_sensor",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "67FF5D28E9C985C3",
+          type: "currency",
+          team_reward: false,
+          amount: 5,
+        },
+        {
+          id: "4087D4FA5F47DE8C",
+          type: "xp",
+          team_reward: false,
+          xp: 25,
+        },
+      ],
+    },
+    {
+      icon: {
+        id: "oritech:exo_jetpack",
+        count: 1,
+      },
+      x: 28.0,
+      y: 0.0,
+      shape: "hexagon",
+      dependencies: [
+        "107B36DF506002D4",
+      ],
+      size: 1.5,
+      can_repeat: false,
+      id: "45B55DF3A6745291",
+      tasks: [
+        {
+          id: "691AD01C6659C17B",
+          type: "item",
+          item: {
+            id: "oritech:exo_jetpack",
+            count: 1,
+          },
+        },
+      ],
+      rewards: [
+        {
+          id: "1022D6CE84D61365",
+          type: "currency",
+          team_reward: false,
+          amount: 25,
+        },
+        {
+          id: "181C45BC293CBD07",
+          type: "xp",
+          team_reward: false,
+          xp: 45,
         },
       ],
     },

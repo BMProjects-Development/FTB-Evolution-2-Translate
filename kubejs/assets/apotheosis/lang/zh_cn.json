@@ -1,0 +1,19 @@
+{
+  "advancements.apotheosis.progression.frontier.criteria.skyline": "获得FTB Skyline",
+  "advancements.apotheosis.progression.ascent.criteria.previous_tier": "解锁世界层级：边境",
+  "advancements.apotheosis.progression.summit.criteria.previous_tier": "解锁世界层级：攀升",
+  "advancements.apotheosis.progression.pinnacle.criteria.previous_tier": "解锁世界层级：高峰",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_helm": "装备基础盔甲韧性至少为2的罕见头盔",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_chest": "装备基础盔甲韧性至少为2的罕见胸甲",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_legs": "装备基础盔甲韧性至少为2的罕见护腿",
+  "advancements.apotheosis.progression.ascent.criteria.uncommon_feet": "装备基础盔甲韧性至少为2的罕见靴子",
+  "advancements.apotheosis.progression.summit.criteria.rare_helm": "装备基础盔甲韧性至少为3的稀有头盔",
+  "advancements.apotheosis.progression.summit.criteria.rare_chest": "装备基础盔甲韧性至少为3的稀有胸甲",
+  "advancements.apotheosis.progression.summit.criteria.rare_legs": "装备基础盔甲韧性至少为3的稀有护腿",
+  "advancements.apotheosis.progression.summit.criteria.rare_feet": "装备基础盔甲韧性至少为3的稀有靴子",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_helm": "装备基础盔甲韧性至少为4的史诗头盔",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_chest": "装备基础盔甲韧性至少为4的史诗胸甲",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_legs": "装备基础盔甲韧性至少为4的史诗护腿",
+  "advancements.apotheosis.progression.pinnacle.criteria.epic_feet": "装备基础盔甲韧性至少为4的史诗靴子",
+  "misc.apotheosis.aurichalcum": "山铜"
+}

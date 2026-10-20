@@ -24,6 +24,10 @@
     {
       "ingredient": "ltxi:medium_voltaic_cell",
       "count": 2
+    },
+    {
+      "ingredient": "ltxi:impulse_tech_part",
+      "count": 2
     }
   ],
   "results": [

@@ -73,7 +73,7 @@
     "",
     "Bake a &aMana Cake&r for a long boost to Mana Regeneration. A &2Mana Martini&r lowers burnout for a while, and mana potions come in six strengths; JEI lists them all.",
     "",
-    "Your mana pool grows by 25 with every magic level, so leveling is the long-term answer.",
+    "Your mana pool grows by 50 with every magic level, so leveling is the long-term answer.",
   ],
   "quest.6F50BE9EBF4E149D.quest_desc": [
     "Spells aren't crafted on a table. They're assembled at a structure that takes your ingredients one at a time.",
@@ -185,7 +185,9 @@
   "quest.5E3BBD0F8D9946E3.quest_desc": [
     "Eleven spell parts can't be bought with skill points. They're learned by experiment.",
     "",
-    "Learn a silver spell part by casting a spell that contains the right combination of parts. Frost Damage, Frost and Storm together teach &2Blizzard&r, for example, and the Compendium's silver spell parts page lists every combination.",
+    "Learn a silver spell part by casting a spell that contains the right combination of parts. Frost Damage, Frost and Storm together teach &2Blizzard&r, for example. The Compendium's silver spell parts page gives hints for working out the rest.",
+    "",
+    "Five of them also need an ingot dropped on the ground within 4 blocks of you when you cast. &2Falling Star&r, Blizzard and Fire Rain need an &aAdamantite Ingot&r. Daylight and Moonrise need an &aAeternium Ingot&r. The ingot is used up when the part is learned.",
     "",
     "A silver part still has to be crafted at the altar afterwards, and several of them need a guardian's essence.",
   ],
@@ -306,6 +308,8 @@
     "{image:ftb:textures/quests/ars_magica/ars_book.png width:127 height:100 align:center}",
     "",
     "Picking it up starts you at magic level 1 with 3 blue skill points, and it opens the &3Arcanist&r shop.",
+    "",
+    "[\"\", \"Each magic level you gain here also levels the pack's \", {\"text\": \"Magic skill tree\", \"color\": \"aqua\", \"underlined\": true, \"click_event\": {\"action\": \"custom\", \"id\": \"ftbquests:docs\", \"payload\": {\"location\": \"guideme,ftb:skills,ftb:magic.md\"}}, \"hover_event\": {\"action\": \"show_text\", \"value\": \"Open the Skill Trees guide\"}}, \", which is separate from these skill points.\"]",
   ],
   "quest.047392629FC030FF.title": "Skill Points",
   "task.6BD5C23831ED861B.title": "&eObserve&r: &dBlack Aurem",

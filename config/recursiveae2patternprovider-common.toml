@@ -1,0 +1,22 @@
+#Enable recursive AE2 pattern generation. When enabled, the mod will automatically generate dependency patterns for missing crafting ingredients. Works with all AE2 pattern types (crafting, processing, smithing, stonecutting, etc.)
+enableRecursiveAE2PatternProvider = true
+#Show the recursive pattern toggle button in the Pattern Encoding Terminal GUI. Default is true
+enableEncodingGuiToggle = true
+#Maximum recursion depth for dependency pattern generation. -1 = no limit, 0 = disable recursion, positive values = max depth
+# Default: -1
+# Range: -1 ~ 100
+recursionDepth = -1
+#Default setting for allowing item substitutes in auto-generated patterns when parent pattern has no substitute info. When true, allows equivalent items (e.g., different wood types) to be used in recipes
+defaultAllowSubstitutes = false
+#Default setting for allowing fluid substitutes in auto-generated patterns when parent pattern has no substitute info. When true, allows equivalent fluids to be used in recipes
+defaultAllowFluidSubstitutes = false
+#Item required to craft recursive patterns. Use format: 'namespace:item_name'. Default is 'minecraft:iron_ingot'
+recipeItem = "minecraft:iron_ingot"
+#How many crafting recipes to generate per dependency item. 1 = only the best recipe (recommended). Higher values re-introduce alternative recipes that AE2 may pick instead of the expected one
+# Default: 1
+# Range: 1 ~ 64
+maxAlternativesPerItem = 1
+#Ignore recipes that consume their own output (e.g. 'clear settings' / NBT-wipe recipes) when generating dependency patterns
+skipSelfReferentialRecipes = true
+#Recipe ids that are never used for auto-generated patterns. Use an exact id ('modid:recipe_name') or a prefix ending with '*' ('modid:*', 'modid:reset/*')
+recipeBlacklist = ["compressium:andesite/uncraft/*", "compressium:calcite/uncraft/*", "compressium:clay/uncraft/*", "compressium:coal/uncraft/*", "compressium:cobbled_deepslate/uncraft/*", "compressium:cobblestone/uncraft/*", "compressium:copper/uncraft/*", "compressium:deepslate/uncraft/*", "compressium:diamond/uncraft/*", "compressium:diorite/uncraft/*", "compressium:dirt/uncraft/*", "compressium:emerald/uncraft/*", "compressium:endstone/uncraft/*", "compressium:gold/uncraft/*", "compressium:granite/uncraft/*", "compressium:gravel/uncraft/*", "compressium:iron/uncraft/*", "compressium:lapis/uncraft/*", "compressium:netherite/uncraft/*", "compressium:netherrack/uncraft/*", "compressium:quartz/uncraft/*", "compressium:redstone/uncraft/*", "compressium:sand/uncraft/*", "compressium:stone/uncraft/*", "compressium:tuff/uncraft/*"]

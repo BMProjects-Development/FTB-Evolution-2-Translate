@@ -1,0 +1,19 @@
+{
+  "id": "chisel_silver",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_silver",
+    "fallback": "Chisel: Silver"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "silver_"
+      }
+    ]
+  }
+}

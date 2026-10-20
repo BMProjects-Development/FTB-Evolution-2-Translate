@@ -1,0 +1,22 @@
+{
+  "id": "decorz_cyber_light_quad_lanterns",
+  "name": {
+    "translate": "collapsible_groups.group.decorz_cyber_light_quad_lanterns",
+    "fallback": "DecorZ: Cyber Light Quad Lanterns"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorz"
+      },
+      {
+        "item_path_starts_with": "cyber_light_"
+      },
+      {
+        "item_path_ends_with": "_quad_lantern"
+      }
+    ]
+  }
+}

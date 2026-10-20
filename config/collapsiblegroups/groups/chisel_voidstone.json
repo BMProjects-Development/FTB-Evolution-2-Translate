@@ -1,0 +1,19 @@
+{
+  "id": "chisel_voidstone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_voidstone",
+    "fallback": "Chisel: Voidstone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "voidstone_"
+      }
+    ]
+  }
+}

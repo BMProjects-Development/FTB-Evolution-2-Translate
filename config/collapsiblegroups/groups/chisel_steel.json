@@ -1,0 +1,104 @@
+{
+  "id": "chisel_steel",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_steel",
+    "fallback": "Chisel: Steel"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "steel_"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_glass"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_black"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_blue"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_brown"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_cyan"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_gray"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_green"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_light_blue"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_light_gray"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_lime"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_magenta"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_orange"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_pink"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_purple"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_red"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_white"
+        }
+      },
+      {
+        "not": {
+          "item_path_starts_with": "steel_framed_stained_glass_yellow"
+        }
+      }
+    ]
+  }
+}

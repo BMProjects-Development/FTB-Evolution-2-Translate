@@ -1,0 +1,19 @@
+{
+  "id": "chisel_basalt",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_basalt",
+    "fallback": "Chisel: Basalt"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "basalt_"
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@
 {
   changelog: {
     // Default: false
-    always_show: false,
+    always_show: true,
     // Default: 0.75 | Range: 0.25 ~ 2.0
     font_scale: 0.75,
     // Default: 10 | Range: 1 ~ 50

@@ -1,4 +1,5 @@
 {
+  "task.723B25C8404ECDE6.title": "Kill any &5Ars Magica Guardian&r or &5Witchery Boss&r",
   "quest.74EBD1E63235A9E7.title": "&dBound Essence",
   "quest.686C88AC0EAC0580.quest_desc": [
     "Launch &aStellar Charts&r through the &6FTB Skyline&r. The &aBeast Mind&r uses them too.",
@@ -65,11 +66,11 @@
   "quest.524F093A735BE7DD.quest_desc": [
     "The &6FTB Fabricator&r is the first step towards the pack's main goal.",
     "",
-    "It makes the &6FTB Skyline&r &oand&r every Feed The Beast component from the path components all the way up to the &cHeart of the Beast&r.",
+    "It makes the &6FTB Skyline&r &oand&r every Feed The Beast component all the way up to the &cHeart of the Beast&r.",
     "",
-    "It runs on power and takes up to nine ingredients and two fluids at once. You never pick a recipe. Fill the input buffer and the Fabricator starts whichever recipe matches.",
+    "It requires energy and takes up to nine ingredients and two fluids at once. You don't need to pick a recipe. Simply fill the inputs and the Fabricator starts whichever recipe matches.",
     "",
-    "The Fabricator takes its power every tick. If the buffer runs short, the craft stops until power comes back, so the late recipes need cables and storage that keep up with their draw.",
+    "The Fabricator takes its power input every tick, unlike other machines that run on a power buffer. If it runs out of power, the craft stops until power comes back, so make sure the late-game recipes have enough cables and storage to keep up.",
   ],
   "quest.6657769447DCC151.quest_desc": [
     "&aLogic Lattices&r are made in &eExtendedAE&r's &2Crystal Assembler&r, two per craft.",
@@ -79,12 +80,15 @@
   "quest.1AF9F40BC39B15E7.title": "&dSoul Covenant",
   "quest.783B31D7CB5FECF3.quest_desc": [
     "For the second trial, kill either the &aThunder King&r or the &2FrostBear&r. Either one completes the quest.",
+    "",
+    "The FrostBear does not spawn in the wild. It waits in the &bIce Arena&r, which generates in snowy and frozen biomes. Search for &9Ice Arena&r with an &eExplorer's Compass&r to find the nearest one.",
   ],
   "quest.1680E39D555B6F9D.quest_desc": [
     "The &aCausal Anchor&r needs &eJust Dire Things&r' time crystals and machinery, &eOritech&r's &2Tachyon Absorber&r and the &eLTX&r Nova.",
     "",
     "&aTime Crystals&r grow from a Time Crystal budding block, so set one up early.",
   ],
+  "task.530E9F4F71784E0C.title": "Kill the &aThunder King&r or the &2FrostBear&r",
   "quest.303158D55BB8EB0A.quest_desc": [
     "The last trial is a magical boss. Any &eArs Magica&r guardian counts, and so do &eWitchery&r's Death, Gulg, Horned Huntsman, Leonard and Mog.",
     "",
@@ -238,8 +242,6 @@
   "quest.763DA227802CAF6B.title": "&cPhase Three: Assemblies",
   "quest.7B97384DD7B5F13A.title": "&3The First Trial",
   "task.26E9F8319109DD27.title": "&a64k Storage Part&r or &a16k ME Storage Component&r",
-  "task.530E9F4F71784E0C.title": "Kill the &aThunder King&r or the &2FrostBear&r",
-  "task.723B25C8404ECDE6.title": "Kill any &5Ars Magica Guardian&r or &5Witchery Boss&r",
   "quest.1680E39D555B6F9D.title": "&bAgainst Causality",
   "quest.2905D04F590BAC36.quest_desc": [
     "This is &6FTB Evolution 2's&r end game.",

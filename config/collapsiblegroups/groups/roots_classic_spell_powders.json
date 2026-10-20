@@ -1,0 +1,12 @@
+{
+  "id": "roots_classic_spell_powders",
+  "name": {
+    "translate": "collapsible_groups.group.roots_classic_spell_powders",
+    "fallback": "Roots Classic: Spell Powders"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "rootsclassic:spell_powder"
+  }
+}

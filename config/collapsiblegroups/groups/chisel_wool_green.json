@@ -1,0 +1,19 @@
+{
+  "id": "chisel_wool_green",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_wool_green",
+    "fallback": "Chisel: Green Wool"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "wool_green_l"
+      }
+    ]
+  }
+}

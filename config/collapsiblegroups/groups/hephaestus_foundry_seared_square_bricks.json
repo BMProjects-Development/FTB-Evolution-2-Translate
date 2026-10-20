@@ -1,0 +1,19 @@
+{
+  "id": "hephaestus_foundry_seared_square_bricks",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_foundry_seared_square_bricks",
+    "fallback": "Hephaestus Foundry: Square Seared Brick Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "hephaestus"
+      },
+      {
+        "item_path_contains": "seared_square_bricks"
+      }
+    ]
+  }
+}

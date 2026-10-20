@@ -3,7 +3,8 @@
     "chunkOilChance": 0,
     "minOil": 10,
     "maxOil": 50000,
-    "oilExtractionPerTick": 5
+    "oilExtractionPerTick": 5,
+    "pumpjackFluid": "oritech:still_oil"
   },
   "gravityConfig": {
     "enableGravityEffects": true,
@@ -16,7 +17,7 @@
     "enableOxygenSystem": true,
     "oxygenUpdateInterval": 20,
     "oxygenDamageInterval": 20,
-    "noOxygenDamage": 0.5,
+    "noOxygenDamage": 2.0,
     "baseOxygenDrain": 1,
     "sprintOxygenDrainMultiplier": 2,
     "jetOxygenDrainMultiplier": 4
@@ -42,6 +43,9 @@
     "infectionDamage": 1.0,
     "corrosionTickInterval": 20,
     "corrosionDamage": 1.0
+  },
+  "energyConfig": {
+    "energyMultiplier": 15.0
   },
   "machineConfig": {
     "vacuumatorEnergyPerCraft": 100,

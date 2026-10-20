@@ -1,0 +1,19 @@
+{
+  "id": "ltx_industries_neon_lights",
+  "name": {
+    "translate": "collapsible_groups.group.ltx_industries_neon_lights",
+    "fallback": "LTX Industries: Neon Lights"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "ltxi"
+      },
+      {
+        "item_path_contains": "neon_light"
+      }
+    ]
+  }
+}

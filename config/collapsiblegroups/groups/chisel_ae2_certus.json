@@ -1,0 +1,19 @@
+{
+  "id": "chisel_ae2_certus",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_ae2_certus",
+    "fallback": "Chisel: Certus Quartz"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "certus_"
+      }
+    ]
+  }
+}

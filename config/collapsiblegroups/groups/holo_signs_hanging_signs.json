@@ -1,0 +1,19 @@
+{
+  "id": "holo_signs_hanging_signs",
+  "name": {
+    "translate": "collapsible_groups.group.holo_signs_hanging_signs",
+    "fallback": "HoloSigns: Hanging Signs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "holosigns"
+      },
+      {
+        "item_path_contains": "hanging_sign"
+      }
+    ]
+  }
+}

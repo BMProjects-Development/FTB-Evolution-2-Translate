@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_adze_heads",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_adze_heads",
+    "fallback": "Hephaestus Tools: Adze Heads"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:adze_head"
+  }
+}

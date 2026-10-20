@@ -27,7 +27,7 @@ nodeAccessMode = "Teams"
 
 [async]
 	#Plan item transfers on worker threads. Disable to force the synchronous path.
-	asyncPlanning = true
+	asyncPlanning = false
 	#Worker threads for transfer planning. 0 = auto (min(4, cores - 2)).
 	# Default: 0
 	# Range: 0 ~ 16

@@ -1,0 +1,19 @@
+{
+  "id": "chisel_stained_glass_yellow",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_stained_glass_yellow",
+    "fallback": "Chisel: Yellow Stained Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "stained_glass_yellow_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:trident",
+    {
+      "id": "iceandfire:tide_trident",
+      "required": false
+    },
+    {
+      "id": "nautec:neptunes_trident",
+      "required": false
+    },
+    {
+      "id": "witchery:huntsman_spear",
+      "required": false
+    },
+    {
+      "id": "neovitae:throwing_dagger",
+      "required": false
+    },
+    {
+      "id": "neovitae:amethyst_throwing_dagger",
+      "required": false
+    },
+    {
+      "id": "neovitae:tipped_throwing_dagger",
+      "required": false
+    },
+    {
+      "id": "neovitae:throwing_dagger_syringe",
+      "required": false
+    }
+  ]
+}

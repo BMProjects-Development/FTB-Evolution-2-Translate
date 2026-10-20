@@ -1,0 +1,19 @@
+{
+  "id": "chisel_dirt",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_dirt",
+    "fallback": "Chisel: Dirt"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "dirt_"
+      }
+    ]
+  }
+}

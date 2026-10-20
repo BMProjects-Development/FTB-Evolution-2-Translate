@@ -1,0 +1,30 @@
+{
+  "id": "stellaris_cans",
+  "name": {
+    "translate": "collapsible_groups.group.stellaris_cans",
+    "fallback": "Stellaris: Cans"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "stellaris"
+      },
+      {
+        "item_path_ends_with": "_can"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "big_"
+        }
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "stellaris:small_can"
+        }
+      }
+    ]
+  }
+}

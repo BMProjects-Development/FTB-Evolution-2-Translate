@@ -711,19 +711,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "neovitae:primitive_explosive_cell",
-          "quality": 3,
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "neovitae:primitive_crystalline_resonator",
           "quality": 3,
           "weight": 6
@@ -740,28 +727,6 @@
           "name": "neovitae:intermediate_cutting_fluid",
           "quality": 3,
           "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.7,
-                "min": 0.3
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "neovitae:hellforged_explosive_cell",
-          "quality": 5,
-          "weight": 4
         },
         {
           "type": "minecraft:item",

@@ -1,0 +1,8 @@
+{
+  "type": "horsepowered:grinding",
+  "ingredient": "minecraft:amethyst_shard",
+  "result": {
+    "id": "occultism:amethyst_dust"
+  },
+  "time": 16
+}

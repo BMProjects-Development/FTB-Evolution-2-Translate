@@ -275,7 +275,3 @@
 	# Default: 80
 	# Range: > 1
 	energy_usage = 80
-	#Base ticks needed for one machine operation
-	# Default: 600
-	# Range: > 1
-	ticks_per_operation = 600

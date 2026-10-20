@@ -1,0 +1,117 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "colossal_reactors"
+    }
+  ],
+  "type": "colossal_reactors:elec_coils",
+  "overwrite": true,
+  "entries": [
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/graphite"
+      ],
+      "eff_coe": 0.5,
+      "eff_max": 0.66
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/iron"
+      ],
+      "eff_coe": 0.66,
+      "eff_max": 0.75
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/tin"
+      ],
+      "eff_coe": 0.75,
+      "eff_max": 0.8
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/nickel"
+      ],
+      "eff_coe": 0.75,
+      "eff_max": 0.9
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/aluminum"
+      ],
+      "eff_coe": 0.8,
+      "eff_max": 0.9
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/copper_all"
+      ],
+      "eff_coe": 0.8,
+      "eff_max": 1.0
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/bronze"
+      ],
+      "eff_coe": 0.85,
+      "eff_max": 1.0
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/constantan"
+      ],
+      "eff_coe": 0.9,
+      "eff_max": 1.0
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/silver"
+      ],
+      "eff_coe": 1.0,
+      "eff_max": 1.0
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/gold"
+      ],
+      "eff_coe": 1.0,
+      "eff_max": 1.3
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/electrum"
+      ],
+      "eff_coe": 1.15,
+      "eff_max": 1.3
+    },
+    {
+      "valid_blocks": [
+        "#c:storage_blocks/netherite"
+      ],
+      "eff_coe": 1.3,
+      "eff_max": 1.5
+    },
+    {
+      "valid_blocks": [
+        "ftb:adamantite_turbine_coil"
+      ],
+      "eff_coe": 1.45,
+      "eff_max": 1.7
+    },
+    {
+      "valid_blocks": [
+        "ftb:aeternium_turbine_coil"
+      ],
+      "eff_coe": 1.6,
+      "eff_max": 1.9
+    },
+    {
+      "valid_blocks": [
+        "ftb:aurichalcum_turbine_coil"
+      ],
+      "eff_coe": 1.8,
+      "eff_max": 2.2
+    }
+  ]
+}

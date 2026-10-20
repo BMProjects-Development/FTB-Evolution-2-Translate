@@ -1,0 +1,22 @@
+{
+  "id": "decorz_cyber_light_covers",
+  "name": {
+    "translate": "collapsible_groups.group.decorz_cyber_light_covers",
+    "fallback": "DecorZ: Cyber Light Covers"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "decorz"
+      },
+      {
+        "item_path_starts_with": "cyber_light_"
+      },
+      {
+        "item_path_ends_with": "_cover"
+      }
+    ]
+  }
+}

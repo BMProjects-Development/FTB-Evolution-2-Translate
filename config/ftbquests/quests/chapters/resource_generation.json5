@@ -97,7 +97,7 @@
         id: "minecraft:spawner",
         count: 1,
       },
-      x: -0.5,
+      x: 1.0,
       y: 3.0,
       shape: "square",
       size: 1.0,
@@ -3730,7 +3730,7 @@
         id: "mobflowutilities:dark_dirt",
         count: 1,
       },
-      x: 0.5,
+      x: 0.0,
       y: 3.0,
       shape: "square",
       size: 1.0,
@@ -3765,7 +3765,7 @@
         id: "mobflowutilities:damage_pad",
         count: 1,
       },
-      x: 0.0,
+      x: -0.5,
       y: 4.5,
       shape: "diamond",
       dependencies: [
@@ -3811,7 +3811,7 @@
         id: "mobflowutilities:collector",
         count: 1,
       },
-      x: 0.5,
+      x: 0.0,
       y: 5.0,
       shape: "diamond",
       dependencies: [
@@ -3849,7 +3849,7 @@
         id: "mobflowutilities:genesis_chamber",
         count: 1,
       },
-      x: 1.0,
+      x: 0.5,
       y: 4.5,
       shape: "diamond",
       dependencies: [
@@ -4486,8 +4486,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "minecraft:fortune": 3,
                 "minecraft:unbreaking": 3,
+                "minecraft:fortune": 3,
               },
             },
           },
@@ -4581,8 +4581,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "apothic_enchanting:miners_fervor": 3,
                 "minecraft:mending": 1,
+                "apothic_enchanting:miners_fervor": 3,
               },
             },
           },
@@ -4676,8 +4676,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "apothic_enchanting:boon_of_the_earth": 3,
                 "minecraft:unbreaking": 8,
+                "apothic_enchanting:boon_of_the_earth": 3,
               },
             },
           },
@@ -4863,6 +4863,7 @@
         {
           id: "2E8303CBEC3DC1FC",
           type: "random",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 1862978040036675512,
         },
@@ -4908,6 +4909,7 @@
         {
           id: "7DDAA67349353535",
           type: "random",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 1862978040036675512,
         },
@@ -4947,6 +4949,7 @@
         {
           id: "2A98494B36832691",
           type: "random",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 1862978040036675512,
         },
@@ -4985,6 +4988,7 @@
         {
           id: "4D8A336FFCA0F405",
           type: "random",
+          team_reward: false,
           exclude_from_claim_all: true,
           table_id: 1862978040036675512,
         },
@@ -5052,6 +5056,13 @@
   ],
   quest_links: [
     {
+      linked_quest: "134EFEDDD83B24B0",
+      x: -4.0,
+      y: 7.75,
+      shape: "gear",
+      id: "5AD838286DA79E9E",
+    },
+    {
       linked_quest: "72AB47828922F73A",
       x: 1.0,
       y: 2.0,
@@ -5108,6 +5119,13 @@
       shape: "hexagon",
       size: 1.5,
       id: "334A668D3A9CBA40",
+    },
+    {
+      linked_quest: "5B16786955266DDD",
+      x: -1.0,
+      y: 3.0,
+      shape: "square",
+      id: "45AC7B7329EA5074",
     },
   ],
   images: [

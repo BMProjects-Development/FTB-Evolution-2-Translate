@@ -634,10 +634,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "hats:hatpants"
-        },
-        {
-          "type": "minecraft:item",
           "name": "hats:headbolts"
         },
         {

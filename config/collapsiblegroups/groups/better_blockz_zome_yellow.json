@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zome_yellow",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zome_yellow",
+    "fallback": "Better Blockz: Zome Yellow"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zome_yellow_"
+      }
+    ]
+  }
+}

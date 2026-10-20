@@ -1266,7 +1266,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "ftbmaterials:platinum_deepslate_ore",
+          "name": "ftbmaterials:platinum_stone_ore",
           "weight": 20,
           "functions": [
             {

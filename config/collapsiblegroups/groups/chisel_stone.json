@@ -1,0 +1,19 @@
+{
+  "id": "chisel_stone",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_stone",
+    "fallback": "Chisel: Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "stone_"
+      }
+    ]
+  }
+}

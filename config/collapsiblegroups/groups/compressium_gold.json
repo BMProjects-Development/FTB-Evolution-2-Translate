@@ -1,0 +1,19 @@
+{
+  "id": "compressium_gold",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_gold",
+    "fallback": "Compressium: Gold"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "gold_"
+      }
+    ]
+  }
+}

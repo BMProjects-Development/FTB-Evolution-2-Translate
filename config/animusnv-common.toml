@@ -629,8 +629,15 @@
 
 	#Iron's Arms 'n Artifice Integration
 	[animusnv.ironsArtifice]
-		#EV drained from the shooter's network per shot with a Blood Bullet modifier
-		#Default: 50
-		# Default: 50
+		#EV drained from the shooter's network per round loaded when reloading a gun with a Blood Bullet modifier
+		#Default: 100
+		# Default: 100
 		# Range: 0 ~ 10000
-		bloodBulletEvCost = 50
+		bloodBulletReloadCost = 100
+
+	#Sanguine Dynamo. Conversion rates per orb are set by animusnv:sanguine_dynamo recipes.
+	[animusnv.sanguineDynamo]
+		#Internal FE buffer capacity
+		# Default: 250000
+		# Range: 1000 ~ 100000000
+		bufferCapacity = 250000

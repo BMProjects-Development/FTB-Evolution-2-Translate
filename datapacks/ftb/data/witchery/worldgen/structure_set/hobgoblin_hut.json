@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "witchery:hobgoblin_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1521652344,
+    "separation": 8,
+    "spacing": 32
+  }
+}

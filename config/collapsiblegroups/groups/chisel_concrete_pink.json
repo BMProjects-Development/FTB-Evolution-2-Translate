@@ -1,0 +1,19 @@
+{
+  "id": "chisel_concrete_pink",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_concrete_pink",
+    "fallback": "Chisel: Pink Concrete"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "concrete_pink_"
+      }
+    ]
+  }
+}

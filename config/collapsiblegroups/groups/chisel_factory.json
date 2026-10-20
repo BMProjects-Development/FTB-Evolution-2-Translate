@@ -1,0 +1,19 @@
+{
+  "id": "chisel_factory",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_factory",
+    "fallback": "Chisel: Factory"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "factory_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mysticalcustomization:chromium_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:cinnabar_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:dark_gem_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:desh_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:entro_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:fluxite_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:iesnium_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:kivi_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:moonstone_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:niobium_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:oil_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:redstone_crystal_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:salt_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:vitae_essence",
+      "required": false
+    },
+    {
+      "id": "mysticalcustomization:xychorium_essence",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:remove_features",
+  "biomes": {
+    "type": "lithostitched:any"
+  },
+  "features": [
+    "minecraft:ore_gold_deltas",
+    "minecraft:ore_gold_nether"
+  ],
+  "step": "underground_ores"
+}

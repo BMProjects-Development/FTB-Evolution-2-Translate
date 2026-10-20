@@ -1,0 +1,19 @@
+{
+  "id": "chisel_torch",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_torch",
+    "fallback": "Chisel: Torch"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "torch_"
+      }
+    ]
+  }
+}

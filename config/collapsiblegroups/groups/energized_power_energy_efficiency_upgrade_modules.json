@@ -1,0 +1,19 @@
+{
+  "id": "energized_power_energy_efficiency_upgrade_modules",
+  "name": {
+    "translate": "collapsible_groups.group.energized_power_energy_efficiency_upgrade_modules",
+    "fallback": "Energized Power: Energy Efficiency Upgrade Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "energizedpower"
+      },
+      {
+        "item_path_starts_with": "energy_efficiency_upgrade_module_"
+      }
+    ]
+  }
+}

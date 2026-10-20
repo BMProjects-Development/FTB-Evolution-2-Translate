@@ -1,0 +1,62 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:never"
+    }
+  ],
+  "type": "powah:energizing",
+  "energy": 2000000000,
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:dusts/redstone",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    },
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:powah/spirited_crystal",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    },
+    "powah:nitro_crystal_block",
+    "powah:nitro_crystal_block",
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:powah/spirited_crystal",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    },
+    {
+      "neoforge:ingredient_type": "productivebees:component",
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:powah/blazing_crystal",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "items": "productivebees:spawn_egg_configurable_bee"
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:entity_data": {
+        "type": "productivebees:powah/nitro_crystal",
+        "id": "productivebees:configurable_bee"
+      }
+    },
+    "id": "productivebees:spawn_egg_configurable_bee"
+  }
+}

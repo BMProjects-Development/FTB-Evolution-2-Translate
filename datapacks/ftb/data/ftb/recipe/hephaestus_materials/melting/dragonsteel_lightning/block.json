@@ -7,7 +7,7 @@
   "ingredient": "iceandfire:dragonsteel_lightning_block",
   "result": {
     "amount": 810,
-    "id": "ftb:molten_dragonsteel_lightning"
+    "id": "hephaestus:molten_dragonsteel_lightning"
   },
   "temperature": 1600,
   "time": 240

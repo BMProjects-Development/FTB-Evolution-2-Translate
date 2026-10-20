@@ -4,9 +4,12 @@ const $EventBlockPos = Java.loadClass("net.minecraft.core.BlockPos");
 const $EventMobEffectInstance = Java.loadClass("net.minecraft.world.effect.MobEffectInstance");
 
 const EMPTY_BLOCKS = ["minecraft:air", "minecraft:cave_air", "minecraft:void_air", "minecraft:water", "minecraft:lava"];
+const AIR_BLOCKS = ["minecraft:air", "minecraft:cave_air", "minecraft:void_air"];
 
 const EventLib = {
   isEmpty: (level, x, y, z) => EMPTY_BLOCKS.indexOf(level.getBlock(x, y, z).id) !== -1,
+
+  isAir: (level, x, y, z) => AIR_BLOCKS.indexOf(level.getBlock(x, y, z).id) !== -1,
 
   randomLocationAround: (level, pos, minDistance, maxDistance) => {
     let angle = Math.random() * Math.PI * 2;
@@ -49,6 +52,7 @@ const EventLib = {
           block = level.getBlock(x, y, z);
           if (checkBlocks.indexOf(block.id) === -1) continue;
           if (requireBlockBelow && EventLib.isEmpty(level, x, y - 1, z)) continue;
+          if (requireBlockBelow && !EventLib.isAir(level, x, y + 1, z)) continue;
           blocks.push(block);
         }
       }

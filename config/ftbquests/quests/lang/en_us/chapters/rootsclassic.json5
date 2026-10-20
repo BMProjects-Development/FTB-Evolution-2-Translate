@@ -135,6 +135,8 @@
     "To get started, craft a &aBark Knife&r and use it on some logs to harvest their bark.",
     "",
     "&eNote&r: The &aRunic Tablet&r guidebook has more in-depth explanations to some features of this mod.",
+    "",
+    "[\"\", \"Altar rituals and staff spells also level your \", {\"text\": \"Magic skill tree\", \"color\": \"aqua\", \"underlined\": true, \"click_event\": {\"action\": \"custom\", \"id\": \"ftbquests:docs\", \"payload\": {\"location\": \"guideme,ftb:skills,ftb:magic.md\"}}, \"hover_event\": {\"action\": \"show_text\", \"value\": \"Open the Skill Trees guide\"}}, \".\"]",
   ],
   "quest.7755246DDD1956F3.title": "&3Engraved Blade",
   "quest.4D563409688A677A.quest_desc": [

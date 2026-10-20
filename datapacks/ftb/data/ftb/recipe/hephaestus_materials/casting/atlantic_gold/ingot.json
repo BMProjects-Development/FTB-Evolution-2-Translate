@@ -4,7 +4,7 @@
   "cooling_time": 100,
   "fluid": {
     "amount": 90,
-    "id": "ftb:molten_atlantic_gold"
+    "id": "hephaestus:molten_atlantic_gold"
   },
   "result": {
     "id": "nautec:atlantic_gold_ingot"

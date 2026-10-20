@@ -1,0 +1,19 @@
+{
+  "id": "compressium_dirt",
+  "name": {
+    "translate": "collapsible_groups.group.compressium_dirt",
+    "fallback": "Compressium: Dirt"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "compressium"
+      },
+      {
+        "item_path_starts_with": "dirt_"
+      }
+    ]
+  }
+}

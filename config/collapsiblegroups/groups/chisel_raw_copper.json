@@ -1,0 +1,19 @@
+{
+  "id": "chisel_raw_copper",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_raw_copper",
+    "fallback": "Chisel: Raw Copper"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "raw_copper_"
+      }
+    ]
+  }
+}

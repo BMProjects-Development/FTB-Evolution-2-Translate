@@ -470,6 +470,48 @@
             }
           },
           "cost": 40
+        },
+        {
+          "name": "petri_lithophiles",
+          "item": {
+            "id": "nautec:petri_dish",
+            "count": 1,
+            "components": {
+              "nautec:bacteria": {
+                "amount": 520,
+                "analyzed": true,
+                "bacteria": "nautec:lithophiles",
+                "stats": {
+                  "base_stats": {
+                    "color": -4934466,
+                    "growth_rate": {
+                      "max": 1.0,
+                      "min": 0.5
+                    },
+                    "lifespan": {
+                      "max": 2400,
+                      "min": 1200
+                    },
+                    "mutation_resistance": {
+                      "max": 0.1,
+                      "min": 0.0
+                    },
+                    "production_rate": {
+                      "max": 0.5,
+                      "min": 0.1
+                    }
+                  },
+                  "color": -4934466,
+                  "growth_rate": 5.0,
+                  "lifespan": 24000,
+                  "mutation_resistance": 1.0,
+                  "production_rate": 2.0,
+                  "type": "nautec:simple"
+                }
+              }
+            }
+          },
+          "cost": 40
         }
       ]
     }

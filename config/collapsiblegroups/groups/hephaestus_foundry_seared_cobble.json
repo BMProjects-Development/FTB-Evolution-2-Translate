@@ -1,0 +1,19 @@
+{
+  "id": "hephaestus_foundry_seared_cobble",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_foundry_seared_cobble",
+    "fallback": "Hephaestus Foundry: Seared Cobble Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "hephaestus"
+      },
+      {
+        "item_path_contains": "seared_cobble"
+      }
+    ]
+  }
+}

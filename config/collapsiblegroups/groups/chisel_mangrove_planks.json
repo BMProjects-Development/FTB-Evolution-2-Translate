@@ -1,0 +1,19 @@
+{
+  "id": "chisel_mangrove_planks",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_mangrove_planks",
+    "fallback": "Chisel: Mangrove Planks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "mangrove_planks_"
+      }
+    ]
+  }
+}

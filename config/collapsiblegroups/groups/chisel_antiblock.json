@@ -1,0 +1,19 @@
+{
+  "id": "chisel_antiblock",
+  "name": {
+    "translate": "collapsible_groups.group.chisel_antiblock",
+    "fallback": "Chisel: Antiblock"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "chisel"
+      },
+      {
+        "item_path_starts_with": "antiblock_"
+      }
+    ]
+  }
+}

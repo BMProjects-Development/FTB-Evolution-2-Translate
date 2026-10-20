@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "thunder_king": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "thunderrelics:thunder_king"
+            }
+          }
+        ]
+      }
+    },
+    "frost_bear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "frostbear:frost_bear"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "thunder_king",
+      "frost_bear"
+    ]
+  ]
+}

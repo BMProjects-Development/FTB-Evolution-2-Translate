@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "minecraft:ancient_city/structures",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "witchery_forbidden_magic:ancient_city/ancient_tablet_2",
+        "processors": "witchery_forbidden_magic:ancient_tablet",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

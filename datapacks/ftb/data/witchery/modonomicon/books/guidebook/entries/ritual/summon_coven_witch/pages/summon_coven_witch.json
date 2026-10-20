@@ -1,0 +1,13 @@
+{
+  "type": "modonomicon:spotlight",
+  "condition": {
+    "type": "modonomicon:none"
+  },
+  "id": "summon_coven_witch",
+  "item": {
+    "id": "witchery:coven_contract"
+  },
+  "sort_number": 0,
+  "text": "book.witchery.guidebook.ritual.summon_coven_witch.summon_coven_witch.text",
+  "title": "book.witchery.guidebook.ritual.summon_coven_witch.summon_coven_witch.title"
+}

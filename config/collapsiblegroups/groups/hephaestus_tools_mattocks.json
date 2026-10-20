@@ -1,0 +1,12 @@
+{
+  "id": "hephaestus_tools_mattocks",
+  "name": {
+    "translate": "collapsible_groups.group.hephaestus_tools_mattocks",
+    "fallback": "Hephaestus Tools: Mattocks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hephaestus_tools:mattock"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/replica"
+      }
+    }
+  ],
+  "type": "nautec:bacteria_mutation",
+  "catalyst": "#c:ingots/replica",
+  "chance": 5.0,
+  "input_bacteria": "nautec:ferrophiles",
+  "result_bacteria": "ftb:replicophiles"
+}

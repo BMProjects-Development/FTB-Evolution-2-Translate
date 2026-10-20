@@ -23,7 +23,7 @@
     "&aExternal Storages&r can access inventories outside of your storage network (chests, drawers, tanks, etc...)",
   ],
   "quest.565BE0BC0B0CC3F8.quest_desc": [
-    "A &aDank&r is a portable inventory with that holds a ton of items per slot.",
+    "A &aDank&r is a portable inventory that holds a ton of items per slot.",
     "",
     "&aDank 1&r holds 256 of one item in each of its 9 slots, and every tier above it adds slots and raises that limit.",
     "",
@@ -193,7 +193,7 @@
     "If a &cPattern Provider&r is connected to an unconfigured interface on &bsubnets&r, it will skip the interface entirely and push directly to that subnet's storage, not filling it with recipe batches, and more importantly, not inserting the next batch until there's space in storage.",
   ],
   "quest.4DCCA4E4366E74A9.quest_desc": [
-    "The &dInfinity Storage Drive Block&r holds up to 8 drives. Each drive supplies 2,147,483,647 of its resource and never empties. There are drives for cobblestone, dirt, gravel, sand, stone, water and lava.",
+    "The &dInfinity Storage Drive Block&r holds up to 8 drives. Each drive supplies 2,147,483,647 of its resource and never empties. You can craft the cobblestone, stone and water drives, and the &dMachinist&r shopkeeper sells the dirt, sand, gravel and lava drives.",
     "",
     "Read the block with a Refined Storage &aExternal Storage&r or an AE2 &2Storage Bus&r to put that supply in your network.",
     "",
@@ -512,7 +512,6 @@
     "Start here. A 1k part is cheap enough to make several while you work out how much space you actually need.",
   ],
   "quest.5D7BD0CDE35A3196.title": "&fME Stock Export Bus",
-  "quest.420F0EE98B6DC834.title": "&dPattern Encoding",
   "quest.59AD05C4C9642285.title": "&2Iron Autocrafter",
   "quest.475662C0E0DCB7B3.title": "&aStorage Upgrades",
   "quest.193CAE408B6B3A27.title": "&aCompacting Drawers",
@@ -954,15 +953,6 @@
     "This allows you to void specific items that go into the chest, and comes with a filter that can do some pretty awesome stuff. You could even set the filter to void everything from a certain mod!",
   ],
   "task.3D22C65DCF3BF778.title": "Any #ftb:tiered_importers",
-  "quest.420F0EE98B6DC834.quest_desc": [
-    "&eNot Enough Patterns&r (&eNEP&r) allows you to bypass a lot of the logistics involved with autocrafting.",
-    "",
-    "When a &aDecoder&r is installed onto your AE2 network and a mod's &dEncoding Module&r is installed, creating a processing pattern for that matching recipe will automatically convert it into a &eNEP&r mod pattern.",
-    "",
-    "Each &eNEP&r pattern behaves slightly differently, but in general it attempts to automatically insert all items that make up that recipe, even to non-connected blocks like pedestals, process the recipe, then return the items automatically.",
-    "",
-    "You may still sometimes require an &aImport Card&r to pull the items back into your system.",
-  ],
   "quest.59AD05C4C9642285.quest_desc": [
     "The &2Iron Autocrafter&r has 27 &aPattern&r slots and works as fast as a fully upgraded Autocrafter.",
   ],

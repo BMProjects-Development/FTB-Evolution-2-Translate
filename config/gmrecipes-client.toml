@@ -1,4 +1,0 @@
-#Render every installed recipe type that nothing else handles, using only the vanilla recipe interface.
-#Each registered type is scanned in full whenever a page uses <RecipeFor>, so a large pack pays for this on every page open.
-#Read once when the first guide page opens; a change takes effect after a game restart.
-generic_fallback_for_unknown_types = false

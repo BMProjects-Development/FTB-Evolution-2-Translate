@@ -24,6 +24,10 @@
     {
       "ingredient": "ltxi:medium_voltaic_cell",
       "count": 2
+    },
+    {
+      "ingredient": "ltxi:logic_core",
+      "count": 2
     }
   ],
   "results": [

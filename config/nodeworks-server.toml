@@ -105,14 +105,30 @@
 			# Default: 20
 			# Range: 0 ~ 100000
 			maxErrorLogsPerTick = 20
-			# Max items moved per tick per network across all network:insert and
-			# network:tryInsert calls. Independent of maxItemMoveCallsPerTick (a
-			# single call can move 64 items, so call count != item count). 0 means
-			# unlimited. When exhausted, tryInsert returns partial counts and atomic
-			# insert short-circuits to false.
-			# Default: 0
+			# Max items moved per tick per network across all script insert and
+			# tryInsert calls. Independent of maxItemMoveCallsPerTick (a single call
+			# can move many items, so call count != item count). When exhausted,
+			# tryInsert silently moves what it can and insert fails with an error in the
+			# terminal. The default of 16384 is 256 full stacks per tick. 0 also means
+			# 16384, this one has no unlimited setting.
+			# Default: 16384
 			# Range: > 0
 			maxItemsMovedPerTickPerNetwork = 0
+			# Max items one importer or stocker run moves. Separate from
+			# maxItemsMovedPerTickPerNetwork, each preset gets its own allowance per run.
+			# A run that hits it stops and the rest moves on later runs. 0, or anything
+			# above 16384, means 16384, this one has no unlimited setting.
+			# Default: 8192
+			# Range: > 0
+			maxItemsPerPresetRun = 8192
+			# Milliseconds per tick per network that tryInsert moves may spend, and the time
+			# each importer or stocker run gets. A move that runs out stops and keeps what
+			# already moved, the rest moves on later ticks. This is the backstop for storages
+			# slow enough that even maxItemsMovedPerTickPerNetwork items take too long, so it
+			# can't be turned off.
+			# Default: 10
+			# Range: 1 ~ 50
+			maxItemMoveMsPerTickPerNetwork = 10
 
 		[scripting.rateLimits.engine]
 			# Max simultaneously-registered callbacks per kind per engine (scheduler
@@ -146,7 +162,7 @@
 			#   Scheduler          global scheduler table (scheduler:tick, second, delay, cancel)
 			#   CardHandle         storage card methods (insert, tryInsert, find, findEach, count, face, slots)
 			#   RedstoneCard       redstone card methods (powered, strength, set, onChange)
-			#   ObserverCard       observer card methods (block, state, onChange)
+			#   ObserverCard       observer card methods (block, state, data, energy, onChange)
 			#   VariableHandle     variable card methods (get, set, cas, increment, decrement, etc.)
 			#   PlacerHandle       placer methods (place, block, isBlocked)
 			#   BreakerHandle      breaker methods (mine, cancel, block, state, isMining, progress)
@@ -156,6 +172,14 @@
 			# (forces scripts to use the partial-success tryInsert variants, which
 			#  interact better with the per-tick item budget).
 			disabledMethods = []
+			# Blocks whose data `ObserverCard:data()` won't read, for blocks you
+			# don't want scripts to see the internals of. Bare ids match exactly,
+			# entries starting with `#` match a block tag. Reading a listed block
+			# throws an error in the script. To turn off `data()` everywhere,
+			# add "ObserverCard:data" to disabledMethods instead.
+			# Example: ["nodeworks:terminal", "#c:chests"]
+			# Empty list = no restrictions.
+			observerDeniedBlocks = []
 
 		# Device policy controls.
 		# Per-device safety limits that aren't script-execution related.

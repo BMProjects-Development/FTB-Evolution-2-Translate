@@ -1,3 +1,16 @@
+<div align="center">
+  
+<img width="4096" height="2160" alt="mainmenu" src="https://github.com/user-attachments/assets/0b4035ff-516e-44e8-90f3-84be6c086e0d" />
+
+<p>
+  <a href="https://github.com/BMProjects-Development/FTB-Evolution-2-Translate/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/FTB-Evolution-2-Translate?style=for-the-badge&labelColor=5F9EA0&color=FF4500" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/FTB-Evolution-2-Translate/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/FTB-Evolution-2-Translate.svg?style=for-the-badge&labelColor=5F9EA0&color=FF4500" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/FTB-Evolution-2-Translate/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/FTB-Evolution-2-Translate.svg?style=for-the-badge&labelColor=5F9EA0&color=FF4500" alt="Contributors"></a>
+  <a href="https://discord.gg/9GWKBVw3Ty"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=5F9EA0&color=FF4500" alt="Discord"></a>
+</p>
+
+</div>
+
 # Установка перевода сборки FTB Evolution 2
 
 В данном небольшом руководстве мы описали инструкции для установки перевода FTB Evolution 2 двумя способами!

@@ -775,8 +775,8 @@
         count: 1,
         components: {
           "minecraft:enchantments": {
-            "evilcraft:vengeance": 3,
             "minecraft:fortune": 5,
+            "evilcraft:vengeance": 3,
           },
         },
       },
@@ -806,8 +806,8 @@
             count: 1,
             components: {
               "minecraft:enchantments": {
-                "evilcraft:vengeance": 3,
                 "minecraft:fortune": 5,
+                "evilcraft:vengeance": 3,
               },
             },
           },

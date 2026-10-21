@@ -398,7 +398,6 @@
   ],
   "quest.17CD2138836B714A.title": "&6Treasure Hunting",
   "quest.03DB41A64E74FF33.title": "&bGun Modifiers",
-  "task.2E0873C81D7EC881.title": "Any Gun Modifier",
   "quest.7E685EAD7FB60B45.quest_desc": [
     "The &aSalvaging Table&r is used to break down affix items into their corresponding rarity materials:",
     "",
@@ -531,6 +530,7 @@
   "quest.79A0CEB28D8EC670.quest_desc": [
     "The &6Destruction Core&r is the end of the line. Its hammer clears a 5x5x5 cube, 125 blocks per swing.",
   ],
+  "task.2E0873C81D7EC881.title": "Any Gun Modifier",
   "quest.192EB03700278BE2.title": "Fancy Apple",
   "quest.011DBD2652E49B97.title": "&fApothic World Tiers",
   "task.1DDB96A415840B51.title": "Artifacts",

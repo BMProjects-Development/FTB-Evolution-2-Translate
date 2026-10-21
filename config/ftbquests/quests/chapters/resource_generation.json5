@@ -4486,8 +4486,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "minecraft:unbreaking": 3,
                 "minecraft:fortune": 3,
+                "minecraft:unbreaking": 3,
               },
             },
           },
@@ -4581,8 +4581,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "apothic_enchanting:miners_fervor": 3,
                 "minecraft:mending": 1,
+                "apothic_enchanting:miners_fervor": 3,
               },
             },
           },
@@ -4676,8 +4676,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "minecraft:unbreaking": 8,
                 "apothic_enchanting:boon_of_the_earth": 3,
+                "minecraft:unbreaking": 8,
               },
             },
           },

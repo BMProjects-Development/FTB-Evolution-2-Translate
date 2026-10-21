@@ -4581,8 +4581,8 @@
             count: 1,
             components: {
               "minecraft:stored_enchantments": {
-                "minecraft:mending": 1,
                 "apothic_enchanting:miners_fervor": 3,
+                "minecraft:mending": 1,
               },
             },
           },

@@ -369,7 +369,7 @@ element {
   x = -400
   y = 85
   width = 800
-  height = 171
+  height = 220
   stay_on_screen = true
   element_loading_requirement_container_identifier = 5dbe4cf9-9aa7-4dba-89b8-2cd482a2aff2-1786901553562
   [loading_requirement_container_meta:5dbe4cf9-9aa7-4dba-89b8-2cd482a2aff2-1786901553562] = [groups:][instances:]

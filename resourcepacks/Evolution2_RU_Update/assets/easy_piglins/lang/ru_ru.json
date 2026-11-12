@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "Бартерщик",
+  "itemGroup.easy_piglins": "Удобные пиглины",
+  "gui.easy_piglins.input_items": "Входящие предметы",
+  "gui.easy_piglins.output_items": "Исходящие предметы",
+  "message.easy_piglins.cant_pick_up": "Нельзя подобрать агрессивных или занятых пиглинов"
+}
